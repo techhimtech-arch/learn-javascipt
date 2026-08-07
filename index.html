@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend & Angular Interview Mastery - Interactive Viewer</title>
+  <meta name="description" content="Structured notes, code implementations, RxJS patterns, and real-world frontend machine coding questions for senior interview prep.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Highlight.js Code Highlighting Theme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+
+  <!-- Main Custom CSS -->
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+  <!-- Top Fixed Header Bar -->
+  <header class="header-bar">
+    <div class="header-left">
+      <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle Navigation">☰</button>
+      <a href="#/" class="brand-logo">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <span class="brand-title">Interview Hub</span>
+          <span class="brand-subtitle">Angular & JavaScript Mastery</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="header-center">
+      <button id="searchInput" class="search-trigger" aria-label="Search topics">
+        <span>🔍 Search topics, concepts, code...</span>
+        <span class="search-shortcut">Ctrl+K</span>
+      </button>
+    </div>
+
+    <div class="header-right">
+      <div class="progress-badge" title="Overall Completion Progress">
+        <div class="mini-progress-bar">
+          <div id="progressFill" class="mini-progress-fill"></div>
+        </div>
+        <span id="progressText">0%</span>
+      </div>
+
+      <button id="themeToggleBtn" class="icon-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+        ☀️
+      </button>
+    </div>
+
+    <!-- Article Scroll Reading Progress Line -->
+    <div id="readingProgressLine" class="reading-progress-line"></div>
+  </header>
+
+  <!-- Main App Layout -->
+  <div class="app-container">
+
+    <!-- Left Sidebar: Folder & Topic Tree -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title">Topic Modules</span>
+        <button id="sidebarFilterBtn" class="sidebar-filter-btn" title="Filter bookmarked items">
+          ⭐ Bookmarks
+        </button>
+      </div>
+
+      <nav id="sidebarNav" class="sidebar-nav">
+        <!-- Dynamically rendered via JS -->
+      </nav>
+    </aside>
+
+    <!-- Center Main Article Content Renderer -->
+    <main id="app" class="main-content">
+      <div id="articleContent">
+        <!-- Rendered Markdown Article or Hero -->
+      </div>
+    </main>
+
+    <!-- Right Sidebar: Article Table of Contents (TOC) -->
+    <aside class="toc-sidebar">
+      <div class="toc-title">On This Page</div>
+      <ul id="tocList" class="toc-list">
+        <!-- Dynamically generated TOC -->
+      </ul>
+    </aside>
+
+  </div>
+
+  <!-- Global Search Dialog Modal -->
+  <div id="searchModal" class="search-modal-overlay">
+    <div class="search-modal">
+      <div class="search-input-header">
+        <span>🔍</span>
+        <input id="modalSearchInput" type="text" placeholder="Search topics by keyword (e.g., Closure, RxJS, Promises)..." autocomplete="off">
+        <button onclick="window.closeSearchModal()" class="icon-btn" style="width:28px;height:28px;font-size:0.8rem">✕</button>
+      </div>
+      <div id="searchResults" class="search-results-list">
+        <!-- Search Results -->
+      </div>
+    </div>
+  </div>
+
+  <!-- CDN Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+  <!-- Main SPA Application JS -->
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>

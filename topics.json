@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-08-07T10:23:13.216Z",
+  "totalCategories": 3,
+  "totalTopics": 32,
+  "categories": [
+    {
+      "id": "overview-roadmap",
+      "folderName": "Overview",
+      "title": "📌 Overview & Roadmap",
+      "icon": "💡",
+      "count": 1,
+      "topics": [
+        {
+          "id": "idea-md",
+          "title": "IDEA",
+          "filename": "IDEA.md",
+          "path": "IDEA.md",
+          "readingTime": "14 min read"
+        }
+      ]
+    },
+    {
+      "id": "01-javascript-fundamentals",
+      "folderName": "01 JavaScript Fundamentals",
+      "title": "01 JavaScript Fundamentals",
+      "icon": "⚡",
+      "count": 28,
+      "topics": [
+        {
+          "id": "01-javascript-fundamentals-001---javascript-engine-md",
+          "title": "001 - JavaScript Engine",
+          "filename": "001 - JavaScript Engine.md",
+          "path": "01 JavaScript Fundamentals/001 - JavaScript Engine.md",
+          "readingTime": "8 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-002---execution-context-md",
+          "title": "002 - Execution Context",
+          "filename": "002 - Execution Context.md",
+          "path": "01 JavaScript Fundamentals/002 - Execution Context.md",
+          "readingTime": "7 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-003---global-execution-context-md",
+          "title": "003 - Global Execution Context",
+          "filename": "003 - Global Execution Context.md",
+          "path": "01 JavaScript Fundamentals/003 - Global Execution Context.md",
+          "readingTime": "6 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-004---function-execution-context-md",
+          "title": "004 - Function Execution Context",
+          "filename": "004 - Function Execution Context.md",
+          "path": "01 JavaScript Fundamentals/004 - Function Execution Context.md",
+          "readingTime": "5 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-005---memory-creation-phase-md",
+          "title": "005 - Memory Creation Phase",
+          "filename": "005 - Memory Creation Phase.md",
+          "path": "01 JavaScript Fundamentals/005 - Memory Creation Phase.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-006---execution-phase-md",
+          "title": "006 - Execution Phase",
+          "filename": "006 - Execution Phase.md",
+          "path": "01 JavaScript Fundamentals/006 - Execution Phase.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-007---call-stack-md",
+          "title": "007 - Call Stack",
+          "filename": "007 - Call Stack.md",
+          "path": "01 JavaScript Fundamentals/007 - Call Stack.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-008---hoisting-md",
+          "title": "008 - Hoisting",
+          "filename": "008 - Hoisting.md",
+          "path": "01 JavaScript Fundamentals/008 - Hoisting.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-009---temporal-dead-zone-md",
+          "title": "009 - Temporal Dead Zone",
+          "filename": "009 - Temporal Dead Zone.md",
+          "path": "01 JavaScript Fundamentals/009 - Temporal Dead Zone.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-010---scope-md",
+          "title": "010 - Scope",
+          "filename": "010 - Scope.md",
+          "path": "01 JavaScript Fundamentals/010 - Scope.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-011---lexical-environment-md",
+          "title": "011 - Lexical Environment",
+          "filename": "011 - Lexical Environment.md",
+          "path": "01 JavaScript Fundamentals/011 - Lexical Environment.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-012---scope-chain-md",
+          "title": "012 - Scope Chain",
+          "filename": "012 - Scope Chain.md",
+          "path": "01 JavaScript Fundamentals/012 - Scope Chain.md",
+          "readingTime": "5 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-013---closures-md",
+          "title": "013 - Closures",
+          "filename": "013 - Closures.md",
+          "path": "01 JavaScript Fundamentals/013 - Closures.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-014---this-keyword-md",
+          "title": "014 - this Keyword",
+          "filename": "014 - this Keyword.md",
+          "path": "01 JavaScript Fundamentals/014 - this Keyword.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-015---call---apply---bind---md",
+          "title": "015 - call() apply() bind()",
+          "filename": "015 - call() apply() bind().md",
+          "path": "01 JavaScript Fundamentals/015 - call() apply() bind().md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-016---objects-md",
+          "title": "016 - Objects",
+          "filename": "016 - Objects.md",
+          "path": "01 JavaScript Fundamentals/016 - Objects.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-017---object-create---md",
+          "title": "017 - Object.create()",
+          "filename": "017 - Object.create().md",
+          "path": "01 JavaScript Fundamentals/017 - Object.create().md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-018---prototype-md",
+          "title": "018 - Prototype",
+          "filename": "018 - Prototype.md",
+          "path": "01 JavaScript Fundamentals/018 - Prototype.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-019---prototype-chain-md",
+          "title": "019 - Prototype Chain",
+          "filename": "019 - Prototype Chain.md",
+          "path": "01 JavaScript Fundamentals/019 - Prototype Chain.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-020---constructor-functions-md",
+          "title": "020 - Constructor Functions",
+          "filename": "020 - Constructor Functions.md",
+          "path": "01 JavaScript Fundamentals/020 - Constructor Functions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-021---es6-classes-md",
+          "title": "021 - ES6 Classes",
+          "filename": "021 - ES6 Classes.md",
+          "path": "01 JavaScript Fundamentals/021 - ES6 Classes.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-022---inheritance-md",
+          "title": "022 - Inheritance",
+          "filename": "022 - Inheritance.md",
+          "path": "01 JavaScript Fundamentals/022 - Inheritance.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-023---shallow-copy-md",
+          "title": "023 - Shallow Copy",
+          "filename": "023 - Shallow Copy.md",
+          "path": "01 JavaScript Fundamentals/023 - Shallow Copy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-024---deep-copy-md",
+          "title": "024 - Deep Copy",
+          "filename": "024 - Deep Copy.md",
+          "path": "01 JavaScript Fundamentals/024 - Deep Copy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-025---garbage-collection-md",
+          "title": "025 - Garbage Collection",
+          "filename": "025 - Garbage Collection.md",
+          "path": "01 JavaScript Fundamentals/025 - Garbage Collection.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-026---strict-mode-md",
+          "title": "026 - Strict Mode",
+          "filename": "026 - Strict Mode.md",
+          "path": "01 JavaScript Fundamentals/026 - Strict Mode.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-027---modules-md",
+          "title": "027 - Modules",
+          "filename": "027 - Modules.md",
+          "path": "01 JavaScript Fundamentals/027 - Modules.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-028---javascript-runtime-md",
+          "title": "028 - JavaScript Runtime",
+          "filename": "028 - JavaScript Runtime.md",
+          "path": "01 JavaScript Fundamentals/028 - JavaScript Runtime.md",
+          "readingTime": "4 min read"
+        }
+      ]
+    },
+    {
+      "id": "02-advanced-javascript",
+      "folderName": "02 Advanced JavaScript",
+      "title": "02 Advanced JavaScript",
+      "icon": "🚀",
+      "count": 3,
+      "topics": [
+        {
+          "id": "02-advanced-javascript-001---promises-md",
+          "title": "001 - Promises",
+          "filename": "001 - Promises.md",
+          "path": "02 Advanced JavaScript/001 - Promises.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-002---promise-states-md",
+          "title": "002 - Promise States",
+          "filename": "002 - Promise States.md",
+          "path": "02 Advanced JavaScript/002 - Promise States.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-003---promise-chaining-md",
+          "title": "003 - Promise Chaining",
+          "filename": "003 - Promise Chaining.md",
+          "path": "02 Advanced JavaScript/003 - Promise Chaining.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    }
+  ]
+}
