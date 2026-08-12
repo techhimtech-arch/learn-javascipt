@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T10:23:13.216Z",
-  "totalCategories": 3,
-  "totalTopics": 32,
+  "generatedAt": "2026-08-12T03:46:21.710Z",
+  "totalCategories": 16,
+  "totalTopics": 290,
   "categories": [
     {
       "id": "overview-roadmap",
       "folderName": "Overview",
       "title": "📌 Overview & Roadmap",
       "icon": "💡",
-      "count": 1,
+      "count": 2,
       "topics": [
         {
           "id": "idea-md",
@@ -16,6 +16,13 @@
           "filename": "IDEA.md",
           "path": "IDEA.md",
           "readingTime": "14 min read"
+        },
+        {
+          "id": "readme-md",
+          "title": "README",
+          "filename": "README.md",
+          "path": "README.md",
+          "readingTime": "1 min read"
         }
       ]
     },
@@ -24,7 +31,7 @@
       "folderName": "01 JavaScript Fundamentals",
       "title": "01 JavaScript Fundamentals",
       "icon": "⚡",
-      "count": 28,
+      "count": 29,
       "topics": [
         {
           "id": "01-javascript-fundamentals-001---javascript-engine-md",
@@ -221,6 +228,13 @@
           "filename": "028 - JavaScript Runtime.md",
           "path": "01 JavaScript Fundamentals/028 - JavaScript Runtime.md",
           "readingTime": "4 min read"
+        },
+        {
+          "id": "01-javascript-fundamentals-029---error-handling-md",
+          "title": "029 - Error Handling",
+          "filename": "029 - Error Handling.md",
+          "path": "01 JavaScript Fundamentals/029 - Error Handling.md",
+          "readingTime": "1 min read"
         }
       ]
     },
@@ -229,7 +243,7 @@
       "folderName": "02 Advanced JavaScript",
       "title": "02 Advanced JavaScript",
       "icon": "🚀",
-      "count": 3,
+      "count": 25,
       "topics": [
         {
           "id": "02-advanced-javascript-001---promises-md",
@@ -250,6 +264,1915 @@
           "title": "003 - Promise Chaining",
           "filename": "003 - Promise Chaining.md",
           "path": "02 Advanced JavaScript/003 - Promise Chaining.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-004---promise-all-md",
+          "title": "004 - Promise.all",
+          "filename": "004 - Promise.all.md",
+          "path": "02 Advanced JavaScript/004 - Promise.all.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "02-advanced-javascript-005---async-await-md",
+          "title": "005 - async await",
+          "filename": "005 - async await.md",
+          "path": "02 Advanced JavaScript/005 - async await.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "02-advanced-javascript-006---event-loop-md",
+          "title": "006 - Event Loop",
+          "filename": "006 - Event Loop.md",
+          "path": "02 Advanced JavaScript/006 - Event Loop.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "02-advanced-javascript-007---microtasks-md",
+          "title": "007 - Microtasks",
+          "filename": "007 - Microtasks.md",
+          "path": "02 Advanced JavaScript/007 - Microtasks.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-008---macrotasks-md",
+          "title": "008 - Macrotasks",
+          "filename": "008 - Macrotasks.md",
+          "path": "02 Advanced JavaScript/008 - Macrotasks.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-009---web-apis-md",
+          "title": "009 - Web APIs",
+          "filename": "009 - Web APIs.md",
+          "path": "02 Advanced JavaScript/009 - Web APIs.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-010---fetch-api-md",
+          "title": "010 - Fetch API",
+          "filename": "010 - Fetch API.md",
+          "path": "02 Advanced JavaScript/010 - Fetch API.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-011---abortcontroller-md",
+          "title": "011 - AbortController",
+          "filename": "011 - AbortController.md",
+          "path": "02 Advanced JavaScript/011 - AbortController.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "02-advanced-javascript-012---generators-md",
+          "title": "012 - Generators",
+          "filename": "012 - Generators.md",
+          "path": "02 Advanced JavaScript/012 - Generators.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "02-advanced-javascript-013---iterators-md",
+          "title": "013 - Iterators",
+          "filename": "013 - Iterators.md",
+          "path": "02 Advanced JavaScript/013 - Iterators.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-014---symbols-md",
+          "title": "014 - Symbols",
+          "filename": "014 - Symbols.md",
+          "path": "02 Advanced JavaScript/014 - Symbols.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-015---bigint-md",
+          "title": "015 - BigInt",
+          "filename": "015 - BigInt.md",
+          "path": "02 Advanced JavaScript/015 - BigInt.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "02-advanced-javascript-016---weakmap-md",
+          "title": "016 - WeakMap",
+          "filename": "016 - WeakMap.md",
+          "path": "02 Advanced JavaScript/016 - WeakMap.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-017---weakset-md",
+          "title": "017 - WeakSet",
+          "filename": "017 - WeakSet.md",
+          "path": "02 Advanced JavaScript/017 - WeakSet.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-018---map-md",
+          "title": "018 - Map",
+          "filename": "018 - Map.md",
+          "path": "02 Advanced JavaScript/018 - Map.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-019---set-md",
+          "title": "019 - Set",
+          "filename": "019 - Set.md",
+          "path": "02 Advanced JavaScript/019 - Set.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "02-advanced-javascript-020---proxy-md",
+          "title": "020 - Proxy",
+          "filename": "020 - Proxy.md",
+          "path": "02 Advanced JavaScript/020 - Proxy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-021---reflect-md",
+          "title": "021 - Reflect",
+          "filename": "021 - Reflect.md",
+          "path": "02 Advanced JavaScript/021 - Reflect.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-022---reflect-md",
+          "title": "022 - Reflect",
+          "filename": "022 - Reflect.md",
+          "path": "02 Advanced JavaScript/022 - Reflect.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-023---event-loop-md",
+          "title": "023 - Event Loop",
+          "filename": "023 - Event Loop.md",
+          "path": "02 Advanced JavaScript/023 - Event Loop.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "02-advanced-javascript-024---debugging-md",
+          "title": "024 - Debugging",
+          "filename": "024 - Debugging.md",
+          "path": "02 Advanced JavaScript/024 - Debugging.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "02-advanced-javascript-025---modules-md",
+          "title": "025 - Modules",
+          "filename": "025 - Modules.md",
+          "path": "02 Advanced JavaScript/025 - Modules.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "03-es6-",
+      "folderName": "03 ES6+",
+      "title": "03 ES6+",
+      "icon": "✨",
+      "count": 10,
+      "topics": [
+        {
+          "id": "03-es6--001---let-const-md",
+          "title": "001 - let const",
+          "filename": "001 - let const.md",
+          "path": "03 ES6+/001 - let const.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "03-es6--002---arrow-functions-md",
+          "title": "002 - Arrow Functions",
+          "filename": "002 - Arrow Functions.md",
+          "path": "03 ES6+/002 - Arrow Functions.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "03-es6--003---template-literals-md",
+          "title": "003 - Template Literals",
+          "filename": "003 - Template Literals.md",
+          "path": "03 ES6+/003 - Template Literals.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--004---spread-operator-md",
+          "title": "004 - Spread Operator",
+          "filename": "004 - Spread Operator.md",
+          "path": "03 ES6+/004 - Spread Operator.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--005---rest-parameters-md",
+          "title": "005 - Rest Parameters",
+          "filename": "005 - Rest Parameters.md",
+          "path": "03 ES6+/005 - Rest Parameters.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--006---destructuring-md",
+          "title": "006 - Destructuring",
+          "filename": "006 - Destructuring.md",
+          "path": "03 ES6+/006 - Destructuring.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--007---default-parameters-md",
+          "title": "007 - Default Parameters",
+          "filename": "007 - Default Parameters.md",
+          "path": "03 ES6+/007 - Default Parameters.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--008---optional-chaining-md",
+          "title": "008 - Optional Chaining",
+          "filename": "008 - Optional Chaining.md",
+          "path": "03 ES6+/008 - Optional Chaining.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--009---nullish-coalescing-md",
+          "title": "009 - Nullish Coalescing",
+          "filename": "009 - Nullish Coalescing.md",
+          "path": "03 ES6+/009 - Nullish Coalescing.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "03-es6--010---dynamic-imports-md",
+          "title": "010 - Dynamic Imports",
+          "filename": "010 - Dynamic Imports.md",
+          "path": "03 ES6+/010 - Dynamic Imports.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "04-typescript",
+      "folderName": "04 TypeScript",
+      "title": "04 TypeScript",
+      "icon": "📘",
+      "count": 27,
+      "topics": [
+        {
+          "id": "04-typescript-001---typescript-overview-md",
+          "title": "001 - TypeScript Overview",
+          "filename": "001 - TypeScript Overview.md",
+          "path": "04 TypeScript/001 - TypeScript Overview.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-002---types-md",
+          "title": "002 - Types",
+          "filename": "002 - Types.md",
+          "path": "04 TypeScript/002 - Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-003---interfaces-md",
+          "title": "003 - Interfaces",
+          "filename": "003 - Interfaces.md",
+          "path": "04 TypeScript/003 - Interfaces.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-004---type-alias-md",
+          "title": "004 - Type Alias",
+          "filename": "004 - Type Alias.md",
+          "path": "04 TypeScript/004 - Type Alias.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-005---enums-md",
+          "title": "005 - Enums",
+          "filename": "005 - Enums.md",
+          "path": "04 TypeScript/005 - Enums.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-006---generics-md",
+          "title": "006 - Generics",
+          "filename": "006 - Generics.md",
+          "path": "04 TypeScript/006 - Generics.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-007---union-and-intersection-types-md",
+          "title": "007 - Union and Intersection Types",
+          "filename": "007 - Union and Intersection Types.md",
+          "path": "04 TypeScript/007 - Union and Intersection Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-008---literal-types-md",
+          "title": "008 - Literal Types",
+          "filename": "008 - Literal Types.md",
+          "path": "04 TypeScript/008 - Literal Types.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "04-typescript-009---utility-types-md",
+          "title": "009 - Utility Types",
+          "filename": "009 - Utility Types.md",
+          "path": "04 TypeScript/009 - Utility Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-010---mapped-types-md",
+          "title": "010 - Mapped Types",
+          "filename": "010 - Mapped Types.md",
+          "path": "04 TypeScript/010 - Mapped Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-011---conditional-types-md",
+          "title": "011 - Conditional Types",
+          "filename": "011 - Conditional Types.md",
+          "path": "04 TypeScript/011 - Conditional Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-012---decorators-md",
+          "title": "012 - Decorators",
+          "filename": "012 - Decorators.md",
+          "path": "04 TypeScript/012 - Decorators.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-013---decorators-md",
+          "title": "013 - Decorators",
+          "filename": "013 - Decorators.md",
+          "path": "04 TypeScript/013 - Decorators.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "04-typescript-014---modules-md",
+          "title": "014 - Modules",
+          "filename": "014 - Modules.md",
+          "path": "04 TypeScript/014 - Modules.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-015---typescript-configuration-md",
+          "title": "015 - TypeScript Configuration",
+          "filename": "015 - TypeScript Configuration.md",
+          "path": "04 TypeScript/015 - TypeScript Configuration.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-016---declaration-files-md",
+          "title": "016 - Declaration Files",
+          "filename": "016 - Declaration Files.md",
+          "path": "04 TypeScript/016 - Declaration Files.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-017---namespaces-md",
+          "title": "017 - Namespaces",
+          "filename": "017 - Namespaces.md",
+          "path": "04 TypeScript/017 - Namespaces.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-019---generics-md",
+          "title": "019 - Generics",
+          "filename": "019 - Generics.md",
+          "path": "04 TypeScript/019 - Generics.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-020---utility-types-md",
+          "title": "020 - Utility Types",
+          "filename": "020 - Utility Types.md",
+          "path": "04 TypeScript/020 - Utility Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-021---memory-leaks-md",
+          "title": "021 - Memory Leaks",
+          "filename": "021 - Memory Leaks.md",
+          "path": "04 TypeScript/021 - Memory Leaks.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-022---advanced-types-md",
+          "title": "022 - Advanced Types",
+          "filename": "022 - Advanced Types.md",
+          "path": "04 TypeScript/022 - Advanced Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-023---decorators-md",
+          "title": "023 - Decorators",
+          "filename": "023 - Decorators.md",
+          "path": "04 TypeScript/023 - Decorators.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "04-typescript-024---decorators-in-depth-md",
+          "title": "024 - Decorators In Depth",
+          "filename": "024 - Decorators In Depth.md",
+          "path": "04 TypeScript/024 - Decorators In Depth.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "04-typescript-025---compiler-api-md",
+          "title": "025 - Compiler API",
+          "filename": "025 - Compiler API.md",
+          "path": "04 TypeScript/025 - Compiler API.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "04-typescript-026---utility-types-guide-md",
+          "title": "026 - Utility Types Guide",
+          "filename": "026 - Utility Types Guide.md",
+          "path": "04 TypeScript/026 - Utility Types Guide.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "04-typescript-027---generics-in-depth-md",
+          "title": "027 - Generics In Depth",
+          "filename": "027 - Generics In Depth.md",
+          "path": "04 TypeScript/027 - Generics In Depth.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "04-typescript-027---typescript-in-angular-md",
+          "title": "027 - TypeScript in Angular",
+          "filename": "027 - TypeScript in Angular.md",
+          "path": "04 TypeScript/027 - TypeScript in Angular.md",
+          "readingTime": "4 min read"
+        }
+      ]
+    },
+    {
+      "id": "05-browser-internals",
+      "folderName": "05 Browser Internals",
+      "title": "05 Browser Internals",
+      "icon": "🌐",
+      "count": 13,
+      "topics": [
+        {
+          "id": "05-browser-internals-001---rendering-pipeline-md",
+          "title": "001 - Rendering Pipeline",
+          "filename": "001 - Rendering Pipeline.md",
+          "path": "05 Browser Internals/001 - Rendering Pipeline.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-002---dom-md",
+          "title": "002 - DOM",
+          "filename": "002 - DOM.md",
+          "path": "05 Browser Internals/002 - DOM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-003---bom-md",
+          "title": "003 - BOM",
+          "filename": "003 - BOM.md",
+          "path": "05 Browser Internals/003 - BOM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-004---reflow-md",
+          "title": "004 - Reflow",
+          "filename": "004 - Reflow.md",
+          "path": "05 Browser Internals/004 - Reflow.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-005---repaint-md",
+          "title": "005 - Repaint",
+          "filename": "005 - Repaint.md",
+          "path": "05 Browser Internals/005 - Repaint.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-006---critical-rendering-path-md",
+          "title": "006 - Critical Rendering Path",
+          "filename": "006 - Critical Rendering Path.md",
+          "path": "05 Browser Internals/006 - Critical Rendering Path.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-007---cssom-md",
+          "title": "007 - CSSOM",
+          "filename": "007 - CSSOM.md",
+          "path": "05 Browser Internals/007 - CSSOM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-008---render-tree-md",
+          "title": "008 - Render Tree",
+          "filename": "008 - Render Tree.md",
+          "path": "05 Browser Internals/008 - Render Tree.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-011---browser-storage-md",
+          "title": "011 - Browser Storage",
+          "filename": "011 - Browser Storage.md",
+          "path": "05 Browser Internals/011 - Browser Storage.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-012---cookies-md",
+          "title": "012 - Cookies",
+          "filename": "012 - Cookies.md",
+          "path": "05 Browser Internals/012 - Cookies.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-012---rendering-pipeline-md",
+          "title": "012 - Rendering Pipeline",
+          "filename": "012 - Rendering Pipeline.md",
+          "path": "05 Browser Internals/012 - Rendering Pipeline.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "05-browser-internals-013---fetch-api-md",
+          "title": "013 - Fetch API",
+          "filename": "013 - Fetch API.md",
+          "path": "05 Browser Internals/013 - Fetch API.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "05-browser-internals-013---service-workers-md",
+          "title": "013 - Service Workers",
+          "filename": "013 - Service Workers.md",
+          "path": "05 Browser Internals/013 - Service Workers.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "06-html",
+      "folderName": "06 HTML",
+      "title": "06 HTML",
+      "icon": "🏷️",
+      "count": 18,
+      "topics": [
+        {
+          "id": "06-html-001---semantic-html-md",
+          "title": "001 - Semantic HTML",
+          "filename": "001 - Semantic HTML.md",
+          "path": "06 HTML/001 - Semantic HTML.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-002---accessibility-md",
+          "title": "002 - Accessibility",
+          "filename": "002 - Accessibility.md",
+          "path": "06 HTML/002 - Accessibility.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-003---aria-md",
+          "title": "003 - ARIA",
+          "filename": "003 - ARIA.md",
+          "path": "06 HTML/003 - ARIA.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-004---seo-basics-md",
+          "title": "004 - SEO Basics",
+          "filename": "004 - SEO Basics.md",
+          "path": "06 HTML/004 - SEO Basics.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-005---forms-md",
+          "title": "005 - Forms",
+          "filename": "005 - Forms.md",
+          "path": "06 HTML/005 - Forms.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-006---input-types-md",
+          "title": "006 - Input Types",
+          "filename": "006 - Input Types.md",
+          "path": "06 HTML/006 - Input Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-007---canvas-md",
+          "title": "007 - Canvas",
+          "filename": "007 - Canvas.md",
+          "path": "06 HTML/007 - Canvas.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-008---svg-md",
+          "title": "008 - SVG",
+          "filename": "008 - SVG.md",
+          "path": "06 HTML/008 - SVG.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-009---shadow-dom-md",
+          "title": "009 - Shadow DOM",
+          "filename": "009 - Shadow DOM.md",
+          "path": "06 HTML/009 - Shadow DOM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-010---web-accessibility-md",
+          "title": "010 - Web Accessibility",
+          "filename": "010 - Web Accessibility.md",
+          "path": "06 HTML/010 - Web Accessibility.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-011---seo-for-spa-md",
+          "title": "011 - SEO for SPA",
+          "filename": "011 - SEO for SPA.md",
+          "path": "06 HTML/011 - SEO for SPA.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "06-html-012---canvas-api-md",
+          "title": "012 - Canvas API",
+          "filename": "012 - Canvas API.md",
+          "path": "06 HTML/012 - Canvas API.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-013---input-types-md",
+          "title": "013 - Input Types",
+          "filename": "013 - Input Types.md",
+          "path": "06 HTML/013 - Input Types.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-014---shadow-dom-md",
+          "title": "014 - Shadow DOM",
+          "filename": "014 - Shadow DOM.md",
+          "path": "06 HTML/014 - Shadow DOM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-015---web-components-md",
+          "title": "015 - Web Components",
+          "filename": "015 - Web Components.md",
+          "path": "06 HTML/015 - Web Components.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "06-html-016---responsive-images-md",
+          "title": "016 - Responsive Images",
+          "filename": "016 - Responsive Images.md",
+          "path": "06 HTML/016 - Responsive Images.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-017---semantic-html-md",
+          "title": "017 - Semantic HTML",
+          "filename": "017 - Semantic HTML.md",
+          "path": "06 HTML/017 - Semantic HTML.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "06-html-018---form-validation-md",
+          "title": "018 - Form Validation",
+          "filename": "018 - Form Validation.md",
+          "path": "06 HTML/018 - Form Validation.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "07-css",
+      "folderName": "07 CSS",
+      "title": "07 CSS",
+      "icon": "🎨",
+      "count": 35,
+      "topics": [
+        {
+          "id": "07-css-001---flexbox-md",
+          "title": "001 - Flexbox",
+          "filename": "001 - Flexbox.md",
+          "path": "07 CSS/001 - Flexbox.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-002---grid-md",
+          "title": "002 - Grid",
+          "filename": "002 - Grid.md",
+          "path": "07 CSS/002 - Grid.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-003---positioning-md",
+          "title": "003 - Positioning",
+          "filename": "003 - Positioning.md",
+          "path": "07 CSS/003 - Positioning.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-004---selectors-md",
+          "title": "004 - Selectors",
+          "filename": "004 - Selectors.md",
+          "path": "07 CSS/004 - Selectors.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-005---specificity-md",
+          "title": "005 - Specificity",
+          "filename": "005 - Specificity.md",
+          "path": "07 CSS/005 - Specificity.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-006---cascade-md",
+          "title": "006 - Cascade",
+          "filename": "006 - Cascade.md",
+          "path": "07 CSS/006 - Cascade.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-007---animations-md",
+          "title": "007 - Animations",
+          "filename": "007 - Animations.md",
+          "path": "07 CSS/007 - Animations.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-008---transitions-md",
+          "title": "008 - Transitions",
+          "filename": "008 - Transitions.md",
+          "path": "07 CSS/008 - Transitions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-009---responsive-design-md",
+          "title": "009 - Responsive Design",
+          "filename": "009 - Responsive Design.md",
+          "path": "07 CSS/009 - Responsive Design.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-010---media-queries-md",
+          "title": "010 - Media Queries",
+          "filename": "010 - Media Queries.md",
+          "path": "07 CSS/010 - Media Queries.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-011---container-queries-md",
+          "title": "011 - Container Queries",
+          "filename": "011 - Container Queries.md",
+          "path": "07 CSS/011 - Container Queries.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-012---bem-md",
+          "title": "012 - BEM",
+          "filename": "012 - BEM.md",
+          "path": "07 CSS/012 - BEM.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-013---css-variables-md",
+          "title": "013 - CSS Variables",
+          "filename": "013 - CSS Variables.md",
+          "path": "07 CSS/013 - CSS Variables.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-013---tailwind-concepts-md",
+          "title": "013 - Tailwind Concepts",
+          "filename": "013 - Tailwind Concepts.md",
+          "path": "07 CSS/013 - Tailwind Concepts.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-015---css-architecture-md",
+          "title": "015 - CSS Architecture",
+          "filename": "015 - CSS Architecture.md",
+          "path": "07 CSS/015 - CSS Architecture.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-016---css-grid-md",
+          "title": "016 - CSS Grid",
+          "filename": "016 - CSS Grid.md",
+          "path": "07 CSS/016 - CSS Grid.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-017---flexbox-advanced-md",
+          "title": "017 - Flexbox Advanced",
+          "filename": "017 - Flexbox Advanced.md",
+          "path": "07 CSS/017 - Flexbox Advanced.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-018---css-animations-md",
+          "title": "018 - CSS Animations",
+          "filename": "018 - CSS Animations.md",
+          "path": "07 CSS/018 - CSS Animations.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-019---css-transitions-md",
+          "title": "019 - CSS Transitions",
+          "filename": "019 - CSS Transitions.md",
+          "path": "07 CSS/019 - CSS Transitions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-020---css-selectors-md",
+          "title": "020 - CSS Selectors",
+          "filename": "020 - CSS Selectors.md",
+          "path": "07 CSS/020 - CSS Selectors.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "07-css-021---css-variables-md",
+          "title": "021 - CSS Variables",
+          "filename": "021 - CSS Variables.md",
+          "path": "07 CSS/021 - CSS Variables.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-022---specificity-md",
+          "title": "022 - Specificity",
+          "filename": "022 - Specificity.md",
+          "path": "07 CSS/022 - Specificity.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-023---responsive-typography-md",
+          "title": "023 - Responsive Typography",
+          "filename": "023 - Responsive Typography.md",
+          "path": "07 CSS/023 - Responsive Typography.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-024---animation-performance-md",
+          "title": "024 - Animation Performance",
+          "filename": "024 - Animation Performance.md",
+          "path": "07 CSS/024 - Animation Performance.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-025---transitions-vs-animations-md",
+          "title": "025 - Transitions vs Animations",
+          "filename": "025 - Transitions vs Animations.md",
+          "path": "07 CSS/025 - Transitions vs Animations.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-026---flexbox-fundamentals-md",
+          "title": "026 - Flexbox Fundamentals",
+          "filename": "026 - Flexbox Fundamentals.md",
+          "path": "07 CSS/026 - Flexbox Fundamentals.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "07-css-027---specificity-calculation-md",
+          "title": "027 - Specificity Calculation",
+          "filename": "027 - Specificity Calculation.md",
+          "path": "07 CSS/027 - Specificity Calculation.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "07-css-028---layout-fundamentals-md",
+          "title": "028 - Layout Fundamentals",
+          "filename": "028 - Layout Fundamentals.md",
+          "path": "07 CSS/028 - Layout Fundamentals.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-029---box-model-md",
+          "title": "029 - Box Model",
+          "filename": "029 - Box Model.md",
+          "path": "07 CSS/029 - Box Model.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-030---responsive-units-md",
+          "title": "030 - Responsive Units",
+          "filename": "030 - Responsive Units.md",
+          "path": "07 CSS/030 - Responsive Units.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "07-css-031---css-transitions-md",
+          "title": "031 - CSS Transitions",
+          "filename": "031 - CSS Transitions.md",
+          "path": "07 CSS/031 - CSS Transitions.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "07-css-032---media-queries-md",
+          "title": "032 - Media Queries",
+          "filename": "032 - Media Queries.md",
+          "path": "07 CSS/032 - Media Queries.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "07-css-033---css-positioning-md",
+          "title": "033 - CSS Positioning",
+          "filename": "033 - CSS Positioning.md",
+          "path": "07 CSS/033 - CSS Positioning.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "07-css-034---css-transforms-md",
+          "title": "034 - CSS Transforms",
+          "filename": "034 - CSS Transforms.md",
+          "path": "07 CSS/034 - CSS Transforms.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "07-css-035---backgrounds-and-gradients-md",
+          "title": "035 - Backgrounds and Gradients",
+          "filename": "035 - Backgrounds and Gradients.md",
+          "path": "07 CSS/035 - Backgrounds and Gradients.md",
+          "readingTime": "1 min read"
+        }
+      ]
+    },
+    {
+      "id": "08-rxjs",
+      "folderName": "08 RxJS",
+      "title": "08 RxJS",
+      "icon": "🔄",
+      "count": 26,
+      "topics": [
+        {
+          "id": "08-rxjs-001---observable-md",
+          "title": "001 - Observable",
+          "filename": "001 - Observable.md",
+          "path": "08 RxJS/001 - Observable.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-002---observer-md",
+          "title": "002 - Observer",
+          "filename": "002 - Observer.md",
+          "path": "08 RxJS/002 - Observer.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-003---subscription-md",
+          "title": "003 - Subscription",
+          "filename": "003 - Subscription.md",
+          "path": "08 RxJS/003 - Subscription.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-004---subject-md",
+          "title": "004 - Subject",
+          "filename": "004 - Subject.md",
+          "path": "08 RxJS/004 - Subject.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-005---behaviorsubject-md",
+          "title": "005 - BehaviorSubject",
+          "filename": "005 - BehaviorSubject.md",
+          "path": "08 RxJS/005 - BehaviorSubject.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-006---replaysubject-md",
+          "title": "006 - ReplaySubject",
+          "filename": "006 - ReplaySubject.md",
+          "path": "08 RxJS/006 - ReplaySubject.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-007---asyncsubject-md",
+          "title": "007 - AsyncSubject",
+          "filename": "007 - AsyncSubject.md",
+          "path": "08 RxJS/007 - AsyncSubject.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-008---operators-md",
+          "title": "008 - Operators",
+          "filename": "008 - Operators.md",
+          "path": "08 RxJS/008 - Operators.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-009---map-filter-tap-md",
+          "title": "009 - map filter tap",
+          "filename": "009 - map filter tap.md",
+          "path": "08 RxJS/009 - map filter tap.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-010---mergemap-switchmap-md",
+          "title": "010 - mergeMap switchMap",
+          "filename": "010 - mergeMap switchMap.md",
+          "path": "08 RxJS/010 - mergeMap switchMap.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-011---concatmap-exhaustmap-md",
+          "title": "011 - concatMap exhaustMap",
+          "filename": "011 - concatMap exhaustMap.md",
+          "path": "08 RxJS/011 - concatMap exhaustMap.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-012---combinelatest-forkjoin-md",
+          "title": "012 - combineLatest forkJoin",
+          "filename": "012 - combineLatest forkJoin.md",
+          "path": "08 RxJS/012 - combineLatest forkJoin.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-013---zip-md",
+          "title": "013 - zip",
+          "filename": "013 - zip.md",
+          "path": "08 RxJS/013 - zip.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-014---debouncetime-distinctuntilchanged-md",
+          "title": "014 - debounceTime distinctUntilChanged",
+          "filename": "014 - debounceTime distinctUntilChanged.md",
+          "path": "08 RxJS/014 - debounceTime distinctUntilChanged.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-015---sharereplay-md",
+          "title": "015 - shareReplay",
+          "filename": "015 - shareReplay.md",
+          "path": "08 RxJS/015 - shareReplay.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-015---takeuntil-sharereplay-md",
+          "title": "015 - takeUntil shareReplay",
+          "filename": "015 - takeUntil shareReplay.md",
+          "path": "08 RxJS/015 - takeUntil shareReplay.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-016---creating-observables-md",
+          "title": "016 - Creating Observables",
+          "filename": "016 - Creating Observables.md",
+          "path": "08 RxJS/016 - Creating Observables.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-017---subjects-md",
+          "title": "017 - Subjects",
+          "filename": "017 - Subjects.md",
+          "path": "08 RxJS/017 - Subjects.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-018---error-handling-md",
+          "title": "018 - Error Handling",
+          "filename": "018 - Error Handling.md",
+          "path": "08 RxJS/018 - Error Handling.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-019---higher-order-mapping-md",
+          "title": "019 - Higher Order Mapping",
+          "filename": "019 - Higher Order Mapping.md",
+          "path": "08 RxJS/019 - Higher Order Mapping.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-020---advanced-rxjs-patterns-md",
+          "title": "020 - Advanced RxJS Patterns",
+          "filename": "020 - Advanced RxJS Patterns.md",
+          "path": "08 RxJS/020 - Advanced RxJS Patterns.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "08-rxjs-021---subject-advanced-md",
+          "title": "021 - Subject Advanced",
+          "filename": "021 - Subject Advanced.md",
+          "path": "08 RxJS/021 - Subject Advanced.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "08-rxjs-022---rxjs-vs-promise-md",
+          "title": "022 - Rxjs vs Promise",
+          "filename": "022 - Rxjs vs Promise.md",
+          "path": "08 RxJS/022 - Rxjs vs Promise.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "08-rxjs-023---testing-rxjs-md",
+          "title": "023 - Testing RxJS",
+          "filename": "023 - Testing RxJS.md",
+          "path": "08 RxJS/023 - Testing RxJS.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "08-rxjs-024---creation-operators-md",
+          "title": "024 - Creation Operators",
+          "filename": "024 - Creation Operators.md",
+          "path": "08 RxJS/024 - Creation Operators.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "08-rxjs-025---combination-operators-md",
+          "title": "025 - Combination Operators",
+          "filename": "025 - Combination Operators.md",
+          "path": "08 RxJS/025 - Combination Operators.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "09-angular-core",
+      "folderName": "09 Angular Core",
+      "title": "09 Angular Core",
+      "icon": "🅰️",
+      "count": 28,
+      "topics": [
+        {
+          "id": "09-angular-core-001---angular-architecture---cli-md",
+          "title": "001 - Angular Architecture & CLI",
+          "filename": "001 - Angular Architecture & CLI.md",
+          "path": "09 Angular Core/001 - Angular Architecture & CLI.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-001---architecture-md",
+          "title": "001 - Architecture",
+          "filename": "001 - Architecture.md",
+          "path": "09 Angular Core/001 - Architecture.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-002---components---templates-md",
+          "title": "002 - Components & Templates",
+          "filename": "002 - Components & Templates.md",
+          "path": "09 Angular Core/002 - Components & Templates.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-002---components-md",
+          "title": "002 - Components",
+          "filename": "002 - Components.md",
+          "path": "09 Angular Core/002 - Components.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-003---templates-md",
+          "title": "003 - Templates",
+          "filename": "003 - Templates.md",
+          "path": "09 Angular Core/003 - Templates.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-004---interpolation-md",
+          "title": "004 - Interpolation",
+          "filename": "004 - Interpolation.md",
+          "path": "09 Angular Core/004 - Interpolation.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-005---property-binding-md",
+          "title": "005 - Property Binding",
+          "filename": "005 - Property Binding.md",
+          "path": "09 Angular Core/005 - Property Binding.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-006---event-binding-md",
+          "title": "006 - Event Binding",
+          "filename": "006 - Event Binding.md",
+          "path": "09 Angular Core/006 - Event Binding.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-007---dependency-injection-md",
+          "title": "007 - Dependency Injection",
+          "filename": "007 - Dependency Injection.md",
+          "path": "09 Angular Core/007 - Dependency Injection.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-008---lifecycle-hooks-md",
+          "title": "008 - Lifecycle Hooks",
+          "filename": "008 - Lifecycle Hooks.md",
+          "path": "09 Angular Core/008 - Lifecycle Hooks.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-009---routing-md",
+          "title": "009 - Routing",
+          "filename": "009 - Routing.md",
+          "path": "09 Angular Core/009 - Routing.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-010---forms-md",
+          "title": "010 - Forms",
+          "filename": "010 - Forms.md",
+          "path": "09 Angular Core/010 - Forms.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-011---di-advanced-md",
+          "title": "011 - DI Advanced",
+          "filename": "011 - DI Advanced.md",
+          "path": "09 Angular Core/011 - DI Advanced.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-012---change-detection-md",
+          "title": "012 - Change Detection",
+          "filename": "012 - Change Detection.md",
+          "path": "09 Angular Core/012 - Change Detection.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-013---pipes-md",
+          "title": "013 - Pipes",
+          "filename": "013 - Pipes.md",
+          "path": "09 Angular Core/013 - Pipes.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-014---http-client-md",
+          "title": "014 - HTTP Client",
+          "filename": "014 - HTTP Client.md",
+          "path": "09 Angular Core/014 - HTTP Client.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-015---viewchild-and-contentchild-md",
+          "title": "015 - ViewChild and ContentChild",
+          "filename": "015 - ViewChild and ContentChild.md",
+          "path": "09 Angular Core/015 - ViewChild and ContentChild.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-016---standalone-components-md",
+          "title": "016 - Standalone Components",
+          "filename": "016 - Standalone Components.md",
+          "path": "09 Angular Core/016 - Standalone Components.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-017---signals-md",
+          "title": "017 - Signals",
+          "filename": "017 - Signals.md",
+          "path": "09 Angular Core/017 - Signals.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-018---http-interceptors-md",
+          "title": "018 - HTTP Interceptors",
+          "filename": "018 - HTTP Interceptors.md",
+          "path": "09 Angular Core/018 - HTTP Interceptors.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-019---async-pipe-md",
+          "title": "019 - Async Pipe",
+          "filename": "019 - Async Pipe.md",
+          "path": "09 Angular Core/019 - Async Pipe.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-020---trackby-md",
+          "title": "020 - TrackBy",
+          "filename": "020 - TrackBy.md",
+          "path": "09 Angular Core/020 - TrackBy.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "09-angular-core-021---dependency-injection-patterns-md",
+          "title": "021 - Dependency Injection Patterns",
+          "filename": "021 - Dependency Injection Patterns.md",
+          "path": "09 Angular Core/021 - Dependency Injection Patterns.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "09-angular-core-022---router-guards-md",
+          "title": "022 - Router Guards",
+          "filename": "022 - Router Guards.md",
+          "path": "09 Angular Core/022 - Router Guards.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "09-angular-core-023---di-advanced-patterns-md",
+          "title": "023 - DI Advanced Patterns",
+          "filename": "023 - DI Advanced Patterns.md",
+          "path": "09 Angular Core/023 - DI Advanced Patterns.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "09-angular-core-024---angular-module-system-md",
+          "title": "024 - Angular Module System",
+          "filename": "024 - Angular Module System.md",
+          "path": "09 Angular Core/024 - Angular Module System.md",
+          "readingTime": "1 min read"
+        },
+        {
+          "id": "09-angular-core-025---reactive-forms-advanced-md",
+          "title": "025 - Reactive Forms Advanced",
+          "filename": "025 - Reactive Forms Advanced.md",
+          "path": "09 Angular Core/025 - Reactive Forms Advanced.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "09-angular-core-026---angular-animations-md",
+          "title": "026 - Angular Animations",
+          "filename": "026 - Angular Animations.md",
+          "path": "09 Angular Core/026 - Angular Animations.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "10-angular-advanced",
+      "folderName": "10 Angular Advanced",
+      "title": "10 Angular Advanced",
+      "icon": "🅰️",
+      "count": 17,
+      "topics": [
+        {
+          "id": "10-angular-advanced-001---aot-compilation-md",
+          "title": "001 - AOT Compilation",
+          "filename": "001 - AOT Compilation.md",
+          "path": "10 Angular Advanced/001 - AOT Compilation.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-002---ivy-renderer-md",
+          "title": "002 - Ivy Renderer",
+          "filename": "002 - Ivy Renderer.md",
+          "path": "10 Angular Advanced/002 - Ivy Renderer.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-003---angular-universal-md",
+          "title": "003 - Angular Universal",
+          "filename": "003 - Angular Universal.md",
+          "path": "10 Angular Advanced/003 - Angular Universal.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-004---service-workers-md",
+          "title": "004 - Service Workers",
+          "filename": "004 - Service Workers.md",
+          "path": "10 Angular Advanced/004 - Service Workers.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-005---internationalization-md",
+          "title": "005 - Internationalization",
+          "filename": "005 - Internationalization.md",
+          "path": "10 Angular Advanced/005 - Internationalization.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-006---di-advanced-md",
+          "title": "006 - DI Advanced",
+          "filename": "006 - DI Advanced.md",
+          "path": "10 Angular Advanced/006 - DI Advanced.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-007---structural-directives-md",
+          "title": "007 - Structural Directives",
+          "filename": "007 - Structural Directives.md",
+          "path": "10 Angular Advanced/007 - Structural Directives.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-008---custom-structural-directives-md",
+          "title": "008 - Custom Structural Directives",
+          "filename": "008 - Custom Structural Directives.md",
+          "path": "10 Angular Advanced/008 - Custom Structural Directives.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-009---advanced-change-detection-md",
+          "title": "009 - Advanced Change Detection",
+          "filename": "009 - Advanced Change Detection.md",
+          "path": "10 Angular Advanced/009 - Advanced Change Detection.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "10-angular-advanced-010---angular-cli-md",
+          "title": "010 - Angular CLI",
+          "filename": "010 - Angular CLI.md",
+          "path": "10 Angular Advanced/010 - Angular CLI.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-011---animation-system-md",
+          "title": "011 - Animation System",
+          "filename": "011 - Animation System.md",
+          "path": "10 Angular Advanced/011 - Animation System.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-012---custom-decorators-md",
+          "title": "012 - Custom Decorators",
+          "filename": "012 - Custom Decorators.md",
+          "path": "10 Angular Advanced/012 - Custom Decorators.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "10-angular-advanced-013---ngrx-state-management-md",
+          "title": "013 - NgRx State Management",
+          "filename": "013 - NgRx State Management.md",
+          "path": "10 Angular Advanced/013 - NgRx State Management.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "10-angular-advanced-014---di-hierarchy-md",
+          "title": "014 - DI Hierarchy",
+          "filename": "014 - DI Hierarchy.md",
+          "path": "10 Angular Advanced/014 - DI Hierarchy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-015---schematics-md",
+          "title": "015 - Schematics",
+          "filename": "015 - Schematics.md",
+          "path": "10 Angular Advanced/015 - Schematics.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-016---http-interceptor-advanced-md",
+          "title": "016 - HTTP Interceptor Advanced",
+          "filename": "016 - HTTP Interceptor Advanced.md",
+          "path": "10 Angular Advanced/016 - HTTP Interceptor Advanced.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "10-angular-advanced-017---error-boundaries-md",
+          "title": "017 - Error Boundaries",
+          "filename": "017 - Error Boundaries.md",
+          "path": "10 Angular Advanced/017 - Error Boundaries.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "11-angular-performance",
+      "folderName": "11 Angular Performance",
+      "title": "11 Angular Performance",
+      "icon": "⚡",
+      "count": 7,
+      "topics": [
+        {
+          "id": "11-angular-performance-001---onpush-strategy-md",
+          "title": "001 - OnPush Strategy",
+          "filename": "001 - OnPush Strategy.md",
+          "path": "11 Angular Performance/001 - OnPush Strategy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "11-angular-performance-010---memory-profiling-md",
+          "title": "010 - Memory Profiling",
+          "filename": "010 - Memory Profiling.md",
+          "path": "11 Angular Performance/010 - Memory Profiling.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "11-angular-performance-011---bundle-size-impact-md",
+          "title": "011 - Bundle Size Impact",
+          "filename": "011 - Bundle Size Impact.md",
+          "path": "11 Angular Performance/011 - Bundle Size Impact.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "11-angular-performance-012---profiling-debugging-md",
+          "title": "012 - Profiling Debugging",
+          "filename": "012 - Profiling Debugging.md",
+          "path": "11 Angular Performance/012 - Profiling Debugging.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "11-angular-performance-013---virtual-scrolling-md",
+          "title": "013 - Virtual Scrolling",
+          "filename": "013 - Virtual Scrolling.md",
+          "path": "11 Angular Performance/013 - Virtual Scrolling.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "11-angular-performance-014---lazy-loading-md",
+          "title": "014 - Lazy Loading",
+          "filename": "014 - Lazy Loading.md",
+          "path": "11 Angular Performance/014 - Lazy Loading.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "11-angular-performance-015---change-detection-strategy-md",
+          "title": "015 - Change Detection Strategy",
+          "filename": "015 - Change Detection Strategy.md",
+          "path": "11 Angular Performance/015 - Change Detection Strategy.md",
+          "readingTime": "2 min read"
+        }
+      ]
+    },
+    {
+      "id": "12-machine-coding",
+      "folderName": "12 Machine Coding",
+      "title": "12 Machine Coding",
+      "icon": "💻",
+      "count": 27,
+      "topics": [
+        {
+          "id": "12-machine-coding-001---debounce-md",
+          "title": "001 - Debounce",
+          "filename": "001 - Debounce.md",
+          "path": "12 Machine Coding/001 - Debounce.md",
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "12-machine-coding-002---throttle-md",
+          "title": "002 - Throttle",
+          "filename": "002 - Throttle.md",
+          "path": "12 Machine Coding/002 - Throttle.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-003---flatten-array-md",
+          "title": "003 - Flatten Array",
+          "filename": "003 - Flatten Array.md",
+          "path": "12 Machine Coding/003 - Flatten Array.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-004---promise-all-md",
+          "title": "004 - Promise.all",
+          "filename": "004 - Promise.all.md",
+          "path": "12 Machine Coding/004 - Promise.all.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-005---deep-clone-md",
+          "title": "005 - Deep Clone",
+          "filename": "005 - Deep Clone.md",
+          "path": "12 Machine Coding/005 - Deep Clone.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-006---eventemitter-md",
+          "title": "006 - EventEmitter",
+          "filename": "006 - EventEmitter.md",
+          "path": "12 Machine Coding/006 - EventEmitter.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-007---memoization-md",
+          "title": "007 - Memoization",
+          "filename": "007 - Memoization.md",
+          "path": "12 Machine Coding/007 - Memoization.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-008---groupby-md",
+          "title": "008 - groupBy",
+          "filename": "008 - groupBy.md",
+          "path": "12 Machine Coding/008 - groupBy.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-009---pipe-and-compose-md",
+          "title": "009 - pipe and compose",
+          "filename": "009 - pipe and compose.md",
+          "path": "12 Machine Coding/009 - pipe and compose.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-010---lru-cache-md",
+          "title": "010 - LRU Cache",
+          "filename": "010 - LRU Cache.md",
+          "path": "12 Machine Coding/010 - LRU Cache.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-011---remove-duplicates-md",
+          "title": "011 - Remove Duplicates",
+          "filename": "011 - Remove Duplicates.md",
+          "path": "12 Machine Coding/011 - Remove Duplicates.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-012---first-non-repeating-character-md",
+          "title": "012 - First Non-Repeating Character",
+          "filename": "012 - First Non-Repeating Character.md",
+          "path": "12 Machine Coding/012 - First Non-Repeating Character.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-013---retry-logic-md",
+          "title": "013 - Retry Logic",
+          "filename": "013 - Retry Logic.md",
+          "path": "12 Machine Coding/013 - Retry Logic.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-014---autocomplete-rxjs-md",
+          "title": "014 - Autocomplete RxJS",
+          "filename": "014 - Autocomplete RxJS.md",
+          "path": "12 Machine Coding/014 - Autocomplete RxJS.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-015---infinite-scroll-md",
+          "title": "015 - Infinite Scroll",
+          "filename": "015 - Infinite Scroll.md",
+          "path": "12 Machine Coding/015 - Infinite Scroll.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-016---sorting-filtering-md",
+          "title": "016 - Sorting Filtering",
+          "filename": "016 - Sorting Filtering.md",
+          "path": "12 Machine Coding/016 - Sorting Filtering.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-017---pipe-md",
+          "title": "017 - Pipe",
+          "filename": "017 - Pipe.md",
+          "path": "12 Machine Coding/017 - Pipe.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-017---virtual-scroll-md",
+          "title": "017 - Virtual Scroll",
+          "filename": "017 - Virtual Scroll.md",
+          "path": "12 Machine Coding/017 - Virtual Scroll.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-018---compose-md",
+          "title": "018 - Compose",
+          "filename": "018 - Compose.md",
+          "path": "12 Machine Coding/018 - Compose.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-018---custom-pagination-md",
+          "title": "018 - Custom Pagination",
+          "filename": "018 - Custom Pagination.md",
+          "path": "12 Machine Coding/018 - Custom Pagination.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-019---cancel-requests-md",
+          "title": "019 - Cancel Requests",
+          "filename": "019 - Cancel Requests.md",
+          "path": "12 Machine Coding/019 - Cancel Requests.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-019---object-flatten-md",
+          "title": "019 - Object Flatten",
+          "filename": "019 - Object Flatten.md",
+          "path": "12 Machine Coding/019 - Object Flatten.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-020---deep-equal-md",
+          "title": "020 - Deep Equal",
+          "filename": "020 - Deep Equal.md",
+          "path": "12 Machine Coding/020 - Deep Equal.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-020---rendering-optimization-md",
+          "title": "020 - Rendering Optimization",
+          "filename": "020 - Rendering Optimization.md",
+          "path": "12 Machine Coding/020 - Rendering Optimization.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-021---memory-leaks-md",
+          "title": "021 - Memory Leaks",
+          "filename": "021 - Memory Leaks.md",
+          "path": "12 Machine Coding/021 - Memory Leaks.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "12-machine-coding-023---immutability-md",
+          "title": "023 - Immutability",
+          "filename": "023 - Immutability.md",
+          "path": "12 Machine Coding/023 - Immutability.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "12-machine-coding-024---dom-manipulation-md",
+          "title": "024 - DOM Manipulation",
+          "filename": "024 - DOM Manipulation.md",
+          "path": "12 Machine Coding/024 - DOM Manipulation.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "13-frontend-system-design",
+      "folderName": "13 Frontend System Design",
+      "title": "13 Frontend System Design",
+      "icon": "🏗️",
+      "count": 12,
+      "topics": [
+        {
+          "id": "13-frontend-system-design-001---architecture-patterns-md",
+          "title": "001 - Architecture Patterns",
+          "filename": "001 - Architecture Patterns.md",
+          "path": "13 Frontend System Design/001 - Architecture Patterns.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-002---state-management-md",
+          "title": "002 - State Management",
+          "filename": "002 - State Management.md",
+          "path": "13 Frontend System Design/002 - State Management.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-003---micro-frontends-md",
+          "title": "003 - Micro Frontends",
+          "filename": "003 - Micro Frontends.md",
+          "path": "13 Frontend System Design/003 - Micro Frontends.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-004---bundle-optimization-md",
+          "title": "004 - Bundle Optimization",
+          "filename": "004 - Bundle Optimization.md",
+          "path": "13 Frontend System Design/004 - Bundle Optimization.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-005---performance-monitoring-md",
+          "title": "005 - Performance Monitoring",
+          "filename": "005 - Performance Monitoring.md",
+          "path": "13 Frontend System Design/005 - Performance Monitoring.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "13-frontend-system-design-006---security-best-practices-md",
+          "title": "006 - Security Best Practices",
+          "filename": "006 - Security Best Practices.md",
+          "path": "13 Frontend System Design/006 - Security Best Practices.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-007---api-design-principles-md",
+          "title": "007 - API Design Principles",
+          "filename": "007 - API Design Principles.md",
+          "path": "13 Frontend System Design/007 - API Design Principles.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-008---progressive-enhancement-md",
+          "title": "008 - Progressive Enhancement",
+          "filename": "008 - Progressive Enhancement.md",
+          "path": "13 Frontend System Design/008 - Progressive Enhancement.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-009---caching-strategies-md",
+          "title": "009 - Caching Strategies",
+          "filename": "009 - Caching Strategies.md",
+          "path": "13 Frontend System Design/009 - Caching Strategies.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "13-frontend-system-design-010---server-side-rendering-md",
+          "title": "010 - Server Side Rendering",
+          "filename": "010 - Server Side Rendering.md",
+          "path": "13 Frontend System Design/010 - Server Side Rendering.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-011---build-optimization-md",
+          "title": "011 - Build Optimization",
+          "filename": "011 - Build Optimization.md",
+          "path": "13 Frontend System Design/011 - Build Optimization.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "13-frontend-system-design-012---component-architecture-md",
+          "title": "012 - Component Architecture",
+          "filename": "012 - Component Architecture.md",
+          "path": "13 Frontend System Design/012 - Component Architecture.md",
+          "readingTime": "4 min read"
+        }
+      ]
+    },
+    {
+      "id": "14-testing",
+      "folderName": "14 Testing",
+      "title": "14 Testing",
+      "icon": "🧪",
+      "count": 8,
+      "topics": [
+        {
+          "id": "14-testing-001---unit-testing-md",
+          "title": "001 - Unit Testing",
+          "filename": "001 - Unit Testing.md",
+          "path": "14 Testing/001 - Unit Testing.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "14-testing-002---integration-testing-md",
+          "title": "002 - Integration Testing",
+          "filename": "002 - Integration Testing.md",
+          "path": "14 Testing/002 - Integration Testing.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "14-testing-003---testing-strategies-md",
+          "title": "003 - Testing Strategies",
+          "filename": "003 - Testing Strategies.md",
+          "path": "14 Testing/003 - Testing Strategies.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "14-testing-004---tdd-with-angular-md",
+          "title": "004 - TDD with Angular",
+          "filename": "004 - TDD with Angular.md",
+          "path": "14 Testing/004 - TDD with Angular.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "14-testing-005---e2e-testing-md",
+          "title": "005 - E2E Testing",
+          "filename": "005 - E2E Testing.md",
+          "path": "14 Testing/005 - E2E Testing.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "14-testing-006---test-data-management-md",
+          "title": "006 - Test Data Management",
+          "filename": "006 - Test Data Management.md",
+          "path": "14 Testing/006 - Test Data Management.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "14-testing-007---mocking-strategies-md",
+          "title": "007 - Mocking Strategies",
+          "filename": "007 - Mocking Strategies.md",
+          "path": "14 Testing/007 - Mocking Strategies.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "14-testing-008---testing-best-practices-md",
+          "title": "008 - Testing Best Practices",
+          "filename": "008 - Testing Best Practices.md",
+          "path": "14 Testing/008 - Testing Best Practices.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "15-interview-questions",
+      "folderName": "15 Interview Questions",
+      "title": "15 Interview Questions",
+      "icon": "❓",
+      "count": 6,
+      "topics": [
+        {
+          "id": "15-interview-questions-001---top-javascript-interview-questions-md",
+          "title": "001 - Top JavaScript Interview Questions",
+          "filename": "001 - Top JavaScript Interview Questions.md",
+          "path": "15 Interview Questions/001 - Top JavaScript Interview Questions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "15-interview-questions-002---top-angular-interview-questions-md",
+          "title": "002 - Top Angular Interview Questions",
+          "filename": "002 - Top Angular Interview Questions.md",
+          "path": "15 Interview Questions/002 - Top Angular Interview Questions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "15-interview-questions-003---top-rxjs-interview-questions-md",
+          "title": "003 - Top RxJS Interview Questions",
+          "filename": "003 - Top RxJS Interview Questions.md",
+          "path": "15 Interview Questions/003 - Top RxJS Interview Questions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "15-interview-questions-004---top-typescript-interview-questions-md",
+          "title": "004 - Top TypeScript Interview Questions",
+          "filename": "004 - Top TypeScript Interview Questions.md",
+          "path": "15 Interview Questions/004 - Top TypeScript Interview Questions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "15-interview-questions-005---top-css-interview-questions-md",
+          "title": "005 - Top CSS Interview Questions",
+          "filename": "005 - Top CSS Interview Questions.md",
+          "path": "15 Interview Questions/005 - Top CSS Interview Questions.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "15-interview-questions-006---behavioral-and-hr-questions-md",
+          "title": "006 - Behavioral and HR Questions",
+          "filename": "006 - Behavioral and HR Questions.md",
+          "path": "15 Interview Questions/006 - Behavioral and HR Questions.md",
           "readingTime": "3 min read"
         }
       ]

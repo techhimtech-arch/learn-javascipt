@@ -1,0 +1,660 @@
+/**
+ * Frontend & Angular Interview Mastery - App Engine
+ * Zero-build client-side Markdown SPA viewer for GitHub Pages
+ */
+
+(function () {
+  'use strict';
+
+  // State Management
+  const state = {
+    manifest: null,
+    currentTopic: null,
+    completedTopics: new Set(JSON.parse(localStorage.getItem('completed_topics') || '[]')),
+    bookmarkedTopics: new Set(JSON.parse(localStorage.getItem('bookmarked_topics') || '[]')),
+    filterBookmarksOnly: false,
+    theme: localStorage.getItem('app_theme') || 'dark',
+    allTopicsList: []
+  };
+
+  // DOM Cache
+  const DOM = {
+    app: document.getElementById('app'),
+    sidebarNav: document.getElementById('sidebarNav'),
+    sidebarFilterBtn: document.getElementById('sidebarFilterBtn'),
+    articleContent: document.getElementById('articleContent'),
+    tocList: document.getElementById('tocList'),
+    searchInput: document.getElementById('searchInput'),
+    searchModal: document.getElementById('searchModal'),
+    modalSearchInput: document.getElementById('modalSearchInput'),
+    searchResults: document.getElementById('searchResults'),
+    themeToggleBtn: document.getElementById('themeToggleBtn'),
+    mobileMenuBtn: document.getElementById('mobileMenuBtn'),
+    sidebar: document.getElementById('sidebar'),
+    progressFill: document.getElementById('progressFill'),
+    progressText: document.getElementById('progressText'),
+    readingProgressLine: document.getElementById('readingProgressLine')
+  };
+
+  // Configure Marked parser
+  function setupMarkedParser() {
+    if (typeof marked === 'undefined') return;
+
+    const renderer = new marked.Renderer();
+
+    // Custom heading renderer to include smooth scroll IDs
+    renderer.heading = function (arg1, arg2, arg3) {
+      let text = '', level = 1, raw = '';
+      if (typeof arg1 === 'object' && arg1 !== null) {
+        text = arg1.text || '';
+        level = arg1.depth || 1;
+        raw = arg1.raw || text;
+      } else {
+        text = arg1 || '';
+        level = arg2 || 1;
+        raw = arg3 || text;
+      }
+      const slug = (raw || text).toLowerCase().replace(/[^\w]+/g, '-');
+      return `<h${level} id="${slug}">${text}</h${level}>`;
+    };
+
+    // Custom code block renderer with language tag & Copy button
+    renderer.code = function (arg1, arg2) {
+      let code = '', language = '';
+      if (typeof arg1 === 'object' && arg1 !== null) {
+        code = arg1.text || '';
+        language = arg1.lang || '';
+      } else {
+        code = arg1 || '';
+        language = arg2 || '';
+      }
+      const validLang = language && hljs.getLanguage(language) ? language : 'plaintext';
+      return `<div class="code-block-wrapper">
+        <div class="code-header">
+          <span>${validLang.toUpperCase()}</span>
+          <button class="copy-code-btn" onclick="window.copyCodeToClipboard(this)">📋 Copy</button>
+        </div>
+        <pre><code class="language-${validLang}">${escapeHtml(code)}</code></pre>
+      </div>`;
+    };
+
+    // Custom link renderer to support relative Markdown SPA navigation
+    renderer.link = function (arg1, arg2, arg3) {
+      let href = '', title = '', text = '';
+      if (typeof arg1 === 'object' && arg1 !== null) {
+        href = arg1.href || '';
+        title = arg1.title || '';
+        text = arg1.text || '';
+      } else {
+        href = arg1 || '';
+        title = arg2 || '';
+        text = arg3 || '';
+      }
+
+      if (href && (href.endsWith('.md') || href.includes('.md#'))) {
+        let targetPath = href;
+        if (state.currentTopic && (!href.startsWith('/') && !href.startsWith('http://') && !href.startsWith('https://'))) {
+          const parts = state.currentTopic.path.split('/');
+          parts.pop();
+          const dir = parts.join('/');
+          const cleanHref = href.replace(/^\.\//, '');
+          targetPath = dir ? `${dir}/${cleanHref}` : cleanHref;
+        }
+        const topicHash = `#/${encodeURIComponent(targetPath)}`;
+        return `<a href="${topicHash}" ${title ? `title="${escapeHtml(title)}"` : ''}>${text}</a>`;
+      }
+
+      const isExternal = href.startsWith('http://') || href.startsWith('https://');
+      return `<a href="${escapeHtml(href)}" ${isExternal ? 'target="_blank" rel="noopener noreferrer"' : ''} ${title ? `title="${escapeHtml(title)}"` : ''}>${text}</a>`;
+    };
+
+    marked.setOptions({
+      renderer: renderer,
+      gfm: true,
+      breaks: true
+    });
+  }
+
+  function escapeHtml(text) {
+    return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  // Global helper for code copying with robust fallback
+  window.copyCodeToClipboard = function (btn) {
+    const wrapper = btn.closest('.code-block-wrapper');
+    if (!wrapper) return;
+    const codeText = wrapper.querySelector('code').innerText;
+
+    function showCopied() {
+      btn.innerText = '✅ Copied!';
+      setTimeout(() => {
+        btn.innerText = '📋 Copy';
+      }, 2000);
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        showCopied();
+      } catch (err) {
+        console.error('Copy failed:', err);
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(codeText)
+        .then(showCopied)
+        .catch(() => fallbackCopy(codeText));
+    } else {
+      fallbackCopy(codeText);
+    }
+  };
+
+  // Initialize App
+  async function init() {
+    applyTheme(state.theme);
+    setupMarkedParser();
+    setupEventListeners();
+
+    try {
+      const response = await fetch('./topics.json');
+      if (!response.ok) throw new Error('Failed to load topics.json manifest');
+      state.manifest = await response.json();
+
+      // Build flat topics list for easy indexing & search
+      state.allTopicsList = [];
+      state.manifest.categories.forEach(cat => {
+        cat.topics.forEach(topic => {
+          state.allTopicsList.push({
+            ...topic,
+            categoryTitle: cat.title,
+            categoryIcon: cat.icon
+          });
+        });
+      });
+
+      renderSidebar();
+      updateOverallProgress();
+
+      // Handle initial route
+      handleHashRoute();
+
+    } catch (err) {
+      console.error('Initialization error:', err);
+      DOM.articleContent.innerHTML = `<div class="welcome-hero">
+        <h2>⚠️ Unable to load topics manifest</h2>
+        <p class="hero-desc">Please make sure <code>topics.json</code> exists. If running locally, start a web server or run <code>node generate_index.js</code>.</p>
+      </div>`;
+    }
+  }
+
+  // Theme Manager
+  function applyTheme(theme) {
+    state.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('app_theme', theme);
+    DOM.themeToggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+  }
+
+  // Event Listeners Setup
+  function setupEventListeners() {
+    window.addEventListener('hashchange', handleHashRoute);
+    window.addEventListener('scroll', handleScrollProgress);
+
+    // Mobile Sidebar Toggle
+    DOM.mobileMenuBtn?.addEventListener('click', () => {
+      DOM.sidebar.classList.toggle('open');
+    });
+
+    // Theme Switch
+    DOM.themeToggleBtn?.addEventListener('click', () => {
+      applyTheme(state.theme === 'dark' ? 'light' : 'dark');
+    });
+
+    // Bookmark Filter Toggle
+    DOM.sidebarFilterBtn?.addEventListener('click', () => {
+      state.filterBookmarksOnly = !state.filterBookmarksOnly;
+      DOM.sidebarFilterBtn.classList.toggle('active', state.filterBookmarksOnly);
+      renderSidebar();
+    });
+
+    // Global Search Shortcuts (Cmd+K or /)
+    document.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        openSearchModal();
+      } else if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+        e.preventDefault();
+        openSearchModal();
+      } else if (e.key === 'Escape' && DOM.searchModal.classList.contains('open')) {
+        closeSearchModal();
+      }
+    });
+
+    // Search Triggers
+    DOM.searchInput?.addEventListener('click', openSearchModal);
+    DOM.modalSearchInput?.addEventListener('input', handleSearchQuery);
+
+    DOM.searchModal?.addEventListener('click', (e) => {
+      if (e.target === DOM.searchModal) closeSearchModal();
+    });
+  }
+
+  // Scroll Progress Bar & TOC Spy
+  function handleScrollProgress() {
+    const docEl = document.documentElement;
+    const scrollTop = docEl.scrollTop || document.body.scrollTop;
+    const scrollHeight = (docEl.scrollHeight || document.body.scrollHeight) - docEl.clientHeight;
+    const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    
+    if (DOM.readingProgressLine) {
+      DOM.readingProgressLine.style.width = `${progress}%`;
+    }
+
+    // ScrollSpy for TOC
+    const headings = DOM.articleContent.querySelectorAll('h1, h2, h3');
+    let activeId = '';
+    headings.forEach(heading => {
+      const top = heading.getBoundingClientRect().top;
+      if (top < 120) {
+        activeId = heading.id;
+      }
+    });
+
+    if (activeId) {
+      const tocLinks = DOM.tocList.querySelectorAll('.toc-item');
+      tocLinks.forEach(item => {
+        const link = item.querySelector('a');
+        if (link && link.getAttribute('href') === `#${activeId}`) {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
+    }
+  }
+
+  // Render Navigation Sidebar
+  function renderSidebar() {
+    if (!state.manifest) return;
+
+    let html = '';
+
+    state.manifest.categories.forEach(cat => {
+      let topicsToRender = cat.topics;
+
+      if (state.filterBookmarksOnly) {
+        topicsToRender = topicsToRender.filter(t => state.bookmarkedTopics.has(t.path));
+      }
+
+      if (topicsToRender.length === 0 && state.filterBookmarksOnly) return;
+
+      const isCurrentCategory = state.currentTopic && state.currentTopic.path.startsWith(cat.folderName);
+
+      html += `<div class="category-group ${isCurrentCategory ? '' : ''}">
+        <button class="category-header" onclick="this.parentElement.classList.toggle('collapsed')">
+          <span class="category-icon">${cat.icon}</span>
+          <span class="category-title-text">${escapeHtml(cat.title)}</span>
+          <span class="category-badge">${topicsToRender.length}</span>
+          <span class="category-chevron">▼</span>
+        </button>
+        <div class="category-topics">`;
+
+      topicsToRender.forEach(topic => {
+        const isCompleted = state.completedTopics.has(topic.path);
+        const isActive = state.currentTopic && state.currentTopic.path === topic.path;
+        const topicHash = `#/${encodeURIComponent(topic.path)}`;
+
+        html += `<a href="${topicHash}" class="topic-item ${isActive ? 'active' : ''}">
+          <span class="topic-status-check ${isCompleted ? 'completed' : ''}" 
+                onclick="event.preventDefault(); window.toggleTopicStatus('${topic.path}')" 
+                title="${isCompleted ? 'Mark as incomplete' : 'Mark as completed'}">
+            ${isCompleted ? '✅' : '○'}
+          </span>
+          <span class="topic-item-text">${escapeHtml(topic.title)}</span>
+        </a>`;
+      });
+
+      html += `</div></div>`;
+    });
+
+    DOM.sidebarNav.innerHTML = html;
+  }
+
+  // Toggle Completed Status
+  window.toggleTopicStatus = function (path) {
+    if (state.completedTopics.has(path)) {
+      state.completedTopics.delete(path);
+    } else {
+      state.completedTopics.add(path);
+    }
+    localStorage.setItem('completed_topics', JSON.stringify(Array.from(state.completedTopics)));
+    renderSidebar();
+    updateOverallProgress();
+    if (state.currentTopic && state.currentTopic.path === path) {
+      updateArticleActionButtons();
+    }
+  };
+
+  // Toggle Bookmark Status
+  window.toggleBookmarkStatus = function (path) {
+    if (state.bookmarkedTopics.has(path)) {
+      state.bookmarkedTopics.delete(path);
+    } else {
+      state.bookmarkedTopics.add(path);
+    }
+    localStorage.setItem('bookmarked_topics', JSON.stringify(Array.from(state.bookmarkedTopics)));
+    renderSidebar();
+    if (state.currentTopic && state.currentTopic.path === path) {
+      updateArticleActionButtons();
+    }
+  };
+
+  function updateOverallProgress() {
+    if (!state.allTopicsList.length) return;
+    const total = state.allTopicsList.length;
+    const completed = state.completedTopics.size;
+    const percent = Math.round((completed / total) * 100);
+
+    if (DOM.progressFill) DOM.progressFill.style.width = `${percent}%`;
+    if (DOM.progressText) DOM.progressText.innerText = `${percent}% (${completed}/${total})`;
+  }
+
+  // Route Handler
+  async function handleHashRoute() {
+    const rawHash = window.location.hash;
+
+    // Close mobile menu if open
+    DOM.sidebar.classList.remove('open');
+
+    if (!rawHash || rawHash === '#/' || rawHash === '#') {
+      renderWelcomeHero();
+      state.currentTopic = null;
+      renderSidebar();
+      generateTOC();
+      return;
+    }
+
+    const topicPath = decodeURIComponent(rawHash.replace(/^#\//, ''));
+    const topicObj = state.allTopicsList.find(t => t.path === topicPath);
+
+    if (!topicObj) {
+      // Try direct file fetch if not matched
+      loadMarkdownFile(topicPath, { title: topicPath.split('/').pop().replace('.md', ''), path: topicPath });
+    } else {
+      loadMarkdownFile(topicObj.path, topicObj);
+    }
+  }
+
+  // Fetch & Render Markdown File
+  async function loadMarkdownFile(path, topicInfo) {
+    state.currentTopic = topicInfo;
+    renderSidebar();
+
+    DOM.articleContent.innerHTML = `<div class="welcome-hero">
+      <p style="color: var(--text-muted)">⏳ Loading content...</p>
+    </div>`;
+
+    try {
+      const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+      const response = await fetch('./' + encodedPath);
+      if (!response.ok) throw new Error(`HTTP Error ${response.status}`);
+      const mdContent = await response.text();
+
+      renderArticle(mdContent, topicInfo);
+
+    } catch (err) {
+      console.error(`Failed to load ${path}:`, err);
+      DOM.articleContent.innerHTML = `<div class="welcome-hero">
+        <h2 style="color: var(--warning-color)">⚠️ Article Not Found</h2>
+        <p class="hero-desc">Could not load <code>${path}</code>. Verify that the file exists in the repository.</p>
+        <a href="#/" class="btn-action" style="display:inline-flex;margin-top:1rem">← Back to Overview</a>
+      </div>`;
+    }
+  }
+
+  // Render Article HTML
+  function renderArticle(markdownText, topicObj) {
+    const parsedHtml = typeof marked !== 'undefined' ? marked.parse(markdownText) : markdownText;
+
+    const isCompleted = state.completedTopics.has(topicObj.path);
+    const isBookmarked = state.bookmarkedTopics.has(topicObj.path);
+
+    // Find Previous & Next Topics
+    const currentIndex = state.allTopicsList.findIndex(t => t.path === topicObj.path);
+    const prevTopic = currentIndex > 0 ? state.allTopicsList[currentIndex - 1] : null;
+    const nextTopic = currentIndex >= 0 && currentIndex < state.allTopicsList.length - 1 ? state.allTopicsList[currentIndex + 1] : null;
+
+    const categoryTitle = topicObj.categoryTitle || 'Interview Prep';
+
+    let html = `
+      <article class="article-header">
+        <div class="article-breadcrumb">
+          <span>📚 ${escapeHtml(categoryTitle)}</span>
+          <span>/</span>
+          <span>${escapeHtml(topicObj.title)}</span>
+        </div>
+        <h1 class="article-title">${escapeHtml(topicObj.title)}</h1>
+        <div class="article-meta">
+          <div class="meta-tags">
+            <span class="meta-badge">⏱️ ${topicObj.readingTime || '5 min read'}</span>
+          </div>
+          <div class="meta-actions">
+            <button id="markCompleteBtn" class="btn-action ${isCompleted ? 'completed' : ''}" 
+                    onclick="window.toggleTopicStatus('${topicObj.path}')">
+              ${isCompleted ? '✅ Completed' : '○ Mark Completed'}
+            </button>
+            <button id="bookmarkBtn" class="btn-action ${isBookmarked ? 'bookmarked' : ''}" 
+                    onclick="window.toggleBookmarkStatus('${topicObj.path}')">
+              ${isBookmarked ? '⭐ Favorited' : '☆ Favorite'}
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <div class="markdown-body">
+        ${parsedHtml}
+      </div>
+
+      <nav class="topic-navigation">
+        ${prevTopic ? `
+          <a href="#/${encodeURIComponent(prevTopic.path)}" class="nav-card prev">
+            <span class="nav-label">← Previous Topic</span>
+            <span class="nav-title">${escapeHtml(prevTopic.title)}</span>
+          </a>
+        ` : '<div></div>'}
+        ${nextTopic ? `
+          <a href="#/${encodeURIComponent(nextTopic.path)}" class="nav-card next">
+            <span class="nav-label">Next Topic →</span>
+            <span class="nav-title">${escapeHtml(nextTopic.title)}</span>
+          </a>
+        ` : '<div></div>'}
+      </nav>
+    `;
+
+    DOM.articleContent.innerHTML = html;
+
+    // Apply Code Highlight.js syntax
+    if (typeof hljs !== 'undefined') {
+      DOM.articleContent.querySelectorAll('pre code').forEach((el) => {
+        hljs.highlightElement(el);
+      });
+    }
+
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Generate Table of Contents
+    generateTOC();
+  }
+
+  function updateArticleActionButtons() {
+    if (!state.currentTopic) return;
+    const path = state.currentTopic.path;
+    const isCompleted = state.completedTopics.has(path);
+    const isBookmarked = state.bookmarkedTopics.has(path);
+
+    const markBtn = document.getElementById('markCompleteBtn');
+    if (markBtn) {
+      markBtn.className = `btn-action ${isCompleted ? 'completed' : ''}`;
+      markBtn.innerHTML = isCompleted ? '✅ Completed' : '○ Mark Completed';
+    }
+
+    const bkmBtn = document.getElementById('bookmarkBtn');
+    if (bkmBtn) {
+      bkmBtn.className = `btn-action ${isBookmarked ? 'bookmarked' : ''}`;
+      bkmBtn.innerHTML = isBookmarked ? '⭐ Favorited' : '☆ Favorite';
+    }
+  }
+
+  // Generate TOC links in right sidebar
+  function generateTOC() {
+    if (!DOM.tocList) return;
+
+    const headings = DOM.articleContent.querySelectorAll('.markdown-body h1, .markdown-body h2, .markdown-body h3');
+
+    if (headings.length === 0) {
+      DOM.tocList.innerHTML = '<li class="toc-item" style="color:var(--text-muted);font-size:0.8rem">No subheadings found</li>';
+      return;
+    }
+
+    let tocHtml = '';
+    headings.forEach(h => {
+      const level = parseInt(h.tagName.substring(1), 10);
+      const id = h.id || h.innerText.toLowerCase().replace(/[^\w]+/g, '-');
+      h.id = id;
+
+      tocHtml += `<li class="toc-item depth-${level}">
+        <a href="#${id}">${escapeHtml(h.innerText)}</a>
+      </li>`;
+    });
+
+    DOM.tocList.innerHTML = tocHtml;
+  }
+
+  // Render Welcome Hero Dashboard
+  function renderWelcomeHero() {
+    if (!state.manifest) return;
+
+    const totalTopics = state.manifest.totalTopics || state.allTopicsList.length;
+    const totalCategories = state.manifest.categories ? state.manifest.categories.length : 0;
+    const completedCount = state.completedTopics.size;
+
+    let html = `
+      <div class="welcome-hero">
+        <span class="hero-badge">🚀 Frontend & Angular Interview Prep</span>
+        <h1 class="hero-title">Master JavaScript & Angular Concepts</h1>
+        <p class="hero-desc">
+          Structured notes, code implementations, RxJS patterns, and real-world frontend machine coding questions ready for high-yield preparation.
+        </p>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">${totalTopics}</div>
+            <div class="stat-label">Total Articles</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">${totalCategories}</div>
+            <div class="stat-label">Subject Categories</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">${completedCount} / ${totalTopics}</div>
+            <div class="stat-label">Topics Completed</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 3rem; text-align: left;">
+          <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">🔥 Recommended Topics to Start:</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
+    `;
+
+    // Pick top 6 topics
+    const featured = state.allTopicsList.slice(0, 6);
+    featured.forEach(item => {
+      html += `
+        <a href="#/${encodeURIComponent(item.path)}" class="nav-card">
+          <span class="nav-label">${item.categoryIcon} ${escapeHtml(item.categoryTitle)}</span>
+          <span class="nav-title">${escapeHtml(item.title)}</span>
+        </a>
+      `;
+    });
+
+    html += `
+          </div>
+        </div>
+      </div>
+    `;
+
+    DOM.articleContent.innerHTML = html;
+  }
+
+  // Search Modal Functions
+  function openSearchModal() {
+    DOM.searchModal.classList.add('open');
+    DOM.modalSearchInput.value = '';
+    DOM.modalSearchInput.focus();
+    renderSearchResults('');
+  }
+
+  function closeSearchModal() {
+    DOM.searchModal.classList.remove('open');
+  }
+
+  function handleSearchQuery(e) {
+    renderSearchResults(e.target.value.trim());
+  }
+
+  function renderSearchResults(query) {
+    if (!query) {
+      DOM.searchResults.innerHTML = '<div style="padding:1rem;color:var(--text-muted);font-size:0.85rem">Type a topic name, concept, or folder to search...</div>';
+      return;
+    }
+
+    const q = query.toLowerCase();
+    const matches = state.allTopicsList.filter(t => 
+      t.title.toLowerCase().includes(q) || 
+      t.categoryTitle.toLowerCase().includes(q) ||
+      t.path.toLowerCase().includes(q)
+    );
+
+    if (matches.length === 0) {
+      DOM.searchResults.innerHTML = '<div style="padding:1rem;color:var(--text-muted);font-size:0.85rem">No matching topics found.</div>';
+      return;
+    }
+
+    let html = '';
+    matches.slice(0, 10).forEach(item => {
+      html += `
+        <a href="#/${encodeURIComponent(item.path)}" class="search-result-item" onclick="window.closeSearchModal()">
+          <span class="result-title">${escapeHtml(item.title)}</span>
+          <span class="result-category">${item.categoryIcon} ${escapeHtml(item.categoryTitle)}</span>
+        </a>
+      `;
+    });
+
+    DOM.searchResults.innerHTML = html;
+  }
+
+  window.closeSearchModal = closeSearchModal;
+
+  // Initialize App on DOM Ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();
