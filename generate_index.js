@@ -20,7 +20,12 @@ const CATEGORY_ICONS = {
   '12 Machine Coding': '💻',
   '13 Frontend System Design': '🏗️',
   '14 Testing': '🧪',
-  '15 Interview Questions': '❓'
+  '15 Interview Questions': '❓',
+  '16 Data Analytics Foundations': '📊',
+  '17 Excel & Google Sheets for Analytics': '📈',
+  '18 SQL Database Mastery': '🛢️',
+  '19 Python for Data Analytics': '🐍',
+  '20 Data Visualization & Dashboards': '🎨'
 };
 
 function getCategoryIcon(folderName) {

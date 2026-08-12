@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-12T03:46:21.710Z",
-  "totalCategories": 16,
-  "totalTopics": 290,
+  "generatedAt": "2026-08-12T05:00:16.474Z",
+  "totalCategories": 21,
+  "totalTopics": 304,
   "categories": [
     {
       "id": "overview-roadmap",
@@ -2174,6 +2174,149 @@
           "filename": "006 - Behavioral and HR Questions.md",
           "path": "15 Interview Questions/006 - Behavioral and HR Questions.md",
           "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "16-data-analytics-foundations",
+      "folderName": "16 Data Analytics Foundations",
+      "title": "16 Data Analytics Foundations",
+      "icon": "📊",
+      "count": 3,
+      "topics": [
+        {
+          "id": "16-data-analytics-foundations-001---introduction-to-data-analytics---absolute-beginner-roadmap-md",
+          "title": "001 - Introduction to Data Analytics & Absolute Beginner Roadmap",
+          "filename": "001 - Introduction to Data Analytics & Absolute Beginner Roadmap.md",
+          "path": "16 Data Analytics Foundations/001 - Introduction to Data Analytics & Absolute Beginner Roadmap.md",
+          "readingTime": "5 min read"
+        },
+        {
+          "id": "16-data-analytics-foundations-002---data-analytics-vs-data-science-vs-data-engineering-md",
+          "title": "002 - Data Analytics vs Data Science vs Data Engineering",
+          "filename": "002 - Data Analytics vs Data Science vs Data Engineering.md",
+          "path": "16 Data Analytics Foundations/002 - Data Analytics vs Data Science vs Data Engineering.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "16-data-analytics-foundations-003---types-of-data---4-analytics-pillars-md",
+          "title": "003 - Types of Data & 4 Analytics Pillars",
+          "filename": "003 - Types of Data & 4 Analytics Pillars.md",
+          "path": "16 Data Analytics Foundations/003 - Types of Data & 4 Analytics Pillars.md",
+          "readingTime": "4 min read"
+        }
+      ]
+    },
+    {
+      "id": "17-excel---google-sheets-for-analytics",
+      "folderName": "17 Excel & Google Sheets for Analytics",
+      "title": "17 Excel & Google Sheets for Analytics",
+      "icon": "📈",
+      "count": 3,
+      "topics": [
+        {
+          "id": "17-excel---google-sheets-for-analytics-001---excel-basics---data-cleaning-for-beginners-md",
+          "title": "001 - Excel Basics & Data Cleaning for Beginners",
+          "filename": "001 - Excel Basics & Data Cleaning for Beginners.md",
+          "path": "17 Excel & Google Sheets for Analytics/001 - Excel Basics & Data Cleaning for Beginners.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "17-excel---google-sheets-for-analytics-002---essential-excel-formulas--vlookup--xlookup--if--sumifs--md",
+          "title": "002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
+          "filename": "002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).md",
+          "path": "17 Excel & Google Sheets for Analytics/002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "17-excel---google-sheets-for-analytics-003---pivot-tables---data-summarization-masterclass-md",
+          "title": "003 - Pivot Tables & Data Summarization Masterclass",
+          "filename": "003 - Pivot Tables & Data Summarization Masterclass.md",
+          "path": "17 Excel & Google Sheets for Analytics/003 - Pivot Tables & Data Summarization Masterclass.md",
+          "readingTime": "4 min read"
+        }
+      ]
+    },
+    {
+      "id": "18-sql-database-mastery",
+      "folderName": "18 SQL Database Mastery",
+      "title": "18 SQL Database Mastery",
+      "icon": "🛢️",
+      "count": 3,
+      "topics": [
+        {
+          "id": "18-sql-database-mastery-001---sql-basics-for-beginners--select--where--order-by--md",
+          "title": "001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
+          "filename": "001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
+          "path": "18 SQL Database Mastery/001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "18-sql-database-mastery-002---sql-aggregations---group-by-clause-md",
+          "title": "002 - SQL Aggregations & GROUP BY Clause",
+          "filename": "002 - SQL Aggregations & GROUP BY Clause.md",
+          "path": "18 SQL Database Mastery/002 - SQL Aggregations & GROUP BY Clause.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "18-sql-database-mastery-003---sql-joins-masterclass--inner--left--right--full--md",
+          "title": "003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
+          "filename": "003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
+          "path": "18 SQL Database Mastery/003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
+          "readingTime": "5 min read"
+        }
+      ]
+    },
+    {
+      "id": "19-python-for-data-analytics",
+      "folderName": "19 Python for Data Analytics",
+      "title": "19 Python for Data Analytics",
+      "icon": "🐍",
+      "count": 3,
+      "topics": [
+        {
+          "id": "19-python-for-data-analytics-001---python-fundamentals-for-data-analysts-md",
+          "title": "001 - Python Fundamentals for Data Analysts",
+          "filename": "001 - Python Fundamentals for Data Analysts.md",
+          "path": "19 Python for Data Analytics/001 - Python Fundamentals for Data Analysts.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "19-python-for-data-analytics-002---data-manipulation-with-pandas-md",
+          "title": "002 - Data Manipulation with Pandas",
+          "filename": "002 - Data Manipulation with Pandas.md",
+          "path": "19 Python for Data Analytics/002 - Data Manipulation with Pandas.md",
+          "readingTime": "3 min read"
+        },
+        {
+          "id": "19-python-for-data-analytics-003---exploratory-data-analysis--eda--with-python-md",
+          "title": "003 - Exploratory Data Analysis (EDA) with Python",
+          "filename": "003 - Exploratory Data Analysis (EDA) with Python.md",
+          "path": "19 Python for Data Analytics/003 - Exploratory Data Analysis (EDA) with Python.md",
+          "readingTime": "3 min read"
+        }
+      ]
+    },
+    {
+      "id": "20-data-visualization---dashboards",
+      "folderName": "20 Data Visualization & Dashboards",
+      "title": "20 Data Visualization & Dashboards",
+      "icon": "🎨",
+      "count": 2,
+      "topics": [
+        {
+          "id": "20-data-visualization---dashboards-001---data-storytelling---chart-selection-guide-md",
+          "title": "001 - Data Storytelling & Chart Selection Guide",
+          "filename": "001 - Data Storytelling & Chart Selection Guide.md",
+          "path": "20 Data Visualization & Dashboards/001 - Data Storytelling & Chart Selection Guide.md",
+          "readingTime": "4 min read"
+        },
+        {
+          "id": "20-data-visualization---dashboards-002---building-interactive-power-bi---tableau-dashboards-md",
+          "title": "002 - Building Interactive Power BI & Tableau Dashboards",
+          "filename": "002 - Building Interactive Power BI & Tableau Dashboards.md",
+          "path": "20 Data Visualization & Dashboards/002 - Building Interactive Power BI & Tableau Dashboards.md",
+          "readingTime": "4 min read"
         }
       ]
     }
