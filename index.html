@@ -61,8 +61,18 @@
 
     <!-- Left Sidebar: Folder & Topic Tree -->
     <aside id="sidebar" class="sidebar">
+      <div class="track-selector-box">
+        <label for="trackSelect" class="track-select-label">🎓 Select Learning Course:</label>
+        <select id="trackSelect" class="track-select-dropdown">
+          <option value="all">🌐 All Courses (All 21 Modules)</option>
+          <option value="javascript">⚡ JavaScript & Web Core</option>
+          <option value="angular">🅰️ Angular & Senior Frontend</option>
+          <option value="data-analytics">📊 Data Analytics Mastery</option>
+        </select>
+      </div>
+
       <div class="sidebar-header">
-        <span class="sidebar-title">Topic Modules</span>
+        <span class="sidebar-title" id="sidebarModuleTitle">Topic Modules</span>
         <button id="sidebarFilterBtn" class="sidebar-filter-btn" title="Filter bookmarked items">
           ⭐ Bookmarks
         </button>

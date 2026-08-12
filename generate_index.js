@@ -4,6 +4,57 @@ const path = require('path');
 const ROOT_DIR = __dirname;
 const OUTPUT_FILE = path.join(ROOT_DIR, 'topics.json');
 
+// Main Learning Course Tracks definition
+const TRACKS = [
+  {
+    id: 'javascript',
+    title: 'JavaScript & Web Core',
+    icon: '⚡',
+    badge: 'Core Foundations',
+    description: 'JS Fundamentals, Execution Context, ES6+, TypeScript, Browser Internals, HTML & CSS',
+    folders: [
+      '01 JavaScript Fundamentals',
+      '02 Advanced JavaScript',
+      '03 ES6+',
+      '04 TypeScript',
+      '05 Browser Internals',
+      '06 HTML',
+      '07 CSS'
+    ]
+  },
+  {
+    id: 'angular',
+    title: 'Angular & Senior Frontend',
+    icon: '🅰️',
+    badge: 'Framework & Architecture',
+    description: 'RxJS, Angular Core & Advanced, Performance Optimization, Machine Coding & System Design',
+    folders: [
+      '08 RxJS',
+      '09 Angular Core',
+      '10 Angular Advanced',
+      '11 Angular Performance',
+      '12 Machine Coding',
+      '13 Frontend System Design',
+      '14 Testing',
+      '15 Interview Questions'
+    ]
+  },
+  {
+    id: 'data-analytics',
+    title: 'Data Analytics Mastery',
+    icon: '📊',
+    badge: '0 to Hero Analytics',
+    description: 'Analytics Foundations, Excel Cleaning & Formulas, SQL Databases, Python & Power BI Dashboards',
+    folders: [
+      '16 Data Analytics Foundations',
+      '17 Excel & Google Sheets for Analytics',
+      '18 SQL Database Mastery',
+      '19 Python for Data Analytics',
+      '20 Data Visualization & Dashboards'
+    ]
+  }
+];
+
 // Category icons mapping
 const CATEGORY_ICONS = {
   '01 JavaScript Fundamentals': '⚡',
@@ -37,9 +88,17 @@ function getCategoryIcon(folderName) {
   return '📚';
 }
 
+function getTrackIdForFolder(folderName) {
+  for (const track of TRACKS) {
+    if (track.folders.some(f => folderName.toLowerCase().includes(f.toLowerCase()) || f.toLowerCase().includes(folderName.toLowerCase()))) {
+      return track.id;
+    }
+  }
+  return 'javascript';
+}
+
 function cleanTitle(filename) {
-  let title = filename.replace(/\.md$/i, '');
-  return title;
+  return filename.replace(/\.md$/i, '');
 }
 
 function estimateReadingTime(text) {
@@ -78,6 +137,8 @@ function buildIndex() {
 
     if (files.length === 0) continue;
 
+    const trackId = getTrackIdForFolder(dirName);
+
     const topics = files.map(file => {
       totalTopics++;
       const filePath = path.join(dirPath, file);
@@ -89,13 +150,6 @@ function buildIndex() {
       try {
         content = fs.readFileSync(filePath, 'utf-8');
         readingTime = estimateReadingTime(content);
-        
-        // Try to extract first # title if available
-        const titleMatch = content.match(/^#\s+(.+)$/m);
-        if (titleMatch && titleMatch[1].trim()) {
-          // Keep nice display title if found, or keep file title
-          // title = titleMatch[1].trim();
-        }
       } catch (e) {
         console.error(`Error reading ${filePath}:`, e);
       }
@@ -105,6 +159,7 @@ function buildIndex() {
         title: title,
         filename: file,
         path: relativePath,
+        trackId: trackId,
         readingTime: readingTime
       };
     });
@@ -113,6 +168,7 @@ function buildIndex() {
       id: dirName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase(),
       folderName: dirName,
       title: dirName,
+      trackId: trackId,
       icon: getCategoryIcon(dirName),
       count: topics.length,
       topics: topics
@@ -140,6 +196,7 @@ function buildIndex() {
         title: cleanTitle(file),
         filename: file,
         path: file,
+        trackId: 'all',
         readingTime: readingTime
       };
     });
@@ -148,21 +205,34 @@ function buildIndex() {
       id: 'overview-roadmap',
       folderName: 'Overview',
       title: '📌 Overview & Roadmap',
+      trackId: 'all',
       icon: '💡',
       count: rootTopics.length,
       topics: rootTopics
     });
   }
 
+  // Calculate track counts
+  const enrichedTracks = TRACKS.map(tr => {
+    const trCategories = categories.filter(c => c.trackId === tr.id);
+    const trTopicCount = trCategories.reduce((sum, c) => sum + c.count, 0);
+    return {
+      ...tr,
+      categoryCount: trCategories.length,
+      topicCount: trTopicCount
+    };
+  });
+
   const manifest = {
     generatedAt: new Date().toISOString(),
+    tracks: enrichedTracks,
     totalCategories: categories.length,
     totalTopics: totalTopics,
     categories: categories
   };
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2), 'utf-8');
-  console.log(`Successfully generated ${OUTPUT_FILE} with ${categories.length} categories and ${totalTopics} topics.`);
+  console.log(`Successfully generated ${OUTPUT_FILE} with ${enrichedTracks.length} tracks, ${categories.length} categories and ${totalTopics} topics.`);
 }
 
 buildIndex();

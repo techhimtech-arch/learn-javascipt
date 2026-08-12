@@ -1,5 +1,5 @@
 /**
- * Frontend & Angular Interview Mastery - App Engine
+ * Frontend & Angular & Data Analytics Mastery - App Engine
  * Zero-build client-side Markdown SPA viewer for GitHub Pages
  */
 
@@ -10,6 +10,7 @@
   const state = {
     manifest: null,
     currentTopic: null,
+    selectedTrack: localStorage.getItem('selected_track') || 'all',
     completedTopics: new Set(JSON.parse(localStorage.getItem('completed_topics') || '[]')),
     bookmarkedTopics: new Set(JSON.parse(localStorage.getItem('bookmarked_topics') || '[]')),
     filterBookmarksOnly: false,
@@ -22,6 +23,8 @@
     app: document.getElementById('app'),
     sidebarNav: document.getElementById('sidebarNav'),
     sidebarFilterBtn: document.getElementById('sidebarFilterBtn'),
+    sidebarModuleTitle: document.getElementById('sidebarModuleTitle'),
+    trackSelect: document.getElementById('trackSelect'),
     articleContent: document.getElementById('articleContent'),
     tocList: document.getElementById('tocList'),
     searchInput: document.getElementById('searchInput'),
@@ -163,6 +166,17 @@
     }
   };
 
+  // Global helper for Track Selection
+  window.selectCourseTrack = function (trackId, targetPath) {
+    state.selectedTrack = trackId;
+    localStorage.setItem('selected_track', trackId);
+    if (DOM.trackSelect) DOM.trackSelect.value = trackId;
+    renderSidebar();
+    if (targetPath) {
+      window.location.hash = `#/${encodeURIComponent(targetPath)}`;
+    }
+  };
+
   // Initialize App
   async function init() {
     applyTheme(state.theme);
@@ -174,12 +188,18 @@
       if (!response.ok) throw new Error('Failed to load topics.json manifest');
       state.manifest = await response.json();
 
+      // Set saved track select dropdown value
+      if (DOM.trackSelect) {
+        DOM.trackSelect.value = state.selectedTrack;
+      }
+
       // Build flat topics list for easy indexing & search
       state.allTopicsList = [];
       state.manifest.categories.forEach(cat => {
         cat.topics.forEach(topic => {
           state.allTopicsList.push({
             ...topic,
+            trackId: cat.trackId || topic.trackId || 'javascript',
             categoryTitle: cat.title,
             categoryIcon: cat.icon
           });
@@ -213,6 +233,13 @@
   function setupEventListeners() {
     window.addEventListener('hashchange', handleHashRoute);
     window.addEventListener('scroll', handleScrollProgress);
+
+    // Track Selector Dropdown Switch
+    DOM.trackSelect?.addEventListener('change', (e) => {
+      state.selectedTrack = e.target.value;
+      localStorage.setItem('selected_track', state.selectedTrack);
+      renderSidebar();
+    });
 
     // Mobile Sidebar Toggle
     DOM.mobileMenuBtn?.addEventListener('click', () => {
@@ -291,9 +318,23 @@
   function renderSidebar() {
     if (!state.manifest) return;
 
+    // Filter categories by selected track
+    let categoriesToRender = state.manifest.categories;
+    if (state.selectedTrack && state.selectedTrack !== 'all') {
+      categoriesToRender = categoriesToRender.filter(cat => cat.trackId === state.selectedTrack || cat.trackId === 'all');
+    }
+
+    // Update Sidebar Module Header Label
+    if (DOM.sidebarModuleTitle) {
+      if (state.selectedTrack === 'javascript') DOM.sidebarModuleTitle.innerText = 'JavaScript Modules';
+      else if (state.selectedTrack === 'angular') DOM.sidebarModuleTitle.innerText = 'Angular Modules';
+      else if (state.selectedTrack === 'data-analytics') DOM.sidebarModuleTitle.innerText = 'Data Analytics Modules';
+      else DOM.sidebarModuleTitle.innerText = 'All Topic Modules';
+    }
+
     let html = '';
 
-    state.manifest.categories.forEach(cat => {
+    categoriesToRender.forEach(cat => {
       let topicsToRender = cat.topics;
 
       if (state.filterBookmarksOnly) {
@@ -304,7 +345,10 @@
 
       const isCurrentCategory = state.currentTopic && state.currentTopic.path.startsWith(cat.folderName);
 
-      html += `<div class="category-group ${isCurrentCategory ? '' : ''}">
+      // Accordion is COLLAPSED BY DEFAULT unless it is the active category
+      const isCollapsed = !isCurrentCategory;
+
+      html += `<div class="category-group ${isCollapsed ? 'collapsed' : ''}">
         <button class="category-header" onclick="this.parentElement.classList.toggle('collapsed')">
           <span class="category-icon">${cat.icon}</span>
           <span class="category-title-text">${escapeHtml(cat.title)}</span>
@@ -392,9 +436,14 @@
     const topicObj = state.allTopicsList.find(t => t.path === topicPath);
 
     if (!topicObj) {
-      // Try direct file fetch if not matched
       loadMarkdownFile(topicPath, { title: topicPath.split('/').pop().replace('.md', ''), path: topicPath });
     } else {
+      // Auto switch track if topic belongs to a different track and selectedTrack is not 'all'
+      if (topicObj.trackId && state.selectedTrack !== 'all' && state.selectedTrack !== topicObj.trackId) {
+        state.selectedTrack = topicObj.trackId;
+        localStorage.setItem('selected_track', state.selectedTrack);
+        if (DOM.trackSelect) DOM.trackSelect.value = state.selectedTrack;
+      }
       loadMarkdownFile(topicObj.path, topicObj);
     }
   }
@@ -433,10 +482,14 @@
     const isCompleted = state.completedTopics.has(topicObj.path);
     const isBookmarked = state.bookmarkedTopics.has(topicObj.path);
 
-    // Find Previous & Next Topics
-    const currentIndex = state.allTopicsList.findIndex(t => t.path === topicObj.path);
-    const prevTopic = currentIndex > 0 ? state.allTopicsList[currentIndex - 1] : null;
-    const nextTopic = currentIndex >= 0 && currentIndex < state.allTopicsList.length - 1 ? state.allTopicsList[currentIndex + 1] : null;
+    // Find Previous & Next Topics within current track (or overall)
+    let visibleList = state.allTopicsList;
+    if (state.selectedTrack && state.selectedTrack !== 'all') {
+      visibleList = state.allTopicsList.filter(t => t.trackId === state.selectedTrack);
+    }
+    const currentIndex = visibleList.findIndex(t => t.path === topicObj.path);
+    const prevTopic = currentIndex > 0 ? visibleList[currentIndex - 1] : null;
+    const nextTopic = currentIndex >= 0 && currentIndex < visibleList.length - 1 ? visibleList[currentIndex + 1] : null;
 
     const categoryTitle = topicObj.categoryTitle || 'Interview Prep';
 
@@ -553,12 +606,41 @@
     const totalCategories = state.manifest.categories ? state.manifest.categories.length : 0;
     const completedCount = state.completedTopics.size;
 
+    const tracks = state.manifest.tracks || [];
+
+    let tracksCardsHtml = '';
+    tracks.forEach(tr => {
+      // Find first topic of track
+      const firstCat = state.manifest.categories.find(c => c.trackId === tr.id);
+      const firstTopic = firstCat && firstCat.topics && firstCat.topics[0] ? firstCat.topics[0] : null;
+      const startPath = firstTopic ? firstTopic.path : '';
+
+      tracksCardsHtml += `
+        <div class="track-card">
+          <div>
+            <div class="track-card-header">
+              <div class="track-card-icon">${tr.icon}</div>
+              <span class="track-badge">${tr.badge || 'Learning Track'}</span>
+            </div>
+            <h3 class="track-card-title">${escapeHtml(tr.title)}</h3>
+            <p class="track-card-desc">${escapeHtml(tr.description)}</p>
+          </div>
+          <div class="track-card-footer">
+            <span class="track-stats">📁 ${tr.categoryCount} Modules • 📄 ${tr.topicCount} Topics</span>
+            <button class="btn-select-track" onclick="window.selectCourseTrack('${tr.id}', '${startPath}')">
+              Explore Track →
+            </button>
+          </div>
+        </div>
+      `;
+    });
+
     let html = `
       <div class="welcome-hero">
-        <span class="hero-badge">🚀 Frontend & Angular Interview Prep</span>
-        <h1 class="hero-title">Master JavaScript & Angular Concepts</h1>
+        <span class="hero-badge">⚡ Master Engineering & Analytics Concepts</span>
+        <h1 class="hero-title">Interactive Learning & Interview Mastery</h1>
         <p class="hero-desc">
-          Structured notes, code implementations, RxJS patterns, and real-world frontend machine coding questions ready for high-yield preparation.
+          Choose a specialized course track below to focus your study. Notes, code implementations, step-by-step guides, and interactive quizzes organized for high-yield learning.
         </p>
 
         <div class="stats-grid">
@@ -568,7 +650,7 @@
           </div>
           <div class="stat-card">
             <div class="stat-number">${totalCategories}</div>
-            <div class="stat-label">Subject Categories</div>
+            <div class="stat-label">Subject Modules</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">${completedCount} / ${totalTopics}</div>
@@ -576,23 +658,10 @@
           </div>
         </div>
 
-        <div style="margin-top: 3rem; text-align: left;">
-          <h3 style="font-size: 1.2rem; margin-bottom: 1rem;">🔥 Recommended Topics to Start:</h3>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
-    `;
-
-    // Pick top 6 topics
-    const featured = state.allTopicsList.slice(0, 6);
-    featured.forEach(item => {
-      html += `
-        <a href="#/${encodeURIComponent(item.path)}" class="nav-card">
-          <span class="nav-label">${item.categoryIcon} ${escapeHtml(item.categoryTitle)}</span>
-          <span class="nav-title">${escapeHtml(item.title)}</span>
-        </a>
-      `;
-    });
-
-    html += `
+        <div class="tracks-section">
+          <h3 class="tracks-section-title">🎓 Select Your Learning Track:</h3>
+          <div class="tracks-grid">
+            ${tracksCardsHtml}
           </div>
         </div>
       </div>
