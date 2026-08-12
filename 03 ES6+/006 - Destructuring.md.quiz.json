@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03 ES6+/006 - Destructuring.md",
+  "title": "Destructuring Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "destructure-q1",
+      "topic": "Destructuring",
+      "question": "const { a, b } = { a: 1, b: 2 }; — what is `b`?",
+      "options": [
+        { "id": "a", "text": "undefined" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "null" },
+        { "id": "d", "text": "[object Object]" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Object destructuring binds variables to same-named properties.",
+      "difficulty": "easy",
+      "tags": ["object"]
+    },
+    {
+      "id": "destructure-q2",
+      "topic": "Destructuring",
+      "question": "How do you rename while destructuring? e.g. bind `name` to property `user`?",
+      "options": [
+        { "id": "a", "text": "const { user: name } = obj" },
+        { "id": "b", "text": "const { user as name } = obj" },
+        { "id": "c", "text": "const { name = user } = obj" },
+        { "id": "d", "text": "const name = obj.user()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The syntax { sourceProperty: targetVariable } renames during destructuring.",
+      "difficulty": "medium",
+      "tags": ["rename"]
+    },
+    {
+      "id": "destructure-q3",
+      "topic": "Destructuring",
+      "question": "const [x, , y] = [1, 2, 3]; — what is `y`?",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "3" },
+        { "id": "d", "text": "undefined" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The empty slot skips index 1; y binds to index 2 (value 3).",
+      "difficulty": "easy",
+      "tags": ["array", "skip"]
+    },
+    {
+      "id": "destructure-q4",
+      "topic": "Destructuring",
+      "question": "const { a = 10 } = {}; — what is `a`?",
+      "options": [
+        { "id": "a", "text": "undefined" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "{}" },
+        { "id": "d", "text": "null" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Default values apply when the property is undefined (here {} has no 'a').",
+      "difficulty": "medium",
+      "tags": ["default"]
+    },
+    {
+      "id": "destructure-q5",
+      "topic": "Destructuring",
+      "question": "const { a: { b } } = { a: { b: 5 } }; — what is `b`?",
+      "options": [
+        { "id": "a", "text": "5" },
+        { "id": "b", "text": "{ b: 5 }" },
+        { "id": "c", "text": "undefined" },
+        { "id": "d", "text": "Error" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nested destructuring reaches into the nested object to bind inner property b.",
+      "difficulty": "hard",
+      "tags": ["nested"]
+    },
+    {
+      "id": "destructure-q6",
+      "topic": "Destructuring",
+      "question": "Which is a valid use of destructuring in a function parameter?",
+      "options": [
+        { "id": "a", "text": "function f({ id, name }) { ... }" },
+        { "id": "b", "text": "function f(id, name) = {}" },
+        { "id": "c", "text": "function { id } f() {}" },
+        { "id": "d", "text": "function f(id: name) {}" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "You can destructure the incoming object directly in the parameter list — common for options objects.",
+      "difficulty": "medium",
+      "tags": ["parameters"]
+    }
+  ]
+}

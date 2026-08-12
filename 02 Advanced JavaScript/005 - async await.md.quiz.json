@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02 Advanced JavaScript/005 - async await.md",
+  "title": "async/await Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "async-q1",
+      "topic": "async/await",
+      "question": "What does an `async function` ALWAYS return?",
+      "options": [
+        { "id": "a", "text": "The raw value you return" },
+        { "id": "b", "text": "A Promise that resolves to the returned value" },
+        { "id": "c", "text": "undefined" },
+        { "id": "d", "text": "A generator object" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "async functions wrap the return value in a Promise automatically.",
+      "difficulty": "easy",
+      "tags": ["async"]
+    },
+    {
+      "id": "async-q2",
+      "topic": "async/await",
+      "question": "If you `await` a rejected promise, what happens?",
+      "options": [
+        { "id": "a", "text": "It returns undefined silently" },
+        { "id": "b", "text": "It throws inside the async function (catchable with try/catch)" },
+        { "id": "c", "text": "The program crashes always" },
+        { "id": "d", "text": "It logs to console only" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
+      "difficulty": "medium",
+      "tags": ["await", "error"]
+    },
+    {
+      "id": "async-q3",
+      "topic": "async/await",
+      "question": "To run two independent async calls in PARALLEL with async/await, you should...",
+      "options": [
+        { "id": "a", "text": "await callA(); await callB();" },
+        { "id": "b", "text": "const [a,b] = await Promise.all([callA(), callB()]);" },
+        { "id": "c", "text": "await Promise.race([callA(), callB()]);" },
+        { "id": "d", "text": "Just call them without await" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Start both promises, then await Promise.all so they run concurrently, not sequentially.",
+      "difficulty": "medium",
+      "tags": ["parallel", "promise-all"]
+    },
+    {
+      "id": "async-q4",
+      "topic": "async/await",
+      "question": "`await` can only be used inside...?",
+      "options": [
+        { "id": "a", "text": "Any regular function" },
+        { "id": "b", "text": "An async function (or top-level await in modules)" },
+        { "id": "c", "text": "A for-loop only" },
+        { "id": "d", "text": "A callback" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "await is only valid inside async functions (or module top-level await).",
+      "difficulty": "easy",
+      "tags": ["syntax"]
+    },
+    {
+      "id": "async-q5",
+      "topic": "async/await",
+      "question": "Under the hood, async/await is built on top of...?",
+      "options": [
+        { "id": "a", "text": "Callback hell only" },
+        { "id": "b", "text": "Promises (syntactic sugar over .then)" },
+        { "id": "c", "text": "Web Workers" },
+        { "id": "d", "text": "Generators only, no Promises" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "async/await is syntactic sugar over Promise chaining, making async code read like sync code.",
+      "difficulty": "medium",
+      "tags": ["promises", "sugar"]
+    },
+    {
+      "id": "async-q6",
+      "topic": "async/await",
+      "question": "What does `await` actually do to the surrounding code?",
+      "options": [
+        { "id": "a", "text": "Blocks the main thread until done" },
+        { "id": "b", "text": "Suspends the async function, yielding control back to the event loop" },
+        { "id": "c", "text": "Stops all JavaScript execution" },
+        { "id": "d", "text": "Runs the callback synchronously" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "await pauses the async function (non-blocking); other code keeps running via the event loop.",
+      "difficulty": "hard",
+      "tags": ["event-loop", "non-blocking"]
+    },
+    {
+      "id": "async-q7",
+      "topic": "async/await",
+      "question": "If a function is marked `async` but never uses `await`, it still...",
+      "options": [
+        { "id": "a", "text": "Throws a syntax error" },
+        { "id": "b", "text": "Returns a Promise (just resolves immediately)" },
+        { "id": "c", "text": "Returns a plain value" },
+        { "id": "d", "text": "Does not compile" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The async keyword alone forces Promise-return semantics regardless of await usage.",
+      "difficulty": "easy",
+      "tags": ["async"]
+    },
+    {
+      "id": "async-q8",
+      "topic": "async/await",
+      "question": "Which is the BEST pattern for handling multiple awaits that may each fail independently?",
+      "options": [
+        { "id": "a", "text": "One giant try/catch around everything" },
+        { "id": "b", "text": "try/catch per step OR Promise.allSettled then inspect each result" },
+        { "id": "c", "text": "Ignore errors" },
+        { "id": "d", "text": "Use setTimeout" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per-step try/catch or allSettled gives granular control over which operations succeeded.",
+      "difficulty": "hard",
+      "tags": ["error-handling"]
+    }
+  ]
+}

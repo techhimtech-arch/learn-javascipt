@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03 ES6+/002 - Arrow Functions.md",
+  "title": "Arrow Functions Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "arrow-q1",
+      "topic": "Arrow Functions",
+      "question": "What do arrow functions NOT have of their own?",
+      "options": [
+        { "id": "a", "text": "A return value" },
+        { "id": "b", "text": "Their own 'this' binding (they inherit lexical this)" },
+        { "id": "c", "text": "Parameters" },
+        { "id": "d", "text": "A body" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrow functions capture 'this' from the enclosing scope — no own this, arguments, super, or new.target.",
+      "difficulty": "easy",
+      "tags": ["this", "lexical"]
+    },
+    {
+      "id": "arrow-q2",
+      "topic": "Arrow Functions",
+      "question": "Can you use `new` with an arrow function?",
+      "options": [
+        { "id": "a", "text": "Yes, always" },
+        { "id": "b", "text": "No — arrow functions are not constructors" },
+        { "id": "c", "text": "Only if it has a body" },
+        { "id": "d", "text": "Only in strict mode" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrows lack [[Construct]], so calling them with new throws a TypeError.",
+      "difficulty": "easy",
+      "tags": ["constructor", "new"]
+    },
+    {
+      "id": "arrow-q3",
+      "topic": "Arrow Functions",
+      "question": "Which arrow syntax implicitly returns a value (no 'return' keyword)?",
+      "options": [
+        { "id": "a", "text": "const f = (x) => { x * 2 }" },
+        { "id": "b", "text": "const f = x => x * 2" },
+        { "id": "c", "text": "const f = (x) => { return; }" },
+        { "id": "d", "text": "const f = function(x){ return x*2 }" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concise-body arrow (no braces) implicitly returns its single expression.",
+      "difficulty": "medium",
+      "tags": ["concise", "return"]
+    },
+    {
+      "id": "arrow-q4",
+      "topic": "Arrow Functions",
+      "question": "Inside an arrow function, what is `arguments`?",
+      "options": [
+        { "id": "a", "text": "The arrow's own arguments array" },
+        { "id": "b", "text": "The arguments of the enclosing (lexical) function, or undefined in module scope" },
+        { "id": "c", "text": "Always an empty array" },
+        { "id": "d", "text": "A SyntaxError" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrows have no own 'arguments'; they reference the outer function's arguments object.",
+      "difficulty": "hard",
+      "tags": ["arguments"]
+    },
+    {
+      "id": "arrow-q5",
+      "topic": "Arrow Functions",
+      "question": "Why are arrow functions a poor choice for object methods that need `this`?",
+      "options": [
+        { "id": "a", "text": "They are slower" },
+        { "id": "b", "text": "They do not bind 'this' to the object, so 'this' is the enclosing scope" },
+        { "id": "c", "text": "They cannot be named" },
+        { "id": "d", "text": "They throw on call" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "object.method = () => this.x uses lexical this (outer scope), not the method's receiver — typically unwanted.",
+      "difficulty": "medium",
+      "tags": ["methods", "this"]
+    },
+    {
+      "id": "arrow-q6",
+      "topic": "Arrow Functions",
+      "question": "How do you return an object literal concisely with an arrow function?",
+      "options": [
+        { "id": "a", "text": "() => { foo: 1 }" },
+        { "id": "b", "text": "() => ({ foo: 1 })" },
+        { "id": "c", "text": "() => return { foo: 1 }" },
+        { "id": "d", "text": "() => new Object(1)" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wrap the literal in parentheses so {} is parsed as an object, not a block body.",
+      "difficulty": "medium",
+      "tags": ["object-literal"]
+    }
+  ]
+}

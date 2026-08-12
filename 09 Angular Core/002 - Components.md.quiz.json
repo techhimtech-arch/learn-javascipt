@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "09 Angular Core/002 - Components.md",
+  "title": "Angular Components Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "ng-comp-q1",
+      "topic": "Angular Components",
+      "question": "A component is fundamentally a...?",
+      "options": [
+        { "id": "a", "text": "A CSS class" },
+        { "id": "b", "text": "A class decorated with @Component that controls a view template" },
+        { "id": "c", "text": "A service" },
+        { "id": "d", "text": "A module" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Components pair a TS class with a template + metadata via @Component to render a UI region.",
+      "difficulty": "easy",
+      "tags": ["component", "decorator"]
+    },
+    {
+      "id": "ng-comp-q2",
+      "topic": "Angular Components",
+      "question": "Which decorator metadata defines the HTML tag name?",
+      "options": [
+        { "id": "a", "text": "templateUrl" },
+        { "id": "b", "text": "selector" },
+        { "id": "c", "text": "styleUrls" },
+        { "id": "d", "text": "providers" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "selector defines the custom element name (e.g. 'app-root') used in templates.",
+      "difficulty": "easy",
+      "tags": ["selector"]
+    },
+    {
+      "id": "ng-comp-q3",
+      "topic": "Angular Components",
+      "question": "What is the default change detection strategy that checks every component on each event?",
+      "options": [
+        { "id": "a", "text": "OnPush" },
+        { "id": "b", "text": "Default (CheckAlways)" },
+        { "id": "c", "text": "Detached" },
+        { "id": "d", "text": "Manual" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Default strategy runs change detection on every tick; OnPush restricts it to input/event/observable changes.",
+      "difficulty": "medium",
+      "tags": ["change-detection"]
+    },
+    {
+      "id": "ng-comp-q4",
+      "topic": "Angular Components",
+      "question": "Which lifecycle hook runs ONCE after the first render, when inputs are bound?",
+      "options": [
+        { "id": "a", "text": "ngOnInit" },
+        { "id": "b", "text": "ngOnChanges only" },
+        { "id": "c", "text": "ngAfterViewInit for inputs" },
+        { "id": "d", "text": "constructor" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ngOnInit is called once after the first ngOnChanges, once component inputs are available.",
+      "difficulty": "medium",
+      "tags": ["lifecycle", "ngoninit"]
+    },
+    {
+      "id": "ng-comp-q5",
+      "topic": "Angular Components",
+      "question": "To communicate parent -> child, you use...?",
+      "options": [
+        { "id": "a", "text": "Output only" },
+        { "id": "b", "text": "@Input() decorated properties" },
+        { "id": "c", "text": "A shared module" },
+        { "id": "d", "text": "Router params" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "@Input() properties receive data from a parent component's template binding.",
+      "difficulty": "easy",
+      "tags": ["input", "communication"]
+    },
+    {
+      "id": "ng-comp-q6",
+      "topic": "Angular Components",
+      "question": "Standalone components (Angular 15+) do NOT require...?",
+      "options": [
+        { "id": "a", "text": "A decorator" },
+        { "id": "b", "text": "Declaration inside an NgModule" },
+        { "id": "c", "text": "A selector" },
+        { "id": "d", "text": "A template" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Standalone components declare their own imports and can be used without being declared in an NgModule.",
+      "difficulty": "hard",
+      "tags": ["standalone", "module"]
+    }
+  ]
+}

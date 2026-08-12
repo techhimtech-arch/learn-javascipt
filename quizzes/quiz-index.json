@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-08-12T08:56:37.713Z",
+  "count": 12,
+  "topics": {
+    "01-javascript-fundamentals-001---javascript-engine-md": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json",
+    "02-advanced-javascript-001---promises-md": "02 Advanced JavaScript/001 - Promises.md.quiz.json",
+    "02-advanced-javascript-005---async-await-md": "02 Advanced JavaScript/005 - async await.md.quiz.json",
+    "02-advanced-javascript-006---event-loop-md": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json",
+    "03-es6--002---arrow-functions-md": "03 ES6+/002 - Arrow Functions.md.quiz.json",
+    "03-es6--006---destructuring-md": "03 ES6+/006 - Destructuring.md.quiz.json",
+    "04-typescript-003---interfaces-md": "04 TypeScript/003 - Interfaces.md.quiz.json",
+    "04-typescript-012---decorators-md": "04 TypeScript/012 - Decorators.md.quiz.json",
+    "08-rxjs-022---rxjs-vs-promise-md": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json",
+    "09-angular-core-002---components-md": "09 Angular Core/002 - Components.md.quiz.json",
+    "09-angular-core-007---dependency-injection-md": "09 Angular Core/007 - Dependency Injection.md.quiz.json",
+    "09-angular-core-012---change-detection-md": "09 Angular Core/012 - Change Detection.md.quiz.json"
+  }
+}

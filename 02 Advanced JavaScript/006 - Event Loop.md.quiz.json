@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02 Advanced JavaScript/006 - Event Loop.md",
+  "title": "Event Loop Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "eventloop-q1",
+      "topic": "Event Loop",
+      "question": "What is the correct ordering of the queues in the event loop?",
+      "options": [
+        { "id": "a", "text": "Macrotasks run before microtasks" },
+        { "id": "b", "text": "Microtasks (drain fully) run before the next macrotask" },
+        { "id": "c", "text": "They run simultaneously" },
+        { "id": "d", "text": "Render tasks run before microtasks" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "After the current task, the microtask queue is fully drained before the next macrotask and before rendering.",
+      "difficulty": "medium",
+      "tags": ["microtask", "macrotask"]
+    },
+    {
+      "id": "eventloop-q2",
+      "topic": "Event Loop",
+      "question": "Which of these is a MACROtask (not a microtask)?",
+      "options": [
+        { "id": "a", "text": "Promise.then callback" },
+        { "id": "b", "text": "queueMicrotask" },
+        { "id": "c", "text": "setTimeout / setInterval" },
+        { "id": "d", "text": "MutationObserver" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "setTimeout/setInterval/setImmediate are macrotasks; promise reactions, queueMicrotask, MutationObserver are microtasks.",
+      "difficulty": "medium",
+      "tags": ["macrotask", "settimeout"]
+    },
+    {
+      "id": "eventloop-q3",
+      "topic": "Event Loop",
+      "question": "Given the code, what prints first?\nconsole.log('1');\nsetTimeout(()=>console.log('2'),0);\nPromise.resolve().then(()=>console.log('3'));\nconsole.log('4');",
+      "options": [
+        { "id": "a", "text": "1, 4, 3, 2" },
+        { "id": "b", "text": "1, 4, 2, 3" },
+        { "id": "c", "text": "1, 2, 3, 4" },
+        { "id": "d", "text": "4, 3, 2, 1" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sync logs 1 and 4; promise microtask (3) runs before the setTimeout macrotask (2).",
+      "difficulty": "hard",
+      "tags": ["ordering"]
+    },
+    {
+      "id": "eventloop-q4",
+      "topic": "Event Loop",
+      "question": "Who provides the Event Loop — the JS engine (V8) or the runtime (browser/Node)?",
+      "options": [
+        { "id": "a", "text": "V8 engine" },
+        { "id": "b", "text": "The runtime environment" },
+        { "id": "c", "text": "The CPU" },
+        { "id": "d", "text": "The DOM" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Event Loop is part of the host runtime (libuv in Node, browser), not the ECMAScript spec/engine.",
+      "difficulty": "medium",
+      "tags": ["runtime"]
+    },
+    {
+      "id": "eventloop-q5",
+      "topic": "Event Loop",
+      "question": "What is the danger of an infinite chain of microtasks?",
+      "options": [
+        { "id": "a", "text": "It crashes the CPU instantly" },
+        { "id": "b", "text": "It starves the macrotask queue and UI rendering (page freezes)" },
+        { "id": "c", "text": "It has no effect" },
+        { "id": "d", "text": "It only affects Node.js" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Because microtasks drain fully before macrotasks/rendering, an infinite microtask loop blocks the UI.",
+      "difficulty": "hard",
+      "tags": ["starvation"]
+    },
+    {
+      "id": "eventloop-q6",
+      "topic": "Event Loop",
+      "question": "In Node.js, which is generally processed before timers (setTimeout)?",
+      "options": [
+        { "id": "a", "text": "Microtasks (promise reactions) between phases" },
+        { "id": "b", "text": "setImmediate always" },
+        { "id": "c", "text": "I/O callbacks always" },
+        { "id": "d", "text": "Nothing — timers always first" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Node runs the microtask queue between each phase of its loop, so pending promise reactions run before timers.",
+      "difficulty": "hard",
+      "tags": ["node"]
+    }
+  ]
+}

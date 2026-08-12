@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "09 Angular Core/007 - Dependency Injection.md",
+  "title": "Angular Dependency Injection Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "ng-di-q1",
+      "topic": "Dependency Injection",
+      "question": "What decorator marks a class as available to the DI system as a singleton service?",
+      "options": [
+        { "id": "a", "text": "@Component()" },
+        { "id": "b", "text": "@Injectable()" },
+        { "id": "c", "text": "@NgModule()" },
+        { "id": "d", "text": "@Pipe()" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "@Injectable() marks a class as a service that the injector can create and provide.",
+      "difficulty": "easy",
+      "tags": ["injectable", "service"]
+    },
+    {
+      "id": "ng-di-q2",
+      "topic": "Dependency Injection",
+      "question": "What is the hierarchical injector tree in Angular?",
+      "options": [
+        { "id": "a", "text": "A single global injector only" },
+        { "id": "b", "text": "Root, module, and component-level injectors that resolve tokens up the tree" },
+        { "id": "c", "text": "Injectors are flat" },
+        { "id": "d", "text": "It does not exist" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Angular has a tree of injectors; a component gets the nearest provider, walking up to root if absent.",
+      "difficulty": "hard",
+      "tags": ["hierarchical", "injector"]
+    },
+    {
+      "id": "ng-di-q3",
+      "topic": "Dependency Injection",
+      "question": "Providing a service in a component's `providers` array means...?",
+      "options": [
+        { "id": "a", "text": "A new instance is created per component instance" },
+        { "id": "b", "text": "It becomes a singleton for the whole app" },
+        { "id": "c", "text": "It is removed from DI" },
+        { "id": "d", "text": "Only the module can use it" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Component-level providers create a new instance scoped to that component (and its children), not app-wide.",
+      "difficulty": "medium",
+      "tags": ["providers", "scope"]
+    },
+    {
+      "id": "ng-di-q4",
+      "topic": "Dependency Injection",
+      "question": "What is the `providedIn: 'root'` alternative to?",
+      "options": [
+        { "id": "a", "text": "Listing the service in a module's providers array" },
+        { "id": "b", "text": "Using @Input()" },
+        { "id": "c", "text": "Using a Pipe" },
+        { "id": "d", "text": "Using Router" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "providedIn:'root' registers the service with the root injector without manually adding it to providers.",
+      "difficulty": "medium",
+      "tags": ["providedin", "root"]
+    },
+    {
+      "id": "ng-di-q5",
+      "topic": "Dependency Injection",
+      "question": "What is the `inject()` function used for?",
+      "options": [
+        { "id": "a", "text": "Injecting dependencies inside injection contexts (e.g. field initializers)" },
+        { "id": "b", "text": "HTTP requests" },
+        { "id": "c", "text": "Routing" },
+        { "id": "d", "text": "DOM manipulation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "inject() is a standalone alternative to constructor injection, usable in fields, factories, and in routes/guards.",
+      "difficulty": "hard",
+      "tags": ["inject", "modern"]
+    },
+    {
+      "id": "ng-di-q6",
+      "topic": "Dependency Injection",
+      "question": "How does Angular know WHICH dependency to inject by type?",
+      "options": [
+        { "id": "a", "text": "It guesses from the variable name" },
+        { "id": "b", "text": "From the constructor parameter type + emitted decorator metadata" },
+        { "id": "c", "text": "From the template" },
+        { "id": "d", "text": "It asks the user" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "DI resolves tokens via constructor param types, using design:paramtypes metadata when available.",
+      "difficulty": "medium",
+      "tags": ["token", "metadata"]
+    }
+  ]
+}

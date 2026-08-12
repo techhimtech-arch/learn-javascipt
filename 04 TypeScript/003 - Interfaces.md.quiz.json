@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "04 TypeScript/003 - Interfaces.md",
+  "title": "TypeScript Interfaces Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "ts-iface-q1",
+      "topic": "Interfaces",
+      "question": "What is the key difference between an `interface` and a `type` alias in TypeScript?",
+      "options": [
+        { "id": "a", "text": "They are completely identical with no differences" },
+        { "id": "b", "text": "Interfaces are extendable/merged via declaration merging; type aliases cannot be reopened" },
+        { "id": "c", "text": "type aliases can only hold primitives" },
+        { "id": "d", "text": "Interfaces compile to JavaScript; type aliases do not" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Interfaces support declaration merging and 'extends'; type aliases are closed and support unions/intersections better.",
+      "difficulty": "medium",
+      "tags": ["interface", "type"]
+    },
+    {
+      "id": "ts-iface-q2",
+      "topic": "Interfaces",
+      "question": "Which is a valid way to make a property optional in an interface?",
+      "options": [
+        { "id": "a", "text": "name?: string;" },
+        { "id": "b", "text": "optional name: string;" },
+        { "id": "c", "text": "name string?;" },
+        { "id": "d", "text": "name!: string;" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The ? postfix marks an optional property.",
+      "difficulty": "easy",
+      "tags": ["optional"]
+    },
+    {
+      "id": "ts-iface-q3",
+      "topic": "Interfaces",
+      "question": "Can an interface describe a function signature?",
+      "options": [
+        { "id": "a", "text": "No, only type aliases can" },
+        { "id": "b", "text": "Yes — interface Fn { (a: number): string }" },
+        { "id": "c", "text": "Only with 'class'" },
+        { "id": "d", "text": "Only for arrow functions" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Interfaces can declare call signatures, index signatures, and construct signatures.",
+      "difficulty": "medium",
+      "tags": ["call-signature"]
+    },
+    {
+      "id": "ts-iface-q4",
+      "topic": "Interfaces",
+      "question": "Declaration merging means...",
+      "options": [
+        { "id": "a", "text": "Two interface declarations with the same name are combined" },
+        { "id": "b", "text": "Interfaces are minified at build time" },
+        { "id": "c", "text": "They become classes" },
+        { "id": "d", "text": "They are deleted from the output" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Multiple interface declarations with the same name merge — useful for ambient/global augmentation.",
+      "difficulty": "hard",
+      "tags": ["merging"]
+    },
+    {
+      "id": "ts-iface-q5",
+      "topic": "Interfaces",
+      "question": "An interface with only an index signature `interface Dict { [k: string]: number }` means...?",
+      "options": [
+        { "id": "a", "text": "Exactly one property allowed" },
+        { "id": "b", "text": "Any string key maps to a number value" },
+        { "id": "c", "text": "Keys must be numbers" },
+        { "id": "d", "text": "It is invalid syntax" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Index signatures describe the type of all properties accessed by that key type.",
+      "difficulty": "medium",
+      "tags": ["index-signature"]
+    },
+    {
+      "id": "ts-iface-q6",
+      "topic": "Interfaces",
+      "question": "Which is preferred for describing React/Angular component props in most codebases?",
+      "options": [
+        { "id": "a", "text": "A class" },
+        { "id": "b", "text": "An interface (e.g. Props) or type alias — both common" },
+        { "id": "c", "text": "A namespace only" },
+        { "id": "d", "text": "A function" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Both interface and type alias work for props; convention varies by team.",
+      "difficulty": "easy",
+      "tags": ["props"]
+    }
+  ]
+}

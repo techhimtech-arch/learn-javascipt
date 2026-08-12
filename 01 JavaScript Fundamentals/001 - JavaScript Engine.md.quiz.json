@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md",
+  "title": "JavaScript Engine Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "js-engine-q1",
+      "topic": "JavaScript Engine",
+      "question": "Which engine powers BOTH Google Chrome and Node.js?",
+      "options": [
+        { "id": "a", "text": "SpiderMonkey" },
+        { "id": "b", "text": "V8" },
+        { "id": "c", "text": "Chakra" },
+        { "id": "d", "text": "JavaScriptCore" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
+      "difficulty": "easy",
+      "tags": ["engine", "runtime"]
+    },
+    {
+      "id": "js-engine-q2",
+      "topic": "JavaScript Engine",
+      "question": "What is the first stage a JS engine performs after reading source code?",
+      "options": [
+        { "id": "a", "text": "Execute it line by line immediately" },
+        { "id": "b", "text": "Parse it into an Abstract Syntax Tree (AST)" },
+        { "id": "c", "text": "Compile directly to machine code" },
+        { "id": "d", "text": "Send it to the GPU" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
+      "difficulty": "medium",
+      "tags": ["parser", "ast"]
+    },
+    {
+      "id": "js-engine-q3",
+      "topic": "JavaScript Engine",
+      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
+      "options": [
+        { "id": "a", "text": "Interprets code once and discards it" },
+        { "id": "b", "text": "Optimizes frequently-run ('hot') code paths dynamically" },
+        { "id": "c", "text": "Only runs during page load" },
+        { "id": "d", "text": "Disables the garbage collector" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
+      "difficulty": "medium",
+      "tags": ["jit", "v8"]
+    },
+    {
+      "id": "js-engine-q4",
+      "topic": "JavaScript Engine",
+      "question": "Is Node.js a JavaScript engine?",
+      "options": [
+        { "id": "a", "text": "Yes, Node.js is the engine" },
+        { "id": "b", "text": "No, Node.js is a runtime that embeds the V8 engine" },
+        { "id": "c", "text": "No, it is a browser" },
+        { "id": "d", "text": "Yes, but only on Windows" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
+      "difficulty": "easy",
+      "tags": ["runtime", "node"]
+    },
+    {
+      "id": "js-engine-q5",
+      "topic": "JavaScript Engine",
+      "question": "Which component of the engine reclaims unused memory automatically?",
+      "options": [
+        { "id": "a", "text": "The Call Stack" },
+        { "id": "b", "text": "The Parser" },
+        { "id": "c", "text": "The Garbage Collector" },
+        { "id": "d", "text": "The Event Loop" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
+      "difficulty": "easy",
+      "tags": ["memory", "gc"]
+    },
+    {
+      "id": "js-engine-q6",
+      "topic": "JavaScript Engine",
+      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
+      "options": [
+        { "id": "a", "text": "Using consistent object shapes" },
+        { "id": "b", "text": "Reassigning a variable to a different type in a hot path" },
+        { "id": "c", "text": "Adding 'use strict'" },
+        { "id": "d", "text": "Declaring const variables" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
+      "difficulty": "hard",
+      "tags": ["optimization", "deopt"]
+    },
+    {
+      "id": "js-engine-q7",
+      "topic": "JavaScript Engine",
+      "question": "Which statement is TRUE about the Event Loop?",
+      "options": [
+        { "id": "a", "text": "It is part of the JavaScript language spec" },
+        { "id": "b", "text": "It is provided by the runtime environment (browser/Node), not the engine itself" },
+        { "id": "c", "text": "It lives inside V8 directly" },
+        { "id": "d", "text": "It only exists in Node.js" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
+      "difficulty": "medium",
+      "tags": ["event-loop", "runtime"]
+    },
+    {
+      "id": "js-engine-q8",
+      "topic": "JavaScript Engine",
+      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
+      "options": [
+        { "id": "a", "text": "CSS animations" },
+        { "id": "b", "text": "Change detection after async operations" },
+        { "id": "c", "text": "Garbage collection" },
+        { "id": "d", "text": "HTTP caching" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
+      "difficulty": "hard",
+      "tags": ["angular", "zonejs"]
+    }
+  ]
+}

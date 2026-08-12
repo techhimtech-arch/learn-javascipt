@@ -432,6 +432,13 @@
       return;
     }
 
+    // Quiz routes: #/quiz/banks | #/quiz/bank/<id> | #/quiz/topic/<topicId>
+    if (rawHash.indexOf('#/quiz/') === 0) {
+      const segments = rawHash.replace('#/quiz/', '').split('/').filter(Boolean);
+      await handleQuizRoute(segments);
+      return;
+    }
+
     const topicPath = decodeURIComponent(rawHash.replace(/^#\//, ''));
     const topicObj = state.allTopicsList.find(t => t.path === topicPath);
 
@@ -552,6 +559,9 @@
 
     // Generate Table of Contents
     generateTOC();
+
+    // Inject per-topic "Take Quiz" button if a quiz exists for this topic
+    injectTopicQuizButton(topicObj);
   }
 
   function updateArticleActionButtons() {
@@ -718,6 +728,310 @@
   }
 
   window.closeSearchModal = closeSearchModal;
+
+  // ============================================================
+  //  QUIZ SYSTEM  (banks + per-topic quizzes, offline results)
+  // ============================================================
+
+  const Quiz = {
+    index: null,        // quiz-index.json: topicId -> relative path
+    banksMeta: null,    // fetched bank list (id/title/icon/count)
+    current: null,      // active runner state
+    _cache: {}          // cache of fetched bank/topic JSON
+  };
+
+  function quizHash(parts) {
+    return '#/quiz/' + parts.join('/');
+  }
+
+  async function ensureQuizIndex() {
+    if (Quiz.index) return Quiz.index;
+    try {
+      const res = await fetch('./quizzes/quiz-index.json');
+      if (!res.ok) throw new Error('no quiz-index');
+      Quiz.index = await res.json();
+    } catch (e) {
+      Quiz.index = { topics: {} };
+    }
+    return Quiz.index;
+  }
+
+  async function loadBank(id) {
+    if (Quiz._cache['bank:' + id]) return Quiz._cache['bank:' + id];
+    const res = await fetch('./quizzes/banks/' + id + '.json');
+    if (!res.ok) throw new Error('bank not found: ' + id);
+    const data = await res.json();
+    Quiz._cache['bank:' + id] = data;
+    return data;
+  }
+
+  async function loadTopicQuiz(topicId) {
+    await ensureQuizIndex();
+    const rel = Quiz.index.topics[topicId];
+    if (!rel) throw new Error('No quiz for topic: ' + topicId);
+    if (Quiz._cache['topic:' + topicId]) return Quiz._cache['topic:' + topicId];
+    const res = await fetch('./' + rel.split('/').map(s => encodeURIComponent(s)).join('/'));
+    if (!res.ok) throw new Error('topic quiz not found');
+    const data = await res.json();
+    Quiz._cache['topic:' + topicId] = data;
+    return data;
+  }
+
+  async function ensureBanksMeta() {
+    if (Quiz.banksMeta) return Quiz.banksMeta;
+    const ids = ['interview', 'angular', 'concepts'];
+    const meta = [];
+    for (const id of ids) {
+      try {
+        const b = await loadBank(id);
+        meta.push({ id: b.bankId, title: b.title, icon: b.icon, description: b.description, count: b.questionCount });
+      } catch (e) { /* bank missing */ }
+    }
+    Quiz.banksMeta = meta;
+    return meta;
+  }
+
+  // ---- Render: Bank chooser ----
+  async function renderQuizHome() {
+    const meta = await ensureBanksMeta();
+    const hasTopicQuizzes = Quiz.index && Quiz.index.topics && Object.keys(Quiz.index.topics).length > 0;
+
+    let cards = meta.map(m => `
+      <div class="quiz-bank-card" onclick="window.startQuiz('bank','${m.id}')">
+        <div class="quiz-bank-icon">${m.icon}</div>
+        <h3 class="quiz-bank-title">${escapeHtml(m.title)}</h3>
+        <p class="quiz-bank-desc">${escapeHtml(m.description)}</p>
+        <div class="quiz-bank-foot"><span class="quiz-bank-count">${m.count} questions</span><span class="quiz-bank-go">Start →</span></div>
+      </div>`).join('');
+
+    DOM.articleContent.innerHTML = `
+      <div class="quiz-home">
+        <span class="hero-badge">🧩 Practice & Revision</span>
+        <h1 class="hero-title">Quizzes</h1>
+        <p class="hero-desc">Test yourself with curated banks or topic-by-topic quizzes. Progress is saved offline (IndexedDB).</p>
+        <h3 class="tracks-section-title">🎯 Quiz Banks</h3>
+        <div class="quiz-banks-grid">${cards || '<p style="color:var(--text-muted)">No quiz banks generated yet. Run <code>node aggregate_quizzes.js</code>.</p>'}</div>
+        ${hasTopicQuizzes ? `
+          <h3 class="tracks-section-title" style="margin-top:2rem">📚 Topic Quizzes</h3>
+          <p class="hero-desc" style="margin-bottom:.5rem">Open any topic article and click <b>🧩 Take Quiz</b> to test just that concept.</p>
+        ` : ''}
+      </div>`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    generateTOC();
+  }
+
+  // ---- Render: Runner for a bank or topic quiz ----
+  async function startQuiz(kind, id) {
+    let data, scopeKey;
+    try {
+      if (kind === 'bank') {
+        data = await loadBank(id);
+        scopeKey = 'bank:' + id;
+      } else {
+        data = await loadTopicQuiz(id);
+        scopeKey = 'topic:' + id;
+      }
+    } catch (e) {
+      DOM.articleContent.innerHTML = `<div class="welcome-hero"><h2 style="color:var(--warning-color)">⚠️ Quiz not found</h2><p class="hero-desc">${escapeHtml(e.message)}</p><a href="${quizHash(['banks'])}" class="btn-action" style="display:inline-flex;margin-top:1rem">← Back to Quizzes</a></div>`;
+      return;
+    }
+
+    const questions = (data.questions || []).map((q, i) => Object.assign({}, q, { _idx: i }));
+    if (!questions.length) {
+      DOM.articleContent.innerHTML = `<div class="welcome-hero"><h2>No questions yet</h2><a href="${quizHash(['banks'])}" class="btn-action" style="display:inline-flex;margin-top:1rem">← Back</a></div>`;
+      return;
+    }
+
+    Quiz.current = {
+      kind: kind, id: id, scopeKey: scopeKey,
+      title: data.title || 'Quiz',
+      questions: questions,
+      pos: 0, answers: {}, finished: false
+    };
+    window.location.hash = kind === 'bank' ? quizHash(['bank', id]) : quizHash(['topic', id]);
+    renderQuizRunner();
+  }
+
+  function renderQuizRunner() {
+    const q = Quiz.current;
+    if (!q) return;
+    if (q.finished) { renderQuizResult(); return; }
+
+    const item = q.questions[q.pos];
+    const total = q.questions.length;
+    const answered = q.answers[item._idx];
+    const opts = item.options.map(o => {
+      let cls = 'quiz-option';
+      if (answered) {
+        if (o.id === item.correctOptionId) cls += ' correct';
+        else if (o.id === answered && o.id !== item.correctOptionId) cls += ' wrong';
+        else cls += ' disabled';
+      }
+      return `<button class="${cls}" ${answered ? 'disabled' : ''} onclick="window.answerQuiz('${o.id}')">
+          <span class="quiz-opt-key">${o.id.toUpperCase()}</span>
+          <span class="quiz-opt-text">${escapeHtml(o.text)}</span>
+          ${answered && o.id === item.correctOptionId ? '<span class="quiz-opt-mark">✔</span>' : ''}
+          ${answered && o.id === answered && o.id !== item.correctOptionId ? '<span class="quiz-opt-mark">✘</span>' : ''}
+        </button>`;
+    }).join('');
+
+    const explain = answered ? `
+      <div class="quiz-explain ${answered === item.correctOptionId ? 'ok' : 'no'}">
+        <strong>${answered === item.correctOptionId ? '✅ Correct!' : '❌ Incorrect.'}</strong>
+        <p>${escapeHtml(item.explanation || 'No explanation provided.')}</p>
+      </div>` : '';
+
+    DOM.articleContent.innerHTML = `
+      <div class="quiz-runner">
+        <div class="quiz-runner-head">
+          <button class="btn-action ghost" onclick="window.exitQuiz()">← Exit</button>
+          <div class="quiz-progress-wrap">
+            <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(q.pos / total) * 100}%"></div></div>
+            <span class="quiz-progress-text">${q.pos + 1} / ${total}</span>
+          </div>
+          <span class="quiz-tag">${q.kind === 'bank' ? '🎯 Bank' : '📚 Topic'}</span>
+        </div>
+        <h2 class="quiz-question">${escapeHtml(item.question)}</h2>
+        <div class="quiz-options">${opts}</div>
+        ${explain}
+        <div class="quiz-runner-foot">
+          ${answered ? `<button class="btn-action primary" onclick="window.nextQuiz()">${q.pos + 1 < total ? 'Next →' : 'See Results →'}</button>` : '<span class="quiz-hint">Pick an option to continue.</span>'}
+        </div>
+      </div>`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    generateTOC();
+  }
+
+  window.answerQuiz = function (optionId) {
+    const q = Quiz.current;
+    if (!q || q.finished) return;
+    const item = q.questions[q.pos];
+    if (q.answers[item._idx]) return; // already answered
+    q.answers[item._idx] = optionId;
+    renderQuizRunner();
+  };
+
+  window.nextQuiz = function () {
+    const q = Quiz.current;
+    if (!q) return;
+    if (q.pos + 1 < q.questions.length) {
+      q.pos++;
+      renderQuizRunner();
+    } else {
+      q.finished = true;
+      renderQuizResult();
+    }
+  };
+
+  window.exitQuiz = function () {
+    Quiz.current = null;
+    window.location.hash = quizHash(['banks']);
+  };
+
+  function renderQuizResult() {
+    const q = Quiz.current;
+    if (!q) return;
+    const total = q.questions.length;
+    let correct = 0;
+    q.questions.forEach(item => {
+      if (q.answers[item._idx] === item.correctOptionId) correct++;
+    });
+    const percent = Math.round((correct / total) * 100);
+    const wrong = q.questions.filter(item => q.answers[item._idx] !== item.correctOptionId);
+
+    const review = wrong.map(item => `
+      <div class="quiz-review-item">
+        <div class="quiz-review-q">${escapeHtml(item.question)}</div>
+        <div class="quiz-review-a"><span class="tag-no">Your: ${q.answers[item._idx] ? escapeHtml(q.answers[item._idx].toUpperCase()) : '—'}</span> <span class="tag-yes">Correct: ${escapeHtml(item.correctOptionId.toUpperCase())}</span></div>
+        <div class="quiz-review-exp">${escapeHtml(item.explanation || '')}</div>
+      </div>`).join('');
+
+    // Persist result offline
+    const record = {
+      id: q.scopeKey + ':' + Date.now(),
+      scopeKey: q.scopeKey,
+      title: q.title,
+      kind: q.kind,
+      total: total,
+      correct: correct,
+      percent: percent,
+      takenAt: new Date().toISOString()
+    };
+    if (window.QuizDB) window.QuizDB.saveQuizResult(record).catch(() => {});
+
+    DOM.articleContent.innerHTML = `
+      <div class="quiz-result">
+        <div class="quiz-result-score ${percent >= 70 ? 'pass' : 'fail'}">
+          <div class="quiz-result-pct">${percent}%</div>
+          <div class="quiz-result-sub">${correct} / ${total} correct</div>
+        </div>
+        <h2>${percent >= 70 ? '🎉 Nicely done!' : '📖 Keep revising!'}</h2>
+        <p class="hero-desc">Saved to your device (offline). Retake anytime from the quiz list.</p>
+        <div class="quiz-result-actions">
+          <button class="btn-action primary" onclick="window.retakeQuiz()">↻ Retake</button>
+          <a href="${quizHash(['banks'])}" class="btn-action">← All Quizzes</a>
+        </div>
+        ${wrong.length ? `<h3 class="tracks-section-title" style="margin-top:2rem">📝 Review (${wrong.length} to improve)</h3><div class="quiz-review-list">${review}</div>` : '<p style="margin-top:1.5rem">Perfect score — all concepts clear! 🚀</p>'}
+      </div>`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    generateTOC();
+  }
+
+  window.retakeQuiz = function () {
+    const q = Quiz.current;
+    if (!q) return;
+    q.pos = 0; q.answers = {}; q.finished = false;
+    renderQuizRunner();
+  };
+
+  // Per-topic "Take Quiz" button injected into article header.
+  function injectTopicQuizButton(topicObj) {
+    if (!topicObj) return;
+    const topicId = (topicObj.path || '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+    ensureQuizIndex().then(() => {
+      if (!Quiz.index.topics[topicId]) return; // no quiz for this topic
+      const btn = document.getElementById('takeQuizBtn');
+      if (btn) return;
+      const metaActions = document.querySelector('.article-meta .meta-actions');
+      if (!metaActions) return;
+      const qbtn = document.createElement('button');
+      qbtn.id = 'takeQuizBtn';
+      qbtn.className = 'btn-action quiz-topic-btn';
+      qbtn.innerHTML = '🧩 Take Quiz';
+      qbtn.onclick = () => window.startQuiz('topic', topicId);
+      metaActions.appendChild(qbtn);
+    });
+  }
+
+  // Route a #/quiz/... hash.
+  async function handleQuizRoute(segments) {
+    const [a, b] = segments;
+    if (!a || a === 'banks') {
+      await renderQuizHome();
+      state.currentTopic = null;
+      renderSidebar();
+      return;
+    }
+    if (a === 'bank' && b) {
+      await startQuiz('bank', b);
+      return;
+    }
+    if (a === 'topic' && b) {
+      await startQuiz('topic', b);
+      return;
+    }
+    await renderQuizHome();
+  }
+
+  // ---- Wire header button ----
+  document.addEventListener('DOMContentLoaded', function () {
+    const qbtn = document.getElementById('quizzesNavBtn');
+    if (qbtn) qbtn.addEventListener('click', () => { window.location.hash = quizHash(['banks']); });
+  });
+
+  // ============================================================
+  //  END QUIZ SYSTEM
+  // ============================================================
 
   // Initialize App on DOM Ready
   if (document.readyState === 'loading') {

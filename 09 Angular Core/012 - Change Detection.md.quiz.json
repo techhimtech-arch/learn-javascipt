@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "09 Angular Core/012 - Change Detection.md",
+  "title": "Angular Change Detection Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "ng-cd-q1",
+      "topic": "Change Detection",
+      "question": "What does Zone.js do for Angular change detection?",
+      "options": [
+        { "id": "a", "text": "Renders the DOM" },
+        { "id": "b", "text": "Patches async APIs so Angular knows when to run a CD cycle" },
+        { "id": "c", "text": "Compiles templates" },
+        { "id": "d", "text": "Handles routing" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zone.js notifies Angular after async operations (events, timers, XHR) so a CD pass runs.",
+      "difficulty": "medium",
+      "tags": ["zonejs", "trigger"]
+    },
+    {
+      "id": "ng-cd-q2",
+      "topic": "Change Detection",
+      "question": "OnPush components re-check ONLY when...?",
+      "options": [
+        { "id": "a", "text": "Any global event fires" },
+        { "id": "b", "text": "An @Input reference changes, an event originates from the component, or an observed Observable emits" },
+        { "id": "c", "text": "The page scrolls" },
+        { "id": "d", "text": "Once per second" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "OnPush skips a component unless its inputs change by reference, it emits an event, or async pipe notifies.",
+      "difficulty": "hard",
+      "tags": ["onpush", "triggers"]
+    },
+    {
+      "id": "ng-cd-q3",
+      "topic": "Change Detection",
+      "question": "Which method manually triggers change detection on a component/view?",
+      "options": [
+        { "id": "a", "text": "detectChanges()" },
+        { "id": "b", "text": "ngOnInit()" },
+        { "id": "c", "text": "markForCheck() only" },
+        { "id": "d", "text": "render()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ChangeDetectorRef.detectChanges() runs CD for the current view immediately.",
+      "difficulty": "medium",
+      "tags": ["detectChanges"]
+    },
+    {
+      "id": "ng-cd-q4",
+      "topic": "Change Detection",
+      "question": "markForCheck() vs detectChanges()?",
+      "options": [
+        { "id": "a", "text": "They are identical" },
+        { "id": "b", "text": "markForCheck flags the view to be checked in the NEXT cycle; detectChanges runs it now" },
+        { "id": "c", "text": "Both only work in OnPush off" },
+        { "id": "d", "text": "Neither exists" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "markForCheck() marks the component and ancestors dirty; detectChanges() actually runs CD synchronously.",
+      "difficulty": "hard",
+      "tags": ["markforcheck", "detectchanges"]
+    },
+    {
+      "id": "ng-cd-q5",
+      "topic": "Change Detection",
+      "question": "Why is mutating an array in place (push) problematic with OnPush?",
+      "options": [
+        { "id": "a", "text": "It crashes the app" },
+        { "id": "b", "text": "The reference is unchanged, so OnPush may skip re-rendering" },
+        { "id": "c", "text": "It is fine" },
+        { "id": "d", "text": "It triggers full app reload" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "OnPush compares input references; in-place mutation keeps the same reference, so the view may not update.",
+      "difficulty": "hard",
+      "tags": ["immutability", "onpush"]
+    },
+    {
+      "id": "ng-cd-q6",
+      "topic": "Change Detection",
+      "question": "What is `NgZone.runOutsideAngular()` used for?",
+      "options": [
+        { "id": "a", "text": "To run code WITHOUT triggering Angular CD (e.g. third-party libs / RAF loops)" },
+        { "id": "b", "text": "To disable the router" },
+        { "id": "c", "text": "To compile templates faster" },
+        { "id": "d", "text": "To delete a component" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Running outside the zone avoids unnecessary CD cycles for frequent updates you control manually.",
+      "difficulty": "hard",
+      "tags": ["ngzone", "performance"]
+    }
+  ]
+}

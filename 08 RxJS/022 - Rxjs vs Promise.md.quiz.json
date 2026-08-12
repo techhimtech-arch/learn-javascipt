@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "08 RxJS/022 - Rxjs vs Promise.md",
+  "title": "RxJS vs Promise Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "rxjs-promise-q1",
+      "topic": "RxJS vs Promise",
+      "question": "A key difference: a Promise emits ___ value(s); an Observable emits ___ value(s).",
+      "options": [
+        { "id": "a", "text": "many / one" },
+        { "id": "b", "text": "one (settles once) / zero-to-many over time" },
+        { "id": "c", "text": "zero / zero" },
+        { "id": "d", "text": "one / exactly one" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Promise settles once with a single value; an Observable is a stream that can emit 0..n values then complete/error.",
+      "difficulty": "easy",
+      "tags": ["observable", "lazy"]
+    },
+    {
+      "id": "rxjs-promise-q2",
+      "topic": "RxJS vs Promise",
+      "question": "Observables are lazy. What does that mean?",
+      "options": [
+        { "id": "a", "text": "They run immediately on creation" },
+        { "id": "b", "text": "They do nothing until you subscribe()" },
+        { "id": "c", "text": "They cannot be cancelled" },
+        { "id": "d", "text": "They only work with async" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Creation functions (of, from, http.get) set up a blueprint; side effects/execution start only on subscribe.",
+      "difficulty": "medium",
+      "tags": ["lazy", "subscribe"]
+    },
+    {
+      "id": "rxjs-promise-q3",
+      "topic": "RxJS vs Promise",
+      "question": "How do you cancel an in-flight Observable (e.g. an HTTP request)?",
+      "options": [
+        { "id": "a", "text": "You cannot" },
+        { "id": "b", "text": "Unsubscribe from the subscription" },
+        { "id": "c", "text": "Call .cancel()" },
+        { "id": "d", "text": "Reject the Promise" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Calling subscription.unsubscribe() tears down the stream; Angular's async pipe does this automatically.",
+      "difficulty": "medium",
+      "tags": ["unsubscribe", "cancel"]
+    },
+    {
+      "id": "rxjs-promise-q4",
+      "topic": "RxJS vs Promise",
+      "question": "Which operator turns an array into an Observable that emits each item?",
+      "options": [
+        { "id": "a", "text": "of(...)" },
+        { "id": "b", "text": "from(array)" },
+        { "id": "c", "text": "timer()" },
+        { "id": "d", "text": "merge()" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "from() iterates an array/iterable/promise and emits each element; of() emits the arguments as discrete values.",
+      "difficulty": "medium",
+      "tags": ["from", "of"]
+    },
+    {
+      "id": "rxjs-promise-q5",
+      "topic": "RxJS vs Promise",
+      "question": "Promise.all vs forkJoin (RxJS) — key difference?",
+      "options": [
+        { "id": "a", "text": "They are the same" },
+        { "id": "b", "text": "forkJoin emits only after ALL input observables complete; Promise.all after all resolve" },
+        { "id": "c", "text": "forkJoin needs no subscribe" },
+        { "id": "d", "text": "Promise.all is lazy" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "forkJoin waits for completion of each source (HTTP calls complete) then emits the last value of each — like Promise.all.",
+      "difficulty": "hard",
+      "tags": ["forkjoin", "promise-all"]
+    },
+    {
+      "id": "rxjs-promise-q6",
+      "topic": "RxJS vs Promise",
+      "question": "What does the async pipe do in Angular templates?",
+      "options": [
+        { "id": "a", "text": "Converts a Promise to an Observable" },
+        { "id": "b", "text": "Subscribes, renders the latest value, and auto-unsubscribes on destroy" },
+        { "id": "c", "text": "Runs code in a Web Worker" },
+        { "id": "d", "text": "Caches HTTP responses" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The async pipe unwraps Observables/Promises and handles subscription lifecycle — preventing memory leaks.",
+      "difficulty": "medium",
+      "tags": ["async-pipe", "angular"]
+    }
+  ]
+}

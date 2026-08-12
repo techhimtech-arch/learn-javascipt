@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02 Advanced JavaScript/001 - Promises.md",
+  "title": "Promises Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "promise-q1",
+      "topic": "Promises",
+      "question": "A Promise that has settled successfully is in which state?",
+      "options": [
+        { "id": "a", "text": "pending" },
+        { "id": "b", "text": "fulfilled" },
+        { "id": "c", "text": "rejected" },
+        { "id": "d", "text": "blocked" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
+      "difficulty": "easy",
+      "tags": ["promise", "states"]
+    },
+    {
+      "id": "promise-q2",
+      "topic": "Promises",
+      "question": "What does .then() return?",
+      "options": [
+        { "id": "a", "text": "The original Promise (same reference)" },
+        { "id": "b", "text": "A brand-new Promise (enabling chaining)" },
+        { "id": "c", "text": "undefined" },
+        { "id": "d", "text": "The resolved value directly" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
+      "difficulty": "medium",
+      "tags": ["then", "chaining"]
+    },
+    {
+      "id": "promise-q3",
+      "topic": "Promises",
+      "question": "What is returned by Promise.all if ANY input promise rejects?",
+      "options": [
+        { "id": "a", "text": "An array with nulls for the rejected ones" },
+        { "id": "b", "text": "It rejects immediately with that rejection reason" },
+        { "id": "c", "text": "It waits for all then resolves" },
+        { "id": "d", "text": "It returns an empty array" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
+      "difficulty": "medium",
+      "tags": ["promise-all", "reject"]
+    },
+    {
+      "id": "promise-q4",
+      "topic": "Promises",
+      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
+      "options": [
+        { "id": "a", "text": "Promise.all" },
+        { "id": "b", "text": "Promise.race" },
+        { "id": "c", "text": "Promise.allSettled" },
+        { "id": "d", "text": "Promise.any" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
+      "difficulty": "medium",
+      "tags": ["race"]
+    },
+    {
+      "id": "promise-q5",
+      "topic": "Promises",
+      "question": "What does Promise.allSettled resolve with?",
+      "options": [
+        { "id": "a", "text": "Only the fulfilled values" },
+        { "id": "b", "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}" },
+        { "id": "c", "text": "The first rejection" },
+        { "id": "d", "text": "undefined" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
+      "difficulty": "hard",
+      "tags": ["allsettled"]
+    },
+    {
+      "id": "promise-q6",
+      "topic": "Promises",
+      "question": "A Promise executor function receives two arguments. What are they?",
+      "options": [
+        { "id": "a", "text": "onSuccess, onError" },
+        { "id": "b", "text": "resolve, reject" },
+        { "id": "c", "text": "then, catch" },
+        { "id": "d", "text": "async, await" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
+      "difficulty": "easy",
+      "tags": ["executor"]
+    },
+    {
+      "id": "promise-q7",
+      "topic": "Promises",
+      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
+      "options": [
+        { "id": "a", "text": "A fulfilled promise with value 5" },
+        { "id": "b", "text": "A rejected promise" },
+        { "id": "c", "text": "Throws synchronously" },
+        { "id": "d", "text": "undefined" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
+      "difficulty": "medium",
+      "tags": ["reject", "then"]
+    },
+    {
+      "id": "promise-q8",
+      "topic": "Promises",
+      "question": "Callbacks passed to then/catch always run as...?",
+      "options": [
+        { "id": "a", "text": "Synchronous, immediately" },
+        { "id": "b", "text": "Microtasks (after current script, before macrotasks)" },
+        { "id": "c", "text": "Macrotasks (setTimeout queue)" },
+        { "id": "d", "text": "Only on page unload" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
+      "difficulty": "hard",
+      "tags": ["microtask", "event-loop"]
+    }
+  ]
+}
