@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "type": "bank",
-  "bankId": "angular",
-  "title": "Angular Full Study Bank",
-  "icon": "🅰️",
-  "description": "Deep Angular + RxJS questions for end-to-end framework mastery.",
-  "questionCount": 24,
-  "generatedAt": "2026-08-12T09:20:59.198Z",
+  "type": "module",
+  "moduleId": "12-machine-coding",
+  "title": "12 Machine Coding — Module Quiz",
+  "icon": "💻",
+  "folder": "12 Machine Coding",
+  "description": "Mixed quiz covering all topics in 12 Machine Coding.",
+  "questionCount": 28,
+  "generatedAt": "2026-08-12T09:21:01.779Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -772,6 +773,102 @@
       ],
       "_srcTopic": "Angular Change Detection Quiz",
       "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+    },
+    {
+      "id": "d203771f",
+      "question": "Which statement best describes the purpose of \"12 Machine Coding\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
+        },
+        {
+          "id": "b",
+          "text": "It is only useful for legacy codebases."
+        },
+        {
+          "id": "c",
+          "text": "It cannot be tested in isolation."
+        },
+        {
+          "id": "d",
+          "text": "It is deprecated in modern browsers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"12 Machine Coding\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+    },
+    {
+      "id": "fbcd0a0d",
+      "question": "When working inside \"12 Machine Coding\", the most effective way to retain the material is to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Build small examples, quiz yourself, and revisit weak spots."
+        },
+        {
+          "id": "b",
+          "text": "Read once and never practice."
+        },
+        {
+          "id": "c",
+          "text": "Memorise API signatures only."
+        },
+        {
+          "id": "d",
+          "text": "Avoid running the code."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
+    },
+    {
+      "id": "493f67f4",
+      "question": "A senior engineer reviewing \"12 Machine Coding\" would most expect you to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain the \"why\", trade-offs, and a real-world use case."
+        },
+        {
+          "id": "b",
+          "text": "Recite the definition word-for-word."
+        },
+        {
+          "id": "c",
+          "text": "Claim it is never needed."
+        },
+        {
+          "id": "d",
+          "text": "Copy code without understanding it."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
+    },
+    {
+      "id": "71885063",
+      "question": "In a machine-coding round, interviewers most value:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A working, readable solution with edge-case handling."
+        },
+        {
+          "id": "b",
+          "text": "The longest possible file."
+        },
+        {
+          "id": "c",
+          "text": "Using every API you know."
+        },
+        {
+          "id": "d",
+          "text": "Skipping testing."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Correctness, clarity, and edge cases matter more than cleverness."
     }
   ]
 }

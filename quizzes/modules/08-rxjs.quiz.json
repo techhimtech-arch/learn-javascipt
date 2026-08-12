@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "type": "bank",
-  "bankId": "angular",
-  "title": "Angular Full Study Bank",
-  "icon": "🅰️",
-  "description": "Deep Angular + RxJS questions for end-to-end framework mastery.",
-  "questionCount": 24,
-  "generatedAt": "2026-08-12T09:20:59.198Z",
+  "type": "module",
+  "moduleId": "08-rxjs",
+  "title": "08 RxJS — Module Quiz",
+  "icon": "🔄",
+  "folder": "08 RxJS",
+  "description": "Mixed quiz covering all topics in 08 RxJS.",
+  "questionCount": 28,
+  "generatedAt": "2026-08-12T09:21:01.713Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -36,9 +37,7 @@
       "tags": [
         "observable",
         "lazy"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q2",
@@ -68,9 +67,7 @@
       "tags": [
         "lazy",
         "subscribe"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q3",
@@ -100,9 +97,7 @@
       "tags": [
         "unsubscribe",
         "cancel"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q4",
@@ -132,9 +127,7 @@
       "tags": [
         "from",
         "of"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q5",
@@ -164,9 +157,7 @@
       "tags": [
         "forkjoin",
         "promise-all"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q6",
@@ -196,9 +187,7 @@
       "tags": [
         "async-pipe",
         "angular"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "ng-comp-q1",
@@ -772,6 +761,102 @@
       ],
       "_srcTopic": "Angular Change Detection Quiz",
       "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+    },
+    {
+      "id": "44d4b1d7",
+      "question": "Which statement best describes the purpose of \"08 RxJS\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
+        },
+        {
+          "id": "b",
+          "text": "It is only useful for legacy codebases."
+        },
+        {
+          "id": "c",
+          "text": "It cannot be tested in isolation."
+        },
+        {
+          "id": "d",
+          "text": "It is deprecated in modern browsers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"08 RxJS\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+    },
+    {
+      "id": "027eb46b",
+      "question": "When working inside \"08 RxJS\", the most effective way to retain the material is to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Build small examples, quiz yourself, and revisit weak spots."
+        },
+        {
+          "id": "b",
+          "text": "Read once and never practice."
+        },
+        {
+          "id": "c",
+          "text": "Memorise API signatures only."
+        },
+        {
+          "id": "d",
+          "text": "Avoid running the code."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
+    },
+    {
+      "id": "3463213b",
+      "question": "A senior engineer reviewing \"08 RxJS\" would most expect you to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain the \"why\", trade-offs, and a real-world use case."
+        },
+        {
+          "id": "b",
+          "text": "Recite the definition word-for-word."
+        },
+        {
+          "id": "c",
+          "text": "Claim it is never needed."
+        },
+        {
+          "id": "d",
+          "text": "Copy code without understanding it."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
+    },
+    {
+      "id": "7c4cb453",
+      "question": "In RxJS, an Observable is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A lazy stream of values that pushes data to subscribers over time."
+        },
+        {
+          "id": "b",
+          "text": "A single static value."
+        },
+        {
+          "id": "c",
+          "text": "The same as a Promise that resolves twice."
+        },
+        {
+          "id": "d",
+          "text": "A DOM node."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Observables can emit 0..n values and are lazy — they run only when subscribed."
     }
   ]
 }

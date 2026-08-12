@@ -1202,6 +1202,15 @@ body {
   flex-direction: column;
   min-height: 180px;
 }
+.quiz-bank-card.module {
+  border-color: rgba(16, 185, 129, 0.35);
+  background: linear-gradient(160deg, rgba(16,185,129,0.06), var(--bg-card) 60%);
+}
+.quiz-bank-card.module:hover {
+  border-color: var(--success-color);
+  box-shadow: 0 12px 30px rgba(16, 185, 129, 0.18);
+}
+.quiz-home .muted { color: var(--text-muted); font-weight: 500; font-size: .85rem; }
 .quiz-bank-card:hover {
   transform: translateY(-4px);
   border-color: var(--accent-color);

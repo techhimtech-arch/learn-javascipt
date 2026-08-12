@@ -1,0 +1,938 @@
+{
+  "schemaVersion": "1.0",
+  "type": "module",
+  "moduleId": "03-es6-",
+  "title": "03 ES6+ — Module Quiz",
+  "icon": "✨",
+  "folder": "03 ES6+",
+  "description": "Mixed quiz covering all topics in 03 ES6+.",
+  "questionCount": 30,
+  "generatedAt": "2026-08-12T09:21:01.700Z",
+  "questions": [
+    {
+      "id": "arrow-q1",
+      "topic": "Arrow Functions",
+      "question": "What do arrow functions NOT have of their own?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A return value"
+        },
+        {
+          "id": "b",
+          "text": "Their own 'this' binding (they inherit lexical this)"
+        },
+        {
+          "id": "c",
+          "text": "Parameters"
+        },
+        {
+          "id": "d",
+          "text": "A body"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrow functions capture 'this' from the enclosing scope — no own this, arguments, super, or new.target.",
+      "difficulty": "easy",
+      "tags": [
+        "this",
+        "lexical"
+      ]
+    },
+    {
+      "id": "arrow-q2",
+      "topic": "Arrow Functions",
+      "question": "Can you use `new` with an arrow function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, always"
+        },
+        {
+          "id": "b",
+          "text": "No — arrow functions are not constructors"
+        },
+        {
+          "id": "c",
+          "text": "Only if it has a body"
+        },
+        {
+          "id": "d",
+          "text": "Only in strict mode"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrows lack [[Construct]], so calling them with new throws a TypeError.",
+      "difficulty": "easy",
+      "tags": [
+        "constructor",
+        "new"
+      ]
+    },
+    {
+      "id": "arrow-q3",
+      "topic": "Arrow Functions",
+      "question": "Which arrow syntax implicitly returns a value (no 'return' keyword)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "const f = (x) => { x * 2 }"
+        },
+        {
+          "id": "b",
+          "text": "const f = x => x * 2"
+        },
+        {
+          "id": "c",
+          "text": "const f = (x) => { return; }"
+        },
+        {
+          "id": "d",
+          "text": "const f = function(x){ return x*2 }"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A concise-body arrow (no braces) implicitly returns its single expression.",
+      "difficulty": "medium",
+      "tags": [
+        "concise",
+        "return"
+      ]
+    },
+    {
+      "id": "arrow-q4",
+      "topic": "Arrow Functions",
+      "question": "Inside an arrow function, what is `arguments`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The arrow's own arguments array"
+        },
+        {
+          "id": "b",
+          "text": "The arguments of the enclosing (lexical) function, or undefined in module scope"
+        },
+        {
+          "id": "c",
+          "text": "Always an empty array"
+        },
+        {
+          "id": "d",
+          "text": "A SyntaxError"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arrows have no own 'arguments'; they reference the outer function's arguments object.",
+      "difficulty": "hard",
+      "tags": [
+        "arguments"
+      ]
+    },
+    {
+      "id": "arrow-q5",
+      "topic": "Arrow Functions",
+      "question": "Why are arrow functions a poor choice for object methods that need `this`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are slower"
+        },
+        {
+          "id": "b",
+          "text": "They do not bind 'this' to the object, so 'this' is the enclosing scope"
+        },
+        {
+          "id": "c",
+          "text": "They cannot be named"
+        },
+        {
+          "id": "d",
+          "text": "They throw on call"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "object.method = () => this.x uses lexical this (outer scope), not the method's receiver — typically unwanted.",
+      "difficulty": "medium",
+      "tags": [
+        "methods",
+        "this"
+      ]
+    },
+    {
+      "id": "arrow-q6",
+      "topic": "Arrow Functions",
+      "question": "How do you return an object literal concisely with an arrow function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "() => { foo: 1 }"
+        },
+        {
+          "id": "b",
+          "text": "() => ({ foo: 1 })"
+        },
+        {
+          "id": "c",
+          "text": "() => return { foo: 1 }"
+        },
+        {
+          "id": "d",
+          "text": "() => new Object(1)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wrap the literal in parentheses so {} is parsed as an object, not a block body.",
+      "difficulty": "medium",
+      "tags": [
+        "object-literal"
+      ]
+    },
+    {
+      "id": "destructure-q1",
+      "topic": "Destructuring",
+      "question": "const { a, b } = { a: 1, b: 2 }; — what is `b`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "undefined"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "null"
+        },
+        {
+          "id": "d",
+          "text": "[object Object]"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Object destructuring binds variables to same-named properties.",
+      "difficulty": "easy",
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "destructure-q2",
+      "topic": "Destructuring",
+      "question": "How do you rename while destructuring? e.g. bind `name` to property `user`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "const { user: name } = obj"
+        },
+        {
+          "id": "b",
+          "text": "const { user as name } = obj"
+        },
+        {
+          "id": "c",
+          "text": "const { name = user } = obj"
+        },
+        {
+          "id": "d",
+          "text": "const name = obj.user()"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The syntax { sourceProperty: targetVariable } renames during destructuring.",
+      "difficulty": "medium",
+      "tags": [
+        "rename"
+      ]
+    },
+    {
+      "id": "destructure-q3",
+      "topic": "Destructuring",
+      "question": "const [x, , y] = [1, 2, 3]; — what is `y`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The empty slot skips index 1; y binds to index 2 (value 3).",
+      "difficulty": "easy",
+      "tags": [
+        "array",
+        "skip"
+      ]
+    },
+    {
+      "id": "destructure-q4",
+      "topic": "Destructuring",
+      "question": "const { a = 10 } = {}; — what is `a`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "undefined"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "{}"
+        },
+        {
+          "id": "d",
+          "text": "null"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Default values apply when the property is undefined (here {} has no 'a').",
+      "difficulty": "medium",
+      "tags": [
+        "default"
+      ]
+    },
+    {
+      "id": "destructure-q5",
+      "topic": "Destructuring",
+      "question": "const { a: { b } } = { a: { b: 5 } }; — what is `b`?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "{ b: 5 }"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "Error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nested destructuring reaches into the nested object to bind inner property b.",
+      "difficulty": "hard",
+      "tags": [
+        "nested"
+      ]
+    },
+    {
+      "id": "destructure-q6",
+      "topic": "Destructuring",
+      "question": "Which is a valid use of destructuring in a function parameter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "function f({ id, name }) { ... }"
+        },
+        {
+          "id": "b",
+          "text": "function f(id, name) = {}"
+        },
+        {
+          "id": "c",
+          "text": "function { id } f() {}"
+        },
+        {
+          "id": "d",
+          "text": "function f(id: name) {}"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "You can destructure the incoming object directly in the parameter list — common for options objects.",
+      "difficulty": "medium",
+      "tags": [
+        "parameters"
+      ]
+    },
+    {
+      "id": "js-engine-q1",
+      "topic": "JavaScript Engine",
+      "question": "Which engine powers BOTH Google Chrome and Node.js?",
+      "options": [
+        {
+          "id": "a",
+          "text": "SpiderMonkey"
+        },
+        {
+          "id": "b",
+          "text": "V8"
+        },
+        {
+          "id": "c",
+          "text": "Chakra"
+        },
+        {
+          "id": "d",
+          "text": "JavaScriptCore"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
+      "difficulty": "easy",
+      "tags": [
+        "engine",
+        "runtime"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q2",
+      "topic": "JavaScript Engine",
+      "question": "What is the first stage a JS engine performs after reading source code?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Execute it line by line immediately"
+        },
+        {
+          "id": "b",
+          "text": "Parse it into an Abstract Syntax Tree (AST)"
+        },
+        {
+          "id": "c",
+          "text": "Compile directly to machine code"
+        },
+        {
+          "id": "d",
+          "text": "Send it to the GPU"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
+      "difficulty": "medium",
+      "tags": [
+        "parser",
+        "ast"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q3",
+      "topic": "JavaScript Engine",
+      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interprets code once and discards it"
+        },
+        {
+          "id": "b",
+          "text": "Optimizes frequently-run ('hot') code paths dynamically"
+        },
+        {
+          "id": "c",
+          "text": "Only runs during page load"
+        },
+        {
+          "id": "d",
+          "text": "Disables the garbage collector"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
+      "difficulty": "medium",
+      "tags": [
+        "jit",
+        "v8"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q4",
+      "topic": "JavaScript Engine",
+      "question": "Is Node.js a JavaScript engine?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, Node.js is the engine"
+        },
+        {
+          "id": "b",
+          "text": "No, Node.js is a runtime that embeds the V8 engine"
+        },
+        {
+          "id": "c",
+          "text": "No, it is a browser"
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only on Windows"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
+      "difficulty": "easy",
+      "tags": [
+        "runtime",
+        "node"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q5",
+      "topic": "JavaScript Engine",
+      "question": "Which component of the engine reclaims unused memory automatically?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Call Stack"
+        },
+        {
+          "id": "b",
+          "text": "The Parser"
+        },
+        {
+          "id": "c",
+          "text": "The Garbage Collector"
+        },
+        {
+          "id": "d",
+          "text": "The Event Loop"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
+      "difficulty": "easy",
+      "tags": [
+        "memory",
+        "gc"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q6",
+      "topic": "JavaScript Engine",
+      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using consistent object shapes"
+        },
+        {
+          "id": "b",
+          "text": "Reassigning a variable to a different type in a hot path"
+        },
+        {
+          "id": "c",
+          "text": "Adding 'use strict'"
+        },
+        {
+          "id": "d",
+          "text": "Declaring const variables"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
+      "difficulty": "hard",
+      "tags": [
+        "optimization",
+        "deopt"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q7",
+      "topic": "JavaScript Engine",
+      "question": "Which statement is TRUE about the Event Loop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is part of the JavaScript language spec"
+        },
+        {
+          "id": "b",
+          "text": "It is provided by the runtime environment (browser/Node), not the engine itself"
+        },
+        {
+          "id": "c",
+          "text": "It lives inside V8 directly"
+        },
+        {
+          "id": "d",
+          "text": "It only exists in Node.js"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
+      "difficulty": "medium",
+      "tags": [
+        "event-loop",
+        "runtime"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "js-engine-q8",
+      "topic": "JavaScript Engine",
+      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CSS animations"
+        },
+        {
+          "id": "b",
+          "text": "Change detection after async operations"
+        },
+        {
+          "id": "c",
+          "text": "Garbage collection"
+        },
+        {
+          "id": "d",
+          "text": "HTTP caching"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
+      "difficulty": "hard",
+      "tags": [
+        "angular",
+        "zonejs"
+      ],
+      "_srcTopic": "JavaScript Engine Quiz",
+      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+    },
+    {
+      "id": "promise-q1",
+      "topic": "Promises",
+      "question": "A Promise that has settled successfully is in which state?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pending"
+        },
+        {
+          "id": "b",
+          "text": "fulfilled"
+        },
+        {
+          "id": "c",
+          "text": "rejected"
+        },
+        {
+          "id": "d",
+          "text": "blocked"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
+      "difficulty": "easy",
+      "tags": [
+        "promise",
+        "states"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q2",
+      "topic": "Promises",
+      "question": "What does .then() return?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The original Promise (same reference)"
+        },
+        {
+          "id": "b",
+          "text": "A brand-new Promise (enabling chaining)"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "The resolved value directly"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
+      "difficulty": "medium",
+      "tags": [
+        "then",
+        "chaining"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q3",
+      "topic": "Promises",
+      "question": "What is returned by Promise.all if ANY input promise rejects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An array with nulls for the rejected ones"
+        },
+        {
+          "id": "b",
+          "text": "It rejects immediately with that rejection reason"
+        },
+        {
+          "id": "c",
+          "text": "It waits for all then resolves"
+        },
+        {
+          "id": "d",
+          "text": "It returns an empty array"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
+      "difficulty": "medium",
+      "tags": [
+        "promise-all",
+        "reject"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q4",
+      "topic": "Promises",
+      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise.all"
+        },
+        {
+          "id": "b",
+          "text": "Promise.race"
+        },
+        {
+          "id": "c",
+          "text": "Promise.allSettled"
+        },
+        {
+          "id": "d",
+          "text": "Promise.any"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
+      "difficulty": "medium",
+      "tags": [
+        "race"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q5",
+      "topic": "Promises",
+      "question": "What does Promise.allSettled resolve with?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only the fulfilled values"
+        },
+        {
+          "id": "b",
+          "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}"
+        },
+        {
+          "id": "c",
+          "text": "The first rejection"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
+      "difficulty": "hard",
+      "tags": [
+        "allsettled"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q6",
+      "topic": "Promises",
+      "question": "A Promise executor function receives two arguments. What are they?",
+      "options": [
+        {
+          "id": "a",
+          "text": "onSuccess, onError"
+        },
+        {
+          "id": "b",
+          "text": "resolve, reject"
+        },
+        {
+          "id": "c",
+          "text": "then, catch"
+        },
+        {
+          "id": "d",
+          "text": "async, await"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
+      "difficulty": "easy",
+      "tags": [
+        "executor"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q7",
+      "topic": "Promises",
+      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fulfilled promise with value 5"
+        },
+        {
+          "id": "b",
+          "text": "A rejected promise"
+        },
+        {
+          "id": "c",
+          "text": "Throws synchronously"
+        },
+        {
+          "id": "d",
+          "text": "undefined"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
+      "difficulty": "medium",
+      "tags": [
+        "reject",
+        "then"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "promise-q8",
+      "topic": "Promises",
+      "question": "Callbacks passed to then/catch always run as...?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Synchronous, immediately"
+        },
+        {
+          "id": "b",
+          "text": "Microtasks (after current script, before macrotasks)"
+        },
+        {
+          "id": "c",
+          "text": "Macrotasks (setTimeout queue)"
+        },
+        {
+          "id": "d",
+          "text": "Only on page unload"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
+      "difficulty": "hard",
+      "tags": [
+        "microtask",
+        "event-loop"
+      ],
+      "_srcTopic": "Promises Quiz",
+      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+    },
+    {
+      "id": "async-q1",
+      "topic": "async/await",
+      "question": "What does an `async function` ALWAYS return?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The raw value you return"
+        },
+        {
+          "id": "b",
+          "text": "A Promise that resolves to the returned value"
+        },
+        {
+          "id": "c",
+          "text": "undefined"
+        },
+        {
+          "id": "d",
+          "text": "A generator object"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "async functions wrap the return value in a Promise automatically.",
+      "difficulty": "easy",
+      "tags": [
+        "async"
+      ],
+      "_srcTopic": "async/await Quiz",
+      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+    },
+    {
+      "id": "async-q2",
+      "topic": "async/await",
+      "question": "If you `await` a rejected promise, what happens?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It returns undefined silently"
+        },
+        {
+          "id": "b",
+          "text": "It throws inside the async function (catchable with try/catch)"
+        },
+        {
+          "id": "c",
+          "text": "The program crashes always"
+        },
+        {
+          "id": "d",
+          "text": "It logs to console only"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
+      "difficulty": "medium",
+      "tags": [
+        "await",
+        "error"
+      ],
+      "_srcTopic": "async/await Quiz",
+      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+    }
+  ]
+}

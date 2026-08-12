@@ -777,6 +777,28 @@
     return data;
   }
 
+  async function loadModuleQuiz(categoryId) {
+    if (Quiz._cache['module:' + categoryId]) return Quiz._cache['module:' + categoryId];
+    const res = await fetch('./quizzes/modules/' + encodeURIComponent(categoryId) + '.quiz.json');
+    if (!res.ok) throw new Error('No module quiz for: ' + categoryId);
+    const data = await res.json();
+    Quiz._cache['module:' + categoryId] = data;
+    return data;
+  }
+
+  async function ensureModulesMeta() {
+    if (Quiz.modulesMeta) return Quiz.modulesMeta;
+    let cats = [];
+    try {
+      const t = await (await fetch('./topics.json')).json();
+      cats = t.categories || [];
+    } catch (e) { /* no topics.json */ }
+    Quiz.modulesMeta = cats.map(c => ({
+      id: c.id, title: c.title, icon: c.icon, folder: c.folderName, count: c.count
+    }));
+    return Quiz.modulesMeta;
+  }
+
   async function ensureBanksMeta() {
     if (Quiz.banksMeta) return Quiz.banksMeta;
     const ids = ['interview', 'angular', 'concepts'];
@@ -794,9 +816,10 @@
   // ---- Render: Bank chooser ----
   async function renderQuizHome() {
     const meta = await ensureBanksMeta();
+    const modules = await ensureModulesMeta();
     const hasTopicQuizzes = Quiz.index && Quiz.index.topics && Object.keys(Quiz.index.topics).length > 0;
 
-    let cards = meta.map(m => `
+    const bankCards = meta.map(m => `
       <div class="quiz-bank-card" onclick="window.startQuiz('bank','${m.id}')">
         <div class="quiz-bank-icon">${m.icon}</div>
         <h3 class="quiz-bank-title">${escapeHtml(m.title)}</h3>
@@ -804,13 +827,23 @@
         <div class="quiz-bank-foot"><span class="quiz-bank-count">${m.count} questions</span><span class="quiz-bank-go">Start →</span></div>
       </div>`).join('');
 
+    const moduleCards = modules.map(m => `
+      <div class="quiz-bank-card module" onclick="window.startQuiz('module','${m.id}')">
+        <div class="quiz-bank-icon">${m.icon || '📦'}</div>
+        <h3 class="quiz-bank-title">${escapeHtml(m.title.replace(/^\W+/, ''))}</h3>
+        <p class="quiz-bank-desc">Mixed quiz covering all topics in this module (${m.count} topics).</p>
+        <div class="quiz-bank-foot"><span class="quiz-bank-count">module quiz</span><span class="quiz-bank-go">Start →</span></div>
+      </div>`).join('');
+
     DOM.articleContent.innerHTML = `
       <div class="quiz-home">
         <span class="hero-badge">🧩 Practice & Revision</span>
         <h1 class="hero-title">Quizzes</h1>
-        <p class="hero-desc">Test yourself with curated banks or topic-by-topic quizzes. Progress is saved offline (IndexedDB).</p>
-        <h3 class="tracks-section-title">🎯 Quiz Banks</h3>
-        <div class="quiz-banks-grid">${cards || '<p style="color:var(--text-muted)">No quiz banks generated yet. Run <code>node aggregate_quizzes.js</code>.</p>'}</div>
+        <p class="hero-desc">Test yourself by module, by curated bank, or topic-by-topic. Progress is saved offline (IndexedDB).</p>
+        <h3 class="tracks-section-title">📦 Module Quizzes <span class="muted">(every module covered)</span></h3>
+        <div class="quiz-banks-grid">${moduleCards || '<p style="color:var(--text-muted)">No modules found.</p>'}</div>
+        <h3 class="tracks-section-title" style="margin-top:2rem">🎯 Quiz Banks</h3>
+        <div class="quiz-banks-grid">${bankCards || '<p style="color:var(--text-muted)">No quiz banks generated yet. Run <code>node aggregate_quizzes.js</code>.</p>'}</div>
         ${hasTopicQuizzes ? `
           <h3 class="tracks-section-title" style="margin-top:2rem">📚 Topic Quizzes</h3>
           <p class="hero-desc" style="margin-bottom:.5rem">Open any topic article and click <b>🧩 Take Quiz</b> to test just that concept.</p>
@@ -848,9 +881,14 @@
       questions: questions,
       pos: 0, answers: {}, finished: false
     };
-    window.location.hash = kind === 'bank' ? quizHash(['bank', id]) : quizHash(['topic', id]);
+    window.location.hash = kind === 'bank' ? quizHash(['bank', id])
+      : kind === 'module' ? quizHash(['module', id])
+      : quizHash(['topic', id]);
     renderQuizRunner();
   }
+
+  // Expose startQuiz on window so inline onclick="window.startQuiz(...)" handlers work.
+  window.startQuiz = startQuiz;
 
   function renderQuizRunner() {
     const q = Quiz.current;
@@ -1012,6 +1050,14 @@
       renderSidebar();
       return;
     }
+    if (a === 'modules' || a === 'module') {
+      if (b) {
+        await startQuiz('module', b);
+      } else {
+        await renderQuizHome();
+      }
+      return;
+    }
     if (a === 'bank' && b) {
       await startQuiz('bank', b);
       return;
@@ -1023,11 +1069,11 @@
     await renderQuizHome();
   }
 
-  // ---- Wire header button ----
-  document.addEventListener('DOMContentLoaded', function () {
+  // ---- Wire header button (script is at end of <body>, so DOM is ready) ----
+  (function wireQuizNavButton() {
     const qbtn = document.getElementById('quizzesNavBtn');
     if (qbtn) qbtn.addEventListener('click', () => { window.location.hash = quizHash(['banks']); });
-  });
+  })();
 
   // ============================================================
   //  END QUIZ SYSTEM

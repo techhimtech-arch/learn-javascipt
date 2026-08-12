@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "type": "bank",
-  "bankId": "angular",
-  "title": "Angular Full Study Bank",
-  "icon": "🅰️",
-  "description": "Deep Angular + RxJS questions for end-to-end framework mastery.",
-  "questionCount": 24,
-  "generatedAt": "2026-08-12T09:20:59.198Z",
+  "type": "module",
+  "moduleId": "14-testing",
+  "title": "14 Testing — Module Quiz",
+  "icon": "🧪",
+  "folder": "14 Testing",
+  "description": "Mixed quiz covering all topics in 14 Testing.",
+  "questionCount": 28,
+  "generatedAt": "2026-08-12T09:21:01.783Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -772,6 +773,102 @@
       ],
       "_srcTopic": "Angular Change Detection Quiz",
       "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+    },
+    {
+      "id": "1b36076a",
+      "question": "Which statement best describes the purpose of \"14 Testing\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
+        },
+        {
+          "id": "b",
+          "text": "It is only useful for legacy codebases."
+        },
+        {
+          "id": "c",
+          "text": "It cannot be tested in isolation."
+        },
+        {
+          "id": "d",
+          "text": "It is deprecated in modern browsers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"14 Testing\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+    },
+    {
+      "id": "239f0873",
+      "question": "When working inside \"14 Testing\", the most effective way to retain the material is to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Build small examples, quiz yourself, and revisit weak spots."
+        },
+        {
+          "id": "b",
+          "text": "Read once and never practice."
+        },
+        {
+          "id": "c",
+          "text": "Memorise API signatures only."
+        },
+        {
+          "id": "d",
+          "text": "Avoid running the code."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
+    },
+    {
+      "id": "4972bf3b",
+      "question": "A senior engineer reviewing \"14 Testing\" would most expect you to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain the \"why\", trade-offs, and a real-world use case."
+        },
+        {
+          "id": "b",
+          "text": "Recite the definition word-for-word."
+        },
+        {
+          "id": "c",
+          "text": "Claim it is never needed."
+        },
+        {
+          "id": "d",
+          "text": "Copy code without understanding it."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
+    },
+    {
+      "id": "a86e6150",
+      "question": "The testing pyramid suggests:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Many unit tests, fewer integration, fewest e2e tests."
+        },
+        {
+          "id": "b",
+          "text": "Only e2e tests."
+        },
+        {
+          "id": "c",
+          "text": "No unit tests at all."
+        },
+        {
+          "id": "d",
+          "text": "Random test counts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Unit tests are cheap and numerous; e2e tests are slow and few."
     }
   ]
 }

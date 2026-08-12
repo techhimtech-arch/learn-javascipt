@@ -36,6 +36,9 @@ jobs:
       - name: Aggregate Quiz Banks
         run: node aggregate_quizzes.js
 
+      - name: Build Module Quizzes
+        run: node generate_module_quizzes.js
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

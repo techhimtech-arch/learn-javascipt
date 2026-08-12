@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.0",
-  "type": "bank",
-  "bankId": "angular",
-  "title": "Angular Full Study Bank",
-  "icon": "🅰️",
-  "description": "Deep Angular + RxJS questions for end-to-end framework mastery.",
-  "questionCount": 24,
-  "generatedAt": "2026-08-12T09:20:59.198Z",
+  "type": "module",
+  "moduleId": "11-angular-performance",
+  "title": "11 Angular Performance — Module Quiz",
+  "icon": "⚡",
+  "folder": "11 Angular Performance",
+  "description": "Mixed quiz covering all topics in 11 Angular Performance.",
+  "questionCount": 28,
+  "generatedAt": "2026-08-12T09:21:01.776Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -772,6 +773,102 @@
       ],
       "_srcTopic": "Angular Change Detection Quiz",
       "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+    },
+    {
+      "id": "fb1b4c95",
+      "question": "Which statement best describes the purpose of \"11 Angular Performance\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
+        },
+        {
+          "id": "b",
+          "text": "It is only useful for legacy codebases."
+        },
+        {
+          "id": "c",
+          "text": "It cannot be tested in isolation."
+        },
+        {
+          "id": "d",
+          "text": "It is deprecated in modern browsers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"11 Angular Performance\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+    },
+    {
+      "id": "5969603e",
+      "question": "When working inside \"11 Angular Performance\", the most effective way to retain the material is to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Build small examples, quiz yourself, and revisit weak spots."
+        },
+        {
+          "id": "b",
+          "text": "Read once and never practice."
+        },
+        {
+          "id": "c",
+          "text": "Memorise API signatures only."
+        },
+        {
+          "id": "d",
+          "text": "Avoid running the code."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
+    },
+    {
+      "id": "09097ed3",
+      "question": "A senior engineer reviewing \"11 Angular Performance\" would most expect you to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain the \"why\", trade-offs, and a real-world use case."
+        },
+        {
+          "id": "b",
+          "text": "Recite the definition word-for-word."
+        },
+        {
+          "id": "c",
+          "text": "Claim it is never needed."
+        },
+        {
+          "id": "d",
+          "text": "Copy code without understanding it."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
+    },
+    {
+      "id": "d48432f7",
+      "question": "To reduce unnecessary change detection in Angular you can:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use OnPush change detection strategy where appropriate."
+        },
+        {
+          "id": "b",
+          "text": "Call detectChanges in a loop constantly."
+        },
+        {
+          "id": "c",
+          "text": "Disable zone.js globally with no plan."
+        },
+        {
+          "id": "d",
+          "text": "Avoid trackBy in *ngFor."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "OnPush limits checks to when inputs/references change, improving render performance."
     }
   ]
 }
