@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/004 - SEO Basics.md",
+  "title": "SEO Basics Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "seo-q1",
+      "topic": "SEO Basics",
+      "question": "SEO stands for:",
+      "options": [
+        { "id": "a", "text": "Search Engine Optimization" },
+        { "id": "b", "text": "Site Engine Ordering" },
+        { "id": "c", "text": "Search Entity Output" },
+        { "id": "d", "text": "Secure External Operations" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SEO improves a site's visibility in organic (non-paid) search results via content, technical, and authority signals.",
+      "difficulty": "easy",
+      "tags": ["seo", "definition"]
+    },
+    {
+      "id": "seo-q2",
+      "topic": "SEO Basics",
+      "question": "The three core stages a search engine follows are:",
+      "options": [
+        { "id": "a", "text": "Crawling, Indexing, Ranking" },
+        { "id": "b", "text": "Designing, Coding, Deploying" },
+        { "id": "c", "text": "Parsing, Rendering, Caching" },
+        { "id": "d", "text": "Linking, Sharing, Commenting" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bots crawl URLs, index parsed content, then rank pages by relevance/authority for a query.",
+      "difficulty": "medium",
+      "tags": ["crawl", "index", "rank"]
+    },
+    {
+      "id": "seo-q3",
+      "topic": "SEO Basics",
+      "question": "A <link rel='canonical'> tells search engines:",
+      "options": [
+        { "id": "a", "text": "Which URL is the preferred/authoritative version of duplicate content" },
+        { "id": "b", "text": "To ignore the page" },
+        { "id": "c", "text": "The page is mobile-only" },
+        { "id": "d", "text": "To cache forever" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Canonical URLs consolidate ranking signals and avoid duplicate-content penalties across near-identical pages.",
+      "difficulty": "medium",
+      "tags": ["canonical", "duplicate"]
+    },
+    {
+      "id": "seo-q4",
+      "topic": "SEO Basics",
+      "question": "Structured data (schema.org JSON-LD) is used to:",
+      "options": [
+        { "id": "a", "text": "Help search engines understand content and enable rich results (snippets)" },
+        { "id": "b", "text": "Style the page" },
+        { "id": "c", "text": "Speed up the server" },
+        { "id": "d", "text": "Block crawlers" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Schema markup lets Google show rich results (ratings, FAQs). JSON-LD is the recommended format.",
+      "difficulty": "hard",
+      "tags": ["schema", "rich-results"]
+    },
+    {
+      "id": "seo-q5",
+      "topic": "SEO Basics",
+      "question": "For SPAs (like Angular), the main SEO challenge is:",
+      "options": [
+        { "id": "a", "text": "Content is rendered client-side, so crawlers may not see it without SSR/prerendering" },
+        { "id": "b", "text": "They load too fast" },
+        { "id": "c", "text": "They cannot have meta tags" },
+        { "id": "d", "text": "They use too much CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Client-rendered HTML can be empty when crawled; SSR (Angular Universal) or prerendering fixes crawlability.",
+      "difficulty": "hard",
+      "tags": ["spa", "ssr"]
+    },
+    {
+      "id": "seo-q6",
+      "topic": "SEO Basics",
+      "question": "Keyword stuffing is harmful because it:",
+      "options": [
+        { "id": "a", "text": "Reads unnaturally and can trigger search-engine spam penalties" },
+        { "id": "b", "text": "Improves ranking guaranteed" },
+        { "id": "c", "text": "Reduces page size" },
+        { "id": "d", "text": "Helps mobile users" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Overusing keywords looks spammy; modern algorithms reward natural, relevant content over density.",
+      "difficulty": "easy",
+      "tags": ["keyword-stuffing", "penalty"]
+    },
+    {
+      "id": "seo-q7",
+      "topic": "SEO Basics",
+      "question": "Core Web Vitals influence SEO because they measure:",
+      "options": [
+        { "id": "a", "text": "Page experience (loading, interactivity, visual stability)" },
+        { "id": "b", "text": "Number of backlinks" },
+        { "id": "c", "text": "Keyword count" },
+        { "id": "d", "text": "Domain age" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "LCP, FID/INP, and CLS are page-experience signals that Google factors into rankings.",
+      "difficulty": "medium",
+      "tags": ["core-web-vitals", "performance"]
+    },
+    {
+      "id": "seo-q8",
+      "topic": "SEO Basics",
+      "question": "Mobile-first indexing means Google primarily:",
+      "options": [
+        { "id": "a", "text": "Uses the mobile version of a page for ranking and indexing" },
+        { "id": "b", "text": "Ignores mobile" },
+        { "id": "c", "text": "Ranks desktop only" },
+        { "id": "d", "text": "Requires an app" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Since most searches are mobile, Google indexes the mobile rendering first — responsive, mobile-friendly pages matter.",
+      "difficulty": "medium",
+      "tags": ["mobile-first", "indexing"]
+    }
+  ]
+}

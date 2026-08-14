@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/005 - Forms.md",
+  "title": "HTML Forms Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "form-q1",
+      "topic": "HTML Forms",
+      "question": "The <label for='email'> associates with an input via the input's:",
+      "options": [
+        { "id": "a", "text": "id attribute (matching the for value)" },
+        { "id": "b", "text": "name attribute" },
+        { "id": "c", "text": "class attribute" },
+        { "id": "d", "text": "value attribute" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "for must equal the target input's id. Proper labels improve a11y and clickable area.",
+      "difficulty": "easy",
+      "tags": ["label", "for"]
+    },
+    {
+      "id": "form-q2",
+      "topic": "HTML Forms",
+      "question": "To send form data via the URL (GET) vs body (POST), you use:",
+      "options": [
+        { "id": "a", "text": "method='get' or method='post' on the <form>" },
+        { "id": "b", "text": "type='get' on the input" },
+        { "id": "c", "text": "action='url' only" },
+        { "id": "d", "text": "enctype='get'" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "method controls how data is submitted; GET appends to URL (idempotent, bookmarkable), POST sends in body (for mutations).",
+      "difficulty": "medium",
+      "tags": ["method", "get-post"]
+    },
+    {
+      "id": "form-q3",
+      "topic": "HTML Forms",
+      "question": "The 'name' attribute on an input is important because it:",
+      "options": [
+        { "id": "a", "text": "Identifies the field's key in submitted form data" },
+        { "id": "b", "text": "Styles the input" },
+        { "id": "c", "text": "Sets the label text" },
+        { "id": "d", "text": "Disables the field" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Only inputs with a name are submitted; name becomes the key (e.g. email=value) in the payload.",
+      "difficulty": "easy",
+      "tags": ["name", "submission"]
+    },
+    {
+      "id": "form-q4",
+      "topic": "HTML Forms",
+      "question": "required on an input:",
+      "options": [
+        { "id": "a", "text": "Blocks native form submission until the field is filled" },
+        { "id": "b", "text": "Submits the field as empty" },
+        { "id": "c", "text": "Hides the field" },
+        { "id": "d", "text": "Disables validation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The required attribute triggers built-in browser validation before submit — no JS needed for the basic check.",
+      "difficulty": "easy",
+      "tags": ["required", "validation"]
+    },
+    {
+      "id": "form-q5",
+      "topic": "HTML Forms",
+      "question": "The 'placeholder' attribute shows:",
+      "options": [
+        { "id": "a", "text": "Hint text inside the field that disappears on input (not a label substitute)" },
+        { "id": "b", "text": "The field's submitted value" },
+        { "id": "c", "text": "The label" },
+        { "id": "d", "text": "An error message" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Placeholder is a hint only; always provide a real <label> for accessibility — placeholders vanish and aren't announced as labels.",
+      "difficulty": "medium",
+      "tags": ["placeholder", "label"]
+    },
+    {
+      "id": "form-q6",
+      "topic": "HTML Forms",
+      "question": "A fieldset/legend is useful for:",
+      "options": [
+        { "id": "a", "text": "Grouping related controls with an accessible group label" },
+        { "id": "b", "text": "Styling buttons" },
+        { "id": "c", "text": "Setting the action URL" },
+        { "id": "d", "text": "Disabling the form" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fieldset + legend semantically groups radios/checkboxes and is announced by screen readers as a group.",
+      "difficulty": "medium",
+      "tags": ["fieldset", "grouping"]
+    },
+    {
+      "id": "form-q7",
+      "topic": "HTML Forms",
+      "question": "For accessibility, each input should have:",
+      "options": [
+        { "id": "a", "text": "A programmatically associated <label>" },
+        { "id": "b", "text": "Only a placeholder" },
+        { "id": "c", "text": "A title attribute only" },
+        { "id": "d", "text": "No label needed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A real label (or aria-label) lets screen readers announce the field's purpose; placeholder/title alone is insufficient.",
+      "difficulty": "medium",
+      "tags": ["accessibility", "label"]
+    },
+    {
+      "id": "form-q8",
+      "topic": "HTML Forms",
+      "question": "novalidate on a <form> does:",
+      "options": [
+        { "id": "a", "text": "Disables native browser validation (lets you handle it in JS)" },
+        { "id": "b", "text": "Forces validation harder" },
+        { "id": "c", "text": "Submits via GET" },
+        { "id": "d", "text": "Clears all fields" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "novalidate skips built-in checks — useful when you run custom Angular/JS validation and don't want double prompts.",
+      "difficulty": "hard",
+      "tags": ["novalidate", "custom-validation"]
+    }
+  ]
+}

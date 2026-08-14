@@ -7,956 +7,908 @@
   "folder": "01-html-semantics",
   "description": "Mixed quiz covering all topics in Html semantics.",
   "questionCount": 30,
-  "generatedAt": "2026-08-13T08:08:27.878Z",
+  "generatedAt": "2026-08-14T07:21:31.110Z",
   "questions": [
     {
-      "id": "js-engine-q1",
-      "topic": "JavaScript Engine",
-      "question": "Which engine powers BOTH Google Chrome and Node.js?",
+      "id": "semantic-q1",
+      "topic": "Semantic HTML",
+      "question": "Which of these is a SEMANTIC element (conveys meaning), not just a generic container?",
       "options": [
         {
           "id": "a",
-          "text": "SpiderMonkey"
+          "text": "<div>"
         },
         {
           "id": "b",
-          "text": "V8"
+          "text": "<span>"
         },
         {
           "id": "c",
-          "text": "Chakra"
+          "text": "<article>"
         },
         {
           "id": "d",
-          "text": "JavaScriptCore"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
-      "difficulty": "easy",
-      "tags": [
-        "engine",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q2",
-      "topic": "JavaScript Engine",
-      "question": "What is the first stage a JS engine performs after reading source code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Execute it line by line immediately"
-        },
-        {
-          "id": "b",
-          "text": "Parse it into an Abstract Syntax Tree (AST)"
-        },
-        {
-          "id": "c",
-          "text": "Compile directly to machine code"
-        },
-        {
-          "id": "d",
-          "text": "Send it to the GPU"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
-      "difficulty": "medium",
-      "tags": [
-        "parser",
-        "ast"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q3",
-      "topic": "JavaScript Engine",
-      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Interprets code once and discards it"
-        },
-        {
-          "id": "b",
-          "text": "Optimizes frequently-run ('hot') code paths dynamically"
-        },
-        {
-          "id": "c",
-          "text": "Only runs during page load"
-        },
-        {
-          "id": "d",
-          "text": "Disables the garbage collector"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
-      "difficulty": "medium",
-      "tags": [
-        "jit",
-        "v8"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q4",
-      "topic": "JavaScript Engine",
-      "question": "Is Node.js a JavaScript engine?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Yes, Node.js is the engine"
-        },
-        {
-          "id": "b",
-          "text": "No, Node.js is a runtime that embeds the V8 engine"
-        },
-        {
-          "id": "c",
-          "text": "No, it is a browser"
-        },
-        {
-          "id": "d",
-          "text": "Yes, but only on Windows"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
-      "difficulty": "easy",
-      "tags": [
-        "runtime",
-        "node"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q5",
-      "topic": "JavaScript Engine",
-      "question": "Which component of the engine reclaims unused memory automatically?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The Call Stack"
-        },
-        {
-          "id": "b",
-          "text": "The Parser"
-        },
-        {
-          "id": "c",
-          "text": "The Garbage Collector"
-        },
-        {
-          "id": "d",
-          "text": "The Event Loop"
+          "text": "<br>"
         }
       ],
       "correctOptionId": "c",
-      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
+      "explanation": "<article> describes self-contained content. <div>/<span> are generic and carry no meaning; <br> is a line break.",
       "difficulty": "easy",
       "tags": [
-        "memory",
-        "gc"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "semantic",
+        "elements"
+      ]
     },
     {
-      "id": "js-engine-q6",
-      "topic": "JavaScript Engine",
-      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
+      "id": "semantic-q2",
+      "topic": "Semantic HTML",
+      "question": "How many <main> elements should a single HTML document contain?",
       "options": [
         {
           "id": "a",
-          "text": "Using consistent object shapes"
+          "text": "As many as you like"
         },
         {
           "id": "b",
-          "text": "Reassigning a variable to a different type in a hot path"
+          "text": "Exactly one"
         },
         {
           "id": "c",
-          "text": "Adding 'use strict'"
+          "text": "At least two"
         },
         {
           "id": "d",
-          "text": "Declaring const variables"
+          "text": "None is required, but max three"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
-      "difficulty": "hard",
+      "explanation": "There must be exactly ONE <main> per document — it represents the dominant unique content. Multiple <main> elements break assistive-tech expectations.",
+      "difficulty": "easy",
       "tags": [
-        "optimization",
-        "deopt"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "main",
+        "best-practice"
+      ]
     },
     {
-      "id": "js-engine-q7",
-      "topic": "JavaScript Engine",
-      "question": "Which statement is TRUE about the Event Loop?",
+      "id": "semantic-q3",
+      "topic": "Semantic HTML",
+      "question": "What implicit ARIA role does the <nav> element expose to assistive technology?",
       "options": [
         {
           "id": "a",
-          "text": "It is part of the JavaScript language spec"
+          "text": "role=\"banner\""
         },
         {
           "id": "b",
-          "text": "It is provided by the runtime environment (browser/Node), not the engine itself"
+          "text": "role=\"navigation\""
         },
         {
           "id": "c",
-          "text": "It lives inside V8 directly"
+          "text": "role=\"contentinfo\""
         },
         {
           "id": "d",
-          "text": "It only exists in Node.js"
+          "text": "role=\"region\""
         }
       ],
       "correctOptionId": "b",
-      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
+      "explanation": "Browsers map <nav> to role=\"navigation\". <header>→banner, <footer>→contentinfo, <section>→region.",
       "difficulty": "medium",
       "tags": [
-        "event-loop",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "aria",
+        "roles"
+      ]
     },
     {
-      "id": "js-engine-q8",
-      "topic": "JavaScript Engine",
-      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
+      "id": "semantic-q4",
+      "topic": "Semantic HTML",
+      "question": "Which element should wrap an independent, reusable piece of content (e.g. a blog post or comment)?",
       "options": [
         {
           "id": "a",
-          "text": "CSS animations"
+          "text": "<section>"
         },
         {
           "id": "b",
-          "text": "Change detection after async operations"
+          "text": "<div>"
         },
         {
           "id": "c",
-          "text": "Garbage collection"
+          "text": "<article>"
         },
         {
           "id": "d",
-          "text": "HTTP caching"
+          "text": "<aside>"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "<article> marks content that is independently distributable (posts, comments, cards). <section> groups thematically related content; <aside> is tangential.",
+      "difficulty": "medium",
+      "tags": [
+        "article",
+        "section"
+      ]
+    },
+    {
+      "id": "semantic-q5",
+      "topic": "Semantic HTML",
+      "question": "Why does semantic HTML help SEO?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It makes the page load faster"
+        },
+        {
+          "id": "b",
+          "text": "Search crawlers infer structure/meaning and rank content better"
+        },
+        {
+          "id": "c",
+          "text": "It increases font size automatically"
+        },
+        {
+          "id": "d",
+          "text": "It removes the need for meta tags"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
-      "difficulty": "hard",
+      "explanation": "Crawlers use semantics to understand hierarchy and topic relevance, improving indexing/ranking. It is not a direct speed or font effect.",
+      "difficulty": "easy",
+      "tags": [
+        "seo",
+        "crawlers"
+      ]
+    },
+    {
+      "id": "semantic-q6",
+      "topic": "Semantic HTML",
+      "question": "A common mistake is using <section> purely for styling. What is the correct rule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use <section> only when it has a heading and groups related content"
+        },
+        {
+          "id": "b",
+          "text": "Use <section> for every box you want to style"
+        },
+        {
+          "id": "c",
+          "text": "<section> is deprecated, use <div>"
+        },
+        {
+          "id": "d",
+          "text": "Nest as many <main> as needed inside <section>"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A section should group thematically related content, typically with a heading. For pure styling use <div>. Never nest multiple <main>.",
+      "difficulty": "medium",
+      "tags": [
+        "best-practice",
+        "section"
+      ]
+    },
+    {
+      "id": "semantic-q7",
+      "topic": "Semantic HTML",
+      "question": "What does the <time> element with a datetime attribute provide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A live clock on the page"
+        },
+        {
+          "id": "b",
+          "text": "Machine-readable date/time for parsers and search engines"
+        },
+        {
+          "id": "c",
+          "text": "Automatic timezone conversion"
+        },
+        {
+          "id": "d",
+          "text": "A countdown timer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "<time datetime=\"...\"> gives parsers/search engines a standardized value (e.g. 2025-01-01T09:00Z) while showing human text inside.",
+      "difficulty": "medium",
+      "tags": [
+        "time",
+        "datetime"
+      ]
+    },
+    {
+      "id": "semantic-q8",
+      "topic": "Semantic HTML",
+      "question": "In Angular templates, why is using semantic tags (article/header/footer) recommended?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It makes Angular compile faster"
+        },
+        {
+          "id": "b",
+          "text": "It produces accessible, well-structured component layouts"
+        },
+        {
+          "id": "c",
+          "text": "It is required by Angular CLI"
+        },
+        {
+          "id": "d",
+          "text": "It removes the need for RxJS"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Semantic tags in component templates give accessible, maintainable structure — a frontend best practice, not an Angular requirement.",
+      "difficulty": "easy",
       "tags": [
         "angular",
-        "zonejs"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "accessibility"
+      ]
     },
     {
-      "id": "promise-q1",
-      "topic": "Promises",
-      "question": "A Promise that has settled successfully is in which state?",
+      "id": "a11y-q1",
+      "topic": "Accessibility",
+      "question": "What does a11y stand for and what problem does it solve?",
       "options": [
         {
           "id": "a",
-          "text": "pending"
+          "text": "Authentication; securing login forms"
         },
         {
           "id": "b",
-          "text": "fulfilled"
+          "text": "Accessibility; making digital experiences usable by people with disabilities"
         },
         {
           "id": "c",
-          "text": "rejected"
+          "text": "Animation; smoothing CSS transitions"
         },
         {
           "id": "d",
-          "text": "blocked"
+          "text": "Aggregation; bundling API calls"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
+      "explanation": "a11y = accessibility (a + 11 letters + y). It ensures people with visual/auditory/motor/cognitive impairments can use the product.",
       "difficulty": "easy",
       "tags": [
-        "promise",
-        "states"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "a11y",
+        "definition"
+      ]
     },
     {
-      "id": "promise-q2",
-      "topic": "Promises",
-      "question": "What does .then() return?",
+      "id": "a11y-q2",
+      "topic": "Accessibility",
+      "question": "Which is the BEST practice when building a custom clickable component?",
       "options": [
         {
           "id": "a",
-          "text": "The original Promise (same reference)"
+          "text": "Use <div role=\"button\" tabindex=\"0\"> and re-implement keyboard handling"
         },
         {
           "id": "b",
-          "text": "A brand-new Promise (enabling chaining)"
+          "text": "Use a native <button> element"
         },
         {
           "id": "c",
-          "text": "undefined"
+          "text": "Use <span onclick> with no keyboard support"
         },
         {
           "id": "d",
-          "text": "The resolved value directly"
+          "text": "Use <a> without href"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
+      "explanation": "Native <button> gives focus, keyboard (Enter/Space), and role for free. ARIA should only be added when native elements can't be used (first rule of ARIA).",
       "difficulty": "medium",
       "tags": [
-        "then",
-        "chaining"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "aria",
+        "native"
+      ]
     },
     {
-      "id": "promise-q3",
-      "topic": "Promises",
-      "question": "What is returned by Promise.all if ANY input promise rejects?",
+      "id": "a11y-q3",
+      "topic": "Accessibility",
+      "question": "An image used purely for decoration should be made invisible to screen readers by:",
       "options": [
         {
           "id": "a",
-          "text": "An array with nulls for the rejected ones"
+          "text": "alt=\"decorative image\""
         },
         {
           "id": "b",
-          "text": "It rejects immediately with that rejection reason"
+          "text": "alt=\"\""
         },
         {
           "id": "c",
-          "text": "It waits for all then resolves"
+          "text": "role=\"img\""
         },
         {
           "id": "d",
-          "text": "It returns an empty array"
+          "text": "title=\"image\""
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
-      "difficulty": "medium",
+      "explanation": "Empty alt=\"\" tells assistive tech to ignore the image. Descriptive alt is for meaningful images; missing alt is an a11y failure.",
+      "difficulty": "easy",
       "tags": [
-        "promise-all",
-        "reject"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "alt",
+        "images"
+      ]
     },
     {
-      "id": "promise-q4",
-      "topic": "Promises",
-      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
+      "id": "a11y-q4",
+      "topic": "Accessibility",
+      "question": "What does the 'first rule of ARIA' state?",
       "options": [
         {
           "id": "a",
-          "text": "Promise.all"
+          "text": "Always use role attributes on every element"
         },
         {
           "id": "b",
-          "text": "Promise.race"
+          "text": "Use native HTML elements with built-in semantics before reaching for ARIA"
         },
         {
           "id": "c",
-          "text": "Promise.allSettled"
+          "text": "ARIA overrides everything, so use it liberally"
         },
         {
           "id": "d",
-          "text": "Promise.any"
+          "text": "Never use ARIA in production"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
-      "difficulty": "medium",
-      "tags": [
-        "race"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q5",
-      "topic": "Promises",
-      "question": "What does Promise.allSettled resolve with?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Only the fulfilled values"
-        },
-        {
-          "id": "b",
-          "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}"
-        },
-        {
-          "id": "c",
-          "text": "The first rejection"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
+      "explanation": "First rule: if a native element or attribute has the semantics you need, use it instead of ARIA, which can override and break native behavior.",
       "difficulty": "hard",
       "tags": [
-        "allsettled"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "aria",
+        "best-practice"
+      ]
     },
     {
-      "id": "promise-q6",
-      "topic": "Promises",
-      "question": "A Promise executor function receives two arguments. What are they?",
+      "id": "a11y-q5",
+      "topic": "Accessibility",
+      "question": "Which Angular CDK utility announces dynamic changes to screen-reader users?",
       "options": [
         {
           "id": "a",
-          "text": "onSuccess, onError"
+          "text": "LiveAnnouncer"
         },
         {
           "id": "b",
-          "text": "resolve, reject"
+          "text": "TitleCasePipe"
         },
         {
           "id": "c",
-          "text": "then, catch"
+          "text": "NgZone"
         },
         {
           "id": "d",
-          "text": "async, await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
-      "difficulty": "easy",
-      "tags": [
-        "executor"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q7",
-      "topic": "Promises",
-      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A fulfilled promise with value 5"
-        },
-        {
-          "id": "b",
-          "text": "A rejected promise"
-        },
-        {
-          "id": "c",
-          "text": "Throws synchronously"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
-      "difficulty": "medium",
-      "tags": [
-        "reject",
-        "then"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q8",
-      "topic": "Promises",
-      "question": "Callbacks passed to then/catch always run as...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Synchronous, immediately"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (after current script, before macrotasks)"
-        },
-        {
-          "id": "c",
-          "text": "Macrotasks (setTimeout queue)"
-        },
-        {
-          "id": "d",
-          "text": "Only on page unload"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
-      "difficulty": "hard",
-      "tags": [
-        "microtask",
-        "event-loop"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "async-q1",
-      "topic": "async/await",
-      "question": "What does an `async function` ALWAYS return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The raw value you return"
-        },
-        {
-          "id": "b",
-          "text": "A Promise that resolves to the returned value"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "A generator object"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async functions wrap the return value in a Promise automatically.",
-      "difficulty": "easy",
-      "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q2",
-      "topic": "async/await",
-      "question": "If you `await` a rejected promise, what happens?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It returns undefined silently"
-        },
-        {
-          "id": "b",
-          "text": "It throws inside the async function (catchable with try/catch)"
-        },
-        {
-          "id": "c",
-          "text": "The program crashes always"
-        },
-        {
-          "id": "d",
-          "text": "It logs to console only"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
-      "difficulty": "medium",
-      "tags": [
-        "await",
-        "error"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q3",
-      "topic": "async/await",
-      "question": "To run two independent async calls in PARALLEL with async/await, you should...",
-      "options": [
-        {
-          "id": "a",
-          "text": "await callA(); await callB();"
-        },
-        {
-          "id": "b",
-          "text": "const [a,b] = await Promise.all([callA(), callB()]);"
-        },
-        {
-          "id": "c",
-          "text": "await Promise.race([callA(), callB()]);"
-        },
-        {
-          "id": "d",
-          "text": "Just call them without await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Start both promises, then await Promise.all so they run concurrently, not sequentially.",
-      "difficulty": "medium",
-      "tags": [
-        "parallel",
-        "promise-all"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q4",
-      "topic": "async/await",
-      "question": "`await` can only be used inside...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Any regular function"
-        },
-        {
-          "id": "b",
-          "text": "An async function (or top-level await in modules)"
-        },
-        {
-          "id": "c",
-          "text": "A for-loop only"
-        },
-        {
-          "id": "d",
-          "text": "A callback"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "await is only valid inside async functions (or module top-level await).",
-      "difficulty": "easy",
-      "tags": [
-        "syntax"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q5",
-      "topic": "async/await",
-      "question": "Under the hood, async/await is built on top of...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Callback hell only"
-        },
-        {
-          "id": "b",
-          "text": "Promises (syntactic sugar over .then)"
-        },
-        {
-          "id": "c",
-          "text": "Web Workers"
-        },
-        {
-          "id": "d",
-          "text": "Generators only, no Promises"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async/await is syntactic sugar over Promise chaining, making async code read like sync code.",
-      "difficulty": "medium",
-      "tags": [
-        "promises",
-        "sugar"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q6",
-      "topic": "async/await",
-      "question": "What does `await` actually do to the surrounding code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Blocks the main thread until done"
-        },
-        {
-          "id": "b",
-          "text": "Suspends the async function, yielding control back to the event loop"
-        },
-        {
-          "id": "c",
-          "text": "Stops all JavaScript execution"
-        },
-        {
-          "id": "d",
-          "text": "Runs the callback synchronously"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "await pauses the async function (non-blocking); other code keeps running via the event loop.",
-      "difficulty": "hard",
-      "tags": [
-        "event-loop",
-        "non-blocking"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q7",
-      "topic": "async/await",
-      "question": "If a function is marked `async` but never uses `await`, it still...",
-      "options": [
-        {
-          "id": "a",
-          "text": "Throws a syntax error"
-        },
-        {
-          "id": "b",
-          "text": "Returns a Promise (just resolves immediately)"
-        },
-        {
-          "id": "c",
-          "text": "Returns a plain value"
-        },
-        {
-          "id": "d",
-          "text": "Does not compile"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The async keyword alone forces Promise-return semantics regardless of await usage.",
-      "difficulty": "easy",
-      "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q8",
-      "topic": "async/await",
-      "question": "Which is the BEST pattern for handling multiple awaits that may each fail independently?",
-      "options": [
-        {
-          "id": "a",
-          "text": "One giant try/catch around everything"
-        },
-        {
-          "id": "b",
-          "text": "try/catch per step OR Promise.allSettled then inspect each result"
-        },
-        {
-          "id": "c",
-          "text": "Ignore errors"
-        },
-        {
-          "id": "d",
-          "text": "Use setTimeout"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Per-step try/catch or allSettled gives granular control over which operations succeeded.",
-      "difficulty": "hard",
-      "tags": [
-        "error-handling"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q1",
-      "topic": "Event Loop",
-      "question": "What is the correct ordering of the queues in the event loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Macrotasks run before microtasks"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (drain fully) run before the next macrotask"
-        },
-        {
-          "id": "c",
-          "text": "They run simultaneously"
-        },
-        {
-          "id": "d",
-          "text": "Render tasks run before microtasks"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "After the current task, the microtask queue is fully drained before the next macrotask and before rendering.",
-      "difficulty": "medium",
-      "tags": [
-        "microtask",
-        "macrotask"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q2",
-      "topic": "Event Loop",
-      "question": "Which of these is a MACROtask (not a microtask)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.then callback"
-        },
-        {
-          "id": "b",
-          "text": "queueMicrotask"
-        },
-        {
-          "id": "c",
-          "text": "setTimeout / setInterval"
-        },
-        {
-          "id": "d",
-          "text": "MutationObserver"
-        }
-      ],
-      "correctOptionId": "c",
-      "explanation": "setTimeout/setInterval/setImmediate are macrotasks; promise reactions, queueMicrotask, MutationObserver are microtasks.",
-      "difficulty": "medium",
-      "tags": [
-        "macrotask",
-        "settimeout"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q3",
-      "topic": "Event Loop",
-      "question": "Given the code, what prints first?\nconsole.log('1');\nsetTimeout(()=>console.log('2'),0);\nPromise.resolve().then(()=>console.log('3'));\nconsole.log('4');",
-      "options": [
-        {
-          "id": "a",
-          "text": "1, 4, 3, 2"
-        },
-        {
-          "id": "b",
-          "text": "1, 4, 2, 3"
-        },
-        {
-          "id": "c",
-          "text": "1, 2, 3, 4"
-        },
-        {
-          "id": "d",
-          "text": "4, 3, 2, 1"
+          "text": "HttpClient"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Sync logs 1 and 4; promise microtask (3) runs before the setTimeout macrotask (2).",
-      "difficulty": "hard",
-      "tags": [
-        "ordering"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q4",
-      "topic": "Event Loop",
-      "question": "Who provides the Event Loop — the JS engine (V8) or the runtime (browser/Node)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "V8 engine"
-        },
-        {
-          "id": "b",
-          "text": "The runtime environment"
-        },
-        {
-          "id": "c",
-          "text": "The CPU"
-        },
-        {
-          "id": "d",
-          "text": "The DOM"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Event Loop is part of the host runtime (libuv in Node, browser), not the ECMAScript spec/engine.",
+      "explanation": "LiveAnnouncer (from @angular/cdk/a11y) pushes text to an aria-live region so SR users hear updates like 'Item added to cart'.",
       "difficulty": "medium",
       "tags": [
-        "runtime"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+        "angular",
+        "cdk"
+      ]
     },
     {
-      "id": "eventloop-q5",
-      "topic": "Event Loop",
-      "question": "What is the danger of an infinite chain of microtasks?",
+      "id": "a11y-q6",
+      "topic": "Accessibility",
+      "question": "A modal dialog must trap focus. Why?",
       "options": [
         {
           "id": "a",
-          "text": "It crashes the CPU instantly"
+          "text": "To prevent the user from scrolling the background"
         },
         {
           "id": "b",
-          "text": "It starves the macrotask queue and UI rendering (page freezes)"
+          "text": "So keyboard users cannot escape into background content while the dialog is open"
         },
         {
           "id": "c",
-          "text": "It has no effect"
+          "text": "To improve CSS animation performance"
         },
         {
           "id": "d",
-          "text": "It only affects Node.js"
+          "text": "To avoid HTTP requests"
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Because microtasks drain fully before macrotasks/rendering, an infinite microtask loop blocks the UI.",
+      "explanation": "Focus trapping keeps keyboard/Tab navigation inside the modal so users don't lose context in background content — a core a11y requirement.",
       "difficulty": "hard",
       "tags": [
-        "starvation"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+        "modal",
+        "focus"
+      ]
     },
     {
-      "id": "eventloop-q6",
-      "topic": "Event Loop",
-      "question": "In Node.js, which is generally processed before timers (setTimeout)?",
+      "id": "a11y-q7",
+      "topic": "Accessibility",
+      "question": "Which is a common accessibility mistake?",
       "options": [
         {
           "id": "a",
-          "text": "Microtasks (promise reactions) between phases"
+          "text": "Providing focus indicators"
         },
         {
           "id": "b",
-          "text": "setImmediate always"
+          "text": "Missing alt text on informative images"
         },
         {
           "id": "c",
-          "text": "I/O callbacks always"
+          "text": "Using semantic landmarks"
         },
         {
           "id": "d",
-          "text": "Nothing — timers always first"
+          "text": "Ensuring keyboard operability"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missing alt text, poor contrast, and non-keyboard-operable controls are the classic a11y failures to avoid.",
+      "difficulty": "easy",
+      "tags": [
+        "mistakes",
+        "alt"
+      ]
+    },
+    {
+      "id": "a11y-q8",
+      "topic": "Accessibility",
+      "question": "What do browser accessibility APIs (AXAPI/UIA/AT-SPI) do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Render the page pixels"
+        },
+        {
+          "id": "b",
+          "text": "Expose accessible names/states from the DOM to assistive technologies"
+        },
+        {
+          "id": "c",
+          "text": "Compile JavaScript"
+        },
+        {
+          "id": "d",
+          "text": "Cache images"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The accessibility tree (built from DOM + ARIA) is exposed via platform APIs so screen readers can announce names, roles, and states.",
+      "difficulty": "medium",
+      "tags": [
+        "accessibility-tree",
+        "apis"
+      ]
+    },
+    {
+      "id": "aria-q1",
+      "topic": "ARIA",
+      "question": "What does ARIA stand for and what does it provide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asynchronous Request Interface; AJAX helpers"
+        },
+        {
+          "id": "b",
+          "text": "Accessible Rich Internet Applications; roles/states/properties for accessibility"
+        },
+        {
+          "id": "c",
+          "text": "Automatic Responsive Image Adjustment"
+        },
+        {
+          "id": "d",
+          "text": "Advanced Routing In Angular"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ARIA = Accessible Rich Internet Applications. It adds role, aria-* state, and property attributes for widgets native HTML can't express.",
+      "difficulty": "easy",
+      "tags": [
+        "aria",
+        "definition"
+      ]
+    },
+    {
+      "id": "aria-q2",
+      "topic": "ARIA",
+      "question": "Which attribute would you use to tell a screen reader the CURRENT value of a custom slider (min 0, max 100, now 50)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "value=\"50\""
+        },
+        {
+          "id": "b",
+          "text": "aria-valuenow=\"50\" with aria-valuemin/aria-valuemax"
+        },
+        {
+          "id": "c",
+          "text": "title=\"50\""
+        },
+        {
+          "id": "d",
+          "text": "data-value=\"50\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "For role=\"slider\" you expose aria-valuenow, aria-valuemin, aria-valuemax so SRs announce the live value range.",
+      "difficulty": "medium",
+      "tags": [
+        "aria-valuenow",
+        "slider"
+      ]
+    },
+    {
+      "id": "aria-q3",
+      "topic": "ARIA",
+      "question": "What does aria-live=\"polite\" do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reloads the page politely"
+        },
+        {
+          "id": "b",
+          "text": "Announces dynamic content changes to SR users without interrupting current speech"
+        },
+        {
+          "id": "c",
+          "text": "Hides content from SR"
+        },
+        {
+          "id": "d",
+          "text": "Disables animations"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "aria-live regions announce updates. 'polite' queues after current speech; 'assertive' interrupts. Essential for toasts/status updates.",
+      "difficulty": "hard",
+      "tags": [
+        "aria-live",
+        "regions"
+      ]
+    },
+    {
+      "id": "aria-q4",
+      "topic": "ARIA",
+      "question": "A key pitfall: <div role=\"button\"> is NOT clickable by itself. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because role adds full functionality automatically"
+        },
+        {
+          "id": "b",
+          "text": "Because role only changes the accessibility tree; you must add JS for click + keyboard (Enter/Space)"
+        },
+        {
+          "id": "c",
+          "text": "Because divs cannot have roles"
+        },
+        {
+          "id": "d",
+          "text": "Because it requires a form wrapper"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ARIA role is semantic only — it does not add behavior. A <button> gives click + Enter/Space for free; a div needs manual JS.",
+      "difficulty": "medium",
+      "tags": [
+        "role",
+        "behavior"
+      ]
+    },
+    {
+      "id": "aria-q5",
+      "topic": "ARIA",
+      "question": "When should you AVOID using ARIA?",
+      "options": [
+        {
+          "id": "a",
+          "text": "On every element to be safe"
+        },
+        {
+          "id": "b",
+          "text": "When a native HTML element already provides the needed semantics"
+        },
+        {
+          "id": "c",
+          "text": "Never; ARIA is always better than HTML"
+        },
+        {
+          "id": "d",
+          "text": "Only in SPAs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "First rule of ARIA: prefer native HTML. Adding ARIA can override and break native semantics if done incorrectly.",
+      "difficulty": "medium",
+      "tags": [
+        "best-practice",
+        "native"
+      ]
+    },
+    {
+      "id": "aria-q6",
+      "topic": "ARIA",
+      "question": "In a tab interface, which ARIA pattern is correct for the selected tab?",
+      "options": [
+        {
+          "id": "a",
+          "text": "<li role=\"tab\" aria-selected=\"true\" aria-controls=\"panel1\">"
+        },
+        {
+          "id": "b",
+          "text": "<li role=\"tab\" selected>"
+        },
+        {
+          "id": "c",
+          "text": "<li role=\"tab\" aria-checked=\"true\">"
+        },
+        {
+          "id": "d",
+          "text": "<li class=\"tab active\">"
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Node runs the microtask queue between each phase of its loop, so pending promise reactions run before timers.",
+      "explanation": "Tabs use role=\"tab\" with aria-selected (true/false) and aria-controls pointing to the associated tabpanel — follows WAI-ARIA APG.",
       "difficulty": "hard",
       "tags": [
-        "node"
+        "tabs",
+        "pattern"
+      ]
+    },
+    {
+      "id": "aria-q7",
+      "topic": "ARIA",
+      "question": "What is aria-hidden=\"true\" used for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To hide content visually from all users"
+        },
+        {
+          "id": "b",
+          "text": "To remove an element from the accessibility tree (SR ignores it) while still showing it visually"
+        },
+        {
+          "id": "c",
+          "text": "To delete the element from DOM"
+        },
+        {
+          "id": "d",
+          "text": "To mark a required field"
+        }
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "correctOptionId": "b",
+      "explanation": "aria-hidden removes a node from the a11y tree (e.g. decorative icons) but keeps it visible. Never put aria-hidden on focusable content.",
+      "difficulty": "medium",
+      "tags": [
+        "aria-hidden",
+        "tree"
+      ]
+    },
+    {
+      "id": "aria-q8",
+      "topic": "ARIA",
+      "question": "Which Angular library relies heavily on ARIA patterns for keyboard nav & screen readers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Material"
+        },
+        {
+          "id": "b",
+          "text": "NgRx Store"
+        },
+        {
+          "id": "c",
+          "text": "Angular CLI"
+        },
+        {
+          "id": "d",
+          "text": "RxJS"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Angular Material components (Menu, Dialog, Tabs, CDK Overlay) implement WAI-ARIA patterns for accessibility out of the box.",
+      "difficulty": "easy",
+      "tags": [
+        "angular",
+        "material"
+      ]
+    },
+    {
+      "id": "seo-q1",
+      "topic": "SEO Basics",
+      "question": "SEO stands for:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Search Engine Optimization"
+        },
+        {
+          "id": "b",
+          "text": "Site Engine Ordering"
+        },
+        {
+          "id": "c",
+          "text": "Search Entity Output"
+        },
+        {
+          "id": "d",
+          "text": "Secure External Operations"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SEO improves a site's visibility in organic (non-paid) search results via content, technical, and authority signals.",
+      "difficulty": "easy",
+      "tags": [
+        "seo",
+        "definition"
+      ]
+    },
+    {
+      "id": "seo-q2",
+      "topic": "SEO Basics",
+      "question": "The three core stages a search engine follows are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Crawling, Indexing, Ranking"
+        },
+        {
+          "id": "b",
+          "text": "Designing, Coding, Deploying"
+        },
+        {
+          "id": "c",
+          "text": "Parsing, Rendering, Caching"
+        },
+        {
+          "id": "d",
+          "text": "Linking, Sharing, Commenting"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bots crawl URLs, index parsed content, then rank pages by relevance/authority for a query.",
+      "difficulty": "medium",
+      "tags": [
+        "crawl",
+        "index",
+        "rank"
+      ]
+    },
+    {
+      "id": "seo-q3",
+      "topic": "SEO Basics",
+      "question": "A <link rel='canonical'> tells search engines:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Which URL is the preferred/authoritative version of duplicate content"
+        },
+        {
+          "id": "b",
+          "text": "To ignore the page"
+        },
+        {
+          "id": "c",
+          "text": "The page is mobile-only"
+        },
+        {
+          "id": "d",
+          "text": "To cache forever"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Canonical URLs consolidate ranking signals and avoid duplicate-content penalties across near-identical pages.",
+      "difficulty": "medium",
+      "tags": [
+        "canonical",
+        "duplicate"
+      ]
+    },
+    {
+      "id": "seo-q4",
+      "topic": "SEO Basics",
+      "question": "Structured data (schema.org JSON-LD) is used to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Help search engines understand content and enable rich results (snippets)"
+        },
+        {
+          "id": "b",
+          "text": "Style the page"
+        },
+        {
+          "id": "c",
+          "text": "Speed up the server"
+        },
+        {
+          "id": "d",
+          "text": "Block crawlers"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Schema markup lets Google show rich results (ratings, FAQs). JSON-LD is the recommended format.",
+      "difficulty": "hard",
+      "tags": [
+        "schema",
+        "rich-results"
+      ]
+    },
+    {
+      "id": "seo-q5",
+      "topic": "SEO Basics",
+      "question": "For SPAs (like Angular), the main SEO challenge is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Content is rendered client-side, so crawlers may not see it without SSR/prerendering"
+        },
+        {
+          "id": "b",
+          "text": "They load too fast"
+        },
+        {
+          "id": "c",
+          "text": "They cannot have meta tags"
+        },
+        {
+          "id": "d",
+          "text": "They use too much CSS"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Client-rendered HTML can be empty when crawled; SSR (Angular Universal) or prerendering fixes crawlability.",
+      "difficulty": "hard",
+      "tags": [
+        "spa",
+        "ssr"
+      ]
+    },
+    {
+      "id": "seo-q6",
+      "topic": "SEO Basics",
+      "question": "Keyword stuffing is harmful because it:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reads unnaturally and can trigger search-engine spam penalties"
+        },
+        {
+          "id": "b",
+          "text": "Improves ranking guaranteed"
+        },
+        {
+          "id": "c",
+          "text": "Reduces page size"
+        },
+        {
+          "id": "d",
+          "text": "Helps mobile users"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Overusing keywords looks spammy; modern algorithms reward natural, relevant content over density.",
+      "difficulty": "easy",
+      "tags": [
+        "keyword-stuffing",
+        "penalty"
+      ]
     }
   ]
 }

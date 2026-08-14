@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/008 - SVG.md",
+  "title": "SVG Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "svg-q1",
+      "topic": "SVG",
+      "question": "SVG stands for:",
+      "options": [
+        { "id": "a", "text": "Scalable Vector Graphics" },
+        { "id": "b", "text": "Simple Vector Graph" },
+        { "id": "c", "text": "Standard Visual Grid" },
+        { "id": "d", "text": "Static Video Graphic" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SVG is an XML-based vector format that scales without quality loss — resolution independent.",
+      "difficulty": "easy",
+      "tags": ["svg", "definition"]
+    },
+    {
+      "id": "svg-q2",
+      "topic": "SVG",
+      "question": "A key advantage over <canvas> is SVG is:",
+      "options": [
+        { "id": "a", "text": "Retained-mode (DOM nodes) — each shape is selectable, styleable, and accessible" },
+        { "id": "b", "text": "Pixel-based only" },
+        { "id": "c", "text": "Faster for thousands of particles" },
+        { "id": "d", "text": "Not animatable" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SVG elements are real DOM nodes (can be targeted by CSS/JS, given ARIA). Canvas is an opaque bitmap.",
+      "difficulty": "hard",
+      "tags": ["retained", "dom"]
+    },
+    {
+      "id": "svg-q3",
+      "topic": "SVG",
+      "question": "An SVG drawn with <circle cx='50' cy='50' r='40'> places its center at:",
+      "options": [
+        { "id": "a", "text": "(50, 50) with radius 40" },
+        { "id": "b", "text": "Top-left corner (0,0)" },
+        { "id": "c", "text": "(40, 40) radius 50" },
+        { "id": "d", "text": "(50, 50) diameter 40" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "cx/cy are the center coordinates; r is the radius. SVG origin is top-left, y downward like canvas.",
+      "difficulty": "medium",
+      "tags": ["circle", "coordinates"]
+    },
+    {
+      "id": "svg-q4",
+      "topic": "SVG",
+      "question": "SVG scales crisply because it is:",
+      "options": [
+        { "id": "a", "text": "Vector math (paths/curves), not a fixed pixel grid" },
+        { "id": "b", "text": "A PNG under the hood" },
+        { "id": "c", "text": "Rendered once to bitmap" },
+        { "id": "d", "text": "Based on em units only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Vectors are recalculated at any size, so no pixelation — ideal for logos and icons.",
+      "difficulty": "easy",
+      "tags": ["vector", "scalable"]
+    },
+    {
+      "id": "svg-q5",
+      "topic": "SVG",
+      "question": "You can style SVG via:",
+      "options": [
+        { "id": "a", "text": "CSS (fill, stroke) and/or presentation attributes (fill=, stroke=)" },
+        { "id": "b", "text": "Only inline style attributes" },
+        { "id": "c", "text": "JavaScript only" },
+        { "id": "d", "text": "Not at all" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Both CSS properties and SVG attributes control fill/stroke; CSS classes let you theme icons easily.",
+      "difficulty": "medium",
+      "tags": ["styling", "css"]
+    },
+    {
+      "id": "svg-q6",
+      "topic": "SVG",
+      "question": "SVG vs an <img> icon: inline SVG lets you:",
+      "options": [
+        { "id": "a", "text": "Recolor/animate/manipulate it with CSS and JS at runtime" },
+        { "id": "b", "text": "Only change the src" },
+        { "id": "c", "text": "Reduce file size to zero" },
+        { "id": "d", "text": "Avoid the DOM entirely" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inlining SVG makes each path a DOM node — you can change fill on hover, animate paths, add a11y. <img> is opaque.",
+      "difficulty": "medium",
+      "tags": ["inline-svg", "manipulate"]
+    },
+    {
+      "id": "svg-q7",
+      "topic": "SVG",
+      "question": "For accessibility, an inline SVG icon should usually have:",
+      "options": [
+        { "id": "a", "text": "role='img' + <title>/aria-label, or aria-hidden if decorative" },
+        { "id": "b", "text": "Nothing — SVG is always hidden" },
+        { "id": "c", "text": "A <canvas> fallback" },
+        { "id": "d", "text": "display:none" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Meaningful icons need an accessible name; purely decorative ones should be aria-hidden to avoid noise.",
+      "difficulty": "hard",
+      "tags": ["accessibility", "aria"]
+    },
+    {
+      "id": "svg-q8",
+      "topic": "SVG",
+      "question": "A common use case best suited to SVG is:",
+      "options": [
+        { "id": "a", "text": "Logos, icons, and diagrams that must stay sharp at any size" },
+        { "id": "b", "text": "Photo editing of raster images" },
+        { "id": "c", "text": "Video playback" },
+        { "id": "d", "text": "3D game rendering" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SVG excels at sharp, small, animatable vector art; use canvas/raster for photos and heavy pixel work.",
+      "difficulty": "easy",
+      "tags": ["use-case", "icons"]
+    }
+  ]
+}

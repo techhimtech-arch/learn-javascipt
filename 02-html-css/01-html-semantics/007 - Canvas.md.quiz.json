@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/007 - Canvas.md",
+  "title": "Canvas Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "cv-q1",
+      "topic": "Canvas",
+      "question": "The <canvas> element is a:",
+      "options": [
+        { "id": "a", "text": "Scriptable bitmap drawing surface (pixels drawn via JS)" },
+        { "id": "b", "text": "Vector graphics language" },
+        { "id": "c", "text": "HTML layout container" },
+        { "id": "d", "text": "Video player" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Canvas is a blank bitmap you paint on imperatively with the 2D (or WebGL) context — pixel-based, not DOM-based.",
+      "difficulty": "easy",
+      "tags": ["canvas", "bitmap"]
+    },
+    {
+      "id": "cv-q2",
+      "topic": "Canvas",
+      "question": "To draw on canvas you first get:",
+      "options": [
+        { "id": "a", "text": "The 2D context via canvas.getContext('2d')" },
+        { "id": "b", "text": "The CSS context" },
+        { "id": "c", "text": "A WebGL shader only" },
+        { "id": "d", "text": "The DOM node list" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "getContext('2d') returns the drawing API (fillRect, moveTo, etc.). For 3D you'd request 'webgl'.",
+      "difficulty": "easy",
+      "tags": ["getContext", "2d"]
+    },
+    {
+      "id": "cv-q3",
+      "topic": "Canvas",
+      "question": "ctx.fillRect(10, 20, 100, 50) draws a rectangle at:",
+      "options": [
+        { "id": "a", "text": "x=10, y=20, width=100, height=50" },
+        { "id": "b", "text": "x=10, y=20 to x=100, y=50 (diagonal)" },
+        { "id": "c", "text": "center (10,20) radius 100" },
+        { "id": "d", "text": "x=100, y=50 only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fillRect(x, y, w, h): top-left corner at (x,y), then width/height. Origin is top-left, y grows downward.",
+      "difficulty": "medium",
+      "tags": ["fillRect", "coordinates"]
+    },
+    {
+      "id": "cv-q4",
+      "topic": "Canvas",
+      "question": "Canvas differs from SVG in that it is:",
+      "options": [
+        { "id": "a", "text": "Immediate-mode raster (no retained object model; redraw to change)" },
+        { "id": "b", "text": "Retained vector DOM nodes" },
+        { "id": "c", "text": "Pure CSS" },
+        { "id": "d", "text": "A text format" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SVG keeps addressable DOM nodes; canvas paints pixels and forgets them — you must redraw to animate/update.",
+      "difficulty": "hard",
+      "tags": ["canvas-vs-svg", "retained"]
+    },
+    {
+      "id": "cv-q5",
+      "topic": "Canvas",
+      "question": "On high-DPI (Retina) screens, the common fix is:",
+      "options": [
+        { "id": "a", "text": "Scale canvas.width/height by devicePixelRatio and ctx.scale(ratio, ratio)" },
+        { "id": "b", "text": "Leave it; canvas auto-scales" },
+        { "id": "c", "text": "Set CSS only" },
+        { "id": "d", "text": "Use a smaller canvas" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Without ratio scaling, canvas bitmaps look blurry on retina. Multiply backing store by DPR, scale the context, keep CSS size constant.",
+      "difficulty": "hard",
+      "tags": ["devicePixelRatio", "retina"]
+    },
+    {
+      "id": "cv-q6",
+      "topic": "Canvas",
+      "question": "When animating, you should clear the previous frame with:",
+      "options": [
+        { "id": "a", "text": "ctx.clearRect(0, 0, width, height) before redrawing" },
+        { "id": "b", "text": "ctx.save()" },
+        { "id": "c", "text": "canvas.delete()" },
+        { "id": "d", "text": "Nothing needed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "clearRect wipes the bitmap each frame so old drawings don't smear; then redraw the new state.",
+      "difficulty": "medium",
+      "tags": ["clearRect", "animation"]
+    },
+    {
+      "id": "cv-q7",
+      "topic": "Canvas",
+      "question": "ctx.beginPath(), moveTo(), lineTo(), stroke() draws:",
+      "options": [
+        { "id": "a", "text": "A (stroked) line/path connecting the points" },
+        { "id": "b", "text": "A filled rectangle" },
+        { "id": "c", "text": "An image" },
+        { "id": "d", "text": "Text" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "beginPath starts a new path; moveTo/lineTo define points; stroke() renders the outline (fill() would paint it).",
+      "difficulty": "medium",
+      "tags": ["path", "stroke"]
+    },
+    {
+      "id": "cv-q8",
+      "topic": "Canvas",
+      "question": "Chart.js and similar libraries render via:",
+      "options": [
+        { "id": "a", "text": "The <canvas> 2D context under the hood" },
+        { "id": "b", "text": "SVG DOM nodes" },
+        { "id": "c", "text": "CSS animations" },
+        { "id": "d", "text": "Web Components only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Most 2D charting libs paint to canvas for performance with many data points; some offer an SVG renderer too.",
+      "difficulty": "easy",
+      "tags": ["chartjs", "libraries"]
+    }
+  ]
+}
