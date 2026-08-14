@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
   "type": "module",
-  "moduleId": "15-interview-questions",
-  "title": "15 Interview Questions — Module Quiz",
-  "icon": "❓",
-  "folder": "15 Interview Questions",
-  "description": "Mixed quiz covering all topics in 15 Interview Questions.",
-  "questionCount": 24,
-  "generatedAt": "2026-08-12T09:21:01.785Z",
+  "moduleId": "05-frontend-interviews-02-frontend-system-design",
+  "title": "Frontend system design — Module Quiz",
+  "icon": "🏗️",
+  "folder": "02-frontend-system-design",
+  "description": "Mixed quiz covering all topics in Frontend system design.",
+  "questionCount": 22,
+  "generatedAt": "2026-08-13T08:08:27.891Z",
   "questions": [
     {
       "id": "int-js-1",
@@ -606,8 +606,8 @@
       ]
     },
     {
-      "id": "d794fb29",
-      "question": "Which statement best describes the purpose of \"15 Interview Questions\"?",
+      "id": "336d647a",
+      "question": "Which statement best describes the purpose of \"Frontend system design\"?",
       "options": [
         {
           "id": "a",
@@ -627,79 +627,31 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "\"15 Interview Questions\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+      "explanation": "\"Frontend system design\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
     },
     {
-      "id": "bd2d5900",
-      "question": "When working inside \"15 Interview Questions\", the most effective way to retain the material is to:",
+      "id": "df642aff",
+      "question": "When working inside \"02-frontend-system-design\", the most effective way to retain the material is to:",
       "options": [
         {
           "id": "a",
-          "text": "Build small examples, quiz yourself, and revisit weak spots."
+          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
         },
         {
           "id": "b",
-          "text": "Read once and never practice."
+          "text": "Memorize syntax without running code."
         },
         {
           "id": "c",
-          "text": "Memorise API signatures only."
+          "text": "Skip the theoretical foundation."
         },
         {
           "id": "d",
-          "text": "Avoid running the code."
+          "text": "Rely solely on third-party libraries."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
-    },
-    {
-      "id": "0ddd3f55",
-      "question": "A senior engineer reviewing \"15 Interview Questions\" would most expect you to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Explain the \"why\", trade-offs, and a real-world use case."
-        },
-        {
-          "id": "b",
-          "text": "Recite the definition word-for-word."
-        },
-        {
-          "id": "c",
-          "text": "Claim it is never needed."
-        },
-        {
-          "id": "d",
-          "text": "Copy code without understanding it."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
-    },
-    {
-      "id": "dd741375",
-      "question": "A strong interview answer should:",
-      "options": [
-        {
-          "id": "a",
-          "text": "State the approach, trade-offs, and a concrete example."
-        },
-        {
-          "id": "b",
-          "text": "Be as vague as possible."
-        },
-        {
-          "id": "c",
-          "text": "Avoid examples."
-        },
-        {
-          "id": "d",
-          "text": "Guess randomly."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Structured answers (approach → trade-offs → example) score highest."
+      "explanation": "Active recall combined with hands-on practice leads to mastery."
     }
   ]
 }

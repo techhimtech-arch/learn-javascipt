@@ -1,62 +1,69 @@
 {
-  "generatedAt": "2026-08-12T05:45:07.650Z",
+  "generatedAt": "2026-08-13T08:08:27.562Z",
   "tracks": [
     {
       "id": "javascript",
       "title": "JavaScript & Web Core",
       "icon": "⚡",
       "badge": "Core Foundations",
-      "description": "JS Fundamentals, Execution Context, ES6+, TypeScript, Browser Internals, HTML & CSS",
-      "folders": [
-        "01 JavaScript Fundamentals",
-        "02 Advanced JavaScript",
-        "03 ES6+",
-        "04 TypeScript",
-        "05 Browser Internals",
-        "06 HTML",
-        "07 CSS"
-      ],
-      "categoryCount": 7,
-      "topicCount": 157
+      "description": "JS Fundamentals, Execution Context, ES6+, TypeScript & Browser Internals",
+      "domainFolder": "01-javascript",
+      "categoryCount": 5,
+      "topicCount": 104
+    },
+    {
+      "id": "html-css",
+      "title": "HTML & CSS Mastery",
+      "icon": "🎨",
+      "badge": "UI & Layouts",
+      "description": "HTML5 Semantics, Accessibility (a11y), Modern CSS Flexbox, Grid & Animations",
+      "domainFolder": "02-html-css",
+      "categoryCount": 2,
+      "topicCount": 53
     },
     {
       "id": "angular",
-      "title": "Angular & Senior Frontend",
+      "title": "Angular & RxJS Mastery",
       "icon": "🅰️",
       "badge": "Framework & Architecture",
-      "description": "RxJS, Angular Core & Advanced, Performance Optimization, Machine Coding & System Design",
-      "folders": [
-        "08 RxJS",
-        "09 Angular Core",
-        "10 Angular Advanced",
-        "11 Angular Performance",
-        "12 Machine Coding",
-        "13 Frontend System Design",
-        "14 Testing",
-        "15 Interview Questions"
-      ],
-      "categoryCount": 8,
-      "topicCount": 131
+      "description": "RxJS Streams, Angular Core & Advanced, Performance & Dedicated Interview Q&A",
+      "domainFolder": "03-angular",
+      "categoryCount": 5,
+      "topicCount": 79
+    },
+    {
+      "id": "react",
+      "title": "React & Ecosystem",
+      "icon": "⚛️",
+      "badge": "Library & Patterns",
+      "description": "React Fundamentals, Fiber, Custom Hooks, State Management & Interview Q&A",
+      "domainFolder": "04-react",
+      "categoryCount": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "interviews",
+      "title": "Frontend Machine Coding & System Design",
+      "icon": "💻",
+      "badge": "Senior Interviews",
+      "description": "Machine Coding Challenges, Frontend System Design, Testing & General QA",
+      "domainFolder": "05-frontend-interviews",
+      "categoryCount": 4,
+      "topicCount": 53
     },
     {
       "id": "data-analytics",
       "title": "Data Analytics Mastery",
       "icon": "📊",
       "badge": "0 to Hero Analytics",
-      "description": "Analytics Foundations, Excel Cleaning & Formulas, SQL Databases, Python & Power BI Dashboards",
-      "folders": [
-        "16 Data Analytics Foundations",
-        "17 Excel & Google Sheets for Analytics",
-        "18 SQL Database Mastery",
-        "19 Python for Data Analytics",
-        "20 Data Visualization & Dashboards"
-      ],
+      "description": "Analytics Foundations, Excel Cleaning & Formulas, SQL Databases, Python & Dashboards",
+      "domainFolder": "06-data-analytics",
       "categoryCount": 5,
       "topicCount": 14
     }
   ],
-  "totalCategories": 21,
-  "totalTopics": 304,
+  "totalCategories": 24,
+  "totalTopics": 308,
   "categories": [
     {
       "id": "overview-roadmap",
@@ -64,7 +71,7 @@
       "title": "📌 Overview & Roadmap",
       "trackId": "all",
       "icon": "💡",
-      "count": 2,
+      "count": 3,
       "topics": [
         {
           "id": "idea-md",
@@ -72,7 +79,15 @@
           "filename": "IDEA.md",
           "path": "IDEA.md",
           "trackId": "all",
-          "readingTime": "14 min read"
+          "readingTime": "2 min read"
+        },
+        {
+          "id": "quiz-schema-md",
+          "title": "quiz-schema",
+          "filename": "quiz-schema.md",
+          "path": "quiz-schema.md",
+          "trackId": "all",
+          "readingTime": "2 min read"
         },
         {
           "id": "readme-md",
@@ -85,2616 +100,2693 @@
       ]
     },
     {
-      "id": "01-javascript-fundamentals",
-      "folderName": "01 JavaScript Fundamentals",
-      "title": "01 JavaScript Fundamentals",
+      "id": "01-javascript-01-javascript-fundamentals",
+      "folderName": "01-javascript-fundamentals",
+      "domainFolder": "01-javascript",
+      "title": "Javascript fundamentals",
       "trackId": "javascript",
       "icon": "⚡",
       "count": 29,
       "topics": [
         {
-          "id": "01-javascript-fundamentals-001---javascript-engine-md",
+          "id": "01-javascript-01-javascript-fundamentals-001---javascript-engine-md",
           "title": "001 - JavaScript Engine",
           "filename": "001 - JavaScript Engine.md",
-          "path": "01 JavaScript Fundamentals/001 - JavaScript Engine.md",
+          "path": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md",
           "trackId": "javascript",
           "readingTime": "8 min read"
         },
         {
-          "id": "01-javascript-fundamentals-002---execution-context-md",
+          "id": "01-javascript-01-javascript-fundamentals-002---execution-context-md",
           "title": "002 - Execution Context",
           "filename": "002 - Execution Context.md",
-          "path": "01 JavaScript Fundamentals/002 - Execution Context.md",
+          "path": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md",
           "trackId": "javascript",
           "readingTime": "7 min read"
         },
         {
-          "id": "01-javascript-fundamentals-003---global-execution-context-md",
+          "id": "01-javascript-01-javascript-fundamentals-003---global-execution-context-md",
           "title": "003 - Global Execution Context",
           "filename": "003 - Global Execution Context.md",
-          "path": "01 JavaScript Fundamentals/003 - Global Execution Context.md",
+          "path": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md",
           "trackId": "javascript",
           "readingTime": "6 min read"
         },
         {
-          "id": "01-javascript-fundamentals-004---function-execution-context-md",
+          "id": "01-javascript-01-javascript-fundamentals-004---function-execution-context-md",
           "title": "004 - Function Execution Context",
           "filename": "004 - Function Execution Context.md",
-          "path": "01 JavaScript Fundamentals/004 - Function Execution Context.md",
+          "path": "01-javascript/01-javascript-fundamentals/004 - Function Execution Context.md",
           "trackId": "javascript",
           "readingTime": "5 min read"
         },
         {
-          "id": "01-javascript-fundamentals-005---memory-creation-phase-md",
+          "id": "01-javascript-01-javascript-fundamentals-005---memory-creation-phase-md",
           "title": "005 - Memory Creation Phase",
           "filename": "005 - Memory Creation Phase.md",
-          "path": "01 JavaScript Fundamentals/005 - Memory Creation Phase.md",
+          "path": "01-javascript/01-javascript-fundamentals/005 - Memory Creation Phase.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-006---execution-phase-md",
+          "id": "01-javascript-01-javascript-fundamentals-006---execution-phase-md",
           "title": "006 - Execution Phase",
           "filename": "006 - Execution Phase.md",
-          "path": "01 JavaScript Fundamentals/006 - Execution Phase.md",
+          "path": "01-javascript/01-javascript-fundamentals/006 - Execution Phase.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-007---call-stack-md",
+          "id": "01-javascript-01-javascript-fundamentals-007---call-stack-md",
           "title": "007 - Call Stack",
           "filename": "007 - Call Stack.md",
-          "path": "01 JavaScript Fundamentals/007 - Call Stack.md",
+          "path": "01-javascript/01-javascript-fundamentals/007 - Call Stack.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-008---hoisting-md",
+          "id": "01-javascript-01-javascript-fundamentals-008---hoisting-md",
           "title": "008 - Hoisting",
           "filename": "008 - Hoisting.md",
-          "path": "01 JavaScript Fundamentals/008 - Hoisting.md",
+          "path": "01-javascript/01-javascript-fundamentals/008 - Hoisting.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-009---temporal-dead-zone-md",
+          "id": "01-javascript-01-javascript-fundamentals-009---temporal-dead-zone-md",
           "title": "009 - Temporal Dead Zone",
           "filename": "009 - Temporal Dead Zone.md",
-          "path": "01 JavaScript Fundamentals/009 - Temporal Dead Zone.md",
+          "path": "01-javascript/01-javascript-fundamentals/009 - Temporal Dead Zone.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-010---scope-md",
+          "id": "01-javascript-01-javascript-fundamentals-010---scope-md",
           "title": "010 - Scope",
           "filename": "010 - Scope.md",
-          "path": "01 JavaScript Fundamentals/010 - Scope.md",
+          "path": "01-javascript/01-javascript-fundamentals/010 - Scope.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-011---lexical-environment-md",
+          "id": "01-javascript-01-javascript-fundamentals-011---lexical-environment-md",
           "title": "011 - Lexical Environment",
           "filename": "011 - Lexical Environment.md",
-          "path": "01 JavaScript Fundamentals/011 - Lexical Environment.md",
+          "path": "01-javascript/01-javascript-fundamentals/011 - Lexical Environment.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-012---scope-chain-md",
+          "id": "01-javascript-01-javascript-fundamentals-012---scope-chain-md",
           "title": "012 - Scope Chain",
           "filename": "012 - Scope Chain.md",
-          "path": "01 JavaScript Fundamentals/012 - Scope Chain.md",
+          "path": "01-javascript/01-javascript-fundamentals/012 - Scope Chain.md",
           "trackId": "javascript",
           "readingTime": "5 min read"
         },
         {
-          "id": "01-javascript-fundamentals-013---closures-md",
+          "id": "01-javascript-01-javascript-fundamentals-013---closures-md",
           "title": "013 - Closures",
           "filename": "013 - Closures.md",
-          "path": "01 JavaScript Fundamentals/013 - Closures.md",
+          "path": "01-javascript/01-javascript-fundamentals/013 - Closures.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-014---this-keyword-md",
+          "id": "01-javascript-01-javascript-fundamentals-014---this-keyword-md",
           "title": "014 - this Keyword",
           "filename": "014 - this Keyword.md",
-          "path": "01 JavaScript Fundamentals/014 - this Keyword.md",
+          "path": "01-javascript/01-javascript-fundamentals/014 - this Keyword.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-015---call---apply---bind---md",
+          "id": "01-javascript-01-javascript-fundamentals-015---call---apply---bind---md",
           "title": "015 - call() apply() bind()",
           "filename": "015 - call() apply() bind().md",
-          "path": "01 JavaScript Fundamentals/015 - call() apply() bind().md",
+          "path": "01-javascript/01-javascript-fundamentals/015 - call() apply() bind().md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-016---objects-md",
+          "id": "01-javascript-01-javascript-fundamentals-016---objects-md",
           "title": "016 - Objects",
           "filename": "016 - Objects.md",
-          "path": "01 JavaScript Fundamentals/016 - Objects.md",
+          "path": "01-javascript/01-javascript-fundamentals/016 - Objects.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-017---object-create---md",
+          "id": "01-javascript-01-javascript-fundamentals-017---object-create---md",
           "title": "017 - Object.create()",
           "filename": "017 - Object.create().md",
-          "path": "01 JavaScript Fundamentals/017 - Object.create().md",
+          "path": "01-javascript/01-javascript-fundamentals/017 - Object.create().md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-018---prototype-md",
+          "id": "01-javascript-01-javascript-fundamentals-018---prototype-md",
           "title": "018 - Prototype",
           "filename": "018 - Prototype.md",
-          "path": "01 JavaScript Fundamentals/018 - Prototype.md",
+          "path": "01-javascript/01-javascript-fundamentals/018 - Prototype.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-019---prototype-chain-md",
+          "id": "01-javascript-01-javascript-fundamentals-019---prototype-chain-md",
           "title": "019 - Prototype Chain",
           "filename": "019 - Prototype Chain.md",
-          "path": "01 JavaScript Fundamentals/019 - Prototype Chain.md",
+          "path": "01-javascript/01-javascript-fundamentals/019 - Prototype Chain.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-020---constructor-functions-md",
+          "id": "01-javascript-01-javascript-fundamentals-020---constructor-functions-md",
           "title": "020 - Constructor Functions",
           "filename": "020 - Constructor Functions.md",
-          "path": "01 JavaScript Fundamentals/020 - Constructor Functions.md",
+          "path": "01-javascript/01-javascript-fundamentals/020 - Constructor Functions.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-021---es6-classes-md",
+          "id": "01-javascript-01-javascript-fundamentals-021---es6-classes-md",
           "title": "021 - ES6 Classes",
           "filename": "021 - ES6 Classes.md",
-          "path": "01 JavaScript Fundamentals/021 - ES6 Classes.md",
+          "path": "01-javascript/01-javascript-fundamentals/021 - ES6 Classes.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-022---inheritance-md",
+          "id": "01-javascript-01-javascript-fundamentals-022---inheritance-md",
           "title": "022 - Inheritance",
           "filename": "022 - Inheritance.md",
-          "path": "01 JavaScript Fundamentals/022 - Inheritance.md",
+          "path": "01-javascript/01-javascript-fundamentals/022 - Inheritance.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-023---shallow-copy-md",
+          "id": "01-javascript-01-javascript-fundamentals-023---shallow-copy-md",
           "title": "023 - Shallow Copy",
           "filename": "023 - Shallow Copy.md",
-          "path": "01 JavaScript Fundamentals/023 - Shallow Copy.md",
+          "path": "01-javascript/01-javascript-fundamentals/023 - Shallow Copy.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-024---deep-copy-md",
+          "id": "01-javascript-01-javascript-fundamentals-024---deep-copy-md",
           "title": "024 - Deep Copy",
           "filename": "024 - Deep Copy.md",
-          "path": "01 JavaScript Fundamentals/024 - Deep Copy.md",
+          "path": "01-javascript/01-javascript-fundamentals/024 - Deep Copy.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-025---garbage-collection-md",
+          "id": "01-javascript-01-javascript-fundamentals-025---garbage-collection-md",
           "title": "025 - Garbage Collection",
           "filename": "025 - Garbage Collection.md",
-          "path": "01 JavaScript Fundamentals/025 - Garbage Collection.md",
+          "path": "01-javascript/01-javascript-fundamentals/025 - Garbage Collection.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-026---strict-mode-md",
+          "id": "01-javascript-01-javascript-fundamentals-026---strict-mode-md",
           "title": "026 - Strict Mode",
           "filename": "026 - Strict Mode.md",
-          "path": "01 JavaScript Fundamentals/026 - Strict Mode.md",
+          "path": "01-javascript/01-javascript-fundamentals/026 - Strict Mode.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "01-javascript-fundamentals-027---modules-md",
+          "id": "01-javascript-01-javascript-fundamentals-027---modules-md",
           "title": "027 - Modules",
           "filename": "027 - Modules.md",
-          "path": "01 JavaScript Fundamentals/027 - Modules.md",
+          "path": "01-javascript/01-javascript-fundamentals/027 - Modules.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-028---javascript-runtime-md",
+          "id": "01-javascript-01-javascript-fundamentals-028---javascript-runtime-md",
           "title": "028 - JavaScript Runtime",
           "filename": "028 - JavaScript Runtime.md",
-          "path": "01 JavaScript Fundamentals/028 - JavaScript Runtime.md",
+          "path": "01-javascript/01-javascript-fundamentals/028 - JavaScript Runtime.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "01-javascript-fundamentals-029---error-handling-md",
+          "id": "01-javascript-01-javascript-fundamentals-029---error-handling-md",
           "title": "029 - Error Handling",
           "filename": "029 - Error Handling.md",
-          "path": "01 JavaScript Fundamentals/029 - Error Handling.md",
+          "path": "01-javascript/01-javascript-fundamentals/029 - Error Handling.md",
           "trackId": "javascript",
           "readingTime": "1 min read"
         }
       ]
     },
     {
-      "id": "02-advanced-javascript",
-      "folderName": "02 Advanced JavaScript",
-      "title": "02 Advanced JavaScript",
+      "id": "01-javascript-02-advanced-javascript",
+      "folderName": "02-advanced-javascript",
+      "domainFolder": "01-javascript",
+      "title": "Advanced javascript",
       "trackId": "javascript",
       "icon": "🚀",
       "count": 25,
       "topics": [
         {
-          "id": "02-advanced-javascript-001---promises-md",
+          "id": "01-javascript-02-advanced-javascript-001---promises-md",
           "title": "001 - Promises",
           "filename": "001 - Promises.md",
-          "path": "02 Advanced JavaScript/001 - Promises.md",
+          "path": "01-javascript/02-advanced-javascript/001 - Promises.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-002---promise-states-md",
+          "id": "01-javascript-02-advanced-javascript-002---promise-states-md",
           "title": "002 - Promise States",
           "filename": "002 - Promise States.md",
-          "path": "02 Advanced JavaScript/002 - Promise States.md",
+          "path": "01-javascript/02-advanced-javascript/002 - Promise States.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-003---promise-chaining-md",
+          "id": "01-javascript-02-advanced-javascript-003---promise-chaining-md",
           "title": "003 - Promise Chaining",
           "filename": "003 - Promise Chaining.md",
-          "path": "02 Advanced JavaScript/003 - Promise Chaining.md",
+          "path": "01-javascript/02-advanced-javascript/003 - Promise Chaining.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-004---promise-all-md",
+          "id": "01-javascript-02-advanced-javascript-004---promise-all-md",
           "title": "004 - Promise.all",
           "filename": "004 - Promise.all.md",
-          "path": "02 Advanced JavaScript/004 - Promise.all.md",
+          "path": "01-javascript/02-advanced-javascript/004 - Promise.all.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "02-advanced-javascript-005---async-await-md",
+          "id": "01-javascript-02-advanced-javascript-005---async-await-md",
           "title": "005 - async await",
           "filename": "005 - async await.md",
-          "path": "02 Advanced JavaScript/005 - async await.md",
+          "path": "01-javascript/02-advanced-javascript/005 - async await.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "02-advanced-javascript-006---event-loop-md",
+          "id": "01-javascript-02-advanced-javascript-006---event-loop-md",
           "title": "006 - Event Loop",
           "filename": "006 - Event Loop.md",
-          "path": "02 Advanced JavaScript/006 - Event Loop.md",
+          "path": "01-javascript/02-advanced-javascript/006 - Event Loop.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "02-advanced-javascript-007---microtasks-md",
+          "id": "01-javascript-02-advanced-javascript-007---microtasks-md",
           "title": "007 - Microtasks",
           "filename": "007 - Microtasks.md",
-          "path": "02 Advanced JavaScript/007 - Microtasks.md",
+          "path": "01-javascript/02-advanced-javascript/007 - Microtasks.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-008---macrotasks-md",
+          "id": "01-javascript-02-advanced-javascript-008---macrotasks-md",
           "title": "008 - Macrotasks",
           "filename": "008 - Macrotasks.md",
-          "path": "02 Advanced JavaScript/008 - Macrotasks.md",
+          "path": "01-javascript/02-advanced-javascript/008 - Macrotasks.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-009---web-apis-md",
+          "id": "01-javascript-02-advanced-javascript-009---web-apis-md",
           "title": "009 - Web APIs",
           "filename": "009 - Web APIs.md",
-          "path": "02 Advanced JavaScript/009 - Web APIs.md",
+          "path": "01-javascript/02-advanced-javascript/009 - Web APIs.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-010---fetch-api-md",
+          "id": "01-javascript-02-advanced-javascript-010---fetch-api-md",
           "title": "010 - Fetch API",
           "filename": "010 - Fetch API.md",
-          "path": "02 Advanced JavaScript/010 - Fetch API.md",
+          "path": "01-javascript/02-advanced-javascript/010 - Fetch API.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-011---abortcontroller-md",
+          "id": "01-javascript-02-advanced-javascript-011---abortcontroller-md",
           "title": "011 - AbortController",
           "filename": "011 - AbortController.md",
-          "path": "02 Advanced JavaScript/011 - AbortController.md",
+          "path": "01-javascript/02-advanced-javascript/011 - AbortController.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "02-advanced-javascript-012---generators-md",
+          "id": "01-javascript-02-advanced-javascript-012---generators-md",
           "title": "012 - Generators",
           "filename": "012 - Generators.md",
-          "path": "02 Advanced JavaScript/012 - Generators.md",
+          "path": "01-javascript/02-advanced-javascript/012 - Generators.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "02-advanced-javascript-013---iterators-md",
+          "id": "01-javascript-02-advanced-javascript-013---iterators-md",
           "title": "013 - Iterators",
           "filename": "013 - Iterators.md",
-          "path": "02 Advanced JavaScript/013 - Iterators.md",
+          "path": "01-javascript/02-advanced-javascript/013 - Iterators.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-014---symbols-md",
+          "id": "01-javascript-02-advanced-javascript-014---symbols-md",
           "title": "014 - Symbols",
           "filename": "014 - Symbols.md",
-          "path": "02 Advanced JavaScript/014 - Symbols.md",
+          "path": "01-javascript/02-advanced-javascript/014 - Symbols.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-015---bigint-md",
+          "id": "01-javascript-02-advanced-javascript-015---bigint-md",
           "title": "015 - BigInt",
           "filename": "015 - BigInt.md",
-          "path": "02 Advanced JavaScript/015 - BigInt.md",
+          "path": "01-javascript/02-advanced-javascript/015 - BigInt.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "02-advanced-javascript-016---weakmap-md",
+          "id": "01-javascript-02-advanced-javascript-016---weakmap-md",
           "title": "016 - WeakMap",
           "filename": "016 - WeakMap.md",
-          "path": "02 Advanced JavaScript/016 - WeakMap.md",
+          "path": "01-javascript/02-advanced-javascript/016 - WeakMap.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-017---weakset-md",
+          "id": "01-javascript-02-advanced-javascript-017---weakset-md",
           "title": "017 - WeakSet",
           "filename": "017 - WeakSet.md",
-          "path": "02 Advanced JavaScript/017 - WeakSet.md",
+          "path": "01-javascript/02-advanced-javascript/017 - WeakSet.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-018---map-md",
+          "id": "01-javascript-02-advanced-javascript-018---map-md",
           "title": "018 - Map",
           "filename": "018 - Map.md",
-          "path": "02 Advanced JavaScript/018 - Map.md",
+          "path": "01-javascript/02-advanced-javascript/018 - Map.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-019---set-md",
+          "id": "01-javascript-02-advanced-javascript-019---set-md",
           "title": "019 - Set",
           "filename": "019 - Set.md",
-          "path": "02 Advanced JavaScript/019 - Set.md",
+          "path": "01-javascript/02-advanced-javascript/019 - Set.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "02-advanced-javascript-020---proxy-md",
+          "id": "01-javascript-02-advanced-javascript-020---proxy-md",
           "title": "020 - Proxy",
           "filename": "020 - Proxy.md",
-          "path": "02 Advanced JavaScript/020 - Proxy.md",
+          "path": "01-javascript/02-advanced-javascript/020 - Proxy.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-021---reflect-md",
+          "id": "01-javascript-02-advanced-javascript-021---reflect-md",
           "title": "021 - Reflect",
           "filename": "021 - Reflect.md",
-          "path": "02 Advanced JavaScript/021 - Reflect.md",
+          "path": "01-javascript/02-advanced-javascript/021 - Reflect.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-022---reflect-md",
+          "id": "01-javascript-02-advanced-javascript-022---reflect-md",
           "title": "022 - Reflect",
           "filename": "022 - Reflect.md",
-          "path": "02 Advanced JavaScript/022 - Reflect.md",
+          "path": "01-javascript/02-advanced-javascript/022 - Reflect.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-023---event-loop-md",
+          "id": "01-javascript-02-advanced-javascript-023---event-loop-md",
           "title": "023 - Event Loop",
           "filename": "023 - Event Loop.md",
-          "path": "02 Advanced JavaScript/023 - Event Loop.md",
+          "path": "01-javascript/02-advanced-javascript/023 - Event Loop.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "02-advanced-javascript-024---debugging-md",
+          "id": "01-javascript-02-advanced-javascript-024---debugging-md",
           "title": "024 - Debugging",
           "filename": "024 - Debugging.md",
-          "path": "02 Advanced JavaScript/024 - Debugging.md",
+          "path": "01-javascript/02-advanced-javascript/024 - Debugging.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "02-advanced-javascript-025---modules-md",
+          "id": "01-javascript-02-advanced-javascript-025---modules-md",
           "title": "025 - Modules",
           "filename": "025 - Modules.md",
-          "path": "02 Advanced JavaScript/025 - Modules.md",
+          "path": "01-javascript/02-advanced-javascript/025 - Modules.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "03-es6-",
-      "folderName": "03 ES6+",
-      "title": "03 ES6+",
+      "id": "01-javascript-03-es6-plus",
+      "folderName": "03-es6-plus",
+      "domainFolder": "01-javascript",
+      "title": "Es6 plus",
       "trackId": "javascript",
       "icon": "✨",
       "count": 10,
       "topics": [
         {
-          "id": "03-es6--001---let-const-md",
+          "id": "01-javascript-03-es6-plus-001---let-const-md",
           "title": "001 - let const",
           "filename": "001 - let const.md",
-          "path": "03 ES6+/001 - let const.md",
+          "path": "01-javascript/03-es6-plus/001 - let const.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "03-es6--002---arrow-functions-md",
+          "id": "01-javascript-03-es6-plus-002---arrow-functions-md",
           "title": "002 - Arrow Functions",
           "filename": "002 - Arrow Functions.md",
-          "path": "03 ES6+/002 - Arrow Functions.md",
+          "path": "01-javascript/03-es6-plus/002 - Arrow Functions.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "03-es6--003---template-literals-md",
+          "id": "01-javascript-03-es6-plus-003---template-literals-md",
           "title": "003 - Template Literals",
           "filename": "003 - Template Literals.md",
-          "path": "03 ES6+/003 - Template Literals.md",
+          "path": "01-javascript/03-es6-plus/003 - Template Literals.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--004---spread-operator-md",
+          "id": "01-javascript-03-es6-plus-004---spread-operator-md",
           "title": "004 - Spread Operator",
           "filename": "004 - Spread Operator.md",
-          "path": "03 ES6+/004 - Spread Operator.md",
+          "path": "01-javascript/03-es6-plus/004 - Spread Operator.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--005---rest-parameters-md",
+          "id": "01-javascript-03-es6-plus-005---rest-parameters-md",
           "title": "005 - Rest Parameters",
           "filename": "005 - Rest Parameters.md",
-          "path": "03 ES6+/005 - Rest Parameters.md",
+          "path": "01-javascript/03-es6-plus/005 - Rest Parameters.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--006---destructuring-md",
+          "id": "01-javascript-03-es6-plus-006---destructuring-md",
           "title": "006 - Destructuring",
           "filename": "006 - Destructuring.md",
-          "path": "03 ES6+/006 - Destructuring.md",
+          "path": "01-javascript/03-es6-plus/006 - Destructuring.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--007---default-parameters-md",
+          "id": "01-javascript-03-es6-plus-007---default-parameters-md",
           "title": "007 - Default Parameters",
           "filename": "007 - Default Parameters.md",
-          "path": "03 ES6+/007 - Default Parameters.md",
+          "path": "01-javascript/03-es6-plus/007 - Default Parameters.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--008---optional-chaining-md",
+          "id": "01-javascript-03-es6-plus-008---optional-chaining-md",
           "title": "008 - Optional Chaining",
           "filename": "008 - Optional Chaining.md",
-          "path": "03 ES6+/008 - Optional Chaining.md",
+          "path": "01-javascript/03-es6-plus/008 - Optional Chaining.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--009---nullish-coalescing-md",
+          "id": "01-javascript-03-es6-plus-009---nullish-coalescing-md",
           "title": "009 - Nullish Coalescing",
           "filename": "009 - Nullish Coalescing.md",
-          "path": "03 ES6+/009 - Nullish Coalescing.md",
+          "path": "01-javascript/03-es6-plus/009 - Nullish Coalescing.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "03-es6--010---dynamic-imports-md",
+          "id": "01-javascript-03-es6-plus-010---dynamic-imports-md",
           "title": "010 - Dynamic Imports",
           "filename": "010 - Dynamic Imports.md",
-          "path": "03 ES6+/010 - Dynamic Imports.md",
+          "path": "01-javascript/03-es6-plus/010 - Dynamic Imports.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "04-typescript",
-      "folderName": "04 TypeScript",
-      "title": "04 TypeScript",
+      "id": "01-javascript-04-typescript",
+      "folderName": "04-typescript",
+      "domainFolder": "01-javascript",
+      "title": "Typescript",
       "trackId": "javascript",
       "icon": "📘",
       "count": 27,
       "topics": [
         {
-          "id": "04-typescript-001---typescript-overview-md",
+          "id": "01-javascript-04-typescript-001---typescript-overview-md",
           "title": "001 - TypeScript Overview",
           "filename": "001 - TypeScript Overview.md",
-          "path": "04 TypeScript/001 - TypeScript Overview.md",
+          "path": "01-javascript/04-typescript/001 - TypeScript Overview.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-002---types-md",
+          "id": "01-javascript-04-typescript-002---types-md",
           "title": "002 - Types",
           "filename": "002 - Types.md",
-          "path": "04 TypeScript/002 - Types.md",
+          "path": "01-javascript/04-typescript/002 - Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-003---interfaces-md",
+          "id": "01-javascript-04-typescript-003---interfaces-md",
           "title": "003 - Interfaces",
           "filename": "003 - Interfaces.md",
-          "path": "04 TypeScript/003 - Interfaces.md",
+          "path": "01-javascript/04-typescript/003 - Interfaces.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-004---type-alias-md",
+          "id": "01-javascript-04-typescript-004---type-alias-md",
           "title": "004 - Type Alias",
           "filename": "004 - Type Alias.md",
-          "path": "04 TypeScript/004 - Type Alias.md",
+          "path": "01-javascript/04-typescript/004 - Type Alias.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-005---enums-md",
+          "id": "01-javascript-04-typescript-005---enums-md",
           "title": "005 - Enums",
           "filename": "005 - Enums.md",
-          "path": "04 TypeScript/005 - Enums.md",
+          "path": "01-javascript/04-typescript/005 - Enums.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-006---generics-md",
+          "id": "01-javascript-04-typescript-006---generics-md",
           "title": "006 - Generics",
           "filename": "006 - Generics.md",
-          "path": "04 TypeScript/006 - Generics.md",
+          "path": "01-javascript/04-typescript/006 - Generics.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-007---union-and-intersection-types-md",
+          "id": "01-javascript-04-typescript-007---union-and-intersection-types-md",
           "title": "007 - Union and Intersection Types",
           "filename": "007 - Union and Intersection Types.md",
-          "path": "04 TypeScript/007 - Union and Intersection Types.md",
+          "path": "01-javascript/04-typescript/007 - Union and Intersection Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-008---literal-types-md",
+          "id": "01-javascript-04-typescript-008---literal-types-md",
           "title": "008 - Literal Types",
           "filename": "008 - Literal Types.md",
-          "path": "04 TypeScript/008 - Literal Types.md",
+          "path": "01-javascript/04-typescript/008 - Literal Types.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "04-typescript-009---utility-types-md",
+          "id": "01-javascript-04-typescript-009---utility-types-md",
           "title": "009 - Utility Types",
           "filename": "009 - Utility Types.md",
-          "path": "04 TypeScript/009 - Utility Types.md",
+          "path": "01-javascript/04-typescript/009 - Utility Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-010---mapped-types-md",
+          "id": "01-javascript-04-typescript-010---mapped-types-md",
           "title": "010 - Mapped Types",
           "filename": "010 - Mapped Types.md",
-          "path": "04 TypeScript/010 - Mapped Types.md",
+          "path": "01-javascript/04-typescript/010 - Mapped Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-011---conditional-types-md",
+          "id": "01-javascript-04-typescript-011---conditional-types-md",
           "title": "011 - Conditional Types",
           "filename": "011 - Conditional Types.md",
-          "path": "04 TypeScript/011 - Conditional Types.md",
+          "path": "01-javascript/04-typescript/011 - Conditional Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-012---decorators-md",
+          "id": "01-javascript-04-typescript-012---decorators-md",
           "title": "012 - Decorators",
           "filename": "012 - Decorators.md",
-          "path": "04 TypeScript/012 - Decorators.md",
+          "path": "01-javascript/04-typescript/012 - Decorators.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-013---decorators-md",
+          "id": "01-javascript-04-typescript-013---decorators-md",
           "title": "013 - Decorators",
           "filename": "013 - Decorators.md",
-          "path": "04 TypeScript/013 - Decorators.md",
+          "path": "01-javascript/04-typescript/013 - Decorators.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         },
         {
-          "id": "04-typescript-014---modules-md",
+          "id": "01-javascript-04-typescript-014---modules-md",
           "title": "014 - Modules",
           "filename": "014 - Modules.md",
-          "path": "04 TypeScript/014 - Modules.md",
+          "path": "01-javascript/04-typescript/014 - Modules.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-015---typescript-configuration-md",
+          "id": "01-javascript-04-typescript-015---typescript-configuration-md",
           "title": "015 - TypeScript Configuration",
           "filename": "015 - TypeScript Configuration.md",
-          "path": "04 TypeScript/015 - TypeScript Configuration.md",
+          "path": "01-javascript/04-typescript/015 - TypeScript Configuration.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-016---declaration-files-md",
+          "id": "01-javascript-04-typescript-016---declaration-files-md",
           "title": "016 - Declaration Files",
           "filename": "016 - Declaration Files.md",
-          "path": "04 TypeScript/016 - Declaration Files.md",
+          "path": "01-javascript/04-typescript/016 - Declaration Files.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-017---namespaces-md",
+          "id": "01-javascript-04-typescript-017---namespaces-md",
           "title": "017 - Namespaces",
           "filename": "017 - Namespaces.md",
-          "path": "04 TypeScript/017 - Namespaces.md",
+          "path": "01-javascript/04-typescript/017 - Namespaces.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-019---generics-md",
+          "id": "01-javascript-04-typescript-019---generics-md",
           "title": "019 - Generics",
           "filename": "019 - Generics.md",
-          "path": "04 TypeScript/019 - Generics.md",
+          "path": "01-javascript/04-typescript/019 - Generics.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-020---utility-types-md",
+          "id": "01-javascript-04-typescript-020---utility-types-md",
           "title": "020 - Utility Types",
           "filename": "020 - Utility Types.md",
-          "path": "04 TypeScript/020 - Utility Types.md",
+          "path": "01-javascript/04-typescript/020 - Utility Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-021---memory-leaks-md",
+          "id": "01-javascript-04-typescript-021---memory-leaks-md",
           "title": "021 - Memory Leaks",
           "filename": "021 - Memory Leaks.md",
-          "path": "04 TypeScript/021 - Memory Leaks.md",
+          "path": "01-javascript/04-typescript/021 - Memory Leaks.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-022---advanced-types-md",
+          "id": "01-javascript-04-typescript-022---advanced-types-md",
           "title": "022 - Advanced Types",
           "filename": "022 - Advanced Types.md",
-          "path": "04 TypeScript/022 - Advanced Types.md",
+          "path": "01-javascript/04-typescript/022 - Advanced Types.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-023---decorators-md",
+          "id": "01-javascript-04-typescript-023---decorators-md",
           "title": "023 - Decorators",
           "filename": "023 - Decorators.md",
-          "path": "04 TypeScript/023 - Decorators.md",
+          "path": "01-javascript/04-typescript/023 - Decorators.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "04-typescript-024---decorators-in-depth-md",
+          "id": "01-javascript-04-typescript-024---decorators-in-depth-md",
           "title": "024 - Decorators In Depth",
           "filename": "024 - Decorators In Depth.md",
-          "path": "04 TypeScript/024 - Decorators In Depth.md",
+          "path": "01-javascript/04-typescript/024 - Decorators In Depth.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "04-typescript-025---compiler-api-md",
+          "id": "01-javascript-04-typescript-025---compiler-api-md",
           "title": "025 - Compiler API",
           "filename": "025 - Compiler API.md",
-          "path": "04 TypeScript/025 - Compiler API.md",
+          "path": "01-javascript/04-typescript/025 - Compiler API.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "04-typescript-026---utility-types-guide-md",
+          "id": "01-javascript-04-typescript-026---utility-types-guide-md",
           "title": "026 - Utility Types Guide",
           "filename": "026 - Utility Types Guide.md",
-          "path": "04 TypeScript/026 - Utility Types Guide.md",
+          "path": "01-javascript/04-typescript/026 - Utility Types Guide.md",
           "trackId": "javascript",
           "readingTime": "1 min read"
         },
         {
-          "id": "04-typescript-027---generics-in-depth-md",
+          "id": "01-javascript-04-typescript-027---generics-in-depth-md",
           "title": "027 - Generics In Depth",
           "filename": "027 - Generics In Depth.md",
-          "path": "04 TypeScript/027 - Generics In Depth.md",
+          "path": "01-javascript/04-typescript/027 - Generics In Depth.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "04-typescript-027---typescript-in-angular-md",
+          "id": "01-javascript-04-typescript-027---typescript-in-angular-md",
           "title": "027 - TypeScript in Angular",
           "filename": "027 - TypeScript in Angular.md",
-          "path": "04 TypeScript/027 - TypeScript in Angular.md",
+          "path": "01-javascript/04-typescript/027 - TypeScript in Angular.md",
           "trackId": "javascript",
           "readingTime": "4 min read"
         }
       ]
     },
     {
-      "id": "05-browser-internals",
-      "folderName": "05 Browser Internals",
-      "title": "05 Browser Internals",
+      "id": "01-javascript-05-browser-internals",
+      "folderName": "05-browser-internals",
+      "domainFolder": "01-javascript",
+      "title": "Browser internals",
       "trackId": "javascript",
       "icon": "🌐",
       "count": 13,
       "topics": [
         {
-          "id": "05-browser-internals-001---rendering-pipeline-md",
+          "id": "01-javascript-05-browser-internals-001---rendering-pipeline-md",
           "title": "001 - Rendering Pipeline",
           "filename": "001 - Rendering Pipeline.md",
-          "path": "05 Browser Internals/001 - Rendering Pipeline.md",
+          "path": "01-javascript/05-browser-internals/001 - Rendering Pipeline.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-002---dom-md",
+          "id": "01-javascript-05-browser-internals-002---dom-md",
           "title": "002 - DOM",
           "filename": "002 - DOM.md",
-          "path": "05 Browser Internals/002 - DOM.md",
+          "path": "01-javascript/05-browser-internals/002 - DOM.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-003---bom-md",
+          "id": "01-javascript-05-browser-internals-003---bom-md",
           "title": "003 - BOM",
           "filename": "003 - BOM.md",
-          "path": "05 Browser Internals/003 - BOM.md",
+          "path": "01-javascript/05-browser-internals/003 - BOM.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-004---reflow-md",
+          "id": "01-javascript-05-browser-internals-004---reflow-md",
           "title": "004 - Reflow",
           "filename": "004 - Reflow.md",
-          "path": "05 Browser Internals/004 - Reflow.md",
+          "path": "01-javascript/05-browser-internals/004 - Reflow.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-005---repaint-md",
+          "id": "01-javascript-05-browser-internals-005---repaint-md",
           "title": "005 - Repaint",
           "filename": "005 - Repaint.md",
-          "path": "05 Browser Internals/005 - Repaint.md",
+          "path": "01-javascript/05-browser-internals/005 - Repaint.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-006---critical-rendering-path-md",
+          "id": "01-javascript-05-browser-internals-006---critical-rendering-path-md",
           "title": "006 - Critical Rendering Path",
           "filename": "006 - Critical Rendering Path.md",
-          "path": "05 Browser Internals/006 - Critical Rendering Path.md",
+          "path": "01-javascript/05-browser-internals/006 - Critical Rendering Path.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-007---cssom-md",
+          "id": "01-javascript-05-browser-internals-007---cssom-md",
           "title": "007 - CSSOM",
           "filename": "007 - CSSOM.md",
-          "path": "05 Browser Internals/007 - CSSOM.md",
+          "path": "01-javascript/05-browser-internals/007 - CSSOM.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-008---render-tree-md",
+          "id": "01-javascript-05-browser-internals-008---render-tree-md",
           "title": "008 - Render Tree",
           "filename": "008 - Render Tree.md",
-          "path": "05 Browser Internals/008 - Render Tree.md",
+          "path": "01-javascript/05-browser-internals/008 - Render Tree.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-011---browser-storage-md",
+          "id": "01-javascript-05-browser-internals-011---browser-storage-md",
           "title": "011 - Browser Storage",
           "filename": "011 - Browser Storage.md",
-          "path": "05 Browser Internals/011 - Browser Storage.md",
+          "path": "01-javascript/05-browser-internals/011 - Browser Storage.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-012---cookies-md",
+          "id": "01-javascript-05-browser-internals-012---cookies-md",
           "title": "012 - Cookies",
           "filename": "012 - Cookies.md",
-          "path": "05 Browser Internals/012 - Cookies.md",
+          "path": "01-javascript/05-browser-internals/012 - Cookies.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-012---rendering-pipeline-md",
+          "id": "01-javascript-05-browser-internals-012---rendering-pipeline-md",
           "title": "012 - Rendering Pipeline",
           "filename": "012 - Rendering Pipeline.md",
-          "path": "05 Browser Internals/012 - Rendering Pipeline.md",
+          "path": "01-javascript/05-browser-internals/012 - Rendering Pipeline.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         },
         {
-          "id": "05-browser-internals-013---fetch-api-md",
+          "id": "01-javascript-05-browser-internals-013---fetch-api-md",
           "title": "013 - Fetch API",
           "filename": "013 - Fetch API.md",
-          "path": "05 Browser Internals/013 - Fetch API.md",
+          "path": "01-javascript/05-browser-internals/013 - Fetch API.md",
           "trackId": "javascript",
           "readingTime": "2 min read"
         },
         {
-          "id": "05-browser-internals-013---service-workers-md",
+          "id": "01-javascript-05-browser-internals-013---service-workers-md",
           "title": "013 - Service Workers",
           "filename": "013 - Service Workers.md",
-          "path": "05 Browser Internals/013 - Service Workers.md",
+          "path": "01-javascript/05-browser-internals/013 - Service Workers.md",
           "trackId": "javascript",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "06-html",
-      "folderName": "06 HTML",
-      "title": "06 HTML",
-      "trackId": "javascript",
+      "id": "02-html-css-01-html-semantics",
+      "folderName": "01-html-semantics",
+      "domainFolder": "02-html-css",
+      "title": "Html semantics",
+      "trackId": "html-css",
       "icon": "🏷️",
       "count": 18,
       "topics": [
         {
-          "id": "06-html-001---semantic-html-md",
+          "id": "02-html-css-01-html-semantics-001---semantic-html-md",
           "title": "001 - Semantic HTML",
           "filename": "001 - Semantic HTML.md",
-          "path": "06 HTML/001 - Semantic HTML.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/001 - Semantic HTML.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-002---accessibility-md",
+          "id": "02-html-css-01-html-semantics-002---accessibility-md",
           "title": "002 - Accessibility",
           "filename": "002 - Accessibility.md",
-          "path": "06 HTML/002 - Accessibility.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/002 - Accessibility.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-003---aria-md",
+          "id": "02-html-css-01-html-semantics-003---aria-md",
           "title": "003 - ARIA",
           "filename": "003 - ARIA.md",
-          "path": "06 HTML/003 - ARIA.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/003 - ARIA.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-004---seo-basics-md",
+          "id": "02-html-css-01-html-semantics-004---seo-basics-md",
           "title": "004 - SEO Basics",
           "filename": "004 - SEO Basics.md",
-          "path": "06 HTML/004 - SEO Basics.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/004 - SEO Basics.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-005---forms-md",
+          "id": "02-html-css-01-html-semantics-005---forms-md",
           "title": "005 - Forms",
           "filename": "005 - Forms.md",
-          "path": "06 HTML/005 - Forms.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/005 - Forms.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-006---input-types-md",
+          "id": "02-html-css-01-html-semantics-006---input-types-md",
           "title": "006 - Input Types",
           "filename": "006 - Input Types.md",
-          "path": "06 HTML/006 - Input Types.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/006 - Input Types.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-007---canvas-md",
+          "id": "02-html-css-01-html-semantics-007---canvas-md",
           "title": "007 - Canvas",
           "filename": "007 - Canvas.md",
-          "path": "06 HTML/007 - Canvas.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/007 - Canvas.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-008---svg-md",
+          "id": "02-html-css-01-html-semantics-008---svg-md",
           "title": "008 - SVG",
           "filename": "008 - SVG.md",
-          "path": "06 HTML/008 - SVG.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/008 - SVG.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-009---shadow-dom-md",
+          "id": "02-html-css-01-html-semantics-009---shadow-dom-md",
           "title": "009 - Shadow DOM",
           "filename": "009 - Shadow DOM.md",
-          "path": "06 HTML/009 - Shadow DOM.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/009 - Shadow DOM.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-010---web-accessibility-md",
+          "id": "02-html-css-01-html-semantics-010---web-accessibility-md",
           "title": "010 - Web Accessibility",
           "filename": "010 - Web Accessibility.md",
-          "path": "06 HTML/010 - Web Accessibility.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/010 - Web Accessibility.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-011---seo-for-spa-md",
+          "id": "02-html-css-01-html-semantics-011---seo-for-spa-md",
           "title": "011 - SEO for SPA",
           "filename": "011 - SEO for SPA.md",
-          "path": "06 HTML/011 - SEO for SPA.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/011 - SEO for SPA.md",
+          "trackId": "html-css",
           "readingTime": "4 min read"
         },
         {
-          "id": "06-html-012---canvas-api-md",
+          "id": "02-html-css-01-html-semantics-012---canvas-api-md",
           "title": "012 - Canvas API",
           "filename": "012 - Canvas API.md",
-          "path": "06 HTML/012 - Canvas API.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/012 - Canvas API.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-013---input-types-md",
+          "id": "02-html-css-01-html-semantics-013---input-types-md",
           "title": "013 - Input Types",
           "filename": "013 - Input Types.md",
-          "path": "06 HTML/013 - Input Types.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/013 - Input Types.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-014---shadow-dom-md",
+          "id": "02-html-css-01-html-semantics-014---shadow-dom-md",
           "title": "014 - Shadow DOM",
           "filename": "014 - Shadow DOM.md",
-          "path": "06 HTML/014 - Shadow DOM.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/014 - Shadow DOM.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-015---web-components-md",
+          "id": "02-html-css-01-html-semantics-015---web-components-md",
           "title": "015 - Web Components",
           "filename": "015 - Web Components.md",
-          "path": "06 HTML/015 - Web Components.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/015 - Web Components.md",
+          "trackId": "html-css",
           "readingTime": "4 min read"
         },
         {
-          "id": "06-html-016---responsive-images-md",
+          "id": "02-html-css-01-html-semantics-016---responsive-images-md",
           "title": "016 - Responsive Images",
           "filename": "016 - Responsive Images.md",
-          "path": "06 HTML/016 - Responsive Images.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/016 - Responsive Images.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-017---semantic-html-md",
+          "id": "02-html-css-01-html-semantics-017---semantic-html-md",
           "title": "017 - Semantic HTML",
           "filename": "017 - Semantic HTML.md",
-          "path": "06 HTML/017 - Semantic HTML.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/017 - Semantic HTML.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "06-html-018---form-validation-md",
+          "id": "02-html-css-01-html-semantics-018---form-validation-md",
           "title": "018 - Form Validation",
           "filename": "018 - Form Validation.md",
-          "path": "06 HTML/018 - Form Validation.md",
-          "trackId": "javascript",
+          "path": "02-html-css/01-html-semantics/018 - Form Validation.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "07-css",
-      "folderName": "07 CSS",
-      "title": "07 CSS",
-      "trackId": "javascript",
+      "id": "02-html-css-02-css-mastery",
+      "folderName": "02-css-mastery",
+      "domainFolder": "02-html-css",
+      "title": "Css mastery",
+      "trackId": "html-css",
       "icon": "🎨",
       "count": 35,
       "topics": [
         {
-          "id": "07-css-001---flexbox-md",
+          "id": "02-html-css-02-css-mastery-001---flexbox-md",
           "title": "001 - Flexbox",
           "filename": "001 - Flexbox.md",
-          "path": "07 CSS/001 - Flexbox.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/001 - Flexbox.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-002---grid-md",
+          "id": "02-html-css-02-css-mastery-002---grid-md",
           "title": "002 - Grid",
           "filename": "002 - Grid.md",
-          "path": "07 CSS/002 - Grid.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/002 - Grid.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-003---positioning-md",
+          "id": "02-html-css-02-css-mastery-003---positioning-md",
           "title": "003 - Positioning",
           "filename": "003 - Positioning.md",
-          "path": "07 CSS/003 - Positioning.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/003 - Positioning.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-004---selectors-md",
+          "id": "02-html-css-02-css-mastery-004---selectors-md",
           "title": "004 - Selectors",
           "filename": "004 - Selectors.md",
-          "path": "07 CSS/004 - Selectors.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/004 - Selectors.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-005---specificity-md",
+          "id": "02-html-css-02-css-mastery-005---specificity-md",
           "title": "005 - Specificity",
           "filename": "005 - Specificity.md",
-          "path": "07 CSS/005 - Specificity.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/005 - Specificity.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-006---cascade-md",
+          "id": "02-html-css-02-css-mastery-006---cascade-md",
           "title": "006 - Cascade",
           "filename": "006 - Cascade.md",
-          "path": "07 CSS/006 - Cascade.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/006 - Cascade.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-007---animations-md",
+          "id": "02-html-css-02-css-mastery-007---animations-md",
           "title": "007 - Animations",
           "filename": "007 - Animations.md",
-          "path": "07 CSS/007 - Animations.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/007 - Animations.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-008---transitions-md",
+          "id": "02-html-css-02-css-mastery-008---transitions-md",
           "title": "008 - Transitions",
           "filename": "008 - Transitions.md",
-          "path": "07 CSS/008 - Transitions.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/008 - Transitions.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-009---responsive-design-md",
+          "id": "02-html-css-02-css-mastery-009---responsive-design-md",
           "title": "009 - Responsive Design",
           "filename": "009 - Responsive Design.md",
-          "path": "07 CSS/009 - Responsive Design.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/009 - Responsive Design.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-010---media-queries-md",
+          "id": "02-html-css-02-css-mastery-010---media-queries-md",
           "title": "010 - Media Queries",
           "filename": "010 - Media Queries.md",
-          "path": "07 CSS/010 - Media Queries.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/010 - Media Queries.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-011---container-queries-md",
+          "id": "02-html-css-02-css-mastery-011---container-queries-md",
           "title": "011 - Container Queries",
           "filename": "011 - Container Queries.md",
-          "path": "07 CSS/011 - Container Queries.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/011 - Container Queries.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-012---bem-md",
+          "id": "02-html-css-02-css-mastery-012---bem-md",
           "title": "012 - BEM",
           "filename": "012 - BEM.md",
-          "path": "07 CSS/012 - BEM.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/012 - BEM.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-013---css-variables-md",
+          "id": "02-html-css-02-css-mastery-013---css-variables-md",
           "title": "013 - CSS Variables",
           "filename": "013 - CSS Variables.md",
-          "path": "07 CSS/013 - CSS Variables.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/013 - CSS Variables.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-013---tailwind-concepts-md",
+          "id": "02-html-css-02-css-mastery-013---tailwind-concepts-md",
           "title": "013 - Tailwind Concepts",
           "filename": "013 - Tailwind Concepts.md",
-          "path": "07 CSS/013 - Tailwind Concepts.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/013 - Tailwind Concepts.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-015---css-architecture-md",
+          "id": "02-html-css-02-css-mastery-015---css-architecture-md",
           "title": "015 - CSS Architecture",
           "filename": "015 - CSS Architecture.md",
-          "path": "07 CSS/015 - CSS Architecture.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/015 - CSS Architecture.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-016---css-grid-md",
+          "id": "02-html-css-02-css-mastery-016---css-grid-md",
           "title": "016 - CSS Grid",
           "filename": "016 - CSS Grid.md",
-          "path": "07 CSS/016 - CSS Grid.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/016 - CSS Grid.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-017---flexbox-advanced-md",
+          "id": "02-html-css-02-css-mastery-017---flexbox-advanced-md",
           "title": "017 - Flexbox Advanced",
           "filename": "017 - Flexbox Advanced.md",
-          "path": "07 CSS/017 - Flexbox Advanced.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/017 - Flexbox Advanced.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-018---css-animations-md",
+          "id": "02-html-css-02-css-mastery-018---css-animations-md",
           "title": "018 - CSS Animations",
           "filename": "018 - CSS Animations.md",
-          "path": "07 CSS/018 - CSS Animations.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/018 - CSS Animations.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-019---css-transitions-md",
+          "id": "02-html-css-02-css-mastery-019---css-transitions-md",
           "title": "019 - CSS Transitions",
           "filename": "019 - CSS Transitions.md",
-          "path": "07 CSS/019 - CSS Transitions.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/019 - CSS Transitions.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-020---css-selectors-md",
+          "id": "02-html-css-02-css-mastery-020---css-selectors-md",
           "title": "020 - CSS Selectors",
           "filename": "020 - CSS Selectors.md",
-          "path": "07 CSS/020 - CSS Selectors.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/020 - CSS Selectors.md",
+          "trackId": "html-css",
           "readingTime": "4 min read"
         },
         {
-          "id": "07-css-021---css-variables-md",
+          "id": "02-html-css-02-css-mastery-021---css-variables-md",
           "title": "021 - CSS Variables",
           "filename": "021 - CSS Variables.md",
-          "path": "07 CSS/021 - CSS Variables.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/021 - CSS Variables.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-022---specificity-md",
+          "id": "02-html-css-02-css-mastery-022---specificity-md",
           "title": "022 - Specificity",
           "filename": "022 - Specificity.md",
-          "path": "07 CSS/022 - Specificity.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/022 - Specificity.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-023---responsive-typography-md",
+          "id": "02-html-css-02-css-mastery-023---responsive-typography-md",
           "title": "023 - Responsive Typography",
           "filename": "023 - Responsive Typography.md",
-          "path": "07 CSS/023 - Responsive Typography.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/023 - Responsive Typography.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-024---animation-performance-md",
+          "id": "02-html-css-02-css-mastery-024---animation-performance-md",
           "title": "024 - Animation Performance",
           "filename": "024 - Animation Performance.md",
-          "path": "07 CSS/024 - Animation Performance.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/024 - Animation Performance.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-025---transitions-vs-animations-md",
+          "id": "02-html-css-02-css-mastery-025---transitions-vs-animations-md",
           "title": "025 - Transitions vs Animations",
           "filename": "025 - Transitions vs Animations.md",
-          "path": "07 CSS/025 - Transitions vs Animations.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/025 - Transitions vs Animations.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-026---flexbox-fundamentals-md",
+          "id": "02-html-css-02-css-mastery-026---flexbox-fundamentals-md",
           "title": "026 - Flexbox Fundamentals",
           "filename": "026 - Flexbox Fundamentals.md",
-          "path": "07 CSS/026 - Flexbox Fundamentals.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/026 - Flexbox Fundamentals.md",
+          "trackId": "html-css",
           "readingTime": "3 min read"
         },
         {
-          "id": "07-css-027---specificity-calculation-md",
+          "id": "02-html-css-02-css-mastery-027---specificity-calculation-md",
           "title": "027 - Specificity Calculation",
           "filename": "027 - Specificity Calculation.md",
-          "path": "07 CSS/027 - Specificity Calculation.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/027 - Specificity Calculation.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         },
         {
-          "id": "07-css-028---layout-fundamentals-md",
+          "id": "02-html-css-02-css-mastery-028---layout-fundamentals-md",
           "title": "028 - Layout Fundamentals",
           "filename": "028 - Layout Fundamentals.md",
-          "path": "07 CSS/028 - Layout Fundamentals.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/028 - Layout Fundamentals.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-029---box-model-md",
+          "id": "02-html-css-02-css-mastery-029---box-model-md",
           "title": "029 - Box Model",
           "filename": "029 - Box Model.md",
-          "path": "07 CSS/029 - Box Model.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/029 - Box Model.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-030---responsive-units-md",
+          "id": "02-html-css-02-css-mastery-030---responsive-units-md",
           "title": "030 - Responsive Units",
           "filename": "030 - Responsive Units.md",
-          "path": "07 CSS/030 - Responsive Units.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/030 - Responsive Units.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         },
         {
-          "id": "07-css-031---css-transitions-md",
+          "id": "02-html-css-02-css-mastery-031---css-transitions-md",
           "title": "031 - CSS Transitions",
           "filename": "031 - CSS Transitions.md",
-          "path": "07 CSS/031 - CSS Transitions.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/031 - CSS Transitions.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         },
         {
-          "id": "07-css-032---media-queries-md",
+          "id": "02-html-css-02-css-mastery-032---media-queries-md",
           "title": "032 - Media Queries",
           "filename": "032 - Media Queries.md",
-          "path": "07 CSS/032 - Media Queries.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/032 - Media Queries.md",
+          "trackId": "html-css",
           "readingTime": "2 min read"
         },
         {
-          "id": "07-css-033---css-positioning-md",
+          "id": "02-html-css-02-css-mastery-033---css-positioning-md",
           "title": "033 - CSS Positioning",
           "filename": "033 - CSS Positioning.md",
-          "path": "07 CSS/033 - CSS Positioning.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/033 - CSS Positioning.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         },
         {
-          "id": "07-css-034---css-transforms-md",
+          "id": "02-html-css-02-css-mastery-034---css-transforms-md",
           "title": "034 - CSS Transforms",
           "filename": "034 - CSS Transforms.md",
-          "path": "07 CSS/034 - CSS Transforms.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/034 - CSS Transforms.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         },
         {
-          "id": "07-css-035---backgrounds-and-gradients-md",
+          "id": "02-html-css-02-css-mastery-035---backgrounds-and-gradients-md",
           "title": "035 - Backgrounds and Gradients",
           "filename": "035 - Backgrounds and Gradients.md",
-          "path": "07 CSS/035 - Backgrounds and Gradients.md",
-          "trackId": "javascript",
+          "path": "02-html-css/02-css-mastery/035 - Backgrounds and Gradients.md",
+          "trackId": "html-css",
           "readingTime": "1 min read"
         }
       ]
     },
     {
-      "id": "08-rxjs",
-      "folderName": "08 RxJS",
-      "title": "08 RxJS",
+      "id": "03-angular-01-rxjs",
+      "folderName": "01-rxjs",
+      "domainFolder": "03-angular",
+      "title": "Rxjs",
       "trackId": "angular",
       "icon": "🔄",
       "count": 26,
       "topics": [
         {
-          "id": "08-rxjs-001---observable-md",
+          "id": "03-angular-01-rxjs-001---observable-md",
           "title": "001 - Observable",
           "filename": "001 - Observable.md",
-          "path": "08 RxJS/001 - Observable.md",
+          "path": "03-angular/01-rxjs/001 - Observable.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-002---observer-md",
+          "id": "03-angular-01-rxjs-002---observer-md",
           "title": "002 - Observer",
           "filename": "002 - Observer.md",
-          "path": "08 RxJS/002 - Observer.md",
+          "path": "03-angular/01-rxjs/002 - Observer.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-003---subscription-md",
+          "id": "03-angular-01-rxjs-003---subscription-md",
           "title": "003 - Subscription",
           "filename": "003 - Subscription.md",
-          "path": "08 RxJS/003 - Subscription.md",
+          "path": "03-angular/01-rxjs/003 - Subscription.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-004---subject-md",
+          "id": "03-angular-01-rxjs-004---subject-md",
           "title": "004 - Subject",
           "filename": "004 - Subject.md",
-          "path": "08 RxJS/004 - Subject.md",
+          "path": "03-angular/01-rxjs/004 - Subject.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-005---behaviorsubject-md",
+          "id": "03-angular-01-rxjs-005---behaviorsubject-md",
           "title": "005 - BehaviorSubject",
           "filename": "005 - BehaviorSubject.md",
-          "path": "08 RxJS/005 - BehaviorSubject.md",
+          "path": "03-angular/01-rxjs/005 - BehaviorSubject.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-006---replaysubject-md",
+          "id": "03-angular-01-rxjs-006---replaysubject-md",
           "title": "006 - ReplaySubject",
           "filename": "006 - ReplaySubject.md",
-          "path": "08 RxJS/006 - ReplaySubject.md",
+          "path": "03-angular/01-rxjs/006 - ReplaySubject.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-007---asyncsubject-md",
+          "id": "03-angular-01-rxjs-007---asyncsubject-md",
           "title": "007 - AsyncSubject",
           "filename": "007 - AsyncSubject.md",
-          "path": "08 RxJS/007 - AsyncSubject.md",
+          "path": "03-angular/01-rxjs/007 - AsyncSubject.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-008---operators-md",
+          "id": "03-angular-01-rxjs-008---operators-md",
           "title": "008 - Operators",
           "filename": "008 - Operators.md",
-          "path": "08 RxJS/008 - Operators.md",
+          "path": "03-angular/01-rxjs/008 - Operators.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-009---map-filter-tap-md",
+          "id": "03-angular-01-rxjs-009---map-filter-tap-md",
           "title": "009 - map filter tap",
           "filename": "009 - map filter tap.md",
-          "path": "08 RxJS/009 - map filter tap.md",
+          "path": "03-angular/01-rxjs/009 - map filter tap.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-010---mergemap-switchmap-md",
+          "id": "03-angular-01-rxjs-010---mergemap-switchmap-md",
           "title": "010 - mergeMap switchMap",
           "filename": "010 - mergeMap switchMap.md",
-          "path": "08 RxJS/010 - mergeMap switchMap.md",
+          "path": "03-angular/01-rxjs/010 - mergeMap switchMap.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-011---concatmap-exhaustmap-md",
+          "id": "03-angular-01-rxjs-011---concatmap-exhaustmap-md",
           "title": "011 - concatMap exhaustMap",
           "filename": "011 - concatMap exhaustMap.md",
-          "path": "08 RxJS/011 - concatMap exhaustMap.md",
+          "path": "03-angular/01-rxjs/011 - concatMap exhaustMap.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-012---combinelatest-forkjoin-md",
+          "id": "03-angular-01-rxjs-012---combinelatest-forkjoin-md",
           "title": "012 - combineLatest forkJoin",
           "filename": "012 - combineLatest forkJoin.md",
-          "path": "08 RxJS/012 - combineLatest forkJoin.md",
+          "path": "03-angular/01-rxjs/012 - combineLatest forkJoin.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-013---zip-md",
+          "id": "03-angular-01-rxjs-013---zip-md",
           "title": "013 - zip",
           "filename": "013 - zip.md",
-          "path": "08 RxJS/013 - zip.md",
+          "path": "03-angular/01-rxjs/013 - zip.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-014---debouncetime-distinctuntilchanged-md",
+          "id": "03-angular-01-rxjs-014---debouncetime-distinctuntilchanged-md",
           "title": "014 - debounceTime distinctUntilChanged",
           "filename": "014 - debounceTime distinctUntilChanged.md",
-          "path": "08 RxJS/014 - debounceTime distinctUntilChanged.md",
+          "path": "03-angular/01-rxjs/014 - debounceTime distinctUntilChanged.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-015---sharereplay-md",
+          "id": "03-angular-01-rxjs-015---sharereplay-md",
           "title": "015 - shareReplay",
           "filename": "015 - shareReplay.md",
-          "path": "08 RxJS/015 - shareReplay.md",
+          "path": "03-angular/01-rxjs/015 - shareReplay.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-015---takeuntil-sharereplay-md",
+          "id": "03-angular-01-rxjs-015---takeuntil-sharereplay-md",
           "title": "015 - takeUntil shareReplay",
           "filename": "015 - takeUntil shareReplay.md",
-          "path": "08 RxJS/015 - takeUntil shareReplay.md",
+          "path": "03-angular/01-rxjs/015 - takeUntil shareReplay.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-016---creating-observables-md",
+          "id": "03-angular-01-rxjs-016---creating-observables-md",
           "title": "016 - Creating Observables",
           "filename": "016 - Creating Observables.md",
-          "path": "08 RxJS/016 - Creating Observables.md",
+          "path": "03-angular/01-rxjs/016 - Creating Observables.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-017---subjects-md",
+          "id": "03-angular-01-rxjs-017---subjects-md",
           "title": "017 - Subjects",
           "filename": "017 - Subjects.md",
-          "path": "08 RxJS/017 - Subjects.md",
+          "path": "03-angular/01-rxjs/017 - Subjects.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-018---error-handling-md",
+          "id": "03-angular-01-rxjs-018---error-handling-md",
           "title": "018 - Error Handling",
           "filename": "018 - Error Handling.md",
-          "path": "08 RxJS/018 - Error Handling.md",
+          "path": "03-angular/01-rxjs/018 - Error Handling.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-019---higher-order-mapping-md",
+          "id": "03-angular-01-rxjs-019---higher-order-mapping-md",
           "title": "019 - Higher Order Mapping",
           "filename": "019 - Higher Order Mapping.md",
-          "path": "08 RxJS/019 - Higher Order Mapping.md",
+          "path": "03-angular/01-rxjs/019 - Higher Order Mapping.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-020---advanced-rxjs-patterns-md",
+          "id": "03-angular-01-rxjs-020---advanced-rxjs-patterns-md",
           "title": "020 - Advanced RxJS Patterns",
           "filename": "020 - Advanced RxJS Patterns.md",
-          "path": "08 RxJS/020 - Advanced RxJS Patterns.md",
+          "path": "03-angular/01-rxjs/020 - Advanced RxJS Patterns.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "08-rxjs-021---subject-advanced-md",
+          "id": "03-angular-01-rxjs-021---subject-advanced-md",
           "title": "021 - Subject Advanced",
           "filename": "021 - Subject Advanced.md",
-          "path": "08 RxJS/021 - Subject Advanced.md",
+          "path": "03-angular/01-rxjs/021 - Subject Advanced.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "08-rxjs-022---rxjs-vs-promise-md",
+          "id": "03-angular-01-rxjs-022---rxjs-vs-promise-md",
           "title": "022 - Rxjs vs Promise",
           "filename": "022 - Rxjs vs Promise.md",
-          "path": "08 RxJS/022 - Rxjs vs Promise.md",
+          "path": "03-angular/01-rxjs/022 - Rxjs vs Promise.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "08-rxjs-023---testing-rxjs-md",
+          "id": "03-angular-01-rxjs-023---testing-rxjs-md",
           "title": "023 - Testing RxJS",
           "filename": "023 - Testing RxJS.md",
-          "path": "08 RxJS/023 - Testing RxJS.md",
+          "path": "03-angular/01-rxjs/023 - Testing RxJS.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "08-rxjs-024---creation-operators-md",
+          "id": "03-angular-01-rxjs-024---creation-operators-md",
           "title": "024 - Creation Operators",
           "filename": "024 - Creation Operators.md",
-          "path": "08 RxJS/024 - Creation Operators.md",
+          "path": "03-angular/01-rxjs/024 - Creation Operators.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "08-rxjs-025---combination-operators-md",
+          "id": "03-angular-01-rxjs-025---combination-operators-md",
           "title": "025 - Combination Operators",
           "filename": "025 - Combination Operators.md",
-          "path": "08 RxJS/025 - Combination Operators.md",
+          "path": "03-angular/01-rxjs/025 - Combination Operators.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "09-angular-core",
-      "folderName": "09 Angular Core",
-      "title": "09 Angular Core",
+      "id": "03-angular-02-angular-core",
+      "folderName": "02-angular-core",
+      "domainFolder": "03-angular",
+      "title": "Angular core",
       "trackId": "angular",
       "icon": "🅰️",
       "count": 28,
       "topics": [
         {
-          "id": "09-angular-core-001---angular-architecture---cli-md",
+          "id": "03-angular-02-angular-core-001---angular-architecture---cli-md",
           "title": "001 - Angular Architecture & CLI",
           "filename": "001 - Angular Architecture & CLI.md",
-          "path": "09 Angular Core/001 - Angular Architecture & CLI.md",
+          "path": "03-angular/02-angular-core/001 - Angular Architecture & CLI.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-001---architecture-md",
+          "id": "03-angular-02-angular-core-001---architecture-md",
           "title": "001 - Architecture",
           "filename": "001 - Architecture.md",
-          "path": "09 Angular Core/001 - Architecture.md",
+          "path": "03-angular/02-angular-core/001 - Architecture.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-002---components---templates-md",
+          "id": "03-angular-02-angular-core-002---components---templates-md",
           "title": "002 - Components & Templates",
           "filename": "002 - Components & Templates.md",
-          "path": "09 Angular Core/002 - Components & Templates.md",
+          "path": "03-angular/02-angular-core/002 - Components & Templates.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-002---components-md",
+          "id": "03-angular-02-angular-core-002---components-md",
           "title": "002 - Components",
           "filename": "002 - Components.md",
-          "path": "09 Angular Core/002 - Components.md",
+          "path": "03-angular/02-angular-core/002 - Components.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-003---templates-md",
+          "id": "03-angular-02-angular-core-003---templates-md",
           "title": "003 - Templates",
           "filename": "003 - Templates.md",
-          "path": "09 Angular Core/003 - Templates.md",
+          "path": "03-angular/02-angular-core/003 - Templates.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-004---interpolation-md",
+          "id": "03-angular-02-angular-core-004---interpolation-md",
           "title": "004 - Interpolation",
           "filename": "004 - Interpolation.md",
-          "path": "09 Angular Core/004 - Interpolation.md",
+          "path": "03-angular/02-angular-core/004 - Interpolation.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-005---property-binding-md",
+          "id": "03-angular-02-angular-core-005---property-binding-md",
           "title": "005 - Property Binding",
           "filename": "005 - Property Binding.md",
-          "path": "09 Angular Core/005 - Property Binding.md",
+          "path": "03-angular/02-angular-core/005 - Property Binding.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-006---event-binding-md",
+          "id": "03-angular-02-angular-core-006---event-binding-md",
           "title": "006 - Event Binding",
           "filename": "006 - Event Binding.md",
-          "path": "09 Angular Core/006 - Event Binding.md",
+          "path": "03-angular/02-angular-core/006 - Event Binding.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-007---dependency-injection-md",
+          "id": "03-angular-02-angular-core-007---dependency-injection-md",
           "title": "007 - Dependency Injection",
           "filename": "007 - Dependency Injection.md",
-          "path": "09 Angular Core/007 - Dependency Injection.md",
+          "path": "03-angular/02-angular-core/007 - Dependency Injection.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-008---lifecycle-hooks-md",
+          "id": "03-angular-02-angular-core-008---lifecycle-hooks-md",
           "title": "008 - Lifecycle Hooks",
           "filename": "008 - Lifecycle Hooks.md",
-          "path": "09 Angular Core/008 - Lifecycle Hooks.md",
+          "path": "03-angular/02-angular-core/008 - Lifecycle Hooks.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-009---routing-md",
+          "id": "03-angular-02-angular-core-009---routing-md",
           "title": "009 - Routing",
           "filename": "009 - Routing.md",
-          "path": "09 Angular Core/009 - Routing.md",
+          "path": "03-angular/02-angular-core/009 - Routing.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-010---forms-md",
+          "id": "03-angular-02-angular-core-010---forms-md",
           "title": "010 - Forms",
           "filename": "010 - Forms.md",
-          "path": "09 Angular Core/010 - Forms.md",
+          "path": "03-angular/02-angular-core/010 - Forms.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-011---di-advanced-md",
+          "id": "03-angular-02-angular-core-011---di-advanced-md",
           "title": "011 - DI Advanced",
           "filename": "011 - DI Advanced.md",
-          "path": "09 Angular Core/011 - DI Advanced.md",
+          "path": "03-angular/02-angular-core/011 - DI Advanced.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-012---change-detection-md",
+          "id": "03-angular-02-angular-core-012---change-detection-md",
           "title": "012 - Change Detection",
           "filename": "012 - Change Detection.md",
-          "path": "09 Angular Core/012 - Change Detection.md",
+          "path": "03-angular/02-angular-core/012 - Change Detection.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-013---pipes-md",
+          "id": "03-angular-02-angular-core-013---pipes-md",
           "title": "013 - Pipes",
           "filename": "013 - Pipes.md",
-          "path": "09 Angular Core/013 - Pipes.md",
+          "path": "03-angular/02-angular-core/013 - Pipes.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-014---http-client-md",
+          "id": "03-angular-02-angular-core-014---http-client-md",
           "title": "014 - HTTP Client",
           "filename": "014 - HTTP Client.md",
-          "path": "09 Angular Core/014 - HTTP Client.md",
+          "path": "03-angular/02-angular-core/014 - HTTP Client.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-015---viewchild-and-contentchild-md",
+          "id": "03-angular-02-angular-core-015---viewchild-and-contentchild-md",
           "title": "015 - ViewChild and ContentChild",
           "filename": "015 - ViewChild and ContentChild.md",
-          "path": "09 Angular Core/015 - ViewChild and ContentChild.md",
+          "path": "03-angular/02-angular-core/015 - ViewChild and ContentChild.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-016---standalone-components-md",
+          "id": "03-angular-02-angular-core-016---standalone-components-md",
           "title": "016 - Standalone Components",
           "filename": "016 - Standalone Components.md",
-          "path": "09 Angular Core/016 - Standalone Components.md",
+          "path": "03-angular/02-angular-core/016 - Standalone Components.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-017---signals-md",
+          "id": "03-angular-02-angular-core-017---signals-md",
           "title": "017 - Signals",
           "filename": "017 - Signals.md",
-          "path": "09 Angular Core/017 - Signals.md",
+          "path": "03-angular/02-angular-core/017 - Signals.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-018---http-interceptors-md",
+          "id": "03-angular-02-angular-core-018---http-interceptors-md",
           "title": "018 - HTTP Interceptors",
           "filename": "018 - HTTP Interceptors.md",
-          "path": "09 Angular Core/018 - HTTP Interceptors.md",
+          "path": "03-angular/02-angular-core/018 - HTTP Interceptors.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-019---async-pipe-md",
+          "id": "03-angular-02-angular-core-019---async-pipe-md",
           "title": "019 - Async Pipe",
           "filename": "019 - Async Pipe.md",
-          "path": "09 Angular Core/019 - Async Pipe.md",
+          "path": "03-angular/02-angular-core/019 - Async Pipe.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-020---trackby-md",
+          "id": "03-angular-02-angular-core-020---trackby-md",
           "title": "020 - TrackBy",
           "filename": "020 - TrackBy.md",
-          "path": "09 Angular Core/020 - TrackBy.md",
+          "path": "03-angular/02-angular-core/020 - TrackBy.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "09-angular-core-021---dependency-injection-patterns-md",
+          "id": "03-angular-02-angular-core-021---dependency-injection-patterns-md",
           "title": "021 - Dependency Injection Patterns",
           "filename": "021 - Dependency Injection Patterns.md",
-          "path": "09 Angular Core/021 - Dependency Injection Patterns.md",
+          "path": "03-angular/02-angular-core/021 - Dependency Injection Patterns.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "09-angular-core-022---router-guards-md",
+          "id": "03-angular-02-angular-core-022---router-guards-md",
           "title": "022 - Router Guards",
           "filename": "022 - Router Guards.md",
-          "path": "09 Angular Core/022 - Router Guards.md",
+          "path": "03-angular/02-angular-core/022 - Router Guards.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "09-angular-core-023---di-advanced-patterns-md",
+          "id": "03-angular-02-angular-core-023---di-advanced-patterns-md",
           "title": "023 - DI Advanced Patterns",
           "filename": "023 - DI Advanced Patterns.md",
-          "path": "09 Angular Core/023 - DI Advanced Patterns.md",
+          "path": "03-angular/02-angular-core/023 - DI Advanced Patterns.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "09-angular-core-024---angular-module-system-md",
+          "id": "03-angular-02-angular-core-024---angular-module-system-md",
           "title": "024 - Angular Module System",
           "filename": "024 - Angular Module System.md",
-          "path": "09 Angular Core/024 - Angular Module System.md",
+          "path": "03-angular/02-angular-core/024 - Angular Module System.md",
           "trackId": "angular",
           "readingTime": "1 min read"
         },
         {
-          "id": "09-angular-core-025---reactive-forms-advanced-md",
+          "id": "03-angular-02-angular-core-025---reactive-forms-advanced-md",
           "title": "025 - Reactive Forms Advanced",
           "filename": "025 - Reactive Forms Advanced.md",
-          "path": "09 Angular Core/025 - Reactive Forms Advanced.md",
+          "path": "03-angular/02-angular-core/025 - Reactive Forms Advanced.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         },
         {
-          "id": "09-angular-core-026---angular-animations-md",
+          "id": "03-angular-02-angular-core-026---angular-animations-md",
           "title": "026 - Angular Animations",
           "filename": "026 - Angular Animations.md",
-          "path": "09 Angular Core/026 - Angular Animations.md",
+          "path": "03-angular/02-angular-core/026 - Angular Animations.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "10-angular-advanced",
-      "folderName": "10 Angular Advanced",
-      "title": "10 Angular Advanced",
+      "id": "03-angular-03-angular-advanced",
+      "folderName": "03-angular-advanced",
+      "domainFolder": "03-angular",
+      "title": "Angular advanced",
       "trackId": "angular",
       "icon": "🅰️",
       "count": 17,
       "topics": [
         {
-          "id": "10-angular-advanced-001---aot-compilation-md",
+          "id": "03-angular-03-angular-advanced-001---aot-compilation-md",
           "title": "001 - AOT Compilation",
           "filename": "001 - AOT Compilation.md",
-          "path": "10 Angular Advanced/001 - AOT Compilation.md",
+          "path": "03-angular/03-angular-advanced/001 - AOT Compilation.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-002---ivy-renderer-md",
+          "id": "03-angular-03-angular-advanced-002---ivy-renderer-md",
           "title": "002 - Ivy Renderer",
           "filename": "002 - Ivy Renderer.md",
-          "path": "10 Angular Advanced/002 - Ivy Renderer.md",
+          "path": "03-angular/03-angular-advanced/002 - Ivy Renderer.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-003---angular-universal-md",
+          "id": "03-angular-03-angular-advanced-003---angular-universal-md",
           "title": "003 - Angular Universal",
           "filename": "003 - Angular Universal.md",
-          "path": "10 Angular Advanced/003 - Angular Universal.md",
+          "path": "03-angular/03-angular-advanced/003 - Angular Universal.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-004---service-workers-md",
+          "id": "03-angular-03-angular-advanced-004---service-workers-md",
           "title": "004 - Service Workers",
           "filename": "004 - Service Workers.md",
-          "path": "10 Angular Advanced/004 - Service Workers.md",
+          "path": "03-angular/03-angular-advanced/004 - Service Workers.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-005---internationalization-md",
+          "id": "03-angular-03-angular-advanced-005---internationalization-md",
           "title": "005 - Internationalization",
           "filename": "005 - Internationalization.md",
-          "path": "10 Angular Advanced/005 - Internationalization.md",
+          "path": "03-angular/03-angular-advanced/005 - Internationalization.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-006---di-advanced-md",
+          "id": "03-angular-03-angular-advanced-006---di-advanced-md",
           "title": "006 - DI Advanced",
           "filename": "006 - DI Advanced.md",
-          "path": "10 Angular Advanced/006 - DI Advanced.md",
+          "path": "03-angular/03-angular-advanced/006 - DI Advanced.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-007---structural-directives-md",
+          "id": "03-angular-03-angular-advanced-007---structural-directives-md",
           "title": "007 - Structural Directives",
           "filename": "007 - Structural Directives.md",
-          "path": "10 Angular Advanced/007 - Structural Directives.md",
+          "path": "03-angular/03-angular-advanced/007 - Structural Directives.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-008---custom-structural-directives-md",
+          "id": "03-angular-03-angular-advanced-008---custom-structural-directives-md",
           "title": "008 - Custom Structural Directives",
           "filename": "008 - Custom Structural Directives.md",
-          "path": "10 Angular Advanced/008 - Custom Structural Directives.md",
+          "path": "03-angular/03-angular-advanced/008 - Custom Structural Directives.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-009---advanced-change-detection-md",
+          "id": "03-angular-03-angular-advanced-009---advanced-change-detection-md",
           "title": "009 - Advanced Change Detection",
           "filename": "009 - Advanced Change Detection.md",
-          "path": "10 Angular Advanced/009 - Advanced Change Detection.md",
+          "path": "03-angular/03-angular-advanced/009 - Advanced Change Detection.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "10-angular-advanced-010---angular-cli-md",
+          "id": "03-angular-03-angular-advanced-010---angular-cli-md",
           "title": "010 - Angular CLI",
           "filename": "010 - Angular CLI.md",
-          "path": "10 Angular Advanced/010 - Angular CLI.md",
+          "path": "03-angular/03-angular-advanced/010 - Angular CLI.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-011---animation-system-md",
+          "id": "03-angular-03-angular-advanced-011---animation-system-md",
           "title": "011 - Animation System",
           "filename": "011 - Animation System.md",
-          "path": "10 Angular Advanced/011 - Animation System.md",
+          "path": "03-angular/03-angular-advanced/011 - Animation System.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-012---custom-decorators-md",
+          "id": "03-angular-03-angular-advanced-012---custom-decorators-md",
           "title": "012 - Custom Decorators",
           "filename": "012 - Custom Decorators.md",
-          "path": "10 Angular Advanced/012 - Custom Decorators.md",
+          "path": "03-angular/03-angular-advanced/012 - Custom Decorators.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "10-angular-advanced-013---ngrx-state-management-md",
+          "id": "03-angular-03-angular-advanced-013---ngrx-state-management-md",
           "title": "013 - NgRx State Management",
           "filename": "013 - NgRx State Management.md",
-          "path": "10 Angular Advanced/013 - NgRx State Management.md",
+          "path": "03-angular/03-angular-advanced/013 - NgRx State Management.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "10-angular-advanced-014---di-hierarchy-md",
+          "id": "03-angular-03-angular-advanced-014---di-hierarchy-md",
           "title": "014 - DI Hierarchy",
           "filename": "014 - DI Hierarchy.md",
-          "path": "10 Angular Advanced/014 - DI Hierarchy.md",
+          "path": "03-angular/03-angular-advanced/014 - DI Hierarchy.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-015---schematics-md",
+          "id": "03-angular-03-angular-advanced-015---schematics-md",
           "title": "015 - Schematics",
           "filename": "015 - Schematics.md",
-          "path": "10 Angular Advanced/015 - Schematics.md",
+          "path": "03-angular/03-angular-advanced/015 - Schematics.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-016---http-interceptor-advanced-md",
+          "id": "03-angular-03-angular-advanced-016---http-interceptor-advanced-md",
           "title": "016 - HTTP Interceptor Advanced",
           "filename": "016 - HTTP Interceptor Advanced.md",
-          "path": "10 Angular Advanced/016 - HTTP Interceptor Advanced.md",
+          "path": "03-angular/03-angular-advanced/016 - HTTP Interceptor Advanced.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "10-angular-advanced-017---error-boundaries-md",
+          "id": "03-angular-03-angular-advanced-017---error-boundaries-md",
           "title": "017 - Error Boundaries",
           "filename": "017 - Error Boundaries.md",
-          "path": "10 Angular Advanced/017 - Error Boundaries.md",
+          "path": "03-angular/03-angular-advanced/017 - Error Boundaries.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "11-angular-performance",
-      "folderName": "11 Angular Performance",
-      "title": "11 Angular Performance",
+      "id": "03-angular-04-angular-performance",
+      "folderName": "04-angular-performance",
+      "domainFolder": "03-angular",
+      "title": "Angular performance",
       "trackId": "angular",
       "icon": "⚡",
       "count": 7,
       "topics": [
         {
-          "id": "11-angular-performance-001---onpush-strategy-md",
+          "id": "03-angular-04-angular-performance-001---onpush-strategy-md",
           "title": "001 - OnPush Strategy",
           "filename": "001 - OnPush Strategy.md",
-          "path": "11 Angular Performance/001 - OnPush Strategy.md",
+          "path": "03-angular/04-angular-performance/001 - OnPush Strategy.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "11-angular-performance-010---memory-profiling-md",
+          "id": "03-angular-04-angular-performance-010---memory-profiling-md",
           "title": "010 - Memory Profiling",
           "filename": "010 - Memory Profiling.md",
-          "path": "11 Angular Performance/010 - Memory Profiling.md",
+          "path": "03-angular/04-angular-performance/010 - Memory Profiling.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "11-angular-performance-011---bundle-size-impact-md",
+          "id": "03-angular-04-angular-performance-011---bundle-size-impact-md",
           "title": "011 - Bundle Size Impact",
           "filename": "011 - Bundle Size Impact.md",
-          "path": "11 Angular Performance/011 - Bundle Size Impact.md",
+          "path": "03-angular/04-angular-performance/011 - Bundle Size Impact.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "11-angular-performance-012---profiling-debugging-md",
+          "id": "03-angular-04-angular-performance-012---profiling-debugging-md",
           "title": "012 - Profiling Debugging",
           "filename": "012 - Profiling Debugging.md",
-          "path": "11 Angular Performance/012 - Profiling Debugging.md",
+          "path": "03-angular/04-angular-performance/012 - Profiling Debugging.md",
           "trackId": "angular",
           "readingTime": "4 min read"
         },
         {
-          "id": "11-angular-performance-013---virtual-scrolling-md",
+          "id": "03-angular-04-angular-performance-013---virtual-scrolling-md",
           "title": "013 - Virtual Scrolling",
           "filename": "013 - Virtual Scrolling.md",
-          "path": "11 Angular Performance/013 - Virtual Scrolling.md",
+          "path": "03-angular/04-angular-performance/013 - Virtual Scrolling.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "11-angular-performance-014---lazy-loading-md",
+          "id": "03-angular-04-angular-performance-014---lazy-loading-md",
           "title": "014 - Lazy Loading",
           "filename": "014 - Lazy Loading.md",
-          "path": "11 Angular Performance/014 - Lazy Loading.md",
+          "path": "03-angular/04-angular-performance/014 - Lazy Loading.md",
           "trackId": "angular",
           "readingTime": "3 min read"
         },
         {
-          "id": "11-angular-performance-015---change-detection-strategy-md",
+          "id": "03-angular-04-angular-performance-015---change-detection-strategy-md",
           "title": "015 - Change Detection Strategy",
           "filename": "015 - Change Detection Strategy.md",
-          "path": "11 Angular Performance/015 - Change Detection Strategy.md",
+          "path": "03-angular/04-angular-performance/015 - Change Detection Strategy.md",
           "trackId": "angular",
           "readingTime": "2 min read"
         }
       ]
     },
     {
-      "id": "12-machine-coding",
-      "folderName": "12 Machine Coding",
-      "title": "12 Machine Coding",
+      "id": "03-angular-05-angular-interviews-qa",
+      "folderName": "05-angular-interviews-qa",
+      "domainFolder": "03-angular",
+      "title": "Angular interviews qa",
       "trackId": "angular",
+      "icon": "❓",
+      "count": 1,
+      "topics": [
+        {
+          "id": "03-angular-05-angular-interviews-qa-001---angular-interview-questions---answers-md",
+          "title": "001 - Angular Interview Questions & Answers",
+          "filename": "001 - Angular Interview Questions & Answers.md",
+          "path": "03-angular/05-angular-interviews-qa/001 - Angular Interview Questions & Answers.md",
+          "trackId": "angular",
+          "readingTime": "1 min read"
+        }
+      ]
+    },
+    {
+      "id": "04-react-01-react-fundamentals",
+      "folderName": "01-react-fundamentals",
+      "domainFolder": "04-react",
+      "title": "React fundamentals",
+      "trackId": "react",
+      "icon": "⚛️",
+      "count": 1,
+      "topics": [
+        {
+          "id": "04-react-01-react-fundamentals-001---react-core-concepts-md",
+          "title": "001 - React Core Concepts",
+          "filename": "001 - React Core Concepts.md",
+          "path": "04-react/01-react-fundamentals/001 - React Core Concepts.md",
+          "trackId": "react",
+          "readingTime": "1 min read"
+        }
+      ]
+    },
+    {
+      "id": "04-react-02-react-interviews",
+      "folderName": "02-react-interviews",
+      "domainFolder": "04-react",
+      "title": "React interviews",
+      "trackId": "react",
+      "icon": "⚛️",
+      "count": 1,
+      "topics": [
+        {
+          "id": "04-react-02-react-interviews-001---react-interview-questions---answers-md",
+          "title": "001 - React Interview Questions & Answers",
+          "filename": "001 - React Interview Questions & Answers.md",
+          "path": "04-react/02-react-interviews/001 - React Interview Questions & Answers.md",
+          "trackId": "react",
+          "readingTime": "1 min read"
+        }
+      ]
+    },
+    {
+      "id": "05-frontend-interviews-01-machine-coding",
+      "folderName": "01-machine-coding",
+      "domainFolder": "05-frontend-interviews",
+      "title": "Machine coding",
+      "trackId": "interviews",
       "icon": "💻",
       "count": 27,
       "topics": [
         {
-          "id": "12-machine-coding-001---debounce-md",
+          "id": "05-frontend-interviews-01-machine-coding-001---debounce-md",
           "title": "001 - Debounce",
           "filename": "001 - Debounce.md",
-          "path": "12 Machine Coding/001 - Debounce.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/001 - Debounce.md",
+          "trackId": "interviews",
           "readingTime": "2 min read"
         },
         {
-          "id": "12-machine-coding-002---throttle-md",
+          "id": "05-frontend-interviews-01-machine-coding-002---throttle-md",
           "title": "002 - Throttle",
           "filename": "002 - Throttle.md",
-          "path": "12 Machine Coding/002 - Throttle.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/002 - Throttle.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-003---flatten-array-md",
+          "id": "05-frontend-interviews-01-machine-coding-003---flatten-array-md",
           "title": "003 - Flatten Array",
           "filename": "003 - Flatten Array.md",
-          "path": "12 Machine Coding/003 - Flatten Array.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-004---promise-all-md",
+          "id": "05-frontend-interviews-01-machine-coding-004---promise-all-md",
           "title": "004 - Promise.all",
           "filename": "004 - Promise.all.md",
-          "path": "12 Machine Coding/004 - Promise.all.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/004 - Promise.all.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-005---deep-clone-md",
+          "id": "05-frontend-interviews-01-machine-coding-005---deep-clone-md",
           "title": "005 - Deep Clone",
           "filename": "005 - Deep Clone.md",
-          "path": "12 Machine Coding/005 - Deep Clone.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/005 - Deep Clone.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-006---eventemitter-md",
+          "id": "05-frontend-interviews-01-machine-coding-006---eventemitter-md",
           "title": "006 - EventEmitter",
           "filename": "006 - EventEmitter.md",
-          "path": "12 Machine Coding/006 - EventEmitter.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/006 - EventEmitter.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-007---memoization-md",
+          "id": "05-frontend-interviews-01-machine-coding-007---memoization-md",
           "title": "007 - Memoization",
           "filename": "007 - Memoization.md",
-          "path": "12 Machine Coding/007 - Memoization.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/007 - Memoization.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-008---groupby-md",
+          "id": "05-frontend-interviews-01-machine-coding-008---groupby-md",
           "title": "008 - groupBy",
           "filename": "008 - groupBy.md",
-          "path": "12 Machine Coding/008 - groupBy.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/008 - groupBy.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-009---pipe-and-compose-md",
+          "id": "05-frontend-interviews-01-machine-coding-009---pipe-and-compose-md",
           "title": "009 - pipe and compose",
           "filename": "009 - pipe and compose.md",
-          "path": "12 Machine Coding/009 - pipe and compose.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/009 - pipe and compose.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-010---lru-cache-md",
+          "id": "05-frontend-interviews-01-machine-coding-010---lru-cache-md",
           "title": "010 - LRU Cache",
           "filename": "010 - LRU Cache.md",
-          "path": "12 Machine Coding/010 - LRU Cache.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/010 - LRU Cache.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-011---remove-duplicates-md",
+          "id": "05-frontend-interviews-01-machine-coding-011---remove-duplicates-md",
           "title": "011 - Remove Duplicates",
           "filename": "011 - Remove Duplicates.md",
-          "path": "12 Machine Coding/011 - Remove Duplicates.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/011 - Remove Duplicates.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-012---first-non-repeating-character-md",
+          "id": "05-frontend-interviews-01-machine-coding-012---first-non-repeating-character-md",
           "title": "012 - First Non-Repeating Character",
           "filename": "012 - First Non-Repeating Character.md",
-          "path": "12 Machine Coding/012 - First Non-Repeating Character.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/012 - First Non-Repeating Character.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-013---retry-logic-md",
+          "id": "05-frontend-interviews-01-machine-coding-013---retry-logic-md",
           "title": "013 - Retry Logic",
           "filename": "013 - Retry Logic.md",
-          "path": "12 Machine Coding/013 - Retry Logic.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/013 - Retry Logic.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-014---autocomplete-rxjs-md",
+          "id": "05-frontend-interviews-01-machine-coding-014---autocomplete-rxjs-md",
           "title": "014 - Autocomplete RxJS",
           "filename": "014 - Autocomplete RxJS.md",
-          "path": "12 Machine Coding/014 - Autocomplete RxJS.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/014 - Autocomplete RxJS.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-015---infinite-scroll-md",
+          "id": "05-frontend-interviews-01-machine-coding-015---infinite-scroll-md",
           "title": "015 - Infinite Scroll",
           "filename": "015 - Infinite Scroll.md",
-          "path": "12 Machine Coding/015 - Infinite Scroll.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/015 - Infinite Scroll.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-016---sorting-filtering-md",
+          "id": "05-frontend-interviews-01-machine-coding-016---sorting-filtering-md",
           "title": "016 - Sorting Filtering",
           "filename": "016 - Sorting Filtering.md",
-          "path": "12 Machine Coding/016 - Sorting Filtering.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/016 - Sorting Filtering.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-017---pipe-md",
+          "id": "05-frontend-interviews-01-machine-coding-017---pipe-md",
           "title": "017 - Pipe",
           "filename": "017 - Pipe.md",
-          "path": "12 Machine Coding/017 - Pipe.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/017 - Pipe.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-017---virtual-scroll-md",
+          "id": "05-frontend-interviews-01-machine-coding-017---virtual-scroll-md",
           "title": "017 - Virtual Scroll",
           "filename": "017 - Virtual Scroll.md",
-          "path": "12 Machine Coding/017 - Virtual Scroll.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/017 - Virtual Scroll.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-018---compose-md",
+          "id": "05-frontend-interviews-01-machine-coding-018---compose-md",
           "title": "018 - Compose",
           "filename": "018 - Compose.md",
-          "path": "12 Machine Coding/018 - Compose.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/018 - Compose.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-018---custom-pagination-md",
+          "id": "05-frontend-interviews-01-machine-coding-018---custom-pagination-md",
           "title": "018 - Custom Pagination",
           "filename": "018 - Custom Pagination.md",
-          "path": "12 Machine Coding/018 - Custom Pagination.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/018 - Custom Pagination.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-019---cancel-requests-md",
+          "id": "05-frontend-interviews-01-machine-coding-019---cancel-requests-md",
           "title": "019 - Cancel Requests",
           "filename": "019 - Cancel Requests.md",
-          "path": "12 Machine Coding/019 - Cancel Requests.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/019 - Cancel Requests.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-019---object-flatten-md",
+          "id": "05-frontend-interviews-01-machine-coding-019---object-flatten-md",
           "title": "019 - Object Flatten",
           "filename": "019 - Object Flatten.md",
-          "path": "12 Machine Coding/019 - Object Flatten.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/019 - Object Flatten.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-020---deep-equal-md",
+          "id": "05-frontend-interviews-01-machine-coding-020---deep-equal-md",
           "title": "020 - Deep Equal",
           "filename": "020 - Deep Equal.md",
-          "path": "12 Machine Coding/020 - Deep Equal.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/020 - Deep Equal.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-020---rendering-optimization-md",
+          "id": "05-frontend-interviews-01-machine-coding-020---rendering-optimization-md",
           "title": "020 - Rendering Optimization",
           "filename": "020 - Rendering Optimization.md",
-          "path": "12 Machine Coding/020 - Rendering Optimization.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/020 - Rendering Optimization.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-021---memory-leaks-md",
+          "id": "05-frontend-interviews-01-machine-coding-021---memory-leaks-md",
           "title": "021 - Memory Leaks",
           "filename": "021 - Memory Leaks.md",
-          "path": "12 Machine Coding/021 - Memory Leaks.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/021 - Memory Leaks.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "12-machine-coding-023---immutability-md",
+          "id": "05-frontend-interviews-01-machine-coding-023---immutability-md",
           "title": "023 - Immutability",
           "filename": "023 - Immutability.md",
-          "path": "12 Machine Coding/023 - Immutability.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/023 - Immutability.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "12-machine-coding-024---dom-manipulation-md",
+          "id": "05-frontend-interviews-01-machine-coding-024---dom-manipulation-md",
           "title": "024 - DOM Manipulation",
           "filename": "024 - DOM Manipulation.md",
-          "path": "12 Machine Coding/024 - DOM Manipulation.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/01-machine-coding/024 - DOM Manipulation.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "13-frontend-system-design",
-      "folderName": "13 Frontend System Design",
-      "title": "13 Frontend System Design",
-      "trackId": "angular",
+      "id": "05-frontend-interviews-02-frontend-system-design",
+      "folderName": "02-frontend-system-design",
+      "domainFolder": "05-frontend-interviews",
+      "title": "Frontend system design",
+      "trackId": "interviews",
       "icon": "🏗️",
       "count": 12,
       "topics": [
         {
-          "id": "13-frontend-system-design-001---architecture-patterns-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-001---architecture-patterns-md",
           "title": "001 - Architecture Patterns",
           "filename": "001 - Architecture Patterns.md",
-          "path": "13 Frontend System Design/001 - Architecture Patterns.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/001 - Architecture Patterns.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-002---state-management-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-002---state-management-md",
           "title": "002 - State Management",
           "filename": "002 - State Management.md",
-          "path": "13 Frontend System Design/002 - State Management.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/002 - State Management.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-003---micro-frontends-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-003---micro-frontends-md",
           "title": "003 - Micro Frontends",
           "filename": "003 - Micro Frontends.md",
-          "path": "13 Frontend System Design/003 - Micro Frontends.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/003 - Micro Frontends.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-004---bundle-optimization-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-004---bundle-optimization-md",
           "title": "004 - Bundle Optimization",
           "filename": "004 - Bundle Optimization.md",
-          "path": "13 Frontend System Design/004 - Bundle Optimization.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/004 - Bundle Optimization.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-005---performance-monitoring-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-005---performance-monitoring-md",
           "title": "005 - Performance Monitoring",
           "filename": "005 - Performance Monitoring.md",
-          "path": "13 Frontend System Design/005 - Performance Monitoring.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/005 - Performance Monitoring.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "13-frontend-system-design-006---security-best-practices-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-006---security-best-practices-md",
           "title": "006 - Security Best Practices",
           "filename": "006 - Security Best Practices.md",
-          "path": "13 Frontend System Design/006 - Security Best Practices.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/006 - Security Best Practices.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-007---api-design-principles-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-007---api-design-principles-md",
           "title": "007 - API Design Principles",
           "filename": "007 - API Design Principles.md",
-          "path": "13 Frontend System Design/007 - API Design Principles.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/007 - API Design Principles.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-008---progressive-enhancement-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-008---progressive-enhancement-md",
           "title": "008 - Progressive Enhancement",
           "filename": "008 - Progressive Enhancement.md",
-          "path": "13 Frontend System Design/008 - Progressive Enhancement.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/008 - Progressive Enhancement.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-009---caching-strategies-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-009---caching-strategies-md",
           "title": "009 - Caching Strategies",
           "filename": "009 - Caching Strategies.md",
-          "path": "13 Frontend System Design/009 - Caching Strategies.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/009 - Caching Strategies.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "13-frontend-system-design-010---server-side-rendering-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-010---server-side-rendering-md",
           "title": "010 - Server Side Rendering",
           "filename": "010 - Server Side Rendering.md",
-          "path": "13 Frontend System Design/010 - Server Side Rendering.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/010 - Server Side Rendering.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-011---build-optimization-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-011---build-optimization-md",
           "title": "011 - Build Optimization",
           "filename": "011 - Build Optimization.md",
-          "path": "13 Frontend System Design/011 - Build Optimization.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/011 - Build Optimization.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "13-frontend-system-design-012---component-architecture-md",
+          "id": "05-frontend-interviews-02-frontend-system-design-012---component-architecture-md",
           "title": "012 - Component Architecture",
           "filename": "012 - Component Architecture.md",
-          "path": "13 Frontend System Design/012 - Component Architecture.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/02-frontend-system-design/012 - Component Architecture.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         }
       ]
     },
     {
-      "id": "14-testing",
-      "folderName": "14 Testing",
-      "title": "14 Testing",
-      "trackId": "angular",
+      "id": "05-frontend-interviews-03-testing",
+      "folderName": "03-testing",
+      "domainFolder": "05-frontend-interviews",
+      "title": "Testing",
+      "trackId": "interviews",
       "icon": "🧪",
       "count": 8,
       "topics": [
         {
-          "id": "14-testing-001---unit-testing-md",
+          "id": "05-frontend-interviews-03-testing-001---unit-testing-md",
           "title": "001 - Unit Testing",
           "filename": "001 - Unit Testing.md",
-          "path": "14 Testing/001 - Unit Testing.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/001 - Unit Testing.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "14-testing-002---integration-testing-md",
+          "id": "05-frontend-interviews-03-testing-002---integration-testing-md",
           "title": "002 - Integration Testing",
           "filename": "002 - Integration Testing.md",
-          "path": "14 Testing/002 - Integration Testing.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/002 - Integration Testing.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "14-testing-003---testing-strategies-md",
+          "id": "05-frontend-interviews-03-testing-003---testing-strategies-md",
           "title": "003 - Testing Strategies",
           "filename": "003 - Testing Strategies.md",
-          "path": "14 Testing/003 - Testing Strategies.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/003 - Testing Strategies.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "14-testing-004---tdd-with-angular-md",
+          "id": "05-frontend-interviews-03-testing-004---tdd-with-angular-md",
           "title": "004 - TDD with Angular",
           "filename": "004 - TDD with Angular.md",
-          "path": "14 Testing/004 - TDD with Angular.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/004 - TDD with Angular.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "14-testing-005---e2e-testing-md",
+          "id": "05-frontend-interviews-03-testing-005---e2e-testing-md",
           "title": "005 - E2E Testing",
           "filename": "005 - E2E Testing.md",
-          "path": "14 Testing/005 - E2E Testing.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/005 - E2E Testing.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "14-testing-006---test-data-management-md",
+          "id": "05-frontend-interviews-03-testing-006---test-data-management-md",
           "title": "006 - Test Data Management",
           "filename": "006 - Test Data Management.md",
-          "path": "14 Testing/006 - Test Data Management.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/006 - Test Data Management.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "14-testing-007---mocking-strategies-md",
+          "id": "05-frontend-interviews-03-testing-007---mocking-strategies-md",
           "title": "007 - Mocking Strategies",
           "filename": "007 - Mocking Strategies.md",
-          "path": "14 Testing/007 - Mocking Strategies.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/007 - Mocking Strategies.md",
+          "trackId": "interviews",
           "readingTime": "4 min read"
         },
         {
-          "id": "14-testing-008---testing-best-practices-md",
+          "id": "05-frontend-interviews-03-testing-008---testing-best-practices-md",
           "title": "008 - Testing Best Practices",
           "filename": "008 - Testing Best Practices.md",
-          "path": "14 Testing/008 - Testing Best Practices.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/03-testing/008 - Testing Best Practices.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "15-interview-questions",
-      "folderName": "15 Interview Questions",
-      "title": "15 Interview Questions",
-      "trackId": "angular",
+      "id": "05-frontend-interviews-04-general-interview-questions",
+      "folderName": "04-general-interview-questions",
+      "domainFolder": "05-frontend-interviews",
+      "title": "General interview questions",
+      "trackId": "interviews",
       "icon": "❓",
       "count": 6,
       "topics": [
         {
-          "id": "15-interview-questions-001---top-javascript-interview-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-001---top-javascript-interview-questions-md",
           "title": "001 - Top JavaScript Interview Questions",
           "filename": "001 - Top JavaScript Interview Questions.md",
-          "path": "15 Interview Questions/001 - Top JavaScript Interview Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/001 - Top JavaScript Interview Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "15-interview-questions-002---top-angular-interview-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-002---top-angular-interview-questions-md",
           "title": "002 - Top Angular Interview Questions",
           "filename": "002 - Top Angular Interview Questions.md",
-          "path": "15 Interview Questions/002 - Top Angular Interview Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/002 - Top Angular Interview Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "15-interview-questions-003---top-rxjs-interview-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-003---top-rxjs-interview-questions-md",
           "title": "003 - Top RxJS Interview Questions",
           "filename": "003 - Top RxJS Interview Questions.md",
-          "path": "15 Interview Questions/003 - Top RxJS Interview Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/003 - Top RxJS Interview Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "15-interview-questions-004---top-typescript-interview-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-004---top-typescript-interview-questions-md",
           "title": "004 - Top TypeScript Interview Questions",
           "filename": "004 - Top TypeScript Interview Questions.md",
-          "path": "15 Interview Questions/004 - Top TypeScript Interview Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/004 - Top TypeScript Interview Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "15-interview-questions-005---top-css-interview-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-005---top-css-interview-questions-md",
           "title": "005 - Top CSS Interview Questions",
           "filename": "005 - Top CSS Interview Questions.md",
-          "path": "15 Interview Questions/005 - Top CSS Interview Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/005 - Top CSS Interview Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         },
         {
-          "id": "15-interview-questions-006---behavioral-and-hr-questions-md",
+          "id": "05-frontend-interviews-04-general-interview-questions-006---behavioral-and-hr-questions-md",
           "title": "006 - Behavioral and HR Questions",
           "filename": "006 - Behavioral and HR Questions.md",
-          "path": "15 Interview Questions/006 - Behavioral and HR Questions.md",
-          "trackId": "angular",
+          "path": "05-frontend-interviews/04-general-interview-questions/006 - Behavioral and HR Questions.md",
+          "trackId": "interviews",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "16-data-analytics-foundations",
-      "folderName": "16 Data Analytics Foundations",
-      "title": "16 Data Analytics Foundations",
+      "id": "06-data-analytics-01-data-analytics-foundations",
+      "folderName": "01-data-analytics-foundations",
+      "domainFolder": "06-data-analytics",
+      "title": "Data analytics foundations",
       "trackId": "data-analytics",
       "icon": "📊",
       "count": 3,
       "topics": [
         {
-          "id": "16-data-analytics-foundations-001---introduction-to-data-analytics---absolute-beginner-roadmap-md",
+          "id": "06-data-analytics-01-data-analytics-foundations-001---introduction-to-data-analytics---absolute-beginner-roadmap-md",
           "title": "001 - Introduction to Data Analytics & Absolute Beginner Roadmap",
           "filename": "001 - Introduction to Data Analytics & Absolute Beginner Roadmap.md",
-          "path": "16 Data Analytics Foundations/001 - Introduction to Data Analytics & Absolute Beginner Roadmap.md",
+          "path": "06-data-analytics/01-data-analytics-foundations/001 - Introduction to Data Analytics & Absolute Beginner Roadmap.md",
           "trackId": "data-analytics",
           "readingTime": "5 min read"
         },
         {
-          "id": "16-data-analytics-foundations-002---data-analytics-vs-data-science-vs-data-engineering-md",
+          "id": "06-data-analytics-01-data-analytics-foundations-002---data-analytics-vs-data-science-vs-data-engineering-md",
           "title": "002 - Data Analytics vs Data Science vs Data Engineering",
           "filename": "002 - Data Analytics vs Data Science vs Data Engineering.md",
-          "path": "16 Data Analytics Foundations/002 - Data Analytics vs Data Science vs Data Engineering.md",
+          "path": "06-data-analytics/01-data-analytics-foundations/002 - Data Analytics vs Data Science vs Data Engineering.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "16-data-analytics-foundations-003---types-of-data---4-analytics-pillars-md",
+          "id": "06-data-analytics-01-data-analytics-foundations-003---types-of-data---4-analytics-pillars-md",
           "title": "003 - Types of Data & 4 Analytics Pillars",
           "filename": "003 - Types of Data & 4 Analytics Pillars.md",
-          "path": "16 Data Analytics Foundations/003 - Types of Data & 4 Analytics Pillars.md",
+          "path": "06-data-analytics/01-data-analytics-foundations/003 - Types of Data & 4 Analytics Pillars.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         }
       ]
     },
     {
-      "id": "17-excel---google-sheets-for-analytics",
-      "folderName": "17 Excel & Google Sheets for Analytics",
-      "title": "17 Excel & Google Sheets for Analytics",
+      "id": "06-data-analytics-02-excel-and-sheets",
+      "folderName": "02-excel-and-sheets",
+      "domainFolder": "06-data-analytics",
+      "title": "Excel and sheets",
       "trackId": "data-analytics",
       "icon": "📈",
       "count": 3,
       "topics": [
         {
-          "id": "17-excel---google-sheets-for-analytics-001---excel-basics---data-cleaning-for-beginners-md",
+          "id": "06-data-analytics-02-excel-and-sheets-001---excel-basics---data-cleaning-for-beginners-md",
           "title": "001 - Excel Basics & Data Cleaning for Beginners",
           "filename": "001 - Excel Basics & Data Cleaning for Beginners.md",
-          "path": "17 Excel & Google Sheets for Analytics/001 - Excel Basics & Data Cleaning for Beginners.md",
+          "path": "06-data-analytics/02-excel-and-sheets/001 - Excel Basics & Data Cleaning for Beginners.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "17-excel---google-sheets-for-analytics-002---essential-excel-formulas--vlookup--xlookup--if--sumifs--md",
+          "id": "06-data-analytics-02-excel-and-sheets-002---essential-excel-formulas--vlookup--xlookup--if--sumifs--md",
           "title": "002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
           "filename": "002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).md",
-          "path": "17 Excel & Google Sheets for Analytics/002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).md",
+          "path": "06-data-analytics/02-excel-and-sheets/002 - Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "17-excel---google-sheets-for-analytics-003---pivot-tables---data-summarization-masterclass-md",
+          "id": "06-data-analytics-02-excel-and-sheets-003---pivot-tables---data-summarization-masterclass-md",
           "title": "003 - Pivot Tables & Data Summarization Masterclass",
           "filename": "003 - Pivot Tables & Data Summarization Masterclass.md",
-          "path": "17 Excel & Google Sheets for Analytics/003 - Pivot Tables & Data Summarization Masterclass.md",
+          "path": "06-data-analytics/02-excel-and-sheets/003 - Pivot Tables & Data Summarization Masterclass.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         }
       ]
     },
     {
-      "id": "18-sql-database-mastery",
-      "folderName": "18 SQL Database Mastery",
-      "title": "18 SQL Database Mastery",
+      "id": "06-data-analytics-03-sql-database-mastery",
+      "folderName": "03-sql-database-mastery",
+      "domainFolder": "06-data-analytics",
+      "title": "Sql database mastery",
       "trackId": "data-analytics",
       "icon": "🛢️",
       "count": 3,
       "topics": [
         {
-          "id": "18-sql-database-mastery-001---sql-basics-for-beginners--select--where--order-by--md",
+          "id": "06-data-analytics-03-sql-database-mastery-001---sql-basics-for-beginners--select--where--order-by--md",
           "title": "001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
           "filename": "001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
-          "path": "18 SQL Database Mastery/001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
+          "path": "06-data-analytics/03-sql-database-mastery/001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "18-sql-database-mastery-002---sql-aggregations---group-by-clause-md",
+          "id": "06-data-analytics-03-sql-database-mastery-002---sql-aggregations---group-by-clause-md",
           "title": "002 - SQL Aggregations & GROUP BY Clause",
           "filename": "002 - SQL Aggregations & GROUP BY Clause.md",
-          "path": "18 SQL Database Mastery/002 - SQL Aggregations & GROUP BY Clause.md",
+          "path": "06-data-analytics/03-sql-database-mastery/002 - SQL Aggregations & GROUP BY Clause.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "18-sql-database-mastery-003---sql-joins-masterclass--inner--left--right--full--md",
+          "id": "06-data-analytics-03-sql-database-mastery-003---sql-joins-masterclass--inner--left--right--full--md",
           "title": "003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
           "filename": "003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
-          "path": "18 SQL Database Mastery/003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
+          "path": "06-data-analytics/03-sql-database-mastery/003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
           "trackId": "data-analytics",
           "readingTime": "5 min read"
         }
       ]
     },
     {
-      "id": "19-python-for-data-analytics",
-      "folderName": "19 Python for Data Analytics",
-      "title": "19 Python for Data Analytics",
+      "id": "06-data-analytics-04-python-for-data-analytics",
+      "folderName": "04-python-for-data-analytics",
+      "domainFolder": "06-data-analytics",
+      "title": "Python for data analytics",
       "trackId": "data-analytics",
       "icon": "🐍",
       "count": 3,
       "topics": [
         {
-          "id": "19-python-for-data-analytics-001---python-fundamentals-for-data-analysts-md",
+          "id": "06-data-analytics-04-python-for-data-analytics-001---python-fundamentals-for-data-analysts-md",
           "title": "001 - Python Fundamentals for Data Analysts",
           "filename": "001 - Python Fundamentals for Data Analysts.md",
-          "path": "19 Python for Data Analytics/001 - Python Fundamentals for Data Analysts.md",
+          "path": "06-data-analytics/04-python-for-data-analytics/001 - Python Fundamentals for Data Analysts.md",
           "trackId": "data-analytics",
           "readingTime": "3 min read"
         },
         {
-          "id": "19-python-for-data-analytics-002---data-manipulation-with-pandas-md",
+          "id": "06-data-analytics-04-python-for-data-analytics-002---data-manipulation-with-pandas-md",
           "title": "002 - Data Manipulation with Pandas",
           "filename": "002 - Data Manipulation with Pandas.md",
-          "path": "19 Python for Data Analytics/002 - Data Manipulation with Pandas.md",
+          "path": "06-data-analytics/04-python-for-data-analytics/002 - Data Manipulation with Pandas.md",
           "trackId": "data-analytics",
           "readingTime": "3 min read"
         },
         {
-          "id": "19-python-for-data-analytics-003---exploratory-data-analysis--eda--with-python-md",
+          "id": "06-data-analytics-04-python-for-data-analytics-003---exploratory-data-analysis--eda--with-python-md",
           "title": "003 - Exploratory Data Analysis (EDA) with Python",
           "filename": "003 - Exploratory Data Analysis (EDA) with Python.md",
-          "path": "19 Python for Data Analytics/003 - Exploratory Data Analysis (EDA) with Python.md",
+          "path": "06-data-analytics/04-python-for-data-analytics/003 - Exploratory Data Analysis (EDA) with Python.md",
           "trackId": "data-analytics",
           "readingTime": "3 min read"
         }
       ]
     },
     {
-      "id": "20-data-visualization---dashboards",
-      "folderName": "20 Data Visualization & Dashboards",
-      "title": "20 Data Visualization & Dashboards",
+      "id": "06-data-analytics-05-data-visualization-and-dashboards",
+      "folderName": "05-data-visualization-and-dashboards",
+      "domainFolder": "06-data-analytics",
+      "title": "Data visualization and dashboards",
       "trackId": "data-analytics",
       "icon": "🎨",
       "count": 2,
       "topics": [
         {
-          "id": "20-data-visualization---dashboards-001---data-storytelling---chart-selection-guide-md",
+          "id": "06-data-analytics-05-data-visualization-and-dashboards-001---data-storytelling---chart-selection-guide-md",
           "title": "001 - Data Storytelling & Chart Selection Guide",
           "filename": "001 - Data Storytelling & Chart Selection Guide.md",
-          "path": "20 Data Visualization & Dashboards/001 - Data Storytelling & Chart Selection Guide.md",
+          "path": "06-data-analytics/05-data-visualization-and-dashboards/001 - Data Storytelling & Chart Selection Guide.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         },
         {
-          "id": "20-data-visualization---dashboards-002---building-interactive-power-bi---tableau-dashboards-md",
+          "id": "06-data-analytics-05-data-visualization-and-dashboards-002---building-interactive-power-bi---tableau-dashboards-md",
           "title": "002 - Building Interactive Power BI & Tableau Dashboards",
           "filename": "002 - Building Interactive Power BI & Tableau Dashboards.md",
-          "path": "20 Data Visualization & Dashboards/002 - Building Interactive Power BI & Tableau Dashboards.md",
+          "path": "06-data-analytics/05-data-visualization-and-dashboards/002 - Building Interactive Power BI & Tableau Dashboards.md",
           "trackId": "data-analytics",
           "readingTime": "4 min read"
         }

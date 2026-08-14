@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
   "type": "module",
-  "moduleId": "03-es6-",
-  "title": "03 ES6+ — Module Quiz",
+  "moduleId": "01-javascript-03-es6-plus",
+  "title": "Es6 plus — Module Quiz",
   "icon": "✨",
-  "folder": "03 ES6+",
-  "description": "Mixed quiz covering all topics in 03 ES6+.",
+  "folder": "03-es6-plus",
+  "description": "Mixed quiz covering all topics in Es6 plus.",
   "questionCount": 30,
-  "generatedAt": "2026-08-12T09:21:01.700Z",
+  "generatedAt": "2026-08-13T08:08:27.869Z",
   "questions": [
     {
       "id": "arrow-q1",
@@ -392,7 +392,7 @@
         "runtime"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q2",
@@ -424,7 +424,7 @@
         "ast"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q3",
@@ -456,7 +456,7 @@
         "v8"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q4",
@@ -488,7 +488,7 @@
         "node"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q5",
@@ -520,7 +520,7 @@
         "gc"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q6",
@@ -552,7 +552,7 @@
         "deopt"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q7",
@@ -584,7 +584,7 @@
         "runtime"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "js-engine-q8",
@@ -616,7 +616,7 @@
         "zonejs"
       ],
       "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01 JavaScript Fundamentals/001 - JavaScript Engine.md.quiz.json"
+      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
       "id": "promise-q1",
@@ -648,7 +648,7 @@
         "states"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q2",
@@ -680,7 +680,7 @@
         "chaining"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q3",
@@ -712,7 +712,7 @@
         "reject"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q4",
@@ -743,7 +743,7 @@
         "race"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q5",
@@ -774,7 +774,7 @@
         "allsettled"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q6",
@@ -805,7 +805,7 @@
         "executor"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q7",
@@ -837,7 +837,7 @@
         "then"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q8",
@@ -869,7 +869,7 @@
         "event-loop"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "async-q1",
@@ -900,7 +900,7 @@
         "async"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q2",
@@ -932,7 +932,7 @@
         "error"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     }
   ]
 }

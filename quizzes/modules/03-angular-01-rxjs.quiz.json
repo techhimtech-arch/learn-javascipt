@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
   "type": "module",
-  "moduleId": "12-machine-coding",
-  "title": "12 Machine Coding — Module Quiz",
-  "icon": "💻",
-  "folder": "12 Machine Coding",
-  "description": "Mixed quiz covering all topics in 12 Machine Coding.",
-  "questionCount": 28,
-  "generatedAt": "2026-08-12T09:21:01.779Z",
+  "moduleId": "03-angular-01-rxjs",
+  "title": "Rxjs — Module Quiz",
+  "icon": "🔄",
+  "folder": "01-rxjs",
+  "description": "Mixed quiz covering all topics in Rxjs.",
+  "questionCount": 26,
+  "generatedAt": "2026-08-13T08:08:27.881Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -37,9 +37,7 @@
       "tags": [
         "observable",
         "lazy"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q2",
@@ -69,9 +67,7 @@
       "tags": [
         "lazy",
         "subscribe"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q3",
@@ -101,9 +97,7 @@
       "tags": [
         "unsubscribe",
         "cancel"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q4",
@@ -133,9 +127,7 @@
       "tags": [
         "from",
         "of"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q5",
@@ -165,9 +157,7 @@
       "tags": [
         "forkjoin",
         "promise-all"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "rxjs-promise-q6",
@@ -197,9 +187,7 @@
       "tags": [
         "async-pipe",
         "angular"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      ]
     },
     {
       "id": "ng-comp-q1",
@@ -231,7 +219,7 @@
         "decorator"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q2",
@@ -262,7 +250,7 @@
         "selector"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q3",
@@ -293,7 +281,7 @@
         "change-detection"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q4",
@@ -325,7 +313,7 @@
         "ngoninit"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q5",
@@ -357,7 +345,7 @@
         "communication"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q6",
@@ -389,7 +377,7 @@
         "module"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-di-q1",
@@ -421,7 +409,7 @@
         "service"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q2",
@@ -453,7 +441,7 @@
         "injector"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q3",
@@ -485,7 +473,7 @@
         "scope"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q4",
@@ -517,7 +505,7 @@
         "root"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q5",
@@ -549,7 +537,7 @@
         "modern"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q6",
@@ -581,7 +569,7 @@
         "metadata"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-cd-q1",
@@ -613,7 +601,7 @@
         "trigger"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q2",
@@ -645,7 +633,7 @@
         "triggers"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q3",
@@ -676,7 +664,7 @@
         "detectChanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q4",
@@ -708,7 +696,7 @@
         "detectchanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q5",
@@ -740,7 +728,7 @@
         "onpush"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q6",
@@ -772,11 +760,11 @@
         "performance"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
-      "id": "d203771f",
-      "question": "Which statement best describes the purpose of \"12 Machine Coding\"?",
+      "id": "50b5eb53",
+      "question": "Which statement best describes the purpose of \"Rxjs\"?",
       "options": [
         {
           "id": "a",
@@ -796,79 +784,31 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "\"12 Machine Coding\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+      "explanation": "\"Rxjs\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
     },
     {
-      "id": "fbcd0a0d",
-      "question": "When working inside \"12 Machine Coding\", the most effective way to retain the material is to:",
+      "id": "374a287f",
+      "question": "When working inside \"01-rxjs\", the most effective way to retain the material is to:",
       "options": [
         {
           "id": "a",
-          "text": "Build small examples, quiz yourself, and revisit weak spots."
+          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
         },
         {
           "id": "b",
-          "text": "Read once and never practice."
+          "text": "Memorize syntax without running code."
         },
         {
           "id": "c",
-          "text": "Memorise API signatures only."
+          "text": "Skip the theoretical foundation."
         },
         {
           "id": "d",
-          "text": "Avoid running the code."
+          "text": "Rely solely on third-party libraries."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
-    },
-    {
-      "id": "493f67f4",
-      "question": "A senior engineer reviewing \"12 Machine Coding\" would most expect you to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Explain the \"why\", trade-offs, and a real-world use case."
-        },
-        {
-          "id": "b",
-          "text": "Recite the definition word-for-word."
-        },
-        {
-          "id": "c",
-          "text": "Claim it is never needed."
-        },
-        {
-          "id": "d",
-          "text": "Copy code without understanding it."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
-    },
-    {
-      "id": "71885063",
-      "question": "In a machine-coding round, interviewers most value:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A working, readable solution with edge-case handling."
-        },
-        {
-          "id": "b",
-          "text": "The longest possible file."
-        },
-        {
-          "id": "c",
-          "text": "Using every API you know."
-        },
-        {
-          "id": "d",
-          "text": "Skipping testing."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Correctness, clarity, and edge cases matter more than cleverness."
+      "explanation": "Active recall combined with hands-on practice leads to mastery."
     }
   ]
 }

@@ -6,7 +6,7 @@
   "icon": "🅰️",
   "description": "Deep Angular + RxJS questions for end-to-end framework mastery.",
   "questionCount": 24,
-  "generatedAt": "2026-08-12T09:20:59.198Z",
+  "generatedAt": "2026-08-13T08:08:27.732Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -38,7 +38,7 @@
         "lazy"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q2",
@@ -70,7 +70,7 @@
         "subscribe"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q3",
@@ -102,7 +102,7 @@
         "cancel"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q4",
@@ -134,7 +134,7 @@
         "of"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q5",
@@ -166,7 +166,7 @@
         "promise-all"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q6",
@@ -198,7 +198,7 @@
         "angular"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "ng-comp-q1",
@@ -230,7 +230,7 @@
         "decorator"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q2",
@@ -261,7 +261,7 @@
         "selector"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q3",
@@ -292,7 +292,7 @@
         "change-detection"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q4",
@@ -324,7 +324,7 @@
         "ngoninit"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q5",
@@ -356,7 +356,7 @@
         "communication"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q6",
@@ -388,7 +388,7 @@
         "module"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-di-q1",
@@ -420,7 +420,7 @@
         "service"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q2",
@@ -452,7 +452,7 @@
         "injector"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q3",
@@ -484,7 +484,7 @@
         "scope"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q4",
@@ -516,7 +516,7 @@
         "root"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q5",
@@ -548,7 +548,7 @@
         "modern"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q6",
@@ -580,7 +580,7 @@
         "metadata"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-cd-q1",
@@ -612,7 +612,7 @@
         "trigger"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q2",
@@ -644,7 +644,7 @@
         "triggers"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q3",
@@ -675,7 +675,7 @@
         "detectChanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q4",
@@ -707,7 +707,7 @@
         "detectchanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q5",
@@ -739,7 +739,7 @@
         "onpush"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q6",
@@ -771,7 +771,7 @@
         "performance"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     }
   ]
 }

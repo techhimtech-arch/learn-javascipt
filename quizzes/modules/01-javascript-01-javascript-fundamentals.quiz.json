@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
   "type": "module",
-  "moduleId": "01-javascript-fundamentals",
-  "title": "01 JavaScript Fundamentals — Module Quiz",
+  "moduleId": "01-javascript-01-javascript-fundamentals",
+  "title": "Javascript fundamentals — Module Quiz",
   "icon": "⚡",
-  "folder": "01 JavaScript Fundamentals",
-  "description": "Mixed quiz covering all topics in 01 JavaScript Fundamentals.",
+  "folder": "01-javascript-fundamentals",
+  "description": "Mixed quiz covering all topics in Javascript fundamentals.",
   "questionCount": 30,
-  "generatedAt": "2026-08-12T09:21:01.684Z",
+  "generatedAt": "2026-08-13T08:08:27.866Z",
   "questions": [
     {
       "id": "js-engine-q1",
@@ -279,7 +279,7 @@
         "states"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q2",
@@ -311,7 +311,7 @@
         "chaining"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q3",
@@ -343,7 +343,7 @@
         "reject"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q4",
@@ -374,7 +374,7 @@
         "race"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q5",
@@ -405,7 +405,7 @@
         "allsettled"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q6",
@@ -436,7 +436,7 @@
         "executor"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q7",
@@ -468,7 +468,7 @@
         "then"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "promise-q8",
@@ -500,7 +500,7 @@
         "event-loop"
       ],
       "_srcTopic": "Promises Quiz",
-      "_srcPath": "02 Advanced JavaScript/001 - Promises.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
     },
     {
       "id": "async-q1",
@@ -531,7 +531,7 @@
         "async"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q2",
@@ -563,7 +563,7 @@
         "error"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q3",
@@ -595,7 +595,7 @@
         "promise-all"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q4",
@@ -626,7 +626,7 @@
         "syntax"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q5",
@@ -658,7 +658,7 @@
         "sugar"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q6",
@@ -690,7 +690,7 @@
         "non-blocking"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q7",
@@ -721,7 +721,7 @@
         "async"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "async-q8",
@@ -752,7 +752,7 @@
         "error-handling"
       ],
       "_srcTopic": "async/await Quiz",
-      "_srcPath": "02 Advanced JavaScript/005 - async await.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
     },
     {
       "id": "eventloop-q1",
@@ -784,7 +784,7 @@
         "macrotask"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     },
     {
       "id": "eventloop-q2",
@@ -816,7 +816,7 @@
         "settimeout"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     },
     {
       "id": "eventloop-q3",
@@ -847,7 +847,7 @@
         "ordering"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     },
     {
       "id": "eventloop-q4",
@@ -878,7 +878,7 @@
         "runtime"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     },
     {
       "id": "eventloop-q5",
@@ -909,7 +909,7 @@
         "starvation"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     },
     {
       "id": "eventloop-q6",
@@ -940,7 +940,7 @@
         "node"
       ],
       "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "02 Advanced JavaScript/006 - Event Loop.md.quiz.json"
+      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
     }
   ]
 }

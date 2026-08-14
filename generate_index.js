@@ -11,72 +11,76 @@ const TRACKS = [
     title: 'JavaScript & Web Core',
     icon: '⚡',
     badge: 'Core Foundations',
-    description: 'JS Fundamentals, Execution Context, ES6+, TypeScript, Browser Internals, HTML & CSS',
-    folders: [
-      '01 JavaScript Fundamentals',
-      '02 Advanced JavaScript',
-      '03 ES6+',
-      '04 TypeScript',
-      '05 Browser Internals',
-      '06 HTML',
-      '07 CSS'
-    ]
+    description: 'JS Fundamentals, Execution Context, ES6+, TypeScript & Browser Internals',
+    domainFolder: '01-javascript'
+  },
+  {
+    id: 'html-css',
+    title: 'HTML & CSS Mastery',
+    icon: '🎨',
+    badge: 'UI & Layouts',
+    description: 'HTML5 Semantics, Accessibility (a11y), Modern CSS Flexbox, Grid & Animations',
+    domainFolder: '02-html-css'
   },
   {
     id: 'angular',
-    title: 'Angular & Senior Frontend',
+    title: 'Angular & RxJS Mastery',
     icon: '🅰️',
     badge: 'Framework & Architecture',
-    description: 'RxJS, Angular Core & Advanced, Performance Optimization, Machine Coding & System Design',
-    folders: [
-      '08 RxJS',
-      '09 Angular Core',
-      '10 Angular Advanced',
-      '11 Angular Performance',
-      '12 Machine Coding',
-      '13 Frontend System Design',
-      '14 Testing',
-      '15 Interview Questions'
-    ]
+    description: 'RxJS Streams, Angular Core & Advanced, Performance & Dedicated Interview Q&A',
+    domainFolder: '03-angular'
+  },
+  {
+    id: 'react',
+    title: 'React & Ecosystem',
+    icon: '⚛️',
+    badge: 'Library & Patterns',
+    description: 'React Fundamentals, Fiber, Custom Hooks, State Management & Interview Q&A',
+    domainFolder: '04-react'
+  },
+  {
+    id: 'interviews',
+    title: 'Frontend Machine Coding & System Design',
+    icon: '💻',
+    badge: 'Senior Interviews',
+    description: 'Machine Coding Challenges, Frontend System Design, Testing & General QA',
+    domainFolder: '05-frontend-interviews'
   },
   {
     id: 'data-analytics',
     title: 'Data Analytics Mastery',
     icon: '📊',
     badge: '0 to Hero Analytics',
-    description: 'Analytics Foundations, Excel Cleaning & Formulas, SQL Databases, Python & Power BI Dashboards',
-    folders: [
-      '16 Data Analytics Foundations',
-      '17 Excel & Google Sheets for Analytics',
-      '18 SQL Database Mastery',
-      '19 Python for Data Analytics',
-      '20 Data Visualization & Dashboards'
-    ]
+    description: 'Analytics Foundations, Excel Cleaning & Formulas, SQL Databases, Python & Dashboards',
+    domainFolder: '06-data-analytics'
   }
 ];
 
 // Category icons mapping
 const CATEGORY_ICONS = {
-  '01 JavaScript Fundamentals': '⚡',
-  '02 Advanced JavaScript': '🚀',
-  '03 ES6+': '✨',
-  '04 TypeScript': '📘',
-  '05 Browser Internals': '🌐',
-  '06 HTML': '🏷️',
-  '07 CSS': '🎨',
-  '08 RxJS': '🔄',
-  '09 Angular Core': '🅰️',
-  '10 Angular Advanced': '🅰️',
-  '11 Angular Performance': '⚡',
-  '12 Machine Coding': '💻',
-  '13 Frontend System Design': '🏗️',
-  '14 Testing': '🧪',
-  '15 Interview Questions': '❓',
-  '16 Data Analytics Foundations': '📊',
-  '17 Excel & Google Sheets for Analytics': '📈',
-  '18 SQL Database Mastery': '🛢️',
-  '19 Python for Data Analytics': '🐍',
-  '20 Data Visualization & Dashboards': '🎨'
+  'javascript-fundamentals': '⚡',
+  'advanced-javascript': '🚀',
+  'es6-plus': '✨',
+  'typescript': '📘',
+  'browser-internals': '🌐',
+  'html-semantics': '🏷️',
+  'css-mastery': '🎨',
+  'rxjs': '🔄',
+  'angular-core': '🅰️',
+  'angular-advanced': '🅰️',
+  'angular-performance': '⚡',
+  'angular-interviews-qa': '❓',
+  'react-fundamentals': '⚛️',
+  'react-interviews': '⚛️',
+  'machine-coding': '💻',
+  'frontend-system-design': '🏗️',
+  'testing': '🧪',
+  'general-interview-questions': '❓',
+  'data-analytics-foundations': '📊',
+  'excel-and-sheets': '📈',
+  'sql-database-mastery': '🛢️',
+  'python-for-data-analytics': '🐍',
+  'data-visualization-and-dashboards': '🎨'
 };
 
 function getCategoryIcon(folderName) {
@@ -88,17 +92,13 @@ function getCategoryIcon(folderName) {
   return '📚';
 }
 
-function getTrackIdForFolder(folderName) {
-  for (const track of TRACKS) {
-    if (track.folders.some(f => folderName.toLowerCase().includes(f.toLowerCase()) || f.toLowerCase().includes(folderName.toLowerCase()))) {
-      return track.id;
-    }
-  }
-  return 'javascript';
-}
-
 function cleanTitle(filename) {
   return filename.replace(/\.md$/i, '');
+}
+
+function formatCategoryTitle(folderName) {
+  const cleaned = folderName.replace(/^\d+-/, '').replace(/-/g, ' ');
+  return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
 }
 
 function estimateReadingTime(text) {
@@ -108,26 +108,16 @@ function estimateReadingTime(text) {
 }
 
 function buildIndex() {
-  const items = fs.readdirSync(ROOT_DIR, { withFileTypes: true });
-  
-  // Filter for directories that start with numbers (or valid content folders)
-  const categoryDirs = items
-    .filter(item => item.isDirectory() && !item.name.startsWith('.') && item.name !== 'node_modules' && item.name !== 'css' && item.name !== 'js')
-    .map(item => item.name)
-    .sort((a, b) => {
-      const numA = parseInt(a.match(/^\d+/)?.[0] || '999', 10);
-      const numB = parseInt(b.match(/^\d+/)?.[0] || '999', 10);
-      if (numA !== numB) return numA - numB;
-      return a.localeCompare(b);
-    });
-
   const categories = [];
   let totalTopics = 0;
 
-  for (const dirName of categoryDirs) {
-    const dirPath = path.join(ROOT_DIR, dirName);
-    const files = fs.readdirSync(dirPath)
-      .filter(f => f.endsWith('.md'))
+  TRACKS.forEach(track => {
+    const domainPath = path.join(ROOT_DIR, track.domainFolder);
+    if (!fs.existsSync(domainPath)) return;
+
+    const moduleDirs = fs.readdirSync(domainPath, { withFileTypes: true })
+      .filter(item => item.isDirectory() && !item.name.startsWith('.'))
+      .map(item => item.name)
       .sort((a, b) => {
         const numA = parseInt(a.match(/^\d+/)?.[0] || '999', 10);
         const numB = parseInt(b.match(/^\d+/)?.[0] || '999', 10);
@@ -135,47 +125,59 @@ function buildIndex() {
         return a.localeCompare(b);
       });
 
-    if (files.length === 0) continue;
+    for (const moduleDir of moduleDirs) {
+      const modulePath = path.join(domainPath, moduleDir);
+      const files = fs.readdirSync(modulePath)
+        .filter(f => f.endsWith('.md'))
+        .sort((a, b) => {
+          const numA = parseInt(a.match(/^\d+/)?.[0] || '999', 10);
+          const numB = parseInt(b.match(/^\d+/)?.[0] || '999', 10);
+          if (numA !== numB) return numA - numB;
+          return a.localeCompare(b);
+        });
 
-    const trackId = getTrackIdForFolder(dirName);
+      if (files.length === 0) continue;
 
-    const topics = files.map(file => {
-      totalTopics++;
-      const filePath = path.join(dirPath, file);
-      const relativePath = `${dirName}/${file}`;
-      let content = '';
-      let title = cleanTitle(file);
-      let readingTime = '3 min read';
+      const topics = files.map(file => {
+        totalTopics++;
+        const filePath = path.join(modulePath, file);
+        const relativePath = `${track.domainFolder}/${moduleDir}/${file}`;
+        let content = '';
+        let title = cleanTitle(file);
+        let readingTime = '3 min read';
 
-      try {
-        content = fs.readFileSync(filePath, 'utf-8');
-        readingTime = estimateReadingTime(content);
-      } catch (e) {
-        console.error(`Error reading ${filePath}:`, e);
-      }
+        try {
+          content = fs.readFileSync(filePath, 'utf-8');
+          readingTime = estimateReadingTime(content);
+        } catch (e) {
+          console.error(`Error reading ${filePath}:`, e);
+        }
 
-      return {
-        id: relativePath.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase(),
-        title: title,
-        filename: file,
-        path: relativePath,
-        trackId: trackId,
-        readingTime: readingTime
-      };
-    });
+        return {
+          id: relativePath.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase(),
+          title: title,
+          filename: file,
+          path: relativePath,
+          trackId: track.id,
+          readingTime: readingTime
+        };
+      });
 
-    categories.push({
-      id: dirName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase(),
-      folderName: dirName,
-      title: dirName,
-      trackId: trackId,
-      icon: getCategoryIcon(dirName),
-      count: topics.length,
-      topics: topics
-    });
-  }
+      categories.push({
+        id: `${track.domainFolder}-${moduleDir}`.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase(),
+        folderName: moduleDir,
+        domainFolder: track.domainFolder,
+        title: formatCategoryTitle(moduleDir),
+        trackId: track.id,
+        icon: getCategoryIcon(moduleDir),
+        count: topics.length,
+        topics: topics
+      });
+    }
+  });
 
-  // Also check root for special markdown files like IDEA.md
+  // Check root for special markdown files like IDEA.md
+  const items = fs.readdirSync(ROOT_DIR, { withFileTypes: true });
   const rootFiles = items
     .filter(item => item.isFile() && item.name.endsWith('.md'))
     .map(item => item.name);

@@ -1,13 +1,13 @@
 {
   "schemaVersion": "1.0",
   "type": "module",
-  "moduleId": "10-angular-advanced",
-  "title": "10 Angular Advanced — Module Quiz",
-  "icon": "🅰️",
-  "folder": "10 Angular Advanced",
-  "description": "Mixed quiz covering all topics in 10 Angular Advanced.",
-  "questionCount": 28,
-  "generatedAt": "2026-08-12T09:21:01.717Z",
+  "moduleId": "03-angular-04-angular-performance",
+  "title": "Angular performance — Module Quiz",
+  "icon": "⚡",
+  "folder": "04-angular-performance",
+  "description": "Mixed quiz covering all topics in Angular performance.",
+  "questionCount": 26,
+  "generatedAt": "2026-08-13T08:08:27.885Z",
   "questions": [
     {
       "id": "rxjs-promise-q1",
@@ -39,7 +39,7 @@
         "lazy"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q2",
@@ -71,7 +71,7 @@
         "subscribe"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q3",
@@ -103,7 +103,7 @@
         "cancel"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q4",
@@ -135,7 +135,7 @@
         "of"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q5",
@@ -167,7 +167,7 @@
         "promise-all"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "rxjs-promise-q6",
@@ -199,7 +199,7 @@
         "angular"
       ],
       "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "08 RxJS/022 - Rxjs vs Promise.md.quiz.json"
+      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
     },
     {
       "id": "ng-comp-q1",
@@ -231,7 +231,7 @@
         "decorator"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q2",
@@ -262,7 +262,7 @@
         "selector"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q3",
@@ -293,7 +293,7 @@
         "change-detection"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q4",
@@ -325,7 +325,7 @@
         "ngoninit"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q5",
@@ -357,7 +357,7 @@
         "communication"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-comp-q6",
@@ -389,7 +389,7 @@
         "module"
       ],
       "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "09 Angular Core/002 - Components.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
     },
     {
       "id": "ng-di-q1",
@@ -421,7 +421,7 @@
         "service"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q2",
@@ -453,7 +453,7 @@
         "injector"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q3",
@@ -485,7 +485,7 @@
         "scope"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q4",
@@ -517,7 +517,7 @@
         "root"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q5",
@@ -549,7 +549,7 @@
         "modern"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-di-q6",
@@ -581,7 +581,7 @@
         "metadata"
       ],
       "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "09 Angular Core/007 - Dependency Injection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
     },
     {
       "id": "ng-cd-q1",
@@ -613,7 +613,7 @@
         "trigger"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q2",
@@ -645,7 +645,7 @@
         "triggers"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q3",
@@ -676,7 +676,7 @@
         "detectChanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q4",
@@ -708,7 +708,7 @@
         "detectchanges"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q5",
@@ -740,7 +740,7 @@
         "onpush"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
       "id": "ng-cd-q6",
@@ -772,11 +772,11 @@
         "performance"
       ],
       "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "09 Angular Core/012 - Change Detection.md.quiz.json"
+      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
     },
     {
-      "id": "a49e679e",
-      "question": "Which statement best describes the purpose of \"10 Angular Advanced\"?",
+      "id": "de13fe51",
+      "question": "Which statement best describes the purpose of \"Angular performance\"?",
       "options": [
         {
           "id": "a",
@@ -796,79 +796,31 @@
         }
       ],
       "correctOptionId": "a",
-      "explanation": "\"10 Angular Advanced\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+      "explanation": "\"Angular performance\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
     },
     {
-      "id": "5b06702b",
-      "question": "When working inside \"10 Angular Advanced\", the most effective way to retain the material is to:",
+      "id": "d16bdd3f",
+      "question": "When working inside \"04-angular-performance\", the most effective way to retain the material is to:",
       "options": [
         {
           "id": "a",
-          "text": "Build small examples, quiz yourself, and revisit weak spots."
+          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
         },
         {
           "id": "b",
-          "text": "Read once and never practice."
+          "text": "Memorize syntax without running code."
         },
         {
           "id": "c",
-          "text": "Memorise API signatures only."
+          "text": "Skip the theoretical foundation."
         },
         {
           "id": "d",
-          "text": "Avoid running the code."
+          "text": "Rely solely on third-party libraries."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Active recall (quizzes) + spaced repetition beats passive reading."
-    },
-    {
-      "id": "011139e0",
-      "question": "A senior engineer reviewing \"10 Angular Advanced\" would most expect you to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Explain the \"why\", trade-offs, and a real-world use case."
-        },
-        {
-          "id": "b",
-          "text": "Recite the definition word-for-word."
-        },
-        {
-          "id": "c",
-          "text": "Claim it is never needed."
-        },
-        {
-          "id": "d",
-          "text": "Copy code without understanding it."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Interviews reward understanding of trade-offs and applicability, not rote definitions."
-    },
-    {
-      "id": "79325cac",
-      "question": "Angular signals are mainly used to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Track reactive state and trigger fine-grained UI updates."
-        },
-        {
-          "id": "b",
-          "text": "Replace the HTTP client."
-        },
-        {
-          "id": "c",
-          "text": "Store secrets."
-        },
-        {
-          "id": "d",
-          "text": "Compile templates."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Signals provide a reactive primitive with automatic dependency tracking."
+      "explanation": "Active recall combined with hands-on practice leads to mastery."
     }
   ]
 }

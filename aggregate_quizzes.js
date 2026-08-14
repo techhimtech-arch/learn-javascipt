@@ -1,14 +1,9 @@
 /**
  * aggregate_quizzes.js
  *
- * Scans every numbered topic folder for `*.quiz.json` files, then:
+ * Scans domain topic folders for `*.quiz.json` files, then:
  *   1) writes quizzes/quiz-index.json  (topicId -> relative quiz file path) for the SPA
  *   2) writes quizzes/banks/<bankId>.json  (3 banks: interview / angular / concepts)
- *
- * Banks are assigned by the topic's folder:
- *   - "15 Interview Questions"        -> interview
- *   - folders 08..14 (RxJS..Testing)  -> angular
- *   - everything else                 -> concepts
  *
  * Run manually:  node aggregate_quizzes.js
  * CI: called from .github/workflows/deploy.yml before deploy.
@@ -21,11 +16,20 @@ const ROOT = __dirname;
 const QUIZ_DIR = path.join(ROOT, 'quizzes');
 const BANKS_DIR = path.join(QUIZ_DIR, 'banks');
 
+const DOMAIN_FOLDERS = [
+  '01-javascript',
+  '02-html-css',
+  '03-angular',
+  '04-react',
+  '05-frontend-interviews',
+  '06-data-analytics'
+];
+
 const BANK_META = {
   interview: {
     title: 'Interview Practice Bank',
     icon: '❓',
-    description: 'Mixed real-world interview questions across JS, Angular, RxJS, TypeScript, CSS & HR — simulate the real thing.'
+    description: 'Mixed real-world interview questions across JS, Angular, React, System Design & HR — simulate the real thing.'
   },
   angular: {
     title: 'Angular Full Study Bank',
@@ -35,52 +39,50 @@ const BANK_META = {
   concepts: {
     title: 'Concepts & Revision Bank',
     icon: '🧠',
-    description: 'Core JS / TypeScript / HTML / CSS / Analytics concept recall for quick revision.'
+    description: 'Core JS / React / HTML / CSS / Analytics concept recall for quick revision.'
   }
 };
 
-function getBankForFolder(folderName) {
-  if (folderName.toLowerCase().includes('interview')) return 'interview';
-  const m = folderName.match(/^(\d+)/);
-  const n = m ? parseInt(m[1], 10) : 999;
-  if (n >= 8 && n <= 14) return 'angular';
+function getBankForFolder(domainFolder, moduleFolder) {
+  const combined = `${domainFolder}/${moduleFolder}`.toLowerCase();
+  if (combined.includes('interview')) return 'interview';
+  if (combined.includes('angular')) return 'angular';
   return 'concepts';
 }
 
-// Mirror the topicId algorithm used in generate_index.js / topics.json.
-// relPath looks like "01 JavaScript Fundamentals/001 - X.md.quiz.json";
-// strip the ".quiz.json" suffix to recover the original .md path, then slugify.
 function topicIdFromQuizRelPath(relPath) {
   const mdPath = relPath.replace(/\.quiz\.json$/i, '');
   return mdPath.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
 }
 
-function main() {
-  const items = fs.readdirSync(ROOT, { withFileTypes: true });
-  const dirs = items
-    .filter(function (i) { return i.isDirectory() && /^\d/.test(i.name); })
-    .sort(function (a, b) {
-      const na = parseInt(a.name.match(/^(\d+)/)?.[0] || '999', 10);
-      const nb = parseInt(b.name.match(/^(\d+)/)?.[0] || '999', 10);
-      return na - nb;
-    });
+function scanQuizFiles(dirPath, relPrefix) {
+  let results = [];
+  if (!fs.existsSync(dirPath)) return results;
 
+  const items = fs.readdirSync(dirPath, { withFileTypes: true });
+  for (const item of items) {
+    const fullPath = path.join(dirPath, item.name);
+    const relPath = relPrefix ? `${relPrefix}/${item.name}` : item.name;
+    if (item.isDirectory()) {
+      results = results.concat(scanQuizFiles(fullPath, relPath));
+    } else if (item.isFile() && item.name.toLowerCase().endsWith('.quiz.json')) {
+      results.push({ absPath: fullPath, relPath: relPath });
+    }
+  }
+  return results;
+}
+
+function main() {
   const banks = { interview: [], angular: [], concepts: [] };
   const quizIndex = {};
   let total = 0;
   const errors = [];
 
-  dirs.forEach(function (d) {
-    const dirPath = path.join(ROOT, d.name);
-    let files;
-    try {
-      files = fs.readdirSync(dirPath).filter(function (f) { return f.toLowerCase().endsWith('.quiz.json'); });
-    } catch (e) {
-      return;
-    }
-    files.forEach(function (f) {
-      const relPath = d.name + '/' + f;
-      const absPath = path.join(dirPath, f);
+  DOMAIN_FOLDERS.forEach(domainFolder => {
+    const domainPath = path.join(ROOT, domainFolder);
+    const quizFiles = scanQuizFiles(domainPath, domainFolder);
+
+    quizFiles.forEach(({ absPath, relPath }) => {
       let data;
       try {
         data = JSON.parse(fs.readFileSync(absPath, 'utf-8'));
@@ -91,8 +93,9 @@ function main() {
       const topicId = topicIdFromQuizRelPath(relPath);
       quizIndex[topicId] = relPath;
 
-      const bank = getBankForFolder(d.name);
-      const srcTitle = data.title || d.name;
+      const pathParts = relPath.split('/');
+      const bank = getBankForFolder(pathParts[0] || '', pathParts[1] || '');
+      const srcTitle = data.title || pathParts[pathParts.length - 1];
       const questions = (data.questions || []).map(function (q) {
         return Object.assign({}, q, { _srcTopic: srcTitle, _srcPath: relPath });
       });
@@ -106,9 +109,6 @@ function main() {
 
   Object.keys(BANK_META).forEach(function (bankId) {
     const questions = banks[bankId];
-    // Only regenerate a bank from per-topic quizzes when it actually has some.
-    // This preserves hand-curated banks (e.g. the mixed 'interview' practice
-    // bank) that have no per-topic source files in their folder.
     if (questions.length === 0) {
       if (fs.existsSync(path.join(BANKS_DIR, bankId + '.json'))) {
         console.log('  (skipped ' + bankId + ' bank — no per-topic source, kept existing file)');

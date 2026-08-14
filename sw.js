@@ -9,7 +9,7 @@
  *
  * Bump CACHE_VERSION to force-update cached files after a deploy.
  */
-const CACHE_VERSION = 'learnhub-v1';
+const CACHE_VERSION = 'learnhub-v2';
 const APP_SHELL = [
   './',
   './index.html',
