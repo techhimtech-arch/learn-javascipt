@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/017 - Flexbox Advanced.md",
+  "title": "Flexbox Advanced Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "flexadv-q1",
+      "topic": "Flexbox Advanced",
+      "question": "align-content controls:",
+      "options": [
+        { "id": "a", "text": "Distribution of FLEX LINES (rows) when there's extra cross-axis space and wrapping" },
+        { "id": "b", "text": "Alignment of a single item" },
+        { "id": "c", "text": "Main-axis distribution" },
+        { "id": "d", "text": "The z-index" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "align-content only matters with flex-wrap and multiple lines; it spaces the lines themselves along the cross axis.",
+      "difficulty": "hard",
+      "tags": ["align-content", "lines"]
+    },
+    {
+      "id": "flexadv-q2",
+      "topic": "Flexbox Advanced",
+      "question": "align-self overrides for a single item the container's:",
+      "options": [
+        { "id": "a", "text": "align-items (cross-axis alignment of that one item)" },
+        { "id": "b", "text": "justify-content" },
+        { "id": "c", "text": "flex-direction" },
+        { "id": "d", "text": "order" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "align-self lets one item opt out of the container's align-items, e.g. push one card to flex-end.",
+      "difficulty": "medium",
+      "tags": ["align-self", "override"]
+    },
+    {
+      "id": "flexadv-q3",
+      "topic": "Flexbox Advanced",
+      "question": "order: -1 on a flex item:",
+      "options": [
+        { "id": "a", "text": "Moves it earlier in the visual order (before items with default order 0)" },
+        { "id": "b", "text": "Hides it" },
+        { "id": "c", "text": "Doubles its size" },
+        { "id": "d", "text": "Removes it from flow" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "order changes visual placement without HTML reordering; negative values sort before 0. Use sparingly for a11y (source order stays).",
+      "difficulty": "medium",
+      "tags": ["order", "visual"]
+    },
+    {
+      "id": "flexadv-q4",
+      "topic": "Flexbox Advanced",
+      "question": "A flex item's automatic minimum size can cause overflow because:",
+      "options": [
+        { "id": "a", "text": "flex items have min-width:auto by default, refusing to shrink below content size" },
+        { "id": "b", "text": "flex-basis is always 0" },
+        { "id": "c", "text": "They ignore flex-shrink" },
+        { "id": "d", "text": "They are position:fixed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "min-width:auto means an item won't shrink below its content; set min-width:0 to allow shrinking (fixes common flex overflow bugs).",
+      "difficulty": "hard",
+      "tags": ["min-width-auto", "overflow"]
+    },
+    {
+      "id": "flexadv-q5",
+      "topic": "Flexbox Advanced",
+      "question": "flex: 0 1 auto (the initial value) means:",
+      "options": [
+        { "id": "a", "text": "Don't grow, allow shrink, basis = content/auto size" },
+        { "id": "b", "text": "Grow and shrink, basis 0" },
+        { "id": "c", "text": "Never shrink" },
+        { "id": "d", "text": "Always fill container" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Default flex: 0 1 auto → won't grow to fill, can shrink, starts at auto size. flex:1 (1 1 0%) is the equal-share variant.",
+      "difficulty": "medium",
+      "tags": ["flex-shorthand", "initial"]
+    },
+    {
+      "id": "flexadv-q6",
+      "topic": "Flexbox Advanced",
+      "question": "To create a sticky footer with flexbox you set the container:",
+      "options": [
+        { "id": "a", "text": "min-height:100vh; display:flex; flex-direction:column; and main { flex:1 }" },
+        { "id": "b", "text": "position:fixed on body" },
+        { "id": "c", "text": "display:grid" },
+        { "id": "d", "text": "overflow:hidden" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A column flex container at full viewport height, with the main region growing (flex:1), pushes the footer down.",
+      "difficulty": "hard",
+      "tags": ["sticky-footer", "layout"]
+    },
+    {
+      "id": "flexadv-q7",
+      "topic": "Flexbox Advanced",
+      "question": "flex-direction: column-reverse reverses:",
+      "options": [
+        { "id": "a", "text": "The main axis (items flow bottom-to-top); cross-axis alignment unaffected" },
+        { "id": "b", "text": "The cross axis" },
+        { "id": "c", "text": "Both axes" },
+        { "id": "d", "text": "Only z-index" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "*-reverse flips the main axis direction only; justify-content then applies reversed. align-items stays the same axis.",
+      "difficulty": "medium",
+      "tags": ["reverse", "main-axis"]
+    },
+    {
+      "id": "flexadv-q8",
+      "topic": "Flexbox Advanced",
+      "question": "A common pitfall: nesting many flex containers can:",
+      "options": [
+        { "id": "a", "text": "Complicate layout debugging and stretch performance if overused" },
+        { "id": "b", "text": "Break the cascade" },
+        { "id": "c", "text": "Disable media queries" },
+        { "id": "d", "text": "Prevent centering" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Deep flex nesting is hard to reason about; prefer Grid for 2D and reserve flex for 1D alignment. Use containment for perf.",
+      "difficulty": "medium",
+      "tags": ["nesting", "pitfall"]
+    }
+  ]
+}

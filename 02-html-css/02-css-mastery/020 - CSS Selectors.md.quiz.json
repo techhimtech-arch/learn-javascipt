@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/020 - CSS Selectors.md",
+  "title": "CSS Selectors (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "sel2-q1",
+      "topic": "CSS Selectors",
+      "question": "The general sibling combinator '~' selects:",
+      "options": [
+        { "id": "a", "text": "All following siblings (not just adjacent) matching the selector" },
+        { "id": "b", "text": "Only the immediate next sibling" },
+        { "id": "c", "text": "The parent" },
+        { "id": "d", "text": "All descendants" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "~ targets later siblings; + is adjacent-only. Both require the element to follow the reference in the same parent.",
+      "difficulty": "hard",
+      "tags": ["sibling", "general"]
+    },
+    {
+      "id": "sel2-q2",
+      "topic": "CSS Selectors",
+      "question": "input:not([disabled]) selects:",
+      "options": [
+        { "id": "a", "text": "All input elements WITHOUT the disabled attribute" },
+        { "id": "b", "text": "Only disabled inputs" },
+        { "id": "c", "text": "All inputs" },
+        { "id": "d", "text": "Only buttons" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":not() negates a selector; here it excludes disabled inputs — handy for styling active form fields.",
+      "difficulty": "medium",
+      "tags": ["not", "negation"]
+    },
+    {
+      "id": "sel2-q3",
+      "topic": "CSS Selectors",
+      "question": "A combinator list 'ul li' (space) means:",
+      "options": [
+        { "id": "a", "text": "Any li that is a DESCENDANT of a ul (any depth)" },
+        { "id": "b", "text": "Only direct-child li of ul" },
+        { "id": "c", "text": "ul that is a child of li" },
+        { "id": "d", "text": "li immediately after ul" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The descendant combinator (space) matches any nested level. Use '>' for direct children only.",
+      "difficulty": "easy",
+      "tags": ["descendant", "combinator"]
+    },
+    {
+      "id": "sel2-q4",
+      "topic": "CSS Selectors",
+      "question": "Which selector has the LOWEST specificity?",
+      "options": [
+        { "id": "a", "text": "* (universal, 0,0,0,0)" },
+        { "id": "b", "text": ".class" },
+        { "id": "c", "text": "#id" },
+        { "id": "d", "text": "div" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Universal * has zero specificity. IDs are highest among these; classes beat elements.",
+      "difficulty": "medium",
+      "tags": ["specificity", "universal"]
+    },
+    {
+      "id": "sel2-q5",
+      "topic": "CSS Selectors",
+      "question": "a[href^='https'] targets links whose href:",
+      "options": [
+        { "id": "a", "text": "Starts with 'https'" },
+        { "id": "b", "text": "Ends with 'https'" },
+        { "id": "c", "text": "Contains 'https' anywhere" },
+        { "id": "d", "text": "Equals exactly 'https'" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "^= starts-with, $= ends-with, *= contains. Useful to style external vs internal links.",
+      "difficulty": "hard",
+      "tags": ["attribute", "starts-with"]
+    },
+    {
+      "id": "sel2-q6",
+      "topic": "CSS Selectors",
+      "question": ":is() (formerly :any) is useful because it:",
+      "options": [
+        { "id": "a", "text": "Groups selectors and takes the SPECIFICITY OF ITS MOST SPECIFIC ARGUMENT" },
+        { "id": "b", "text": "Always has zero specificity" },
+        { "id": "c", "text": "Only works in JavaScript" },
+        { "id": "d", "text": "Disables matching" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":is(h1,h2,h3) simplifies grouping; its specificity equals the strongest inner selector (unlike :where which is 0).",
+      "difficulty": "hard",
+      "tags": ["is", "specificity"]
+    },
+    {
+      "id": "sel2-q7",
+      "topic": "CSS Selectors",
+      "question": ":where() differs from :is() in that it:",
+      "options": [
+        { "id": "a", "text": "Always has ZERO specificity (great for reset-like rules)" },
+        { "id": "b", "text": "Has the highest specificity" },
+        { "id": "c", "text": "Only matches classes" },
+        { "id": "d", "text": "Is unsupported" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":where() zero-specificity makes grouped selectors easy to override later — ideal for base/resets without raising specificity.",
+      "difficulty": "hard",
+      "tags": ["where", "zero-specificity"]
+    },
+    {
+      "id": "sel2-q8",
+      "topic": "CSS Selectors",
+      "question": "::before and ::after create:",
+      "options": [
+        { "id": "a", "text": "Generated content boxes as the first/last child of the selected element" },
+        { "id": "b", "text": "New HTML elements" },
+        { "id": "c", "text": "Sibling elements" },
+        { "id": "d", "text": "A media query" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pseudo-elements inject decorative content via content:''; require content (even empty) to render. Double-colon is modern syntax.",
+      "difficulty": "medium",
+      "tags": ["pseudo-element", "before-after"]
+    }
+  ]
+}

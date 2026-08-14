@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/001 - Flexbox.md",
+  "title": "Flexbox Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "flex-q1",
+      "topic": "Flexbox",
+      "question": "Flexbox is best for which kind of layout?",
+      "options": [
+        { "id": "a", "text": "One-dimensional (a single row OR column) alignment" },
+        { "id": "b", "text": "Two-dimensional grid layouts with rows AND columns" },
+        { "id": "c", "text": "Print stylesheets" },
+        { "id": "d", "text": "Animations" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Flexbox is one-dimensional (main axis only). For 2D row+column layouts, CSS Grid is the better tool.",
+      "difficulty": "easy",
+      "tags": ["flexbox", "1d"]
+    },
+    {
+      "id": "flex-q2",
+      "topic": "Flexbox",
+      "question": "justify-content controls alignment along the:",
+      "options": [
+        { "id": "a", "text": "Main axis (the direction set by flex-direction)" },
+        { "id": "b", "text": "Cross axis" },
+        { "id": "c", "text": "Both axes equally" },
+        { "id": "d", "text": "The z-index" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "justify-content = main-axis distribution (start/center/space-between...). align-items = cross-axis.",
+      "difficulty": "easy",
+      "tags": ["justify-content", "main-axis"]
+    },
+    {
+      "id": "flex-q3",
+      "topic": "Flexbox",
+      "question": "To vertically AND horizontally center a single child you use:",
+      "options": [
+        { "id": "a", "text": "display:flex; justify-content:center; align-items:center" },
+        { "id": "b", "text": "text-align:center only" },
+        { "id": "c", "text": "margin:auto 0" },
+        { "id": "d", "text": "float:center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Flex centering needs both axes: justify-content (main) + align-items (cross). This is the classic centering trick.",
+      "difficulty": "medium",
+      "tags": ["centering", "align-items"]
+    },
+    {
+      "id": "flex-q4",
+      "topic": "Flexbox",
+      "question": "flex: 1 is shorthand for:",
+      "options": [
+        { "id": "a", "text": "flex-grow:1; flex-shrink:1; flex-basis:0" },
+        { "id": "b", "text": "flex-grow:1; flex-shrink:0; flex-basis:auto" },
+        { "id": "c", "text": "flex-direction:row" },
+        { "id": "d", "text": "align-items:center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "flex:1 = grow 1, shrink 1, basis 0% — items share free space equally. A common equal-width pattern.",
+      "difficulty": "medium",
+      "tags": ["flex", "shorthand"]
+    },
+    {
+      "id": "flex-q5",
+      "topic": "Flexbox",
+      "question": "flex-basis defines:",
+      "options": [
+        { "id": "a", "text": "The initial main-size of an item before grow/shrink is applied" },
+        { "id": "b", "text": "The cross-axis size" },
+        { "id": "c", "text": "The z-index" },
+        { "id": "d", "text": "The gap between items" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "flex-basis sets the starting size along the main axis; grow/shrink then adjust it relative to free space.",
+      "difficulty": "hard",
+      "tags": ["flex-basis", "sizing"]
+    },
+    {
+      "id": "flex-q6",
+      "topic": "Flexbox",
+      "question": "To prevent a flex item from shrinking below its content you set:",
+      "options": [
+        { "id": "a", "text": "flex-shrink: 0" },
+        { "id": "b", "text": "flex-grow: 0" },
+        { "id": "c", "text": "align-self: center" },
+        { "id": "d", "text": "order: -1" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "flex-shrink:0 stops the item from shrinking. Useful for icons/buttons you want to keep at natural size.",
+      "difficulty": "medium",
+      "tags": ["flex-shrink", "prevent"]
+    },
+    {
+      "id": "flex-q7",
+      "topic": "Flexbox",
+      "question": "flex-wrap: wrap allows items to:",
+      "options": [
+        { "id": "a", "text": "Flow onto multiple lines when they don't fit" },
+        { "id": "b", "text": "Stack vertically only" },
+        { "id": "c", "text": "Disappear" },
+        { "id": "d", "text": "Become inline" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "wrap lets flex items break to new lines instead of overflowing; align-content then controls spacing of those lines.",
+      "difficulty": "easy",
+      "tags": ["flex-wrap", "wrapping"]
+    },
+    {
+      "id": "flex-q8",
+      "topic": "Flexbox",
+      "question": "A common mistake is:",
+      "options": [
+        { "id": "a", "text": "Using flexbox for full 2D page grids instead of CSS Grid" },
+        { "id": "b", "text": "Setting display:flex on the container" },
+        { "id": "c", "text": "Using gap for spacing" },
+        { "id": "d", "text": "Defining flex-direction" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Flexbox is 1D; forcing it into complex 2D layouts gets awkward. Reach for Grid for 2D, flex for 1D alignment.",
+      "difficulty": "medium",
+      "tags": ["mistakes", "grid-vs-flex"]
+    }
+  ]
+}

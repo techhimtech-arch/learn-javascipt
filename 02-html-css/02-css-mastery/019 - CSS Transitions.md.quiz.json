@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/019 - CSS Transitions.md",
+  "title": "CSS Transitions (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "trans2-q1",
+      "topic": "CSS Transitions",
+      "question": "Transitioning a property requires the property to be:",
+      "options": [
+        { "id": "a", "text": "Animatable (has computable intermediate values)" },
+        { "id": "b", "text": "Always display" },
+        { "id": "c", "text": "Set to !important" },
+        { "id": "d", "text": "A string" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Only animatable properties interpolate. display, position, and visibility aren't (use opacity/transform instead).",
+      "difficulty": "medium",
+      "tags": ["animatable", "property"]
+    },
+    {
+      "id": "trans2-q2",
+      "topic": "CSS Transitions",
+      "question": "transition-property: transform, opacity means:",
+      "options": [
+        { "id": "a", "text": "Only those two properties will animate on change" },
+        { "id": "b", "text": "All properties animate" },
+        { "id": "c", "text": "Only color animates" },
+        { "id": "d", "text": "No property animates" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "List the specific properties to transition; others change instantly. 'all' targets everything (can cause unintended transitions).",
+      "difficulty": "easy",
+      "tags": ["transition-property", "specific"]
+    },
+    {
+      "id": "trans2-q3",
+      "topic": "CSS Transitions",
+      "question": "If you change a property WITHOUT a transition declared, it:",
+      "options": [
+        { "id": "a", "text": "Updates instantly (no animation)" },
+        { "id": "b", "text": "Animates anyway" },
+        { "id": "c", "text": "Throws an error" },
+        { "id": "d", "text": "Reverts" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions only interpolate when a transition is set for that property and a duration > 0; otherwise the change is immediate.",
+      "difficulty": "easy",
+      "tags": ["instant", "no-transition"]
+    },
+    {
+      "id": "trans2-q4",
+      "topic": "CSS Transitions",
+      "question": "A transition defined ONLY on :hover will:",
+      "options": [
+        { "id": "a", "text": "Animate IN on hover, but snap back instantly when unhovered" },
+        { "id": "b", "text": "Animate both directions" },
+        { "id": "c", "text": "Never animate" },
+        { "id": "d", "text": "Only animate on page load" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The transition must exist on the base state to also animate the return; otherwise only the hover-in tween occurs.",
+      "difficulty": "medium",
+      "tags": ["hover", "reverse"]
+    },
+    {
+      "id": "trans2-q5",
+      "topic": "CSS Transitions",
+      "question": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) is a:",
+      "options": [
+        { "id": "a", "text": "Custom easing curve defined by 4 control values" },
+        { "id": "b", "text": "Color value" },
+        { "id": "c", "text": "Fixed 2-second delay" },
+        { "id": "d", "text": "Browser default only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "cubic-bezier lets you craft precise easing (this one is the common 'standard' material curve).",
+      "difficulty": "hard",
+      "tags": ["cubic-bezier", "easing"]
+    },
+    {
+      "id": "trans2-q6",
+      "topic": "CSS Transitions",
+      "question": "Multiple transitions with different durations use:",
+      "options": [
+        { "id": "a", "text": "Comma-separated values matching each property" },
+        { "id": "b", "text": "A single duration for all" },
+        { "id": "c", "text": "Only one transition allowed" },
+        { "id": "d", "text": "Nested @keyframes" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transition: color .3s, transform .6s applies per-property timing via comma lists aligned to transition-property.",
+      "difficulty": "medium",
+      "tags": ["multiple", "comma"]
+    },
+    {
+      "id": "trans2-q7",
+      "topic": "CSS Transitions",
+      "question": "Transitions are commonly triggered by:",
+      "options": [
+        { "id": "a", "text": "State changes like :hover, :focus, class toggles, or attribute changes" },
+        { "id": "b", "text": "Page load only" },
+        { "id": "c", "text": "CSS animations" },
+        { "id": "d", "text": "Media queries" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Any change to a transitioned property value triggers the tween — typically via pseudo-classes or JS-toggled classes.",
+      "difficulty": "easy",
+      "tags": ["trigger", "state"]
+    },
+    {
+      "id": "trans2-q8",
+      "topic": "CSS Transitions",
+      "question": "For a reveal effect you should animate:",
+      "options": [
+        { "id": "a", "text": "opacity and transform (not display/visibility) for smoothness" },
+        { "id": "b", "text": "display: none → block" },
+        { "id": "c", "text": "visibility only" },
+        { "id": "d", "text": "position: fixed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "display can't tween; fade with opacity and slide with transform, toggling visibility/opacity for accessibility.",
+      "difficulty": "medium",
+      "tags": ["reveal", "opacity"]
+    }
+  ]
+}

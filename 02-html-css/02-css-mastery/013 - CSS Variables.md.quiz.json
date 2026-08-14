@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/013 - CSS Variables.md",
+  "title": "CSS Variables Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "vars-q1",
+      "topic": "CSS Variables",
+      "question": "CSS custom properties (variables) are declared as:",
+      "options": [
+        { "id": "a", "text": "--main-color: #6366f1;" },
+        { "id": "b", "text": "$main-color: #6366f1;" },
+        { "id": "c", "text": "var(main-color);" },
+        { "id": "d", "text": "const main-color;" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Custom properties use the --name syntax. $ is Sass; var() is how you READ a variable, not declare it.",
+      "difficulty": "easy",
+      "tags": ["custom-properties", "declaration"]
+    },
+    {
+      "id": "vars-q2",
+      "topic": "CSS Variables",
+      "question": "You consume a variable with:",
+      "options": [
+        { "id": "a", "text": "color: var(--main-color);" },
+        { "id": "b", "text": "color: --main-color;" },
+        { "id": "c", "text": "color: @main-color;" },
+        { "id": "d", "text": "color: get(--main-color);" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "var(--name) reads the custom property. You can supply a fallback: var(--x, #000).",
+      "difficulty": "easy",
+      "tags": ["var", "usage"]
+    },
+    {
+      "id": "vars-q3",
+      "topic": "CSS Variables",
+      "question": "A key advantage of CSS variables over preprocessor vars is:",
+      "options": [
+        { "id": "a", "text": "They are runtime/live — can change via JS and respond to media queries/state" },
+        { "id": "b", "text": "They compile to PNG" },
+        { "id": "c", "text": "They cannot be changed" },
+        { "id": "d", "text": "They only work in Sass" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CSS vars are live in the browser: update via element.style or :root, animate, and react to themes — unlike static preprocessor constants.",
+      "difficulty": "medium",
+      "tags": ["runtime", "advantage"]
+    },
+    {
+      "id": "vars-q4",
+      "topic": "CSS Variables",
+      "question": "Defining --brand on :root makes it:",
+      "options": [
+        { "id": "a", "text": "Available globally to all elements (inherited)" },
+        { "id": "b", "text": "Only usable inside :root" },
+        { "id": "c", "text": "Block-scoped to that one rule" },
+        { "id": "d", "text": "Completely private" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":root is the document root; a variable declared there is inherited everywhere — the standard place for theme tokens.",
+      "difficulty": "easy",
+      "tags": ["root", "global"]
+    },
+    {
+      "id": "vars-q5",
+      "topic": "CSS Variables",
+      "question": "CSS variables CASCADE and are:",
+      "options": [
+        { "id": "a", "text": "Inherited — a child inherits the value from its parent unless overridden" },
+        { "id": "b", "text": "Not inherited at all" },
+        { "id": "c", "text": "Global constants only" },
+        { "id": "d", "text": "Scoped to a single property" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Custom properties inherit like color/font-family. This enables theming: set --brand on a container, all descendants use it.",
+      "difficulty": "medium",
+      "tags": ["inheritance", "cascade"]
+    },
+    {
+      "id": "vars-q6",
+      "topic": "CSS Variables",
+      "question": "You can update a CSS variable from JavaScript via:",
+      "options": [
+        { "id": "a", "text": "element.style.setProperty('--brand', '#f00')" },
+        { "id": "b", "text": "var.set('--brand')" },
+        { "id": "c", "text": "document.css('--brand')" },
+        { "id": "d", "text": "CSS is read-only from JS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "setProperty('--name', value) updates a custom property live — great for themes, sliders, and dynamic styling.",
+      "difficulty": "hard",
+      "tags": ["javascript", "setProperty"]
+    },
+    {
+      "id": "vars-q7",
+      "topic": "CSS Variables",
+      "question": "A common use for CSS variables is:",
+      "options": [
+        { "id": "a", "text": "Centralized design tokens (colors, spacing, radii) and theming (light/dark)" },
+        { "id": "b", "text": "Storing JavaScript functions" },
+        { "id": "c", "text": "Compiling SCSS" },
+        { "id": "d", "text": "Defining keyframes" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tokens + theming are the canonical use: switch a few root vars to re-skin the whole app (incl. dark mode).",
+      "difficulty": "easy",
+      "tags": ["tokens", "theming"]
+    },
+    {
+      "id": "vars-q8",
+      "topic": "CSS Variables",
+      "question": "A fallback value is written as:",
+      "options": [
+        { "id": "a", "text": "var(--x, #333)  // uses #333 if --x is undefined" },
+        { "id": "b", "text": "var(--x || #333)" },
+        { "id": "c", "text": "var(--x ? #333)" },
+        { "id": "d", "text": "fallback(--x, #333)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The second argument to var() is the fallback used when the variable is not defined (or invalid).",
+      "difficulty": "medium",
+      "tags": ["fallback", "var"]
+    }
+  ]
+}

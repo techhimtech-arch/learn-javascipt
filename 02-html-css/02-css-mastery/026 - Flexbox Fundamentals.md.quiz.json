@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/026 - Flexbox Fundamentals.md",
+  "title": "Flexbox Fundamentals Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "flexfund-q1",
+      "topic": "Flexbox Fundamentals",
+      "question": "The two axes in flexbox are:",
+      "options": [
+        { "id": "a", "text": "Main axis (flex-direction) and Cross axis (perpendicular)" },
+        { "id": "b", "text": "X and Y always" },
+        { "id": "c", "text": "Z and X" },
+        { "id": "d", "text": "Inline and Block" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "flex-direction sets the main axis; the cross axis is perpendicular. justify-content acts on main, align-items on cross.",
+      "difficulty": "medium",
+      "tags": ["axes", "main-cross"]
+    },
+    {
+      "id": "flexfund-q2",
+      "topic": "Flexbox Fundamentals",
+      "question": "flex-direction: column makes the main axis:",
+      "options": [
+        { "id": "a", "text": "Vertical (top to bottom)" },
+        { "id": "b", "text": "Horizontal" },
+        { "id": "c", "text": "Diagonal" },
+        { "id": "d", "text": "None" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "row/row-reverse are horizontal; column/column-reverse are vertical main axes.",
+      "difficulty": "easy",
+      "tags": ["flex-direction", "column"]
+    },
+    {
+      "id": "flexfund-q3",
+      "topic": "Flexbox Fundamentals",
+      "question": "justify-content: space-between distributes items with:",
+      "options": [
+        { "id": "a", "text": "Equal space BETWEEN items, first at start, last at end" },
+        { "id": "b", "text": "Equal space AROUND each item (including edges)" },
+        { "id": "c", "text": "No spacing" },
+        { "id": "d", "text": "Random spacing" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "space-between pushes first/last to edges, equal gaps between. space-around adds half-gaps at edges; space-evenly equalizes all gaps.",
+      "difficulty": "medium",
+      "tags": ["space-between", "distribution"]
+    },
+    {
+      "id": "flexfund-q4",
+      "topic": "Flexbox Fundamentals",
+      "question": "align-items: stretch (default) makes items:",
+      "options": [
+        { "id": "a", "text": "Fill the cross-axis (e.g. equal-height columns) when no explicit cross size is set" },
+        { "id": "b", "text": "Shrink to content" },
+        { "id": "c", "text": "Align to start" },
+        { "id": "d", "text": "Align to end" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Default align-items:stretch stretches items across the cross axis — that's why flex columns are equal height by default.",
+      "difficulty": "easy",
+      "tags": ["stretch", "equal-height"]
+    },
+    {
+      "id": "flexfund-q5",
+      "topic": "Flexbox Fundamentals",
+      "question": "A flex container's direct children become:",
+      "options": [
+        { "id": "a", "text": "Flex items (blockified, participating in flex layout)" },
+        { "id": "b", "text": "Inline elements" },
+        { "id": "c", "text": "Grid items" },
+        { "id": "d", "text": " Absolutely positioned" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Children of display:flex are flex items; their display value is blockified (inline elements behave as blocks).",
+      "difficulty": "medium",
+      "tags": ["flex-items", "blockified"]
+    },
+    {
+      "id": "flexfund-q6",
+      "topic": "Flexbox Fundamentals",
+      "question": "flex-basis: auto means the item's base size is:",
+      "options": [
+        { "id": "a", "text": "Its width/height (or content size if not set)" },
+        { "id": "b", "text": "Always 0" },
+        { "id": "c", "text": "Always 100%" },
+        { "id": "d", "text": "The viewport width" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "flex-basis:auto uses the element's main-size (width for row) if set, else content size — the usual default before grow/shrink.",
+      "difficulty": "medium",
+      "tags": ["flex-basis", "auto"]
+    },
+    {
+      "id": "flexfund-q7",
+      "topic": "Flexbox Fundamentals",
+      "question": "flex-grow distributes:",
+      "options": [
+        { "id": "a", "text": "Remaining FREE space among items proportional to their grow factors" },
+        { "id": "b", "text": "Initial sizes only" },
+        { "id": "c", "text": "Negative space" },
+        { "id": "d", "text": "The cross axis" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "After bases are laid out, positive free space is shared per flex-grow. A grow of 2 gets twice a grow of 1.",
+      "difficulty": "hard",
+      "tags": ["flex-grow", "free-space"]
+    },
+    {
+      "id": "flexfund-q8",
+      "topic": "Flexbox Fundamentals",
+      "question": "To center a single item in a flex container you set on the CONTAINER:",
+      "options": [
+        { "id": "a", "text": "justify-content: center; align-items: center" },
+        { "id": "b", "text": "text-align: center" },
+        { "id": "c", "text": "margin: 0 auto on container" },
+        { "id": "d", "text": "float: center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Both axes need centering: justify-content (main) + align-items (cross). This is the canonical flex-centering recipe.",
+      "difficulty": "easy",
+      "tags": ["center", "recipe"]
+    }
+  ]
+}

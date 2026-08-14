@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/018 - Form Validation.md",
+  "title": "Form Validation Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "formval-q1",
+      "topic": "Form Validation",
+      "question": "HTML5 provides validation via attributes such as:",
+      "options": [
+        { "id": "a", "text": "required, min, max, minlength, maxlength, pattern, type" },
+        { "id": "b", "text": "validate, check, enforce" },
+        { "id": "c", "text": "only the required keyword" },
+        { "id": "d", "text": "auto, smart, strict" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Native constraints: required, min/max (numbers/dates), minlength/maxlength, pattern (regex), and type-based checks (email/url).",
+      "difficulty": "easy",
+      "tags": ["constraints", "attributes"]
+    },
+    {
+      "id": "formval-q2",
+      "topic": "Form Validation",
+      "question": "The :invalid CSS pseudo-class targets:",
+      "options": [
+        { "id": "a", "text": "Inputs whose current value fails a constraint" },
+        { "id": "b", "text": "Only submit buttons" },
+        { "id": "c", "text": "Valid inputs" },
+        { "id": "d", "text": "The whole form always" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":invalid styles fields that currently violate a constraint (e.g. empty required). Pair with :valid for feedback UI.",
+      "difficulty": "medium",
+      "tags": ["css", "invalid"]
+    },
+    {
+      "id": "formval-q3",
+      "topic": "Form Validation",
+      "question": "To show a custom validation message you use the Constraint Validation API:",
+      "options": [
+        { "id": "a", "text": "input.setCustomValidity('msg') and input.reportValidity()" },
+        { "id": "b", "text": "input.customError = true" },
+        { "id": "c", "text": "input.validate('msg')" },
+        { "id": "d", "text": "element.alert('msg')" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "setCustomValidity('') clears (valid); a non-empty string marks invalid and reportValidity() shows the bubble.",
+      "difficulty": "hard",
+      "tags": ["setcustomvalidity", "api"]
+    },
+    {
+      "id": "formval-q4",
+      "topic": "Form Validation",
+      "question": "The 'pattern' attribute uses:",
+      "options": [
+        { "id": "a", "text": "A JavaScript-style regular expression the value must match" },
+        { "id": "b", "text": "A CSS selector" },
+        { "id": "c", "text": "A SQL query" },
+        { "id": "d", "text": "A JSON schema" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "pattern holds a RegExp (anchored automatically); it's evaluated against the value during validation. Add title for guidance.",
+      "difficulty": "medium",
+      "tags": ["pattern", "regex"]
+    },
+    {
+      "id": "formval-q5",
+      "topic": "Form Validation",
+      "question": "novalidate on a <form> does what?",
+      "options": [
+        { "id": "a", "text": "Disables native browser validation for that form" },
+        { "id": "b", "text": "Makes all fields required" },
+        { "id": "c", "text": "Submits via GET" },
+        { "id": "d", "text": "Uploads a file" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "novalidate turns off built-in validation — useful when you handle validation entirely in JS.",
+      "difficulty": "easy",
+      "tags": ["novalidate", "disable"]
+    },
+    {
+      "id": "formval-q6",
+      "topic": "Form Validation",
+      "question": "An edge case with pattern: the regex is implicitly:",
+      "options": [
+        { "id": "a", "text": "Anchored (must match the whole value), so ^ and $ are not needed" },
+        { "id": "b", "text": "Case-insensitive by default" },
+        { "id": "c", "text": "Always global" },
+        { "id": "d", "text": "Treated as a substring match" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "HTML pattern validation anchors the regex to the full value; you don't add ^...$. A partial match fails.",
+      "difficulty": "hard",
+      "tags": ["pattern", "anchoring"]
+    },
+    {
+      "id": "formval-q7",
+      "topic": "Form Validation",
+      "question": "In Angular Reactive Forms, validators like Validators.email are set:",
+      "options": [
+        { "id": "a", "text": "In the FormControl/FormGroup definition (component), not the template" },
+        { "id": "b", "text": "Only inside the .md file" },
+        { "id": "c", "text": "As HTML comments" },
+        { "id": "d", "text": "In the CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Reactive Forms define Validators in TS (e.g. this.fb.group({email:[null, Validators.email]})), keeping logic in code.",
+      "difficulty": "medium",
+      "tags": ["angular", "reactive-forms"]
+    },
+    {
+      "id": "formval-q8",
+      "topic": "Form Validation",
+      "question": "Best practice: validate on BOTH client and server because:",
+      "options": [
+        { "id": "a", "text": "Client validation is for UX; server validation is the authoritative security check" },
+        { "id": "b", "text": "Browsers ignore client validation" },
+        { "id": "c", "text": "Server validation is slower so skip it" },
+        { "id": "d", "text": "Only one layer is ever needed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Client-side gives instant feedback; server-side is mandatory because client checks are bypassable.",
+      "difficulty": "easy",
+      "tags": ["security", "both-layers"]
+    }
+  ]
+}

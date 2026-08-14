@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/011 - SEO for SPA.md",
+  "title": "SEO for SPA Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "spaseo-q1",
+      "topic": "SPA SEO",
+      "question": "Why have traditional SPAs struggled with SEO?",
+      "options": [
+        { "id": "a", "text": "Because HTML is too large" },
+        { "id": "b", "text": "Because content is rendered client-side via JS, which crawlers may not execute in time" },
+        { "id": "c", "text": "Because CSS blocks indexing" },
+        { "id": "d", "text": "Because URLs can't have hashes" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Crawlers that don't fully execute JS (or time out) see an empty shell, so JS-rendered content may not be indexed.",
+      "difficulty": "easy",
+      "tags": ["spa", "crawling"]
+    },
+    {
+      "id": "spaseo-q2",
+      "topic": "SPA SEO",
+      "question": "SSR (Server-Side Rendering) helps SPA SEO by:",
+      "options": [
+        { "id": "a", "text": "Sending pre-rendered HTML so crawlers see content immediately" },
+        { "id": "b", "text": "Disabling JavaScript" },
+        { "id": "c", "text": "Minifying CSS" },
+        { "id": "d", "text": "Removing the <title> tag" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SSR (e.g. Angular Universal) returns full HTML from the server, making content visible to crawlers and improving first paint.",
+      "difficulty": "medium",
+      "tags": ["ssr", "universal"]
+    },
+    {
+      "id": "spaseo-q3",
+      "topic": "SPA SEO",
+      "question": "What is the tradeoff between SSG and SSR?",
+      "options": [
+        { "id": "a", "text": "SSG builds static HTML at build time (fast, great for fixed content); SSR renders per-request (fresh, dynamic)" },
+        { "id": "b", "text": "They are identical" },
+        { "id": "c", "text": "SSG requires a database per request" },
+        { "id": "d", "text": "SSR cannot use caching" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SSG pre-renders at build time (ideal for blogs/docs); SSR renders on each request (ideal for personalized/dynamic pages).",
+      "difficulty": "hard",
+      "tags": ["ssg", "ssr", "tradeoff"]
+    },
+    {
+      "id": "spaseo-q4",
+      "topic": "SPA SEO",
+      "question": "Why is structured data (schema.org JSON-LD) valuable for SEO?",
+      "options": [
+        { "id": "a", "text": "It changes page colors" },
+        { "id": "b", "text": "It lets search engines show rich results (ratings, breadcrumbs, FAQs)" },
+        { "id": "c", "text": "It hides content from crawlers" },
+        { "id": "d", "text": "It speeds up CSS" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "JSON-LD structured data helps Google produce rich snippets (Article, Product, FAQ), improving visibility/CTR.",
+      "difficulty": "medium",
+      "tags": ["structured-data", "json-ld"]
+    },
+    {
+      "id": "spaseo-q5",
+      "topic": "SPA SEO",
+      "question": "How do you set per-route <title> and meta tags in an Angular SPA?",
+      "options": [
+        { "id": "a", "text": "Using the Title and Meta services, often with a route resolver/guard" },
+        { "id": "b", "text": "Editing only index.html" },
+        { "id": "c", "text": "Using CSS content" },
+        { "id": "d", "text": "They cannot be changed per route" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Angular's Title/Meta services update document head dynamically per route; with SSR this is also sent server-side.",
+      "difficulty": "medium",
+      "tags": ["angular", "title", "meta"]
+    },
+    {
+      "id": "spaseo-q6",
+      "topic": "SPA SEO",
+      "question": "A canonical URL (rel=\"canonical\") is used to:",
+      "options": [
+        { "id": "a", "text": "Tell search engines which version of a URL is the authoritative one (avoid duplicate content)" },
+        { "id": "b", "text": "Block a page from indexing" },
+        { "id": "c", "text": "Set the favicon" },
+        { "id": "d", "text": "Enable dark mode" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Canonical tags consolidate duplicate/similar URLs so ranking signals point to one preferred page.",
+      "difficulty": "medium",
+      "tags": ["canonical", "duplicate-content"]
+    },
+    {
+      "id": "spaseo-q7",
+      "topic": "SPA SEO",
+      "question": "Social media preview cards (Open Graph) require:",
+      "options": [
+        { "id": "a", "text": "Only the <title> tag" },
+        { "id": "b", "text": "OG meta tags in the served HTML head (needs SSR/prerender for SPAs)" },
+        { "id": "c", "text": "A robots.txt entry" },
+        { "id": "d", "text": "A CSS animation" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "og:title/og:image etc. must be present in the HTML the social scraper fetches — so SPAs need SSR/prerender for correct previews.",
+      "difficulty": "hard",
+      "tags": ["open-graph", "social"]
+    },
+    {
+      "id": "spaseo-q8",
+      "topic": "SPA SEO",
+      "question": "Core Web Vitals influence SEO because they measure:",
+      "options": [
+        { "id": "a", "text": "User experience (loading, interactivity, visual stability)" },
+        { "id": "b", "text": "Number of images" },
+        { "id": "c", "text": "CSS file size only" },
+        { "id": "d", "text": "JavaScript version" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "LCP, INP, CLS measure real UX; Google uses them as ranking signals. Use Lighthouse to monitor.",
+      "difficulty": "medium",
+      "tags": ["core-web-vitals", "performance"]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/009 - Shadow DOM.md",
+  "title": "Shadow DOM Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "shadow-q1",
+      "topic": "Shadow DOM",
+      "question": "What is the PRIMARY purpose of Shadow DOM?",
+      "options": [
+        { "id": "a", "text": "To speed up network requests" },
+        { "id": "b", "text": "To provide style and markup encapsulation (scoping) for a component" },
+        { "id": "c", "text": "To store component state in a database" },
+        { "id": "d", "text": "To replace JavaScript" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shadow DOM creates a scoped subtree so internal styles/markup don't leak out and page styles don't bleed in — the basis of Web Components.",
+      "difficulty": "easy",
+      "tags": ["encapsulation", "web-components"]
+    },
+    {
+      "id": "shadow-q2",
+      "topic": "Shadow DOM",
+      "question": "What is the 'shadow host'?",
+      "options": [
+        { "id": "a", "text": "The CSS framework" },
+        { "id": "b", "text": "The regular DOM element that a shadow root is attached to" },
+        { "id": "c", "text": "The browser's rendering engine" },
+        { "id": "d", "text": "A type of server" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The shadow host is the ordinary element (e.g. <my-element>) to which a shadow root is attached, becoming the container for the shadow tree.",
+      "difficulty": "medium",
+      "tags": ["shadow-host", "terminology"]
+    },
+    {
+      "id": "shadow-q3",
+      "topic": "Shadow DOM",
+      "question": "Which CSS selector targets the shadow HOST from inside the shadow tree?",
+      "options": [
+        { "id": "a", "text": ":root" },
+        { "id": "b", "text": ":host" },
+        { "id": "c", "text": "::slotted" },
+        { "id": "d", "text": "::shadow" }
+      ],
+      "correctOptionId": "b",
+      "explanation": ":host selects the host element from within the shadow DOM. ::slotted() targets light-DOM children projected via <slot>.",
+      "difficulty": "hard",
+      "tags": ["css", "host"]
+    },
+    {
+      "id": "shadow-q4",
+      "topic": "Shadow DOM",
+      "question": "How are child elements passed from the light DOM into a shadow tree?",
+      "options": [
+        { "id": "a", "text": "Via the <slot> element" },
+        { "id": "b", "text": "Via <import>" },
+        { "id": "c", "text": "Via the src attribute" },
+        { "id": "d", "text": "Via fetch()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "<slot> elements in the shadow tree define where and how light-DOM children are distributed (composed) into the shadow content.",
+      "difficulty": "medium",
+      "tags": ["slot", "composition"]
+    },
+    {
+      "id": "shadow-q5",
+      "topic": "Shadow DOM",
+      "question": "What is 'event retargeting' in Shadow DOM?",
+      "options": [
+        { "id": "a", "text": "Renaming events to avoid collisions" },
+        { "id": "b", "text": "Events crossing the shadow boundary are reported with the nearest non-shadow ancestor as target" },
+        { "id": "c", "text": "Canceling all events automatically" },
+        { "id": "d", "text": "Compiling events to WebAssembly" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "To preserve encapsulation, when an event crosses out of a shadow tree, its target is retargeted to the shadow host rather than internal nodes.",
+      "difficulty": "hard",
+      "tags": ["events", "retargeting"]
+    },
+    {
+      "id": "shadow-q6",
+      "topic": "Shadow DOM",
+      "question": "In Angular, View Encapsulation uses Shadow DOM style scoping. Which mode uses the real Shadow DOM?",
+      "options": [
+        { "id": "a", "text": "Emulated (default)" },
+        { "id": "b", "text": "ShadowDom" },
+        { "id": "c", "text": "Native (deprecated term, now ShadowDom)" },
+        { "id": "d", "text": "None" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ViewEncapsulation.ShadowDom attaches a real shadow root. The default Emulated fakes scoping with attribute selectors for broader support.",
+      "difficulty": "medium",
+      "tags": ["angular", "encapsulation"]
+    },
+    {
+      "id": "shadow-q7",
+      "topic": "Shadow DOM",
+      "question": "Why might you choose 'open' shadow mode over 'closed'?",
+      "options": [
+        { "id": "a", "text": "Closed is faster" },
+        { "id": "b", "text": "Open exposes shadowRoot for testing/tooling; closed hides it and breaks testability" },
+        { "id": "c", "text": "Closed enables CSS variables" },
+        { "id": "d", "text": "Open is deprecated" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Open mode lets element.shadowRoot be accessed (tests, devtools, libraries). Closed mode hides it, hurting testability with little real security gain.",
+      "difficulty": "hard",
+      "tags": ["open", "closed"]
+    },
+    {
+      "id": "shadow-q8",
+      "topic": "Shadow DOM",
+      "question": "Do CSS selectors from the main document reach INSIDE a shadow root?",
+      "options": [
+        { "id": "a", "text": "Yes, always" },
+        { "id": "b", "text": "No — styles inside don't leak out and outside selectors can't reach in (unless ::part/::slotted)" },
+        { "id": "c", "text": "Only on Mondays" },
+        { "id": "d", "text": "Only with !important" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shadow DOM enforces style scoping: internal styles stay in, external selectors stay out. ::part() and ::slotted() are the sanctioned bridges.",
+      "difficulty": "medium",
+      "tags": ["scoping", "css"]
+    }
+  ]
+}

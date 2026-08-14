@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/030 - Responsive Units.md",
+  "title": "Responsive Units Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "runits-q1",
+      "topic": "Responsive Units",
+      "question": "rem is relative to:",
+      "options": [
+        { "id": "a", "text": "The root (html) font-size" },
+        { "id": "b", "text": "The parent font-size" },
+        { "id": "c", "text": "The viewport width" },
+        { "id": "d", "text": "The element's own size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "rem = root em. Scaling html font-size resizes all rem-based dimensions consistently.",
+      "difficulty": "easy",
+      "tags": ["rem", "root"]
+    },
+    {
+      "id": "runits-q2",
+      "topic": "Responsive Units",
+      "question": "em in font-size is relative to:",
+      "options": [
+        { "id": "a", "text": "The parent element's font-size" },
+        { "id": "b", "text": "The root font-size only" },
+        { "id": "c", "text": "The viewport" },
+        { "id": "d", "text": "The element's own width" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "When set on font-size, em references the parent's font-size. (In other properties, em references the element's own font-size.)",
+      "difficulty": "medium",
+      "tags": ["em", "parent"]
+    },
+    {
+      "id": "runits-q3",
+      "topic": "Responsive Units",
+      "question": "vw means:",
+      "options": [
+        { "id": "a", "text": "1% of the viewport WIDTH" },
+        { "id": "b", "text": "1% of the viewport height" },
+        { "id": "c", "text": "1% of the root font" },
+        { "id": "d", "text": "100px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "vw = viewport width unit; 100vw = full width. vh is height. Great for fluid type/layout.",
+      "difficulty": "easy",
+      "tags": ["vw", "viewport"]
+    },
+    {
+      "id": "runits-q4",
+      "topic": "Responsive Units",
+      "question": "A pitfall of 100vw is:",
+      "options": [
+        { "id": "a", "text": "It includes the vertical scrollbar width, causing horizontal overflow" },
+        { "id": "b", "text": "It is not supported" },
+        { "id": "c", "text": "It equals 0 on mobile" },
+        { "id": "d", "text": "It only works with images" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "100vw counts the scrollbar, so a 100vw element can be slightly wider than the visible area → horizontal scroll. Use max-width:100% or 100% where possible.",
+      "difficulty": "hard",
+      "tags": ["100vw", "scrollbar"]
+    },
+    {
+      "id": "runits-q5",
+      "topic": "Responsive Units",
+      "question": "% is relative to:",
+      "options": [
+        { "id": "a", "text": "The containing block's corresponding dimension" },
+        { "id": "b", "text": "The viewport always" },
+        { "id": "c", "text": "The root font" },
+        { "id": "d", "text": "The image size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Percentage widths are relative to the parent's width; heights to parent's height (when defined).",
+      "difficulty": "easy",
+      "tags": ["percent", "containing-block"]
+    },
+    {
+      "id": "runits-q6",
+      "topic": "Responsive Units",
+      "question": "vmin / vmax are relative to:",
+      "options": [
+        { "id": "a", "text": "The smaller / larger of the viewport width and height" },
+        { "id": "b", "text": "Only the width" },
+        { "id": "c", "text": "Only the height" },
+        { "id": "d", "text": "The root font" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "vmin = 1% of the smaller viewport dimension; vmax = 1% of the larger. Useful for square/full-bleed elements.",
+      "difficulty": "medium",
+      "tags": ["vmin", "vmax"]
+    },
+    {
+      "id": "runits-q7",
+      "topic": "Responsive Units",
+      "question": "Why prefer rem for spacing/typography in a scalable system?",
+      "options": [
+        { "id": "a", "text": "A single root size change scales the whole UI predictably (no em compounding)" },
+        { "id": "b", "text": "It is shorter to type" },
+        { "id": "c", "text": "Browsers require it" },
+        { "id": "d", "text": "It disables zoom" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "rem avoids the compounding problem of nested em, so resizing the root scales everything uniformly.",
+      "difficulty": "medium",
+      "tags": ["rem", "scaling"]
+    },
+    {
+      "id": "runits-q8",
+      "topic": "Responsive Units",
+      "question": "ch unit equals the width of:",
+      "options": [
+        { "id": "a", "text": "The '0' (zero) glyph of the element's font" },
+        { "id": "b", "text": "The viewport" },
+        { "id": "c", "text": "The root font" },
+        { "id": "d", "text": "One em" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ch is the advance width of '0'; handy for sizing inputs/paragraphs to a character count (e.g. max-width: 60ch).",
+      "difficulty": "hard",
+      "tags": ["ch", "glyph"]
+    }
+  ]
+}

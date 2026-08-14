@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/013 - Tailwind Concepts.md",
+  "title": "Tailwind Concepts Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "tw-q1",
+      "topic": "Tailwind",
+      "question": "Tailwind CSS is best described as:",
+      "options": [
+        { "id": "a", "text": "A utility-first CSS framework (compose styles via small classes like p-4, flex)" },
+        { "id": "b", "text": "A component library with prebuilt buttons" },
+        { "id": "c", "text": "A CSS preprocessor like Sass" },
+        { "id": "d", "text": "A JavaScript framework" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tailwind is utility-first: you build UIs by applying atomic classes (flex, p-4, text-sm) directly in markup.",
+      "difficulty": "easy",
+      "tags": ["tailwind", "utility-first"]
+    },
+    {
+      "id": "tw-q2",
+      "topic": "Tailwind",
+      "question": "The JIT engine (Tailwind v3+) does:",
+      "options": [
+        { "id": "a", "text": "Generates only the CSS for classes actually used in your markup" },
+        { "id": "b", "text": "Loads all possible classes upfront (massive file)" },
+        { "id": "c", "text": "Compiles JavaScript" },
+        { "id": "d", "text": "Renders HTML server-side" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "JIT scans content files and emits just the used utilities, keeping the bundle tiny and enabling arbitrary values (e.g. w-[330px]).",
+      "difficulty": "medium",
+      "tags": ["jit", "purge"]
+    },
+    {
+      "id": "tw-q3",
+      "topic": "Tailwind",
+      "question": "Responsive variants use a prefix like:",
+      "options": [
+        { "id": "a", "text": "md:flex, lg:grid (breakpoint prefix before the utility)" },
+        { "id": "b", "text": "flex@md" },
+        { "id": "c", "text": "media-flex" },
+        { "id": "d", "text": "flex-md" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Breakpoint prefixes (sm:, md:, lg:) apply utilities at min-width breakpoints — mobile-first.",
+      "difficulty": "medium",
+      "tags": ["responsive", "variants"]
+    },
+    {
+      "id": "tw-q4",
+      "topic": "Tailwind",
+      "question": "Customization (colors, spacing) is done in:",
+      "options": [
+        { "id": "a", "text": "tailwind.config.js (theme.extend)" },
+        { "id": "b", "text": "A .html file" },
+        { "id": "c", "text": "The browser console" },
+        { "id": "d", "text": "package.json only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "tailwind.config.js defines content paths and theme.extend tokens; the engine reads it to generate utilities.",
+      "difficulty": "easy",
+      "tags": ["config", "theme"]
+    },
+    {
+      "id": "tw-q5",
+      "topic": "Tailwind",
+      "question": "A downside of utility classes is:",
+      "options": [
+        { "id": "a", "text": "Markup can become verbose / harder to read for complex components" },
+        { "id": "b", "text": "It cannot do responsive design" },
+        { "id": "c", "text": "It produces huge CSS files" },
+        { "id": "d", "text": "It requires a database" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Verbose class strings are the common critique; mitigated by @apply, components, and frameworks (Angular/React) extracting repeated patterns.",
+      "difficulty": "medium",
+      "tags": ["downside", "verbosity"]
+    },
+    {
+      "id": "tw-q6",
+      "topic": "Tailwind",
+      "question": "To reuse a group of utilities as a component you can use:",
+      "options": [
+        { "id": "a", "text": "@apply in CSS or extract a component class/template" },
+        { "id": "b", "text": "Only inline styles" },
+        { "id": "c", "text": "A <script> tag" },
+        { "id": "d", "text": "Copy-paste only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "@apply composes utilities into a custom class; or build a component so the class list lives in one place.",
+      "difficulty": "medium",
+      "tags": ["apply", "components"]
+    },
+    {
+      "id": "tw-q7",
+      "topic": "Tailwind",
+      "question": "Arbitrary values are written as:",
+      "options": [
+        { "id": "a", "text": "w-[330px] or top-[-113px] (square brackets)" },
+        { "id": "b", "text": "w:330px" },
+        { "id": "c", "text": "width-330" },
+        { "id": "d", "text": "w-330px-auto" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "JIT supports arbitrary values in brackets for one-off needs without editing the config.",
+      "difficulty": "hard",
+      "tags": ["arbitrary", "brackets"]
+    },
+    {
+      "id": "tw-q8",
+      "topic": "Tailwind",
+      "question": "Tailwind differs from BEM in that:",
+      "options": [
+        { "id": "a", "text": "Tailwind uses utility classes in markup; BEM uses semantic, single-class names in stylesheets" },
+        { "id": "b", "text": "They are the same thing" },
+        { "id": "c", "text": "BEM is a framework" },
+        { "id": "d", "text": "Tailwind requires Sass" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tailwind = utility classes in HTML; BEM = semantic naming in CSS. They address styling differently (composition vs naming).",
+      "difficulty": "easy",
+      "tags": ["comparison", "bem"]
+    }
+  ]
+}

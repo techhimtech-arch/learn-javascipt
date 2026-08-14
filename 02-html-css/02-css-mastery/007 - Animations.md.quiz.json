@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/007 - Animations.md",
+  "title": "CSS Animations Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "anim-q1",
+      "topic": "Animations",
+      "question": "A CSS @keyframes animation is defined and then applied with:",
+      "options": [
+        { "id": "a", "text": "animation-name + animation properties (duration, timing, iteration)" },
+        { "id": "b", "text": "transition-property only" },
+        { "id": "c", "text": "transform alone" },
+        { "id": "d", "text": "filter: animate()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "You declare @keyframes name {...} then use animation: name 2s ... (or longhands) to run it. Transitions are a different mechanism.",
+      "difficulty": "medium",
+      "tags": ["keyframes", "animation"]
+    },
+    {
+      "id": "anim-q2",
+      "topic": "Animations",
+      "question": "The difference between animation and transition is:",
+      "options": [
+        { "id": "a", "text": "Animations have multiple keyframes & loop/auto-run; transitions animate BETWEEN two states on a change" },
+        { "id": "b", "text": "They are identical" },
+        { "id": "c", "text": "Transitions need @keyframes" },
+        { "id": "d", "text": "Animations cannot loop" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions interpolate from one state to another when a property changes. Animations run a keyframe sequence, can loop and auto-start.",
+      "difficulty": "medium",
+      "tags": ["animation-vs-transition", "difference"]
+    },
+    {
+      "id": "anim-q3",
+      "topic": "Animations",
+      "question": "animation-iteration-count: infinite makes the animation:",
+      "options": [
+        { "id": "a", "text": "Loop forever" },
+        { "id": "b", "text": "Run once" },
+        { "id": "c", "text": "Run backwards only" },
+        { "id": "d", "text": "Pause" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "iteration-count sets repeat count; infinite loops endlessly. Pair with animation-direction for alternate ping-pong.",
+      "difficulty": "easy",
+      "tags": ["iteration", "infinite"]
+    },
+    {
+      "id": "anim-q4",
+      "topic": "Animations",
+      "question": "For smooth, performant animations you should prefer animating:",
+      "options": [
+        { "id": "a", "text": "transform and opacity (compositor-friendly)" },
+        { "id": "b", "text": "width and height" },
+        { "id": "c", "text": "top and left" },
+        { "id": "d", "text": "margin" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transform/opacity are handled on the compositor (GPU) and avoid layout/paint. Animating layout properties (width/top) triggers reflow — janky.",
+      "difficulty": "hard",
+      "tags": ["performance", "transform", "opacity"]
+    },
+    {
+      "id": "anim-q5",
+      "topic": "Animations",
+      "question": "animation-fill-mode: forwards keeps:",
+      "options": [
+        { "id": "a", "text": "The values of the LAST keyframe applied after the animation ends" },
+        { "id": "b", "text": "The values of the FIRST keyframe" },
+        { "id": "c", "text": "Nothing — resets immediately" },
+        { "id": "d", "text": "The original un-animated value" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fill-mode: forwards retains the end state post-animation; without it the element snaps back to its pre-animation style.",
+      "difficulty": "medium",
+      "tags": ["fill-mode", "forwards"]
+    },
+    {
+      "id": "anim-q6",
+      "topic": "Animations",
+      "question": "To start an animation only after a delay you use:",
+      "options": [
+        { "id": "a", "text": "animation-delay" },
+        { "id": "b", "text": "animation-pause" },
+        { "id": "c", "text": "transition-delay" },
+        { "id": "d", "text": "time-out" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "animation-delay postpones the start. (transition-delay is for transitions, not keyframe animations.)",
+      "difficulty": "easy",
+      "tags": ["delay", "animation"]
+    },
+    {
+      "id": "anim-q7",
+      "topic": "Animations",
+      "question": "0% and 100% in @keyframes are equivalent to:",
+      "options": [
+        { "id": "a", "text": "from and to" },
+        { "id": "b", "text": "start and end keywords" },
+        { "id": "c", "text": "first and last" },
+        { "id": "d", "text": "min and max" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "@keyframes { from {...} to {...} } is shorthand for 0% and 100%. You can add intermediate % steps.",
+      "difficulty": "easy",
+      "tags": ["from-to", "percent"]
+    },
+    {
+      "id": "anim-q8",
+      "topic": "Animations",
+      "question": "prefers-reduced-motion is important because:",
+      "options": [
+        { "id": "a", "text": "It lets you disable/reduce motion for users who get motion sickness (accessibility)" },
+        { "id": "b", "text": "It speeds up the network" },
+        { "id": "c", "text": "It changes colors" },
+        { "id": "d", "text": "It is required for animations to run" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Respect prefers-reduced-motion: reduce to minimize animation for vestibular-sensitive users — an a11y best practice.",
+      "difficulty": "hard",
+      "tags": ["reduced-motion", "accessibility"]
+    }
+  ]
+}

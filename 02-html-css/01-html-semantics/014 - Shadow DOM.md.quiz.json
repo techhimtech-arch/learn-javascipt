@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/014 - Shadow DOM.md",
+  "title": "Shadow DOM (Advanced) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "shadow2-q1",
+      "topic": "Shadow DOM",
+      "question": "Shadow Root is best described as:",
+      "options": [
+        { "id": "a", "text": "The browser's main DOM root" },
+        { "id": "b", "text": "A document fragment that is the root of a shadow tree attached to a host" },
+        { "id": "c", "text": "A type of CSS file" },
+        { "id": "d", "text": "A server endpoint" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The shadow root is the root node of the shadow tree; it's attached to the host element and encapsulates content/styles.",
+      "difficulty": "medium",
+      "tags": ["shadow-root", "terminology"]
+    },
+    {
+      "id": "shadow2-q2",
+      "topic": "Shadow DOM",
+      "question": "What is the 'light DOM'?",
+      "options": [
+        { "id": "a", "text": "The DOM nodes authored by the page author that get slotted into a component" },
+        { "id": "b", "text": "A deprecated HTML version" },
+        { "id": "c", "text": "The shadow tree itself" },
+        { "id": "d", "text": "A lighting CSS property" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Light DOM = the regular DOM children you write in markup; they're projected into the shadow tree via <slot>.",
+      "difficulty": "medium",
+      "tags": ["light-dom", "slotting"]
+    },
+    {
+      "id": "shadow2-q3",
+      "topic": "Shadow DOM",
+      "question": "How do you style light-DOM children from INSIDE the shadow tree?",
+      "options": [
+        { "id": "a", "text": "::slotted(selector)" },
+        { "id": "b", "text": ":host" },
+        { "id": "c", "text": ":root" },
+        { "id": "d", "text": "::inside" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "::slotted() targets distributed light-DOM children. You can only style the slot's top-level assigned nodes, not their descendants.",
+      "difficulty": "hard",
+      "tags": ["slotted", "css"]
+    },
+    {
+      "id": "shadow2-q4",
+      "topic": "Shadow DOM",
+      "question": "A <slot> with no content projected shows its:",
+      "options": [
+        { "id": "a", "text": "Fallback content (children of the slot element)" },
+        { "id": "b", "text": "Nothing ever" },
+        { "id": "c", "text": "An error" },
+        { "id": "d", "text": "The host's background" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Default/fallback content placed inside <slot> renders when no matching light-DOM child is assigned.",
+      "difficulty": "medium",
+      "tags": ["slot", "fallback"]
+    },
+    {
+      "id": "shadow2-q5",
+      "topic": "Shadow DOM",
+      "question": "CSS custom properties (__var) penetrate shadow boundaries. Why is that useful?",
+      "options": [
+        { "id": "a", "text": "They let a host theme a component's internals while keeping other styles encapsulated" },
+        { "id": "b", "text": "They break encapsulation entirely" },
+        { "id": "c", "text": "They only work in closed mode" },
+        { "id": "d", "text": "They replace JavaScript" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CSS variables inherit through shadow boundaries, making them the standard way to expose theming hooks without leaking other styles.",
+      "difficulty": "hard",
+      "tags": ["css-variables", "theming"]
+    },
+    {
+      "id": "shadow2-q6",
+      "topic": "Shadow DOM",
+      "question": "Attach a shadow root in JS with:",
+      "options": [
+        { "id": "a", "text": "element.attachShadow({ mode: 'open' })" },
+        { "id": "b", "text": "element.createShadow()" },
+        { "id": "c", "text": "new ShadowDOM(element)" },
+        { "id": "d", "text": "element.shadow = true" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "attachShadow({mode:'open'|'closed'}) creates and returns the shadow root. open lets element.shadowRoot be read.",
+      "difficulty": "medium",
+      "tags": ["attachshadow", "api"]
+    },
+    {
+      "id": "shadow2-q7",
+      "topic": "Shadow DOM",
+      "question": "In Angular, the DEFAULT ViewEncapsulation is:",
+      "options": [
+        { "id": "a", "text": "Emulated" },
+        { "id": "b", "text": "ShadowDom" },
+        { "id": "c", "text": "None" },
+        { "id": "d", "text": "Global" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Angular defaults to Emulated encapsulation (attribute-scoped selectors) for broad browser support; ShadowDom uses real shadow roots.",
+      "difficulty": "easy",
+      "tags": ["angular", "encapsulation"]
+    },
+    {
+      "id": "shadow2-q8",
+      "topic": "Shadow DOM",
+      "question": "Event retargeting means a click inside a component is seen by outside listeners as targeting:",
+      "options": [
+        { "id": "a", "text": "The shadow host element (not internal nodes)" },
+        { "id": "b", "text": "The innermost internal node" },
+        { "id": "c", "text": "The document body" },
+        { "id": "d", "text": "The window object" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Retargeting preserves encapsulation: external listeners see the host as the event target, hiding internal structure.",
+      "difficulty": "hard",
+      "tags": ["events", "retargeting"]
+    }
+  ]
+}

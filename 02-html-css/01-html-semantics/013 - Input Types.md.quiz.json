@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/013 - Input Types.md",
+  "title": "Input Types (Advanced) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "itadv-q1",
+      "topic": "Input Types",
+      "question": "Which input type is best for a single on/off binary choice shown as a checkbox?",
+      "options": [
+        { "id": "a", "text": "type=\"text\"" },
+        { "id": "b", "text": "type=\"checkbox\"" },
+        { "id": "c", "text": "type=\"radio\"" },
+        { "id": "d", "text": "type=\"button\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "checkbox = independent on/off. radio = pick one of many in a group (same name).",
+      "difficulty": "easy",
+      "tags": ["checkbox", "radio"]
+    },
+    {
+      "id": "itadv-q2",
+      "topic": "Input Types",
+      "question": "To constrain a text input to a specific format (e.g. Indian PIN 6 digits) you use:",
+      "options": [
+        { "id": "a", "text": "pattern=\"[0-9]{6}\"" },
+        { "id": "b", "text": "format=\"pin\"" },
+        { "id": "c", "text": "regex attribute" },
+        { "id": "d", "text": "mask attribute" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The pattern attribute takes a RegExp the value must match for native validation. Combine with title for guidance.",
+      "difficulty": "medium",
+      "tags": ["pattern", "regex"]
+    },
+    {
+      "id": "itadv-q3",
+      "topic": "Input Types",
+      "question": "type=\"search\" primarily differs from text by:",
+      "options": [
+        { "id": "a", "text": "Offering a clear ('x') button and semantic role for search" },
+        { "id": "b", "text": "Running a Google search" },
+        { "id": "c", "text": "Encrypting the value" },
+        { "id": "d", "text": "Requiring a server" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "search inputs render a clear button and carry search semantics; behavior is otherwise similar to text.",
+      "difficulty": "easy",
+      "tags": ["search", "semantics"]
+    },
+    {
+      "id": "itadv-q4",
+      "topic": "Input Types",
+      "question": "The 'autocomplete' attribute helps by:",
+      "options": [
+        { "id": "a", "text": "Hinting the browser how to prefill fields (e.g. autocomplete=\"email\")" },
+        { "id": "b", "text": "Disabling the input" },
+        { "id": "c", "text": "Validating server-side" },
+        { "id": "d", "text": "Speeding up CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "autocomplete provides hints (email, name, street-address) so browsers/password managers prefill correctly — better UX and a11y.",
+      "difficulty": "medium",
+      "tags": ["autocomplete", "ux"]
+    },
+    {
+      "id": "itadv-q5",
+      "topic": "Input Types",
+      "question": "Cross-browser inconsistency is most likely with:",
+      "options": [
+        { "id": "a", "text": "type=\"text\"" },
+        { "id": "b", "text": "type=\"date\"/\"color\" (native widgets vary by browser/OS)" },
+        { "id": "c", "text": "type=\"hidden\"" },
+        { "id": "d", "text": "type=\"submit\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Date/color pickers render as OS-native widgets with varying UIs; test across browsers and have JS fallbacks.",
+      "difficulty": "medium",
+      "tags": ["compatibility", "date"]
+    },
+    {
+      "id": "itadv-q6",
+      "topic": "Input Types",
+      "question": "Which is a best practice when pairing inputs with labels?",
+      "options": [
+        { "id": "a", "text": "Wrap input in <label> or use for/id so clicking the label focuses the input" },
+        { "id": "b", "text": "Never use labels" },
+        { "id": "c", "text": "Use placeholder as the only label" },
+        { "id": "d", "text": "Put label after a <div> with no association" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Label association (for/id or wrapping) improves a11y and UX (click target). Placeholders are NOT labels.",
+      "difficulty": "easy",
+      "tags": ["label", "accessibility"]
+    },
+    {
+      "id": "itadv-q7",
+      "topic": "Input Types",
+      "question": "type=\"number\" with step=\"0.5\" means:",
+      "options": [
+        { "id": "a", "text": "The value increments/decrements by 0.5" },
+        { "id": "b", "text": "Only 0.5 values are allowed total" },
+        { "id": "c", "text": "The field is read-only" },
+        { "id": "d", "text": "It becomes a slider" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "step controls the increment for spinner/arrow keys and validation granularity.",
+      "difficulty": "easy",
+      "tags": ["step", "number"]
+    },
+    {
+      "id": "itadv-q8",
+      "topic": "Input Types",
+      "question": "Why still validate on the server even when using type/pattern/min/max?",
+      "options": [
+        { "id": "a", "text": "Client validation can be bypassed, so server is the source of truth" },
+        { "id": "b", "text": "HTML validation is slower" },
+        { "id": "c", "text": "Browsers ignore constraints" },
+        { "id": "d", "text": "It reduces CSS size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "All client-side constraints are advisory and bypassable; authoritative checks belong server-side.",
+      "difficulty": "medium",
+      "tags": ["security", "validation"]
+    }
+  ]
+}

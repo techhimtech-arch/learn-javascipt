@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/018 - CSS Animations.md",
+  "title": "CSS Animations (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "anim2-q1",
+      "topic": "CSS Animations",
+      "question": "animation-direction: alternate makes the animation:",
+      "options": [
+        { "id": "a", "text": "Play forward then backward on alternate iterations" },
+        { "id": "b", "text": "Run only once" },
+        { "id": "c", "text": "Play in reverse permanently" },
+        { "id": "d", "text": "Pause" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "With iteration-count > 1, alternate reverses direction each cycle — ideal for ping-pong/yo-yo effects.",
+      "difficulty": "medium",
+      "tags": ["direction", "alternate"]
+    },
+    {
+      "id": "anim2-q2",
+      "topic": "CSS Animations",
+      "question": "animation-play-state: paused is useful for:",
+      "options": [
+        { "id": "a", "text": "Pausing/resuming via hover or JS without restarting" },
+        { "id": "b", "text": "Speeding up" },
+        { "id": "c", "text": "Changing color" },
+        { "id": "d", "text": "Removing the animation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Toggling play-state pauses/resumes in place — common for hover-to-pause or scroll-based control.",
+      "difficulty": "medium",
+      "tags": ["play-state", "pause"]
+    },
+    {
+      "id": "anim2-q3",
+      "topic": "CSS Animations",
+      "question": "step-end (steps) timing creates:",
+      "options": [
+        { "id": "a", "text": "Discrete jumps with no interpolation (e.g. sprite frames)" },
+        { "id": "b", "text": "Smooth easing" },
+        { "id": "c", "text": "A color fade" },
+        { "id": "d", "text": "An infinite loop" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "steps() divides the animation into equal intervals with no tweening between — perfect for sprite animation or tick effects.",
+      "difficulty": "hard",
+      "tags": ["steps", "discrete"]
+    },
+    {
+      "id": "anim2-q4",
+      "topic": "CSS Animations",
+      "question": "The will-change property:",
+      "options": [
+        { "id": "a", "text": "Hints the browser to prepare for an upcoming change (e.g. transform) for smoother animation" },
+        { "id": "b", "text": "Forces an animation to start" },
+        { "id": "c", "text": "Changes the color" },
+        { "id": "d", "text": "Disables transitions" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "will-change (e.g. will-change: transform) lets the browser promote a layer ahead of time. Use sparingly — overuse wastes memory.",
+      "difficulty": "hard",
+      "tags": ["will-change", "performance"]
+    },
+    {
+      "id": "anim2-q5",
+      "topic": "CSS Animations",
+      "question": "Animating 'left'/'top' is generally worse than transform because:",
+      "options": [
+        { "id": "a", "text": "It triggers layout (reflow) on every frame instead of cheap compositing" },
+        { "id": "b", "text": "It is not supported" },
+        { "id": "c", "text": "It animates faster" },
+        { "id": "d", "text": "It ignores timing functions" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Position changes cause reflow; transform/opacity run on the compositor. Animate transform: translate() instead of top/left.",
+      "difficulty": "hard",
+      "tags": ["performance", "reflow"]
+    },
+    {
+      "id": "anim2-q6",
+      "topic": "CSS Animations",
+      "question": "A keyframe at 50% with no 0%/100% still works because:",
+      "options": [
+        { "id": "a", "text": "The browser uses the element's current computed value for the missing 0% and 100%" },
+        { "id": "b", "text": "It throws an error" },
+        { "id": "c", "text": "It defaults to 0" },
+        { "id": "d", "text": "It requires exactly two keyframes" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Missing 0%/100% keyframes are synthesized from the element's existing styles, so partial keyframes interpolate from the base.",
+      "difficulty": "medium",
+      "tags": ["keyframe", "synthesis"]
+    },
+    {
+      "id": "anim2-q7",
+      "topic": "CSS Animations",
+      "question": "To run two animations on one element:",
+      "options": [
+        { "id": "a", "text": "Comma-separate them: animation: a 2s, b 1s" },
+        { "id": "b", "text": "Use two animation properties (last wins)" },
+        { "id": "c", "text": "Nest them in @keyframes" },
+        { "id": "d", "text": "Only one animation allowed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "animation is a list; comma-separate multiple values to run several animations with independent timing.",
+      "difficulty": "medium",
+      "tags": ["multiple", "comma"]
+    },
+    {
+      "id": "anim2-q8",
+      "topic": "CSS Animations",
+      "question": "Best accessibility practice for non-essential animation is:",
+      "options": [
+        { "id": "a", "text": "Wrap it in @media (prefers-reduced-motion: reduce) to disable/reduce it" },
+        { "id": "b", "text": "Always animate at max speed" },
+        { "id": "c", "text": "Never use animations" },
+        { "id": "d", "text": "Use !important on animation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Respecting reduced-motion prevents discomfort for vestibular-sensitive users — an essential a11y step.",
+      "difficulty": "easy",
+      "tags": ["reduced-motion", "accessibility"]
+    }
+  ]
+}

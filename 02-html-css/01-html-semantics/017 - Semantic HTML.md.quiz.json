@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/017 - Semantic HTML.md",
+  "title": "Semantic HTML (Advanced) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "semadv-q1",
+      "topic": "Semantic HTML",
+      "question": "Which element represents self-contained, distributable content like a blog post or news article?",
+      "options": [
+        { "id": "a", "text": "<article>" },
+        { "id": "b", "text": "<section>" },
+        { "id": "c", "text": "<div>" },
+        { "id": "d", "text": "<span>" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "<article> = independent, reusable content. <section> groups related content (often with a heading).",
+      "difficulty": "easy",
+      "tags": ["article", "section"]
+    },
+    {
+      "id": "semadv-q2",
+      "topic": "Semantic HTML",
+      "question": "The 'document outline' is built primarily from:",
+      "options": [
+        { "id": "a", "text": "Heading levels (h1-h6) and sectioning elements" },
+        { "id": "b", "text": "The number of <div>s" },
+        { "id": "c", "text": "CSS class names" },
+        { "id": "d", "text": "Image alt text" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A logical h1→h6 hierarchy plus landmark/sectioning elements creates an accessible outline for SR users and SEO.",
+      "difficulty": "medium",
+      "tags": ["outline", "headings"]
+    },
+    {
+      "id": "semadv-q3",
+      "topic": "Semantic HTML",
+      "question": "What implicit ARIA role does <aside> map to?",
+      "options": [
+        { "id": "a", "text": "complementary" },
+        { "id": "b", "text": "navigation" },
+        { "id": "c", "text": "banner" },
+        { "id": "d", "text": "main" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "<aside> → role=\"complementary\" (tangential content like sidebars). <nav>→navigation, <header>→banner.",
+      "difficulty": "medium",
+      "tags": ["aside", "aria-roles"]
+    },
+    {
+      "id": "semadv-q4",
+      "topic": "Semantic HTML",
+      "question": "Why should you AVOID skipping heading levels (e.g. h1 then h3)?",
+      "options": [
+        { "id": "a", "text": "It confuses the document outline and assistive-tech navigation" },
+        { "id": "b", "text": "It breaks CSS entirely" },
+        { "id": "c", "text": "It slows the network" },
+        { "id": "d", "text": "It is invalid HTML that won't render" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Heading levels should reflect structure; skipping levels misleads SR users who navigate by heading.",
+      "difficulty": "medium",
+      "tags": ["headings", "hierarchy"]
+    },
+    {
+      "id": "semadv-q5",
+      "topic": "Semantic HTML",
+      "question": "Landmark elements (<header>, <nav>, <main>, <footer>) help users by:",
+      "options": [
+        { "id": "a", "text": "Letting AT users jump quickly between page regions" },
+        { "id": "b", "text": "Making text bold" },
+        { "id": "c", "text": "Increasing font size" },
+        { "id": "d", "text": "Removing the need for CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Landmarks create navigable regions; SR users can jump straight to nav/main/complementary content.",
+      "difficulty": "easy",
+      "tags": ["landmarks", "navigation"]
+    },
+    {
+      "id": "semadv-q6",
+      "topic": "Semantic HTML",
+      "question": "<time datetime=\"2025-01-01T09:00Z\"> is useful for:",
+      "options": [
+        { "id": "a", "text": "Providing a machine-readable date/time to parsers and search engines" },
+        { "id": "b", "text": "Starting a timer" },
+        { "id": "c", "text": "Styling text red" },
+        { "id": "d", "text": "Loading a font" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The datetime attribute gives a standardized value while the element shows human text — great for events/SEO.",
+      "difficulty": "medium",
+      "tags": ["time", "datetime"]
+    },
+    {
+      "id": "semadv-q7",
+      "topic": "Semantic HTML",
+      "question": "A common semantic mistake is:",
+      "options": [
+        { "id": "a", "text": "Using <div> for everything instead of meaningful landmarks" },
+        { "id": "b", "text": "Using <h1> once per page" },
+        { "id": "c", "text": "Having exactly one <main>" },
+        { "id": "d", "text": "Wrapping nav in <nav>" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Overusing generic divs instead of semantic/landmark elements harms accessibility and SEO.",
+      "difficulty": "easy",
+      "tags": ["mistakes", "divitis"]
+    },
+    {
+      "id": "semadv-q8",
+      "topic": "Semantic HTML",
+      "question": "Compared to ARIA, semantic HTML is preferred because it:",
+      "options": [
+        { "id": "a", "text": "Provides built-in roles/states with less risk and better browser support" },
+        { "id": "b", "text": "Always overrides ARIA" },
+        { "id": "c", "text": "Renders faster than ARIA" },
+        { "id": "d", "text": "Requires no markup" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Native semantics are robust and need no extra attributes; ARIA is the fallback for gaps (first rule of ARIA).",
+      "difficulty": "medium",
+      "tags": ["aria", "native"]
+    }
+  ]
+}

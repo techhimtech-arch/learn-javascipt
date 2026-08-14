@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/022 - Specificity.md",
+  "title": "Specificity (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "spec2-q1",
+      "topic": "Specificity",
+      "question": "The four-part specificity tuple (a,b,c,d) maps to:",
+      "options": [
+        { "id": "a", "text": "(inline, id, class/attr/pseudo-class, element/pseudo-element)" },
+        { "id": "b", "text": "(element, class, id, inline)" },
+        { "id": "c", "text": "(tag, id, class, universal)" },
+        { "id": "d", "text": "(color, size, weight, family)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Standard order: inline styles, then IDs, then classes/attributes/pseudo-classes, then elements/pseudo-elements.",
+      "difficulty": "hard",
+      "tags": ["tuple", "parts"]
+    },
+    {
+      "id": "spec2-q2",
+      "topic": "Specificity",
+      "question": "An attribute selector [type='text'] has specificity equal to:",
+      "options": [
+        { "id": "a", "text": "A class (0,0,1,0)" },
+        { "id": "b", "text": "An ID (0,1,0,0)" },
+        { "id": "c", "text": "An element (0,0,0,1)" },
+        { "id": "d", "text": "Universal (0,0,0,0)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Attributes and pseudo-classes sit in the class tier (0,0,1,0) — higher than elements but below IDs.",
+      "difficulty": "medium",
+      "tags": ["attribute", "tier"]
+    },
+    {
+      "id": "spec2-q3",
+      "topic": "Specificity",
+      "question": "Two competing rules, one .a.b (0,0,2,0) and one #c .d (0,1,1,0): which wins?",
+      "options": [
+        { "id": "a", "text": "#c .d (it has an ID, so it wins regardless of class count)" },
+        { "id": "b", "text": ".a.b (more classes)" },
+        { "id": "c", "text": "They tie" },
+        { "id": "d", "text": "The first one in source" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "IDs outrank all classes. Compare left-to-right; the ID tier decides before class count matters.",
+      "difficulty": "hard",
+      "tags": ["comparison", "id-wins"]
+    },
+    {
+      "id": "spec2-q4",
+      "topic": "Specificity",
+      "question": "Inline style + !important vs a stylesheet !important: which wins?",
+      "options": [
+        { "id": "a", "text": "The inline !important wins over a non-inline !important" },
+        { "id": "b", "text": "The stylesheet !important always wins" },
+        { "id": "c", "text": "They cancel out" },
+        { "id": "d", "text": "Inline styles can't be !important" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Among !important declarations, inline !important beats author !important (a known quirk). Avoid !important to stay sane.",
+      "difficulty": "hard",
+      "tags": ["important", "inline"]
+    },
+    {
+      "id": "spec2-q5",
+      "topic": "Specificity",
+      "question": "To override a third-party rule without !important, you can:",
+      "options": [
+        { "id": "a", "text": "Increase specificity (add a class/element or use a more specific selector)" },
+        { "id": "b", "text": "Delete the library CSS" },
+        { "id": "c", "text": "Use only IDs everywhere" },
+        { "id": "d", "text": "Rely on source order alone" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Raising specificity beats the other rule cleanly. BEM-style double-class selectors (.comp .comp-part) are a common tactic.",
+      "difficulty": "medium",
+      "tags": ["override", "specificity"]
+    },
+    {
+      "id": "spec2-q6",
+      "topic": "Specificity",
+      "question": "Why is '!important' considered a code smell?",
+      "options": [
+        { "id": "a", "text": "It breaks the normal cascade, is hard to override, and signals specificity problems" },
+        { "id": "b", "text": "It is invalid CSS" },
+        { "id": "c", "text": "It makes styles slower" },
+        { "id": "d", "text": "It only works in Firefox" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Overusing !important hides root causes (poor specificity) and creates escalating overrides. Reserve for rare edge cases.",
+      "difficulty": "easy",
+      "tags": ["important", "smell"]
+    },
+    {
+      "id": "spec2-q7",
+      "topic": "Specificity",
+      "question": "The universal selector * and pseudo-class :where() both contribute:",
+      "options": [
+        { "id": "a", "text": "Zero specificity" },
+        { "id": "b", "text": "One class level" },
+        { "id": "c", "text": "One ID level" },
+        { "id": "d", "text": "One element level" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "* and :where() add no specificity, making them safe for resets and easy overrides (unlike :is which adopts inner specificity).",
+      "difficulty": "medium",
+      "tags": ["zero-specificity", "where"]
+    },
+    {
+      "id": "spec2-q8",
+      "topic": "Specificity",
+      "question": "Specificity is calculated PER DECLARATION'S SELECTOR, meaning:",
+      "options": [
+        { "id": "a", "text": "Each selector's specificity is compared independently, not summed across a rule" },
+        { "id": "b", "text": "All selectors on an element are summed" },
+        { "id": "c", "text": "Only the last property matters" },
+        { "id": "d", "text": "Specificity is ignored for classes" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The winning value comes from the most specific selector that sets that property — selectors for other properties don't add in.",
+      "difficulty": "hard",
+      "tags": ["per-declaration", "concept"]
+    }
+  ]
+}

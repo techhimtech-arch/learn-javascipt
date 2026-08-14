@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/016 - Responsive Images.md",
+  "title": "Responsive Images Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "respimg-q1",
+      "topic": "Responsive Images",
+      "question": "The srcset attribute lets the browser:",
+      "options": [
+        { "id": "a", "text": "Choose the best image source from a list based on screen density/size" },
+        { "id": "b", "text": "Animate between images" },
+        { "id": "c", "text": "Compress the image client-side" },
+        { "id": "d", "text": "Delete unused images" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "srcset provides candidate URLs with width (w) or density (x) descriptors; the browser picks the optimal one.",
+      "difficulty": "medium",
+      "tags": ["srcset", "selection"]
+    },
+    {
+      "id": "respimg-q2",
+      "topic": "Responsive Images",
+      "question": "The 'sizes' attribute tells the browser:",
+      "options": [
+        { "id": "a", "text": "How much layout space the image will occupy, so it can pick the right srcset candidate" },
+        { "id": "b", "text": "The file size in bytes" },
+        { "id": "c", "text": "The number of images to load" },
+        { "id": "d", "text": "The CSS animation duration" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sizes describes rendered width (e.g. '(max-width:600px) 100vw, 50vw'), letting the browser select the correct srcset source.",
+      "difficulty": "hard",
+      "tags": ["sizes", "layout"]
+    },
+    {
+      "id": "respimg-q3",
+      "topic": "Responsive Images",
+      "question": "For 'art direction' (different crop or composition at different widths) you use:",
+      "options": [
+        { "id": "a", "text": "The <picture> element with multiple <source media=\"...\">" },
+        { "id": "b", "text": "Only the src attribute" },
+        { "id": "c", "text": "A CSS transition" },
+        { "id": "d", "text": "An iframe" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "<picture> lets you serve entirely different images per media condition (art direction), with <img> as the fallback.",
+      "difficulty": "medium",
+      "tags": ["picture", "art-direction"]
+    },
+    {
+      "id": "respimg-q4",
+      "topic": "Responsive Images",
+      "question": "To enable native lazy-loading you add:",
+      "options": [
+        { "id": "a", "text": "loading=\"lazy\" on the <img>" },
+        { "id": "b", "text": "lazy=\"true\"" },
+        { "id": "c", "text": "defer on the img" },
+        { "id": "d", "text": "async src" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "loading=\"lazy\" defers offscreen images until near viewport, improving initial load. Use loading=\"eager\" for above-the-fold.",
+      "difficulty": "easy",
+      "tags": ["lazy-loading", "performance"]
+    },
+    {
+      "id": "respimg-q5",
+      "topic": "Responsive Images",
+      "question": "Specifying width and height attributes on <img> helps:",
+      "options": [
+        { "id": "a", "text": "Reserve space and reduce layout shift (CLS)" },
+        { "id": "b", "text": "Make the image larger" },
+        { "id": "c", "text": "Crop the image" },
+        { "id": "d", "text": "Change the file format" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Known dimensions let the browser reserve aspect-ratio space, preventing Cumulative Layout Shift (a Core Web Vital).",
+      "difficulty": "medium",
+      "tags": ["cls", "dimensions"]
+    },
+    {
+      "id": "respimg-q6",
+      "topic": "Responsive Images",
+      "question": "A modern format fallback strategy uses:",
+      "options": [
+        { "id": "a", "text": "<picture> with <source type=\"image/webp\"> and an <img> fallback" },
+        { "id": "b", "text": "Only GIF" },
+        { "id": "c", "text": "A <video> tag" },
+        { "id": "d", "text": "CSS @font-face" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Serve WebP/AVIF via <source type=...> with a universally-supported <img> fallback for older browsers.",
+      "difficulty": "hard",
+      "tags": ["webp", "fallback"]
+    },
+    {
+      "id": "respimg-q7",
+      "topic": "Responsive Images",
+      "question": "x-descriptors in srcset (e.g. image.jpg 2x) describe:",
+      "options": [
+        { "id": "a", "text": "Device pixel density (DPR) the candidate is intended for" },
+        { "id": "b", "text": "Image file size" },
+        { "id": "c", "text": "Number of pixels wide" },
+        { "id": "d", "text": "Animation frames" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1x/2x/3x tell the browser which source matches the device pixel ratio (retina). w-descriptors pair with sizes instead.",
+      "difficulty": "medium",
+      "tags": ["x-descriptor", "dpr"]
+    },
+    {
+      "id": "respimg-q8",
+      "topic": "Responsive Images",
+      "question": "Providing a descriptive alt attribute is important because:",
+      "options": [
+        { "id": "a", "text": "It aids accessibility AND can appear if the image fails to load" },
+        { "id": "b", "text": "It improves CSS animation" },
+        { "id": "c", "text": "It is required for srcset to work" },
+        { "id": "d", "text": "It reduces file size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "alt supports screen readers and shows as broken-image text; decorative images should use alt=\"\".",
+      "difficulty": "easy",
+      "tags": ["alt", "accessibility"]
+    }
+  ]
+}

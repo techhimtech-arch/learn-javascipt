@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/010 - Web Accessibility.md",
+  "title": "Web Accessibility Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "wa11y-q1",
+      "topic": "Web Accessibility",
+      "question": "Which is the strongest approach for accessibility?",
+      "options": [
+        { "id": "a", "text": "Use ARIA everywhere by default" },
+        { "id": "b", "text": "Start with semantic native HTML, add ARIA only where needed" },
+        { "id": "c", "text": "Rely on color alone to convey meaning" },
+        { "id": "d", "text": "Skip keyboard support for mouse-only users" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Native semantics first, ARIA as a supplement. ARIA used incorrectly can harm more than help (first rule of ARIA).",
+      "difficulty": "easy",
+      "tags": ["a11y", "strategy"]
+    },
+    {
+      "id": "wa11y-q2",
+      "topic": "Web Accessibility",
+      "question": "WCAG's four principles are often remembered as POUR. What does POUR stand for?",
+      "options": [
+        { "id": "a", "text": "Pretty, Obvious, Useful, Responsive" },
+        { "id": "b", "text": "Perceivable, Operable, Understandable, Robust" },
+        { "id": "c", "text": "Private, Open, Unified, Reliable" },
+        { "id": "d", "text": "Pixel, Offset, Unit, Ratio" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "POUR = Perceivable (info present), Operable (keyboard/navigable), Understandable (clear), Robust (works with AT).",
+      "difficulty": "medium",
+      "tags": ["wcag", "pour"]
+    },
+    {
+      "id": "wa11y-q3",
+      "topic": "Web Accessibility",
+      "question": "Keyboard accessibility requires that:",
+      "options": [
+        { "id": "a", "text": "All functionality is reachable and operable via keyboard" },
+        { "id": "b", "text": "Only links need keyboard support" },
+        { "id": "c", "text": "Mouse is the only input" },
+        { "id": "d", "text": "Tab order is randomized" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Every interactive element must be focusable and operable with keyboard (Enter/Space/arrows), with a visible focus indicator.",
+      "difficulty": "medium",
+      "tags": ["keyboard", "focus"]
+    },
+    {
+      "id": "wa11y-q4",
+      "topic": "Web Accessibility",
+      "question": "For a complex widget (e.g. combobox), you should:",
+      "options": [
+        { "id": "a", "text": "Build it with divs and skip roles" },
+        { "id": "b", "text": "Follow the WAI-ARIA Authoring Practices pattern (roles, states, keyboard)" },
+        { "id": "c", "text": "Disable screen readers on that component" },
+        { "id": "d", "text": "Use only mouse events" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Complex widgets need the documented APG pattern: correct roles, aria states, and full keyboard interaction.",
+      "difficulty": "hard",
+      "tags": ["aria", "patterns"]
+    },
+    {
+      "id": "wa11y-q5",
+      "topic": "Web Accessibility",
+      "question": "What is a 'focus indicator' and why does it matter?",
+      "options": [
+        { "id": "a", "text": "A loading spinner" },
+        { "id": "b", "text": "The visible outline showing which element is focused — essential for keyboard users" },
+        { "id": "c", "text": "A tooltip on hover" },
+        { "id": "d", "text": "The browser title bar" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Removing default focus outlines without a replacement breaks keyboard navigation. Never do outline:none without an alternative.",
+      "difficulty": "easy",
+      "tags": ["focus", "outline"]
+    },
+    {
+      "id": "wa11y-q6",
+      "topic": "Web Accessibility",
+      "question": "How should dynamic content (e.g. '3 items added') be announced to SR users?",
+      "options": [
+        { "id": "a", "text": "Refresh the whole page" },
+        { "id": "b", "text": "Push it into an aria-live region (polite/assertive)" },
+        { "id": "c", "text": "Use a console.log" },
+        { "id": "d", "text": "Append to the title tag only" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "aria-live regions announce changes. LiveAnnouncer in Angular CDK is a common implementation.",
+      "difficulty": "medium",
+      "tags": ["live-region", "announce"]
+    },
+    {
+      "id": "wa11y-q7",
+      "topic": "Web Accessibility",
+      "question": "Color contrast minimum (WCAG AA, normal text) is roughly:",
+      "options": [
+        { "id": "a", "text": "1.5:1" },
+        { "id": "b", "text": "3:1" },
+        { "id": "c", "text": "4.5:1" },
+        { "id": "d", "text": "10:1" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "WCAG AA requires 4.5:1 contrast for normal text, 3:1 for large text. Poor contrast is a top a11y failure.",
+      "difficulty": "hard",
+      "tags": ["contrast", "wcag"]
+    },
+    {
+      "id": "wa11y-q8",
+      "topic": "Web Accessibility",
+      "question": "Which tool is commonly used to AUDIT accessibility?",
+      "options": [
+        { "id": "a", "text": "WAVE / axe / Lighthouse" },
+        { "id": "b", "text": "Only manual guessing" },
+        { "id": "c", "text": "A package manager" },
+        { "id": "d", "text": "The GPU" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Automated tools (axe, WAVE, Lighthouse) catch many issues; combine with manual testing using NVDA/JAWS/VoiceOver.",
+      "difficulty": "easy",
+      "tags": ["testing", "tools"]
+    }
+  ]
+}

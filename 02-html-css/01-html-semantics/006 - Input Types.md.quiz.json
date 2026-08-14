@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/006 - Input Types.md",
+  "title": "HTML Input Types Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "inputtypes-q1",
+      "topic": "Input Types",
+      "question": "Why prefer type=\"email\" over type=\"text\" for an email field?",
+      "options": [
+        { "id": "a", "text": "It makes the input bold" },
+        { "id": "b", "text": "It gives native validation (@ check), email keyboard on mobile, and autofill hints" },
+        { "id": "c", "text": "It stores data server-side automatically" },
+        { "id": "d", "text": "It prevents all invalid input permanently" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Semantic input types trigger browser validation, optimized mobile keyboards, and password-manager/autofill detection.",
+      "difficulty": "easy",
+      "tags": ["email", "validation"]
+    },
+    {
+      "id": "inputtypes-q2",
+      "topic": "Input Types",
+      "question": "Which attribute restricts a number input to values between 1 and 10?",
+      "options": [
+        { "id": "a", "text": "limit=\"1,10\"" },
+        { "id": "b", "text": "min=\"1\" max=\"10\"" },
+        { "id": "c", "text": "range=\"1-10\"" },
+        { "id": "d", "text": "validate=\"number\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "min/max set the allowed bounds for number/range/date inputs. step controls increment granularity.",
+      "difficulty": "easy",
+      "tags": ["min", "max"]
+    },
+    {
+      "id": "inputtypes-q3",
+      "topic": "Input Types",
+      "question": "What does input type=\"range\" render and what attributes control it?",
+      "options": [
+        { "id": "a", "text": "A text box; controlled by size" },
+        { "id": "b", "text": "A slider; min, max, step, value" },
+        { "id": "c", "text": "A dropdown; options attribute" },
+        { "id": "d", "text": "A color picker" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "type=\"range\" shows a slider bounded by min/max with step increments; value sets the initial position.",
+      "difficulty": "medium",
+      "tags": ["range", "slider"]
+    },
+    {
+      "id": "inputtypes-q4",
+      "topic": "Input Types",
+      "question": "A file input with accept=\".pdf,.docx\" multiple allows users to:",
+      "options": [
+        { "id": "a", "text": "Only select one PDF" },
+        { "id": "b", "text": "Select multiple files filtered to PDF/DOCX types" },
+        { "id": "c", "text": "Upload to a server automatically" },
+        { "id": "d", "text": "Convert files to images" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "accept hints the file picker filter; multiple enables selecting several files. The actual upload needs a form/JS.",
+      "difficulty": "medium",
+      "tags": ["file", "multiple"]
+    },
+    {
+      "id": "inputtypes-q5",
+      "topic": "Input Types",
+      "question": "If a browser doesn't support type=\"date\", what happens?",
+      "options": [
+        { "id": "a", "text": "The page crashes" },
+        { "id": "b", "text": "It falls back to a plain text input" },
+        { "id": "c", "text": "It shows a video element" },
+        { "id": "d", "text": "It becomes read-only" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Unknown input types degrade gracefully to type=\"text\", so you should still validate server-side and/or with JS.",
+      "difficulty": "easy",
+      "tags": ["fallback", "compatibility"]
+    },
+    {
+      "id": "inputtypes-q6",
+      "topic": "Input Types",
+      "question": "Which input type triggers a numeric keypad with symbols (good for phone numbers)?",
+      "options": [
+        { "id": "a", "text": "type=\"text\"" },
+        { "id": "b", "text": "type=\"tel\"" },
+        { "id": "c", "text": "type=\"search\"" },
+        { "id": "d", "text": "type=\"color\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "type=\"tel\" shows a telephone-optimized numeric keypad. type=\"number\" can also show digits but tel is semantically for phone.",
+      "difficulty": "medium",
+      "tags": ["tel", "mobile"]
+    },
+    {
+      "id": "inputtypes-q7",
+      "topic": "Input Types",
+      "question": "What is the <input type=\"color\"> element used for?",
+      "options": [
+        { "id": "a", "text": "Picking a background image" },
+        { "id": "b", "text": "Opening a native color picker returning a hex value like #ff0000" },
+        { "id": "c", "text": "Changing text font" },
+        { "id": "d", "text": "Animating gradients" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "type=\"color\" opens a color picker and the value is a hex string (e.g. #ff0000).",
+      "difficulty": "easy",
+      "tags": ["color", "hex"]
+    },
+    {
+      "id": "inputtypes-q8",
+      "topic": "Input Types",
+      "question": "Even with built-in validation, why must you STILL validate on the server?",
+      "options": [
+        { "id": "a", "text": "Because client validation is slower" },
+        { "id": "b", "text": "Because client-side validation can be bypassed (disabled JS, crafted requests)" },
+        { "id": "c", "text": "Because browsers ignore HTML validation" },
+        { "id": "d", "text": "Because inputs are encrypted" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Client validation is a UX convenience and is trivially bypassed; authoritative validation must happen server-side.",
+      "difficulty": "medium",
+      "tags": ["security", "validation"]
+    }
+  ]
+}

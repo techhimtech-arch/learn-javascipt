@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/023 - Responsive Typography.md",
+  "title": "Responsive Typography Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "rtyp-q1",
+      "topic": "Responsive Typography",
+      "question": "Responsive typography means font sizes:",
+      "options": [
+        { "id": "a", "text": "Scale appropriately across device sizes (not fixed px everywhere)" },
+        { "id": "b", "text": "Stay identical on all screens" },
+        { "id": "c", "text": "Use only pt units" },
+        { "id": "d", "text": "Disable on mobile" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Type should adapt to viewport for readability — via media queries, clamp(), or fluid techniques.",
+      "difficulty": "easy",
+      "tags": ["responsive", "typography"]
+    },
+    {
+      "id": "rtyp-q2",
+      "topic": "Responsive Typography",
+      "question": "clamp(1rem, 0.5rem + 1vw, 1.5rem) gives a font size that:",
+      "options": [
+        { "id": "a", "text": "Is never below 1rem nor above 1.5rem, fluid in between" },
+        { "id": "b", "text": "Is always exactly 1rem" },
+        { "id": "c", "text": "Only works with px" },
+        { "id": "d", "text": "Is fixed at 1.5rem" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "clamp(min, preferred, max): the preferred (viewport-based) value is used, bounded by min and max — fluid type without media queries.",
+      "difficulty": "hard",
+      "tags": ["clamp", "fluid"]
+    },
+    {
+      "id": "rtyp-q3",
+      "topic": "Responsive Typography",
+      "question": "rem is relative to:",
+      "options": [
+        { "id": "a", "text": "The root element's (html) font-size" },
+        { "id": "b", "text": "The parent element's font-size" },
+        { "id": "c", "text": "The viewport width" },
+        { "id": "d", "text": "The device pixel ratio" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "rem = root em (html font-size). em = parent's font-size. Using rem keeps scaling predictable from the root.",
+      "difficulty": "medium",
+      "tags": ["rem", "root"]
+    },
+    {
+      "id": "rtyp-q4",
+      "topic": "Responsive Typography",
+      "question": "em can be tricky because it is relative to:",
+      "options": [
+        { "id": "a", "text": "The font-size of the element's parent (compounding in nested contexts)" },
+        { "id": "b", "text": "The viewport" },
+        { "id": "c", "text": "The root only" },
+        { "id": "d", "text": "The image size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "em references the parent font-size; nested em values compound, which is why rem is often preferred for consistent scaling.",
+      "difficulty": "medium",
+      "tags": ["em", "compounding"]
+    },
+    {
+      "id": "rtyp-q5",
+      "topic": "Responsive Typography",
+      "question": "Setting html { font-size: 62.5% } is a trick to:",
+      "options": [
+        { "id": "a", "text": "Make 1rem ≈ 10px so rem math is easier (10px base)" },
+        { "id": "b", "text": "Shrink all text to 62.5%" },
+        { "id": "c", "text": "Disable zoom" },
+        { "id": "d", "text": "Set root to 62.5px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "62.5% of 16px = 10px, so 1.6rem = 16px. A common convenience (though some prefer leaving 16px base).",
+      "difficulty": "medium",
+      "tags": ["62.5%", "base"]
+    },
+    {
+      "id": "rtyp-q6",
+      "topic": "Responsive Typography",
+      "question": "A modular scale helps by:",
+      "options": [
+        { "id": "a", "text": "Defining harmonious font-size ratios (e.g. 1.25) across heading levels" },
+        { "id": "b", "text": "Randomizing sizes" },
+        { "id": "c", "text": "Using only one size" },
+        { "id": "d", "text": "Disabling bold" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A ratio-based scale produces consistent, pleasing type hierarchy rather than arbitrary sizes.",
+      "difficulty": "easy",
+      "tags": ["modular-scale", "hierarchy"]
+    },
+    {
+      "id": "rtyp-q7",
+      "topic": "Responsive Typography",
+      "question": "Line-length (measure) best practice is roughly:",
+      "options": [
+        { "id": "a", "text": "45-75 characters per line for comfortable reading" },
+        { "id": "b", "text": "200+ characters" },
+        { "id": "c", "text": "Exactly 10 characters" },
+        { "id": "d", "text": "One word per line" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Optimal measure ~45-75 chars; too wide or narrow harms readability. Constrain paragraph max-width accordingly.",
+      "difficulty": "medium",
+      "tags": ["measure", "readability"]
+    },
+    {
+      "id": "rtyp-q8",
+      "topic": "Responsive Typography",
+      "question": "Viewport-relative units for type include:",
+      "options": [
+        { "id": "a", "text": "vw/vh (viewport width/height percentages)" },
+        { "id": "b", "text": "Only px" },
+        { "id": "c", "text": "Only em" },
+        { "id": "d", "text": "pt only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "vw scales with viewport width; often combined with clamp()/calc() to avoid extremes on very small/large screens.",
+      "difficulty": "easy",
+      "tags": ["vw", "viewport"]
+    }
+  ]
+}

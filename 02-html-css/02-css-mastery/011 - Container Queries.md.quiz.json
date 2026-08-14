@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/011 - Container Queries.md",
+  "title": "Container Queries Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "cq-q1",
+      "topic": "Container Queries",
+      "question": "Container queries let a component respond to:",
+      "options": [
+        { "id": "a", "text": "The size of its CONTAINER, not the viewport" },
+        { "id": "b", "text": "The device brand" },
+        { "id": "c", "text": "The number of cores" },
+        { "id": "d", "text": "The browser version only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Unlike media queries (viewport-based), container queries adapt a component to its parent's width — true component-driven responsiveness.",
+      "difficulty": "medium",
+      "tags": ["container", "definition"]
+    },
+    {
+      "id": "cq-q2",
+      "topic": "Container Queries",
+      "question": "Before a container query can target an element, you must:",
+      "options": [
+        { "id": "a", "text": "Set container-type: inline-size (or size) on an ANCESTOR" },
+        { "id": "b", "text": "Add id='container'" },
+        { "id": "c", "text": "Use position:fixed" },
+        { "id": "d", "text": "Set display:grid" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "container-type establishes an element as a query container; @container then queries its size. The query container is the ancestor, not the element itself.",
+      "difficulty": "hard",
+      "tags": ["container-type", "setup"]
+    },
+    {
+      "id": "cq-q3",
+      "topic": "Container Queries",
+      "question": "The syntax to apply styles based on container width is:",
+      "options": [
+        { "id": "a", "text": "@container (min-width: 400px) { ... }" },
+        { "id": "b", "text": "@media (container-width: 400px)" },
+        { "id": "c", "text": "@supports container" },
+        { "id": "d", "text": "@viewport 400px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "@container queries the nearest ancestor container. This is the modern replacement for hacky viewport-based component styling.",
+      "difficulty": "medium",
+      "tags": ["at-container", "syntax"]
+    },
+    {
+      "id": "cq-q4",
+      "topic": "Container Queries",
+      "question": "The main advantage over media queries is:",
+      "options": [
+        { "id": "a", "text": "A component restyles correctly wherever it's placed (sidebar, main, card) without knowing the viewport" },
+        { "id": "b", "text": "They are faster" },
+        { "id": "c", "text": "They work without any CSS" },
+        { "id": "d", "text": "They only target print" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Components become self-adapting to their context, enabling true reusable UI — a big win for design systems.",
+      "difficulty": "medium",
+      "tags": ["advantage", "components"]
+    },
+    {
+      "id": "cq-q5",
+      "topic": "Container Queries",
+      "question": "container-type: inline-size vs size differs in that:",
+      "options": [
+        { "id": "a", "text": "inline-size queries only the inline (width) axis; size allows both dimensions but blocks size containment" },
+        { "id": "b", "text": "They are identical" },
+        { "id": "c", "text": "size only queries width" },
+        { "id": "d", "text": "inline-size is unsupported" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "inline-size (most common) containers query width cheaply. size enables block-axis queries but applies size containment (children can't affect container size).",
+      "difficulty": "hard",
+      "tags": ["inline-size", "size"]
+    },
+    {
+      "id": "cq-q6",
+      "topic": "Container Queries",
+      "question": "Can you name a container for targeted queries?",
+      "options": [
+        { "id": "a", "text": "Yes — container-name: sidebar; then @container sidebar (...)" },
+        { "id": "b", "text": "No, names are not allowed" },
+        { "id": "c", "text": "Only with JavaScript" },
+        { "id": "d", "text": "Only one container per page" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "container-name lets you scope @container to a named container, useful when multiple containers exist.",
+      "difficulty": "medium",
+      "tags": ["container-name", "naming"]
+    },
+    {
+      "id": "cq-q7",
+      "topic": "Container Queries",
+      "question": "Container queries are especially valuable for:",
+      "options": [
+        { "id": "a", "text": "Reusable design-system components placed in varying layouts" },
+        { "id": "b", "text": "Full-page layouts only" },
+        { "id": "c", "text": "Print styles" },
+        { "id": "d", "text": "Email HTML" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Components (cards, widgets) that appear in sidebars, grids, and modals benefit most — they adapt to placement, not viewport.",
+      "difficulty": "easy",
+      "tags": ["use-case", "design-system"]
+    },
+    {
+      "id": "cq-q8",
+      "topic": "Container Queries",
+      "question": "For older browsers without support, you should:",
+      "options": [
+        { "id": "a", "text": "Provide a sensible default (viewport media query / base styles) as fallback" },
+        { "id": "b", "text": "Abandon responsive design" },
+        { "id": "c", "text": "Use !important" },
+        { "id": "d", "text": "Inline all styles" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Progressive enhancement: default layout works without container queries; @supports can gate advanced styling.",
+      "difficulty": "medium",
+      "tags": ["fallback", "support"]
+    }
+  ]
+}

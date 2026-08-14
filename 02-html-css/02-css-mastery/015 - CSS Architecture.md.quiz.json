@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/015 - CSS Architecture.md",
+  "title": "CSS Architecture Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "arch-q1",
+      "topic": "CSS Architecture",
+      "question": "CSS architecture aims to solve:",
+      "options": [
+        { "id": "a", "text": "Scalability, maintainability, and avoiding style conflicts in large codebases" },
+        { "id": "b", "text": "Making pages load slower" },
+        { "id": "c", "text": "Removing all classes" },
+        { "id": "d", "text": "Only print styling" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "As projects grow, ad-hoc CSS becomes unmaintainable; architecture (BEM, ITCSS, modules) brings order and predictability.",
+      "difficulty": "easy",
+      "tags": ["architecture", "scalability"]
+    },
+    {
+      "id": "arch-q2",
+      "topic": "CSS Architecture",
+      "question": "ITCSS (Inverted Triangle CSS) organizes styles by:",
+      "options": [
+        { "id": "a", "text": "Specificity/layer — from generic (settings, tools) to specific (components, trumps)" },
+        { "id": "b", "text": "Alphabetical property order" },
+        { "id": "c", "text": "File size" },
+        { "id": "d", "text": "Random grouping" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ITCSS layers from low- to high-specificity (settings→tools→generic→elements→objects→components→utilities) to control the cascade.",
+      "difficulty": "hard",
+      "tags": ["itcss", "layers"]
+    },
+    {
+      "id": "arch-q3",
+      "topic": "CSS Architecture",
+      "question": "CSS Modules (in build tooling) provide:",
+      "options": [
+        { "id": "a", "text": "Locally-scoped class names to avoid global collisions" },
+        { "id": "b", "text": "A way to write Sass" },
+        { "id": "c", "text": "Inline styles" },
+        { "id": "d", "text": "A CSS framework" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CSS Modules hash/namespace class names per file, preventing accidental cross-file clashes in component-based apps.",
+      "difficulty": "medium",
+      "tags": ["css-modules", "scoping"]
+    },
+    {
+      "id": "arch-q4",
+      "topic": "CSS Architecture",
+      "question": "A 'reset' (e.g. normalize.css) primarily:",
+      "options": [
+        { "id": "a", "text": "Reduces cross-browser inconsistencies in default styles" },
+        { "id": "b", "text": "Adds animations" },
+        { "id": "c", "text": "Minifies CSS" },
+        { "id": "d", "text": "Compiles SCSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Resets/normalizers even out UA defaults so layouts start from a consistent baseline across browsers.",
+      "difficulty": "easy",
+      "tags": ["reset", "normalize"]
+    },
+    {
+      "id": "arch-q5",
+      "topic": "CSS Architecture",
+      "question": "Good architecture keeps specificity:",
+      "options": [
+        { "id": "a", "text": "Low and flat so overrides are predictable (avoid deep selectors/IDs)" },
+        { "id": "b", "text": "As high as possible with IDs" },
+        { "id": "c", "text": "Random per file" },
+        { "id": "d", "text": "Equal to the number of files" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Low-specificity, single-class selectors keep the cascade predictable and reduce the need for !important.",
+      "difficulty": "medium",
+      "tags": ["specificity", "flat"]
+    },
+    {
+      "id": "arch-q6",
+      "topic": "CSS Architecture",
+      "question": "In Angular, component ViewEncapsulation helps architecture by:",
+      "options": [
+        { "id": "a", "text": "Scoping component styles so they don't leak globally" },
+        { "id": "b", "text": "Speeding up the network" },
+        { "id": "c", "text": "Removing CSS files" },
+        { "id": "d", "text": "Disabling the cascade" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Encapsulation scopes styles per component (Emulated by default), a built-in architectural boundary that reduces leaks.",
+      "difficulty": "medium",
+      "tags": ["angular", "encapsulation"]
+    },
+    {
+      "id": "arch-q7",
+      "topic": "CSS Architecture",
+      "question": "The 'utility-first' architecture (Tailwind) trades:",
+      "options": [
+        { "id": "a", "text": "Semantic class names for composable utility classes in markup" },
+        { "id": "b", "text": "Speed for size" },
+        { "id": "c", "text": "CSS for JS" },
+        { "id": "d", "text": "Classes for IDs" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Utility-first moves styling into atomic classes rather than bespoke semantic classes — different tradeoff vs BEM-style architecture.",
+      "difficulty": "hard",
+      "tags": ["utility-first", "tradeoff"]
+    },
+    {
+      "id": "arch-q8",
+      "topic": "CSS Architecture",
+      "question": "A maintainable large-scale approach often combines:",
+      "options": [
+        { "id": "a", "text": "Design tokens (variables) + BEM/Modules + a layering strategy" },
+        { "id": "b", "text": "Only inline styles" },
+        { "id": "c", "text": "One giant stylesheet with !important" },
+        { "id": "d", "text": "No naming convention" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tokens for theming, a naming/scoping convention, and disciplined layering together keep CSS scalable.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "tokens"]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/034 - CSS Transforms.md",
+  "title": "CSS Transforms Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "trn-q1",
+      "topic": "CSS Transforms",
+      "question": "transform: translate(10px, 20px) moves an element:",
+      "options": [
+        { "id": "a", "text": "10px right and 20px down (no layout impact)" },
+        { "id": "b", "text": "10px down and 20px right" },
+        { "id": "c", "text": "Scales it" },
+        { "id": "d", "text": "Rotates it" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "translate(x, y): positive x is right, positive y is down. Transforms are visual only — they don't affect surrounding layout.",
+      "difficulty": "easy",
+      "tags": ["translate", "move"]
+    },
+    {
+      "id": "trn-q2",
+      "topic": "CSS Transforms",
+      "question": "transform-origin controls:",
+      "options": [
+        { "id": "a", "text": "The point around which rotate/scale/skew operations happen" },
+        { "id": "b", "text": "The element's background color" },
+        { "id": "c", "text": "The z-index" },
+        { "id": "d", "text": "The font size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Default origin is center; changing it (e.g. top left) changes how rotation/scaling pivots.",
+      "difficulty": "medium",
+      "tags": ["transform-origin", "pivot"]
+    },
+    {
+      "id": "trn-q3",
+      "topic": "CSS Transforms",
+      "question": "transform: scale(1.5) makes the element:",
+      "options": [
+        { "id": "a", "text": "1.5× its size (visual only, layout space unchanged)" },
+        { "id": "b", "text": "Half its size" },
+        { "id": "c", "text": "Rotate 1.5deg" },
+        { "id": "d", "text": "Move 1.5px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "scale multiplies dimensions visually; surrounding layout is unaffected (unlike width/height which reflows).",
+      "difficulty": "easy",
+      "tags": ["scale", "visual"]
+    },
+    {
+      "id": "trn-q4",
+      "topic": "CSS Transforms",
+      "question": "Multiple transforms on one element are applied:",
+      "options": [
+        { "id": "a", "text": "Right-to-left as a combined matrix (e.g. translate then rotate order matters)" },
+        { "id": "b", "text": "Independently, order doesn't matter" },
+        { "id": "c", "text": "Only the first one" },
+        { "id": "d", "text": "Randomly" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transform: translate() rotate() applies right-to-left; order changes the result (rotate-then-translate differs from translate-then-rotate).",
+      "difficulty": "hard",
+      "tags": ["multiple", "order"]
+    },
+    {
+      "id": "trn-q5",
+      "topic": "CSS Transforms",
+      "question": "transform: rotate(45deg) rotates:",
+      "options": [
+        { "id": "a", "text": "Clockwise by 45 degrees around transform-origin" },
+        { "id": "b", "text": "Counter-clockwise" },
+        { "id": "c", "text": "By 45px" },
+        { "id": "d", "text": "Horizontally flips" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Positive angles rotate clockwise (in standard screen coords). Negative rotates counter-clockwise.",
+      "difficulty": "easy",
+      "tags": ["rotate", "degrees"]
+    },
+    {
+      "id": "trn-q6",
+      "topic": "CSS Transforms",
+      "question": "A transform creates a new:",
+      "options": [
+        { "id": "a", "text": "Stacking context and containing block (affects fixed descendants)" },
+        { "id": "b", "text": "New HTML element" },
+        { "id": "c", "text": "New HTTP request" },
+        { "id": "d", "text": "New stylesheet" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Applying transform establishes a stacking context and a containing block — so position:fixed children anchor to it, not the viewport.",
+      "difficulty": "hard",
+      "tags": ["stacking-context", "containing-block"]
+    },
+    {
+      "id": "trn-q7",
+      "topic": "CSS Transforms",
+      "question": "To flip horizontally you use:",
+      "options": [
+        { "id": "a", "text": "transform: scaleX(-1)" },
+        { "id": "b", "text": "transform: rotate(180deg)" },
+        { "id": "c", "text": "transform: translateX(-1)" },
+        { "id": "d", "text": "transform: skewX(90deg)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "scaleX(-1) mirrors along the X axis. rotate(180) flips both axes; for horizontal-only use scaleX(-1).",
+      "difficulty": "medium",
+      "tags": ["flip", "scaleX"]
+    },
+    {
+      "id": "trn-q8",
+      "topic": "CSS Transforms",
+      "question": "Transforms are GPU-friendly because they:",
+      "options": [
+        { "id": "a", "text": "Run on the compositor layer (no layout/paint per frame)" },
+        { "id": "b", "text": "Trigger reflow" },
+        { "id": "c", "text": "Use the CPU only" },
+        { "id": "d", "text": "Require a stylesheet reload" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "translate/rotate/scale/opacity animate on the compositor — that's why they're the preferred animation properties for smoothness.",
+      "difficulty": "medium",
+      "tags": ["performance", "compositor"]
+    }
+  ]
+}

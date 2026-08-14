@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/012 - BEM.md",
+  "title": "BEM Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "bem-q1",
+      "topic": "BEM",
+      "question": "BEM stands for:",
+      "options": [
+        { "id": "a", "text": "Block, Element, Modifier" },
+        { "id": "b", "text": "Base, Element, Model" },
+        { "id": "c", "text": "Box, Edge, Margin" },
+        { "id": "d", "text": "Bold, Em, Markup" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "BEM is a naming methodology: Block (component), Element (part of block, __), Modifier (variant, --).",
+      "difficulty": "easy",
+      "tags": ["bem", "definition"]
+    },
+    {
+      "id": "bem-q2",
+      "topic": "BEM",
+      "question": "The BEM class for a 'button' inside a 'card' block, in a 'primary' variant:",
+      "options": [
+        { "id": "a", "text": "card__button--primary" },
+        { "id": "b", "text": "card . button . primary" },
+        { "id": "c", "text": "card-button-primary" },
+        { "id": "d", "text": "btn-card-prim" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "block__element--modifier: card (block) + __button (element) + --primary (modifier). Single class per node, flat specificity.",
+      "difficulty": "medium",
+      "tags": ["syntax", "naming"]
+    },
+    {
+      "id": "bem-q3",
+      "topic": "BEM",
+      "question": "A key benefit of BEM is:",
+      "options": [
+        { "id": "a", "text": "Flat, predictable specificity (single-class selectors) and self-documenting structure" },
+        { "id": "b", "text": "Shorter class names" },
+        { "id": "c", "text": "Automatic responsiveness" },
+        { "id": "d", "text": "Faster JavaScript" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "BEM uses one class per element, so specificity stays (0,0,1,0) — avoids specificity wars and makes styles portable.",
+      "difficulty": "medium",
+      "tags": ["benefit", "specificity"]
+    },
+    {
+      "id": "bem-q4",
+      "topic": "BEM",
+      "question": "In BEM, an Element is denoted by:",
+      "options": [
+        { "id": "a", "text": "Double underscore: block__element" },
+        { "id": "b", "text": "Single underscore: block_element" },
+        { "id": "c", "text": "A hyphen: block-element" },
+        { "id": "d", "text": "A dot: block.element" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Elements use block__element. Modifiers use --, blocks stand alone. This keeps the three-part convention clear.",
+      "difficulty": "easy",
+      "tags": ["element", "double-underscore"]
+    },
+    {
+      "id": "bem-q5",
+      "topic": "BEM",
+      "question": "A Modifier represents:",
+      "options": [
+        { "id": "a", "text": "A state or variant of a block/element (e.g. disabled, large, theme)" },
+        { "id": "b", "text": "A child element" },
+        { "id": "c", "text": "The root block" },
+        { "id": "d", "text": "A media query" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Modifiers (--primary, --disabled) flag variations without creating new blocks — keep base styles and extend.",
+      "difficulty": "easy",
+      "tags": ["modifier", "variant"]
+    },
+    {
+      "id": "bem-q6",
+      "topic": "BEM",
+      "question": "Why avoid nesting BEM elements like block__el1__el2?",
+      "options": [
+        { "id": "a", "text": "It breaks the block/element model; elements belong to the block, not other elements" },
+        { "id": "b", "text": "It is invalid CSS" },
+        { "id": "c", "text": "It makes classes shorter" },
+        { "id": "d", "text": "It improves specificity" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "BEM elements are flat: block__child, not block__parent__child. Deep nesting couples styles to structure.",
+      "difficulty": "medium",
+      "tags": ["nesting", "flat"]
+    },
+    {
+      "id": "bem-q7",
+      "topic": "BEM",
+      "question": "BEM helps avoid specificity issues because it encourages:",
+      "options": [
+        { "id": "a", "text": "Single-class selectors (low, uniform specificity)" },
+        { "id": "b", "text": "Lots of IDs" },
+        { "id": "c", "text": "Deep descendant selectors" },
+        { "id": "d", "text": "!important everywhere" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Each node gets one class → specificity is always (0,0,1,0). Predictable overrides without escalating selectors.",
+      "difficulty": "medium",
+      "tags": ["specificity", "single-class"]
+    },
+    {
+      "id": "bem-q8",
+      "topic": "BEM",
+      "question": "In a component framework (Angular), BEM pairs well because:",
+      "options": [
+        { "id": "a", "text": "Component-scoped templates map cleanly to blocks, keeping styles readable and conflict-free" },
+        { "id": "b", "text": "It replaces the framework" },
+        { "id": "c", "text": "It requires no CSS" },
+        { "id": "d", "text": "It only works with React" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "BEM's block = component mental model; combined with framework view encapsulation, styles stay modular and clear.",
+      "difficulty": "easy",
+      "tags": ["angular", "components"]
+    }
+  ]
+}

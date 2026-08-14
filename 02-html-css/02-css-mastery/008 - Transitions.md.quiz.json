@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/008 - Transitions.md",
+  "title": "CSS Transitions Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "trans-q1",
+      "topic": "Transitions",
+      "question": "A transition animates:",
+      "options": [
+        { "id": "a", "text": "A property's value change BETWEEN two states when it occurs" },
+        { "id": "b", "text": "A multi-step keyframe sequence automatically" },
+        { "id": "c", "text": "Only on page load" },
+        { "id": "d", "text": "Continuous looping motion" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions interpolate when a property changes (e.g. :hover). For keyframe sequences, use animations.",
+      "difficulty": "easy",
+      "tags": ["transition", "definition"]
+    },
+    {
+      "id": "trans-q2",
+      "topic": "Transitions",
+      "question": "The minimum needed to see a transition is:",
+      "options": [
+        { "id": "a", "text": "transition-property AND transition-duration" },
+        { "id": "b", "text": "transition-delay only" },
+        { "id": "c", "text": "@keyframes" },
+        { "id": "d", "text": "animation-name" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Without a duration (default 0s) the change is instant. You need both the property to watch and a non-zero duration.",
+      "difficulty": "medium",
+      "tags": ["property", "duration"]
+    },
+    {
+      "id": "trans-q3",
+      "topic": "Transitions",
+      "question": "transition: all 0.3s ease; will:",
+      "options": [
+        { "id": "a", "text": "Animate all transitionable properties over 0.3s with ease timing" },
+        { "id": "b", "text": "Disable all transitions" },
+        { "id": "c", "text": "Only animate color" },
+        { "id": "d", "text": "Run an infinite loop" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Shorthand: transition: <property> <duration> <timing-function> <delay>. 'all' targets every animatable property (use specific props to avoid surprises).",
+      "difficulty": "easy",
+      "tags": ["shorthand", "all"]
+    },
+    {
+      "id": "trans-q4",
+      "topic": "Transitions",
+      "question": "transition-timing-function: ease-in-out controls:",
+      "options": [
+        { "id": "a", "text": "The acceleration curve (slow-fast-slow) of the transition" },
+        { "id": "b", "text": "The delay before it starts" },
+        { "id": "c", "text": "The number of times it repeats" },
+        { "id": "d", "text": "The color" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Timing functions (ease, linear, ease-in-out, cubic-bezier) shape the progress over time, not the duration/delay.",
+      "difficulty": "medium",
+      "tags": ["timing-function", "curve"]
+    },
+    {
+      "id": "trans-q5",
+      "topic": "Transitions",
+      "question": "A property will NOT transition if:",
+      "options": [
+        { "id": "a", "text": "It has no intermediate computed value (e.g. display: none → block)" },
+        { "id": "b", "text": "It is color" },
+        { "id": "c", "text": "It has a duration set" },
+        { "id": "d", "text": "It is a transform" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions need interpolatable values. display can't tween, so use opacity/visibility/transform for show-hide effects.",
+      "difficulty": "hard",
+      "tags": ["interpolation", "display"]
+    },
+    {
+      "id": "trans-q6",
+      "topic": "Transitions",
+      "question": "Transitions vs animations: which can auto-run on page load without a state change?",
+      "options": [
+        { "id": "a", "text": "Animations (keyframes auto-run); transitions need a trigger" },
+        { "id": "b", "text": "Transitions auto-run; animations need a trigger" },
+        { "id": "c", "text": "Neither can" },
+        { "id": "d", "text": "Both auto-run" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Animations start automatically (or via animation-play-state). Transitions only fire when a property actually changes.",
+      "difficulty": "medium",
+      "tags": ["auto-run", "comparison"]
+    },
+    {
+      "id": "trans-q7",
+      "topic": "Transitions",
+      "question": "transition-delay: 0.5s means:",
+      "options": [
+        { "id": "a", "text": "The transition begins 0.5s AFTER the property change" },
+        { "id": "b", "text": "It lasts 0.5s total" },
+        { "id": "c", "text": "It repeats 0.5 times" },
+        { "id": "d", "text": "It runs 0.5x faster" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Delay postpones the start; duration (separate) sets how long the tween lasts.",
+      "difficulty": "easy",
+      "tags": ["delay", "timing"]
+    },
+    {
+      "id": "trans-q8",
+      "topic": "Transitions",
+      "question": "Good practice for hover transitions is:",
+      "options": [
+        { "id": "a", "text": "Define the transition on the BASE state so both enter AND leave are smooth" },
+        { "id": "b", "text": "Define it only on :hover" },
+        { "id": "c", "text": "Use transition: none always" },
+        { "id": "d", "text": "Only transition on click" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Putting transition on the base element means leaving :hover also animates back. Defining only on :hover makes the exit instant.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "hover"]
+    }
+  ]
+}

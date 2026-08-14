@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/001 - Semantic HTML.md",
+  "title": "Semantic HTML Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "semantic-q1",
+      "topic": "Semantic HTML",
+      "question": "Which of these is a SEMANTIC element (conveys meaning), not just a generic container?",
+      "options": [
+        { "id": "a", "text": "<div>" },
+        { "id": "b", "text": "<span>" },
+        { "id": "c", "text": "<article>" },
+        { "id": "d", "text": "<br>" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "<article> describes self-contained content. <div>/<span> are generic and carry no meaning; <br> is a line break.",
+      "difficulty": "easy",
+      "tags": ["semantic", "elements"]
+    },
+    {
+      "id": "semantic-q2",
+      "topic": "Semantic HTML",
+      "question": "How many <main> elements should a single HTML document contain?",
+      "options": [
+        { "id": "a", "text": "As many as you like" },
+        { "id": "b", "text": "Exactly one" },
+        { "id": "c", "text": "At least two" },
+        { "id": "d", "text": "None is required, but max three" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "There must be exactly ONE <main> per document — it represents the dominant unique content. Multiple <main> elements break assistive-tech expectations.",
+      "difficulty": "easy",
+      "tags": ["main", "best-practice"]
+    },
+    {
+      "id": "semantic-q3",
+      "topic": "Semantic HTML",
+      "question": "What implicit ARIA role does the <nav> element expose to assistive technology?",
+      "options": [
+        { "id": "a", "text": "role=\"banner\"" },
+        { "id": "b", "text": "role=\"navigation\"" },
+        { "id": "c", "text": "role=\"contentinfo\"" },
+        { "id": "d", "text": "role=\"region\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Browsers map <nav> to role=\"navigation\". <header>→banner, <footer>→contentinfo, <section>→region.",
+      "difficulty": "medium",
+      "tags": ["aria", "roles"]
+    },
+    {
+      "id": "semantic-q4",
+      "topic": "Semantic HTML",
+      "question": "Which element should wrap an independent, reusable piece of content (e.g. a blog post or comment)?",
+      "options": [
+        { "id": "a", "text": "<section>" },
+        { "id": "b", "text": "<div>" },
+        { "id": "c", "text": "<article>" },
+        { "id": "d", "text": "<aside>" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "<article> marks content that is independently distributable (posts, comments, cards). <section> groups thematically related content; <aside> is tangential.",
+      "difficulty": "medium",
+      "tags": ["article", "section"]
+    },
+    {
+      "id": "semantic-q5",
+      "topic": "Semantic HTML",
+      "question": "Why does semantic HTML help SEO?",
+      "options": [
+        { "id": "a", "text": "It makes the page load faster" },
+        { "id": "b", "text": "Search crawlers infer structure/meaning and rank content better" },
+        { "id": "c", "text": "It increases font size automatically" },
+        { "id": "d", "text": "It removes the need for meta tags" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Crawlers use semantics to understand hierarchy and topic relevance, improving indexing/ranking. It is not a direct speed or font effect.",
+      "difficulty": "easy",
+      "tags": ["seo", "crawlers"]
+    },
+    {
+      "id": "semantic-q6",
+      "topic": "Semantic HTML",
+      "question": "A common mistake is using <section> purely for styling. What is the correct rule?",
+      "options": [
+        { "id": "a", "text": "Use <section> only when it has a heading and groups related content" },
+        { "id": "b", "text": "Use <section> for every box you want to style" },
+        { "id": "c", "text": "<section> is deprecated, use <div>" },
+        { "id": "d", "text": "Nest as many <main> as needed inside <section>" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A section should group thematically related content, typically with a heading. For pure styling use <div>. Never nest multiple <main>.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "section"]
+    },
+    {
+      "id": "semantic-q7",
+      "topic": "Semantic HTML",
+      "question": "What does the <time> element with a datetime attribute provide?",
+      "options": [
+        { "id": "a", "text": "A live clock on the page" },
+        { "id": "b", "text": "Machine-readable date/time for parsers and search engines" },
+        { "id": "c", "text": "Automatic timezone conversion" },
+        { "id": "d", "text": "A countdown timer" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "<time datetime=\"...\"> gives parsers/search engines a standardized value (e.g. 2025-01-01T09:00Z) while showing human text inside.",
+      "difficulty": "medium",
+      "tags": ["time", "datetime"]
+    },
+    {
+      "id": "semantic-q8",
+      "topic": "Semantic HTML",
+      "question": "In Angular templates, why is using semantic tags (article/header/footer) recommended?",
+      "options": [
+        { "id": "a", "text": "It makes Angular compile faster" },
+        { "id": "b", "text": "It produces accessible, well-structured component layouts" },
+        { "id": "c", "text": "It is required by Angular CLI" },
+        { "id": "d", "text": "It removes the need for RxJS" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Semantic tags in component templates give accessible, maintainable structure — a frontend best practice, not an Angular requirement.",
+      "difficulty": "easy",
+      "tags": ["angular", "accessibility"]
+    }
+  ]
+}

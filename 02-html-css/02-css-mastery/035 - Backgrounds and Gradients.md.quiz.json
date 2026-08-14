@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/035 - Backgrounds and Gradients.md",
+  "title": "Backgrounds and Gradients Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "bg-q1",
+      "topic": "Backgrounds and Gradients",
+      "question": "A linear-gradient(90deg, red, blue) goes from:",
+      "options": [
+        { "id": "a", "text": "Red on the LEFT to blue on the RIGHT (0deg = top→bottom, 90deg = left→right)" },
+        { "id": "b", "text": "Red on top to blue bottom only" },
+        { "id": "c", "text": "A radial pattern" },
+        { "id": "d", "text": "Blue to red" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Angle 0deg points up (bottom→top); 90deg points right (left→right). 90deg = red left, blue right.",
+      "difficulty": "medium",
+      "tags": ["linear-gradient", "angle"]
+    },
+    {
+      "id": "bg-q2",
+      "topic": "Backgrounds and Gradients",
+      "question": "background-size: cover means the image:",
+      "options": [
+        { "id": "a", "text": "Scales to fill the area, cropping overflow to preserve aspect ratio" },
+        { "id": "b", "text": "Fits entirely inside, possibly leaving gaps" },
+        { "id": "c", "text": "Keeps original pixel size" },
+        { "id": "d", "text": "Tiles repeatedly" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "cover fills the box (cropping edges); contain fits the whole image (may letterbox). repeat tiles.",
+      "difficulty": "medium",
+      "tags": ["background-size", "cover"]
+    },
+    {
+      "id": "bg-q3",
+      "topic": "Backgrounds and Gradients",
+      "question": "Multiple backgrounds are layered with:",
+      "options": [
+        { "id": "a", "text": "Comma-separated values, first on TOP" },
+        { "id": "b", "text": "Semicolons" },
+        { "id": "c", "text": "Nested url() only" },
+        { "id": "d", "text": "Only one background allowed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "background: url(a), linear-gradient(...) stacks them; the first listed is painted front-most.",
+      "difficulty": "medium",
+      "tags": ["multiple", "layering"]
+    },
+    {
+      "id": "bg-q4",
+      "topic": "Backgrounds and Gradients",
+      "question": "background-clip: text makes the background visible:",
+      "options": [
+        { "id": "a", "text": "Only within the glyphs (text shows the gradient) when combined with transparent text color" },
+        { "id": "b", "text": "Behind the padding box only" },
+        { "id": "c", "text": "Inside the border" },
+        { "id": "d", "text": "Everywhere" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "clipping to text + color: transparent lets a gradient fill the letters — a popular text-effect technique.",
+      "difficulty": "hard",
+      "tags": ["background-clip", "text"]
+    },
+    {
+      "id": "bg-q5",
+      "topic": "Backgrounds and Gradients",
+      "question": "radial-gradient creates a:",
+      "options": [
+        { "id": "a", "text": "Circular/elliptical gradient radiating from a center point" },
+        { "id": "b", "text": "Straight-line gradient" },
+        { "id": "c", "text": "Solid color" },
+        { "id": "d", "text": "Repeating square" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "radial-gradient spreads from a center outward (circle or ellipse), useful for glows, spotlights, buttons.",
+      "difficulty": "easy",
+      "tags": ["radial-gradient", "circular"]
+    },
+    {
+      "id": "bg-q6",
+      "topic": "Backgrounds and Gradients",
+      "question": "repeating-linear-gradient is useful for:",
+      "options": [
+        { "id": "a", "text": "Stripes/patterns that tile the gradient automatically" },
+        { "id": "b", "text": "Single solid fills" },
+        { "id": "c", "text": "Blurring images" },
+        { "id": "d", "text": "Hiding text" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "repeating-* gradients loop the color stops, ideal for zebra stripes, rulers, and patterns without images.",
+      "difficulty": "medium",
+      "tags": ["repeating", "stripes"]
+    },
+    {
+      "id": "bg-q7",
+      "topic": "Backgrounds and Gradients",
+      "question": "background-position: center center places the image:",
+      "options": [
+        { "id": "a", "text": "Centered both horizontally and vertically" },
+        { "id": "b", "text": "Top-left" },
+        { "id": "c", "text": "Bottom-right" },
+        { "id": "d", "text": "Stretched" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Two-value position sets x and y; 'center center' centers the image in the box (with no-repeat).",
+      "difficulty": "easy",
+      "tags": ["background-position", "center"]
+    },
+    {
+      "id": "bg-q8",
+      "topic": "Backgrounds and Gradients",
+      "question": "Gradients are technically:",
+      "options": [
+        { "id": "a", "text": "CSS images (so they work anywhere an image is accepted)" },
+        { "id": "b", "text": "HTML elements" },
+        { "id": "c", "text": "JavaScript objects" },
+        { "id": "d", "text": "SVG files" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gradients are <image> values — usable in background, border-image, mask, etc. They're not separate files.",
+      "difficulty": "medium",
+      "tags": ["gradient", "css-image"]
+    }
+  ]
+}

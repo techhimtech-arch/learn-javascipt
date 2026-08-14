@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/003 - Positioning.md",
+  "title": "CSS Positioning Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "pos-q1",
+      "topic": "Positioning",
+      "question": "position: absolute removes an element from normal flow and positions it relative to:",
+      "options": [
+        { "id": "a", "text": "Its nearest positioned ancestor (or the viewport if none)" },
+        { "id": "b", "text": "Always the document body" },
+        { "id": "c", "text": "The nearest sibling" },
+        { "id": "d", "text": "The browser window only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "absolute is offset from the nearest ancestor with position != static. Without one, it falls back to the initial containing block (viewport).",
+      "difficulty": "medium",
+      "tags": ["absolute", "containing-block"]
+    },
+    {
+      "id": "pos-q2",
+      "topic": "Positioning",
+      "question": "position: fixed differs from absolute because it is relative to:",
+      "options": [
+        { "id": "a", "text": "The viewport (stays put on scroll)" },
+        { "id": "b", "text": "The nearest flex container" },
+        { "id": "c", "text": "The document flow" },
+        { "id": "d", "text": "The parent's padding box" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fixed positions relative to the viewport and doesn't move on scroll (great for headers/modals).",
+      "difficulty": "easy",
+      "tags": ["fixed", "viewport"]
+    },
+    {
+      "id": "pos-q3",
+      "topic": "Positioning",
+      "question": "position: sticky behaves like:",
+      "options": [
+        { "id": "a", "text": "relative until it would scroll past a threshold, then sticks like fixed within its parent" },
+        { "id": "b", "text": "Always absolute" },
+        { "id": "c", "text": "Same as static" },
+        { "id": "d", "text": "Always hidden" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sticky toggles between relative and fixed based on scroll position, constrained to its containing block — perfect for sticky headers.",
+      "difficulty": "hard",
+      "tags": ["sticky", "scroll"]
+    },
+    {
+      "id": "pos-q4",
+      "topic": "Positioning",
+      "question": "For position: absolute/relative/fixed, the offsets (top/right/bottom/left) are ignored when:",
+      "options": [
+        { "id": "a", "text": "position is static (the default)" },
+        { "id": "b", "text": "position is relative" },
+        { "id": "c", "text": "display is flex" },
+        { "id": "d", "text": "z-index is 0" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "top/left/etc. only apply to positioned elements (relative/absolute/fixed/sticky). With static they're ignored.",
+      "difficulty": "medium",
+      "tags": ["static", "offsets"]
+    },
+    {
+      "id": "pos-q5",
+      "topic": "Positioning",
+      "question": "z-index controls:",
+      "options": [
+        { "id": "a", "text": "Stacking order of positioned elements (which appears on top)" },
+        { "id": "b", "text": "Horizontal position" },
+        { "id": "c", "text": "Font weight" },
+        { "id": "d", "text": "Animation speed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "z-index sets paint order among positioned elements within the same stacking context; higher = closer to viewer.",
+      "difficulty": "easy",
+      "tags": ["z-index", "stacking"]
+    },
+    {
+      "id": "pos-q6",
+      "topic": "Positioning",
+      "question": "A 'stacking context' is created by, among others:",
+      "options": [
+        { "id": "a", "text": "position + z-index, opacity < 1, transform, will-change, flex/grid child with z-index" },
+        { "id": "b", "text": "Only the color property" },
+        { "id": "c", "text": "Setting display:block" },
+        { "id": "d", "text": "Adding a class name" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Many properties create a new stacking context (transform, opacity, position+z-index, will-change...), scoping z-index locally.",
+      "difficulty": "hard",
+      "tags": ["stacking-context", "transform"]
+    },
+    {
+      "id": "pos-q7",
+      "topic": "Positioning",
+      "question": "To center an absolutely-positioned box both ways you use:",
+      "options": [
+        { "id": "a", "text": "top:50%; left:50%; transform: translate(-50%,-50%)" },
+        { "id": "b", "text": "margin:auto only" },
+        { "id": "c", "text": "text-align:center" },
+        { "id": "d", "text": "float:center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Offset to 50% then translate back by half its own size — the classic absolute-centering technique.",
+      "difficulty": "medium",
+      "tags": ["centering", "translate"]
+    },
+    {
+      "id": "pos-q8",
+      "topic": "Positioning",
+      "question": "When is absolute positioning a poor choice?",
+      "options": [
+        { "id": "a", "text": "For whole page layout (it breaks document flow and responsive behavior)" },
+        { "id": "b", "text": "For modals" },
+        { "id": "c", "text": "For tooltips" },
+        { "id": "d", "text": "For dropdowns" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Absolute positioning yanks elements from flow; using it for major layouts harms responsiveness. Flex/Grid are better for layout.",
+      "difficulty": "medium",
+      "tags": ["mistakes", "layout"]
+    }
+  ]
+}

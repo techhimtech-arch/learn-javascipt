@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/016 - CSS Grid.md",
+  "title": "CSS Grid (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "grid2-q1",
+      "topic": "CSS Grid",
+      "question": "display: grid on a container makes its direct children:",
+      "options": [
+        { "id": "a", "text": "Grid items laid out along defined rows and columns" },
+        { "id": "b", "text": "Inline elements" },
+        { "id": "c", "text": "Absolutely positioned" },
+        { "id": "d", "text": "Flex items" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "grid establishes a grid formatting context; direct children become grid items placed into the implicit/explicit tracks.",
+      "difficulty": "easy",
+      "tags": ["display-grid", "items"]
+    },
+    {
+      "id": "grid2-q2",
+      "topic": "CSS Grid",
+      "question": "grid-template-columns: 1fr 2fr 1fr creates:",
+      "options": [
+        { "id": "a", "text": "Three columns where the middle takes twice the free space of the outer two" },
+        { "id": "b", "text": "Three equal columns" },
+        { "id": "c", "text": "One column" },
+        { "id": "d", "text": "Two columns" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fr units share leftover space proportionally: 2fr gets double the 1fr columns' share.",
+      "difficulty": "medium",
+      "tags": ["fr", "proportion"]
+    },
+    {
+      "id": "grid2-q3",
+      "topic": "CSS Grid",
+      "question": "The 'implicit grid' is created when:",
+      "options": [
+        { "id": "a", "text": "Items are placed beyond the explicitly defined rows/columns" },
+        { "id": "b", "text": "You set display:block" },
+        { "id": "c", "text": "You use flexbox" },
+        { "id": "d", "text": "You remove all tracks" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Explicit tracks come from template-*; auto-placed items that overflow generate implicit rows/columns (sized by grid-auto-rows/columns).",
+      "difficulty": "hard",
+      "tags": ["implicit-grid", "auto"]
+    },
+    {
+      "id": "grid2-q4",
+      "topic": "CSS Grid",
+      "question": "To make a 12-column layout where an item spans columns 2-9, use:",
+      "options": [
+        { "id": "a", "text": "grid-column: 2 / 10 (start line 2, end line 10)" },
+        { "id": "b", "text": "grid-column: 2-9" },
+        { "id": "c", "text": "columns: 2 to 9" },
+        { "id": "d", "text": "span: 7" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "grid-column: start / end uses line numbers (end is exclusive). 2/10 spans lines 2 through 9 = 7 columns.",
+      "difficulty": "medium",
+      "tags": ["grid-column", "lines"]
+    },
+    {
+      "id": "grid2-q5",
+      "topic": "CSS Grid",
+      "question": "grid-auto-flow: dense helps by:",
+      "options": [
+        { "id": "a", "text": "Backfilling earlier gaps with smaller items to reduce holes" },
+        { "id": "b", "text": "Making everything one column" },
+        { "id": "c", "text": "Disabling auto-placement" },
+        { "id": "d", "text": "Centering items" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "dense packing reorders auto-placement to fill gaps, producing a tighter layout (at the cost of source order).",
+      "difficulty": "hard",
+      "tags": ["auto-flow", "dense"]
+    },
+    {
+      "id": "grid2-q6",
+      "topic": "CSS Grid",
+      "question": "minmax(100px, 1fr) as a track size means:",
+      "options": [
+        { "id": "a", "text": "At least 100px, but can grow to fill 1fr of free space" },
+        { "id": "b", "text": "Exactly 100px" },
+        { "id": "c", "text": "At most 1fr" },
+        { "id": "d", "text": "Between 0 and 1px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "minmax(min, max) sets a flexible range — min(100px) ensures a floor, 1fr lets it expand.",
+      "difficulty": "medium",
+      "tags": ["minmax", "range"]
+    },
+    {
+      "id": "grid2-q7",
+      "topic": "CSS Grid",
+      "question": "place-items: center centers:",
+      "options": [
+        { "id": "a", "text": "Each grid item within its OWN cell (shorthand for justify/align-items)" },
+        { "id": "b", "text": "The whole grid in the page" },
+        { "id": "c", "text": "Only the first item" },
+        { "id": "d", "text": "The columns only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "place-items sets both align-items and justify-items, centering content inside each cell — handy for card centers.",
+      "difficulty": "medium",
+      "tags": ["place-items", "center"]
+    },
+    {
+      "id": "grid2-q8",
+      "topic": "CSS Grid",
+      "question": "Subgrid (modern CSS) allows a grid item to:",
+      "options": [
+        { "id": "a", "text": "Align its OWN children to the parent grid's tracks" },
+        { "id": "b", "text": "Become a flex container" },
+        { "id": "c", "text": "Remove itself from flow" },
+        { "id": "d", "text": "Disable tracks" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Subgrid lets a nested grid inherit the parent's row/column lines so inner content aligns to the outer layout — great for cards.",
+      "difficulty": "hard",
+      "tags": ["subgrid", "alignment"]
+    }
+  ]
+}

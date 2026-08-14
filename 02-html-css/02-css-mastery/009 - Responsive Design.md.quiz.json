@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/009 - Responsive Design.md",
+  "title": "Responsive Design Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "resp-q1",
+      "topic": "Responsive Design",
+      "question": "Responsive design means a site:",
+      "options": [
+        { "id": "a", "text": "Adapts layout/content to different screen sizes and devices" },
+        { "id": "b", "text": "Only works on desktop" },
+        { "id": "c", "text": "Uses fixed pixel widths everywhere" },
+        { "id": "d", "text": "Requires a separate mobile domain only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Responsive design fluidly adapts via fluid grids, flexible media, and media queries — one codebase for all devices.",
+      "difficulty": "easy",
+      "tags": ["responsive", "definition"]
+    },
+    {
+      "id": "resp-q2",
+      "topic": "Responsive Design",
+      "question": "The viewport meta tag <meta name=\"viewport\" content=\"width=device-width\"> does:",
+      "options": [
+        { "id": "a", "text": "Tells mobile browsers to use the device width (not a zoomed-out 980px default)" },
+        { "id": "b", "text": "Sets the font size" },
+        { "id": "c", "text": "Disables zoom" },
+        { "id": "d", "text": "Loads a different CSS file" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Without it, mobile renders at ~980px and scales down. width=device-width makes CSS media queries match the real device width.",
+      "difficulty": "medium",
+      "tags": ["viewport", "meta"]
+    },
+    {
+      "id": "resp-q3",
+      "topic": "Responsive Design",
+      "question": "Mobile-first design means:",
+      "options": [
+        { "id": "a", "text": "Write base styles for small screens, then enhance for larger via min-width media queries" },
+        { "id": "b", "text": "Design only for phones" },
+        { "id": "c", "text": "Use max-width queries only" },
+        { "id": "d", "text": "Ignore tablets" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mobile-first: default = mobile styles; min-width queries add layout as the viewport grows. Often improves performance (less override).",
+      "difficulty": "medium",
+      "tags": ["mobile-first", "min-width"]
+    },
+    {
+      "id": "resp-q4",
+      "topic": "Responsive Design",
+      "question": "Fluid typography can use:",
+      "options": [
+        { "id": "a", "text": "clamp(min, preferred, max) for responsive font sizes" },
+        { "id": "b", "text": "Only px values" },
+        { "id": "c", "text": "display:none" },
+        { "id": "d", "text": "position:fixed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "clamp() gives a fluid size bounded between min and max (e.g. clamp(1rem, 2vw + 1rem, 1.5rem)) — great for responsive type.",
+      "difficulty": "hard",
+      "tags": ["clamp", "typography"]
+    },
+    {
+      "id": "resp-q5",
+      "topic": "Responsive Design",
+      "question": "Relative units like % and fr help responsiveness because they:",
+      "options": [
+        { "id": "a", "text": "Scale with their container/viewport instead of fixed pixels" },
+        { "id": "b", "text": "Are always smaller" },
+        { "id": "c", "text": "Disable scrolling" },
+        { "id": "d", "text": "Force desktop layout" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Fluid units (% , vw, fr, em) adapt to context; fixed px does not. This is core to fluid grids.",
+      "difficulty": "easy",
+      "tags": ["units", "fluid"]
+    },
+    {
+      "id": "resp-q6",
+      "topic": "Responsive Design",
+      "question": "A responsive image strategy includes:",
+      "options": [
+        { "id": "a", "text": "srcset/sizes and/or <picture> with appropriate breakpoints" },
+        { "id": "b", "text": "Only GIFs" },
+        { "id": "c", "text": "Fixed width=2000px" },
+        { "id": "d", "text": "display:none on all images" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Serve right-sized images per device via srcset/sizes and art-direction via <picture> to save bandwidth and improve LCP.",
+      "difficulty": "medium",
+      "tags": ["images", "srcset"]
+    },
+    {
+      "id": "resp-q7",
+      "topic": "Responsive Design",
+      "question": "Common breakpoints are chosen based on:",
+      "options": [
+        { "id": "a", "text": "Real device/content needs, not just 'phone/tablet/desktop' labels" },
+        { "id": "b", "text": "The current year" },
+        { "id": "c", "text": "Prime numbers" },
+        { "id": "d", "text": "The number of CSS files" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Design by where your layout breaks, using content-driven breakpoints — avoid rigid device-class assumptions.",
+      "difficulty": "medium",
+      "tags": ["breakpoints", "content"]
+    },
+    {
+      "id": "resp-q8",
+      "topic": "Responsive Design",
+      "question": "Which helps a layout reflow from multi-column to single-column on small screens?",
+      "options": [
+        { "id": "a", "text": "Flex wrap or Grid auto-fit/minmax with a max-width media query" },
+        { "id": "b", "text": "position:absolute" },
+        { "id": "c", "text": "white-space:nowrap" },
+        { "id": "d", "text": "overflow:hidden" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Flex wrap or Grid's auto-fit/minmax naturally collapse to fewer columns; media queries can force single-column past a breakpoint.",
+      "difficulty": "hard",
+      "tags": ["reflow", "grid", "flex"]
+    }
+  ]
+}

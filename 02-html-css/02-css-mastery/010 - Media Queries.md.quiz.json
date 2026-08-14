@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/010 - Media Queries.md",
+  "title": "Media Queries Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "mq-q1",
+      "topic": "Media Queries",
+      "question": "A media query @media (max-width: 600px) applies when:",
+      "options": [
+        { "id": "a", "text": "The viewport width is 600px or LESS" },
+        { "id": "b", "text": "The viewport width is exactly 600px" },
+        { "id": "c", "text": "The viewport width is 600px or MORE" },
+        { "id": "d", "text": "The device is a tablet only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "max-width: N matches viewports ≤ N. min-width: N matches ≥ N (used in mobile-first).",
+      "difficulty": "easy",
+      "tags": ["max-width", "media-query"]
+    },
+    {
+      "id": "mq-q2",
+      "topic": "Media Queries",
+      "question": "In a mobile-first approach you use:",
+      "options": [
+        { "id": "a", "text": "min-width media queries (enhance as screen grows)" },
+        { "id": "b", "text": "max-width media queries only" },
+        { "id": "c", "text": "print queries only" },
+        { "id": "d", "text": "No media queries" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mobile-first base styles target small screens; min-width queries layer on larger layouts.",
+      "difficulty": "easy",
+      "tags": ["mobile-first", "min-width"]
+    },
+    {
+      "id": "mq-q3",
+      "topic": "Media Queries",
+      "question": "You can query features beyond width, such as:",
+      "options": [
+        { "id": "a", "text": "orientation, hover, prefers-color-scheme, prefers-reduced-motion" },
+        { "id": "b", "text": "Only width and height" },
+        { "id": "c", "text": "Only device brand" },
+        { "id": "d", "text": "Only the number of cores" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "@media supports orientation, hover capability, prefers-color-scheme (dark mode), prefers-reduced-motion, etc.",
+      "difficulty": "medium",
+      "tags": ["features", "prefers-color-scheme"]
+    },
+    {
+      "id": "mq-q4",
+      "topic": "Media Queries",
+      "question": "prefers-color-scheme: dark lets you:",
+      "options": [
+        { "id": "a", "text": "Apply a dark theme when the user's OS is in dark mode" },
+        { "id": "b", "text": "Force dark mode for everyone" },
+        { "id": "c", "text": "Disable animations" },
+        { "id": "d", "text": "Change the font" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Respect OS theme preference to auto-switch light/dark — great UX and accessibility win.",
+      "difficulty": "medium",
+      "tags": ["dark-mode", "preference"]
+    },
+    {
+      "id": "mq-q5",
+      "topic": "Media Queries",
+      "question": "Combining conditions: @media (min-width: 600px) and (max-width: 900px) matches:",
+      "options": [
+        { "id": "a", "text": "Viewports between 600px and 900px inclusive" },
+        { "id": "b", "text": "Only exactly 750px" },
+        { "id": "c", "text": "Viewports wider than 900px" },
+        { "id": "d", "text": "All viewports" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The 'and' operator requires ALL conditions true — a bounded range (common tablet breakpoint).",
+      "difficulty": "medium",
+      "tags": ["and", "range"]
+    },
+    {
+      "id": "mq-q6",
+      "topic": "Media Queries",
+      "question": "A 'logical' media query with 'or' uses:",
+      "options": [
+        { "id": "a", "text": "A comma (,) between queries — any matching query applies" },
+        { "id": "b", "text": "The || operator" },
+        { "id": "c", "text": "The && operator" },
+        { "id": "d", "text": "The word OR" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Commas separate queries as alternatives (like OR). 'and' requires all; ',' requires any.",
+      "difficulty": "hard",
+      "tags": ["or", "comma"]
+    },
+    {
+      "id": "mq-q7",
+      "topic": "Media Queries",
+      "question": "Why avoid too many fixed breakpoints?",
+      "options": [
+        { "id": "a", "text": "They create maintenance burden and may not match real device needs" },
+        { "id": "b", "text": "They make CSS invalid" },
+        { "id": "c", "text": "They speed up the page" },
+        { "id": "d", "text": "They are not supported" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Fewer, content-driven breakpoints (often via fluid techniques) are easier to maintain and more robust than many rigid ones.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "breakpoints"]
+    },
+    {
+      "id": "mq-q8",
+      "topic": "Media Queries",
+      "question": "@media print is used to:",
+      "options": [
+        { "id": "a", "text": "Style how a page looks when printed (hide nav, show URLs)" },
+        { "id": "b", "text": "Style dark mode" },
+        { "id": "c", "text": "Target phones only" },
+        { "id": "d", "text": "Animate on scroll" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Print media queries optimize printed output — hide chrome, expand links, set page margins.",
+      "difficulty": "easy",
+      "tags": ["print", "media"]
+    }
+  ]
+}

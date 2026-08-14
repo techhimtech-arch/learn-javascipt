@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/004 - Selectors.md",
+  "title": "CSS Selectors Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "sel-q1",
+      "topic": "Selectors",
+      "question": "Which selector matches a <button> element with class 'primary'?",
+      "options": [
+        { "id": "a", "text": "button.primary" },
+        { "id": "b", "text": ".primary button" },
+        { "id": "c", "text": "button > primary" },
+        { "id": "d", "text": "button#primary" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "button.primary = element type AND class. .primary button (descendant) and button#primary (ID) are different.",
+      "difficulty": "easy",
+      "tags": ["compound", "class"]
+    },
+    {
+      "id": "sel-q2",
+      "topic": "Selectors",
+      "question": "The child combinator '>' selects:",
+      "options": [
+        { "id": "a", "text": "Direct children only (not deeper descendants)" },
+        { "id": "b", "text": "All descendants" },
+        { "id": "c", "text": "Adjacent siblings only" },
+        { "id": "d", "text": "The parent element" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ul > li matches li's that are direct children of ul. The space (descendant) combinator matches any depth.",
+      "difficulty": "medium",
+      "tags": ["child", "combinator"]
+    },
+    {
+      "id": "sel-q3",
+      "topic": "Selectors",
+      "question": "a:hover, a:focus, a:active are examples of:",
+      "options": [
+        { "id": "a", "text": "Pseudo-classes (state-based)" },
+        { "id": "b", "text": "Pseudo-elements" },
+        { "id": "c", "text": "Attribute selectors" },
+        { "id": "d", "text": "ID selectors" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Pseudo-classes (:hover, :focus, :nth-child) target states/positions. Pseudo-elements (::before) target parts of an element.",
+      "difficulty": "easy",
+      "tags": ["pseudo-class", "state"]
+    },
+    {
+      "id": "sel-q4",
+      "topic": "Selectors",
+      "question": "input[type=\"text\"] is an:",
+      "options": [
+        { "id": "a", "text": "Attribute selector" },
+        { "id": "b", "text": "Pseudo-element" },
+        { "id": "c", "text": "Universal selector" },
+        { "id": "d", "text": "Class selector" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Square brackets denote attribute selectors; they match elements by attribute presence/value.",
+      "difficulty": "easy",
+      "tags": ["attribute", "selector"]
+    },
+    {
+      "id": "sel-q5",
+      "topic": "Selectors",
+      "question": "p::first-line targets:",
+      "options": [
+        { "id": "a", "text": "The first formatted line of a paragraph (a pseudo-element)" },
+        { "id": "b", "text": "The first <line> child element" },
+        { "id": "c", "text": "All paragraphs" },
+        { "id": "d", "text": "The first letter only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "::first-line (double-colon) is a pseudo-element styling the first line. ::first-letter targets the first character.",
+      "difficulty": "medium",
+      "tags": ["pseudo-element", "first-line"]
+    },
+    {
+      "id": "sel-q6",
+      "topic": "Selectors",
+      "question": "The universal selector is written as:",
+      "options": [
+        { "id": "a", "text": "*" },
+        { "id": "b", "text": "._" },
+        { "id": "c", "text": "all" },
+        { "id": "d", "text": "%%" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "* matches any element. It has the lowest specificity (0,0,0,0) and is often used in resets (e.g. * { box-sizing }).",
+      "difficulty": "easy",
+      "tags": ["universal", "asterisk"]
+    },
+    {
+      "id": "sel-q7",
+      "topic": "Selectors",
+      "question": "li:nth-child(2n) selects:",
+      "options": [
+        { "id": "a", "text": "Every even-positioned li among its siblings" },
+        { "id": "b", "text": "Only the 2nd li" },
+        { "id": "c", "text": "The first li" },
+        { "id": "d", "text": "Every li" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":nth-child(2n) = even positions (2nd, 4th...). :nth-child(2) would be only the 2nd. Useful for zebra striping.",
+      "difficulty": "hard",
+      "tags": ["nth-child", "structural"]
+    },
+    {
+      "id": "sel-q8",
+      "topic": "Selectors",
+      "question": "Which has HIGHER specificity: '.nav li a' or 'header a'?",
+      "options": [
+        { "id": "a", "text": ".nav li a (two elements + one class = 0,0,1,2)" },
+        { "id": "b", "text": "header a (two elements = 0,0,0,2)" },
+        { "id": "c", "text": "They are equal" },
+        { "id": "d", "text": "Neither is valid" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Specificity counts (IDs, classes, elements). '.nav li a' has 1 class + 2 elements vs 'header a' 0 classes + 2 elements.",
+      "difficulty": "medium",
+      "tags": ["specificity", "comparison"]
+    }
+  ]
+}

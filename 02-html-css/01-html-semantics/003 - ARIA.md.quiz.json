@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/003 - ARIA.md",
+  "title": "ARIA Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "aria-q1",
+      "topic": "ARIA",
+      "question": "What does ARIA stand for and what does it provide?",
+      "options": [
+        { "id": "a", "text": "Asynchronous Request Interface; AJAX helpers" },
+        { "id": "b", "text": "Accessible Rich Internet Applications; roles/states/properties for accessibility" },
+        { "id": "c", "text": "Automatic Responsive Image Adjustment" },
+        { "id": "d", "text": "Advanced Routing In Angular" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ARIA = Accessible Rich Internet Applications. It adds role, aria-* state, and property attributes for widgets native HTML can't express.",
+      "difficulty": "easy",
+      "tags": ["aria", "definition"]
+    },
+    {
+      "id": "aria-q2",
+      "topic": "ARIA",
+      "question": "Which attribute would you use to tell a screen reader the CURRENT value of a custom slider (min 0, max 100, now 50)?",
+      "options": [
+        { "id": "a", "text": "value=\"50\"" },
+        { "id": "b", "text": "aria-valuenow=\"50\" with aria-valuemin/aria-valuemax" },
+        { "id": "c", "text": "title=\"50\"" },
+        { "id": "d", "text": "data-value=\"50\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "For role=\"slider\" you expose aria-valuenow, aria-valuemin, aria-valuemax so SRs announce the live value range.",
+      "difficulty": "medium",
+      "tags": ["aria-valuenow", "slider"]
+    },
+    {
+      "id": "aria-q3",
+      "topic": "ARIA",
+      "question": "What does aria-live=\"polite\" do?",
+      "options": [
+        { "id": "a", "text": "Reloads the page politely" },
+        { "id": "b", "text": "Announces dynamic content changes to SR users without interrupting current speech" },
+        { "id": "c", "text": "Hides content from SR" },
+        { "id": "d", "text": "Disables animations" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "aria-live regions announce updates. 'polite' queues after current speech; 'assertive' interrupts. Essential for toasts/status updates.",
+      "difficulty": "hard",
+      "tags": ["aria-live", "regions"]
+    },
+    {
+      "id": "aria-q4",
+      "topic": "ARIA",
+      "question": "A key pitfall: <div role=\"button\"> is NOT clickable by itself. Why?",
+      "options": [
+        { "id": "a", "text": "Because role adds full functionality automatically" },
+        { "id": "b", "text": "Because role only changes the accessibility tree; you must add JS for click + keyboard (Enter/Space)" },
+        { "id": "c", "text": "Because divs cannot have roles" },
+        { "id": "d", "text": "Because it requires a form wrapper" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "ARIA role is semantic only — it does not add behavior. A <button> gives click + Enter/Space for free; a div needs manual JS.",
+      "difficulty": "medium",
+      "tags": ["role", "behavior"]
+    },
+    {
+      "id": "aria-q5",
+      "topic": "ARIA",
+      "question": "When should you AVOID using ARIA?",
+      "options": [
+        { "id": "a", "text": "On every element to be safe" },
+        { "id": "b", "text": "When a native HTML element already provides the needed semantics" },
+        { "id": "c", "text": "Never; ARIA is always better than HTML" },
+        { "id": "d", "text": "Only in SPAs" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "First rule of ARIA: prefer native HTML. Adding ARIA can override and break native semantics if done incorrectly.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "native"]
+    },
+    {
+      "id": "aria-q6",
+      "topic": "ARIA",
+      "question": "In a tab interface, which ARIA pattern is correct for the selected tab?",
+      "options": [
+        { "id": "a", "text": "<li role=\"tab\" aria-selected=\"true\" aria-controls=\"panel1\">" },
+        { "id": "b", "text": "<li role=\"tab\" selected>" },
+        { "id": "c", "text": "<li role=\"tab\" aria-checked=\"true\">" },
+        { "id": "d", "text": "<li class=\"tab active\">" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tabs use role=\"tab\" with aria-selected (true/false) and aria-controls pointing to the associated tabpanel — follows WAI-ARIA APG.",
+      "difficulty": "hard",
+      "tags": ["tabs", "pattern"]
+    },
+    {
+      "id": "aria-q7",
+      "topic": "ARIA",
+      "question": "What is aria-hidden=\"true\" used for?",
+      "options": [
+        { "id": "a", "text": "To hide content visually from all users" },
+        { "id": "b", "text": "To remove an element from the accessibility tree (SR ignores it) while still showing it visually" },
+        { "id": "c", "text": "To delete the element from DOM" },
+        { "id": "d", "text": "To mark a required field" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "aria-hidden removes a node from the a11y tree (e.g. decorative icons) but keeps it visible. Never put aria-hidden on focusable content.",
+      "difficulty": "medium",
+      "tags": ["aria-hidden", "tree"]
+    },
+    {
+      "id": "aria-q8",
+      "topic": "ARIA",
+      "question": "Which Angular library relies heavily on ARIA patterns for keyboard nav & screen readers?",
+      "options": [
+        { "id": "a", "text": "Angular Material" },
+        { "id": "b", "text": "NgRx Store" },
+        { "id": "c", "text": "Angular CLI" },
+        { "id": "d", "text": "RxJS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Angular Material components (Menu, Dialog, Tabs, CDK Overlay) implement WAI-ARIA patterns for accessibility out of the box.",
+      "difficulty": "easy",
+      "tags": ["angular", "material"]
+    }
+  ]
+}

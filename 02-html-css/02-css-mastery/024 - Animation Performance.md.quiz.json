@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/024 - Animation Performance.md",
+  "title": "Animation Performance Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "animperf-q1",
+      "topic": "Animation Performance",
+      "question": "The three steps of the rendering pipeline are:",
+      "options": [
+        { "id": "a", "text": "Style → Layout → Paint → Composite" },
+        { "id": "b", "text": "HTML → CSS → JS" },
+        { "id": "c", "text": "Parse → Compile → Run" },
+        { "id": "d", "text": "Request → Response → Render" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Changing a property can trigger layout (reflow), paint, and/or composite. Fewer stages = better performance.",
+      "difficulty": "hard",
+      "tags": ["pipeline", "layout-paint-composite"]
+    },
+    {
+      "id": "animperf-q2",
+      "topic": "Animation Performance",
+      "question": "Animating transform/opacity is cheap because they:",
+      "options": [
+        { "id": "a", "text": "Only trigger compositing (GPU), skipping layout and paint" },
+        { "id": "b", "text": "Trigger layout every frame" },
+        { "id": "c", "text": "Require reflow" },
+        { "id": "d", "text": "Are CPU-only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transform/opacity are compositor-only properties — the browser promotes the layer and animates on the GPU without reflow/paint.",
+      "difficulty": "hard",
+      "tags": ["compositor", "transform"]
+    },
+    {
+      "id": "animperf-q3",
+      "topic": "Animation Performance",
+      "question": "Animating 'width' or 'top' is expensive because it:",
+      "options": [
+        { "id": "a", "text": "Triggers layout (reflow) which can affect the whole document" },
+        { "id": "b", "text": "Only repaints one pixel" },
+        { "id": "c", "text": "Runs on GPU for free" },
+        { "id": "d", "text": "Is ignored by the browser" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Geometry changes force layout recalculation and often repaint — costly, especially with many elements. Prefer transform.",
+      "difficulty": "medium",
+      "tags": ["layout", "expensive"]
+    },
+    {
+      "id": "animperf-q4",
+      "topic": "Animation Performance",
+      "question": "Containment (contain: layout paint) helps by:",
+      "options": [
+        { "id": "a", "text": "Isolating a subtree so its changes don't reflow/paint the whole page" },
+        { "id": "b", "text": "Speeding up network" },
+        { "id": "c", "text": "Disabling animations" },
+        { "id": "d", "text": "Hiding content" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "contain hints the browser to limit the scope of layout/paint work, improving performance for complex/animated components.",
+      "difficulty": "hard",
+      "tags": ["containment", "contain"]
+    },
+    {
+      "id": "animperf-q5",
+      "topic": "Animation Performance",
+      "question": "will-change should be used:",
+      "options": [
+        { "id": "a", "text": "Sparingly, only before an expected change, and removed after" },
+        { "id": "b", "text": "On every element permanently" },
+        { "id": "c", "text": "Never" },
+        { "id": "d", "text": "Only in print CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "will-change reserves memory/layers; overuse bloats memory and can hurt. Apply just-in-time, not globally.",
+      "difficulty": "medium",
+      "tags": ["will-change", "sparingly"]
+    },
+    {
+      "id": "animperf-q6",
+      "topic": "Animation Performance",
+      "question": "The '60fps' target exists because:",
+      "options": [
+        { "id": "a", "text": "Most displays refresh ~60 times/sec; hitting it avoids jank" },
+        { "id": "b", "text": "JavaScript runs at 60fps" },
+        { "id": "c", "text": "CSS only animates at 60fps" },
+        { "id": "d", "text": "It is required by law" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Smooth animation needs ~16ms per frame. Dropping frames (jank) feels laggy; keep work off the main thread where possible.",
+      "difficulty": "easy",
+      "tags": ["fps", "jank"]
+    },
+    {
+      "id": "animperf-q7",
+      "topic": "Animation Performance",
+      "question": "A long task on the main thread causes:",
+      "options": [
+        { "id": "a", "text": "Dropped animation frames / input lag (jank)" },
+        { "id": "b", "text": "Faster animations" },
+        { "id": "c", "text": "Smaller bundles" },
+        { "id": "d", "text": "Better SEO" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Heavy JS/layout work blocks the main thread, starving animation/input — minimize and break up long tasks.",
+      "difficulty": "medium",
+      "tags": ["main-thread", "jank"]
+    },
+    {
+      "id": "animperf-q8",
+      "topic": "Animation Performance",
+      "question": "prefers-reduced-motion benefits performance AND:",
+      "options": [
+        { "id": "a", "text": "Accessibility (users with vestibular disorders)" },
+        { "id": "b", "text": "Network speed" },
+        { "id": "c", "text": "SEO ranking" },
+        { "id": "d", "text": "Color contrast" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Reducing motion is primarily an a11y win, and disabling heavy animation also saves battery/CPU.",
+      "difficulty": "easy",
+      "tags": ["reduced-motion", "accessibility"]
+    }
+  ]
+}

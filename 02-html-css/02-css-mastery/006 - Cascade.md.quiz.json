@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/006 - Cascade.md",
+  "title": "CSS Cascade Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "casc-q1",
+      "topic": "Cascade",
+      "question": "The CSS 'cascade' refers to:",
+      "options": [
+        { "id": "a", "text": "The algorithm that resolves which declarations apply when multiple rules match" },
+        { "id": "b", "text": "A type of animation" },
+        { "id": "c", "text": "The box model" },
+        { "id": "d", "text": "A grid layout" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The cascade combines origin/importance, specificity, and source order to decide the winning value for each property.",
+      "difficulty": "easy",
+      "tags": ["cascade", "definition"]
+    },
+    {
+      "id": "casc-q2",
+      "topic": "Cascade",
+      "question": "The cascade resolution order starts with:",
+      "options": [
+        { "id": "a", "text": "Origin & importance (e.g. user !important vs author vs UA styles)" },
+        { "id": "b", "text": "Specificity first, always" },
+        { "id": "c", "text": "Alphabetical order of properties" },
+        { "id": "d", "text": "File size" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Step 1 is origin/importance (user-agent < author < author !important < user !important). Specificity/order come later.",
+      "difficulty": "hard",
+      "tags": ["origin", "importance"]
+    },
+    {
+      "id": "casc-q3",
+      "topic": "Cascade",
+      "question": "User-agent (browser default) styles are overridden by:",
+      "options": [
+        { "id": "a", "text": "Author stylesheets (your CSS) in normal cases" },
+        { "id": "b", "text": "Nothing — UA styles always win" },
+        { "id": "c", "text": "Only inline styles" },
+        { "id": "d", "text": "Only !important" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Author (website) styles normally beat UA defaults. Resets/normalizers exist precisely to override UA inconsistencies.",
+      "difficulty": "medium",
+      "tags": ["user-agent", "author"]
+    },
+    {
+      "id": "casc-q4",
+      "topic": "Cascade",
+      "question": "What does the 'inherit' keyword do for a property?",
+      "options": [
+        { "id": "a", "text": "Forces the value to be taken from the parent element" },
+        { "id": "b", "text": "Resets to the UA default" },
+        { "id": "c", "text": "Makes it !important" },
+        { "id": "d", "text": "Removes the property" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "inherit explicitly takes the parent's computed value. Some properties (color, font-family) inherit automatically; others don't.",
+      "difficulty": "medium",
+      "tags": ["inherit", "property"]
+    },
+    {
+      "id": "casc-q5",
+      "topic": "Cascade",
+      "question": "The 'initial' keyword sets a property to:",
+      "options": [
+        { "id": "a", "text": "Its CSS specification-defined initial value (not the UA style)" },
+        { "id": "b", "text": "The parent's value" },
+        { "id": "c", "text": "Zero always" },
+        { "id": "d", "text": "The most recent value" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "initial resets to the property's defined initial value per spec (e.g. color: initial = black), distinct from the browser default look.",
+      "difficulty": "hard",
+      "tags": ["initial", "keyword"]
+    },
+    {
+      "id": "casc-q6",
+      "topic": "Cascade",
+      "question": "Two rules with identical specificity and origin — the winner is decided by:",
+      "options": [
+        { "id": "a", "text": "Source order (later wins)" },
+        { "id": "b", "text": "Alphabetical selector name" },
+        { "id": "c", "text": "File name" },
+        { "id": "d", "text": "Random choice" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "After origin/importance and specificity are equal, the cascade falls back to source order: last declaration wins.",
+      "difficulty": "easy",
+      "tags": ["source-order", "tie"]
+    },
+    {
+      "id": "casc-q7",
+      "topic": "Cascade",
+      "question": "Why is understanding the cascade important in large apps (e.g. Angular)?",
+      "options": [
+        { "id": "a", "text": "To predictably override third-party/component styles without !important sprawl" },
+        { "id": "b", "text": "It only matters for print media" },
+        { "id": "c", "text": "It changes JavaScript behavior" },
+        { "id": "d", "text": "It is irrelevant with frameworks" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "With many layers (libs, components, themes), the cascade explains why a style wins; raise specificity intentionally rather than spray !important.",
+      "difficulty": "medium",
+      "tags": ["angular", "override"]
+    },
+    {
+      "id": "casc-q8",
+      "topic": "Cascade",
+      "question": "The 'revert' keyword (vs initial/unset) means:",
+      "options": [
+        { "id": "a", "text": "Roll back to the value the cascade would have had without the current author rule (UA or inherited)" },
+        { "id": "b", "text": "Set to zero" },
+        { "id": "c", "text": "Make it important" },
+        { "id": "d", "text": "Delete the element" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "revert undoes the author-level change, falling back to UA style or inherited value (depending on the property) — smarter than initial.",
+      "difficulty": "hard",
+      "tags": ["revert", "keyword"]
+    }
+  ]
+}

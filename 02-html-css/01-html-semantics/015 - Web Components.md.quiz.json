@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/015 - Web Components.md",
+  "title": "Web Components Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "wc-q1",
+      "topic": "Web Components",
+      "question": "The three CORE technologies of Web Components are:",
+      "options": [
+        { "id": "a", "text": "Custom Elements, Shadow DOM, HTML Templates" },
+        { "id": "b", "text": "React, Angular, Vue" },
+        { "id": "c", "text": "CSS, JS, HTML (the standard web trio)" },
+        { "id": "d", "text": "Service Workers, Manifest, Cache" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Web Components are built from Custom Elements (new tags), Shadow DOM (encapsulation), and HTML Templates (<template>/<slot>).",
+      "difficulty": "easy",
+      "tags": ["web-components", "stack"]
+    },
+    {
+      "id": "wc-q2",
+      "topic": "Web Components",
+      "question": "Custom Elements are defined with:",
+      "options": [
+        { "id": "a", "text": "customElements.define('my-tag', MyElementClass)" },
+        { "id": "b", "text": "element.create('my-tag')" },
+        { "id": "c", "text": "new CustomElement()" },
+        { "id": "d", "text": "document.registerElement()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "customElements.define(name, class) registers a new tag; the class must extend HTMLElement.",
+      "difficulty": "medium",
+      "tags": ["custom-elements", "define"]
+    },
+    {
+      "id": "wc-q3",
+      "topic": "Web Components",
+      "question": "Which lifecycle callback runs when a custom element is inserted into the DOM?",
+      "options": [
+        { "id": "a", "text": "connectedCallback" },
+        { "id": "b", "text": "constructor only" },
+        { "id": "c", "text": "onMount" },
+        { "id": "d", "text": "init()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "connectedCallback fires on insertion; disconnectedCallback on removal; attributeChangedCallback on observed attr change.",
+      "difficulty": "medium",
+      "tags": ["lifecycle", "callbacks"]
+    },
+    {
+      "id": "wc-q4",
+      "topic": "Web Components",
+      "question": "To react to attribute changes you must:",
+      "options": [
+        { "id": "a", "text": "Declare observedAttributes and implement attributeChangedCallback" },
+        { "id": "b", "text": "Add a click listener" },
+        { "id": "c", "text": "Use a MutationObserver only" },
+        { "id": "d", "text": "Nothing — it's automatic" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "observedAttributes getter lists tracked attributes; attributeChangedCallback then fires on their changes.",
+      "difficulty": "hard",
+      "tags": ["observedattributes", "lifecycle"]
+    },
+    {
+      "id": "wc-q5",
+      "topic": "Web Components",
+      "question": "HTML <template> is used because:",
+      "options": [
+        { "id": "a", "text": "Its content is inert (not rendered) until cloned into the DOM" },
+        { "id": "b", "text": "It renders immediately like a div" },
+        { "id": "c", "text": "It is a CSS preprocessor" },
+        { "id": "d", "text": "It replaces <script>" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "<template> holds markup that isn't displayed; you clone its .content (DocumentFragment) to instantiate UI repeatedly.",
+      "difficulty": "medium",
+      "tags": ["template", "fragment"]
+    },
+    {
+      "id": "wc-q6",
+      "topic": "Web Components",
+      "question": "Web Components differ from Angular/Vue components in that they:",
+      "options": [
+        { "id": "a", "text": "Are framework-agnostic standard APIs usable anywhere" },
+        { "id": "b", "text": "Only work in Angular" },
+        { "id": "c", "text": "Require a build step" },
+        { "id": "d", "text": "Cannot be reused" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Web Components are native browser standards — no framework required and interoperable across frameworks.",
+      "difficulty": "easy",
+      "tags": ["standards", "interop"]
+    },
+    {
+      "id": "wc-q7",
+      "topic": "Web Components",
+      "question": "A challenge with Web Components in SPAs is:",
+      "options": [
+        { "id": "a", "text": "Server-side rendering / hydration support is less mature than framework components" },
+        { "id": "b", "text": "They cannot use Shadow DOM" },
+        { "id": "c", "text": "They require React" },
+        { "id": "d", "text": "They are deprecated" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SSR/hydration and advanced tooling (like Angular's DI) integrate less seamlessly with raw Web Components.",
+      "difficulty": "hard",
+      "tags": ["ssr", "challenges"]
+    },
+    {
+      "id": "wc-q8",
+      "topic": "Web Components",
+      "question": "Angular Material icons often render via:",
+      "options": [
+        { "id": "a", "text": "Inline SVG / svgIcon" },
+        { "id": "b", "text": "A canvas" },
+        { "id": "c", "text": "A video element" },
+        { "id": "d", "text": "WebGL" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "mat-icon with svgIcon uses SVG, a common Web Component/icon pattern — scalable and styleable.",
+      "difficulty": "easy",
+      "tags": ["svg", "icons"]
+    }
+  ]
+}

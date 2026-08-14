@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/002 - Accessibility.md",
+  "title": "Accessibility (a11y) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "a11y-q1",
+      "topic": "Accessibility",
+      "question": "What does a11y stand for and what problem does it solve?",
+      "options": [
+        { "id": "a", "text": "Authentication; securing login forms" },
+        { "id": "b", "text": "Accessibility; making digital experiences usable by people with disabilities" },
+        { "id": "c", "text": "Animation; smoothing CSS transitions" },
+        { "id": "d", "text": "Aggregation; bundling API calls" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "a11y = accessibility (a + 11 letters + y). It ensures people with visual/auditory/motor/cognitive impairments can use the product.",
+      "difficulty": "easy",
+      "tags": ["a11y", "definition"]
+    },
+    {
+      "id": "a11y-q2",
+      "topic": "Accessibility",
+      "question": "Which is the BEST practice when building a custom clickable component?",
+      "options": [
+        { "id": "a", "text": "Use <div role=\"button\" tabindex=\"0\"> and re-implement keyboard handling" },
+        { "id": "b", "text": "Use a native <button> element" },
+        { "id": "c", "text": "Use <span onclick> with no keyboard support" },
+        { "id": "d", "text": "Use <a> without href" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Native <button> gives focus, keyboard (Enter/Space), and role for free. ARIA should only be added when native elements can't be used (first rule of ARIA).",
+      "difficulty": "medium",
+      "tags": ["aria", "native"]
+    },
+    {
+      "id": "a11y-q3",
+      "topic": "Accessibility",
+      "question": "An image used purely for decoration should be made invisible to screen readers by:",
+      "options": [
+        { "id": "a", "text": "alt=\"decorative image\"" },
+        { "id": "b", "text": "alt=\"\"" },
+        { "id": "c", "text": "role=\"img\"" },
+        { "id": "d", "text": "title=\"image\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Empty alt=\"\" tells assistive tech to ignore the image. Descriptive alt is for meaningful images; missing alt is an a11y failure.",
+      "difficulty": "easy",
+      "tags": ["alt", "images"]
+    },
+    {
+      "id": "a11y-q4",
+      "topic": "Accessibility",
+      "question": "What does the 'first rule of ARIA' state?",
+      "options": [
+        { "id": "a", "text": "Always use role attributes on every element" },
+        { "id": "b", "text": "Use native HTML elements with built-in semantics before reaching for ARIA" },
+        { "id": "c", "text": "ARIA overrides everything, so use it liberally" },
+        { "id": "d", "text": "Never use ARIA in production" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "First rule: if a native element or attribute has the semantics you need, use it instead of ARIA, which can override and break native behavior.",
+      "difficulty": "hard",
+      "tags": ["aria", "best-practice"]
+    },
+    {
+      "id": "a11y-q5",
+      "topic": "Accessibility",
+      "question": "Which Angular CDK utility announces dynamic changes to screen-reader users?",
+      "options": [
+        { "id": "a", "text": "LiveAnnouncer" },
+        { "id": "b", "text": "TitleCasePipe" },
+        { "id": "c", "text": "NgZone" },
+        { "id": "d", "text": "HttpClient" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "LiveAnnouncer (from @angular/cdk/a11y) pushes text to an aria-live region so SR users hear updates like 'Item added to cart'.",
+      "difficulty": "medium",
+      "tags": ["angular", "cdk"]
+    },
+    {
+      "id": "a11y-q6",
+      "topic": "Accessibility",
+      "question": "A modal dialog must trap focus. Why?",
+      "options": [
+        { "id": "a", "text": "To prevent the user from scrolling the background" },
+        { "id": "b", "text": "So keyboard users cannot escape into background content while the dialog is open" },
+        { "id": "c", "text": "To improve CSS animation performance" },
+        { "id": "d", "text": "To avoid HTTP requests" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Focus trapping keeps keyboard/Tab navigation inside the modal so users don't lose context in background content — a core a11y requirement.",
+      "difficulty": "hard",
+      "tags": ["modal", "focus"]
+    },
+    {
+      "id": "a11y-q7",
+      "topic": "Accessibility",
+      "question": "Which is a common accessibility mistake?",
+      "options": [
+        { "id": "a", "text": "Providing focus indicators" },
+        { "id": "b", "text": "Missing alt text on informative images" },
+        { "id": "c", "text": "Using semantic landmarks" },
+        { "id": "d", "text": "Ensuring keyboard operability" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missing alt text, poor contrast, and non-keyboard-operable controls are the classic a11y failures to avoid.",
+      "difficulty": "easy",
+      "tags": ["mistakes", "alt"]
+    },
+    {
+      "id": "a11y-q8",
+      "topic": "Accessibility",
+      "question": "What do browser accessibility APIs (AXAPI/UIA/AT-SPI) do?",
+      "options": [
+        { "id": "a", "text": "Render the page pixels" },
+        { "id": "b", "text": "Expose accessible names/states from the DOM to assistive technologies" },
+        { "id": "c", "text": "Compile JavaScript" },
+        { "id": "d", "text": "Cache images" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The accessibility tree (built from DOM + ARIA) is exposed via platform APIs so screen readers can announce names, roles, and states.",
+      "difficulty": "medium",
+      "tags": ["accessibility-tree", "apis"]
+    }
+  ]
+}

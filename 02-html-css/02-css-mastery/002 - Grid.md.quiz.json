@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/002 - Grid.md",
+  "title": "CSS Grid Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "grid-q1",
+      "topic": "CSS Grid",
+      "question": "CSS Grid is primarily used for:",
+      "options": [
+        { "id": "a", "text": "Two-dimensional layouts (rows AND columns)" },
+        { "id": "b", "text": "One-dimensional alignment only" },
+        { "id": "c", "text": "Animations" },
+        { "id": "d", "text": "Font sizing" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Grid excels at 2D layouts; Flexbox is for 1D. Choose based on whether you need row+column control.",
+      "difficulty": "easy",
+      "tags": ["grid", "2d"]
+    },
+    {
+      "id": "grid-q2",
+      "topic": "CSS Grid",
+      "question": "grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) does what?",
+      "options": [
+        { "id": "a", "text": "Creates as many 200px-min columns as fit, stretching them to fill (responsive)" },
+        { "id": "b", "text": "Creates exactly 200 columns" },
+        { "id": "c", "text": "Sets a fixed 200px width regardless of screen" },
+        { "id": "d", "text": "Disables responsiveness" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "auto-fit + minmax is the classic responsive grid: columns auto-flow to fill width, each at least 200px.",
+      "difficulty": "hard",
+      "tags": ["auto-fit", "minmax"]
+    },
+    {
+      "id": "grid-q3",
+      "topic": "CSS Grid",
+      "question": "The 'fr' unit represents:",
+      "options": [
+        { "id": "a", "text": "A fraction of the available grid space" },
+        { "id": "b", "text": "A fixed pixel value" },
+        { "id": "c", "text": "A font-relative size" },
+        { "id": "d", "text": "A rotation angle" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1fr = one share of leftover space. Used to distribute tracks proportionally after fixed sizes are accounted for.",
+      "difficulty": "medium",
+      "tags": ["fr", "unit"]
+    },
+    {
+      "id": "grid-q4",
+      "topic": "CSS Grid",
+      "question": "To place an item in a specific area you can use:",
+      "options": [
+        { "id": "a", "text": "grid-column / grid-row (line numbers) or grid-template-areas" },
+        { "id": "b", "text": "Only float" },
+        { "id": "c", "text": "position:absolute" },
+        { "id": "d", "text": "display:block" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Grid items are placed via line-based (grid-column: 1 / 3) or named areas (grid-template-areas).",
+      "difficulty": "medium",
+      "tags": ["placement", "areas"]
+    },
+    {
+      "id": "grid-q5",
+      "topic": "CSS Grid",
+      "question": "gap in grid controls:",
+      "options": [
+        { "id": "a", "text": "The spacing between rows and columns" },
+        { "id": "b", "text": "The outer margin" },
+        { "id": "c", "text": "The font size" },
+        { "id": "d", "text": "The z-index" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "gap (row-gap/column-gap) sets gutters between tracks without margins — cleaner than margin hacks.",
+      "difficulty": "easy",
+      "tags": ["gap", "spacing"]
+    },
+    {
+      "id": "grid-q6",
+      "topic": "CSS Grid",
+      "question": "grid-template-areas lets you:",
+      "options": [
+        { "id": "a", "text": "Name regions in a visual ASCII-like layout and assign items to them" },
+        { "id": "b", "text": "Set animation keyframes" },
+        { "id": "c", "text": "Define media queries" },
+        { "id": "d", "text": "Import other CSS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "grid-template-areas uses named cells ('header header' / 'sidebar main') for intuitive, readable layouts.",
+      "difficulty": "hard",
+      "tags": ["template-areas", "layout"]
+    },
+    {
+      "id": "grid-q7",
+      "topic": "CSS Grid",
+      "question": "Which is TRUE about Grid vs Flexbox?",
+      "options": [
+        { "id": "a", "text": "Grid is 2D (rows+cols); Flexbox is 1D (one axis)" },
+        { "id": "b", "text": "They are identical" },
+        { "id": "c", "text": "Flexbox is always better" },
+        { "id": "d", "text": "Grid cannot be responsive" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The key mental model: Grid = 2D (both axes at once), Flex = 1D (content-driven along one axis).",
+      "difficulty": "medium",
+      "tags": ["grid-vs-flex", "comparison"]
+    },
+    {
+      "id": "grid-q8",
+      "topic": "CSS Grid",
+      "question": "justify-items vs justify-content in grid differ because:",
+      "options": [
+        { "id": "a", "text": "justify-items aligns items INSIDE their cells; justify-content aligns the grid TRACKS in the container" },
+        { "id": "b", "text": "They are the same property" },
+        { "id": "c", "text": "justify-items only works in flex" },
+        { "id": "d", "text": "justify-content only works in flex" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "justify-items positions items within their grid area; justify-content positions the whole grid when it's narrower than the container.",
+      "difficulty": "hard",
+      "tags": ["justify-items", "justify-content"]
+    }
+  ]
+}

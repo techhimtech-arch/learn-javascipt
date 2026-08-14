@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-html-semantics/012 - Canvas API.md",
+  "title": "Canvas API Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "canvasapi-q1",
+      "topic": "Canvas API",
+      "question": "How do you get a 2D drawing context from a <canvas>?",
+      "options": [
+        { "id": "a", "text": "canvas.getContext('2d')" },
+        { "id": "b", "text": "canvas.draw()" },
+        { "id": "c", "text": "canvas.render2D()" },
+        { "id": "d", "text": "new Context(canvas)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "getContext('2d') returns the CanvasRenderingContext2D used for all drawing commands. 'webgl' returns the 3D context.",
+      "difficulty": "easy",
+      "tags": ["getcontext", "2d"]
+    },
+    {
+      "id": "canvasapi-q2",
+      "topic": "Canvas API",
+      "question": "What does ctx.fillRect(10, 10, 100, 50) draw?",
+      "options": [
+        { "id": "a", "text": "A 100x50 rectangle whose top-left is at (10,10)" },
+        { "id": "b", "text": "A line from (10,10) to (100,50)" },
+        { "id": "c", "text": "A circle centered at (10,10)" },
+        { "id": "d", "text": "Text '100,50'" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fillRect(x, y, width, height) fills a rectangle from top-left (x,y). Coordinates are in canvas pixels.",
+      "difficulty": "easy",
+      "tags": ["fillrect", "coordinates"]
+    },
+    {
+      "id": "canvasapi-q3",
+      "topic": "Canvas API",
+      "question": "Canvas drawing is best described as:",
+      "options": [
+        { "id": "a", "text": "Immediate-mode, pixel-based (imperative) rendering" },
+        { "id": "b", "text": "Vector-based retained-mode like SVG" },
+        { "id": "c", "text": "A CSS layout system" },
+        { "id": "d", "text": "A database query" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Canvas is immediate-mode: you issue drawing commands that paint pixels to a bitmap. There's no DOM node per shape (unlike SVG).",
+      "difficulty": "medium",
+      "tags": ["immediate-mode", "bitmap"]
+    },
+    {
+      "id": "canvasapi-q4",
+      "topic": "Canvas API",
+      "question": "To handle high-DPI (Retina) displays without blurriness you should:",
+      "options": [
+        { "id": "a", "text": "Set canvas.width = cssWidth * devicePixelRatio and scale the context" },
+        { "id": "b", "text": "Increase font-size only" },
+        { "id": "c", "text": "Use CSS filter: blur(0)" },
+        { "id": "d", "text": "Leave it; canvas is always sharp" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Backing store must match physical pixels: width/height = CSS size * devicePixelRatio, then ctx.scale(ratio, ratio) so drawing coords stay CSS-based.",
+      "difficulty": "hard",
+      "tags": ["dpi", "devicepixelratio"]
+    },
+    {
+      "id": "canvasapi-q5",
+      "topic": "Canvas API",
+      "question": "Before redrawing a new frame (animation), you typically call:",
+      "options": [
+        { "id": "a", "text": "ctx.clearRect(0,0,width,height)" },
+        { "id": "b", "text": "ctx.deleteAll()" },
+        { "id": "c", "text": "canvas.reset()" },
+        { "id": "d", "text": "window.clear()" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "clearRect erases a region so old frames don't smear. Forgetting it is a classic canvas bug.",
+      "difficulty": "medium",
+      "tags": ["clearrect", "animation"]
+    },
+    {
+      "id": "canvasapi-q6",
+      "topic": "Canvas API",
+      "question": "Which library renders charts using <canvas> under the hood?",
+      "options": [
+        { "id": "a", "text": "Chart.js" },
+        { "id": "b", "text": "Lodash" },
+        { "id": "c", "text": "RxJS" },
+        { "id": "d", "text": "Express" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Chart.js draws on a canvas element for performant 2D charts. D3 typically uses SVG instead.",
+      "difficulty": "easy",
+      "tags": ["chartjs", "libraries"]
+    },
+    {
+      "id": "canvasapi-q7",
+      "topic": "Canvas API",
+      "question": "For GPU-accelerated 3D graphics on canvas you use:",
+      "options": [
+        { "id": "a", "text": "getContext('webgl')" },
+        { "id": "b", "text": "getContext('3d')" },
+        { "id": "c", "text": "getContext('gpu')" },
+        { "id": "d", "text": "getContext('svg')" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "WebGL provides a separate context (getContext('webgl'/'webgl2')) for hardware-accelerated 3D rendering on the canvas bitmap.",
+      "difficulty": "medium",
+      "tags": ["webgl", "3d"]
+    },
+    {
+      "id": "canvasapi-q8",
+      "topic": "Canvas API",
+      "question": "Performance best practice for canvas is to:",
+      "options": [
+        { "id": "a", "text": "Batch drawing ops and minimize state changes" },
+        { "id": "b", "text": "Call getContext on every frame" },
+        { "id": "c", "text": "Use one draw call per pixel" },
+        { "id": "d", "text": "Never clear between frames" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Batching and reducing context state changes (fillStyle swaps, etc.) improves throughput; also consider offscreen canvas.",
+      "difficulty": "hard",
+      "tags": ["performance", "batching"]
+    }
+  ]
+}

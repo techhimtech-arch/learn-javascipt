@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/021 - CSS Variables.md",
+  "title": "CSS Variables (Deep) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "vars2-q1",
+      "topic": "CSS Variables",
+      "question": "Custom properties are CASE-:",
+      "options": [
+        { "id": "a", "text": "Sensitive (--main differs from --Main)" },
+        { "id": "b", "text": "Insensitive" },
+        { "id": "c", "text": "Always lowercase" },
+        { "id": "d", "text": "Ignored by the parser" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Custom property names are case-sensitive, unlike many CSS properties. --color and --Color are distinct.",
+      "difficulty": "easy",
+      "tags": ["case-sensitive", "naming"]
+    },
+    {
+      "id": "vars2-q2",
+      "topic": "CSS Variables",
+      "question": "A variable's value can include:",
+      "options": [
+        { "id": "a", "text": "Any valid CSS value, even another var() reference" },
+        { "id": "b", "text": "Only numbers" },
+        { "id": "c", "text": "Only colors" },
+        { "id": "d", "text": "JavaScript expressions" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Values are substituted as-is; you can nest var() (e.g. --gutter: calc(var(--space) * 2)).",
+      "difficulty": "medium",
+      "tags": ["value", "nesting"]
+    },
+    {
+      "id": "vars2-q3",
+      "topic": "CSS Variables",
+      "question": "Scoping a variable on a specific component (e.g. .card { --accent: red }) means:",
+      "options": [
+        { "id": "a", "text": "It (and descendants) see --accent:red, but siblings outside don't" },
+        { "id": "b", "text": "It becomes global" },
+        { "id": "c", "text": "It overrides :root permanently" },
+        { "id": "d", "text": "It stops inheriting" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Variables inherit; defining one on .card scopes it to that subtree — the basis for component theming.",
+      "difficulty": "medium",
+      "tags": ["scoping", "component"]
+    },
+    {
+      "id": "vars2-q4",
+      "topic": "CSS Variables",
+      "question": "To enable a dark theme you can:",
+      "options": [
+        { "id": "a", "text": "Redefine --bg/--text etc. under a [data-theme='dark'] or .dark selector" },
+        { "id": "b", "text": "Reload the page from scratch" },
+        { "id": "c", "text": "Use only !important" },
+        { "id": "d", "text": "Inline all colors" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Theming via root variables swapped by a theme attribute/Сlass is the standard, low-effort dark-mode technique.",
+      "difficulty": "easy",
+      "tags": ["theming", "dark-mode"]
+    },
+    {
+      "id": "vars2-q5",
+      "topic": "CSS Variables",
+      "question": "calc() with a variable: calc(var(--space) * 2) is:",
+      "options": [
+        { "id": "a", "text": "Valid and commonly used to derive sizes from tokens" },
+        { "id": "b", "text": "Invalid syntax" },
+        { "id": "c", "text": "Only valid in Sass" },
+        { "id": "d", "text": "Requires px always" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "calc() composes variables for spacing scales, fluid sizes, etc. — a core design-token technique.",
+      "difficulty": "medium",
+      "tags": ["calc", "tokens"]
+    },
+    {
+      "id": "vars2-q6",
+      "topic": "CSS Variables",
+      "question": "Invalid variable substitution falls back to:",
+      "options": [
+        { "id": "a", "text": "The declared fallback in var(--x, fallback), else the property's initial/inherited value" },
+        { "id": "b", "text": "Zero always" },
+        { "id": "c", "text": "A random value" },
+        { "id": "d", "text": "The browser default font" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "If a var is invalid/undefined and no fallback given, the property uses its inherited or initial value (not an error).",
+      "difficulty": "hard",
+      "tags": ["fallback", "invalid"]
+    },
+    {
+      "id": "vars2-q7",
+      "topic": "CSS Variables",
+      "question": "Unlike Sass variables, CSS variables:",
+      "options": [
+        { "id": "a", "text": "Are resolved in the browser at computed-value time (live, cascade-aware)" },
+        { "id": "b", "text": "Are resolved at build time only" },
+        { "id": "c", "text": "Cannot be used in calc" },
+        { "id": "d", "text": "Require a preprocessor" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sass vars are compile-time constants; CSS custom properties are real, live, cascade-inherited browser values.",
+      "difficulty": "medium",
+      "tags": ["css-vs-sass", "runtime"]
+    },
+    {
+      "id": "vars2-q8",
+      "topic": "CSS Variables",
+      "question": "Reading a variable in JavaScript for computation requires:",
+      "options": [
+        { "id": "a", "text": "getComputedStyle(el).getPropertyValue('--x')" },
+        { "id": "b", "text": "el.var('--x')" },
+        { "id": "c", "text": "var.read('--x')" },
+        { "id": "d", "text": "CSS cannot be read by JS" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "getComputedStyle returns the resolved custom property value (often with leading whitespace — trim it).",
+      "difficulty": "hard",
+      "tags": ["javascript", "getComputedStyle"]
+    }
+  ]
+}

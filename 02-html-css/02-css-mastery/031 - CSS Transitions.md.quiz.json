@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/031 - CSS Transitions.md",
+  "title": "CSS Transitions (Fundamentals) Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "trf-q1",
+      "topic": "CSS Transitions",
+      "question": "The shorthand 'transition: all 0.3s ease' sets, in order:",
+      "options": [
+        { "id": "a", "text": "property, duration, timing-function" },
+        { "id": "b", "text": "duration, property, delay" },
+        { "id": "c", "text": "timing, property, duration" },
+        { "id": "d", "text": "delay, duration, property" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transition shorthand order is property duration timing-function delay (duration is required; others optional).",
+      "difficulty": "medium",
+      "tags": ["shorthand", "order"]
+    },
+    {
+      "id": "trf-q2",
+      "topic": "CSS Transitions",
+      "question": "Which is REQUIRED for a transition to occur?",
+      "options": [
+        { "id": "a", "text": "A non-zero duration (transition-duration)" },
+        { "id": "b", "text": "A background color" },
+        { "id": "c", "text": "An animation-name" },
+        { "id": "d", "text": "An @keyframes block" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Without duration > 0 the change is instant. Timing-function and delay are optional with defaults.",
+      "difficulty": "easy",
+      "tags": ["duration", "required"]
+    },
+    {
+      "id": "trf-q3",
+      "topic": "CSS Transitions",
+      "question": "transition-delay: 0.5s means the transition:",
+      "options": [
+        { "id": "a", "text": "Starts half a second AFTER the property change" },
+        { "id": "b", "text": "Lasts half a second" },
+        { "id": "c", "text": "Never runs" },
+        { "id": "d", "text": "Runs twice as fast" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "delay postpones the start; duration sets length. They are separate components of the shorthand.",
+      "difficulty": "easy",
+      "tags": ["delay", "timing"]
+    },
+    {
+      "id": "trf-q4",
+      "topic": "CSS Transitions",
+      "question": "transition-timing-function: ease is a:",
+      "options": [
+        { "id": "a", "text": "Preset curve that starts slow, speeds up, ends slow" },
+        { "id": "b", "text": "Linear constant speed" },
+        { "id": "c", "text": "Step function" },
+        { "id": "d", "text": "Color value" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ease is the default; linear is constant; ease-in/out/inception curves vary. cubic-bezier gives full control.",
+      "difficulty": "medium",
+      "tags": ["timing-function", "ease"]
+    },
+    {
+      "id": "trf-q5",
+      "topic": "CSS Transitions",
+      "question": "To animate on page load you should use:",
+      "options": [
+        { "id": "a", "text": "An animation, not a transition (transitions need a trigger/change)" },
+        { "id": "b", "text": "A transition with no change" },
+        { "id": "c", "text": "display: animation" },
+        { "id": "d", "text": "A media query" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions only run on a value change; for entrance animations on load, keyframe animations (or toggling a class via JS) are needed.",
+      "difficulty": "medium",
+      "tags": ["load", "animation"]
+    },
+    {
+      "id": "trf-q6",
+      "topic": "CSS Transitions",
+      "question": "transition: none disables:",
+      "options": [
+        { "id": "a", "text": "All transitions so changes are instant" },
+        { "id": "b", "text": "Only color transitions" },
+        { "id": "c", "text": "The cascade" },
+        { "id": "d", "text": "The animation" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "transition: none removes the transition entirely — useful to disable motion (e.g. under reduced-motion).",
+      "difficulty": "easy",
+      "tags": ["none", "disable"]
+    },
+    {
+      "id": "trf-q7",
+      "topic": "CSS Transitions",
+      "question": "Transitioning 'height: auto' is problematic because:",
+      "options": [
+        { "id": "a", "text": "auto is not animatable; you need a fixed height or max-height technique" },
+        { "id": "b", "text": "It is too fast" },
+        { "id": "c", "text": "It is invalid CSS" },
+        { "id": "d", "text": "It requires !important" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "auto has no intermediate value to interpolate. Animate max-height (to a safe upper bound) or use grid 0fr→1fr / JS for collapsing.",
+      "difficulty": "hard",
+      "tags": ["height-auto", "pitfall"]
+    },
+    {
+      "id": "trf-q8",
+      "topic": "CSS Transitions",
+      "question": "Combining transitions with :focus-visible improves:",
+      "options": [
+        { "id": "a", "text": "Keyboard accessibility (smooth cues only for keyboard users)" },
+        { "id": "b", "text": "Network speed" },
+        { "id": "c", "text": "SEO" },
+        { "id": "d", "text": "Print layout" }
+      ],
+      "correctOptionId": "a",
+      "explanation": ":focus-visible shows focus rings for keyboard nav (not mouse), so transitioned focus styles aid a11y without noise for mouse users.",
+      "difficulty": "medium",
+      "tags": ["focus-visible", "accessibility"]
+    }
+  ]
+}

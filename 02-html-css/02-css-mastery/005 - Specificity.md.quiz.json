@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/005 - Specificity.md",
+  "title": "CSS Specificity Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "spec-q1",
+      "topic": "Specificity",
+      "question": "The specificity tiers, highest to lowest, are:",
+      "options": [
+        { "id": "a", "text": "Inline style > ID > class/attr/pseudo-class > element/pseudo-element" },
+        { "id": "b", "text": "Element > class > ID > inline" },
+        { "id": "c", "text": "Class > ID > inline > element" },
+        { "id": "d", "text": "They are all equal" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Specificity order: inline (1,0,0,0) > ID (0,1,0,0) > class/attr/pseudo-class (0,0,1,0) > element/pseudo-element (0,0,0,1).",
+      "difficulty": "medium",
+      "tags": ["specificity", "order"]
+    },
+    {
+      "id": "spec-q2",
+      "topic": "Specificity",
+      "question": "For an element with id='main' class='error' and inline style color:green, which color wins?",
+      "options": [
+        { "id": "a", "text": "Green (inline style, 1,0,0,0)" },
+        { "id": "b", "text": "Blue (#main p rule)" },
+        { "id": "c", "text": "Red (.error)" },
+        { "id": "d", "text": "Black (p element rule)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inline styles have the highest specificity (1,0,0,0) and beat ID/class/element selectors (unless !important is involved).",
+      "difficulty": "easy",
+      "tags": ["inline", "winning"]
+    },
+    {
+      "id": "spec-q3",
+      "topic": "Specificity",
+      "question": "When two rules have EQUAL specificity, which wins?",
+      "options": [
+        { "id": "a", "text": "The one defined LATER in the source order" },
+        { "id": "b", "text": "The one with more classes" },
+        { "id": "c", "text": "The first one defined" },
+        { "id": "d", "text": "Randomly" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Source order is the tie-breaker: among equal-specificity rules, the last-declared wins.",
+      "difficulty": "easy",
+      "tags": ["source-order", "tie"]
+    },
+    {
+      "id": "spec-q4",
+      "topic": "Specificity",
+      "question": "How does !important affect resolution?",
+      "options": [
+        { "id": "a", "text": "It overrides normal declarations (including inline), except another !important later" },
+        { "id": "b", "text": "It only works on IDs" },
+        { "id": "c", "text": "It has no effect" },
+        { "id": "d", "text": "It lowers specificity" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "!important beats non-important rules (even inline). Among !important rules, normal specificity/source order then apply.",
+      "difficulty": "hard",
+      "tags": ["important", "override"]
+    },
+    {
+      "id": "spec-q5",
+      "topic": "Specificity",
+      "question": "The :not() pseudo-class contributes specificity equal to:",
+      "options": [
+        { "id": "a", "text": "The specificity of the selector INSIDE it" },
+        { "id": "b", "text": "Zero (it never adds specificity)" },
+        { "id": "c", "text": "An ID always" },
+        { "id": "d", "text": "An element always" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "p:not(.intro) has specificity of p (0,0,0,1) PLUS .intro (0,0,1,0) = 0,0,1,1. :not itself adds nothing; its argument does.",
+      "difficulty": "hard",
+      "tags": ["not", "specificity"]
+    },
+    {
+      "id": "spec-q6",
+      "topic": "Specificity",
+      "question": "A common best practice to avoid 'specificity wars' is:",
+      "options": [
+        { "id": "a", "text": "Keep selectors low-specificity and use BEM naming" },
+        { "id": "b", "text": "Add !important to everything" },
+        { "id": "c", "text": "Use only IDs" },
+        { "id": "d", "text": "Avoid classes entirely" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Low-specificity selectors + BEM reduce conflicts so you don't escalate with IDs/!important. Override third-party styles by raising specificity, not !important.",
+      "difficulty": "medium",
+      "tags": ["best-practice", "bem"]
+    },
+    {
+      "id": "spec-q7",
+      "topic": "Specificity",
+      "question": "Which selector is most specific: '#nav .item a', '.nav a', 'nav a', '* a'?",
+      "options": [
+        { "id": "a", "text": "#nav .item a (1 ID + 1 class + 2 elements = 0,1,1,2)" },
+        { "id": "b", "text": ".nav a (1 class + 1 element = 0,0,1,1)" },
+        { "id": "c", "text": "nav a (2 elements = 0,0,0,2)" },
+        { "id": "d", "text": "* a (1 element = 0,0,0,1)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "IDs weigh the most. '#nav .item a' includes an ID so it beats class- and element-only selectors.",
+      "difficulty": "hard",
+      "tags": ["calculation", "id"]
+    },
+    {
+      "id": "spec-q8",
+      "topic": "Specificity",
+      "question": "Specificity differs from the cascade in that:",
+      "options": [
+        { "id": "a", "text": "Specificity picks the winning rule among matches; the cascade is the WHOLE algorithm (origin, importance, specificity, order)" },
+        { "id": "b", "text": "They are the exact same thing" },
+        { "id": "c", "text": "Cascade only applies to flexbox" },
+        { "id": "d", "text": "Specificity ignores inline styles" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The cascade is the full process (importance/origin → specificity → source order). Specificity is just one step within it.",
+      "difficulty": "medium",
+      "tags": ["cascade-vs-specificity", "concept"]
+    }
+  ]
+}

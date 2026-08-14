@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-html-css/02-css-mastery/029 - Box Model.md",
+  "title": "Box Model Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "box-q1",
+      "topic": "Box Model",
+      "question": "box-sizing: border-box makes width include:",
+      "options": [
+        { "id": "a", "text": "Content + padding + border (not margin)" },
+        { "id": "b", "text": "Only the content" },
+        { "id": "c", "text": "Margin too" },
+        { "id": "d", "text": "Nothing" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "With border-box, the declared width is the total box size; padding/border are subtracted internally. Margin stays outside.",
+      "difficulty": "easy",
+      "tags": ["box-sizing", "border-box"]
+    },
+    {
+      "id": "box-q2",
+      "topic": "Box Model",
+      "question": "An element with width:100px, padding:10px, border:2px, box-sizing:content-box renders at total width:",
+      "options": [
+        { "id": "a", "text": "124px (100 + 20 padding + 4 border)" },
+        { "id": "b", "text": "100px exactly" },
+        { "id": "c", "text": "120px" },
+        { "id": "d", "text": "104px" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "content-box adds padding+border to the width, so 100+20+4 = 124px total.",
+      "difficulty": "medium",
+      "tags": ["calculation", "content-box"]
+    },
+    {
+      "id": "box-q3",
+      "topic": "Box Model",
+      "question": "Padding is the space:",
+      "options": [
+        { "id": "a", "text": "Between the content and the border (inside the box)" },
+        { "id": "b", "text": "Outside the border" },
+        { "id": "c", "text": "Between border and margin" },
+        { "id": "d", "text": "The content itself" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Padding is inner spacing (content→border). Margin is outer (border→neighbors).",
+      "difficulty": "easy",
+      "tags": ["padding", "inner"]
+    },
+    {
+      "id": "box-q4",
+      "topic": "Box Model",
+      "question": "Margin is the space:",
+      "options": [
+        { "id": "a", "text": "Outside the border, separating the element from others" },
+        { "id": "b", "text": "Inside the content" },
+        { "id": "c", "text": "Between content and padding" },
+        { "id": "d", "text": "The background area" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Margin is the outermost spacing; it is transparent and pushes siblings away. Not part of the element's background.",
+      "difficulty": "easy",
+      "tags": ["margin", "outer"]
+    },
+    {
+      "id": "box-q5",
+      "topic": "Box Model",
+      "question": "A common reset is:",
+      "options": [
+        { "id": "a", "text": "* { box-sizing: border-box; } so widths are predictable" },
+        { "id": "b", "text": "* { margin: 0; padding: 0; } only" },
+        { "id": "c", "text": "display: none on all" },
+        { "id": "d", "text": "width: auto everywhere" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The universal border-box reset makes sizing intuitive across the app — a near-universal best practice.",
+      "difficulty": "medium",
+      "tags": ["reset", "border-box"]
+    },
+    {
+      "id": "box-q6",
+      "topic": "Box Model",
+      "question": "Background (color/image) fills:",
+      "options": [
+        { "id": "a", "text": "The content + padding area (not margin)" },
+        { "id": "b", "text": "Only the content" },
+        { "id": "c", "text": "The margin too" },
+        { "id": "d", "text": "Only the border" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Background extends through padding to the border edge; margin is always transparent and outside the background.",
+      "difficulty": "medium",
+      "tags": ["background", "padding"]
+    },
+    {
+      "id": "box-q7",
+      "topic": "Box Model",
+      "question": "box-sizing: content-box is the:",
+      "options": [
+        { "id": "a", "text": "Default (CSS spec) value — width applies to content only" },
+        { "id": "b", "text": "Never the default" },
+        { "id": "c", "text": "Same as border-box" },
+        { "id": "d", "text": "A deprecated value" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The initial value is content-box; that's why a reset to border-box is so common.",
+      "difficulty": "easy",
+      "tags": ["content-box", "default"]
+    },
+    {
+      "id": "box-q8",
+      "topic": "Box Model",
+      "question": "Total element outer width equals:",
+      "options": [
+        { "id": "a", "text": "border-box width + margin (in border-box mode)" },
+        { "id": "b", "text": "content width only" },
+        { "id": "c", "text": "padding only" },
+        { "id": "d", "text": "border only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Outer footprint = the box (content+padding+border) plus margin on each side. Border-box width already includes the first three.",
+      "difficulty": "medium",
+      "tags": ["total-width", "margin"]
+    }
+  ]
+}

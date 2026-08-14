@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/033 - CSS Positioning.md",
+  "title": "CSS Positioning Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "pos-q1",
+      "topic": "CSS Positioning",
+      "question": "position: relative offsets an element:",
+      "options": [
+        { "id": "a", "text": "From its NORMAL position, leaving its original space occupied" },
+        { "id": "b", "text": "Relative to the viewport" },
+        { "id": "c", "text": "Removing it from flow" },
+        { "id": "d", "text": "Relative to its children" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "relative shifts visually via top/left/right/bottom but keeps its spot in flow (also establishes a positioning context for absolutes).",
+      "difficulty": "medium",
+      "tags": ["relative", "normal-flow"]
+    },
+    {
+      "id": "pos-q2",
+      "topic": "CSS Positioning",
+      "question": "position: absolute takes an element:",
+      "options": [
+        { "id": "a", "text": "Out of normal flow, positioned relative to nearest positioned ancestor" },
+        { "id": "b", "text": "Relative to the viewport only" },
+        { "id": "c", "text": "Into a new line" },
+        { "id": "d", "text": "Relative to its siblings' flow" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "absolute removes the element from flow; it anchors to the nearest ancestor with position != static, else the initial containing block.",
+      "difficulty": "medium",
+      "tags": ["absolute", "positioned-ancestor"]
+    },
+    {
+      "id": "pos-q3",
+      "topic": "CSS Positioning",
+      "question": "position: fixed anchors to:",
+      "options": [
+        { "id": "a", "text": "The viewport (stays put on scroll), unless an ancestor has a transform" },
+        { "id": "b", "text": "The nearest relative parent" },
+        { "id": "c", "text": "The document body only" },
+        { "id": "d", "text": "Its previous sibling" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "fixed positions relative to the viewport; an ancestor with transform/filter creates a containing block, breaking the viewport anchor.",
+      "difficulty": "hard",
+      "tags": ["fixed", "viewport"]
+    },
+    {
+      "id": "pos-q4",
+      "topic": "CSS Positioning",
+      "question": "position: sticky behaves like:",
+      "options": [
+        { "id": "a", "text": "relative until it crosses a threshold, then sticks like fixed within its parent" },
+        { "id": "b", "text": "Always absolute" },
+        { "id": "c", "text": "Always static" },
+        { "id": "d", "text": "Never scrolls" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "sticky toggles between relative and fixed based on scroll position, constrained to its containing parent — great for headers.", "difficulty": "hard",
+      "tags": ["sticky", "threshold"]
+    },
+    {
+      "id": "pos-q5",
+      "topic": "CSS Positioning",
+      "question": "z-index only affects elements with:",
+      "options": [
+        { "id": "a", "text": "A positioning value other than static (or flex/grid items)" },
+        { "id": "b", "text": "display: block" },
+        { "id": "c", "text": "A background color" },
+        { "id": "d", "text": "High opacity" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "z-index applies to positioned elements (relative/absolute/fixed/sticky) and flex/grid items; static elements ignore it.",
+      "difficulty": "medium",
+      "tags": ["z-index", "positioned"]
+    },
+    {
+      "id": "pos-q6",
+      "topic": "CSS Positioning",
+      "question": "z-index stacking context is created by, among others:",
+      "options": [
+        { "id": "a", "text": "position + z-index, opacity < 1, transform, will-change, filter" },
+        { "id": "b", "text": "color changes only" },
+        { "id": "c", "text": "font-size" },
+        { "id": "d", "text": "margin" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Many properties create a new stacking context, trapping child z-index within it — a common 'why won't it overlap' gotcha.",
+      "difficulty": "hard",
+      "tags": ["stacking-context", "z-index"]
+    },
+    {
+      "id": "pos-q7",
+      "topic": "CSS Positioning",
+      "question": "To center with absolute positioning you can use:",
+      "options": [
+        { "id": "a", "text": "top:50%; left:50%; transform: translate(-50%,-50%)" },
+        { "id": "b", "text": "margin: auto on the parent" },
+        { "id": "c", "text": "text-align: center" },
+        { "id": "d", "text": "float: center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The translate(-50%,-50%) trick offsets by the element's own size to truly center it within the positioned ancestor.",
+      "difficulty": "medium",
+      "tags": ["center", "translate"]
+    },
+    {
+      "id": "pos-q8",
+      "topic": "CSS Positioning",
+      "question": "A common use of position: relative is:",
+      "options": [
+        { "id": "a", "text": "Creating a positioning context for absolutely-positioned children (tooltips, badges)" },
+        { "id": "b", "text": "Removing elements from flow" },
+        { "id": "c", "text": "Sticking to the viewport" },
+        { "id": "d", "text": "Scrolling with the page always" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Setting a wrapper to relative lets child absolutes anchor to it instead of the viewport — essential for overlays/badges.",
+      "difficulty": "easy",
+      "tags": ["relative", "context"]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/025 - Transitions vs Animations.md",
+  "title": "Transitions vs Animations Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "tvsa-q1",
+      "topic": "Transitions vs Animations",
+      "question": "Use a TRANSITION when you want to:",
+      "options": [
+        { "id": "a", "text": "Smoothly interpolate a property change between two states" },
+        { "id": "b", "text": "Run a multi-step keyframe loop automatically" },
+        { "id": "c", "text": "Animate before any state change" },
+        { "id": "d", "text": "Always repeat forever" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions are for state-to-state tweens (hover, toggle). Animations are for keyframe sequences.",
+      "difficulty": "easy",
+      "tags": ["transition", "when"]
+    },
+    {
+      "id": "tvsa-q2",
+      "topic": "Transitions vs Animations",
+      "question": "Use an ANIMATION when you need:",
+      "options": [
+        { "id": "a", "text": "Multiple keyframe steps, looping, or auto-running on load" },
+        { "id": "b", "text": "Only a hover color change" },
+        { "id": "c", "text": "A single property toggle" },
+        { "id": "d", "text": "No timing function" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Animations handle sequences, iteration-count, direction, and auto-start — beyond what a transition offers.",
+      "difficulty": "easy",
+      "tags": ["animation", "when"]
+    },
+    {
+      "id": "tvsa-q3",
+      "topic": "Transitions vs Animations",
+      "question": "A transition requires a:",
+      "options": [
+        { "id": "a", "text": "Trigger (property change) to run" },
+        { "id": "b", "text": "Keyframe block" },
+        { "id": "c", "text": "Page reload" },
+        { "id": "d", "text": "JavaScript timer" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Transitions are passive — they fire only when a watched property actually changes value.",
+      "difficulty": "medium",
+      "tags": ["trigger", "transition"]
+    },
+    {
+      "id": "tvsa-q4",
+      "topic": "Transitions vs Animations",
+      "question": "Which can loop infinitely without JS?",
+      "options": [
+        { "id": "a", "text": "Animation (animation-iteration-count: infinite)" },
+        { "id": "b", "text": "Transition" },
+        { "id": "c", "text": "Neither" },
+        { "id": "d", "text": "Both equally" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Only keyframe animations support looping/auto-run; transitions always interpolate a single change.",
+      "difficulty": "medium",
+      "tags": ["loop", "infinite"]
+    },
+    {
+      "id": "tvsa-q5",
+      "topic": "Transitions vs Animations",
+      "question": "Both animations and transitions can be interrupted/reversed by:",
+      "options": [
+        { "id": "a", "text": "Changing the property again (e.g. removing :hover) — the browser tweens to the new state" },
+        { "id": "b", "text": "Only a page refresh" },
+        { "id": "c", "text": "A media query" },
+        { "id": "d", "text": "Nothing — they are one-way" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Both are interruptible; reversing the condition smoothly returns to the prior state if transition/timing is defined.",
+      "difficulty": "hard",
+      "tags": ["interruption", "reverse"]
+    },
+    {
+      "id": "tvsa-q6",
+      "topic": "Transitions vs Animations",
+      "question": "Performance-wise, both are fine when animating:",
+      "options": [
+        { "id": "a", "text": "transform and opacity (compositor-only)" },
+        { "id": "b", "text": "width and height" },
+        { "id": "c", "text": "margin and top" },
+        { "id": "d", "text": "display" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Whichever you pick, prefer transform/opacity to avoid layout thrash and jank.",
+      "difficulty": "medium",
+      "tags": ["performance", "transform"]
+    },
+    {
+      "id": "tvsa-q7",
+      "topic": "Transitions vs Animations",
+      "question": "A loading spinner is best done with:",
+      "options": [
+        { "id": "a", "text": "An animation (continuous rotation loop)" },
+        { "id": "b", "text": "A transition on hover" },
+        { "id": "c", "text": "A media query" },
+        { "id": "d", "text": "display: none" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Continuous rotation needs a looping keyframe animation (transform: rotate), not a one-shot transition.",
+      "difficulty": "easy",
+      "tags": ["spinner", "use-case"]
+    },
+    {
+      "id": "tvsa-q8",
+      "topic": "Transitions vs Animations",
+      "question": "A button hover color change is best done with:",
+      "options": [
+        { "id": "a", "text": "A transition (simple two-state tween)" },
+        { "id": "b", "text": "A keyframe animation" },
+        { "id": "c", "text": "An @import" },
+        { "id": "d", "text": "A media query" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A hover color/opacity shift is exactly what transitions are for — no keyframes needed.",
+      "difficulty": "easy",
+      "tags": ["hover", "use-case"]
+    }
+  ]
+}

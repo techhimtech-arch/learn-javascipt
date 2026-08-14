@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/028 - Layout Fundamentals.md",
+  "title": "Layout Fundamentals Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "layfund-q1",
+      "topic": "Layout Fundamentals",
+      "question": "The CSS Box Model consists of, from outside in:",
+      "options": [
+        { "id": "a", "text": "Margin, Border, Padding, Content" },
+        { "id": "b", "text": "Content, Padding, Border, Margin" },
+        { "id": "c", "text": "Border, Margin, Padding, Content" },
+        { "id": "d", "text": "Padding, Margin, Border, Content" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Margin is outermost, then border, then padding, then the content box at the center.",
+      "difficulty": "easy",
+      "tags": ["box-model", "layers"]
+    },
+    {
+      "id": "layfund-q2",
+      "topic": "Layout Fundamentals",
+      "question": "With box-sizing: border-box, an element's width includes:",
+      "options": [
+        { "id": "a", "text": "Padding and border (not margin) — width is the total render size" },
+        { "id": "b", "text": "Only content" },
+        { "id": "c", "text": "Margin too" },
+        { "id": "d", "text": "Nothing extra" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "border-box makes width/height include padding+border, so sizing is predictable. The modern reset sets this globally.",
+      "difficulty": "medium",
+      "tags": ["box-sizing", "border-box"]
+    },
+    {
+      "id": "layfund-q3",
+      "topic": "Layout Fundamentals",
+      "question": "display: inline-block differs from inline in that it:",
+      "options": [
+        { "id": "a", "text": "Respects width/height and vertical padding/margins (stays on same line)" },
+        { "id": "b", "text": "Breaks to a new line always" },
+        { "id": "c", "text": "Ignores width" },
+        { "id": "d", "text": "Behaves like a block" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "inline-block keeps inline flow but accepts box dimensions — great for nav items, buttons in a row.",
+      "difficulty": "medium",
+      "tags": ["inline-block", "dimensions"]
+    },
+    {
+      "id": "layfund-q4",
+      "topic": "Layout Fundamentals",
+      "question": "The default display of <div> is:",
+      "options": [
+        { "id": "a", "text": "block" },
+        { "id": "b", "text": "inline" },
+        { "id": "c", "text": "inline-block" },
+        { "id": "d", "text": "flex" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "div is block-level (full width, stacks vertically); span is inline.",
+      "difficulty": "easy",
+      "tags": ["display", "block"]
+    },
+    {
+      "id": "layfund-q5",
+      "topic": "Layout Fundamentals",
+      "question": "A 'block formatting context' (BFC) is created by, among others:",
+      "options": [
+        { "id": "a", "text": "overflow: hidden, display: flow-root, or float" },
+        { "id": "b", "text": "color: red" },
+        { "id": "c", "text": "font-size: 0" },
+        { "id": "d", "text": "text-align: center" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "BFCs isolate layout (contain floats, prevent margin collapse). display:flow-root creates one cleanly without side effects.",
+      "difficulty": "hard",
+      "tags": ["bfc", "containment"]
+    },
+    {
+      "id": "layfund-q6",
+      "topic": "Layout Fundamentals",
+      "question": "Margin collapsing means:",
+      "options": [
+        { "id": "a", "text": "Adjacent vertical margins of block siblings combine into the larger one" },
+        { "id": "b", "text": "Margins double" },
+        { "id": "c", "text": "Padding becomes margin" },
+        { "id": "d", "text": "Margins are removed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Vertical margins between siblings (and parent-child in some cases) collapse to the max of the two — a classic layout surprise.",
+      "difficulty": "hard",
+      "tags": ["margin-collapse", "behavior"]
+    },
+    {
+      "id": "layfund-q7",
+      "topic": "Layout Fundamentals",
+      "question": "To center a block horizontally you use:",
+      "options": [
+        { "id": "a", "text": "margin: 0 auto (needs a defined width)" },
+        { "id": "b", "text": "text-align: center" },
+        { "id": "c", "text": "float: center" },
+        { "id": "d", "text": "position: absolute" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "margin: 0 auto centers a fixed-width block; text-align:center only centers inline content.",
+      "difficulty": "easy",
+      "tags": ["center", "margin-auto"]
+    },
+    {
+      "id": "layfund-q8",
+      "topic": "Layout Fundamentals",
+      "question": "float was originally designed for:",
+      "options": [
+        { "id": "a", "text": "Wrapping text around images (later abused for full layouts)" },
+        { "id": "b", "text": "Grid layouts" },
+        { "id": "c", "text": "Flex alignment" },
+        { "id": "d", "text": "Animations" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "float was for text-wrapping; modern layouts use flex/grid. Clearfix or BFC contains floated children.",
+      "difficulty": "medium",
+      "tags": ["float", "history"]
+    }
+  ]
+}

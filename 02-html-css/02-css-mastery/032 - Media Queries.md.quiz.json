@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "02-css-mastery/032 - Media Queries.md",
+  "title": "Media Queries Quiz",
+  "createdAt": "2026-08-12",
+  "questions": [
+    {
+      "id": "mq-q1",
+      "topic": "Media Queries",
+      "question": "@media (max-width: 600px) applies when the viewport is:",
+      "options": [
+        { "id": "a", "text": "600px wide or LESS" },
+        { "id": "b", "text": "Exactly 600px" },
+        { "id": "c", "text": "More than 600px" },
+        { "id": "d", "text": "600px or more" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "max-width is inclusive of the value: styles apply at 600px and below (mobile-first uses min-width instead).",
+      "difficulty": "easy",
+      "tags": ["max-width", "inclusive"]
+    },
+    {
+      "id": "mq-q2",
+      "topic": "Media Queries",
+      "question": "Mobile-first CSS typically uses:",
+      "options": [
+        { "id": "a", "text": "min-width queries (base styles for small, enhance upward)" },
+        { "id": "b", "text": "max-width queries everywhere" },
+        { "id": "c", "text": "Only print queries" },
+        { "id": "d", "text": "No queries" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mobile-first: write base for small screens, then min-width breakpoints add layouts for larger devices.",
+      "difficulty": "medium",
+      "tags": ["mobile-first", "min-width"]
+    },
+    {
+      "id": "mq-q3",
+      "topic": "Media Queries",
+      "question": "The 'only screen' prefix is used to:",
+      "options": [
+        { "id": "a", "text": "Hide the query from very old browsers that don't support media queries" },
+        { "id": "b", "text": "Target only printers" },
+        { "id": "c", "text": "Target touch devices only" },
+        { "id": "d", "text": "Force dark mode" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "only prevents legacy browsers from applying the styles; mostly historical now but still harmless.",
+      "difficulty": "medium",
+      "tags": ["only", "legacy"]
+    },
+    {
+      "id": "mq-q4",
+      "topic": "Media Queries",
+      "question": "Media features can be combined with:",
+      "options": [
+        { "id": "a", "text": "and / , (comma for OR) / not" },
+        { "id": "b", "text": "Only &&" },
+        { "id": "c", "text": "Only XOR" },
+        { "id": "d", "text": "None — single feature only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Use 'and' to require multiple features, commas for OR (independent queries), and 'not' to negate.",
+      "difficulty": "medium",
+      "tags": ["combine", "and-or"]
+    },
+    {
+      "id": "mq-q5",
+      "topic": "Media Queries",
+      "question": "prefers-color-scheme: dark targets users who:",
+      "options": [
+        { "id": "a", "text": "Have their OS set to dark mode" },
+        { "id": "b", "text": "Use a specific browser" },
+        { "id": "c", "text": "Are on mobile" },
+        { "id": "d", "text": "Disabled JavaScript" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "prefers-color-scheme (dark/light) reads the OS theme — pairs with CSS variables for automatic dark mode.",
+      "difficulty": "easy",
+      "tags": ["prefers-color-scheme", "dark"]
+    },
+    {
+      "id": "mq-q6",
+      "topic": "Media Queries",
+      "question": "prefers-reduced-motion: reduce signals the user wants:",
+      "options": [
+        { "id": "a", "text": "Less or no animation (vestibular/accessibility need)" },
+        { "id": "b", "text": "Higher contrast" },
+        { "id": "c", "text": "Larger text" },
+        { "id": "d", "text": "Faster internet" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Respect it by disabling/reducing non-essential motion — critical for users sensitive to movement.",
+      "difficulty": "medium",
+      "tags": ["reduced-motion", "accessibility"]
+    },
+    {
+      "id": "mq-q7",
+      "topic": "Media Queries",
+      "question": "An orientation: portrait query matches when:",
+      "options": [
+        { "id": "a", "text": "The viewport height is greater than or equal to its width" },
+        { "id": "b", "text": "Width is greater than height" },
+        { "id": "c", "text": "The device is a desktop" },
+        { "id": "d", "text": "The screen is square" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "portrait = taller than wide; landscape = wider than tall. Commonly used for layout swaps on phones.",
+      "difficulty": "easy",
+      "tags": ["orientation", "portrait"]
+    },
+    {
+      "id": "mq-q8",
+      "topic": "Media Queries",
+      "question": "Breakpoints should ideally be based on:",
+      "options": [
+        { "id": "a", "text": "Your content/layout needs, not specific device widths" },
+        { "id": "b", "text": "Exact iPhone models only" },
+        { "id": "c", "text": "The browser brand" },
+        { "id": "d", "text": "Screen DPI only" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Design for content breakpoints (where the layout breaks), not a fixed list of devices — more future-proof.",
+      "difficulty": "medium",
+      "tags": ["breakpoints", "content"]
+    }
+  ]
+}
