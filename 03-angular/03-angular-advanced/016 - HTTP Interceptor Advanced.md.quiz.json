@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/016 - HTTP Interceptor Advanced.md",
+  "title": "HTTP Interceptor Advanced Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g978",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "What is \"HTTP Interceptor Advanced\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced HTTP Interceptors handle complex cross-cutting concerns — token refresh, retry strategies, offline queueing, request dedup."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to HTTP Interceptor Advanced."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to HTTP Interceptor Advanced."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Advanced HTTP Interceptors handle complex cross-cutting concerns — token refresh, retry strategies, offline queueing, request dedup.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g979",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "Which statement about HTTP Interceptor Advanced is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced HTTP Interceptors handle complex cross-cutting concerns — token refresh, retry strategies, offline queueing, request dedup."
+        },
+        {
+          "id": "b",
+          "text": "HTTP Interceptor Advanced was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "HTTP Interceptor Advanced only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "HTTP Interceptor Advanced has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of HTTP Interceptor Advanced.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g980",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "Why is HTTP Interceptor Advanced useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for HTTP Interceptor Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g981",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "Where would you most likely apply HTTP Interceptor Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for HTTP Interceptor Advanced."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where HTTP Interceptor Advanced applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g982",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "Which practice is recommended when using HTTP Interceptor Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for HTTP Interceptor Advanced."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply HTTP Interceptor Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g983",
+      "topic": "HTTP Interceptor Advanced",
+      "question": "How does HTTP Interceptor Advanced behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of HTTP Interceptor Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/007 - Union and Intersection Types.md",
+  "title": "Union and Intersection Types Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g391",
+      "topic": "Union and Intersection Types",
+      "question": "What is \"Union and Intersection Types\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Union and Intersection Types."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Union and Intersection Types."
+        },
+        {
+          "id": "d",
+          "text": "- Union (|) – represents a value that can be one of multiple types - Intersection (&) – combines multiple types into one Both enhance expressiveness in type definitions."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: - Union (|) – represents a value that can be one of multiple types - Intersection (&) – combines multiple types into one Both enhance expressiveness in type definitions.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g392",
+      "topic": "Union and Intersection Types",
+      "question": "Which statement about Union and Intersection Types is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Union and Intersection Types only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Union and Intersection Types was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "- Union (|) – represents a value that can be one of multiple types - Intersection (&) – combines multiple types into one Both enhance expressiveness in type definitions."
+        },
+        {
+          "id": "d",
+          "text": "Union and Intersection Types has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Union and Intersection Types.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g393",
+      "topic": "Union and Intersection Types",
+      "question": "Why is Union and Intersection Types useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Union and Intersection Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g394",
+      "topic": "Union and Intersection Types",
+      "question": "Where would you most likely apply Union and Intersection Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Union and Intersection Types."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Union and Intersection Types applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g395",
+      "topic": "Union and Intersection Types",
+      "question": "Which practice is recommended when using Union and Intersection Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Union and Intersection Types."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Union and Intersection Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g396",
+      "topic": "Union and Intersection Types",
+      "question": "How does Union and Intersection Types behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Union and Intersection Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/023 - Decorators.md",
+  "title": "Decorators Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g475",
+      "topic": "Decorators",
+      "question": "What is \"Decorators\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript Decorators are metadata functions modifying classes/methods/properties/parameters — enabling declarative meta-programming."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Decorators."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Decorators."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: TypeScript Decorators are metadata functions modifying classes/methods/properties/parameters — enabling declarative meta-programming.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g476",
+      "topic": "Decorators",
+      "question": "Which statement about Decorators is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decorators has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript Decorators are metadata functions modifying classes/methods/properties/parameters — enabling declarative meta-programming."
+        },
+        {
+          "id": "c",
+          "text": "Decorators only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Decorators was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Decorators.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g477",
+      "topic": "Decorators",
+      "question": "Given the Decorators code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Decorators."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Decorators.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g478",
+      "topic": "Decorators",
+      "question": "Why is Decorators useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Decorators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g479",
+      "topic": "Decorators",
+      "question": "Where would you most likely apply Decorators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Decorators."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Decorators applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g480",
+      "topic": "Decorators",
+      "question": "Which practice is recommended when using Decorators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Decorators."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Decorators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

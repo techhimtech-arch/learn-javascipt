@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/020 - Deep Equal.md",
+  "title": "Deep Equal Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1176",
+      "topic": "Deep Equal",
+      "question": "What is \"Deep Equal\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Deep Equal."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Deep Equal."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Deep Equal performs structural comparison between two values — checking equality recursively across nested objects/arrays."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Deep Equal performs structural comparison between two values — checking equality recursively across nested objects/arrays.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1177",
+      "topic": "Deep Equal",
+      "question": "Which statement about Deep Equal is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deep Equal only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Deep Equal was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Deep Equal has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Deep Equal performs structural comparison between two values — checking equality recursively across nested objects/arrays."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Deep Equal.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1178",
+      "topic": "Deep Equal",
+      "question": "Why is Deep Equal useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Deep Equal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1179",
+      "topic": "Deep Equal",
+      "question": "Where would you most likely apply Deep Equal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Deep Equal."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Deep Equal applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1180",
+      "topic": "Deep Equal",
+      "question": "Which practice is recommended when using Deep Equal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Deep Equal."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Deep Equal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1181",
+      "topic": "Deep Equal",
+      "question": "How does Deep Equal behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Deep Equal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

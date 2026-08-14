@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/006 - Execution Phase.md",
+  "title": "Execution Phase Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g37",
+      "topic": "Execution Phase",
+      "question": "What is \"Execution Phase\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Execution Phase is the second stage of an Execution Context."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Execution Phase."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Execution Phase."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The Execution Phase is the second stage of an Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g38",
+      "topic": "Execution Phase",
+      "question": "Which statement about Execution Phase is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Execution Phase was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "The Execution Phase is the second stage of an Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "Execution Phase has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Execution Phase only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Execution Phase.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g39",
+      "topic": "Execution Phase",
+      "question": "Given the Execution Phase code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Execution Phase."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Execution Phase.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g40",
+      "topic": "Execution Phase",
+      "question": "Why is Execution Phase useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Execution Phase.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g41",
+      "topic": "Execution Phase",
+      "question": "Where would you most likely apply Execution Phase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Execution Phase."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Execution Phase applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g42",
+      "topic": "Execution Phase",
+      "question": "Which practice is recommended when using Execution Phase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Execution Phase."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Execution Phase.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

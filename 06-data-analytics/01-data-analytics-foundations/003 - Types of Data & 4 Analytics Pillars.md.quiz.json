@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "06-data-analytics/01-data-analytics-foundations/003 - Types of Data & 4 Analytics Pillars.md",
+  "title": "Types of Data & 4 Analytics Pillars Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1370",
+      "topic": "Types of Data & 4 Analytics Pillars",
+      "question": "Why is Types of Data & 4 Analytics Pillars useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Types of Data & 4 Analytics Pillars.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1371",
+      "topic": "Types of Data & 4 Analytics Pillars",
+      "question": "Where would you most likely apply Types of Data & 4 Analytics Pillars?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Types of Data & 4 Analytics Pillars."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Types of Data & 4 Analytics Pillars applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1372",
+      "topic": "Types of Data & 4 Analytics Pillars",
+      "question": "Which practice is recommended when using Types of Data & 4 Analytics Pillars?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Types of Data & 4 Analytics Pillars."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Types of Data & 4 Analytics Pillars.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1373",
+      "topic": "Types of Data & 4 Analytics Pillars",
+      "question": "How does Types of Data & 4 Analytics Pillars behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Types of Data & 4 Analytics Pillars.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

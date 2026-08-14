@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/007 - Default Parameters.md",
+  "title": "Default Parameters Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g337",
+      "topic": "Default Parameters",
+      "question": "What is \"Default Parameters\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Default Parameters."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Default Parameters."
+        },
+        {
+          "id": "d",
+          "text": "Default parameters allow initiali"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Default parameters allow initiali",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g338",
+      "topic": "Default Parameters",
+      "question": "Which statement about Default Parameters is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Default Parameters was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Default Parameters only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Default parameters allow initiali"
+        },
+        {
+          "id": "d",
+          "text": "Default Parameters has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Default Parameters.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g339",
+      "topic": "Default Parameters",
+      "question": "Given the Default Parameters code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Default Parameters."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Default Parameters.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g340",
+      "topic": "Default Parameters",
+      "question": "Why is Default Parameters useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Default Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g341",
+      "topic": "Default Parameters",
+      "question": "Where would you most likely apply Default Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Default Parameters."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Default Parameters applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g342",
+      "topic": "Default Parameters",
+      "question": "Which practice is recommended when using Default Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Default Parameters."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Default Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/026 - Strict Mode.md",
+  "title": "Strict Mode Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g157",
+      "topic": "Strict Mode",
+      "question": "What is \"Strict Mode\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Strict Mode."
+        },
+        {
+          "id": "b",
+          "text": "Strict Mode (\"use strict\";) is an opt-in feature that enforces stricter parsing and error handling on JavaScript code."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Strict Mode."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Strict Mode (\"use strict\";) is an opt-in feature that enforces stricter parsing and error handling on JavaScript code.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g158",
+      "topic": "Strict Mode",
+      "question": "Which statement about Strict Mode is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Strict Mode only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Strict Mode (\"use strict\";) is an opt-in feature that enforces stricter parsing and error handling on JavaScript code."
+        },
+        {
+          "id": "c",
+          "text": "Strict Mode has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Strict Mode was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Strict Mode.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g159",
+      "topic": "Strict Mode",
+      "question": "Why is Strict Mode useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Strict Mode.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g160",
+      "topic": "Strict Mode",
+      "question": "Where would you most likely apply Strict Mode?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Strict Mode."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Strict Mode applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g161",
+      "topic": "Strict Mode",
+      "question": "Which practice is recommended when using Strict Mode?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Strict Mode."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Strict Mode.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g162",
+      "topic": "Strict Mode",
+      "question": "How does Strict Mode behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Strict Mode.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

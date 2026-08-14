@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/009 - Caching Strategies.md",
+  "title": "Caching Strategies Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1254",
+      "topic": "Caching Strategies",
+      "question": "What is \"Caching Strategies\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Caching Strategies."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Caching Strategies."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Caching Strategies optimi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Caching Strategies optimi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1255",
+      "topic": "Caching Strategies",
+      "question": "Which statement about Caching Strategies is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caching Strategies was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Caching Strategies has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Caching Strategies only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Caching Strategies optimi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Caching Strategies.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1256",
+      "topic": "Caching Strategies",
+      "question": "Why is Caching Strategies useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Caching Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1257",
+      "topic": "Caching Strategies",
+      "question": "Where would you most likely apply Caching Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Caching Strategies."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Caching Strategies applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1258",
+      "topic": "Caching Strategies",
+      "question": "Which practice is recommended when using Caching Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Caching Strategies."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Caching Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1259",
+      "topic": "Caching Strategies",
+      "question": "How does Caching Strategies behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Caching Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

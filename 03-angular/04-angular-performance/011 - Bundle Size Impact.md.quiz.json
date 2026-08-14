@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/011 - Bundle Size Impact.md",
+  "title": "Bundle Size Impact Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1002",
+      "topic": "Bundle Size Impact",
+      "question": "What is \"Bundle Size Impact\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Bundle Size Impact."
+        },
+        {
+          "id": "b",
+          "text": "Bundle Si"
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Bundle Size Impact."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Bundle Si",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1003",
+      "topic": "Bundle Size Impact",
+      "question": "Which statement about Bundle Size Impact is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bundle Size Impact only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Bundle Size Impact was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Bundle Si"
+        },
+        {
+          "id": "d",
+          "text": "Bundle Size Impact has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Bundle Size Impact.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1004",
+      "topic": "Bundle Size Impact",
+      "question": "Why is Bundle Size Impact useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Bundle Size Impact.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1005",
+      "topic": "Bundle Size Impact",
+      "question": "Where would you most likely apply Bundle Size Impact?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Bundle Size Impact."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Bundle Size Impact applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1006",
+      "topic": "Bundle Size Impact",
+      "question": "Which practice is recommended when using Bundle Size Impact?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Bundle Size Impact."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Bundle Size Impact.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1007",
+      "topic": "Bundle Size Impact",
+      "question": "How does Bundle Size Impact behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Bundle Size Impact.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "06-data-analytics/03-sql-database-mastery/003 - SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).md",
+  "title": "SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL) Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1394",
+      "topic": "SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
+      "question": "Why is SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL) useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1395",
+      "topic": "SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
+      "question": "Where would you most likely apply SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL) applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1396",
+      "topic": "SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
+      "question": "Which practice is recommended when using SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1397",
+      "topic": "SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL)",
+      "question": "How does SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL) behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of SQL Joins Masterclass (INNER, LEFT, RIGHT, FULL).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

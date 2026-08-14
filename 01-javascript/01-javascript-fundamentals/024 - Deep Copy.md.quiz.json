@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/024 - Deep Copy.md",
+  "title": "Deep Copy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g145",
+      "topic": "Deep Copy",
+      "question": "What is \"Deep Copy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Deep Copy."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Deep Copy."
+        },
+        {
+          "id": "d",
+          "text": "A Deep Copy duplicates all levels of an object or array — including nested structures — so that changes to one version don't affect the other."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: A Deep Copy duplicates all levels of an object or array — including nested structures — so that changes to one version don't affect the other.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g146",
+      "topic": "Deep Copy",
+      "question": "Which statement about Deep Copy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deep Copy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "A Deep Copy duplicates all levels of an object or array — including nested structures — so that changes to one version don't affect the other."
+        },
+        {
+          "id": "c",
+          "text": "Deep Copy only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Deep Copy has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Deep Copy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g147",
+      "topic": "Deep Copy",
+      "question": "Given the Deep Copy code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Deep Copy."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Deep Copy.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g148",
+      "topic": "Deep Copy",
+      "question": "Why is Deep Copy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Deep Copy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g149",
+      "topic": "Deep Copy",
+      "question": "Where would you most likely apply Deep Copy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Deep Copy."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Deep Copy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g150",
+      "topic": "Deep Copy",
+      "question": "Which practice is recommended when using Deep Copy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Deep Copy."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Deep Copy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

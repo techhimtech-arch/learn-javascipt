@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/005 - Deep Clone.md",
+  "title": "Deep Clone Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1068",
+      "topic": "Deep Clone",
+      "question": "What is \"Deep Clone\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Deep Clone."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Deep Clone."
+        },
+        {
+          "id": "d",
+          "text": "Deep Clone creates a fully independent copy of an object — including all nested properties — so mutations to one don't affect the other."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Deep Clone creates a fully independent copy of an object — including all nested properties — so mutations to one don't affect the other.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1069",
+      "topic": "Deep Clone",
+      "question": "Which statement about Deep Clone is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deep Clone creates a fully independent copy of an object — including all nested properties — so mutations to one don't affect the other."
+        },
+        {
+          "id": "b",
+          "text": "Deep Clone has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Deep Clone was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Deep Clone only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Deep Clone.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1070",
+      "topic": "Deep Clone",
+      "question": "Why is Deep Clone useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Deep Clone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1071",
+      "topic": "Deep Clone",
+      "question": "Where would you most likely apply Deep Clone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Deep Clone."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Deep Clone applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1072",
+      "topic": "Deep Clone",
+      "question": "Which practice is recommended when using Deep Clone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Deep Clone."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Deep Clone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1073",
+      "topic": "Deep Clone",
+      "question": "How does Deep Clone behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Deep Clone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -6,809 +6,878 @@
   "icon": "🔄",
   "folder": "01-rxjs",
   "description": "Mixed quiz covering all topics in Rxjs.",
-  "questionCount": 26,
-  "generatedAt": "2026-08-14T07:21:31.114Z",
+  "questionCount": 30,
+  "generatedAt": "2026-08-14T08:44:42.197Z",
   "questions": [
     {
-      "id": "rxjs-promise-q1",
-      "topic": "RxJS vs Promise",
-      "question": "A key difference: a Promise emits ___ value(s); an Observable emits ___ value(s).",
+      "id": "g589",
+      "topic": "Observable",
+      "question": "What is \"Observable\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "many / one"
+          "text": "A pure CSS technique with no relation to Observable."
         },
         {
           "id": "b",
-          "text": "one (settles once) / zero-to-many over time"
+          "text": "A deprecated feature that was removed in the latest standard."
         },
         {
           "id": "c",
-          "text": "zero / zero"
+          "text": "An external database engine unrelated to Observable."
         },
         {
           "id": "d",
-          "text": "one / exactly one"
+          "text": "An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "A Promise settles once with a single value; an Observable is a stream that can emit 0..n values then complete/error.",
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously.",
       "difficulty": "easy",
       "tags": [
-        "observable",
-        "lazy"
+        "definition"
       ]
     },
     {
-      "id": "rxjs-promise-q2",
-      "topic": "RxJS vs Promise",
-      "question": "Observables are lazy. What does that mean?",
+      "id": "g590",
+      "topic": "Observable",
+      "question": "Which statement about Observable is correct?",
       "options": [
         {
           "id": "a",
-          "text": "They run immediately on creation"
+          "text": "Observable was deprecated and replaced by a newer standard."
         },
         {
           "id": "b",
-          "text": "They do nothing until you subscribe()"
+          "text": "An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously."
         },
         {
           "id": "c",
-          "text": "They cannot be cancelled"
+          "text": "Observable only works in server-side rendering contexts."
         },
         {
           "id": "d",
-          "text": "They only work with async"
+          "text": "Observable has no practical use and should be avoided."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Creation functions (of, from, http.get) set up a blueprint; side effects/execution start only on subscribe.",
+      "explanation": "Based on the documented definition/working of Observable.",
       "difficulty": "medium",
       "tags": [
-        "lazy",
-        "subscribe"
+        "fact"
       ]
     },
     {
-      "id": "rxjs-promise-q3",
-      "topic": "RxJS vs Promise",
-      "question": "How do you cancel an in-flight Observable (e.g. an HTTP request)?",
+      "id": "g591",
+      "topic": "Observable",
+      "question": "Given the Observable code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "You cannot"
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "b",
-          "text": "Unsubscribe from the subscription"
+          "text": "It follows the documented step-by-step execution shown for Observable."
         },
         {
           "id": "c",
-          "text": "Call .cancel()"
+          "text": "It produces no output at all."
         },
         {
           "id": "d",
-          "text": "Reject the Promise"
+          "text": "It throws a syntax error on the very first line."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Calling subscription.unsubscribe() tears down the stream; Angular's async pipe does this automatically.",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Observable.",
       "difficulty": "medium",
       "tags": [
-        "unsubscribe",
-        "cancel"
+        "code"
       ]
     },
     {
-      "id": "rxjs-promise-q4",
-      "topic": "RxJS vs Promise",
-      "question": "Which operator turns an array into an Observable that emits each item?",
+      "id": "g592",
+      "topic": "Observable",
+      "question": "Why is Observable useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "of(...)"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "b",
-          "text": "from(array)"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "c",
-          "text": "timer()"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "merge()"
+          "text": "It ignores all inputs it receives."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "from() iterates an array/iterable/promise and emits each element; of() emits the arguments as discrete values.",
-      "difficulty": "medium",
-      "tags": [
-        "from",
-        "of"
-      ]
-    },
-    {
-      "id": "rxjs-promise-q5",
-      "topic": "RxJS vs Promise",
-      "question": "Promise.all vs forkJoin (RxJS) — key difference?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They are the same"
-        },
-        {
-          "id": "b",
-          "text": "forkJoin emits only after ALL input observables complete; Promise.all after all resolve"
-        },
-        {
-          "id": "c",
-          "text": "forkJoin needs no subscribe"
-        },
-        {
-          "id": "d",
-          "text": "Promise.all is lazy"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "forkJoin waits for completion of each source (HTTP calls complete) then emits the last value of each — like Promise.all.",
-      "difficulty": "hard",
-      "tags": [
-        "forkjoin",
-        "promise-all"
-      ]
-    },
-    {
-      "id": "rxjs-promise-q6",
-      "topic": "RxJS vs Promise",
-      "question": "What does the async pipe do in Angular templates?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converts a Promise to an Observable"
-        },
-        {
-          "id": "b",
-          "text": "Subscribes, renders the latest value, and auto-unsubscribes on destroy"
-        },
-        {
-          "id": "c",
-          "text": "Runs code in a Web Worker"
-        },
-        {
-          "id": "d",
-          "text": "Caches HTTP responses"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The async pipe unwraps Observables/Promises and handles subscription lifecycle — preventing memory leaks.",
-      "difficulty": "medium",
-      "tags": [
-        "async-pipe",
-        "angular"
-      ]
-    },
-    {
-      "id": "ng-comp-q1",
-      "topic": "Angular Components",
-      "question": "A component is fundamentally a...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A CSS class"
-        },
-        {
-          "id": "b",
-          "text": "A class decorated with @Component that controls a view template"
-        },
-        {
-          "id": "c",
-          "text": "A service"
-        },
-        {
-          "id": "d",
-          "text": "A module"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Components pair a TS class with a template + metadata via @Component to render a UI region.",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Observable.",
       "difficulty": "easy",
       "tags": [
-        "component",
-        "decorator"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-comp-q2",
-      "topic": "Angular Components",
-      "question": "Which decorator metadata defines the HTML tag name?",
+      "id": "g593",
+      "topic": "Observable",
+      "question": "Where would you most likely apply Observable?",
       "options": [
         {
           "id": "a",
-          "text": "templateUrl"
+          "text": "In the real-world / production scenario documented for Observable."
         },
         {
           "id": "b",
-          "text": "selector"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "styleUrls"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "d",
-          "text": "providers"
+          "text": "It has zero constraints and never fails."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "selector defines the custom element name (e.g. 'app-root') used in templates.",
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Observable applies.",
       "difficulty": "easy",
       "tags": [
-        "selector"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-comp-q3",
-      "topic": "Angular Components",
-      "question": "What is the default change detection strategy that checks every component on each event?",
+      "id": "g594",
+      "topic": "Observable",
+      "question": "Which practice is recommended when using Observable?",
       "options": [
         {
           "id": "a",
-          "text": "OnPush"
+          "text": "Following the documented Production Best Practices for Observable."
         },
         {
           "id": "b",
-          "text": "Default (CheckAlways)"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "c",
-          "text": "Detached"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "Manual"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Default strategy runs change detection on every tick; OnPush restricts it to input/event/observable changes.",
-      "difficulty": "medium",
-      "tags": [
-        "change-detection"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
-    },
-    {
-      "id": "ng-comp-q4",
-      "topic": "Angular Components",
-      "question": "Which lifecycle hook runs ONCE after the first render, when inputs are bound?",
-      "options": [
-        {
-          "id": "a",
-          "text": "ngOnInit"
-        },
-        {
-          "id": "b",
-          "text": "ngOnChanges only"
-        },
-        {
-          "id": "c",
-          "text": "ngAfterViewInit for inputs"
-        },
-        {
-          "id": "d",
-          "text": "constructor"
+          "text": "It has zero constraints and never fails."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "ngOnInit is called once after the first ngOnChanges, once component inputs are available.",
-      "difficulty": "medium",
-      "tags": [
-        "lifecycle",
-        "ngoninit"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
-    },
-    {
-      "id": "ng-comp-q5",
-      "topic": "Angular Components",
-      "question": "To communicate parent -> child, you use...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Output only"
-        },
-        {
-          "id": "b",
-          "text": "@Input() decorated properties"
-        },
-        {
-          "id": "c",
-          "text": "A shared module"
-        },
-        {
-          "id": "d",
-          "text": "Router params"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "@Input() properties receive data from a parent component's template binding.",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Observable.",
       "difficulty": "easy",
       "tags": [
-        "input",
-        "communication"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-comp-q6",
-      "topic": "Angular Components",
-      "question": "Standalone components (Angular 15+) do NOT require...?",
+      "id": "g595",
+      "topic": "Observer",
+      "question": "What is \"Observer\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "A decorator"
+          "text": "An external database engine unrelated to Observer."
         },
         {
           "id": "b",
-          "text": "Declaration inside an NgModule"
+          "text": "An Observer is a plain object containing callback functions (next, error, complete) that reacts to values emitted by an Observable."
         },
         {
           "id": "c",
-          "text": "A selector"
+          "text": "A pure CSS technique with no relation to Observer."
         },
         {
           "id": "d",
-          "text": "A template"
+          "text": "A deprecated feature that was removed in the latest standard."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Standalone components declare their own imports and can be used without being declared in an NgModule.",
-      "difficulty": "hard",
-      "tags": [
-        "standalone",
-        "module"
-      ],
-      "_srcTopic": "Angular Components Quiz",
-      "_srcPath": "03-angular/02-angular-core/002 - Components.md.quiz.json"
-    },
-    {
-      "id": "ng-di-q1",
-      "topic": "Dependency Injection",
-      "question": "What decorator marks a class as available to the DI system as a singleton service?",
-      "options": [
-        {
-          "id": "a",
-          "text": "@Component()"
-        },
-        {
-          "id": "b",
-          "text": "@Injectable()"
-        },
-        {
-          "id": "c",
-          "text": "@NgModule()"
-        },
-        {
-          "id": "d",
-          "text": "@Pipe()"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "@Injectable() marks a class as a service that the injector can create and provide.",
+      "explanation": "Per the documented definition: An Observer is a plain object containing callback functions (next, error, complete) that reacts to values emitted by an Observable.",
       "difficulty": "easy",
       "tags": [
-        "injectable",
-        "service"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
+        "definition"
+      ]
     },
     {
-      "id": "ng-di-q2",
-      "topic": "Dependency Injection",
-      "question": "What is the hierarchical injector tree in Angular?",
+      "id": "g596",
+      "topic": "Observer",
+      "question": "Which statement about Observer is correct?",
       "options": [
         {
           "id": "a",
-          "text": "A single global injector only"
+          "text": "Observer only works in server-side rendering contexts."
         },
         {
           "id": "b",
-          "text": "Root, module, and component-level injectors that resolve tokens up the tree"
+          "text": "Observer has no practical use and should be avoided."
         },
         {
           "id": "c",
-          "text": "Injectors are flat"
+          "text": "An Observer is a plain object containing callback functions (next, error, complete) that reacts to values emitted by an Observable."
         },
         {
           "id": "d",
-          "text": "It does not exist"
+          "text": "Observer was deprecated and replaced by a newer standard."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Angular has a tree of injectors; a component gets the nearest provider, walking up to root if absent.",
-      "difficulty": "hard",
-      "tags": [
-        "hierarchical",
-        "injector"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
-    },
-    {
-      "id": "ng-di-q3",
-      "topic": "Dependency Injection",
-      "question": "Providing a service in a component's `providers` array means...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A new instance is created per component instance"
-        },
-        {
-          "id": "b",
-          "text": "It becomes a singleton for the whole app"
-        },
-        {
-          "id": "c",
-          "text": "It is removed from DI"
-        },
-        {
-          "id": "d",
-          "text": "Only the module can use it"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Component-level providers create a new instance scoped to that component (and its children), not app-wide.",
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Observer.",
       "difficulty": "medium",
       "tags": [
-        "providers",
-        "scope"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
+        "fact"
+      ]
     },
     {
-      "id": "ng-di-q4",
-      "topic": "Dependency Injection",
-      "question": "What is the `providedIn: 'root'` alternative to?",
+      "id": "g597",
+      "topic": "Observer",
+      "question": "Given the Observer code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "Listing the service in a module's providers array"
+          "text": "It produces no output at all."
         },
         {
           "id": "b",
-          "text": "Using @Input()"
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "c",
-          "text": "Using a Pipe"
+          "text": "It follows the documented step-by-step execution shown for Observer."
         },
         {
           "id": "d",
-          "text": "Using Router"
+          "text": "It throws a syntax error on the very first line."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "providedIn:'root' registers the service with the root injector without manually adding it to providers.",
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Observer.",
       "difficulty": "medium",
       "tags": [
-        "providedin",
-        "root"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
+        "code"
+      ]
     },
     {
-      "id": "ng-di-q5",
-      "topic": "Dependency Injection",
-      "question": "What is the `inject()` function used for?",
+      "id": "g598",
+      "topic": "Observer",
+      "question": "Why is Observer useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "Injecting dependencies inside injection contexts (e.g. field initializers)"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "b",
-          "text": "HTTP requests"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "Routing"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "d",
-          "text": "DOM manipulation"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "inject() is a standalone alternative to constructor injection, usable in fields, factories, and in routes/guards.",
-      "difficulty": "hard",
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Observer.",
+      "difficulty": "easy",
       "tags": [
-        "inject",
-        "modern"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-di-q6",
-      "topic": "Dependency Injection",
-      "question": "How does Angular know WHICH dependency to inject by type?",
+      "id": "g599",
+      "topic": "Observer",
+      "question": "Where would you most likely apply Observer?",
       "options": [
         {
           "id": "a",
-          "text": "It guesses from the variable name"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "From the constructor parameter type + emitted decorator metadata"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "c",
-          "text": "From the template"
+          "text": "In the real-world / production scenario documented for Observer."
         },
         {
           "id": "d",
-          "text": "It asks the user"
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Observer applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g600",
+      "topic": "Observer",
+      "question": "Which practice is recommended when using Observer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Observer."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "DI resolves tokens via constructor param types, using design:paramtypes metadata when available.",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Observer.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g601",
+      "topic": "Subscription",
+      "question": "What is \"Subscription\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Subscription."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A Subscription represents a disposable resource holding an active connection between an Observable and its Observer."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Subscription."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Subscription represents a disposable resource holding an active connection between an Observable and its Observer.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g602",
+      "topic": "Subscription",
+      "question": "Which statement about Subscription is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Subscription has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "A Subscription represents a disposable resource holding an active connection between an Observable and its Observer."
+        },
+        {
+          "id": "d",
+          "text": "Subscription only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Subscription.",
       "difficulty": "medium",
       "tags": [
-        "token",
-        "metadata"
-      ],
-      "_srcTopic": "Angular Dependency Injection Quiz",
-      "_srcPath": "03-angular/02-angular-core/007 - Dependency Injection.md.quiz.json"
+        "fact"
+      ]
     },
     {
-      "id": "ng-cd-q1",
-      "topic": "Change Detection",
-      "question": "What does Zone.js do for Angular change detection?",
+      "id": "g603",
+      "topic": "Subscription",
+      "question": "Given the Subscription code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "Renders the DOM"
+          "text": "It produces no output at all."
         },
         {
           "id": "b",
-          "text": "Patches async APIs so Angular knows when to run a CD cycle"
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "c",
-          "text": "Compiles templates"
+          "text": "It throws a syntax error on the very first line."
         },
         {
           "id": "d",
-          "text": "Handles routing"
+          "text": "It follows the documented step-by-step execution shown for Subscription."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Zone.js notifies Angular after async operations (events, timers, XHR) so a CD pass runs.",
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subscription.",
       "difficulty": "medium",
       "tags": [
-        "zonejs",
-        "trigger"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "code"
+      ]
     },
     {
-      "id": "ng-cd-q2",
-      "topic": "Change Detection",
-      "question": "OnPush components re-check ONLY when...?",
+      "id": "g604",
+      "topic": "Subscription",
+      "question": "Why is Subscription useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "Any global event fires"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "b",
-          "text": "An @Input reference changes, an event originates from the component, or an observed Observable emits"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "c",
-          "text": "The page scrolls"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "d",
-          "text": "Once per second"
+          "text": "It ignores all inputs it receives."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "OnPush skips a component unless its inputs change by reference, it emits an event, or async pipe notifies.",
-      "difficulty": "hard",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subscription.",
+      "difficulty": "easy",
       "tags": [
-        "onpush",
-        "triggers"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-cd-q3",
-      "topic": "Change Detection",
-      "question": "Which method manually triggers change detection on a component/view?",
+      "id": "g605",
+      "topic": "Subscription",
+      "question": "Where would you most likely apply Subscription?",
       "options": [
         {
           "id": "a",
-          "text": "detectChanges()"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "b",
-          "text": "ngOnInit()"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "markForCheck() only"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "render()"
+          "text": "In the real-world / production scenario documented for Subscription."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subscription applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g606",
+      "topic": "Subscription",
+      "question": "Which practice is recommended when using Subscription?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Subscription."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "ChangeDetectorRef.detectChanges() runs CD for the current view immediately.",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subscription.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g607",
+      "topic": "Subject",
+      "question": "What is \"Subject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Subject."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Subject."
+        },
+        {
+          "id": "d",
+          "text": "A Subject is a special type of Observable that allows values to be multicasted to many Observers."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: A Subject is a special type of Observable that allows values to be multicasted to many Observers.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g608",
+      "topic": "Subject",
+      "question": "Which statement about Subject is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subject only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "A Subject is a special type of Observable that allows values to be multicasted to many Observers."
+        },
+        {
+          "id": "c",
+          "text": "Subject was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Subject has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Subject.",
       "difficulty": "medium",
       "tags": [
-        "detectChanges"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "fact"
+      ]
     },
     {
-      "id": "ng-cd-q4",
-      "topic": "Change Detection",
-      "question": "markForCheck() vs detectChanges()?",
+      "id": "g609",
+      "topic": "Subject",
+      "question": "Given the Subject code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "They are identical"
+          "text": "It follows the documented step-by-step execution shown for Subject."
         },
         {
           "id": "b",
-          "text": "markForCheck flags the view to be checked in the NEXT cycle; detectChanges runs it now"
+          "text": "It produces no output at all."
         },
         {
           "id": "c",
-          "text": "Both only work in OnPush off"
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "d",
-          "text": "Neither exists"
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g610",
+      "topic": "Subject",
+      "question": "Why is Subject useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "markForCheck() marks the component and ancestors dirty; detectChanges() actually runs CD synchronously.",
-      "difficulty": "hard",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subject.",
+      "difficulty": "easy",
       "tags": [
-        "markforcheck",
-        "detectchanges"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "ng-cd-q5",
-      "topic": "Change Detection",
-      "question": "Why is mutating an array in place (push) problematic with OnPush?",
+      "id": "g611",
+      "topic": "Subject",
+      "question": "Where would you most likely apply Subject?",
       "options": [
         {
           "id": "a",
-          "text": "It crashes the app"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "b",
-          "text": "The reference is unchanged, so OnPush may skip re-rendering"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "c",
-          "text": "It is fine"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "It triggers full app reload"
+          "text": "In the real-world / production scenario documented for Subject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g612",
+      "topic": "Subject",
+      "question": "Which practice is recommended when using Subject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Subject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g613",
+      "topic": "BehaviorSubject",
+      "question": "What is \"BehaviorSubject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to BehaviorSubject."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "OnPush compares input references; in-place mutation keeps the same reference, so the view may not update.",
-      "difficulty": "hard",
+      "explanation": "Per the documented definition: BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription.",
+      "difficulty": "easy",
       "tags": [
-        "immutability",
-        "onpush"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "definition"
+      ]
     },
     {
-      "id": "ng-cd-q6",
-      "topic": "Change Detection",
-      "question": "What is `NgZone.runOutsideAngular()` used for?",
+      "id": "g614",
+      "topic": "BehaviorSubject",
+      "question": "Which statement about BehaviorSubject is correct?",
       "options": [
         {
           "id": "a",
-          "text": "To run code WITHOUT triggering Angular CD (e.g. third-party libs / RAF loops)"
+          "text": "BehaviorSubject was deprecated and replaced by a newer standard."
         },
         {
           "id": "b",
-          "text": "To disable the router"
+          "text": "BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription."
         },
         {
           "id": "c",
-          "text": "To compile templates faster"
+          "text": "BehaviorSubject has no practical use and should be avoided."
         },
         {
           "id": "d",
-          "text": "To delete a component"
+          "text": "BehaviorSubject only works in server-side rendering contexts."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "Running outside the zone avoids unnecessary CD cycles for frequent updates you control manually.",
-      "difficulty": "hard",
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of BehaviorSubject.",
+      "difficulty": "medium",
       "tags": [
-        "ngzone",
-        "performance"
-      ],
-      "_srcTopic": "Angular Change Detection Quiz",
-      "_srcPath": "03-angular/02-angular-core/012 - Change Detection.md.quiz.json"
+        "fact"
+      ]
     },
     {
-      "id": "50b5eb53",
-      "question": "Which statement best describes the purpose of \"Rxjs\"?",
+      "id": "g615",
+      "topic": "BehaviorSubject",
+      "question": "Given the BehaviorSubject code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
+          "text": "It produces no output at all."
         },
         {
           "id": "b",
-          "text": "It is only useful for legacy codebases."
+          "text": "It follows the documented step-by-step execution shown for BehaviorSubject."
         },
         {
           "id": "c",
-          "text": "It cannot be tested in isolation."
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "d",
-          "text": "It is deprecated in modern browsers."
+          "text": "It throws a syntax error on the very first line."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "\"Rxjs\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for BehaviorSubject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
     },
     {
-      "id": "374a287f",
-      "question": "When working inside \"01-rxjs\", the most effective way to retain the material is to:",
+      "id": "g616",
+      "topic": "BehaviorSubject",
+      "question": "Why is BehaviorSubject useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "b",
-          "text": "Memorize syntax without running code."
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "Skip the theoretical foundation."
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "Rely solely on third-party libraries."
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Active recall combined with hands-on practice leads to mastery."
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for BehaviorSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g617",
+      "topic": "BehaviorSubject",
+      "question": "Where would you most likely apply BehaviorSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where BehaviorSubject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g618",
+      "topic": "BehaviorSubject",
+      "question": "Which practice is recommended when using BehaviorSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply BehaviorSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
     }
   ]
 }

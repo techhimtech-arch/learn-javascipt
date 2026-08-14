@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/014 - Autocomplete RxJS.md",
+  "title": "Autocomplete RxJS Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1122",
+      "topic": "Autocomplete RxJS",
+      "question": "What is \"Autocomplete RxJS\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Autocomplete RxJS."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Autocomplete provides real-time suggestions as user types using RxJS streams to efficiently handle rapid input changes."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Autocomplete RxJS."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Autocomplete provides real-time suggestions as user types using RxJS streams to efficiently handle rapid input changes.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1123",
+      "topic": "Autocomplete RxJS",
+      "question": "Which statement about Autocomplete RxJS is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autocomplete provides real-time suggestions as user types using RxJS streams to efficiently handle rapid input changes."
+        },
+        {
+          "id": "b",
+          "text": "Autocomplete RxJS was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Autocomplete RxJS only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Autocomplete RxJS has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Autocomplete RxJS.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1124",
+      "topic": "Autocomplete RxJS",
+      "question": "Why is Autocomplete RxJS useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Autocomplete RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1125",
+      "topic": "Autocomplete RxJS",
+      "question": "Where would you most likely apply Autocomplete RxJS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Autocomplete RxJS."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Autocomplete RxJS applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1126",
+      "topic": "Autocomplete RxJS",
+      "question": "Which practice is recommended when using Autocomplete RxJS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Autocomplete RxJS."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Autocomplete RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1127",
+      "topic": "Autocomplete RxJS",
+      "question": "How does Autocomplete RxJS behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Autocomplete RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

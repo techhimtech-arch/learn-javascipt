@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/015 - ViewChild and ContentChild.md",
+  "title": "ViewChild and ContentChild Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g816",
+      "topic": "ViewChild and ContentChild",
+      "question": "What is \"ViewChild and ContentChild\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to ViewChild and ContentChild."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to ViewChild and ContentChild."
+        },
+        {
+          "id": "d",
+          "text": "ViewChild/ContentChild decorators query DOM elements/components within template/content projection — enabling parent-child interaction post-rendering."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: ViewChild/ContentChild decorators query DOM elements/components within template/content projection — enabling parent-child interaction post-rendering.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g817",
+      "topic": "ViewChild and ContentChild",
+      "question": "Which statement about ViewChild and ContentChild is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ViewChild/ContentChild decorators query DOM elements/components within template/content projection — enabling parent-child interaction post-rendering."
+        },
+        {
+          "id": "b",
+          "text": "ViewChild and ContentChild was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "ViewChild and ContentChild only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "ViewChild and ContentChild has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of ViewChild and ContentChild.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g818",
+      "topic": "ViewChild and ContentChild",
+      "question": "Why is ViewChild and ContentChild useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for ViewChild and ContentChild.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g819",
+      "topic": "ViewChild and ContentChild",
+      "question": "Where would you most likely apply ViewChild and ContentChild?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for ViewChild and ContentChild."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where ViewChild and ContentChild applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g820",
+      "topic": "ViewChild and ContentChild",
+      "question": "Which practice is recommended when using ViewChild and ContentChild?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for ViewChild and ContentChild."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply ViewChild and ContentChild.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g821",
+      "topic": "ViewChild and ContentChild",
+      "question": "How does ViewChild and ContentChild behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of ViewChild and ContentChild.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

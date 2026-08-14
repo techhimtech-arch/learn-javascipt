@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/004 - Service Workers.md",
+  "title": "Service Workers Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g906",
+      "topic": "Service Workers",
+      "question": "What is \"Service Workers\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Service Worker brings Progressive Web App capabilities — caching static assets and API responses for offline operation and improved performance."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Service Workers."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Service Workers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Angular Service Worker brings Progressive Web App capabilities — caching static assets and API responses for offline operation and improved performance.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g907",
+      "topic": "Service Workers",
+      "question": "Which statement about Service Workers is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Service Worker brings Progressive Web App capabilities — caching static assets and API responses for offline operation and improved performance."
+        },
+        {
+          "id": "b",
+          "text": "Service Workers has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Service Workers was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Service Workers only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Service Workers.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g908",
+      "topic": "Service Workers",
+      "question": "Why is Service Workers useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Service Workers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g909",
+      "topic": "Service Workers",
+      "question": "Where would you most likely apply Service Workers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Service Workers."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Service Workers applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g910",
+      "topic": "Service Workers",
+      "question": "Which practice is recommended when using Service Workers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Service Workers."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Service Workers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g911",
+      "topic": "Service Workers",
+      "question": "How does Service Workers behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Service Workers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

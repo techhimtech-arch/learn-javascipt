@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/004 - Subject.md",
+  "title": "Subject Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g607",
+      "topic": "Subject",
+      "question": "What is \"Subject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Subject."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Subject."
+        },
+        {
+          "id": "d",
+          "text": "A Subject is a special type of Observable that allows values to be multicasted to many Observers."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: A Subject is a special type of Observable that allows values to be multicasted to many Observers.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g608",
+      "topic": "Subject",
+      "question": "Which statement about Subject is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subject only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "A Subject is a special type of Observable that allows values to be multicasted to many Observers."
+        },
+        {
+          "id": "c",
+          "text": "Subject was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Subject has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Subject.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g609",
+      "topic": "Subject",
+      "question": "Given the Subject code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Subject."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g610",
+      "topic": "Subject",
+      "question": "Why is Subject useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g611",
+      "topic": "Subject",
+      "question": "Where would you most likely apply Subject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Subject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g612",
+      "topic": "Subject",
+      "question": "Which practice is recommended when using Subject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Subject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

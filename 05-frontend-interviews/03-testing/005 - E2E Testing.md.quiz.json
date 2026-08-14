@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/005 - E2E Testing.md",
+  "title": "E2E Testing Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1302",
+      "topic": "E2E Testing",
+      "question": "What is \"E2E Testing\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to E2E Testing."
+        },
+        {
+          "id": "b",
+          "text": "End-to-End Testing validates entire application workflows simulating real user interactions — through browser automation tools."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to E2E Testing."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: End-to-End Testing validates entire application workflows simulating real user interactions — through browser automation tools.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1303",
+      "topic": "E2E Testing",
+      "question": "Which statement about E2E Testing is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E2E Testing has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "End-to-End Testing validates entire application workflows simulating real user interactions — through browser automation tools."
+        },
+        {
+          "id": "c",
+          "text": "E2E Testing only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "E2E Testing was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of E2E Testing.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1304",
+      "topic": "E2E Testing",
+      "question": "Why is E2E Testing useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for E2E Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1305",
+      "topic": "E2E Testing",
+      "question": "Where would you most likely apply E2E Testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for E2E Testing."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where E2E Testing applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1306",
+      "topic": "E2E Testing",
+      "question": "Which practice is recommended when using E2E Testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for E2E Testing."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply E2E Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1307",
+      "topic": "E2E Testing",
+      "question": "How does E2E Testing behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of E2E Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

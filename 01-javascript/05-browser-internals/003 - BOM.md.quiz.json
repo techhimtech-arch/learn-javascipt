@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/003 - BOM.md",
+  "title": "BOM Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g523",
+      "topic": "BOM",
+      "question": "What is \"BOM\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to BOM."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to BOM."
+        },
+        {
+          "id": "d",
+          "text": "The Browser Object Model (BOM) allows interaction with the browser window — not part of official specification but widely implemented."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: The Browser Object Model (BOM) allows interaction with the browser window — not part of official specification but widely implemented.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g524",
+      "topic": "BOM",
+      "question": "Which statement about BOM is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Browser Object Model (BOM) allows interaction with the browser window — not part of official specification but widely implemented."
+        },
+        {
+          "id": "b",
+          "text": "BOM was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "BOM has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "BOM only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of BOM.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g525",
+      "topic": "BOM",
+      "question": "Given the BOM code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for BOM."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for BOM.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g526",
+      "topic": "BOM",
+      "question": "Why is BOM useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for BOM.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g527",
+      "topic": "BOM",
+      "question": "Where would you most likely apply BOM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for BOM."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where BOM applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g528",
+      "topic": "BOM",
+      "question": "Which practice is recommended when using BOM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for BOM."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply BOM.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

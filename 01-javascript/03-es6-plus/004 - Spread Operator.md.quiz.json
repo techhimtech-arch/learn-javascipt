@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/004 - Spread Operator.md",
+  "title": "Spread Operator Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g325",
+      "topic": "Spread Operator",
+      "question": "What is \"Spread Operator\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Spread Operator."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Spread Operator."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g326",
+      "topic": "Spread Operator",
+      "question": "Which statement about Spread Operator is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spread Operator was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Spread Operator only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Spread Operator has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Spread Operator.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g327",
+      "topic": "Spread Operator",
+      "question": "Why is Spread Operator useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g328",
+      "topic": "Spread Operator",
+      "question": "Where would you most likely apply Spread Operator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Spread Operator."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Spread Operator applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g329",
+      "topic": "Spread Operator",
+      "question": "Which practice is recommended when using Spread Operator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Spread Operator."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g330",
+      "topic": "Spread Operator",
+      "question": "How does Spread Operator behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

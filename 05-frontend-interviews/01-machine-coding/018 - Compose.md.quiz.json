@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/018 - Compose.md",
+  "title": "Compose Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1152",
+      "topic": "Compose",
+      "question": "What is \"Compose\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compose is a JavaScript utility that composes multiple unary functions from right-to-left — conceptually equivalent to mathematical function composition f(g(x))."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Compose."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Compose."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Compose is a JavaScript utility that composes multiple unary functions from right-to-left — conceptually equivalent to mathematical function composition f(g(x)).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1153",
+      "topic": "Compose",
+      "question": "Which statement about Compose is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compose has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Compose is a JavaScript utility that composes multiple unary functions from right-to-left — conceptually equivalent to mathematical function composition f(g(x))."
+        },
+        {
+          "id": "c",
+          "text": "Compose only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Compose was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Compose.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1154",
+      "topic": "Compose",
+      "question": "Why is Compose useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1155",
+      "topic": "Compose",
+      "question": "Where would you most likely apply Compose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Compose."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Compose applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1156",
+      "topic": "Compose",
+      "question": "Which practice is recommended when using Compose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Compose."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1157",
+      "topic": "Compose",
+      "question": "How does Compose behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

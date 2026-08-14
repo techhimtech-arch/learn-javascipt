@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "06-data-analytics/04-python-for-data-analytics/001 - Python Fundamentals for Data Analysts.md",
+  "title": "Python Fundamentals for Data Analysts Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1398",
+      "topic": "Python Fundamentals for Data Analysts",
+      "question": "Why is Python Fundamentals for Data Analysts useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Python Fundamentals for Data Analysts.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1399",
+      "topic": "Python Fundamentals for Data Analysts",
+      "question": "Where would you most likely apply Python Fundamentals for Data Analysts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Python Fundamentals for Data Analysts."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Python Fundamentals for Data Analysts applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1400",
+      "topic": "Python Fundamentals for Data Analysts",
+      "question": "Which practice is recommended when using Python Fundamentals for Data Analysts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Python Fundamentals for Data Analysts."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Python Fundamentals for Data Analysts.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1401",
+      "topic": "Python Fundamentals for Data Analysts",
+      "question": "How does Python Fundamentals for Data Analysts behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Python Fundamentals for Data Analysts.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

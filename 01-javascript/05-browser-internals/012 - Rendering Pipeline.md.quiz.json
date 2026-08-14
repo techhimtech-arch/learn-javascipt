@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/012 - Rendering Pipeline.md",
+  "title": "Rendering Pipeline Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g571",
+      "topic": "Rendering Pipeline",
+      "question": "What is \"Rendering Pipeline\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Browser Rendering Pipeline describes stages transforming HTML/CSS/JS into pixels on screen — affecting web app performance significantly."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Rendering Pipeline."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Rendering Pipeline."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Browser Rendering Pipeline describes stages transforming HTML/CSS/JS into pixels on screen — affecting web app performance significantly.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g572",
+      "topic": "Rendering Pipeline",
+      "question": "Which statement about Rendering Pipeline is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rendering Pipeline has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Rendering Pipeline was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Browser Rendering Pipeline describes stages transforming HTML/CSS/JS into pixels on screen — affecting web app performance significantly."
+        },
+        {
+          "id": "d",
+          "text": "Rendering Pipeline only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Rendering Pipeline.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g573",
+      "topic": "Rendering Pipeline",
+      "question": "Why is Rendering Pipeline useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Rendering Pipeline.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g574",
+      "topic": "Rendering Pipeline",
+      "question": "Where would you most likely apply Rendering Pipeline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Rendering Pipeline."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Rendering Pipeline applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g575",
+      "topic": "Rendering Pipeline",
+      "question": "Which practice is recommended when using Rendering Pipeline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Rendering Pipeline."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Rendering Pipeline.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g576",
+      "topic": "Rendering Pipeline",
+      "question": "How does Rendering Pipeline behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Rendering Pipeline.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

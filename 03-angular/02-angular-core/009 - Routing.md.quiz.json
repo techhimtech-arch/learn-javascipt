@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/009 - Routing.md",
+  "title": "Routing Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g786",
+      "topic": "Routing",
+      "question": "What is \"Routing\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Routing."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Routing."
+        },
+        {
+          "id": "d",
+          "text": "Angular Router manages client-side navigation within SPAs — mapping URLs to components, supporting la"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular Router manages client-side navigation within SPAs — mapping URLs to components, supporting la",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g787",
+      "topic": "Routing",
+      "question": "Which statement about Routing is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Routing has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Routing only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Angular Router manages client-side navigation within SPAs — mapping URLs to components, supporting la"
+        },
+        {
+          "id": "d",
+          "text": "Routing was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Routing.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g788",
+      "topic": "Routing",
+      "question": "Why is Routing useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Routing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g789",
+      "topic": "Routing",
+      "question": "Where would you most likely apply Routing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Routing."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Routing applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g790",
+      "topic": "Routing",
+      "question": "Which practice is recommended when using Routing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Routing."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Routing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g791",
+      "topic": "Routing",
+      "question": "How does Routing behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Routing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

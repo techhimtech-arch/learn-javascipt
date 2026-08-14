@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/010 - Angular CLI.md",
+  "title": "Angular CLI Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g942",
+      "topic": "Angular CLI",
+      "question": "What is \"Angular CLI\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Angular CLI."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Angular CLI is the official command-line interface for scaffolding, building, testing, and deploying Angular applications."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Angular CLI."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Angular CLI is the official command-line interface for scaffolding, building, testing, and deploying Angular applications.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g943",
+      "topic": "Angular CLI",
+      "question": "Which statement about Angular CLI is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular CLI is the official command-line interface for scaffolding, building, testing, and deploying Angular applications."
+        },
+        {
+          "id": "b",
+          "text": "Angular CLI only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Angular CLI was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Angular CLI has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Angular CLI.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g944",
+      "topic": "Angular CLI",
+      "question": "Why is Angular CLI useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Angular CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g945",
+      "topic": "Angular CLI",
+      "question": "Where would you most likely apply Angular CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Angular CLI."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Angular CLI applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g946",
+      "topic": "Angular CLI",
+      "question": "Which practice is recommended when using Angular CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Angular CLI."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Angular CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g947",
+      "topic": "Angular CLI",
+      "question": "How does Angular CLI behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Angular CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/004 - Function Execution Context.md",
+  "title": "Function Execution Context Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g25",
+      "topic": "Function Execution Context",
+      "question": "What is \"Function Execution Context\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Function Execution Context (FEC) is created by the JavaScript engine every time a function is invoked."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Function Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Function Execution Context."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: A Function Execution Context (FEC) is created by the JavaScript engine every time a function is invoked.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g26",
+      "topic": "Function Execution Context",
+      "question": "Which statement about Function Execution Context is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Function Execution Context has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Function Execution Context only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Function Execution Context was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "A Function Execution Context (FEC) is created by the JavaScript engine every time a function is invoked."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Function Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g27",
+      "topic": "Function Execution Context",
+      "question": "Why is Function Execution Context useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Function Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g28",
+      "topic": "Function Execution Context",
+      "question": "Where would you most likely apply Function Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Function Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Function Execution Context applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g29",
+      "topic": "Function Execution Context",
+      "question": "Which practice is recommended when using Function Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Function Execution Context."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Function Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g30",
+      "topic": "Function Execution Context",
+      "question": "How does Function Execution Context behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Function Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

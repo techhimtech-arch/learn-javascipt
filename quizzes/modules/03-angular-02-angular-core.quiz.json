@@ -6,9 +6,531 @@
   "icon": "🅰️",
   "folder": "02-angular-core",
   "description": "Mixed quiz covering all topics in Angular core.",
-  "questionCount": 26,
-  "generatedAt": "2026-08-14T07:21:31.115Z",
+  "questionCount": 30,
+  "generatedAt": "2026-08-14T08:44:42.198Z",
   "questions": [
+    {
+      "id": "g738",
+      "topic": "Angular Architecture & CLI",
+      "question": "What is \"Angular Architecture & CLI\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Angular Architecture & CLI."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Angular Architecture & CLI."
+        },
+        {
+          "id": "c",
+          "text": "Angular is a platform+framework for building SPAs."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Angular is a platform+framework for building SPAs.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g739",
+      "topic": "Angular Architecture & CLI",
+      "question": "Which statement about Angular Architecture & CLI is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular is a platform+framework for building SPAs."
+        },
+        {
+          "id": "b",
+          "text": "Angular Architecture & CLI only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Angular Architecture & CLI has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Angular Architecture & CLI was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Angular Architecture & CLI.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g740",
+      "topic": "Angular Architecture & CLI",
+      "question": "Why is Angular Architecture & CLI useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g741",
+      "topic": "Angular Architecture & CLI",
+      "question": "Where would you most likely apply Angular Architecture & CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Angular Architecture & CLI."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Angular Architecture & CLI applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g742",
+      "topic": "Angular Architecture & CLI",
+      "question": "Which practice is recommended when using Angular Architecture & CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Angular Architecture & CLI."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g743",
+      "topic": "Angular Architecture & CLI",
+      "question": "How does Angular Architecture & CLI behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g744",
+      "topic": "Architecture",
+      "question": "What is \"Architecture\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Architecture."
+        },
+        {
+          "id": "b",
+          "text": "Angular Architecture describes the structural organi"
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Architecture."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Angular Architecture describes the structural organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g745",
+      "topic": "Architecture",
+      "question": "Which statement about Architecture is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Architecture describes the structural organi"
+        },
+        {
+          "id": "b",
+          "text": "Architecture has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Architecture only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Architecture was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Architecture.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g746",
+      "topic": "Architecture",
+      "question": "Why is Architecture useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g747",
+      "topic": "Architecture",
+      "question": "Where would you most likely apply Architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Architecture."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Architecture applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g748",
+      "topic": "Architecture",
+      "question": "Which practice is recommended when using Architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Architecture."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g749",
+      "topic": "Architecture",
+      "question": "How does Architecture behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g750",
+      "topic": "Components & Templates",
+      "question": "What is \"Components & Templates\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Components & Templates."
+        },
+        {
+          "id": "c",
+          "text": "A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Components & Templates."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g751",
+      "topic": "Components & Templates",
+      "question": "Which statement about Components & Templates is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Components & Templates only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Components & Templates was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit."
+        },
+        {
+          "id": "d",
+          "text": "Components & Templates has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Components & Templates.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g752",
+      "topic": "Components & Templates",
+      "question": "Why is Components & Templates useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g753",
+      "topic": "Components & Templates",
+      "question": "Where would you most likely apply Components & Templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Components & Templates."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Components & Templates applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g754",
+      "topic": "Components & Templates",
+      "question": "Which practice is recommended when using Components & Templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Components & Templates."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g755",
+      "topic": "Components & Templates",
+      "question": "How does Components & Templates behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
     {
       "id": "ng-comp-q1",
       "topic": "Angular Components",
@@ -188,603 +710,178 @@
       ]
     },
     {
-      "id": "ng-di-q1",
-      "topic": "Dependency Injection",
-      "question": "What decorator marks a class as available to the DI system as a singleton service?",
+      "id": "g756",
+      "topic": "Templates",
+      "question": "What is \"Templates\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "@Component()"
+          "text": "An Angular Template is an enhanced HTML syntax combining declarative bindings, structural directives, and components to define view rendering."
         },
         {
           "id": "b",
-          "text": "@Injectable()"
+          "text": "A deprecated feature that was removed in the latest standard."
         },
         {
           "id": "c",
-          "text": "@NgModule()"
+          "text": "An external database engine unrelated to Templates."
         },
         {
           "id": "d",
-          "text": "@Pipe()"
+          "text": "A pure CSS technique with no relation to Templates."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "@Injectable() marks a class as a service that the injector can create and provide.",
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: An Angular Template is an enhanced HTML syntax combining declarative bindings, structural directives, and components to define view rendering.",
       "difficulty": "easy",
       "tags": [
-        "injectable",
-        "service"
+        "definition"
       ]
     },
     {
-      "id": "ng-di-q2",
-      "topic": "Dependency Injection",
-      "question": "What is the hierarchical injector tree in Angular?",
+      "id": "g757",
+      "topic": "Templates",
+      "question": "Which statement about Templates is correct?",
       "options": [
         {
           "id": "a",
-          "text": "A single global injector only"
+          "text": "An Angular Template is an enhanced HTML syntax combining declarative bindings, structural directives, and components to define view rendering."
         },
         {
           "id": "b",
-          "text": "Root, module, and component-level injectors that resolve tokens up the tree"
+          "text": "Templates has no practical use and should be avoided."
         },
         {
           "id": "c",
-          "text": "Injectors are flat"
+          "text": "Templates only works in server-side rendering contexts."
         },
         {
           "id": "d",
-          "text": "It does not exist"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Angular has a tree of injectors; a component gets the nearest provider, walking up to root if absent.",
-      "difficulty": "hard",
-      "tags": [
-        "hierarchical",
-        "injector"
-      ]
-    },
-    {
-      "id": "ng-di-q3",
-      "topic": "Dependency Injection",
-      "question": "Providing a service in a component's `providers` array means...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A new instance is created per component instance"
-        },
-        {
-          "id": "b",
-          "text": "It becomes a singleton for the whole app"
-        },
-        {
-          "id": "c",
-          "text": "It is removed from DI"
-        },
-        {
-          "id": "d",
-          "text": "Only the module can use it"
+          "text": "Templates was deprecated and replaced by a newer standard."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Component-level providers create a new instance scoped to that component (and its children), not app-wide.",
+      "explanation": "Based on the documented definition/working of Templates.",
       "difficulty": "medium",
       "tags": [
-        "providers",
-        "scope"
+        "fact"
       ]
     },
     {
-      "id": "ng-di-q4",
-      "topic": "Dependency Injection",
-      "question": "What is the `providedIn: 'root'` alternative to?",
+      "id": "g758",
+      "topic": "Templates",
+      "question": "Why is Templates useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "Listing the service in a module's providers array"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "b",
-          "text": "Using @Input()"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "c",
-          "text": "Using a Pipe"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "Using Router"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "providedIn:'root' registers the service with the root injector without manually adding it to providers.",
-      "difficulty": "medium",
-      "tags": [
-        "providedin",
-        "root"
-      ]
-    },
-    {
-      "id": "ng-di-q5",
-      "topic": "Dependency Injection",
-      "question": "What is the `inject()` function used for?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Injecting dependencies inside injection contexts (e.g. field initializers)"
-        },
-        {
-          "id": "b",
-          "text": "HTTP requests"
-        },
-        {
-          "id": "c",
-          "text": "Routing"
-        },
-        {
-          "id": "d",
-          "text": "DOM manipulation"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "inject() is a standalone alternative to constructor injection, usable in fields, factories, and in routes/guards.",
-      "difficulty": "hard",
-      "tags": [
-        "inject",
-        "modern"
-      ]
-    },
-    {
-      "id": "ng-di-q6",
-      "topic": "Dependency Injection",
-      "question": "How does Angular know WHICH dependency to inject by type?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It guesses from the variable name"
-        },
-        {
-          "id": "b",
-          "text": "From the constructor parameter type + emitted decorator metadata"
-        },
-        {
-          "id": "c",
-          "text": "From the template"
-        },
-        {
-          "id": "d",
-          "text": "It asks the user"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "DI resolves tokens via constructor param types, using design:paramtypes metadata when available.",
-      "difficulty": "medium",
-      "tags": [
-        "token",
-        "metadata"
-      ]
-    },
-    {
-      "id": "ng-cd-q1",
-      "topic": "Change Detection",
-      "question": "What does Zone.js do for Angular change detection?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Renders the DOM"
-        },
-        {
-          "id": "b",
-          "text": "Patches async APIs so Angular knows when to run a CD cycle"
-        },
-        {
-          "id": "c",
-          "text": "Compiles templates"
-        },
-        {
-          "id": "d",
-          "text": "Handles routing"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Zone.js notifies Angular after async operations (events, timers, XHR) so a CD pass runs.",
-      "difficulty": "medium",
-      "tags": [
-        "zonejs",
-        "trigger"
-      ]
-    },
-    {
-      "id": "ng-cd-q2",
-      "topic": "Change Detection",
-      "question": "OnPush components re-check ONLY when...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Any global event fires"
-        },
-        {
-          "id": "b",
-          "text": "An @Input reference changes, an event originates from the component, or an observed Observable emits"
-        },
-        {
-          "id": "c",
-          "text": "The page scrolls"
-        },
-        {
-          "id": "d",
-          "text": "Once per second"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "OnPush skips a component unless its inputs change by reference, it emits an event, or async pipe notifies.",
-      "difficulty": "hard",
-      "tags": [
-        "onpush",
-        "triggers"
-      ]
-    },
-    {
-      "id": "ng-cd-q3",
-      "topic": "Change Detection",
-      "question": "Which method manually triggers change detection on a component/view?",
-      "options": [
-        {
-          "id": "a",
-          "text": "detectChanges()"
-        },
-        {
-          "id": "b",
-          "text": "ngOnInit()"
-        },
-        {
-          "id": "c",
-          "text": "markForCheck() only"
-        },
-        {
-          "id": "d",
-          "text": "render()"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "ChangeDetectorRef.detectChanges() runs CD for the current view immediately.",
-      "difficulty": "medium",
-      "tags": [
-        "detectChanges"
-      ]
-    },
-    {
-      "id": "ng-cd-q4",
-      "topic": "Change Detection",
-      "question": "markForCheck() vs detectChanges()?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They are identical"
-        },
-        {
-          "id": "b",
-          "text": "markForCheck flags the view to be checked in the NEXT cycle; detectChanges runs it now"
-        },
-        {
-          "id": "c",
-          "text": "Both only work in OnPush off"
-        },
-        {
-          "id": "d",
-          "text": "Neither exists"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "markForCheck() marks the component and ancestors dirty; detectChanges() actually runs CD synchronously.",
-      "difficulty": "hard",
-      "tags": [
-        "markforcheck",
-        "detectchanges"
-      ]
-    },
-    {
-      "id": "ng-cd-q5",
-      "topic": "Change Detection",
-      "question": "Why is mutating an array in place (push) problematic with OnPush?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It crashes the app"
-        },
-        {
-          "id": "b",
-          "text": "The reference is unchanged, so OnPush may skip re-rendering"
-        },
-        {
-          "id": "c",
-          "text": "It is fine"
-        },
-        {
-          "id": "d",
-          "text": "It triggers full app reload"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "OnPush compares input references; in-place mutation keeps the same reference, so the view may not update.",
-      "difficulty": "hard",
-      "tags": [
-        "immutability",
-        "onpush"
-      ]
-    },
-    {
-      "id": "ng-cd-q6",
-      "topic": "Change Detection",
-      "question": "What is `NgZone.runOutsideAngular()` used for?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To run code WITHOUT triggering Angular CD (e.g. third-party libs / RAF loops)"
-        },
-        {
-          "id": "b",
-          "text": "To disable the router"
-        },
-        {
-          "id": "c",
-          "text": "To compile templates faster"
-        },
-        {
-          "id": "d",
-          "text": "To delete a component"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Running outside the zone avoids unnecessary CD cycles for frequent updates you control manually.",
-      "difficulty": "hard",
-      "tags": [
-        "ngzone",
-        "performance"
-      ]
-    },
-    {
-      "id": "rxjs-promise-q1",
-      "topic": "RxJS vs Promise",
-      "question": "A key difference: a Promise emits ___ value(s); an Observable emits ___ value(s).",
-      "options": [
-        {
-          "id": "a",
-          "text": "many / one"
-        },
-        {
-          "id": "b",
-          "text": "one (settles once) / zero-to-many over time"
-        },
-        {
-          "id": "c",
-          "text": "zero / zero"
-        },
-        {
-          "id": "d",
-          "text": "one / exactly one"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "A Promise settles once with a single value; an Observable is a stream that can emit 0..n values then complete/error.",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Templates.",
       "difficulty": "easy",
       "tags": [
-        "observable",
-        "lazy"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "rxjs-promise-q2",
-      "topic": "RxJS vs Promise",
-      "question": "Observables are lazy. What does that mean?",
+      "id": "g759",
+      "topic": "Templates",
+      "question": "Where would you most likely apply Templates?",
       "options": [
         {
           "id": "a",
-          "text": "They run immediately on creation"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "b",
-          "text": "They do nothing until you subscribe()"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "They cannot be cancelled"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "They only work with async"
+          "text": "In the real-world / production scenario documented for Templates."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Templates applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g760",
+      "topic": "Templates",
+      "question": "Which practice is recommended when using Templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Templates."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Creation functions (of, from, http.get) set up a blueprint; side effects/execution start only on subscribe.",
-      "difficulty": "medium",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Templates.",
+      "difficulty": "easy",
       "tags": [
-        "lazy",
-        "subscribe"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "rxjs-promise-q3",
-      "topic": "RxJS vs Promise",
-      "question": "How do you cancel an in-flight Observable (e.g. an HTTP request)?",
+      "id": "g761",
+      "topic": "Templates",
+      "question": "How does Templates behave regarding its main constraint / trade-off?",
       "options": [
         {
           "id": "a",
-          "text": "You cannot"
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
         },
         {
           "id": "b",
-          "text": "Unsubscribe from the subscription"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "c",
-          "text": "Call .cancel()"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "Reject the Promise"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Calling subscription.unsubscribe() tears down the stream; Angular's async pipe does this automatically.",
-      "difficulty": "medium",
-      "tags": [
-        "unsubscribe",
-        "cancel"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
-    },
-    {
-      "id": "rxjs-promise-q4",
-      "topic": "RxJS vs Promise",
-      "question": "Which operator turns an array into an Observable that emits each item?",
-      "options": [
-        {
-          "id": "a",
-          "text": "of(...)"
-        },
-        {
-          "id": "b",
-          "text": "from(array)"
-        },
-        {
-          "id": "c",
-          "text": "timer()"
-        },
-        {
-          "id": "d",
-          "text": "merge()"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "from() iterates an array/iterable/promise and emits each element; of() emits the arguments as discrete values.",
-      "difficulty": "medium",
-      "tags": [
-        "from",
-        "of"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
-    },
-    {
-      "id": "rxjs-promise-q5",
-      "topic": "RxJS vs Promise",
-      "question": "Promise.all vs forkJoin (RxJS) — key difference?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They are the same"
-        },
-        {
-          "id": "b",
-          "text": "forkJoin emits only after ALL input observables complete; Promise.all after all resolve"
-        },
-        {
-          "id": "c",
-          "text": "forkJoin needs no subscribe"
-        },
-        {
-          "id": "d",
-          "text": "Promise.all is lazy"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "forkJoin waits for completion of each source (HTTP calls complete) then emits the last value of each — like Promise.all.",
-      "difficulty": "hard",
-      "tags": [
-        "forkjoin",
-        "promise-all"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
-    },
-    {
-      "id": "rxjs-promise-q6",
-      "topic": "RxJS vs Promise",
-      "question": "What does the async pipe do in Angular templates?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converts a Promise to an Observable"
-        },
-        {
-          "id": "b",
-          "text": "Subscribes, renders the latest value, and auto-unsubscribes on destroy"
-        },
-        {
-          "id": "c",
-          "text": "Runs code in a Web Worker"
-        },
-        {
-          "id": "d",
-          "text": "Caches HTTP responses"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The async pipe unwraps Observables/Promises and handles subscription lifecycle — preventing memory leaks.",
-      "difficulty": "medium",
-      "tags": [
-        "async-pipe",
-        "angular"
-      ],
-      "_srcTopic": "RxJS vs Promise Quiz",
-      "_srcPath": "03-angular/01-rxjs/022 - Rxjs vs Promise.md.quiz.json"
-    },
-    {
-      "id": "1c4a256c",
-      "question": "Which statement best describes the purpose of \"Angular core\"?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
-        },
-        {
-          "id": "b",
-          "text": "It is only useful for legacy codebases."
-        },
-        {
-          "id": "c",
-          "text": "It cannot be tested in isolation."
-        },
-        {
-          "id": "d",
-          "text": "It is deprecated in modern browsers."
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "\"Angular core\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
-    },
-    {
-      "id": "461c693d",
-      "question": "When working inside \"02-angular-core\", the most effective way to retain the material is to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
-        },
-        {
-          "id": "b",
-          "text": "Memorize syntax without running code."
-        },
-        {
-          "id": "c",
-          "text": "Skip the theoretical foundation."
-        },
-        {
-          "id": "d",
-          "text": "Rely solely on third-party libraries."
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Active recall combined with hands-on practice leads to mastery."
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
     }
   ]
 }

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/009 - Nullish Coalescing.md",
+  "title": "Nullish Coalescing Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g349",
+      "topic": "Nullish Coalescing",
+      "question": "What is \"Nullish Coalescing\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The nullish coalescing operator (??) returns its right-hand operand when the left is null or undefined; otherwise returns the left-hand value."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Nullish Coalescing."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Nullish Coalescing."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The nullish coalescing operator (??) returns its right-hand operand when the left is null or undefined; otherwise returns the left-hand value.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g350",
+      "topic": "Nullish Coalescing",
+      "question": "Which statement about Nullish Coalescing is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nullish Coalescing has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Nullish Coalescing only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Nullish Coalescing was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "The nullish coalescing operator (??) returns its right-hand operand when the left is null or undefined; otherwise returns the left-hand value."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Nullish Coalescing.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g351",
+      "topic": "Nullish Coalescing",
+      "question": "Why is Nullish Coalescing useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Nullish Coalescing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g352",
+      "topic": "Nullish Coalescing",
+      "question": "Where would you most likely apply Nullish Coalescing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Nullish Coalescing."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Nullish Coalescing applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g353",
+      "topic": "Nullish Coalescing",
+      "question": "Which practice is recommended when using Nullish Coalescing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Nullish Coalescing."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Nullish Coalescing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g354",
+      "topic": "Nullish Coalescing",
+      "question": "How does Nullish Coalescing behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Nullish Coalescing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

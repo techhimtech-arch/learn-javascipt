@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/015 - Change Detection Strategy.md",
+  "title": "Change Detection Strategy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1026",
+      "topic": "Change Detection Strategy",
+      "question": "What is \"Change Detection Strategy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Change Detection Strategy."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Change Detection Strategy."
+        },
+        {
+          "id": "d",
+          "text": "Angular Change Detection Strategies control when component views update — optimi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular Change Detection Strategies control when component views update — optimi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1027",
+      "topic": "Change Detection Strategy",
+      "question": "Which statement about Change Detection Strategy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Change Detection Strategy only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Change Detection Strategy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Angular Change Detection Strategies control when component views update — optimi"
+        },
+        {
+          "id": "d",
+          "text": "Change Detection Strategy has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Change Detection Strategy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1028",
+      "topic": "Change Detection Strategy",
+      "question": "Why is Change Detection Strategy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Change Detection Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1029",
+      "topic": "Change Detection Strategy",
+      "question": "Where would you most likely apply Change Detection Strategy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Change Detection Strategy."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Change Detection Strategy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1030",
+      "topic": "Change Detection Strategy",
+      "question": "Which practice is recommended when using Change Detection Strategy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Change Detection Strategy."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Change Detection Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1031",
+      "topic": "Change Detection Strategy",
+      "question": "How does Change Detection Strategy behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Change Detection Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

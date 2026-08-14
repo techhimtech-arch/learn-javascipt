@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/013 - Closures.md",
+  "title": "Closures Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g79",
+      "topic": "Closures",
+      "question": "What is \"Closures\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Closures."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Closures."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A Closure is a function bundled together with its outer lexical environment — allowing the function to access and manipulate variables from its parent scope even after the parent has finished executing."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: A Closure is a function bundled together with its outer lexical environment — allowing the function to access and manipulate variables from its parent scope even after the parent has finished executing.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g80",
+      "topic": "Closures",
+      "question": "Which statement about Closures is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Closure is a function bundled together with its outer lexical environment — allowing the function to access and manipulate variables from its parent scope even after the parent has finished executing."
+        },
+        {
+          "id": "b",
+          "text": "Closures has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Closures only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Closures was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Closures.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g81",
+      "topic": "Closures",
+      "question": "Given the Closures code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Closures."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Closures.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g82",
+      "topic": "Closures",
+      "question": "Why is Closures useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Closures.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g83",
+      "topic": "Closures",
+      "question": "Where would you most likely apply Closures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Closures."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Closures applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g84",
+      "topic": "Closures",
+      "question": "Which practice is recommended when using Closures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Closures."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Closures.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

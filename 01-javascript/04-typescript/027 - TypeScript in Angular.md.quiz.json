@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/027 - TypeScript in Angular.md",
+  "title": "TypeScript in Angular Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g505",
+      "topic": "TypeScript in Angular",
+      "question": "What is \"TypeScript in Angular\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to TypeScript in Angular."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to TypeScript in Angular."
+        },
+        {
+          "id": "d",
+          "text": "Angular applications are written entirely in TypeScript — leveraging its strong typing system for safer component, service, and framework APIs."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular applications are written entirely in TypeScript — leveraging its strong typing system for safer component, service, and framework APIs.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g506",
+      "topic": "TypeScript in Angular",
+      "question": "Which statement about TypeScript in Angular is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular applications are written entirely in TypeScript — leveraging its strong typing system for safer component, service, and framework APIs."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript in Angular only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript in Angular has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript in Angular was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of TypeScript in Angular.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g507",
+      "topic": "TypeScript in Angular",
+      "question": "Why is TypeScript in Angular useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TypeScript in Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g508",
+      "topic": "TypeScript in Angular",
+      "question": "Where would you most likely apply TypeScript in Angular?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for TypeScript in Angular."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TypeScript in Angular applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g509",
+      "topic": "TypeScript in Angular",
+      "question": "Which practice is recommended when using TypeScript in Angular?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for TypeScript in Angular."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TypeScript in Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g510",
+      "topic": "TypeScript in Angular",
+      "question": "How does TypeScript in Angular behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of TypeScript in Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

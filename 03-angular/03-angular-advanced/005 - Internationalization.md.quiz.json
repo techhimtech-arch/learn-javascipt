@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/005 - Internationalization.md",
+  "title": "Internationalization Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g912",
+      "topic": "Internationalization",
+      "question": "What is \"Internationalization\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Internationali"
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Internationalization."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Internationalization."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Internationali",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g913",
+      "topic": "Internationalization",
+      "question": "Which statement about Internationalization is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Internationali"
+        },
+        {
+          "id": "b",
+          "text": "Internationalization only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Internationalization has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Internationalization was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Internationalization.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g914",
+      "topic": "Internationalization",
+      "question": "Why is Internationalization useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Internationalization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g915",
+      "topic": "Internationalization",
+      "question": "Where would you most likely apply Internationalization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Internationalization."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Internationalization applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g916",
+      "topic": "Internationalization",
+      "question": "Which practice is recommended when using Internationalization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Internationalization."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Internationalization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g917",
+      "topic": "Internationalization",
+      "question": "How does Internationalization behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Internationalization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

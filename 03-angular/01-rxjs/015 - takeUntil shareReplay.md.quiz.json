@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/015 - takeUntil shareReplay.md",
+  "title": "takeUntil shareReplay Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g678",
+      "topic": "takeUntil shareReplay",
+      "question": "What is \"takeUntil shareReplay\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to takeUntil shareReplay."
+        },
+        {
+          "id": "c",
+          "text": "Two critical RxJS operators: - takeUntil(notifier$): Emits values from source until notifier emits/completes — then completes - shareReplay(config): Multicasts last N emissions to new subscribers (ideal for caching/HTTP)"
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to takeUntil shareReplay."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Two critical RxJS operators: - takeUntil(notifier$): Emits values from source until notifier emits/completes — then completes - shareReplay(config): Multicasts last N emissions to new subscribers (ideal for caching/HTTP)",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g679",
+      "topic": "takeUntil shareReplay",
+      "question": "Which statement about takeUntil shareReplay is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "takeUntil shareReplay has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "takeUntil shareReplay only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "takeUntil shareReplay was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Two critical RxJS operators: - takeUntil(notifier$): Emits values from source until notifier emits/completes — then completes - shareReplay(config): Multicasts last N emissions to new subscribers (ideal for caching/HTTP)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of takeUntil shareReplay.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g680",
+      "topic": "takeUntil shareReplay",
+      "question": "Why is takeUntil shareReplay useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for takeUntil shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g681",
+      "topic": "takeUntil shareReplay",
+      "question": "Where would you most likely apply takeUntil shareReplay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for takeUntil shareReplay."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where takeUntil shareReplay applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g682",
+      "topic": "takeUntil shareReplay",
+      "question": "Which practice is recommended when using takeUntil shareReplay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for takeUntil shareReplay."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply takeUntil shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g683",
+      "topic": "takeUntil shareReplay",
+      "question": "How does takeUntil shareReplay behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of takeUntil shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

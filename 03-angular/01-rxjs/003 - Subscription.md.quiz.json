@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/003 - Subscription.md",
+  "title": "Subscription Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g601",
+      "topic": "Subscription",
+      "question": "What is \"Subscription\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Subscription."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A Subscription represents a disposable resource holding an active connection between an Observable and its Observer."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Subscription."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Subscription represents a disposable resource holding an active connection between an Observable and its Observer.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g602",
+      "topic": "Subscription",
+      "question": "Which statement about Subscription is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subscription was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Subscription has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "A Subscription represents a disposable resource holding an active connection between an Observable and its Observer."
+        },
+        {
+          "id": "d",
+          "text": "Subscription only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Subscription.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g603",
+      "topic": "Subscription",
+      "question": "Given the Subscription code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Subscription."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subscription.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g604",
+      "topic": "Subscription",
+      "question": "Why is Subscription useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subscription.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g605",
+      "topic": "Subscription",
+      "question": "Where would you most likely apply Subscription?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Subscription."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subscription applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g606",
+      "topic": "Subscription",
+      "question": "Which practice is recommended when using Subscription?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Subscription."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subscription.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

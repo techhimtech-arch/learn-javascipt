@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/020 - Constructor Functions.md",
+  "title": "Constructor Functions Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g121",
+      "topic": "Constructor Functions",
+      "question": "What is \"Constructor Functions\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Constructor Function is a regular function invoked with the new keyword to create new instances of objects."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Constructor Functions."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Constructor Functions."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: A Constructor Function is a regular function invoked with the new keyword to create new instances of objects.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g122",
+      "topic": "Constructor Functions",
+      "question": "Which statement about Constructor Functions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constructor Functions has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Constructor Functions was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "A Constructor Function is a regular function invoked with the new keyword to create new instances of objects."
+        },
+        {
+          "id": "d",
+          "text": "Constructor Functions only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Constructor Functions.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g123",
+      "topic": "Constructor Functions",
+      "question": "Why is Constructor Functions useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Constructor Functions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g124",
+      "topic": "Constructor Functions",
+      "question": "Where would you most likely apply Constructor Functions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Constructor Functions."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Constructor Functions applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g125",
+      "topic": "Constructor Functions",
+      "question": "Which practice is recommended when using Constructor Functions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Constructor Functions."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Constructor Functions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g126",
+      "topic": "Constructor Functions",
+      "question": "How does Constructor Functions behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Constructor Functions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

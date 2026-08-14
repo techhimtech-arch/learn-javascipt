@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/002 - Components & Templates.md",
+  "title": "Components & Templates Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g750",
+      "topic": "Components & Templates",
+      "question": "What is \"Components & Templates\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Components & Templates."
+        },
+        {
+          "id": "c",
+          "text": "A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Components & Templates."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g751",
+      "topic": "Components & Templates",
+      "question": "Which statement about Components & Templates is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Components & Templates only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Components & Templates was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "A Component pairs a TypeScript class (logic), a Template (HTML view) and optional Styles into a reusable unit."
+        },
+        {
+          "id": "d",
+          "text": "Components & Templates has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Components & Templates.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g752",
+      "topic": "Components & Templates",
+      "question": "Why is Components & Templates useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g753",
+      "topic": "Components & Templates",
+      "question": "Where would you most likely apply Components & Templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Components & Templates."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Components & Templates applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g754",
+      "topic": "Components & Templates",
+      "question": "Which practice is recommended when using Components & Templates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Components & Templates."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g755",
+      "topic": "Components & Templates",
+      "question": "How does Components & Templates behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Components & Templates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

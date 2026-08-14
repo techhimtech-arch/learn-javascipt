@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/010 - Server Side Rendering.md",
+  "title": "Server Side Rendering Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1260",
+      "topic": "Server Side Rendering",
+      "question": "What is \"Server Side Rendering\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Server Side Rendering."
+        },
+        {
+          "id": "b",
+          "text": "Server-Side Rendering (SSR) generates full page HTML on server — sending rendered markup to browser instead of empty shell requiring client hydration."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Server Side Rendering."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Server-Side Rendering (SSR) generates full page HTML on server — sending rendered markup to browser instead of empty shell requiring client hydration.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1261",
+      "topic": "Server Side Rendering",
+      "question": "Which statement about Server Side Rendering is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Server-Side Rendering (SSR) generates full page HTML on server — sending rendered markup to browser instead of empty shell requiring client hydration."
+        },
+        {
+          "id": "b",
+          "text": "Server Side Rendering has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Server Side Rendering was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Server Side Rendering only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Server Side Rendering.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1262",
+      "topic": "Server Side Rendering",
+      "question": "Why is Server Side Rendering useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Server Side Rendering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1263",
+      "topic": "Server Side Rendering",
+      "question": "Where would you most likely apply Server Side Rendering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Server Side Rendering."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Server Side Rendering applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1264",
+      "topic": "Server Side Rendering",
+      "question": "Which practice is recommended when using Server Side Rendering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Server Side Rendering."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Server Side Rendering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1265",
+      "topic": "Server Side Rendering",
+      "question": "How does Server Side Rendering behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Server Side Rendering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

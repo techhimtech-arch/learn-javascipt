@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/014 - this Keyword.md",
+  "title": "this Keyword Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g85",
+      "topic": "this Keyword",
+      "question": "What is \"this Keyword\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to this Keyword."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to this Keyword."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "The this keyword in JavaScript refers to the context in which a function is called."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: The this keyword in JavaScript refers to the context in which a function is called.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g86",
+      "topic": "this Keyword",
+      "question": "Which statement about this Keyword is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The this keyword in JavaScript refers to the context in which a function is called."
+        },
+        {
+          "id": "b",
+          "text": "this Keyword has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "this Keyword was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "this Keyword only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of this Keyword.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g87",
+      "topic": "this Keyword",
+      "question": "Given the this Keyword code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for this Keyword."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for this Keyword.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g88",
+      "topic": "this Keyword",
+      "question": "Why is this Keyword useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for this Keyword.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g89",
+      "topic": "this Keyword",
+      "question": "Where would you most likely apply this Keyword?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for this Keyword."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where this Keyword applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g90",
+      "topic": "this Keyword",
+      "question": "Which practice is recommended when using this Keyword?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for this Keyword."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply this Keyword.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

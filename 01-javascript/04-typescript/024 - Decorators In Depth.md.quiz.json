@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/024 - Decorators In Depth.md",
+  "title": "Decorators In Depth Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g481",
+      "topic": "Decorators In Depth",
+      "question": "What is \"Decorators In Depth\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Decorators In Depth."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Decorators In Depth."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Decorators are special declarations that can be attached to classes, methods, properties, or parameters—enabling metaprogramming and aspect-oriented programming."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: TypeScript Decorators are special declarations that can be attached to classes, methods, properties, or parameters—enabling metaprogramming and aspect-oriented programming.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g482",
+      "topic": "Decorators In Depth",
+      "question": "Which statement about Decorators In Depth is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decorators In Depth only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Decorators In Depth was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Decorators are special declarations that can be attached to classes, methods, properties, or parameters—enabling metaprogramming and aspect-oriented programming."
+        },
+        {
+          "id": "d",
+          "text": "Decorators In Depth has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Decorators In Depth.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g483",
+      "topic": "Decorators In Depth",
+      "question": "Given the Decorators In Depth code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Decorators In Depth."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Decorators In Depth.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g484",
+      "topic": "Decorators In Depth",
+      "question": "Why is Decorators In Depth useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Decorators In Depth.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g485",
+      "topic": "Decorators In Depth",
+      "question": "Where would you most likely apply Decorators In Depth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Decorators In Depth."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Decorators In Depth applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g486",
+      "topic": "Decorators In Depth",
+      "question": "Which practice is recommended when using Decorators In Depth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Decorators In Depth."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Decorators In Depth.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

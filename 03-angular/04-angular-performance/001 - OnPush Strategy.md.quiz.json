@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/001 - OnPush Strategy.md",
+  "title": "OnPush Strategy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g990",
+      "topic": "OnPush Strategy",
+      "question": "What is \"OnPush Strategy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to OnPush Strategy."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to OnPush Strategy."
+        },
+        {
+          "id": "c",
+          "text": "OnPush Change Detection is an optimi"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: OnPush Change Detection is an optimi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g991",
+      "topic": "OnPush Strategy",
+      "question": "Which statement about OnPush Strategy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "OnPush Strategy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "OnPush Strategy only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "OnPush Change Detection is an optimi"
+        },
+        {
+          "id": "d",
+          "text": "OnPush Strategy has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of OnPush Strategy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g992",
+      "topic": "OnPush Strategy",
+      "question": "Why is OnPush Strategy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for OnPush Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g993",
+      "topic": "OnPush Strategy",
+      "question": "Where would you most likely apply OnPush Strategy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for OnPush Strategy."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where OnPush Strategy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g994",
+      "topic": "OnPush Strategy",
+      "question": "Which practice is recommended when using OnPush Strategy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for OnPush Strategy."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply OnPush Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g995",
+      "topic": "OnPush Strategy",
+      "question": "How does OnPush Strategy behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of OnPush Strategy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

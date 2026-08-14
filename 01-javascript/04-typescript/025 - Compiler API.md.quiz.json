@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/025 - Compiler API.md",
+  "title": "Compiler API Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g487",
+      "topic": "Compiler API",
+      "question": "What is \"Compiler API\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Compiler API."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Compiler API."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Compiler API exposes programmatic access to TypeScript's compilation pipeline — enabling AST manipulation, linting, and code transformation."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: TypeScript Compiler API exposes programmatic access to TypeScript's compilation pipeline — enabling AST manipulation, linting, and code transformation.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g488",
+      "topic": "Compiler API",
+      "question": "Which statement about Compiler API is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript Compiler API exposes programmatic access to TypeScript's compilation pipeline — enabling AST manipulation, linting, and code transformation."
+        },
+        {
+          "id": "b",
+          "text": "Compiler API only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Compiler API was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Compiler API has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Compiler API.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g489",
+      "topic": "Compiler API",
+      "question": "Given the Compiler API code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Compiler API."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Compiler API.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g490",
+      "topic": "Compiler API",
+      "question": "Why is Compiler API useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Compiler API.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g491",
+      "topic": "Compiler API",
+      "question": "Where would you most likely apply Compiler API?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Compiler API."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Compiler API applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g492",
+      "topic": "Compiler API",
+      "question": "Which practice is recommended when using Compiler API?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Compiler API."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Compiler API.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

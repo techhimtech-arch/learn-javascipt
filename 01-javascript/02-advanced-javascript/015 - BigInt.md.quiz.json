@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/015 - BigInt.md",
+  "title": "BigInt Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g247",
+      "topic": "BigInt",
+      "question": "What is \"BigInt\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "BigInt is a primitive wrapper object enabling representation of arbitrarily large integers beyond the Number.MAXSAFEINTEGER limit."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to BigInt."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to BigInt."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: BigInt is a primitive wrapper object enabling representation of arbitrarily large integers beyond the Number.MAXSAFEINTEGER limit.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g248",
+      "topic": "BigInt",
+      "question": "Which statement about BigInt is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BigInt is a primitive wrapper object enabling representation of arbitrarily large integers beyond the Number.MAXSAFEINTEGER limit."
+        },
+        {
+          "id": "b",
+          "text": "BigInt has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "BigInt only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "BigInt was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of BigInt.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g249",
+      "topic": "BigInt",
+      "question": "Given the BigInt code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for BigInt."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for BigInt.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g250",
+      "topic": "BigInt",
+      "question": "Why is BigInt useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for BigInt.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g251",
+      "topic": "BigInt",
+      "question": "Where would you most likely apply BigInt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for BigInt."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where BigInt applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g252",
+      "topic": "BigInt",
+      "question": "Which practice is recommended when using BigInt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for BigInt."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply BigInt.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

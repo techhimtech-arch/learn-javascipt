@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/016 - Declaration Files.md",
+  "title": "Declaration Files Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g439",
+      "topic": "Declaration Files",
+      "question": "What is \"Declaration Files\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript declaration files (.d.ts) describe types of existing JavaScript libraries — bridging the gap between TS and untyped code."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Declaration Files."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Declaration Files."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: TypeScript declaration files (.d.ts) describe types of existing JavaScript libraries — bridging the gap between TS and untyped code.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g440",
+      "topic": "Declaration Files",
+      "question": "Which statement about Declaration Files is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Declaration Files only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Declaration Files has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript declaration files (.d.ts) describe types of existing JavaScript libraries — bridging the gap between TS and untyped code."
+        },
+        {
+          "id": "d",
+          "text": "Declaration Files was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Declaration Files.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g441",
+      "topic": "Declaration Files",
+      "question": "Why is Declaration Files useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Declaration Files.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g442",
+      "topic": "Declaration Files",
+      "question": "Where would you most likely apply Declaration Files?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Declaration Files."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Declaration Files applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g443",
+      "topic": "Declaration Files",
+      "question": "Which practice is recommended when using Declaration Files?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Declaration Files."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Declaration Files.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g444",
+      "topic": "Declaration Files",
+      "question": "How does Declaration Files behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Declaration Files.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

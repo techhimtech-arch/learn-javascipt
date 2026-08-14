@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/020 - TrackBy.md",
+  "title": "TrackBy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g846",
+      "topic": "TrackBy",
+      "question": "What is \"TrackBy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trackBy is an Angular directive parameter that uniquely identifies items in ngFor — preventing unnecessary DOM reconciliation."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to TrackBy."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to TrackBy."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: trackBy is an Angular directive parameter that uniquely identifies items in ngFor — preventing unnecessary DOM reconciliation.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g847",
+      "topic": "TrackBy",
+      "question": "Which statement about TrackBy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TrackBy has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "trackBy is an Angular directive parameter that uniquely identifies items in ngFor — preventing unnecessary DOM reconciliation."
+        },
+        {
+          "id": "c",
+          "text": "TrackBy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "TrackBy only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of TrackBy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g848",
+      "topic": "TrackBy",
+      "question": "Why is TrackBy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TrackBy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g849",
+      "topic": "TrackBy",
+      "question": "Where would you most likely apply TrackBy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for TrackBy."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TrackBy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g850",
+      "topic": "TrackBy",
+      "question": "Which practice is recommended when using TrackBy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for TrackBy."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TrackBy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g851",
+      "topic": "TrackBy",
+      "question": "How does TrackBy behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of TrackBy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

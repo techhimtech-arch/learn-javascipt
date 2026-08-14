@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/006 - Critical Rendering Path.md",
+  "title": "Critical Rendering Path Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g541",
+      "topic": "Critical Rendering Path",
+      "question": "What is \"Critical Rendering Path\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Critical Rendering Path (CRP) describes the sequence of steps the browser takes to convert HTML, CSS, and JavaScript into rendered pixels on the screen."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Critical Rendering Path."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Critical Rendering Path."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The Critical Rendering Path (CRP) describes the sequence of steps the browser takes to convert HTML, CSS, and JavaScript into rendered pixels on the screen.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g542",
+      "topic": "Critical Rendering Path",
+      "question": "Which statement about Critical Rendering Path is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Critical Rendering Path only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "The Critical Rendering Path (CRP) describes the sequence of steps the browser takes to convert HTML, CSS, and JavaScript into rendered pixels on the screen."
+        },
+        {
+          "id": "c",
+          "text": "Critical Rendering Path was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Critical Rendering Path has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Critical Rendering Path.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g543",
+      "topic": "Critical Rendering Path",
+      "question": "Why is Critical Rendering Path useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Critical Rendering Path.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g544",
+      "topic": "Critical Rendering Path",
+      "question": "Where would you most likely apply Critical Rendering Path?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Critical Rendering Path."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Critical Rendering Path applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g545",
+      "topic": "Critical Rendering Path",
+      "question": "Which practice is recommended when using Critical Rendering Path?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Critical Rendering Path."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Critical Rendering Path.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g546",
+      "topic": "Critical Rendering Path",
+      "question": "How does Critical Rendering Path behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Critical Rendering Path.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

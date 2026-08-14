@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/017 - Virtual Scroll.md",
+  "title": "Virtual Scroll Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1146",
+      "topic": "Virtual Scroll",
+      "question": "What is \"Virtual Scroll\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Virtual Scroll."
+        },
+        {
+          "id": "b",
+          "text": "Virtual Scroll renders only visible items in a long list — dynamically recycling DOM nodes as user scrolls."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Virtual Scroll."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Virtual Scroll renders only visible items in a long list — dynamically recycling DOM nodes as user scrolls.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1147",
+      "topic": "Virtual Scroll",
+      "question": "Which statement about Virtual Scroll is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Virtual Scroll has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Virtual Scroll was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Virtual Scroll only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Virtual Scroll renders only visible items in a long list — dynamically recycling DOM nodes as user scrolls."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Virtual Scroll.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1148",
+      "topic": "Virtual Scroll",
+      "question": "Why is Virtual Scroll useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Virtual Scroll.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1149",
+      "topic": "Virtual Scroll",
+      "question": "Where would you most likely apply Virtual Scroll?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Virtual Scroll."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Virtual Scroll applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1150",
+      "topic": "Virtual Scroll",
+      "question": "Which practice is recommended when using Virtual Scroll?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Virtual Scroll."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Virtual Scroll.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1151",
+      "topic": "Virtual Scroll",
+      "question": "How does Virtual Scroll behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Virtual Scroll.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

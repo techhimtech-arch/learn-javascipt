@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/026 - Utility Types Guide.md",
+  "title": "Utility Types Guide Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g493",
+      "topic": "Utility Types Guide",
+      "question": "What is \"Utility Types Guide\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Utility Types Guide."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Utility Types Guide."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Utility Types provide built-in helpers for transforming and creating new types."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: TypeScript Utility Types provide built-in helpers for transforming and creating new types.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g494",
+      "topic": "Utility Types Guide",
+      "question": "Which statement about Utility Types Guide is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Utility Types Guide was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Utility Types Guide only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Utility Types provide built-in helpers for transforming and creating new types."
+        },
+        {
+          "id": "d",
+          "text": "Utility Types Guide has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Utility Types Guide.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g495",
+      "topic": "Utility Types Guide",
+      "question": "Why is Utility Types Guide useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Utility Types Guide.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g496",
+      "topic": "Utility Types Guide",
+      "question": "Where would you most likely apply Utility Types Guide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Utility Types Guide."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Utility Types Guide applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g497",
+      "topic": "Utility Types Guide",
+      "question": "Which practice is recommended when using Utility Types Guide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Utility Types Guide."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Utility Types Guide.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g498",
+      "topic": "Utility Types Guide",
+      "question": "How does Utility Types Guide behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Utility Types Guide.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

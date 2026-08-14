@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/001 - Unit Testing.md",
+  "title": "Unit Testing Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1278",
+      "topic": "Unit Testing",
+      "question": "What is \"Unit Testing\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Unit Testing verifies individual functions/components/modules work correctly in isolation — using frameworks like Jest/Karma to assert behavior."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Unit Testing."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Unit Testing."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Unit Testing verifies individual functions/components/modules work correctly in isolation — using frameworks like Jest/Karma to assert behavior.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1279",
+      "topic": "Unit Testing",
+      "question": "Which statement about Unit Testing is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unit Testing was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Unit Testing verifies individual functions/components/modules work correctly in isolation — using frameworks like Jest/Karma to assert behavior."
+        },
+        {
+          "id": "c",
+          "text": "Unit Testing only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Unit Testing has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Unit Testing.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1280",
+      "topic": "Unit Testing",
+      "question": "Why is Unit Testing useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Unit Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1281",
+      "topic": "Unit Testing",
+      "question": "Where would you most likely apply Unit Testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Unit Testing."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Unit Testing applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1282",
+      "topic": "Unit Testing",
+      "question": "Which practice is recommended when using Unit Testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Unit Testing."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Unit Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1283",
+      "topic": "Unit Testing",
+      "question": "How does Unit Testing behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Unit Testing.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

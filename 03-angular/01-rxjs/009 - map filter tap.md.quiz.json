@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/009 - map filter tap.md",
+  "title": "map filter tap Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g637",
+      "topic": "map filter tap",
+      "question": "What is \"map filter tap\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Three essential RxJS transformation/filtering operators: - map: Transforms each emission - filter: Selects emissions matching predicate - tap: Side-effect operator for debugging/logging"
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to map filter tap."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to map filter tap."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Three essential RxJS transformation/filtering operators: - map: Transforms each emission - filter: Selects emissions matching predicate - tap: Side-effect operator for debugging/logging",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g638",
+      "topic": "map filter tap",
+      "question": "Which statement about map filter tap is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "map filter tap has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "map filter tap was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Three essential RxJS transformation/filtering operators: - map: Transforms each emission - filter: Selects emissions matching predicate - tap: Side-effect operator for debugging/logging"
+        },
+        {
+          "id": "d",
+          "text": "map filter tap only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of map filter tap.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g639",
+      "topic": "map filter tap",
+      "question": "Given the map filter tap code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for map filter tap."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for map filter tap.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g640",
+      "topic": "map filter tap",
+      "question": "Why is map filter tap useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for map filter tap.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g641",
+      "topic": "map filter tap",
+      "question": "Where would you most likely apply map filter tap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for map filter tap."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where map filter tap applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g642",
+      "topic": "map filter tap",
+      "question": "Which practice is recommended when using map filter tap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for map filter tap."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply map filter tap.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

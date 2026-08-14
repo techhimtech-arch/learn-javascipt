@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/003 - Template Literals.md",
+  "title": "Template Literals Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g319",
+      "topic": "Template Literals",
+      "question": "What is \"Template Literals\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Template Literals."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Template Literals."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g320",
+      "topic": "Template Literals",
+      "question": "Which statement about Template Literals is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Template Literals has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Template Literals was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Template Literals only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Template Literals.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g321",
+      "topic": "Template Literals",
+      "question": "Why is Template Literals useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Template Literals.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g322",
+      "topic": "Template Literals",
+      "question": "Where would you most likely apply Template Literals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Template Literals."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Template Literals applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g323",
+      "topic": "Template Literals",
+      "question": "Which practice is recommended when using Template Literals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Template Literals."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Template Literals.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g324",
+      "topic": "Template Literals",
+      "question": "How does Template Literals behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Template Literals.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/005 - Memory Creation Phase.md",
+  "title": "Memory Creation Phase Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g31",
+      "topic": "Memory Creation Phase",
+      "question": "What is \"Memory Creation Phase\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Memory Creation Phase."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "The Memory Creation Phase (also called the Creation Phase) is the first phase of any Execution Context."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Memory Creation Phase."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: The Memory Creation Phase (also called the Creation Phase) is the first phase of any Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g32",
+      "topic": "Memory Creation Phase",
+      "question": "Which statement about Memory Creation Phase is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Memory Creation Phase has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Memory Creation Phase was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "The Memory Creation Phase (also called the Creation Phase) is the first phase of any Execution Context."
+        },
+        {
+          "id": "d",
+          "text": "Memory Creation Phase only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Memory Creation Phase.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g33",
+      "topic": "Memory Creation Phase",
+      "question": "Why is Memory Creation Phase useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Memory Creation Phase.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g34",
+      "topic": "Memory Creation Phase",
+      "question": "Where would you most likely apply Memory Creation Phase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Memory Creation Phase."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Memory Creation Phase applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g35",
+      "topic": "Memory Creation Phase",
+      "question": "Which practice is recommended when using Memory Creation Phase?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Memory Creation Phase."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Memory Creation Phase.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g36",
+      "topic": "Memory Creation Phase",
+      "question": "How does Memory Creation Phase behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Memory Creation Phase.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

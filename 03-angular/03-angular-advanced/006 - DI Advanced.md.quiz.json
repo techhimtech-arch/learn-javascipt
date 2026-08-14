@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/006 - DI Advanced.md",
+  "title": "DI Advanced Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g918",
+      "topic": "DI Advanced",
+      "question": "What is \"DI Advanced\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to DI Advanced."
+        },
+        {
+          "id": "c",
+          "text": "Advanced Angular DI patterns — hierarchical injectors, view providers, tree-shakable providers, dynamic service injection with TestBed overrides."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to DI Advanced."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Advanced Angular DI patterns — hierarchical injectors, view providers, tree-shakable providers, dynamic service injection with TestBed overrides.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g919",
+      "topic": "DI Advanced",
+      "question": "Which statement about DI Advanced is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DI Advanced has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Advanced Angular DI patterns — hierarchical injectors, view providers, tree-shakable providers, dynamic service injection with TestBed overrides."
+        },
+        {
+          "id": "c",
+          "text": "DI Advanced was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "DI Advanced only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of DI Advanced.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g920",
+      "topic": "DI Advanced",
+      "question": "Why is DI Advanced useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for DI Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g921",
+      "topic": "DI Advanced",
+      "question": "Where would you most likely apply DI Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for DI Advanced."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where DI Advanced applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g922",
+      "topic": "DI Advanced",
+      "question": "Which practice is recommended when using DI Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for DI Advanced."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply DI Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g923",
+      "topic": "DI Advanced",
+      "question": "How does DI Advanced behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of DI Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/011 - Animation System.md",
+  "title": "Animation System Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g948",
+      "topic": "Animation System",
+      "question": "What is \"Animation System\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Animation System."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Animation System."
+        },
+        {
+          "id": "d",
+          "text": "Angular Animations bring life to UI through CSS-like transitions, keyframe animations, and state-based transformations."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular Animations bring life to UI through CSS-like transitions, keyframe animations, and state-based transformations.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g949",
+      "topic": "Animation System",
+      "question": "Which statement about Animation System is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Animation System only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Animation System has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Animation System was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Angular Animations bring life to UI through CSS-like transitions, keyframe animations, and state-based transformations."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Animation System.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g950",
+      "topic": "Animation System",
+      "question": "Why is Animation System useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Animation System.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g951",
+      "topic": "Animation System",
+      "question": "Where would you most likely apply Animation System?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Animation System."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Animation System applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g952",
+      "topic": "Animation System",
+      "question": "Which practice is recommended when using Animation System?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Animation System."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Animation System.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g953",
+      "topic": "Animation System",
+      "question": "How does Animation System behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Animation System.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

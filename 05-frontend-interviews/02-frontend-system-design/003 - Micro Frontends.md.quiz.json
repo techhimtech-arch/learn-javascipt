@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/003 - Micro Frontends.md",
+  "title": "Micro Frontends Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1218",
+      "topic": "Micro Frontends",
+      "question": "What is \"Micro Frontends\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Micro Frontends."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Micro Frontends."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Micro Frontends extend microservice architecture to frontend — splitting UI into independently developed/delivered fragments."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Micro Frontends extend microservice architecture to frontend — splitting UI into independently developed/delivered fragments.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1219",
+      "topic": "Micro Frontends",
+      "question": "Which statement about Micro Frontends is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Micro Frontends extend microservice architecture to frontend — splitting UI into independently developed/delivered fragments."
+        },
+        {
+          "id": "b",
+          "text": "Micro Frontends has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Micro Frontends only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Micro Frontends was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Micro Frontends.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1220",
+      "topic": "Micro Frontends",
+      "question": "Why is Micro Frontends useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Micro Frontends.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1221",
+      "topic": "Micro Frontends",
+      "question": "Where would you most likely apply Micro Frontends?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Micro Frontends."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Micro Frontends applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1222",
+      "topic": "Micro Frontends",
+      "question": "Which practice is recommended when using Micro Frontends?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Micro Frontends."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Micro Frontends.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1223",
+      "topic": "Micro Frontends",
+      "question": "How does Micro Frontends behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Micro Frontends.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/027 - Generics In Depth.md",
+  "title": "Generics In Depth Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g499",
+      "topic": "Generics In Depth",
+      "question": "What is \"Generics In Depth\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Generics In Depth."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Generics enable creating reusable, type-safe components that work with multiple types."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Generics In Depth."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: TypeScript Generics enable creating reusable, type-safe components that work with multiple types.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g500",
+      "topic": "Generics In Depth",
+      "question": "Which statement about Generics In Depth is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generics In Depth has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Generics In Depth only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Generics enable creating reusable, type-safe components that work with multiple types."
+        },
+        {
+          "id": "d",
+          "text": "Generics In Depth was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Generics In Depth.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g501",
+      "topic": "Generics In Depth",
+      "question": "Why is Generics In Depth useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Generics In Depth.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g502",
+      "topic": "Generics In Depth",
+      "question": "Where would you most likely apply Generics In Depth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Generics In Depth."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Generics In Depth applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g503",
+      "topic": "Generics In Depth",
+      "question": "Which practice is recommended when using Generics In Depth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Generics In Depth."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Generics In Depth.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g504",
+      "topic": "Generics In Depth",
+      "question": "How does Generics In Depth behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Generics In Depth.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

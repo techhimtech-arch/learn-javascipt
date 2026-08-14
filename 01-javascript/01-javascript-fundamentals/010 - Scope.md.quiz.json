@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/010 - Scope.md",
+  "title": "Scope Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g61",
+      "topic": "Scope",
+      "question": "What is \"Scope\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Scope."
+        },
+        {
+          "id": "b",
+          "text": "Scope refers to the visibility and accessibility of variables, functions, and objects in different parts of your code during runtime."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Scope."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Scope refers to the visibility and accessibility of variables, functions, and objects in different parts of your code during runtime.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g62",
+      "topic": "Scope",
+      "question": "Which statement about Scope is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scope was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Scope refers to the visibility and accessibility of variables, functions, and objects in different parts of your code during runtime."
+        },
+        {
+          "id": "c",
+          "text": "Scope has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Scope only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Scope.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g63",
+      "topic": "Scope",
+      "question": "Why is Scope useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Scope.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g64",
+      "topic": "Scope",
+      "question": "Where would you most likely apply Scope?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Scope."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Scope applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g65",
+      "topic": "Scope",
+      "question": "Which practice is recommended when using Scope?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Scope."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Scope.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g66",
+      "topic": "Scope",
+      "question": "How does Scope behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Scope.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/025 - Combination Operators.md",
+  "title": "Combination Operators Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g732",
+      "topic": "Combination Operators",
+      "question": "What is \"Combination Operators\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Combination Operators."
+        },
+        {
+          "id": "c",
+          "text": "Combination Operators merge multiple Observables into one — coordinating parallel async flows."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Combination Operators."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Combination Operators merge multiple Observables into one — coordinating parallel async flows.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g733",
+      "topic": "Combination Operators",
+      "question": "Which statement about Combination Operators is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Combination Operators only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Combination Operators was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Combination Operators merge multiple Observables into one — coordinating parallel async flows."
+        },
+        {
+          "id": "d",
+          "text": "Combination Operators has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Combination Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g734",
+      "topic": "Combination Operators",
+      "question": "Given the Combination Operators code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Combination Operators."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Combination Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g735",
+      "topic": "Combination Operators",
+      "question": "Why is Combination Operators useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Combination Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g736",
+      "topic": "Combination Operators",
+      "question": "Where would you most likely apply Combination Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Combination Operators."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Combination Operators applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g737",
+      "topic": "Combination Operators",
+      "question": "Which practice is recommended when using Combination Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Combination Operators."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Combination Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

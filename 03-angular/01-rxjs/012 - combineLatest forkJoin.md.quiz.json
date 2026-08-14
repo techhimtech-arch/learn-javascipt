@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/012 - combineLatest forkJoin.md",
+  "title": "combineLatest forkJoin Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g655",
+      "topic": "combineLatest forkJoin",
+      "question": "What is \"combineLatest forkJoin\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two powerful RxJS combination operators: - combineLatest: Emits tuple/array when ANY input observable emits (after all have emitted once) - forkJoin: Emits array/object with LAST values from each input observable after all complet…"
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to combineLatest forkJoin."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to combineLatest forkJoin."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Two powerful RxJS combination operators: - combineLatest: Emits tuple/array when ANY input observable emits (after all have emitted once) - forkJoin: Emits array/object with LAST values from each input observable after all complet…",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g656",
+      "topic": "combineLatest forkJoin",
+      "question": "Which statement about combineLatest forkJoin is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "combineLatest forkJoin only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "combineLatest forkJoin was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Two powerful RxJS combination operators: - combineLatest: Emits tuple/array when ANY input observable emits (after all have emitted once) - forkJoin: Emits array/object with LAST values from each input observable after all complet…"
+        },
+        {
+          "id": "d",
+          "text": "combineLatest forkJoin has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of combineLatest forkJoin.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g657",
+      "topic": "combineLatest forkJoin",
+      "question": "Why is combineLatest forkJoin useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for combineLatest forkJoin.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g658",
+      "topic": "combineLatest forkJoin",
+      "question": "Where would you most likely apply combineLatest forkJoin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for combineLatest forkJoin."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where combineLatest forkJoin applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g659",
+      "topic": "combineLatest forkJoin",
+      "question": "Which practice is recommended when using combineLatest forkJoin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for combineLatest forkJoin."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply combineLatest forkJoin.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g660",
+      "topic": "combineLatest forkJoin",
+      "question": "How does combineLatest forkJoin behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of combineLatest forkJoin.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -7,8 +7,356 @@
   "folder": "04-typescript",
   "description": "Mixed quiz covering all topics in Typescript.",
   "questionCount": 30,
-  "generatedAt": "2026-08-14T07:21:31.099Z",
+  "generatedAt": "2026-08-14T08:44:42.183Z",
   "questions": [
+    {
+      "id": "g361",
+      "topic": "TypeScript Overview",
+      "question": "What is \"TypeScript Overview\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to TypeScript Overview."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to TypeScript Overview."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g362",
+      "topic": "TypeScript Overview",
+      "question": "Which statement about TypeScript Overview is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript Overview has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Overview only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Overview was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of TypeScript Overview.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g363",
+      "topic": "TypeScript Overview",
+      "question": "Given the TypeScript Overview code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for TypeScript Overview."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for TypeScript Overview.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g364",
+      "topic": "TypeScript Overview",
+      "question": "Why is TypeScript Overview useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TypeScript Overview.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g365",
+      "topic": "TypeScript Overview",
+      "question": "Where would you most likely apply TypeScript Overview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for TypeScript Overview."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TypeScript Overview applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g366",
+      "topic": "TypeScript Overview",
+      "question": "Which practice is recommended when using TypeScript Overview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for TypeScript Overview."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TypeScript Overview.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g367",
+      "topic": "Types",
+      "question": "What is \"Types\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Types."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Types."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript extends JavaScript with a rich set of built-in types including primitives, compound types, and utility constructs."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: TypeScript extends JavaScript with a rich set of built-in types including primitives, compound types, and utility constructs.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g368",
+      "topic": "Types",
+      "question": "Which statement about Types is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Types only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Types has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Types was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript extends JavaScript with a rich set of built-in types including primitives, compound types, and utility constructs."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Types.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g369",
+      "topic": "Types",
+      "question": "Why is Types useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g370",
+      "topic": "Types",
+      "question": "Where would you most likely apply Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Types."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Types applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g371",
+      "topic": "Types",
+      "question": "Which practice is recommended when using Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Types."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g372",
+      "topic": "Types",
+      "question": "How does Types behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
     {
       "id": "ts-iface-q1",
       "topic": "Interfaces",
@@ -185,752 +533,352 @@
       ]
     },
     {
-      "id": "ts-deco-q1",
-      "topic": "Decorators",
-      "question": "What must be enabled to use decorators in TypeScript (pre-5.x)?",
+      "id": "g373",
+      "topic": "Type Alias",
+      "question": "What is \"Type Alias\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "Nothing, they are on by default"
+          "text": "An external database engine unrelated to Type Alias."
         },
         {
           "id": "b",
-          "text": "experimentalDecorators: true in tsconfig"
+          "text": "A pure CSS technique with no relation to Type Alias."
         },
         {
           "id": "c",
-          "text": "useDefineForClassFields"
+          "text": "A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes."
         },
         {
           "id": "d",
-          "text": "noEmit"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Decorators are experimental; set experimentalDecorators:true (and often emitDecoratorMetadata) to use them.",
-      "difficulty": "medium",
-      "tags": [
-        "config"
-      ]
-    },
-    {
-      "id": "ts-deco-q2",
-      "topic": "Decorators",
-      "question": "A class decorator receives what as its argument?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The class constructor"
-        },
-        {
-          "id": "b",
-          "text": "The class instances"
-        },
-        {
-          "id": "c",
-          "text": "The parent class only"
-        },
-        {
-          "id": "d",
-          "text": "The prototype methods"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Class decorators receive the constructor function and can return a new constructor to replace it.",
-      "difficulty": "hard",
-      "tags": [
-        "class-decorator"
-      ]
-    },
-    {
-      "id": "ts-deco-q3",
-      "topic": "Decorators",
-      "question": "Which decorator is used by Angular on components?",
-      "options": [
-        {
-          "id": "a",
-          "text": "@Injectable()"
-        },
-        {
-          "id": "b",
-          "text": "@Component()"
-        },
-        {
-          "id": "c",
-          "text": "@NgModule()"
-        },
-        {
-          "id": "d",
-          "text": "@Pipe()"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Angular's @Component() decorator attaches metadata (template, selector, styles) to the class.",
-      "difficulty": "easy",
-      "tags": [
-        "angular",
-        "component"
-      ]
-    },
-    {
-      "id": "ts-deco-q4",
-      "topic": "Decorators",
-      "question": "A method decorator's signature is (target, propertyKey, descriptor). What is `descriptor`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The class itself"
-        },
-        {
-          "id": "b",
-          "text": "The PropertyDescriptor of the method (can wrap value)"
-        },
-        {
-          "id": "c",
-          "text": "The return value"
-        },
-        {
-          "id": "d",
-          "text": "The parameter list"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The descriptor lets you replace/ wrap the method via descriptor.value (e.g. for logging or memoization).",
-      "difficulty": "hard",
-      "tags": [
-        "method-decorator"
-      ]
-    },
-    {
-      "id": "ts-deco-q5",
-      "topic": "Decorators",
-      "question": "Decorators in TC39 proposals apply in which order for nested cases?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Top-down (outer to inner)"
-        },
-        {
-          "id": "b",
-          "text": "Bottom-up / inside-out for evaluation, but declaration order for lists"
-        },
-        {
-          "id": "c",
-          "text": "Randomly"
-        },
-        {
-          "id": "d",
-          "text": "Only the last one runs"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Evaluation is inside-out (inner decorators run first), but the decorator EXPRESSIONS are evaluated outside-in.",
-      "difficulty": "hard",
-      "tags": [
-        "order"
-      ]
-    },
-    {
-      "id": "ts-deco-q6",
-      "topic": "Decorators",
-      "question": "Why does Angular need emitDecoratorMetadata?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To make decorators run faster"
-        },
-        {
-          "id": "b",
-          "text": "To emit design:type metadata so DI can infer constructor param types"
-        },
-        {
-          "id": "c",
-          "text": "It does not need it"
-        },
-        {
-          "id": "d",
-          "text": "To minify code"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Angular's DI uses emitted metadata (design:paramtypes) to resolve dependencies by type at runtime.",
-      "difficulty": "hard",
-      "tags": [
-        "metadata",
-        "di"
-      ]
-    },
-    {
-      "id": "js-engine-q1",
-      "topic": "JavaScript Engine",
-      "question": "Which engine powers BOTH Google Chrome and Node.js?",
-      "options": [
-        {
-          "id": "a",
-          "text": "SpiderMonkey"
-        },
-        {
-          "id": "b",
-          "text": "V8"
-        },
-        {
-          "id": "c",
-          "text": "Chakra"
-        },
-        {
-          "id": "d",
-          "text": "JavaScriptCore"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
-      "difficulty": "easy",
-      "tags": [
-        "engine",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q2",
-      "topic": "JavaScript Engine",
-      "question": "What is the first stage a JS engine performs after reading source code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Execute it line by line immediately"
-        },
-        {
-          "id": "b",
-          "text": "Parse it into an Abstract Syntax Tree (AST)"
-        },
-        {
-          "id": "c",
-          "text": "Compile directly to machine code"
-        },
-        {
-          "id": "d",
-          "text": "Send it to the GPU"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
-      "difficulty": "medium",
-      "tags": [
-        "parser",
-        "ast"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q3",
-      "topic": "JavaScript Engine",
-      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Interprets code once and discards it"
-        },
-        {
-          "id": "b",
-          "text": "Optimizes frequently-run ('hot') code paths dynamically"
-        },
-        {
-          "id": "c",
-          "text": "Only runs during page load"
-        },
-        {
-          "id": "d",
-          "text": "Disables the garbage collector"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
-      "difficulty": "medium",
-      "tags": [
-        "jit",
-        "v8"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q4",
-      "topic": "JavaScript Engine",
-      "question": "Is Node.js a JavaScript engine?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Yes, Node.js is the engine"
-        },
-        {
-          "id": "b",
-          "text": "No, Node.js is a runtime that embeds the V8 engine"
-        },
-        {
-          "id": "c",
-          "text": "No, it is a browser"
-        },
-        {
-          "id": "d",
-          "text": "Yes, but only on Windows"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
-      "difficulty": "easy",
-      "tags": [
-        "runtime",
-        "node"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q5",
-      "topic": "JavaScript Engine",
-      "question": "Which component of the engine reclaims unused memory automatically?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The Call Stack"
-        },
-        {
-          "id": "b",
-          "text": "The Parser"
-        },
-        {
-          "id": "c",
-          "text": "The Garbage Collector"
-        },
-        {
-          "id": "d",
-          "text": "The Event Loop"
+          "text": "A deprecated feature that was removed in the latest standard."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
+      "explanation": "Per the documented definition: A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes.",
       "difficulty": "easy",
       "tags": [
-        "memory",
-        "gc"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "definition"
+      ]
     },
     {
-      "id": "js-engine-q6",
-      "topic": "JavaScript Engine",
-      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
+      "id": "g374",
+      "topic": "Type Alias",
+      "question": "Which statement about Type Alias is correct?",
       "options": [
         {
           "id": "a",
-          "text": "Using consistent object shapes"
+          "text": "Type Alias has no practical use and should be avoided."
         },
         {
           "id": "b",
-          "text": "Reassigning a variable to a different type in a hot path"
+          "text": "Type Alias was deprecated and replaced by a newer standard."
         },
         {
           "id": "c",
-          "text": "Adding 'use strict'"
+          "text": "Type Alias only works in server-side rendering contexts."
         },
         {
           "id": "d",
-          "text": "Declaring const variables"
+          "text": "A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
-      "difficulty": "hard",
-      "tags": [
-        "optimization",
-        "deopt"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q7",
-      "topic": "JavaScript Engine",
-      "question": "Which statement is TRUE about the Event Loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It is part of the JavaScript language spec"
-        },
-        {
-          "id": "b",
-          "text": "It is provided by the runtime environment (browser/Node), not the engine itself"
-        },
-        {
-          "id": "c",
-          "text": "It lives inside V8 directly"
-        },
-        {
-          "id": "d",
-          "text": "It only exists in Node.js"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Type Alias.",
       "difficulty": "medium",
       "tags": [
-        "event-loop",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "fact"
+      ]
     },
     {
-      "id": "js-engine-q8",
-      "topic": "JavaScript Engine",
-      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
+      "id": "g375",
+      "topic": "Type Alias",
+      "question": "Given the Type Alias code sample, what is the expected behavior?",
       "options": [
         {
           "id": "a",
-          "text": "CSS animations"
+          "text": "It produces no output at all."
         },
         {
           "id": "b",
-          "text": "Change detection after async operations"
+          "text": "It executes the statements in reverse order."
         },
         {
           "id": "c",
-          "text": "Garbage collection"
+          "text": "It follows the documented step-by-step execution shown for Type Alias."
         },
         {
           "id": "d",
-          "text": "HTTP caching"
+          "text": "It throws a syntax error on the very first line."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
-      "difficulty": "hard",
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Type Alias.",
+      "difficulty": "medium",
       "tags": [
-        "angular",
-        "zonejs"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "code"
+      ]
     },
     {
-      "id": "promise-q1",
-      "topic": "Promises",
-      "question": "A Promise that has settled successfully is in which state?",
+      "id": "g376",
+      "topic": "Type Alias",
+      "question": "Why is Type Alias useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "pending"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "b",
-          "text": "fulfilled"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "c",
-          "text": "rejected"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "blocked"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Type Alias.",
       "difficulty": "easy",
       "tags": [
-        "promise",
-        "states"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "promise-q2",
-      "topic": "Promises",
-      "question": "What does .then() return?",
+      "id": "g377",
+      "topic": "Type Alias",
+      "question": "Where would you most likely apply Type Alias?",
       "options": [
         {
           "id": "a",
-          "text": "The original Promise (same reference)"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "A brand-new Promise (enabling chaining)"
+          "text": "In the real-world / production scenario documented for Type Alias."
         },
         {
           "id": "c",
-          "text": "undefined"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "The resolved value directly"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
-      "difficulty": "medium",
-      "tags": [
-        "then",
-        "chaining"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q3",
-      "topic": "Promises",
-      "question": "What is returned by Promise.all if ANY input promise rejects?",
-      "options": [
-        {
-          "id": "a",
-          "text": "An array with nulls for the rejected ones"
-        },
-        {
-          "id": "b",
-          "text": "It rejects immediately with that rejection reason"
-        },
-        {
-          "id": "c",
-          "text": "It waits for all then resolves"
-        },
-        {
-          "id": "d",
-          "text": "It returns an empty array"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
-      "difficulty": "medium",
-      "tags": [
-        "promise-all",
-        "reject"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q4",
-      "topic": "Promises",
-      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.all"
-        },
-        {
-          "id": "b",
-          "text": "Promise.race"
-        },
-        {
-          "id": "c",
-          "text": "Promise.allSettled"
-        },
-        {
-          "id": "d",
-          "text": "Promise.any"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
-      "difficulty": "medium",
-      "tags": [
-        "race"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q5",
-      "topic": "Promises",
-      "question": "What does Promise.allSettled resolve with?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Only the fulfilled values"
-        },
-        {
-          "id": "b",
-          "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}"
-        },
-        {
-          "id": "c",
-          "text": "The first rejection"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
-      "difficulty": "hard",
-      "tags": [
-        "allsettled"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q6",
-      "topic": "Promises",
-      "question": "A Promise executor function receives two arguments. What are they?",
-      "options": [
-        {
-          "id": "a",
-          "text": "onSuccess, onError"
-        },
-        {
-          "id": "b",
-          "text": "resolve, reject"
-        },
-        {
-          "id": "c",
-          "text": "then, catch"
-        },
-        {
-          "id": "d",
-          "text": "async, await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Type Alias applies.",
       "difficulty": "easy",
       "tags": [
-        "executor"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "promise-q7",
-      "topic": "Promises",
-      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
+      "id": "g378",
+      "topic": "Type Alias",
+      "question": "Which practice is recommended when using Type Alias?",
       "options": [
         {
           "id": "a",
-          "text": "A fulfilled promise with value 5"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "b",
-          "text": "A rejected promise"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "Throws synchronously"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "undefined"
+          "text": "Following the documented Production Best Practices for Type Alias."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
-      "difficulty": "medium",
-      "tags": [
-        "reject",
-        "then"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q8",
-      "topic": "Promises",
-      "question": "Callbacks passed to then/catch always run as...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Synchronous, immediately"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (after current script, before macrotasks)"
-        },
-        {
-          "id": "c",
-          "text": "Macrotasks (setTimeout queue)"
-        },
-        {
-          "id": "d",
-          "text": "Only on page unload"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
-      "difficulty": "hard",
-      "tags": [
-        "microtask",
-        "event-loop"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "async-q1",
-      "topic": "async/await",
-      "question": "What does an `async function` ALWAYS return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The raw value you return"
-        },
-        {
-          "id": "b",
-          "text": "A Promise that resolves to the returned value"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "A generator object"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async functions wrap the return value in a Promise automatically.",
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Type Alias.",
       "difficulty": "easy",
       "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "async-q2",
-      "topic": "async/await",
-      "question": "If you `await` a rejected promise, what happens?",
+      "id": "g379",
+      "topic": "Enums",
+      "question": "What is \"Enums\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "It returns undefined silently"
+          "text": "An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable."
         },
         {
           "id": "b",
-          "text": "It throws inside the async function (catchable with try/catch)"
+          "text": "A deprecated feature that was removed in the latest standard."
         },
         {
           "id": "c",
-          "text": "The program crashes always"
+          "text": "A pure CSS technique with no relation to Enums."
         },
         {
           "id": "d",
-          "text": "It logs to console only"
+          "text": "An external database engine unrelated to Enums."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g380",
+      "topic": "Enums",
+      "question": "Which statement about Enums is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enums has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Enums was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Enums only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Enums.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g381",
+      "topic": "Enums",
+      "question": "Given the Enums code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Enums."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Enums.",
       "difficulty": "medium",
       "tags": [
-        "await",
-        "error"
+        "code"
+      ]
+    },
+    {
+      "id": "g382",
+      "topic": "Enums",
+      "question": "Why is Enums useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
       ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Enums.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g383",
+      "topic": "Enums",
+      "question": "Where would you most likely apply Enums?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Enums."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Enums applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g384",
+      "topic": "Enums",
+      "question": "Which practice is recommended when using Enums?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Enums."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Enums.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
     }
   ]
 }

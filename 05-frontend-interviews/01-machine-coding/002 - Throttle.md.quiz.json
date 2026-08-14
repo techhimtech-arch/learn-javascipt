@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md",
+  "title": "Throttle Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1050",
+      "topic": "Throttle",
+      "question": "What is \"Throttle\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Throttle."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Throttle."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1051",
+      "topic": "Throttle",
+      "question": "Which statement about Throttle is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Throttle has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Throttle was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called."
+        },
+        {
+          "id": "d",
+          "text": "Throttle only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Throttle.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1052",
+      "topic": "Throttle",
+      "question": "Why is Throttle useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1053",
+      "topic": "Throttle",
+      "question": "Where would you most likely apply Throttle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Throttle."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Throttle applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1054",
+      "topic": "Throttle",
+      "question": "Which practice is recommended when using Throttle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Throttle."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1055",
+      "topic": "Throttle",
+      "question": "How does Throttle behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

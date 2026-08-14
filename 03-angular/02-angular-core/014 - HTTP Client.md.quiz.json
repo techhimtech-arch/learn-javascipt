@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/014 - HTTP Client.md",
+  "title": "HTTP Client Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g810",
+      "topic": "HTTP Client",
+      "question": "What is \"HTTP Client\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to HTTP Client."
+        },
+        {
+          "id": "b",
+          "text": "HttpClient is Angular’s enhanced HTTP client built on XMLHttpRequest/XHR browser API — providing type-safe request/response handling with RxJS integration."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to HTTP Client."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: HttpClient is Angular’s enhanced HTTP client built on XMLHttpRequest/XHR browser API — providing type-safe request/response handling with RxJS integration.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g811",
+      "topic": "HTTP Client",
+      "question": "Which statement about HTTP Client is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HTTP Client only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "HTTP Client was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "HTTP Client has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "HttpClient is Angular’s enhanced HTTP client built on XMLHttpRequest/XHR browser API — providing type-safe request/response handling with RxJS integration."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of HTTP Client.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g812",
+      "topic": "HTTP Client",
+      "question": "Why is HTTP Client useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for HTTP Client.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g813",
+      "topic": "HTTP Client",
+      "question": "Where would you most likely apply HTTP Client?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for HTTP Client."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where HTTP Client applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g814",
+      "topic": "HTTP Client",
+      "question": "Which practice is recommended when using HTTP Client?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for HTTP Client."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply HTTP Client.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g815",
+      "topic": "HTTP Client",
+      "question": "How does HTTP Client behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of HTTP Client.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

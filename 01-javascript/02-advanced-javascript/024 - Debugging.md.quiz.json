@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/024 - Debugging.md",
+  "title": "Debugging Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g301",
+      "topic": "Debugging",
+      "question": "What is \"Debugging\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Debugging."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Debugging."
+        },
+        {
+          "id": "c",
+          "text": "JavaScript Debugging systematically identifies, diagnoses, and fixes code defects using tools and techniques."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: JavaScript Debugging systematically identifies, diagnoses, and fixes code defects using tools and techniques.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g302",
+      "topic": "Debugging",
+      "question": "Which statement about Debugging is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debugging only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Debugging was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "JavaScript Debugging systematically identifies, diagnoses, and fixes code defects using tools and techniques."
+        },
+        {
+          "id": "d",
+          "text": "Debugging has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Debugging.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g303",
+      "topic": "Debugging",
+      "question": "Given the Debugging code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Debugging."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Debugging.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g304",
+      "topic": "Debugging",
+      "question": "Why is Debugging useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g305",
+      "topic": "Debugging",
+      "question": "Where would you most likely apply Debugging?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Debugging."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Debugging applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g306",
+      "topic": "Debugging",
+      "question": "Which practice is recommended when using Debugging?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Debugging."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

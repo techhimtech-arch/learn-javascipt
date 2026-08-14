@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/015 - Schematics.md",
+  "title": "Schematics Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g972",
+      "topic": "Schematics",
+      "question": "What is \"Schematics\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Schematics are code generators/plugins for Angular CLI — automating project setup, component creation, and workflow tasks."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Schematics."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Schematics."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Schematics are code generators/plugins for Angular CLI — automating project setup, component creation, and workflow tasks.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g973",
+      "topic": "Schematics",
+      "question": "Which statement about Schematics is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schematics has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Schematics are code generators/plugins for Angular CLI — automating project setup, component creation, and workflow tasks."
+        },
+        {
+          "id": "c",
+          "text": "Schematics was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Schematics only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Schematics.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g974",
+      "topic": "Schematics",
+      "question": "Why is Schematics useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Schematics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g975",
+      "topic": "Schematics",
+      "question": "Where would you most likely apply Schematics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Schematics."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Schematics applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g976",
+      "topic": "Schematics",
+      "question": "Which practice is recommended when using Schematics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Schematics."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Schematics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g977",
+      "topic": "Schematics",
+      "question": "How does Schematics behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Schematics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

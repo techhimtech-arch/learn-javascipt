@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/008 - Optional Chaining.md",
+  "title": "Optional Chaining Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g343",
+      "topic": "Optional Chaining",
+      "question": "What is \"Optional Chaining\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Optional chaining (?.) short-circuits evaluation of nested property access, returning undefined if any portion of the chain is null/undefined instead of throwing."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Optional Chaining."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Optional Chaining."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Optional chaining (?.) short-circuits evaluation of nested property access, returning undefined if any portion of the chain is null/undefined instead of throwing.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g344",
+      "topic": "Optional Chaining",
+      "question": "Which statement about Optional Chaining is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Optional chaining (?.) short-circuits evaluation of nested property access, returning undefined if any portion of the chain is null/undefined instead of throwing."
+        },
+        {
+          "id": "b",
+          "text": "Optional Chaining has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Optional Chaining was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Optional Chaining only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Optional Chaining.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g345",
+      "topic": "Optional Chaining",
+      "question": "Why is Optional Chaining useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Optional Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g346",
+      "topic": "Optional Chaining",
+      "question": "Where would you most likely apply Optional Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Optional Chaining."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Optional Chaining applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g347",
+      "topic": "Optional Chaining",
+      "question": "Which practice is recommended when using Optional Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Optional Chaining."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Optional Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g348",
+      "topic": "Optional Chaining",
+      "question": "How does Optional Chaining behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Optional Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/022 - Reflect.md",
+  "title": "Reflect Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g289",
+      "topic": "Reflect",
+      "question": "What is \"Reflect\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Reflect."
+        },
+        {
+          "id": "b",
+          "text": "Reflect is a built-in object providing methods for interceptable JavaScript operations — pairing with Proxy traps and offering safer alternatives to older patterns."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Reflect."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Reflect is a built-in object providing methods for interceptable JavaScript operations — pairing with Proxy traps and offering safer alternatives to older patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g290",
+      "topic": "Reflect",
+      "question": "Which statement about Reflect is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reflect was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Reflect has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Reflect is a built-in object providing methods for interceptable JavaScript operations — pairing with Proxy traps and offering safer alternatives to older patterns."
+        },
+        {
+          "id": "d",
+          "text": "Reflect only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Reflect.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g291",
+      "topic": "Reflect",
+      "question": "Given the Reflect code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Reflect."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Reflect.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g292",
+      "topic": "Reflect",
+      "question": "Why is Reflect useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Reflect.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g293",
+      "topic": "Reflect",
+      "question": "Where would you most likely apply Reflect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Reflect."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Reflect applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g294",
+      "topic": "Reflect",
+      "question": "Which practice is recommended when using Reflect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Reflect."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Reflect.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

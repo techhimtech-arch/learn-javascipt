@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/015 - call() apply() bind().md",
+  "title": "call() apply() bind() Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g91",
+      "topic": "call() apply() bind()",
+      "question": "What is \"call() apply() bind()\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to call() apply() bind()."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "These three explicit binding functions let you control what this refers to inside a function: - call() — invokes function immediately with specified this - apply() — like .call() but accepts arguments as array - bind() — returns a…"
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to call() apply() bind()."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: These three explicit binding functions let you control what this refers to inside a function: - call() — invokes function immediately with specified this - apply() — like .call() but accepts arguments as array - bind() — returns a…",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g92",
+      "topic": "call() apply() bind()",
+      "question": "Which statement about call() apply() bind() is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "call() apply() bind() was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "These three explicit binding functions let you control what this refers to inside a function: - call() — invokes function immediately with specified this - apply() — like .call() but accepts arguments as array - bind() — returns a…"
+        },
+        {
+          "id": "c",
+          "text": "call() apply() bind() only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "call() apply() bind() has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of call() apply() bind().",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g93",
+      "topic": "call() apply() bind()",
+      "question": "Why is call() apply() bind() useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for call() apply() bind().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g94",
+      "topic": "call() apply() bind()",
+      "question": "Where would you most likely apply call() apply() bind()?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for call() apply() bind()."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where call() apply() bind() applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g95",
+      "topic": "call() apply() bind()",
+      "question": "Which practice is recommended when using call() apply() bind()?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for call() apply() bind()."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply call() apply() bind().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g96",
+      "topic": "call() apply() bind()",
+      "question": "How does call() apply() bind() behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of call() apply() bind().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/004 - TDD with Angular.md",
+  "title": "TDD with Angular Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1296",
+      "topic": "TDD with Angular",
+      "question": "What is \"TDD with Angular\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to TDD with Angular."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to TDD with Angular."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Test-Driven Development (TDD) follows RED-GREEN-REFACTOR cycle — writing failing tests first, then implementation, then refactoring."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Test-Driven Development (TDD) follows RED-GREEN-REFACTOR cycle — writing failing tests first, then implementation, then refactoring.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1297",
+      "topic": "TDD with Angular",
+      "question": "Which statement about TDD with Angular is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TDD with Angular only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "TDD with Angular has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Test-Driven Development (TDD) follows RED-GREEN-REFACTOR cycle — writing failing tests first, then implementation, then refactoring."
+        },
+        {
+          "id": "d",
+          "text": "TDD with Angular was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of TDD with Angular.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1298",
+      "topic": "TDD with Angular",
+      "question": "Why is TDD with Angular useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TDD with Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1299",
+      "topic": "TDD with Angular",
+      "question": "Where would you most likely apply TDD with Angular?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for TDD with Angular."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TDD with Angular applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1300",
+      "topic": "TDD with Angular",
+      "question": "Which practice is recommended when using TDD with Angular?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for TDD with Angular."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TDD with Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1301",
+      "topic": "TDD with Angular",
+      "question": "How does TDD with Angular behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of TDD with Angular.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

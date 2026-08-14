@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/005 - Property Binding.md",
+  "title": "Property Binding Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g768",
+      "topic": "Property Binding",
+      "question": "What is \"Property Binding\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Property Binding."
+        },
+        {
+          "id": "b",
+          "text": "Property Binding ([property]=\"expression\") sets DOM element properties or Angular component members dynamically from template expressions."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Property Binding."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Property Binding ([property]=\"expression\") sets DOM element properties or Angular component members dynamically from template expressions.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g769",
+      "topic": "Property Binding",
+      "question": "Which statement about Property Binding is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Property Binding ([property]=\"expression\") sets DOM element properties or Angular component members dynamically from template expressions."
+        },
+        {
+          "id": "b",
+          "text": "Property Binding has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Property Binding only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Property Binding was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Property Binding.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g770",
+      "topic": "Property Binding",
+      "question": "Why is Property Binding useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Property Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g771",
+      "topic": "Property Binding",
+      "question": "Where would you most likely apply Property Binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Property Binding."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Property Binding applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g772",
+      "topic": "Property Binding",
+      "question": "Which practice is recommended when using Property Binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Property Binding."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Property Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g773",
+      "topic": "Property Binding",
+      "question": "How does Property Binding behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Property Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

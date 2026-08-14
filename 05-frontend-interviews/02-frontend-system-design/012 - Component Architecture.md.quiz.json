@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/012 - Component Architecture.md",
+  "title": "Component Architecture Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1272",
+      "topic": "Component Architecture",
+      "question": "What is \"Component Architecture\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Component Architecture structures UI as hierarchical, composable building blocks — defining clear boundaries, data flow, and responsibilities."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Component Architecture."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Component Architecture."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Component Architecture structures UI as hierarchical, composable building blocks — defining clear boundaries, data flow, and responsibilities.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1273",
+      "topic": "Component Architecture",
+      "question": "Which statement about Component Architecture is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Component Architecture was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Component Architecture only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Component Architecture structures UI as hierarchical, composable building blocks — defining clear boundaries, data flow, and responsibilities."
+        },
+        {
+          "id": "d",
+          "text": "Component Architecture has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Component Architecture.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1274",
+      "topic": "Component Architecture",
+      "question": "Why is Component Architecture useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Component Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1275",
+      "topic": "Component Architecture",
+      "question": "Where would you most likely apply Component Architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Component Architecture."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Component Architecture applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1276",
+      "topic": "Component Architecture",
+      "question": "Which practice is recommended when using Component Architecture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Component Architecture."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Component Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1277",
+      "topic": "Component Architecture",
+      "question": "How does Component Architecture behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Component Architecture.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

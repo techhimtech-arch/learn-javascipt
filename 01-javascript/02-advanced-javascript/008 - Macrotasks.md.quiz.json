@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/008 - Macrotasks.md",
+  "title": "Macrotasks Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g205",
+      "topic": "Macrotasks",
+      "question": "What is \"Macrotasks\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Macrotasks (also called tasks or callback tasks) are units of work scheduled in the task queue by the host environment."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Macrotasks."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Macrotasks."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Macrotasks (also called tasks or callback tasks) are units of work scheduled in the task queue by the host environment.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g206",
+      "topic": "Macrotasks",
+      "question": "Which statement about Macrotasks is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Macrotasks was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Macrotasks has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Macrotasks (also called tasks or callback tasks) are units of work scheduled in the task queue by the host environment."
+        },
+        {
+          "id": "d",
+          "text": "Macrotasks only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Macrotasks.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g207",
+      "topic": "Macrotasks",
+      "question": "Given the Macrotasks code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Macrotasks."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Macrotasks.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g208",
+      "topic": "Macrotasks",
+      "question": "Why is Macrotasks useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Macrotasks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g209",
+      "topic": "Macrotasks",
+      "question": "Where would you most likely apply Macrotasks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Macrotasks."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Macrotasks applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g210",
+      "topic": "Macrotasks",
+      "question": "Which practice is recommended when using Macrotasks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Macrotasks."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Macrotasks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/023 - Event Loop.md",
+  "title": "Event Loop Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g295",
+      "topic": "Event Loop",
+      "question": "What is \"Event Loop\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Event Loop."
+        },
+        {
+          "id": "c",
+          "text": "The Event Loop is JavaScript's mechanism for executing asynchronous operations — continuously processing messages from the queue when the call stack is empty."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Event Loop."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: The Event Loop is JavaScript's mechanism for executing asynchronous operations — continuously processing messages from the queue when the call stack is empty.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g296",
+      "topic": "Event Loop",
+      "question": "Which statement about Event Loop is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Event Loop is JavaScript's mechanism for executing asynchronous operations — continuously processing messages from the queue when the call stack is empty."
+        },
+        {
+          "id": "b",
+          "text": "Event Loop only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Event Loop was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Event Loop has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Event Loop.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g297",
+      "topic": "Event Loop",
+      "question": "Given the Event Loop code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Event Loop."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Event Loop.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g298",
+      "topic": "Event Loop",
+      "question": "Why is Event Loop useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Event Loop.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g299",
+      "topic": "Event Loop",
+      "question": "Where would you most likely apply Event Loop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Event Loop."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Event Loop applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g300",
+      "topic": "Event Loop",
+      "question": "Which practice is recommended when using Event Loop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Event Loop."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Event Loop.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

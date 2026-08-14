@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/012 - First Non-Repeating Character.md",
+  "title": "First Non-Repeating Character Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1110",
+      "topic": "First Non-Repeating Character",
+      "question": "What is \"First Non-Repeating Character\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to First Non-Repeating Character."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "First Non-Repeating Character finds the lowest-index character in a string that occurs exactly once."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to First Non-Repeating Character."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: First Non-Repeating Character finds the lowest-index character in a string that occurs exactly once.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1111",
+      "topic": "First Non-Repeating Character",
+      "question": "Which statement about First Non-Repeating Character is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "First Non-Repeating Character was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "First Non-Repeating Character only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "First Non-Repeating Character has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "First Non-Repeating Character finds the lowest-index character in a string that occurs exactly once."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of First Non-Repeating Character.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1112",
+      "topic": "First Non-Repeating Character",
+      "question": "Why is First Non-Repeating Character useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for First Non-Repeating Character.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1113",
+      "topic": "First Non-Repeating Character",
+      "question": "Where would you most likely apply First Non-Repeating Character?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for First Non-Repeating Character."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where First Non-Repeating Character applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1114",
+      "topic": "First Non-Repeating Character",
+      "question": "Which practice is recommended when using First Non-Repeating Character?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for First Non-Repeating Character."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply First Non-Repeating Character.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1115",
+      "topic": "First Non-Repeating Character",
+      "question": "How does First Non-Repeating Character behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of First Non-Repeating Character.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

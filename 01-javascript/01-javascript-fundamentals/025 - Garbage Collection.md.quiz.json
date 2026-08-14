@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/025 - Garbage Collection.md",
+  "title": "Garbage Collection Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g151",
+      "topic": "Garbage Collection",
+      "question": "What is \"Garbage Collection\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Garbage Collection."
+        },
+        {
+          "id": "b",
+          "text": "Garbage Collection is the automatic process of reclaiming memory occupied by objects that are no longer reachable from the root set (global scope, call stack, etc.)."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Garbage Collection."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Garbage Collection is the automatic process of reclaiming memory occupied by objects that are no longer reachable from the root set (global scope, call stack, etc.).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g152",
+      "topic": "Garbage Collection",
+      "question": "Which statement about Garbage Collection is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Garbage Collection is the automatic process of reclaiming memory occupied by objects that are no longer reachable from the root set (global scope, call stack, etc.)."
+        },
+        {
+          "id": "b",
+          "text": "Garbage Collection was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Garbage Collection has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Garbage Collection only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Garbage Collection.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g153",
+      "topic": "Garbage Collection",
+      "question": "Why is Garbage Collection useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Garbage Collection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g154",
+      "topic": "Garbage Collection",
+      "question": "Where would you most likely apply Garbage Collection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Garbage Collection."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Garbage Collection applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g155",
+      "topic": "Garbage Collection",
+      "question": "Which practice is recommended when using Garbage Collection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Garbage Collection."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Garbage Collection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g156",
+      "topic": "Garbage Collection",
+      "question": "How does Garbage Collection behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Garbage Collection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

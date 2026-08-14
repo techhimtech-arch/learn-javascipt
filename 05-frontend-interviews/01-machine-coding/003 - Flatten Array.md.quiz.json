@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md",
+  "title": "Flatten Array Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1056",
+      "topic": "Flatten Array",
+      "question": "What is \"Flatten Array\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flatten transforms a deeply nested array into a single-level flat array recursively."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Flatten Array."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Flatten transforms a deeply nested array into a single-level flat array recursively.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1057",
+      "topic": "Flatten Array",
+      "question": "Which statement about Flatten Array is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flatten Array was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Flatten Array has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Flatten transforms a deeply nested array into a single-level flat array recursively."
+        },
+        {
+          "id": "d",
+          "text": "Flatten Array only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Flatten Array.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1058",
+      "topic": "Flatten Array",
+      "question": "Why is Flatten Array useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1059",
+      "topic": "Flatten Array",
+      "question": "Where would you most likely apply Flatten Array?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Flatten Array applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1060",
+      "topic": "Flatten Array",
+      "question": "Which practice is recommended when using Flatten Array?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1061",
+      "topic": "Flatten Array",
+      "question": "How does Flatten Array behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

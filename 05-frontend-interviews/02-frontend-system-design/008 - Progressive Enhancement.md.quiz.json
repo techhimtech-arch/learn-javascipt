@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/008 - Progressive Enhancement.md",
+  "title": "Progressive Enhancement Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1248",
+      "topic": "Progressive Enhancement",
+      "question": "What is \"Progressive Enhancement\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Progressive Enhancement ensures core functionality works in minimal environments — enhancing experience for capable browsers/devices."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Progressive Enhancement."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Progressive Enhancement."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Progressive Enhancement ensures core functionality works in minimal environments — enhancing experience for capable browsers/devices.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1249",
+      "topic": "Progressive Enhancement",
+      "question": "Which statement about Progressive Enhancement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Progressive Enhancement only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Progressive Enhancement has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Progressive Enhancement ensures core functionality works in minimal environments — enhancing experience for capable browsers/devices."
+        },
+        {
+          "id": "d",
+          "text": "Progressive Enhancement was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Progressive Enhancement.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1250",
+      "topic": "Progressive Enhancement",
+      "question": "Why is Progressive Enhancement useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Progressive Enhancement.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1251",
+      "topic": "Progressive Enhancement",
+      "question": "Where would you most likely apply Progressive Enhancement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Progressive Enhancement."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Progressive Enhancement applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1252",
+      "topic": "Progressive Enhancement",
+      "question": "Which practice is recommended when using Progressive Enhancement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Progressive Enhancement."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Progressive Enhancement.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1253",
+      "topic": "Progressive Enhancement",
+      "question": "How does Progressive Enhancement behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Progressive Enhancement.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

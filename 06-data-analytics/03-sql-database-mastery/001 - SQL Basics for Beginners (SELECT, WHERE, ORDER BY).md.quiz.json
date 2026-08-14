@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "06-data-analytics/03-sql-database-mastery/001 - SQL Basics for Beginners (SELECT, WHERE, ORDER BY).md",
+  "title": "SQL Basics for Beginners (SELECT, WHERE, ORDER BY) Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1386",
+      "topic": "SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
+      "question": "Why is SQL Basics for Beginners (SELECT, WHERE, ORDER BY) useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for SQL Basics for Beginners (SELECT, WHERE, ORDER BY).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1387",
+      "topic": "SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
+      "question": "Where would you most likely apply SQL Basics for Beginners (SELECT, WHERE, ORDER BY)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for SQL Basics for Beginners (SELECT, WHERE, ORDER BY)."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where SQL Basics for Beginners (SELECT, WHERE, ORDER BY) applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1388",
+      "topic": "SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
+      "question": "Which practice is recommended when using SQL Basics for Beginners (SELECT, WHERE, ORDER BY)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for SQL Basics for Beginners (SELECT, WHERE, ORDER BY)."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply SQL Basics for Beginners (SELECT, WHERE, ORDER BY).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1389",
+      "topic": "SQL Basics for Beginners (SELECT, WHERE, ORDER BY)",
+      "question": "How does SQL Basics for Beginners (SELECT, WHERE, ORDER BY) behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of SQL Basics for Beginners (SELECT, WHERE, ORDER BY).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

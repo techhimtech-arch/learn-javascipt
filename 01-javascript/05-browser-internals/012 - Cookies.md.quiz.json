@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/012 - Cookies.md",
+  "title": "Cookies Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g565",
+      "topic": "Cookies",
+      "question": "What is \"Cookies\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Cookies."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Cookies."
+        },
+        {
+          "id": "d",
+          "text": "Cookies are small text files stored by the browser containing user-related information — originally introduced for maintaining stateful sessions across HTTP requests."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Cookies are small text files stored by the browser containing user-related information — originally introduced for maintaining stateful sessions across HTTP requests.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g566",
+      "topic": "Cookies",
+      "question": "Which statement about Cookies is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cookies only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Cookies has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Cookies was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Cookies are small text files stored by the browser containing user-related information — originally introduced for maintaining stateful sessions across HTTP requests."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Cookies.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g567",
+      "topic": "Cookies",
+      "question": "Why is Cookies useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Cookies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g568",
+      "topic": "Cookies",
+      "question": "Where would you most likely apply Cookies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Cookies."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Cookies applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g569",
+      "topic": "Cookies",
+      "question": "Which practice is recommended when using Cookies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Cookies."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Cookies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g570",
+      "topic": "Cookies",
+      "question": "How does Cookies behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Cookies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

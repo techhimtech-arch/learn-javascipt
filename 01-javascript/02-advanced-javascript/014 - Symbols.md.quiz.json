@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/014 - Symbols.md",
+  "title": "Symbols Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g241",
+      "topic": "Symbols",
+      "question": "What is \"Symbols\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Symbols."
+        },
+        {
+          "id": "b",
+          "text": "Symbol is a primitive data type introduced in ES6 that represents a unique, immutable identifier."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Symbols."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Symbol is a primitive data type introduced in ES6 that represents a unique, immutable identifier.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g242",
+      "topic": "Symbols",
+      "question": "Which statement about Symbols is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Symbols only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Symbols was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Symbols has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Symbol is a primitive data type introduced in ES6 that represents a unique, immutable identifier."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Symbols.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g243",
+      "topic": "Symbols",
+      "question": "Why is Symbols useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Symbols.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g244",
+      "topic": "Symbols",
+      "question": "Where would you most likely apply Symbols?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Symbols."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Symbols applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g245",
+      "topic": "Symbols",
+      "question": "Which practice is recommended when using Symbols?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Symbols."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Symbols.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g246",
+      "topic": "Symbols",
+      "question": "How does Symbols behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Symbols.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/04-general-interview-questions/001 - Top JavaScript Interview Questions.md",
+  "title": "Top JavaScript Interview Questions Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1326",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "What is \"Top JavaScript Interview Questions\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A curated collection of commonly asked JavaScript interview questions spanning fundamentals, advanced concepts, and practical scenarios."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Top JavaScript Interview Questions."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Top JavaScript Interview Questions."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: A curated collection of commonly asked JavaScript interview questions spanning fundamentals, advanced concepts, and practical scenarios.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1327",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "Which statement about Top JavaScript Interview Questions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A curated collection of commonly asked JavaScript interview questions spanning fundamentals, advanced concepts, and practical scenarios."
+        },
+        {
+          "id": "b",
+          "text": "Top JavaScript Interview Questions has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Top JavaScript Interview Questions was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Top JavaScript Interview Questions only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Top JavaScript Interview Questions.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1328",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "Why is Top JavaScript Interview Questions useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Top JavaScript Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1329",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "Where would you most likely apply Top JavaScript Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Top JavaScript Interview Questions."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Top JavaScript Interview Questions applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1330",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "Which practice is recommended when using Top JavaScript Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Top JavaScript Interview Questions."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Top JavaScript Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1331",
+      "topic": "Top JavaScript Interview Questions",
+      "question": "How does Top JavaScript Interview Questions behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Top JavaScript Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

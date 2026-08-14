@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/019 - Prototype Chain.md",
+  "title": "Prototype Chain Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g115",
+      "topic": "Prototype Chain",
+      "question": "What is \"Prototype Chain\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Prototype Chain."
+        },
+        {
+          "id": "c",
+          "text": "The Prototype Chain describes the mechanism through which JavaScript objects inherit features from one another."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Prototype Chain."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: The Prototype Chain describes the mechanism through which JavaScript objects inherit features from one another.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g116",
+      "topic": "Prototype Chain",
+      "question": "Which statement about Prototype Chain is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prototype Chain has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Prototype Chain only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Prototype Chain was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "The Prototype Chain describes the mechanism through which JavaScript objects inherit features from one another."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Prototype Chain.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g117",
+      "topic": "Prototype Chain",
+      "question": "Why is Prototype Chain useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Prototype Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g118",
+      "topic": "Prototype Chain",
+      "question": "Where would you most likely apply Prototype Chain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Prototype Chain."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Prototype Chain applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g119",
+      "topic": "Prototype Chain",
+      "question": "Which practice is recommended when using Prototype Chain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Prototype Chain."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Prototype Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g120",
+      "topic": "Prototype Chain",
+      "question": "How does Prototype Chain behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Prototype Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

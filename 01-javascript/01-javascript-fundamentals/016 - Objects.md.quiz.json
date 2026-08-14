@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/016 - Objects.md",
+  "title": "Objects Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g97",
+      "topic": "Objects",
+      "question": "What is \"Objects\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Objects."
+        },
+        {
+          "id": "c",
+          "text": "An Object in JavaScript is a collection of key-value pairs representing a real-world entity or structured data."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Objects."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: An Object in JavaScript is a collection of key-value pairs representing a real-world entity or structured data.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g98",
+      "topic": "Objects",
+      "question": "Which statement about Objects is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Object in JavaScript is a collection of key-value pairs representing a real-world entity or structured data."
+        },
+        {
+          "id": "b",
+          "text": "Objects was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Objects has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Objects only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Objects.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g99",
+      "topic": "Objects",
+      "question": "Why is Objects useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Objects.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g100",
+      "topic": "Objects",
+      "question": "Where would you most likely apply Objects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Objects."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Objects applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g101",
+      "topic": "Objects",
+      "question": "Which practice is recommended when using Objects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Objects."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Objects.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g102",
+      "topic": "Objects",
+      "question": "How does Objects behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Objects.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

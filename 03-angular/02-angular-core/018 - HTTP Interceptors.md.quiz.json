@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/018 - HTTP Interceptors.md",
+  "title": "HTTP Interceptors Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g834",
+      "topic": "HTTP Interceptors",
+      "question": "What is \"HTTP Interceptors\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HTTP Interceptors modify requests/responses flowing through Angular's HttpClient pipeline — enabling cross-cutting concerns like auth, logging, caching."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to HTTP Interceptors."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to HTTP Interceptors."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: HTTP Interceptors modify requests/responses flowing through Angular's HttpClient pipeline — enabling cross-cutting concerns like auth, logging, caching.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g835",
+      "topic": "HTTP Interceptors",
+      "question": "Which statement about HTTP Interceptors is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HTTP Interceptors only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "HTTP Interceptors has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "HTTP Interceptors modify requests/responses flowing through Angular's HttpClient pipeline — enabling cross-cutting concerns like auth, logging, caching."
+        },
+        {
+          "id": "d",
+          "text": "HTTP Interceptors was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of HTTP Interceptors.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g836",
+      "topic": "HTTP Interceptors",
+      "question": "Why is HTTP Interceptors useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for HTTP Interceptors.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g837",
+      "topic": "HTTP Interceptors",
+      "question": "Where would you most likely apply HTTP Interceptors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for HTTP Interceptors."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where HTTP Interceptors applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g838",
+      "topic": "HTTP Interceptors",
+      "question": "Which practice is recommended when using HTTP Interceptors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for HTTP Interceptors."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply HTTP Interceptors.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g839",
+      "topic": "HTTP Interceptors",
+      "question": "How does HTTP Interceptors behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of HTTP Interceptors.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/007 - AsyncSubject.md",
+  "title": "AsyncSubject Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g625",
+      "topic": "AsyncSubject",
+      "question": "What is \"AsyncSubject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to AsyncSubject."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An AsyncSubject is a Subject variant that emits only the last value to subscribers — but ONLY after the source completes."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to AsyncSubject."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: An AsyncSubject is a Subject variant that emits only the last value to subscribers — but ONLY after the source completes.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g626",
+      "topic": "AsyncSubject",
+      "question": "Which statement about AsyncSubject is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AsyncSubject only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "AsyncSubject was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "AsyncSubject has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "An AsyncSubject is a Subject variant that emits only the last value to subscribers — but ONLY after the source completes."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of AsyncSubject.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g627",
+      "topic": "AsyncSubject",
+      "question": "Given the AsyncSubject code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for AsyncSubject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for AsyncSubject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g628",
+      "topic": "AsyncSubject",
+      "question": "Why is AsyncSubject useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for AsyncSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g629",
+      "topic": "AsyncSubject",
+      "question": "Where would you most likely apply AsyncSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for AsyncSubject."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where AsyncSubject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g630",
+      "topic": "AsyncSubject",
+      "question": "Which practice is recommended when using AsyncSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for AsyncSubject."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply AsyncSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/04-general-interview-questions/005 - Top CSS Interview Questions.md",
+  "title": "Top CSS Interview Questions Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1350",
+      "topic": "Top CSS Interview Questions",
+      "question": "What is \"Top CSS Interview Questions\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Top CSS Interview Questions."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Top CSS Interview Questions."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Collection of frequently asked CSS interview questions covering layout systems, specificity, responsive design, animations, and modern browser features."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Collection of frequently asked CSS interview questions covering layout systems, specificity, responsive design, animations, and modern browser features.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1351",
+      "topic": "Top CSS Interview Questions",
+      "question": "Which statement about Top CSS Interview Questions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Top CSS Interview Questions only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Top CSS Interview Questions has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Collection of frequently asked CSS interview questions covering layout systems, specificity, responsive design, animations, and modern browser features."
+        },
+        {
+          "id": "d",
+          "text": "Top CSS Interview Questions was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Top CSS Interview Questions.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1352",
+      "topic": "Top CSS Interview Questions",
+      "question": "Why is Top CSS Interview Questions useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Top CSS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1353",
+      "topic": "Top CSS Interview Questions",
+      "question": "Where would you most likely apply Top CSS Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Top CSS Interview Questions."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Top CSS Interview Questions applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1354",
+      "topic": "Top CSS Interview Questions",
+      "question": "Which practice is recommended when using Top CSS Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Top CSS Interview Questions."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Top CSS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1355",
+      "topic": "Top CSS Interview Questions",
+      "question": "How does Top CSS Interview Questions behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Top CSS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

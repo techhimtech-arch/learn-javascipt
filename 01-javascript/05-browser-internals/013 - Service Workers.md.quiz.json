@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/013 - Service Workers.md",
+  "title": "Service Workers Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g583",
+      "topic": "Service Workers",
+      "question": "What is \"Service Workers\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Service Worker is a script run in the background by the browser, acting as a proxy between web app and network — enabling offline functionality, caching strategies, and push notifications."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Service Workers."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Service Workers."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: A Service Worker is a script run in the background by the browser, acting as a proxy between web app and network — enabling offline functionality, caching strategies, and push notifications.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g584",
+      "topic": "Service Workers",
+      "question": "Which statement about Service Workers is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Service Workers was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Service Workers has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Service Workers only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "A Service Worker is a script run in the background by the browser, acting as a proxy between web app and network — enabling offline functionality, caching strategies, and push notifications."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Service Workers.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g585",
+      "topic": "Service Workers",
+      "question": "Given the Service Workers code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Service Workers."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Service Workers.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g586",
+      "topic": "Service Workers",
+      "question": "Why is Service Workers useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Service Workers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g587",
+      "topic": "Service Workers",
+      "question": "Where would you most likely apply Service Workers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Service Workers."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Service Workers applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g588",
+      "topic": "Service Workers",
+      "question": "Which practice is recommended when using Service Workers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Service Workers."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Service Workers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

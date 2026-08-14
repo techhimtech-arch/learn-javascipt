@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/016 - Sorting Filtering.md",
+  "title": "Sorting Filtering Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1134",
+      "topic": "Sorting Filtering",
+      "question": "What is \"Sorting Filtering\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Sorting Filtering."
+        },
+        {
+          "id": "b",
+          "text": "Sorting and Filtering rearrange/reduce datasets based on criteria — core operations for presenting organi"
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Sorting Filtering."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Sorting and Filtering rearrange/reduce datasets based on criteria — core operations for presenting organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1135",
+      "topic": "Sorting Filtering",
+      "question": "Which statement about Sorting Filtering is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sorting Filtering was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Sorting Filtering only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Sorting and Filtering rearrange/reduce datasets based on criteria — core operations for presenting organi"
+        },
+        {
+          "id": "d",
+          "text": "Sorting Filtering has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Sorting Filtering.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1136",
+      "topic": "Sorting Filtering",
+      "question": "Why is Sorting Filtering useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Sorting Filtering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1137",
+      "topic": "Sorting Filtering",
+      "question": "Where would you most likely apply Sorting Filtering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Sorting Filtering."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Sorting Filtering applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1138",
+      "topic": "Sorting Filtering",
+      "question": "Which practice is recommended when using Sorting Filtering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Sorting Filtering."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Sorting Filtering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1139",
+      "topic": "Sorting Filtering",
+      "question": "How does Sorting Filtering behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Sorting Filtering.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

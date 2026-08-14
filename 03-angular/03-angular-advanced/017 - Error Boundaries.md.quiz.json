@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/017 - Error Boundaries.md",
+  "title": "Error Boundaries Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g984",
+      "topic": "Error Boundaries",
+      "question": "What is \"Error Boundaries\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Error Boundaries."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Error Boundaries."
+        },
+        {
+          "id": "c",
+          "text": "Error Boundaries catch rendering errors preventing full application crashes — displaying fallbacks gracefully."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Error Boundaries catch rendering errors preventing full application crashes — displaying fallbacks gracefully.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g985",
+      "topic": "Error Boundaries",
+      "question": "Which statement about Error Boundaries is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Error Boundaries was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Error Boundaries has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Error Boundaries only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Error Boundaries catch rendering errors preventing full application crashes — displaying fallbacks gracefully."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Error Boundaries.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g986",
+      "topic": "Error Boundaries",
+      "question": "Why is Error Boundaries useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Error Boundaries.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g987",
+      "topic": "Error Boundaries",
+      "question": "Where would you most likely apply Error Boundaries?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Error Boundaries."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Error Boundaries applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g988",
+      "topic": "Error Boundaries",
+      "question": "Which practice is recommended when using Error Boundaries?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Error Boundaries."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Error Boundaries.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g989",
+      "topic": "Error Boundaries",
+      "question": "How does Error Boundaries behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Error Boundaries.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

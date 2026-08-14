@@ -915,7 +915,10 @@
 
     const explain = answered ? `
       <div class="quiz-explain ${answered === item.correctOptionId ? 'ok' : 'no'}">
-        <strong>${answered === item.correctOptionId ? '✅ Correct!' : '❌ Incorrect.'}</strong>
+        <div class="quiz-explain-head">
+          <strong>${answered === item.correctOptionId ? '✅ Correct!' : '❌ Incorrect.'}</strong>
+          <span class="quiz-correct-label">Correct answer: <b>${escapeHtml(item.correctOptionId.toUpperCase())}</b> — ${escapeHtml((item.options.find(o => o.id === item.correctOptionId) || {}).text || '')}</span>
+        </div>
         <p>${escapeHtml(item.explanation || 'No explanation provided.')}</p>
       </div>` : '';
 
@@ -924,12 +927,18 @@
         <div class="quiz-runner-head">
           <button class="btn-action ghost" onclick="window.exitQuiz()">← Exit</button>
           <div class="quiz-progress-wrap">
-            <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${(q.pos / total) * 100}%"></div></div>
-            <span class="quiz-progress-text">${q.pos + 1} / ${total}</span>
+            <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${Math.round((q.pos / total) * 100)}%"></div></div>
+            <span class="quiz-progress-text">${q.pos + 1} / ${total} · ${Math.round((q.pos / total) * 100)}%</span>
           </div>
-          <span class="quiz-tag">${q.kind === 'bank' ? '🎯 Bank' : '📚 Topic'}</span>
+          <span class="quiz-tag">${q.kind === 'bank' ? '🎯 Bank' : q.kind === 'module' ? '📦 Module' : '📚 Topic'}</span>
         </div>
-        <h2 class="quiz-question">${escapeHtml(item.question)}</h2>
+        <div class="quiz-qmeta">
+          <h2 class="quiz-question">${escapeHtml(item.question)}</h2>
+          <div class="quiz-qbadges">
+            <span class="quiz-diff diff-${item.difficulty || 'medium'}">${item.difficulty || 'medium'}</span>
+            ${item.topic ? `<span class="quiz-topic-pill">${escapeHtml(item.topic)}</span>` : ''}
+          </div>
+        </div>
         <div class="quiz-options">${opts}</div>
         ${explain}
         <div class="quiz-runner-foot">

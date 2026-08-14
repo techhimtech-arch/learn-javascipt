@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md",
+  "title": "Execution Context Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g13",
+      "topic": "Execution Context",
+      "question": "What is \"Execution Context\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Execution Context."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g14",
+      "topic": "Execution Context",
+      "question": "Which statement about Execution Context is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Execution Context only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Execution Context has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Execution Context was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g15",
+      "topic": "Execution Context",
+      "question": "Why is Execution Context useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g16",
+      "topic": "Execution Context",
+      "question": "Where would you most likely apply Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Execution Context applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g17",
+      "topic": "Execution Context",
+      "question": "Which practice is recommended when using Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g18",
+      "topic": "Execution Context",
+      "question": "How does Execution Context behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

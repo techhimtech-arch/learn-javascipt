@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/019 - Async Pipe.md",
+  "title": "Async Pipe Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g840",
+      "topic": "Async Pipe",
+      "question": "What is \"Async Pipe\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Async Pipe."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Async Pipe."
+        },
+        {
+          "id": "c",
+          "text": "Async Pipe subscribes/unsubscribes from observables/promises automatically — rendering emitted values and managing lifecycle."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Async Pipe subscribes/unsubscribes from observables/promises automatically — rendering emitted values and managing lifecycle.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g841",
+      "topic": "Async Pipe",
+      "question": "Which statement about Async Pipe is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Async Pipe has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Async Pipe subscribes/unsubscribes from observables/promises automatically — rendering emitted values and managing lifecycle."
+        },
+        {
+          "id": "c",
+          "text": "Async Pipe was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Async Pipe only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Async Pipe.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g842",
+      "topic": "Async Pipe",
+      "question": "Why is Async Pipe useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Async Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g843",
+      "topic": "Async Pipe",
+      "question": "Where would you most likely apply Async Pipe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Async Pipe."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Async Pipe applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g844",
+      "topic": "Async Pipe",
+      "question": "Which practice is recommended when using Async Pipe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Async Pipe."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Async Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g845",
+      "topic": "Async Pipe",
+      "question": "How does Async Pipe behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Async Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

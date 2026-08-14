@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/011 - Remove Duplicates.md",
+  "title": "Remove Duplicates Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1104",
+      "topic": "Remove Duplicates",
+      "question": "What is \"Remove Duplicates\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Remove Duplicates."
+        },
+        {
+          "id": "c",
+          "text": "Remove Duplicates eliminates repeated objects/values from arrays — producing collections with unique entries based on identity or custom equality."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Remove Duplicates."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Remove Duplicates eliminates repeated objects/values from arrays — producing collections with unique entries based on identity or custom equality.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1105",
+      "topic": "Remove Duplicates",
+      "question": "Which statement about Remove Duplicates is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Remove Duplicates eliminates repeated objects/values from arrays — producing collections with unique entries based on identity or custom equality."
+        },
+        {
+          "id": "b",
+          "text": "Remove Duplicates was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Remove Duplicates has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Remove Duplicates only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Remove Duplicates.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1106",
+      "topic": "Remove Duplicates",
+      "question": "Why is Remove Duplicates useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Remove Duplicates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1107",
+      "topic": "Remove Duplicates",
+      "question": "Where would you most likely apply Remove Duplicates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Remove Duplicates."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Remove Duplicates applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1108",
+      "topic": "Remove Duplicates",
+      "question": "Which practice is recommended when using Remove Duplicates?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Remove Duplicates."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Remove Duplicates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1109",
+      "topic": "Remove Duplicates",
+      "question": "How does Remove Duplicates behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Remove Duplicates.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

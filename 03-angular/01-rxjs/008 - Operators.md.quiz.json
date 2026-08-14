@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/008 - Operators.md",
+  "title": "Operators Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g631",
+      "topic": "Operators",
+      "question": "What is \"Operators\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Operators."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Operators."
+        },
+        {
+          "id": "c",
+          "text": "Operators are pure functions that take an Observable and return another Observable — transforming, filtering, or combining streams."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Operators are pure functions that take an Observable and return another Observable — transforming, filtering, or combining streams.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g632",
+      "topic": "Operators",
+      "question": "Which statement about Operators is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Operators has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Operators are pure functions that take an Observable and return another Observable — transforming, filtering, or combining streams."
+        },
+        {
+          "id": "c",
+          "text": "Operators only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Operators was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g633",
+      "topic": "Operators",
+      "question": "Given the Operators code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Operators."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g634",
+      "topic": "Operators",
+      "question": "Why is Operators useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g635",
+      "topic": "Operators",
+      "question": "Where would you most likely apply Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Operators."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Operators applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g636",
+      "topic": "Operators",
+      "question": "Which practice is recommended when using Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Operators."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/008 - Render Tree.md",
+  "title": "Render Tree Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g553",
+      "topic": "Render Tree",
+      "question": "What is \"Render Tree\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "The Render Tree (also called Frame Tree) is a tree of visual elements representing what should be displayed on the page — constructed from combining the DOM and CSSOM."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Render Tree."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Render Tree."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: The Render Tree (also called Frame Tree) is a tree of visual elements representing what should be displayed on the page — constructed from combining the DOM and CSSOM.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g554",
+      "topic": "Render Tree",
+      "question": "Which statement about Render Tree is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Render Tree (also called Frame Tree) is a tree of visual elements representing what should be displayed on the page — constructed from combining the DOM and CSSOM."
+        },
+        {
+          "id": "b",
+          "text": "Render Tree has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Render Tree only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Render Tree was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Render Tree.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g555",
+      "topic": "Render Tree",
+      "question": "Why is Render Tree useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Render Tree.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g556",
+      "topic": "Render Tree",
+      "question": "Where would you most likely apply Render Tree?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Render Tree."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Render Tree applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g557",
+      "topic": "Render Tree",
+      "question": "Which practice is recommended when using Render Tree?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Render Tree."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Render Tree.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g558",
+      "topic": "Render Tree",
+      "question": "How does Render Tree behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Render Tree.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

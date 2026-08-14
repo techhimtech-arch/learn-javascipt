@@ -7,8 +7,356 @@
   "folder": "02-excel-and-sheets",
   "description": "Mixed quiz covering all topics in Excel and sheets.",
   "questionCount": 30,
-  "generatedAt": "2026-08-14T07:21:31.165Z",
+  "generatedAt": "2026-08-14T08:44:42.227Z",
   "questions": [
+    {
+      "id": "g1374",
+      "topic": "Excel Basics & Data Cleaning for Beginners",
+      "question": "Why is Excel Basics & Data Cleaning for Beginners useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Excel Basics & Data Cleaning for Beginners.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1375",
+      "topic": "Excel Basics & Data Cleaning for Beginners",
+      "question": "Where would you most likely apply Excel Basics & Data Cleaning for Beginners?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Excel Basics & Data Cleaning for Beginners."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Excel Basics & Data Cleaning for Beginners applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1376",
+      "topic": "Excel Basics & Data Cleaning for Beginners",
+      "question": "Which practice is recommended when using Excel Basics & Data Cleaning for Beginners?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Excel Basics & Data Cleaning for Beginners."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Excel Basics & Data Cleaning for Beginners.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1377",
+      "topic": "Excel Basics & Data Cleaning for Beginners",
+      "question": "How does Excel Basics & Data Cleaning for Beginners behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Excel Basics & Data Cleaning for Beginners.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1378",
+      "topic": "Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
+      "question": "Why is Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS) useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1379",
+      "topic": "Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
+      "question": "Where would you most likely apply Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS) applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1380",
+      "topic": "Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
+      "question": "Which practice is recommended when using Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1381",
+      "topic": "Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS)",
+      "question": "How does Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS) behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Essential Excel Formulas (VLOOKUP, XLOOKUP, IF, SUMIFS).",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1382",
+      "topic": "Pivot Tables & Data Summarization Masterclass",
+      "question": "Why is Pivot Tables & Data Summarization Masterclass useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Pivot Tables & Data Summarization Masterclass.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1383",
+      "topic": "Pivot Tables & Data Summarization Masterclass",
+      "question": "Where would you most likely apply Pivot Tables & Data Summarization Masterclass?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Pivot Tables & Data Summarization Masterclass."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Pivot Tables & Data Summarization Masterclass applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1384",
+      "topic": "Pivot Tables & Data Summarization Masterclass",
+      "question": "Which practice is recommended when using Pivot Tables & Data Summarization Masterclass?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Pivot Tables & Data Summarization Masterclass."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Pivot Tables & Data Summarization Masterclass.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1385",
+      "topic": "Pivot Tables & Data Summarization Masterclass",
+      "question": "How does Pivot Tables & Data Summarization Masterclass behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Pivot Tables & Data Summarization Masterclass.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
     {
       "id": "js-engine-q1",
       "topic": "JavaScript Engine",
@@ -266,697 +614,314 @@
       "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     },
     {
-      "id": "promise-q1",
-      "topic": "Promises",
-      "question": "A Promise that has settled successfully is in which state?",
+      "id": "g13",
+      "topic": "Execution Context",
+      "question": "What is \"Execution Context\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "pending"
+          "text": "A pure CSS technique with no relation to Execution Context."
         },
         {
           "id": "b",
-          "text": "fulfilled"
+          "text": "An external database engine unrelated to Execution Context."
         },
         {
           "id": "c",
-          "text": "rejected"
+          "text": "An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed."
         },
         {
           "id": "d",
-          "text": "blocked"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
-      "difficulty": "easy",
-      "tags": [
-        "promise",
-        "states"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q2",
-      "topic": "Promises",
-      "question": "What does .then() return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The original Promise (same reference)"
-        },
-        {
-          "id": "b",
-          "text": "A brand-new Promise (enabling chaining)"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "The resolved value directly"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
-      "difficulty": "medium",
-      "tags": [
-        "then",
-        "chaining"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q3",
-      "topic": "Promises",
-      "question": "What is returned by Promise.all if ANY input promise rejects?",
-      "options": [
-        {
-          "id": "a",
-          "text": "An array with nulls for the rejected ones"
-        },
-        {
-          "id": "b",
-          "text": "It rejects immediately with that rejection reason"
-        },
-        {
-          "id": "c",
-          "text": "It waits for all then resolves"
-        },
-        {
-          "id": "d",
-          "text": "It returns an empty array"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
-      "difficulty": "medium",
-      "tags": [
-        "promise-all",
-        "reject"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q4",
-      "topic": "Promises",
-      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.all"
-        },
-        {
-          "id": "b",
-          "text": "Promise.race"
-        },
-        {
-          "id": "c",
-          "text": "Promise.allSettled"
-        },
-        {
-          "id": "d",
-          "text": "Promise.any"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
-      "difficulty": "medium",
-      "tags": [
-        "race"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q5",
-      "topic": "Promises",
-      "question": "What does Promise.allSettled resolve with?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Only the fulfilled values"
-        },
-        {
-          "id": "b",
-          "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}"
-        },
-        {
-          "id": "c",
-          "text": "The first rejection"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
-      "difficulty": "hard",
-      "tags": [
-        "allsettled"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q6",
-      "topic": "Promises",
-      "question": "A Promise executor function receives two arguments. What are they?",
-      "options": [
-        {
-          "id": "a",
-          "text": "onSuccess, onError"
-        },
-        {
-          "id": "b",
-          "text": "resolve, reject"
-        },
-        {
-          "id": "c",
-          "text": "then, catch"
-        },
-        {
-          "id": "d",
-          "text": "async, await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
-      "difficulty": "easy",
-      "tags": [
-        "executor"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q7",
-      "topic": "Promises",
-      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A fulfilled promise with value 5"
-        },
-        {
-          "id": "b",
-          "text": "A rejected promise"
-        },
-        {
-          "id": "c",
-          "text": "Throws synchronously"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
-      "difficulty": "medium",
-      "tags": [
-        "reject",
-        "then"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q8",
-      "topic": "Promises",
-      "question": "Callbacks passed to then/catch always run as...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Synchronous, immediately"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (after current script, before macrotasks)"
-        },
-        {
-          "id": "c",
-          "text": "Macrotasks (setTimeout queue)"
-        },
-        {
-          "id": "d",
-          "text": "Only on page unload"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
-      "difficulty": "hard",
-      "tags": [
-        "microtask",
-        "event-loop"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "async-q1",
-      "topic": "async/await",
-      "question": "What does an `async function` ALWAYS return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The raw value you return"
-        },
-        {
-          "id": "b",
-          "text": "A Promise that resolves to the returned value"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "A generator object"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async functions wrap the return value in a Promise automatically.",
-      "difficulty": "easy",
-      "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q2",
-      "topic": "async/await",
-      "question": "If you `await` a rejected promise, what happens?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It returns undefined silently"
-        },
-        {
-          "id": "b",
-          "text": "It throws inside the async function (catchable with try/catch)"
-        },
-        {
-          "id": "c",
-          "text": "The program crashes always"
-        },
-        {
-          "id": "d",
-          "text": "It logs to console only"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
-      "difficulty": "medium",
-      "tags": [
-        "await",
-        "error"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q3",
-      "topic": "async/await",
-      "question": "To run two independent async calls in PARALLEL with async/await, you should...",
-      "options": [
-        {
-          "id": "a",
-          "text": "await callA(); await callB();"
-        },
-        {
-          "id": "b",
-          "text": "const [a,b] = await Promise.all([callA(), callB()]);"
-        },
-        {
-          "id": "c",
-          "text": "await Promise.race([callA(), callB()]);"
-        },
-        {
-          "id": "d",
-          "text": "Just call them without await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Start both promises, then await Promise.all so they run concurrently, not sequentially.",
-      "difficulty": "medium",
-      "tags": [
-        "parallel",
-        "promise-all"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q4",
-      "topic": "async/await",
-      "question": "`await` can only be used inside...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Any regular function"
-        },
-        {
-          "id": "b",
-          "text": "An async function (or top-level await in modules)"
-        },
-        {
-          "id": "c",
-          "text": "A for-loop only"
-        },
-        {
-          "id": "d",
-          "text": "A callback"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "await is only valid inside async functions (or module top-level await).",
-      "difficulty": "easy",
-      "tags": [
-        "syntax"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q5",
-      "topic": "async/await",
-      "question": "Under the hood, async/await is built on top of...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Callback hell only"
-        },
-        {
-          "id": "b",
-          "text": "Promises (syntactic sugar over .then)"
-        },
-        {
-          "id": "c",
-          "text": "Web Workers"
-        },
-        {
-          "id": "d",
-          "text": "Generators only, no Promises"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async/await is syntactic sugar over Promise chaining, making async code read like sync code.",
-      "difficulty": "medium",
-      "tags": [
-        "promises",
-        "sugar"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q6",
-      "topic": "async/await",
-      "question": "What does `await` actually do to the surrounding code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Blocks the main thread until done"
-        },
-        {
-          "id": "b",
-          "text": "Suspends the async function, yielding control back to the event loop"
-        },
-        {
-          "id": "c",
-          "text": "Stops all JavaScript execution"
-        },
-        {
-          "id": "d",
-          "text": "Runs the callback synchronously"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "await pauses the async function (non-blocking); other code keeps running via the event loop.",
-      "difficulty": "hard",
-      "tags": [
-        "event-loop",
-        "non-blocking"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q7",
-      "topic": "async/await",
-      "question": "If a function is marked `async` but never uses `await`, it still...",
-      "options": [
-        {
-          "id": "a",
-          "text": "Throws a syntax error"
-        },
-        {
-          "id": "b",
-          "text": "Returns a Promise (just resolves immediately)"
-        },
-        {
-          "id": "c",
-          "text": "Returns a plain value"
-        },
-        {
-          "id": "d",
-          "text": "Does not compile"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The async keyword alone forces Promise-return semantics regardless of await usage.",
-      "difficulty": "easy",
-      "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "async-q8",
-      "topic": "async/await",
-      "question": "Which is the BEST pattern for handling multiple awaits that may each fail independently?",
-      "options": [
-        {
-          "id": "a",
-          "text": "One giant try/catch around everything"
-        },
-        {
-          "id": "b",
-          "text": "try/catch per step OR Promise.allSettled then inspect each result"
-        },
-        {
-          "id": "c",
-          "text": "Ignore errors"
-        },
-        {
-          "id": "d",
-          "text": "Use setTimeout"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Per-step try/catch or allSettled gives granular control over which operations succeeded.",
-      "difficulty": "hard",
-      "tags": [
-        "error-handling"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q1",
-      "topic": "Event Loop",
-      "question": "What is the correct ordering of the queues in the event loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Macrotasks run before microtasks"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (drain fully) run before the next macrotask"
-        },
-        {
-          "id": "c",
-          "text": "They run simultaneously"
-        },
-        {
-          "id": "d",
-          "text": "Render tasks run before microtasks"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "After the current task, the microtask queue is fully drained before the next macrotask and before rendering.",
-      "difficulty": "medium",
-      "tags": [
-        "microtask",
-        "macrotask"
-      ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
-    },
-    {
-      "id": "eventloop-q2",
-      "topic": "Event Loop",
-      "question": "Which of these is a MACROtask (not a microtask)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.then callback"
-        },
-        {
-          "id": "b",
-          "text": "queueMicrotask"
-        },
-        {
-          "id": "c",
-          "text": "setTimeout / setInterval"
-        },
-        {
-          "id": "d",
-          "text": "MutationObserver"
+          "text": "A deprecated feature that was removed in the latest standard."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "setTimeout/setInterval/setImmediate are macrotasks; promise reactions, queueMicrotask, MutationObserver are microtasks.",
-      "difficulty": "medium",
+      "explanation": "Per the documented definition: An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed.",
+      "difficulty": "easy",
       "tags": [
-        "macrotask",
-        "settimeout"
+        "definition"
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
     },
     {
-      "id": "eventloop-q3",
-      "topic": "Event Loop",
-      "question": "Given the code, what prints first?\nconsole.log('1');\nsetTimeout(()=>console.log('2'),0);\nPromise.resolve().then(()=>console.log('3'));\nconsole.log('4');",
+      "id": "g14",
+      "topic": "Execution Context",
+      "question": "Which statement about Execution Context is correct?",
       "options": [
         {
           "id": "a",
-          "text": "1, 4, 3, 2"
+          "text": "Execution Context only works in server-side rendering contexts."
         },
         {
           "id": "b",
-          "text": "1, 4, 2, 3"
+          "text": "Execution Context has no practical use and should be avoided."
         },
         {
           "id": "c",
-          "text": "1, 2, 3, 4"
+          "text": "Execution Context was deprecated and replaced by a newer standard."
         },
         {
           "id": "d",
-          "text": "4, 3, 2, 1"
+          "text": "An Execution Context (EC) is the abstract concept used by the JavaScript Engine to track the environment within which JavaScript code is being executed."
         }
       ],
-      "correctOptionId": "a",
-      "explanation": "Sync logs 1 and 4; promise microtask (3) runs before the setTimeout macrotask (2).",
-      "difficulty": "hard",
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Execution Context.",
+      "difficulty": "medium",
       "tags": [
-        "ordering"
+        "fact"
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
     },
     {
-      "id": "eventloop-q4",
-      "topic": "Event Loop",
-      "question": "Who provides the Event Loop — the JS engine (V8) or the runtime (browser/Node)?",
+      "id": "g15",
+      "topic": "Execution Context",
+      "question": "Why is Execution Context useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "V8 engine"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "The runtime environment"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "c",
-          "text": "The CPU"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "The DOM"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "The Event Loop is part of the host runtime (libuv in Node, browser), not the ECMAScript spec/engine.",
-      "difficulty": "medium",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Execution Context.",
+      "difficulty": "easy",
       "tags": [
-        "runtime"
+        "concept"
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
     },
     {
-      "id": "eventloop-q5",
-      "topic": "Event Loop",
-      "question": "What is the danger of an infinite chain of microtasks?",
+      "id": "g16",
+      "topic": "Execution Context",
+      "question": "Where would you most likely apply Execution Context?",
       "options": [
         {
           "id": "a",
-          "text": "It crashes the CPU instantly"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "b",
-          "text": "It starves the macrotask queue and UI rendering (page freezes)"
+          "text": "In the real-world / production scenario documented for Execution Context."
         },
         {
           "id": "c",
-          "text": "It has no effect"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "It only affects Node.js"
+          "text": "It ignores all inputs it receives."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Because microtasks drain fully before macrotasks/rendering, an infinite microtask loop blocks the UI.",
-      "difficulty": "hard",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Execution Context applies.",
+      "difficulty": "easy",
       "tags": [
-        "starvation"
+        "concept"
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
     },
     {
-      "id": "eventloop-q6",
-      "topic": "Event Loop",
-      "question": "In Node.js, which is generally processed before timers (setTimeout)?",
+      "id": "g17",
+      "topic": "Execution Context",
+      "question": "Which practice is recommended when using Execution Context?",
       "options": [
         {
           "id": "a",
-          "text": "Microtasks (promise reactions) between phases"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "setImmediate always"
+          "text": "Following the documented Production Best Practices for Execution Context."
         },
         {
           "id": "c",
-          "text": "I/O callbacks always"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "d",
-          "text": "Nothing — timers always first"
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
+    },
+    {
+      "id": "g18",
+      "topic": "Execution Context",
+      "question": "How does Execution Context behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/002 - Execution Context.md.quiz.json"
+    },
+    {
+      "id": "g19",
+      "topic": "Global Execution Context",
+      "question": "What is \"Global Execution Context\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Global Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Global Execution Context."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Node runs the microtask queue between each phase of its loop, so pending promise reactions run before timers.",
-      "difficulty": "hard",
+      "explanation": "Per the documented definition: The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment.",
+      "difficulty": "easy",
       "tags": [
-        "node"
+        "definition"
       ],
-      "_srcTopic": "Event Loop Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/006 - Event Loop.md.quiz.json"
+      "_srcTopic": "Global Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md.quiz.json"
+    },
+    {
+      "id": "g20",
+      "topic": "Global Execution Context",
+      "question": "Which statement about Global Execution Context is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Global Execution Context has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Global Execution Context only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Global Execution Context was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Global Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ],
+      "_srcTopic": "Global Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md.quiz.json"
+    },
+    {
+      "id": "g21",
+      "topic": "Global Execution Context",
+      "question": "Given the Global Execution Context code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Global Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Global Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ],
+      "_srcTopic": "Global Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md.quiz.json"
+    },
+    {
+      "id": "g22",
+      "topic": "Global Execution Context",
+      "question": "Why is Global Execution Context useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Global Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Global Execution Context Quiz",
+      "_srcPath": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md.quiz.json"
     }
   ]
 }

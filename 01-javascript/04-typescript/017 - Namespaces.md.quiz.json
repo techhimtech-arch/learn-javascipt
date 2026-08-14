@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/017 - Namespaces.md",
+  "title": "Namespaces Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g445",
+      "topic": "Namespaces",
+      "question": "What is \"Namespaces\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Namespaces."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Namespaces."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Namespaces are a TypeScript-specific way to group related code into logical containers — useful for organi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Namespaces are a TypeScript-specific way to group related code into logical containers — useful for organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g446",
+      "topic": "Namespaces",
+      "question": "Which statement about Namespaces is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Namespaces only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Namespaces was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Namespaces has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Namespaces are a TypeScript-specific way to group related code into logical containers — useful for organi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Namespaces.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g447",
+      "topic": "Namespaces",
+      "question": "Why is Namespaces useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Namespaces.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g448",
+      "topic": "Namespaces",
+      "question": "Where would you most likely apply Namespaces?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Namespaces."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Namespaces applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g449",
+      "topic": "Namespaces",
+      "question": "Which practice is recommended when using Namespaces?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Namespaces."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Namespaces.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g450",
+      "topic": "Namespaces",
+      "question": "How does Namespaces behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Namespaces.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

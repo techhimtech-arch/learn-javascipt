@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/003 - Global Execution Context.md",
+  "title": "Global Execution Context Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g19",
+      "topic": "Global Execution Context",
+      "question": "What is \"Global Execution Context\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Global Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Global Execution Context."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g20",
+      "topic": "Global Execution Context",
+      "question": "Which statement about Global Execution Context is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Global Execution Context has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Global Execution Context only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Global Execution Context was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "The Global Execution Context (GEC) is the default execution context created by the JavaScript engine when a script first loads in the browser or Node.js environment."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Global Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g21",
+      "topic": "Global Execution Context",
+      "question": "Given the Global Execution Context code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Global Execution Context."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Global Execution Context.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g22",
+      "topic": "Global Execution Context",
+      "question": "Why is Global Execution Context useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Global Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g23",
+      "topic": "Global Execution Context",
+      "question": "Where would you most likely apply Global Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Global Execution Context."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Global Execution Context applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g24",
+      "topic": "Global Execution Context",
+      "question": "Which practice is recommended when using Global Execution Context?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Global Execution Context."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Global Execution Context.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

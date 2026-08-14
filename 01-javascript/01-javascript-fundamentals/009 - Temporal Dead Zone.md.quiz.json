@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/009 - Temporal Dead Zone.md",
+  "title": "Temporal Dead Zone Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g55",
+      "topic": "Temporal Dead Zone",
+      "question": "What is \"Temporal Dead Zone\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Temporal Dead Zone."
+        },
+        {
+          "id": "b",
+          "text": "The Temporal Dead"
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Temporal Dead Zone."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: The Temporal Dead",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g56",
+      "topic": "Temporal Dead Zone",
+      "question": "Which statement about Temporal Dead Zone is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Temporal Dead Zone was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "The Temporal Dead"
+        },
+        {
+          "id": "c",
+          "text": "Temporal Dead Zone only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Temporal Dead Zone has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Temporal Dead Zone.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g57",
+      "topic": "Temporal Dead Zone",
+      "question": "Why is Temporal Dead Zone useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Temporal Dead Zone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g58",
+      "topic": "Temporal Dead Zone",
+      "question": "Where would you most likely apply Temporal Dead Zone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Temporal Dead Zone."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Temporal Dead Zone applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g59",
+      "topic": "Temporal Dead Zone",
+      "question": "Which practice is recommended when using Temporal Dead Zone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Temporal Dead Zone."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Temporal Dead Zone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g60",
+      "topic": "Temporal Dead Zone",
+      "question": "How does Temporal Dead Zone behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Temporal Dead Zone.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

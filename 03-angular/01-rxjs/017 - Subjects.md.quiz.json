@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/017 - Subjects.md",
+  "title": "Subjects Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g690",
+      "topic": "Subjects",
+      "question": "What is \"Subjects\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subjects are special Observable types acting as both Observable AND Observer — enabling multicasting (multiple subscribers share single execution)."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Subjects."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Subjects."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Subjects are special Observable types acting as both Observable AND Observer — enabling multicasting (multiple subscribers share single execution).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g691",
+      "topic": "Subjects",
+      "question": "Which statement about Subjects is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subjects has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Subjects only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Subjects was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Subjects are special Observable types acting as both Observable AND Observer — enabling multicasting (multiple subscribers share single execution)."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Subjects.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g692",
+      "topic": "Subjects",
+      "question": "Given the Subjects code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Subjects."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subjects.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g693",
+      "topic": "Subjects",
+      "question": "Why is Subjects useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subjects.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g694",
+      "topic": "Subjects",
+      "question": "Where would you most likely apply Subjects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Subjects."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subjects applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g695",
+      "topic": "Subjects",
+      "question": "Which practice is recommended when using Subjects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Subjects."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subjects.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

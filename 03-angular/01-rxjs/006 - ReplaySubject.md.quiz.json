@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/006 - ReplaySubject.md",
+  "title": "ReplaySubject Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g619",
+      "topic": "ReplaySubject",
+      "question": "What is \"ReplaySubject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to ReplaySubject."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A ReplaySubject is a Subject variant that replays a specified number of previous emissions to new subscribers."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to ReplaySubject."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A ReplaySubject is a Subject variant that replays a specified number of previous emissions to new subscribers.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g620",
+      "topic": "ReplaySubject",
+      "question": "Which statement about ReplaySubject is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ReplaySubject has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "A ReplaySubject is a Subject variant that replays a specified number of previous emissions to new subscribers."
+        },
+        {
+          "id": "c",
+          "text": "ReplaySubject only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "ReplaySubject was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of ReplaySubject.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g621",
+      "topic": "ReplaySubject",
+      "question": "Given the ReplaySubject code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for ReplaySubject."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for ReplaySubject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g622",
+      "topic": "ReplaySubject",
+      "question": "Why is ReplaySubject useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for ReplaySubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g623",
+      "topic": "ReplaySubject",
+      "question": "Where would you most likely apply ReplaySubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for ReplaySubject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where ReplaySubject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g624",
+      "topic": "ReplaySubject",
+      "question": "Which practice is recommended when using ReplaySubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for ReplaySubject."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply ReplaySubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/009 - pipe and compose.md",
+  "title": "pipe and compose Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1092",
+      "topic": "pipe and compose",
+      "question": "What is \"pipe and compose\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pipe and compose are functional utilities combining multiple unary functions into a single pipeline: - pipe(f, g, h) → executes left-to-right - compose(f, g, h) → executes right-to-left"
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to pipe and compose."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to pipe and compose."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: pipe and compose are functional utilities combining multiple unary functions into a single pipeline: - pipe(f, g, h) → executes left-to-right - compose(f, g, h) → executes right-to-left",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1093",
+      "topic": "pipe and compose",
+      "question": "Which statement about pipe and compose is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "pipe and compose has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "pipe and compose was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "pipe and compose are functional utilities combining multiple unary functions into a single pipeline: - pipe(f, g, h) → executes left-to-right - compose(f, g, h) → executes right-to-left"
+        },
+        {
+          "id": "d",
+          "text": "pipe and compose only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of pipe and compose.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1094",
+      "topic": "pipe and compose",
+      "question": "Why is pipe and compose useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for pipe and compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1095",
+      "topic": "pipe and compose",
+      "question": "Where would you most likely apply pipe and compose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for pipe and compose."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where pipe and compose applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1096",
+      "topic": "pipe and compose",
+      "question": "Which practice is recommended when using pipe and compose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for pipe and compose."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply pipe and compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1097",
+      "topic": "pipe and compose",
+      "question": "How does pipe and compose behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of pipe and compose.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

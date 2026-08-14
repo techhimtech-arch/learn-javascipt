@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/012 - Profiling Debugging.md",
+  "title": "Profiling Debugging Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1008",
+      "topic": "Profiling Debugging",
+      "question": "What is \"Profiling Debugging\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Profiling and Debugging uses Chrome DevTools and Angular-specific tools to identify performance bottlenecks and fix runtime issues."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Profiling Debugging."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Profiling Debugging."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Profiling and Debugging uses Chrome DevTools and Angular-specific tools to identify performance bottlenecks and fix runtime issues.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1009",
+      "topic": "Profiling Debugging",
+      "question": "Which statement about Profiling Debugging is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Profiling Debugging was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Profiling Debugging has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Profiling Debugging only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Profiling and Debugging uses Chrome DevTools and Angular-specific tools to identify performance bottlenecks and fix runtime issues."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Profiling Debugging.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1010",
+      "topic": "Profiling Debugging",
+      "question": "Why is Profiling Debugging useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Profiling Debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1011",
+      "topic": "Profiling Debugging",
+      "question": "Where would you most likely apply Profiling Debugging?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Profiling Debugging."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Profiling Debugging applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1012",
+      "topic": "Profiling Debugging",
+      "question": "Which practice is recommended when using Profiling Debugging?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Profiling Debugging."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Profiling Debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1013",
+      "topic": "Profiling Debugging",
+      "question": "How does Profiling Debugging behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Profiling Debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

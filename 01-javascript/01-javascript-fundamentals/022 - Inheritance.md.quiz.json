@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/022 - Inheritance.md",
+  "title": "Inheritance Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g133",
+      "topic": "Inheritance",
+      "question": "What is \"Inheritance\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Inheritance."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Inheritance."
+        },
+        {
+          "id": "d",
+          "text": "Inheritance is a mechanism allowing one object/class to acquire properties and behaviors (methods) from another — promoting code reuse and hierarchical relationships."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Inheritance is a mechanism allowing one object/class to acquire properties and behaviors (methods) from another — promoting code reuse and hierarchical relationships.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g134",
+      "topic": "Inheritance",
+      "question": "Which statement about Inheritance is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inheritance is a mechanism allowing one object/class to acquire properties and behaviors (methods) from another — promoting code reuse and hierarchical relationships."
+        },
+        {
+          "id": "b",
+          "text": "Inheritance has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Inheritance was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Inheritance only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Inheritance.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g135",
+      "topic": "Inheritance",
+      "question": "Given the Inheritance code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Inheritance."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Inheritance.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g136",
+      "topic": "Inheritance",
+      "question": "Why is Inheritance useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Inheritance.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g137",
+      "topic": "Inheritance",
+      "question": "Where would you most likely apply Inheritance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Inheritance."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Inheritance applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g138",
+      "topic": "Inheritance",
+      "question": "Which practice is recommended when using Inheritance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Inheritance."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Inheritance.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

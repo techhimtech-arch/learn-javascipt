@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/013 - NgRx State Management.md",
+  "title": "NgRx State Management Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g960",
+      "topic": "NgRx State Management",
+      "question": "What is \"NgRx State Management\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to NgRx State Management."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "NgRx implements Redux pattern for Angular — providing predictable state container with actions, reducers, selectors, and effects."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to NgRx State Management."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: NgRx implements Redux pattern for Angular — providing predictable state container with actions, reducers, selectors, and effects.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g961",
+      "topic": "NgRx State Management",
+      "question": "Which statement about NgRx State Management is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NgRx State Management was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "NgRx implements Redux pattern for Angular — providing predictable state container with actions, reducers, selectors, and effects."
+        },
+        {
+          "id": "c",
+          "text": "NgRx State Management only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "NgRx State Management has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of NgRx State Management.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g962",
+      "topic": "NgRx State Management",
+      "question": "Why is NgRx State Management useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for NgRx State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g963",
+      "topic": "NgRx State Management",
+      "question": "Where would you most likely apply NgRx State Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for NgRx State Management."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where NgRx State Management applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g964",
+      "topic": "NgRx State Management",
+      "question": "Which practice is recommended when using NgRx State Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for NgRx State Management."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply NgRx State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g965",
+      "topic": "NgRx State Management",
+      "question": "How does NgRx State Management behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of NgRx State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

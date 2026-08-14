@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/001 - Architecture Patterns.md",
+  "title": "Architecture Patterns Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1206",
+      "topic": "Architecture Patterns",
+      "question": "What is \"Architecture Patterns\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Architecture Patterns."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Architecture Patterns."
+        },
+        {
+          "id": "d",
+          "text": "Frontend Architecture defines organi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Frontend Architecture defines organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1207",
+      "topic": "Architecture Patterns",
+      "question": "Which statement about Architecture Patterns is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Architecture Patterns has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Architecture Patterns was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Frontend Architecture defines organi"
+        },
+        {
+          "id": "d",
+          "text": "Architecture Patterns only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Architecture Patterns.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1208",
+      "topic": "Architecture Patterns",
+      "question": "Why is Architecture Patterns useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Architecture Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1209",
+      "topic": "Architecture Patterns",
+      "question": "Where would you most likely apply Architecture Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Architecture Patterns."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Architecture Patterns applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1210",
+      "topic": "Architecture Patterns",
+      "question": "Which practice is recommended when using Architecture Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Architecture Patterns."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Architecture Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1211",
+      "topic": "Architecture Patterns",
+      "question": "How does Architecture Patterns behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Architecture Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

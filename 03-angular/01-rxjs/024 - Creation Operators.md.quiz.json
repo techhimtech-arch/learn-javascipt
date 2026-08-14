@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/024 - Creation Operators.md",
+  "title": "Creation Operators Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g726",
+      "topic": "Creation Operators",
+      "question": "What is \"Creation Operators\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Creation Operators."
+        },
+        {
+          "id": "b",
+          "text": "Creation Operators produce Observables from various sources — timers, events, promises, iterables."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Creation Operators."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Creation Operators produce Observables from various sources — timers, events, promises, iterables.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g727",
+      "topic": "Creation Operators",
+      "question": "Which statement about Creation Operators is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Creation Operators has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Creation Operators was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Creation Operators only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Creation Operators produce Observables from various sources — timers, events, promises, iterables."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Creation Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g728",
+      "topic": "Creation Operators",
+      "question": "Given the Creation Operators code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Creation Operators."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Creation Operators.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g729",
+      "topic": "Creation Operators",
+      "question": "Why is Creation Operators useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Creation Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g730",
+      "topic": "Creation Operators",
+      "question": "Where would you most likely apply Creation Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Creation Operators."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Creation Operators applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g731",
+      "topic": "Creation Operators",
+      "question": "Which practice is recommended when using Creation Operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Creation Operators."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Creation Operators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

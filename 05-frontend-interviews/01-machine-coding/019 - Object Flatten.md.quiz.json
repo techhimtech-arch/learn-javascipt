@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/019 - Object Flatten.md",
+  "title": "Object Flatten Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1170",
+      "topic": "Object Flatten",
+      "question": "What is \"Object Flatten\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Object Flatten converts a nested object structure into a flat key-value map using dot/bracket notation for paths."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Object Flatten."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Object Flatten."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Object Flatten converts a nested object structure into a flat key-value map using dot/bracket notation for paths.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1171",
+      "topic": "Object Flatten",
+      "question": "Which statement about Object Flatten is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Object Flatten only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Object Flatten converts a nested object structure into a flat key-value map using dot/bracket notation for paths."
+        },
+        {
+          "id": "c",
+          "text": "Object Flatten has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Object Flatten was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Object Flatten.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1172",
+      "topic": "Object Flatten",
+      "question": "Why is Object Flatten useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Object Flatten.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1173",
+      "topic": "Object Flatten",
+      "question": "Where would you most likely apply Object Flatten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Object Flatten."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Object Flatten applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1174",
+      "topic": "Object Flatten",
+      "question": "Which practice is recommended when using Object Flatten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Object Flatten."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Object Flatten.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1175",
+      "topic": "Object Flatten",
+      "question": "How does Object Flatten behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Object Flatten.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

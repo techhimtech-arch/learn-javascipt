@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/001 - Angular Architecture & CLI.md",
+  "title": "Angular Architecture & CLI Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g738",
+      "topic": "Angular Architecture & CLI",
+      "question": "What is \"Angular Architecture & CLI\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Angular Architecture & CLI."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Angular Architecture & CLI."
+        },
+        {
+          "id": "c",
+          "text": "Angular is a platform+framework for building SPAs."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Angular is a platform+framework for building SPAs.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g739",
+      "topic": "Angular Architecture & CLI",
+      "question": "Which statement about Angular Architecture & CLI is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular is a platform+framework for building SPAs."
+        },
+        {
+          "id": "b",
+          "text": "Angular Architecture & CLI only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Angular Architecture & CLI has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Angular Architecture & CLI was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Angular Architecture & CLI.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g740",
+      "topic": "Angular Architecture & CLI",
+      "question": "Why is Angular Architecture & CLI useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g741",
+      "topic": "Angular Architecture & CLI",
+      "question": "Where would you most likely apply Angular Architecture & CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Angular Architecture & CLI."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Angular Architecture & CLI applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g742",
+      "topic": "Angular Architecture & CLI",
+      "question": "Which practice is recommended when using Angular Architecture & CLI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Angular Architecture & CLI."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g743",
+      "topic": "Angular Architecture & CLI",
+      "question": "How does Angular Architecture & CLI behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Angular Architecture & CLI.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

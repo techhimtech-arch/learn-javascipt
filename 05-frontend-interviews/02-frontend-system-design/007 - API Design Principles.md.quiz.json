@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/007 - API Design Principles.md",
+  "title": "API Design Principles Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1242",
+      "topic": "API Design Principles",
+      "question": "What is \"API Design Principles\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to API Design Principles."
+        },
+        {
+          "id": "b",
+          "text": "Frontend API Design establishes conventions for structuring frontend-backend communication — ensuring maintainable, predictable integrations."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to API Design Principles."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Frontend API Design establishes conventions for structuring frontend-backend communication — ensuring maintainable, predictable integrations.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1243",
+      "topic": "API Design Principles",
+      "question": "Which statement about API Design Principles is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frontend API Design establishes conventions for structuring frontend-backend communication — ensuring maintainable, predictable integrations."
+        },
+        {
+          "id": "b",
+          "text": "API Design Principles has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "API Design Principles only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "API Design Principles was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of API Design Principles.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1244",
+      "topic": "API Design Principles",
+      "question": "Why is API Design Principles useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for API Design Principles.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1245",
+      "topic": "API Design Principles",
+      "question": "Where would you most likely apply API Design Principles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for API Design Principles."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where API Design Principles applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1246",
+      "topic": "API Design Principles",
+      "question": "Which practice is recommended when using API Design Principles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for API Design Principles."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply API Design Principles.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1247",
+      "topic": "API Design Principles",
+      "question": "How does API Design Principles behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of API Design Principles.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

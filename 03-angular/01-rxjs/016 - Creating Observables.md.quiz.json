@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/016 - Creating Observables.md",
+  "title": "Creating Observables Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g684",
+      "topic": "Creating Observables",
+      "question": "What is \"Creating Observables\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Observable Creation Functions generate new observable streams from various sources — events, promises, timers, arrays, async iterables."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Creating Observables."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Creating Observables."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Observable Creation Functions generate new observable streams from various sources — events, promises, timers, arrays, async iterables.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g685",
+      "topic": "Creating Observables",
+      "question": "Which statement about Creating Observables is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Creating Observables was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Observable Creation Functions generate new observable streams from various sources — events, promises, timers, arrays, async iterables."
+        },
+        {
+          "id": "c",
+          "text": "Creating Observables has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Creating Observables only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Creating Observables.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g686",
+      "topic": "Creating Observables",
+      "question": "Given the Creating Observables code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Creating Observables."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Creating Observables.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g687",
+      "topic": "Creating Observables",
+      "question": "Why is Creating Observables useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Creating Observables.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g688",
+      "topic": "Creating Observables",
+      "question": "Where would you most likely apply Creating Observables?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Creating Observables."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Creating Observables applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g689",
+      "topic": "Creating Observables",
+      "question": "Which practice is recommended when using Creating Observables?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Creating Observables."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Creating Observables.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

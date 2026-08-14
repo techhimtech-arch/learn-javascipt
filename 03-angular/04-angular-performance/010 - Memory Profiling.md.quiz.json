@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/010 - Memory Profiling.md",
+  "title": "Memory Profiling Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g996",
+      "topic": "Memory Profiling",
+      "question": "What is \"Memory Profiling\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Memory Profiling."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Memory Profiling."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Memory Profiling identifies and resolves memory leaks/performance issues — using browser devtools to inspect heap snapshots and allocation timelines."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Memory Profiling identifies and resolves memory leaks/performance issues — using browser devtools to inspect heap snapshots and allocation timelines.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g997",
+      "topic": "Memory Profiling",
+      "question": "Which statement about Memory Profiling is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Memory Profiling identifies and resolves memory leaks/performance issues — using browser devtools to inspect heap snapshots and allocation timelines."
+        },
+        {
+          "id": "b",
+          "text": "Memory Profiling has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Memory Profiling was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Memory Profiling only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Memory Profiling.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g998",
+      "topic": "Memory Profiling",
+      "question": "Why is Memory Profiling useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Memory Profiling.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g999",
+      "topic": "Memory Profiling",
+      "question": "Where would you most likely apply Memory Profiling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Memory Profiling."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Memory Profiling applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1000",
+      "topic": "Memory Profiling",
+      "question": "Which practice is recommended when using Memory Profiling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Memory Profiling."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Memory Profiling.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1001",
+      "topic": "Memory Profiling",
+      "question": "How does Memory Profiling behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Memory Profiling.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

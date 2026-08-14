@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/006 - Generics.md",
+  "title": "Generics Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g385",
+      "topic": "Generics",
+      "question": "What is \"Generics\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Generics."
+        },
+        {
+          "id": "b",
+          "text": "Generics enable writing reusable components that work with multiple types while preserving type information — allowing consumers to specify concrete types at instantiation."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Generics."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Generics enable writing reusable components that work with multiple types while preserving type information — allowing consumers to specify concrete types at instantiation.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g386",
+      "topic": "Generics",
+      "question": "Which statement about Generics is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generics only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Generics was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Generics enable writing reusable components that work with multiple types while preserving type information — allowing consumers to specify concrete types at instantiation."
+        },
+        {
+          "id": "d",
+          "text": "Generics has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Generics.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g387",
+      "topic": "Generics",
+      "question": "Why is Generics useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Generics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g388",
+      "topic": "Generics",
+      "question": "Where would you most likely apply Generics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Generics."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Generics applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g389",
+      "topic": "Generics",
+      "question": "Which practice is recommended when using Generics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Generics."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Generics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g390",
+      "topic": "Generics",
+      "question": "How does Generics behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Generics.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

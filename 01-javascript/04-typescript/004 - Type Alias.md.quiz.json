@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/004 - Type Alias.md",
+  "title": "Type Alias Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g373",
+      "topic": "Type Alias",
+      "question": "What is \"Type Alias\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Type Alias."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Type Alias."
+        },
+        {
+          "id": "c",
+          "text": "A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g374",
+      "topic": "Type Alias",
+      "question": "Which statement about Type Alias is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type Alias has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Type Alias was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Type Alias only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "A Type Alias gives a name to any valid TypeScript type including primitives, unions, tuples, and complex combinations — unlike interfaces which only describe object shapes."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Type Alias.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g375",
+      "topic": "Type Alias",
+      "question": "Given the Type Alias code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Type Alias."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Type Alias.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g376",
+      "topic": "Type Alias",
+      "question": "Why is Type Alias useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Type Alias.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g377",
+      "topic": "Type Alias",
+      "question": "Where would you most likely apply Type Alias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Type Alias."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Type Alias applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g378",
+      "topic": "Type Alias",
+      "question": "Which practice is recommended when using Type Alias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Type Alias."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Type Alias.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/013 - Fetch API.md",
+  "title": "Fetch API Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g577",
+      "topic": "Fetch API",
+      "question": "What is \"Fetch API\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Fetch API."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Fetch API."
+        },
+        {
+          "id": "c",
+          "text": "Fetch API provides modern interface for making HTTP requests — replacing XMLHttpRequest with Promise-based syntax."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Fetch API provides modern interface for making HTTP requests — replacing XMLHttpRequest with Promise-based syntax.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g578",
+      "topic": "Fetch API",
+      "question": "Which statement about Fetch API is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fetch API was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Fetch API only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Fetch API has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Fetch API provides modern interface for making HTTP requests — replacing XMLHttpRequest with Promise-based syntax."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Fetch API.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g579",
+      "topic": "Fetch API",
+      "question": "Given the Fetch API code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Fetch API."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Fetch API.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g580",
+      "topic": "Fetch API",
+      "question": "Why is Fetch API useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Fetch API.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g581",
+      "topic": "Fetch API",
+      "question": "Where would you most likely apply Fetch API?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Fetch API."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Fetch API applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g582",
+      "topic": "Fetch API",
+      "question": "Which practice is recommended when using Fetch API?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Fetch API."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Fetch API.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

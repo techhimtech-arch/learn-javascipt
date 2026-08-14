@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/003 - Promise Chaining.md",
+  "title": "Promise Chaining Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g187",
+      "topic": "Promise Chaining",
+      "question": "What is \"Promise Chaining\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Promise Chaining."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Promise Chaining."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g188",
+      "topic": "Promise Chaining",
+      "question": "Which statement about Promise Chaining is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise Chaining has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps."
+        },
+        {
+          "id": "c",
+          "text": "Promise Chaining was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Promise Chaining only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Promise Chaining.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g189",
+      "topic": "Promise Chaining",
+      "question": "Given the Promise Chaining code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Promise Chaining."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Promise Chaining.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g190",
+      "topic": "Promise Chaining",
+      "question": "Why is Promise Chaining useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g191",
+      "topic": "Promise Chaining",
+      "question": "Where would you most likely apply Promise Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Promise Chaining."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise Chaining applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g192",
+      "topic": "Promise Chaining",
+      "question": "Which practice is recommended when using Promise Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Promise Chaining."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Promise Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

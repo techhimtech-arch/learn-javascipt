@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/021 - Dependency Injection Patterns.md",
+  "title": "Dependency Injection Patterns Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g852",
+      "topic": "Dependency Injection Patterns",
+      "question": "What is \"Dependency Injection Patterns\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Dependency Injection (DI) passes dependencies to classes/functions rather than constructing internally — enabling loose coupling and testability."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Dependency Injection Patterns."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Dependency Injection Patterns."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Dependency Injection (DI) passes dependencies to classes/functions rather than constructing internally — enabling loose coupling and testability.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g853",
+      "topic": "Dependency Injection Patterns",
+      "question": "Which statement about Dependency Injection Patterns is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dependency Injection Patterns has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Dependency Injection Patterns only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Dependency Injection (DI) passes dependencies to classes/functions rather than constructing internally — enabling loose coupling and testability."
+        },
+        {
+          "id": "d",
+          "text": "Dependency Injection Patterns was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Dependency Injection Patterns.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g854",
+      "topic": "Dependency Injection Patterns",
+      "question": "Why is Dependency Injection Patterns useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Dependency Injection Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g855",
+      "topic": "Dependency Injection Patterns",
+      "question": "Where would you most likely apply Dependency Injection Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Dependency Injection Patterns."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Dependency Injection Patterns applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g856",
+      "topic": "Dependency Injection Patterns",
+      "question": "Which practice is recommended when using Dependency Injection Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Dependency Injection Patterns."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Dependency Injection Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g857",
+      "topic": "Dependency Injection Patterns",
+      "question": "How does Dependency Injection Patterns behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Dependency Injection Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

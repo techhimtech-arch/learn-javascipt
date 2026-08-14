@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/020 - Proxy.md",
+  "title": "Proxy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g277",
+      "topic": "Proxy",
+      "question": "What is \"Proxy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Proxy."
+        },
+        {
+          "id": "c",
+          "text": "A Proxy defines custom behavior for fundamental operations on objects (property lookup, assignment, enumeration, function call, etc.)."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Proxy."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Proxy defines custom behavior for fundamental operations on objects (property lookup, assignment, enumeration, function call, etc.).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g278",
+      "topic": "Proxy",
+      "question": "Which statement about Proxy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proxy has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Proxy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "A Proxy defines custom behavior for fundamental operations on objects (property lookup, assignment, enumeration, function call, etc.)."
+        },
+        {
+          "id": "d",
+          "text": "Proxy only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Proxy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g279",
+      "topic": "Proxy",
+      "question": "Why is Proxy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Proxy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g280",
+      "topic": "Proxy",
+      "question": "Where would you most likely apply Proxy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Proxy."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Proxy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g281",
+      "topic": "Proxy",
+      "question": "Which practice is recommended when using Proxy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Proxy."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Proxy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g282",
+      "topic": "Proxy",
+      "question": "How does Proxy behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Proxy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

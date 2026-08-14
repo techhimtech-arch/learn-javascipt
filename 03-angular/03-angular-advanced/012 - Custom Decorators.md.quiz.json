@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/012 - Custom Decorators.md",
+  "title": "Custom Decorators Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g954",
+      "topic": "Custom Decorators",
+      "question": "What is \"Custom Decorators\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Custom Decorators."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Custom Decorators."
+        },
+        {
+          "id": "d",
+          "text": "Custom Decorators are metadata functions modifying classes, methods, properties, or parameters — enabling aspect-oriented programming extensions."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Custom Decorators are metadata functions modifying classes, methods, properties, or parameters — enabling aspect-oriented programming extensions.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g955",
+      "topic": "Custom Decorators",
+      "question": "Which statement about Custom Decorators is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Custom Decorators only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Custom Decorators was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Custom Decorators has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Custom Decorators are metadata functions modifying classes, methods, properties, or parameters — enabling aspect-oriented programming extensions."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Custom Decorators.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g956",
+      "topic": "Custom Decorators",
+      "question": "Given the Custom Decorators code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Custom Decorators."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Custom Decorators.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g957",
+      "topic": "Custom Decorators",
+      "question": "Why is Custom Decorators useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Custom Decorators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g958",
+      "topic": "Custom Decorators",
+      "question": "Where would you most likely apply Custom Decorators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Custom Decorators."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Custom Decorators applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g959",
+      "topic": "Custom Decorators",
+      "question": "Which practice is recommended when using Custom Decorators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Custom Decorators."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Custom Decorators.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

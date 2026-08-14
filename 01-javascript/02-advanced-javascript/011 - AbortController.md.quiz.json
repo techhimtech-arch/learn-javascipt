@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/011 - AbortController.md",
+  "title": "AbortController Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g223",
+      "topic": "AbortController",
+      "question": "What is \"AbortController\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to AbortController."
+        },
+        {
+          "id": "b",
+          "text": "AbortController is a built-in JavaScript API used to signal cancellation of async operations such as fetch requests or timers."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to AbortController."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: AbortController is a built-in JavaScript API used to signal cancellation of async operations such as fetch requests or timers.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g224",
+      "topic": "AbortController",
+      "question": "Which statement about AbortController is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AbortController only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "AbortController was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "AbortController is a built-in JavaScript API used to signal cancellation of async operations such as fetch requests or timers."
+        },
+        {
+          "id": "d",
+          "text": "AbortController has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of AbortController.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g225",
+      "topic": "AbortController",
+      "question": "Given the AbortController code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for AbortController."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for AbortController.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g226",
+      "topic": "AbortController",
+      "question": "Why is AbortController useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for AbortController.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g227",
+      "topic": "AbortController",
+      "question": "Where would you most likely apply AbortController?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for AbortController."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where AbortController applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g228",
+      "topic": "AbortController",
+      "question": "Which practice is recommended when using AbortController?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for AbortController."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply AbortController.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

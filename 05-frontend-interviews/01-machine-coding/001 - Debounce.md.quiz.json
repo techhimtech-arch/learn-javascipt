@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md",
+  "title": "Debounce Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1044",
+      "topic": "Debounce",
+      "question": "What is \"Debounce\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Debounce."
+        },
+        {
+          "id": "b",
+          "text": "Debounce delays function execution until after a specified quiet period with no new calls."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Debounce."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Debounce delays function execution until after a specified quiet period with no new calls.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1045",
+      "topic": "Debounce",
+      "question": "Which statement about Debounce is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debounce delays function execution until after a specified quiet period with no new calls."
+        },
+        {
+          "id": "b",
+          "text": "Debounce has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Debounce was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Debounce only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Debounce.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1046",
+      "topic": "Debounce",
+      "question": "Why is Debounce useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1047",
+      "topic": "Debounce",
+      "question": "Where would you most likely apply Debounce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Debounce."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Debounce applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1048",
+      "topic": "Debounce",
+      "question": "Which practice is recommended when using Debounce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Debounce."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1049",
+      "topic": "Debounce",
+      "question": "How does Debounce behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

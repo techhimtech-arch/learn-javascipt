@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/017 - WeakSet.md",
+  "title": "WeakSet Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g259",
+      "topic": "WeakSet",
+      "question": "What is \"WeakSet\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to WeakSet."
+        },
+        {
+          "id": "c",
+          "text": "A WeakSet is a collection of unique objects stored weakly — meaning objects in the set will be removed automatically once they're no longer referenced anywhere else."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to WeakSet."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A WeakSet is a collection of unique objects stored weakly — meaning objects in the set will be removed automatically once they're no longer referenced anywhere else.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g260",
+      "topic": "WeakSet",
+      "question": "Which statement about WeakSet is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A WeakSet is a collection of unique objects stored weakly — meaning objects in the set will be removed automatically once they're no longer referenced anywhere else."
+        },
+        {
+          "id": "b",
+          "text": "WeakSet was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "WeakSet only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "WeakSet has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of WeakSet.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g261",
+      "topic": "WeakSet",
+      "question": "Given the WeakSet code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for WeakSet."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for WeakSet.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g262",
+      "topic": "WeakSet",
+      "question": "Why is WeakSet useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for WeakSet.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g263",
+      "topic": "WeakSet",
+      "question": "Where would you most likely apply WeakSet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for WeakSet."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where WeakSet applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g264",
+      "topic": "WeakSet",
+      "question": "Which practice is recommended when using WeakSet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for WeakSet."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply WeakSet.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

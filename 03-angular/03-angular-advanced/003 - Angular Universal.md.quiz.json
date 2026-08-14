@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/003 - Angular Universal.md",
+  "title": "Angular Universal Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g900",
+      "topic": "Angular Universal",
+      "question": "What is \"Angular Universal\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Angular Universal."
+        },
+        {
+          "id": "c",
+          "text": "Angular Universal brings server-side rendering (SSR) to Angular — rendering initial pages on server before sending to browser."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Angular Universal."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Angular Universal brings server-side rendering (SSR) to Angular — rendering initial pages on server before sending to browser.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g901",
+      "topic": "Angular Universal",
+      "question": "Which statement about Angular Universal is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Universal only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Angular Universal was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Angular Universal has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Angular Universal brings server-side rendering (SSR) to Angular — rendering initial pages on server before sending to browser."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Angular Universal.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g902",
+      "topic": "Angular Universal",
+      "question": "Why is Angular Universal useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Angular Universal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g903",
+      "topic": "Angular Universal",
+      "question": "Where would you most likely apply Angular Universal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Angular Universal."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Angular Universal applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g904",
+      "topic": "Angular Universal",
+      "question": "Which practice is recommended when using Angular Universal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Angular Universal."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Angular Universal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g905",
+      "topic": "Angular Universal",
+      "question": "How does Angular Universal behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Angular Universal.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/029 - Error Handling.md",
+  "title": "Error Handling Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g175",
+      "topic": "Error Handling",
+      "question": "What is \"Error Handling\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Error Handling."
+        },
+        {
+          "id": "b",
+          "text": "JavaScript Error Handling catches and manages runtime exceptions using try/catch blocks and error objects."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Error Handling."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: JavaScript Error Handling catches and manages runtime exceptions using try/catch blocks and error objects.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g176",
+      "topic": "Error Handling",
+      "question": "Which statement about Error Handling is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Error Handling was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Error Handling has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Error Handling only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "JavaScript Error Handling catches and manages runtime exceptions using try/catch blocks and error objects."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Error Handling.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g177",
+      "topic": "Error Handling",
+      "question": "Given the Error Handling code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Error Handling."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Error Handling.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g178",
+      "topic": "Error Handling",
+      "question": "Why is Error Handling useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Error Handling.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g179",
+      "topic": "Error Handling",
+      "question": "Where would you most likely apply Error Handling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Error Handling."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Error Handling applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g180",
+      "topic": "Error Handling",
+      "question": "Which practice is recommended when using Error Handling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Error Handling."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Error Handling.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

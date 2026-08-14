@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/008 - Hoisting.md",
+  "title": "Hoisting Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g49",
+      "topic": "Hoisting",
+      "question": "What is \"Hoisting\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Hoisting."
+        },
+        {
+          "id": "c",
+          "text": "Hoisting is a JavaScript mechanism where variable and function declarations are moved (\"hoisted\") to the top of their containing scope during the Memory Creation Phase, before any code is executed."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Hoisting."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Hoisting is a JavaScript mechanism where variable and function declarations are moved (\"hoisted\") to the top of their containing scope during the Memory Creation Phase, before any code is executed.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g50",
+      "topic": "Hoisting",
+      "question": "Which statement about Hoisting is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoisting was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Hoisting has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Hoisting is a JavaScript mechanism where variable and function declarations are moved (\"hoisted\") to the top of their containing scope during the Memory Creation Phase, before any code is executed."
+        },
+        {
+          "id": "d",
+          "text": "Hoisting only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Hoisting.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g51",
+      "topic": "Hoisting",
+      "question": "Given the Hoisting code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Hoisting."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Hoisting.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g52",
+      "topic": "Hoisting",
+      "question": "Why is Hoisting useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Hoisting.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g53",
+      "topic": "Hoisting",
+      "question": "Where would you most likely apply Hoisting?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Hoisting."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Hoisting applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g54",
+      "topic": "Hoisting",
+      "question": "Which practice is recommended when using Hoisting?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Hoisting."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Hoisting.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

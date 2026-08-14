@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/001 - AOT Compilation.md",
+  "title": "AOT Compilation Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g888",
+      "topic": "AOT Compilation",
+      "question": "What is \"AOT Compilation\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AOT (Ahead-of-Time) Compilation pre-compiles Angular applications in the browser at build time — rather than in the browser via JIT (Just-In-Time)."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to AOT Compilation."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to AOT Compilation."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: AOT (Ahead-of-Time) Compilation pre-compiles Angular applications in the browser at build time — rather than in the browser via JIT (Just-In-Time).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g889",
+      "topic": "AOT Compilation",
+      "question": "Which statement about AOT Compilation is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AOT Compilation only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "AOT Compilation was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "AOT (Ahead-of-Time) Compilation pre-compiles Angular applications in the browser at build time — rather than in the browser via JIT (Just-In-Time)."
+        },
+        {
+          "id": "d",
+          "text": "AOT Compilation has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of AOT Compilation.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g890",
+      "topic": "AOT Compilation",
+      "question": "Why is AOT Compilation useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for AOT Compilation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g891",
+      "topic": "AOT Compilation",
+      "question": "Where would you most likely apply AOT Compilation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for AOT Compilation."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where AOT Compilation applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g892",
+      "topic": "AOT Compilation",
+      "question": "Which practice is recommended when using AOT Compilation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for AOT Compilation."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply AOT Compilation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g893",
+      "topic": "AOT Compilation",
+      "question": "How does AOT Compilation behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of AOT Compilation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

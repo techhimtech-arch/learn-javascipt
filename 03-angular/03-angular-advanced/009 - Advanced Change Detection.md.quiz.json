@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/009 - Advanced Change Detection.md",
+  "title": "Advanced Change Detection Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g936",
+      "topic": "Advanced Change Detection",
+      "question": "What is \"Advanced Change Detection\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Advanced Change Detection."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Advanced Change Detection."
+        },
+        {
+          "id": "c",
+          "text": "Advanced change detection patterns including manual detection control, detached CD, and optimi"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Advanced change detection patterns including manual detection control, detached CD, and optimi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g937",
+      "topic": "Advanced Change Detection",
+      "question": "Which statement about Advanced Change Detection is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced Change Detection only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Advanced Change Detection was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Advanced change detection patterns including manual detection control, detached CD, and optimi"
+        },
+        {
+          "id": "d",
+          "text": "Advanced Change Detection has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Advanced Change Detection.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g938",
+      "topic": "Advanced Change Detection",
+      "question": "Why is Advanced Change Detection useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Advanced Change Detection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g939",
+      "topic": "Advanced Change Detection",
+      "question": "Where would you most likely apply Advanced Change Detection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Advanced Change Detection."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Advanced Change Detection applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g940",
+      "topic": "Advanced Change Detection",
+      "question": "Which practice is recommended when using Advanced Change Detection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Advanced Change Detection."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Advanced Change Detection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g941",
+      "topic": "Advanced Change Detection",
+      "question": "How does Advanced Change Detection behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Advanced Change Detection.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

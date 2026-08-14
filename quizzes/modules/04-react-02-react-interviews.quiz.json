@@ -6,652 +6,930 @@
   "icon": "⚛️",
   "folder": "02-react-interviews",
   "description": "Mixed quiz covering all topics in React interviews.",
-  "questionCount": 22,
-  "generatedAt": "2026-08-14T07:21:31.128Z",
+  "questionCount": 30,
+  "generatedAt": "2026-08-14T08:44:42.210Z",
   "questions": [
     {
-      "id": "int-js-1",
-      "topic": "JavaScript",
-      "question": "What is the output?\nconsole.log(0.1 + 0.2 === 0.3);",
+      "id": "g1040",
+      "topic": "React Interview Questions & Answers",
+      "question": "Why is React Interview Questions & Answers useful in real projects?",
       "options": [
         {
           "id": "a",
-          "text": "true"
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
         },
         {
           "id": "b",
-          "text": "false"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "c",
-          "text": "undefined"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "d",
-          "text": "Throws an error"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Floating-point rounding makes 0.1+0.2 ≈ 0.30000000000000004, so the strict equality is false.",
-      "difficulty": "easy",
-      "tags": [
-        "numbers",
-        "interview"
-      ]
-    },
-    {
-      "id": "int-js-2",
-      "topic": "JavaScript",
-      "question": "Explain `==` vs `===` in one rule.",
-      "options": [
-        {
-          "id": "a",
-          "text": "== compares references, === compares values"
-        },
-        {
-          "id": "b",
-          "text": "== allows type coercion, === compares value AND type (strict)"
-        },
-        {
-          "id": "c",
-          "text": "They are identical"
-        },
-        {
-          "id": "d",
-          "text": "=== is for strings only"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "== coerces types before comparing; === is strict (no coercion). Prefer ===.",
-      "difficulty": "easy",
-      "tags": [
-        "equality"
-      ]
-    },
-    {
-      "id": "int-js-3",
-      "topic": "JavaScript",
-      "question": "What is a closure?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A way to close the browser tab"
-        },
-        {
-          "id": "b",
-          "text": "A function that remembers variables from its lexical scope even after the outer function returns"
-        },
-        {
-          "id": "c",
-          "text": "A CSS property"
-        },
-        {
-          "id": "d",
-          "text": "A type of loop"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Closures capture the enclosing scope, enabling data privacy and factory functions.",
-      "difficulty": "medium",
-      "tags": [
-        "closures"
-      ]
-    },
-    {
-      "id": "int-js-4",
-      "topic": "JavaScript",
-      "question": "What does `this` refer to inside a regular (non-arrow) method called as `obj.method()`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The global object"
-        },
-        {
-          "id": "b",
-          "text": "obj (the object the method was called on)"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "The class"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "For normal functions, `this` is the receiver of the call (obj in obj.method()).",
-      "difficulty": "medium",
-      "tags": [
-        "this"
-      ]
-    },
-    {
-      "id": "int-js-5",
-      "topic": "JavaScript",
-      "question": "What is the difference between `let`, `const`, and `var`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "All three are the same"
-        },
-        {
-          "id": "b",
-          "text": "var is function-scoped & hoisted; let/const are block-scoped; const cannot be reassigned"
-        },
-        {
-          "id": "c",
-          "text": "const is block-scoped, others are global"
-        },
-        {
-          "id": "d",
-          "text": "let cannot be reassigned"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "var hoists to function scope; let/const are block-scoped (TDZ); const binding is immutable.",
-      "difficulty": "easy",
-      "tags": [
-        "scope",
-        "hoisting"
-      ]
-    },
-    {
-      "id": "int-js-6",
-      "topic": "JavaScript",
-      "question": "What is the Temporal Dead Zone?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A memory leak"
-        },
-        {
-          "id": "b",
-          "text": "The span between entering a scope and a let/const declaration, where access throws ReferenceError"
-        },
-        {
-          "id": "c",
-          "text": "A type of error in Promises"
-        },
-        {
-          "id": "d",
-          "text": "Part of the event loop"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "TDZ: let/const are hoisted but uninitialized; referencing them before declaration throws.",
-      "difficulty": "hard",
-      "tags": [
-        "tdz",
-        "hoisting"
-      ]
-    },
-    {
-      "id": "int-js-7",
-      "topic": "JavaScript",
-      "question": "How do you deep clone an object in modern JS?",
-      "options": [
-        {
-          "id": "a",
-          "text": "JSON.parse(JSON.stringify(obj)) always"
-        },
-        {
-          "id": "b",
-          "text": "structuredClone(obj), or for simple cases JSON round-trip (but loses functions/Dates)"
-        },
-        {
-          "id": "c",
-          "text": "Object.assign({}, obj)"
-        },
-        {
-          "id": "d",
-          "text": "Spread only"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "structuredClone handles nested objects; JSON round-trip fails on functions, Date, undefined, Map/Set.",
-      "difficulty": "medium",
-      "tags": [
-        "clone",
-        "deep-copy"
-      ]
-    },
-    {
-      "id": "int-js-8",
-      "topic": "JavaScript",
-      "question": "What is `event delegation`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Calling preventDefault"
-        },
-        {
-          "id": "b",
-          "text": "Attaching one listener to a parent to handle events from many children via bubbling"
-        },
-        {
-          "id": "c",
-          "text": "Removing listeners"
-        },
-        {
-          "id": "d",
-          "text": "A Promise method"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Delegation leverages event bubbling so a single parent handler manages dynamic child elements efficiently.",
-      "difficulty": "medium",
-      "tags": [
-        "events",
-        "delegation"
-      ]
-    },
-    {
-      "id": "int-js-9",
-      "topic": "JavaScript",
-      "question": "What will `typeof null` return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "\"null\""
-        },
-        {
-          "id": "b",
-          "text": "\"object\" (a long-standing historical bug)"
-        },
-        {
-          "id": "c",
-          "text": "\"undefined\""
-        },
-        {
-          "id": "d",
-          "text": "\"number\""
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "typeof null returns 'object' due to a legacy JS implementation quirk.",
-      "difficulty": "easy",
-      "tags": [
-        "typeof"
-      ]
-    },
-    {
-      "id": "int-js-10",
-      "topic": "JavaScript",
-      "question": "What is the purpose of `debounce` and `throttle`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "To make code slower"
-        },
-        {
-          "id": "b",
-          "text": "To limit how often a function runs on rapid events (debounce = after idle; throttle = at most once per interval)"
-        },
-        {
-          "id": "c",
-          "text": "Both are CSS terms"
-        },
-        {
-          "id": "d",
-          "text": "To cancel Promises"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Debounce delays until activity stops; throttle caps execution frequency. Both improve performance on scroll/resize/input.",
-      "difficulty": "medium",
-      "tags": [
-        "performance",
-        "events"
-      ]
-    },
-    {
-      "id": "int-ng-1",
-      "topic": "Angular",
-      "question": "What is the difference between NgModule-based and Standalone components?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Standalone requires NgModule"
-        },
-        {
-          "id": "b",
-          "text": "Standalone components declare their own imports and need no NgModule declaration"
-        },
-        {
-          "id": "c",
-          "text": "They are the same thing"
-        },
-        {
-          "id": "d",
-          "text": "NgModule is newer"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Standalone (v15+) components import their dependencies directly; bootstrapping can skip NgModules.",
-      "difficulty": "medium",
-      "tags": [
-        "angular",
-        "standalone"
-      ]
-    },
-    {
-      "id": "int-ng-2",
-      "topic": "Angular",
-      "question": "What is the role of `HttpClient` and `HttpInterceptor`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They render templates"
-        },
-        {
-          "id": "b",
-          "text": "HttpClient performs HTTP calls; interceptors transform requests/responses (auth, logging, errors)"
-        },
-        {
-          "id": "c",
-          "text": "They manage routing"
-        },
-        {
-          "id": "d",
-          "text": "They are CSS helpers"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Interceptors sit in the request pipeline — ideal for adding tokens, retrying, or standardizing error handling.",
-      "difficulty": "medium",
-      "tags": [
-        "angular",
-        "http"
-      ]
-    },
-    {
-      "id": "int-ng-3",
-      "topic": "Angular",
-      "question": "What is the difference between template-driven and reactive forms?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Template-driven is better"
-        },
-        {
-          "id": "b",
-          "text": "Template-driven = directives in HTML (simple); reactive = explicit FormGroup/FormControl in TS (testable, scalable)"
-        },
-        {
-          "id": "c",
-          "text": "Reactive forms need no imports"
-        },
-        {
-          "id": "d",
-          "text": "They are identical"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Reactive forms give immutable, observable, unit-testable state; template-driven is quicker for trivial forms.",
-      "difficulty": "hard",
-      "tags": [
-        "angular",
-        "forms"
-      ]
-    },
-    {
-      "id": "int-ts-1",
-      "topic": "TypeScript",
-      "question": "What are generics and why use them?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They slow compilation"
-        },
-        {
-          "id": "b",
-          "text": "Type parameters that let functions/types work over many types while preserving type safety"
-        },
-        {
-          "id": "c",
-          "text": "They are only for arrays"
-        },
-        {
-          "id": "d",
-          "text": "They replace interfaces"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Generics (e.g. identity<T>) enable reusable, type-preserving abstractions like Array<T> and Promise<T>.",
-      "difficulty": "medium",
-      "tags": [
-        "typescript",
-        "generics"
-      ]
-    },
-    {
-      "id": "int-ts-2",
-      "topic": "TypeScript",
-      "question": "What is a `union type`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "A loop"
-        },
-        {
-          "id": "b",
-          "text": "A type that can be one of several types, e.g. string | number"
-        },
-        {
-          "id": "c",
-          "text": "A class"
-        },
-        {
-          "id": "d",
-          "text": "A runtime error"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Unions express 'this OR that' and are narrowed with typeof/discriminated unions.",
-      "difficulty": "easy",
-      "tags": [
-        "typescript",
-        "union"
-      ]
-    },
-    {
-      "id": "int-css-1",
-      "topic": "CSS",
-      "question": "What is the difference between `rem` and `em`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "They are the same"
-        },
-        {
-          "id": "b",
-          "text": "rem is relative to the root font-size; em is relative to the parent/element font-size"
-        },
-        {
-          "id": "c",
-          "text": "em is root-based"
-        },
-        {
-          "id": "d",
-          "text": "rem only works in flexbox"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "rem = root element size (predictable); em = cascades with parent size (can compound).",
-      "difficulty": "medium",
-      "tags": [
-        "css",
-        "units"
-      ]
-    },
-    {
-      "id": "int-css-2",
-      "topic": "CSS",
-      "question": "How do you center a div horizontally AND vertically (modern approach)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "margin: auto only"
-        },
-        {
-          "id": "b",
-          "text": "display: flex; justify-content: center; align-items: center; (on the parent)"
-        },
-        {
-          "id": "c",
-          "text": "float: center"
-        },
-        {
-          "id": "d",
-          "text": "text-align: middle"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Flexbox (or grid place-items: center) is the standard cross-browser centering technique.",
-      "difficulty": "easy",
-      "tags": [
-        "css",
-        "layout"
-      ]
-    },
-    {
-      "id": "int-css-3",
-      "topic": "CSS",
-      "question": "What does `box-sizing: border-box` do?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nothing"
-        },
-        {
-          "id": "b",
-          "text": "Includes padding & border inside the element's declared width/height"
-        },
-        {
-          "id": "c",
-          "text": "Removes the border"
-        },
-        {
-          "id": "d",
-          "text": "Makes it flex"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "border-box makes width include padding+border, making layouts predictable (common reset).",
-      "difficulty": "medium",
-      "tags": [
-        "css",
-        "box-model"
-      ]
-    },
-    {
-      "id": "int-hr-1",
-      "topic": "HR / Behavioral",
-      "question": "Interviewer: 'Tell me about a time you improved performance in a frontend app.' Best structure?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Vague generalities"
-        },
-        {
-          "id": "b",
-          "text": "STAR: Situation, Task, Action, Result — with a metric (e.g. load time -40%)"
-        },
-        {
-          "id": "c",
-          "text": "Blame the backend"
-        },
-        {
-          "id": "d",
-          "text": "Change the subject"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Behavioral answers win with concrete context, your specific action, and a measurable outcome.",
-      "difficulty": "easy",
-      "tags": [
-        "hr",
-        "behavioral"
-      ]
-    },
-    {
-      "id": "int-hr-2",
-      "topic": "HR / Behavioral",
-      "question": "When asked 'What is your biggest weakness?', a strong answer...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Claims none"
-        },
-        {
-          "id": "b",
-          "text": "Names a real, non-fatal area and what you're doing to improve it"
-        },
-        {
-          "id": "c",
-          "text": "Lists a strength as weakness"
-        },
-        {
-          "id": "d",
-          "text": "Refuses to answer"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Self-awareness + growth mindset beats canned 'perfectionist' answers.",
-      "difficulty": "easy",
-      "tags": [
-        "hr",
-        "behavioral"
-      ]
-    },
-    {
-      "id": "a1fa8d08",
-      "question": "Which statement best describes the purpose of \"React interviews\"?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It is a focused area of frontend knowledge with its own set of patterns and trade-offs."
-        },
-        {
-          "id": "b",
-          "text": "It is only useful for legacy codebases."
-        },
-        {
-          "id": "c",
-          "text": "It cannot be tested in isolation."
-        },
-        {
-          "id": "d",
-          "text": "It is deprecated in modern browsers."
+          "text": "It has zero constraints and never fails."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "\"React interviews\" groups related concepts, APIs, and best practices you should be able to reason about and apply."
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for React Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
     },
     {
-      "id": "ac6b951f",
-      "question": "When working inside \"02-react-interviews\", the most effective way to retain the material is to:",
+      "id": "g1041",
+      "topic": "React Interview Questions & Answers",
+      "question": "Where would you most likely apply React Interview Questions & Answers?",
       "options": [
         {
           "id": "a",
-          "text": "Read the core principles, implement sample code, and test understanding via quizzes."
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "Memorize syntax without running code."
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "c",
-          "text": "Skip the theoretical foundation."
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "Rely solely on third-party libraries."
+          "text": "In the real-world / production scenario documented for React Interview Questions & Answers."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where React Interview Questions & Answers applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1042",
+      "topic": "React Interview Questions & Answers",
+      "question": "Which practice is recommended when using React Interview Questions & Answers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for React Interview Questions & Answers."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply React Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1043",
+      "topic": "React Interview Questions & Answers",
+      "question": "How does React Interview Questions & Answers behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of React Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1032",
+      "topic": "Angular Interview Questions & Answers",
+      "question": "Why is Angular Interview Questions & Answers useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "a",
-      "explanation": "Active recall combined with hands-on practice leads to mastery."
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Angular Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Angular Interview Questions & Answers Quiz",
+      "_srcPath": "03-angular/05-angular-interviews-qa/001 - Angular Interview Questions & Answers.md.quiz.json"
+    },
+    {
+      "id": "g1033",
+      "topic": "Angular Interview Questions & Answers",
+      "question": "Where would you most likely apply Angular Interview Questions & Answers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Angular Interview Questions & Answers."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Angular Interview Questions & Answers applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Angular Interview Questions & Answers Quiz",
+      "_srcPath": "03-angular/05-angular-interviews-qa/001 - Angular Interview Questions & Answers.md.quiz.json"
+    },
+    {
+      "id": "g1034",
+      "topic": "Angular Interview Questions & Answers",
+      "question": "Which practice is recommended when using Angular Interview Questions & Answers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Angular Interview Questions & Answers."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Angular Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Angular Interview Questions & Answers Quiz",
+      "_srcPath": "03-angular/05-angular-interviews-qa/001 - Angular Interview Questions & Answers.md.quiz.json"
+    },
+    {
+      "id": "g1035",
+      "topic": "Angular Interview Questions & Answers",
+      "question": "How does Angular Interview Questions & Answers behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Angular Interview Questions & Answers.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Angular Interview Questions & Answers Quiz",
+      "_srcPath": "03-angular/05-angular-interviews-qa/001 - Angular Interview Questions & Answers.md.quiz.json"
+    },
+    {
+      "id": "g1044",
+      "topic": "Debounce",
+      "question": "What is \"Debounce\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Debounce."
+        },
+        {
+          "id": "b",
+          "text": "Debounce delays function execution until after a specified quiet period with no new calls."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Debounce."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Debounce delays function execution until after a specified quiet period with no new calls.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1045",
+      "topic": "Debounce",
+      "question": "Which statement about Debounce is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debounce delays function execution until after a specified quiet period with no new calls."
+        },
+        {
+          "id": "b",
+          "text": "Debounce has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Debounce was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Debounce only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Debounce.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1046",
+      "topic": "Debounce",
+      "question": "Why is Debounce useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1047",
+      "topic": "Debounce",
+      "question": "Where would you most likely apply Debounce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Debounce."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Debounce applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1048",
+      "topic": "Debounce",
+      "question": "Which practice is recommended when using Debounce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Debounce."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1049",
+      "topic": "Debounce",
+      "question": "How does Debounce behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Debounce.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Debounce Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/001 - Debounce.md.quiz.json"
+    },
+    {
+      "id": "g1050",
+      "topic": "Throttle",
+      "question": "What is \"Throttle\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Throttle."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Throttle."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1051",
+      "topic": "Throttle",
+      "question": "Which statement about Throttle is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Throttle has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Throttle was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Throttle ensures a function executes at most once within a fixed time window — regardless of how many times called."
+        },
+        {
+          "id": "d",
+          "text": "Throttle only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Throttle.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1052",
+      "topic": "Throttle",
+      "question": "Why is Throttle useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1053",
+      "topic": "Throttle",
+      "question": "Where would you most likely apply Throttle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Throttle."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Throttle applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1054",
+      "topic": "Throttle",
+      "question": "Which practice is recommended when using Throttle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Throttle."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1055",
+      "topic": "Throttle",
+      "question": "How does Throttle behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Throttle.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Throttle Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/002 - Throttle.md.quiz.json"
+    },
+    {
+      "id": "g1056",
+      "topic": "Flatten Array",
+      "question": "What is \"Flatten Array\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flatten transforms a deeply nested array into a single-level flat array recursively."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Flatten Array."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Flatten transforms a deeply nested array into a single-level flat array recursively.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1057",
+      "topic": "Flatten Array",
+      "question": "Which statement about Flatten Array is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flatten Array was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Flatten Array has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Flatten transforms a deeply nested array into a single-level flat array recursively."
+        },
+        {
+          "id": "d",
+          "text": "Flatten Array only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Flatten Array.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1058",
+      "topic": "Flatten Array",
+      "question": "Why is Flatten Array useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1059",
+      "topic": "Flatten Array",
+      "question": "Where would you most likely apply Flatten Array?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Flatten Array applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1060",
+      "topic": "Flatten Array",
+      "question": "Which practice is recommended when using Flatten Array?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Flatten Array."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1061",
+      "topic": "Flatten Array",
+      "question": "How does Flatten Array behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Flatten Array.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Flatten Array Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/003 - Flatten Array.md.quiz.json"
+    },
+    {
+      "id": "g1062",
+      "topic": "Promise.all",
+      "question": "What is \"Promise.all\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise.all takes an iterable of promises and returns a single promise that resolves when all promises resolve or rejects with the first rejection reason."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Promise.all."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Promise.all."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Promise.all takes an iterable of promises and returns a single promise that resolves when all promises resolve or rejects with the first rejection reason.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ],
+      "_srcTopic": "Promise.all Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/004 - Promise.all.md.quiz.json"
+    },
+    {
+      "id": "g1063",
+      "topic": "Promise.all",
+      "question": "Which statement about Promise.all is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise.all has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Promise.all was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Promise.all only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Promise.all takes an iterable of promises and returns a single promise that resolves when all promises resolve or rejects with the first rejection reason."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Promise.all.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ],
+      "_srcTopic": "Promise.all Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/004 - Promise.all.md.quiz.json"
+    },
+    {
+      "id": "g1064",
+      "topic": "Promise.all",
+      "question": "Why is Promise.all useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise.all.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Promise.all Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/004 - Promise.all.md.quiz.json"
+    },
+    {
+      "id": "g1065",
+      "topic": "Promise.all",
+      "question": "Where would you most likely apply Promise.all?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Promise.all."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise.all applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ],
+      "_srcTopic": "Promise.all Quiz",
+      "_srcPath": "05-frontend-interviews/01-machine-coding/004 - Promise.all.md.quiz.json"
     }
   ]
 }

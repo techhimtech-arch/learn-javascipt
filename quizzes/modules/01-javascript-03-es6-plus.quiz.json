@@ -7,8 +7,182 @@
   "folder": "03-es6-plus",
   "description": "Mixed quiz covering all topics in Es6 plus.",
   "questionCount": 30,
-  "generatedAt": "2026-08-14T07:21:31.097Z",
+  "generatedAt": "2026-08-14T08:44:42.180Z",
   "questions": [
+    {
+      "id": "g313",
+      "topic": "let const",
+      "question": "What is \"let const\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to let const."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to let const."
+        },
+        {
+          "id": "c",
+          "text": "ES6 introduced let and const as alternatives to var, offering block-scoping and clearer intent regarding mutability."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: ES6 introduced let and const as alternatives to var, offering block-scoping and clearer intent regarding mutability.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g314",
+      "topic": "let const",
+      "question": "Which statement about let const is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "let const was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "let const has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "ES6 introduced let and const as alternatives to var, offering block-scoping and clearer intent regarding mutability."
+        },
+        {
+          "id": "d",
+          "text": "let const only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of let const.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g315",
+      "topic": "let const",
+      "question": "Given the let const code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for let const."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for let const.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g316",
+      "topic": "let const",
+      "question": "Why is let const useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for let const.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g317",
+      "topic": "let const",
+      "question": "Where would you most likely apply let const?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for let const."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where let const applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g318",
+      "topic": "let const",
+      "question": "Which practice is recommended when using let const?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for let const."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply let const.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
     {
       "id": "arrow-q1",
       "topic": "Arrow Functions",
@@ -188,751 +362,526 @@
       ]
     },
     {
-      "id": "destructure-q1",
-      "topic": "Destructuring",
-      "question": "const { a, b } = { a: 1, b: 2 }; — what is `b`?",
+      "id": "g319",
+      "topic": "Template Literals",
+      "question": "What is \"Template Literals\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "undefined"
+          "text": "A pure CSS technique with no relation to Template Literals."
         },
         {
           "id": "b",
-          "text": "2"
+          "text": "A deprecated feature that was removed in the latest standard."
         },
         {
           "id": "c",
-          "text": "null"
+          "text": "Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders."
         },
         {
           "id": "d",
-          "text": "[object Object]"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Object destructuring binds variables to same-named properties.",
-      "difficulty": "easy",
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "destructure-q2",
-      "topic": "Destructuring",
-      "question": "How do you rename while destructuring? e.g. bind `name` to property `user`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "const { user: name } = obj"
-        },
-        {
-          "id": "b",
-          "text": "const { user as name } = obj"
-        },
-        {
-          "id": "c",
-          "text": "const { name = user } = obj"
-        },
-        {
-          "id": "d",
-          "text": "const name = obj.user()"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "The syntax { sourceProperty: targetVariable } renames during destructuring.",
-      "difficulty": "medium",
-      "tags": [
-        "rename"
-      ]
-    },
-    {
-      "id": "destructure-q3",
-      "topic": "Destructuring",
-      "question": "const [x, , y] = [1, 2, 3]; — what is `y`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "3"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
+          "text": "An external database engine unrelated to Template Literals."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "The empty slot skips index 1; y binds to index 2 (value 3).",
+      "explanation": "Per the documented definition: Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders.",
       "difficulty": "easy",
       "tags": [
-        "array",
-        "skip"
+        "definition"
       ]
     },
     {
-      "id": "destructure-q4",
-      "topic": "Destructuring",
-      "question": "const { a = 10 } = {}; — what is `a`?",
+      "id": "g320",
+      "topic": "Template Literals",
+      "question": "Which statement about Template Literals is correct?",
       "options": [
         {
           "id": "a",
-          "text": "undefined"
+          "text": "Template Literals has no practical use and should be avoided."
         },
         {
           "id": "b",
-          "text": "10"
+          "text": "Template Literals was deprecated and replaced by a newer standard."
         },
         {
           "id": "c",
-          "text": "{}"
+          "text": "Template Literals only works in server-side rendering contexts."
         },
         {
           "id": "d",
-          "text": "null"
+          "text": "Template literals provide an enhanced way to embed expressions inside string literals using backticks (\\) and ${} placeholders."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Template Literals.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g321",
+      "topic": "Template Literals",
+      "question": "Why is Template Literals useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Default values apply when the property is undefined (here {} has no 'a').",
-      "difficulty": "medium",
-      "tags": [
-        "default"
-      ]
-    },
-    {
-      "id": "destructure-q5",
-      "topic": "Destructuring",
-      "question": "const { a: { b } } = { a: { b: 5 } }; — what is `b`?",
-      "options": [
-        {
-          "id": "a",
-          "text": "5"
-        },
-        {
-          "id": "b",
-          "text": "{ b: 5 }"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "Error"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Nested destructuring reaches into the nested object to bind inner property b.",
-      "difficulty": "hard",
-      "tags": [
-        "nested"
-      ]
-    },
-    {
-      "id": "destructure-q6",
-      "topic": "Destructuring",
-      "question": "Which is a valid use of destructuring in a function parameter?",
-      "options": [
-        {
-          "id": "a",
-          "text": "function f({ id, name }) { ... }"
-        },
-        {
-          "id": "b",
-          "text": "function f(id, name) = {}"
-        },
-        {
-          "id": "c",
-          "text": "function { id } f() {}"
-        },
-        {
-          "id": "d",
-          "text": "function f(id: name) {}"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "You can destructure the incoming object directly in the parameter list — common for options objects.",
-      "difficulty": "medium",
-      "tags": [
-        "parameters"
-      ]
-    },
-    {
-      "id": "js-engine-q1",
-      "topic": "JavaScript Engine",
-      "question": "Which engine powers BOTH Google Chrome and Node.js?",
-      "options": [
-        {
-          "id": "a",
-          "text": "SpiderMonkey"
-        },
-        {
-          "id": "b",
-          "text": "V8"
-        },
-        {
-          "id": "c",
-          "text": "Chakra"
-        },
-        {
-          "id": "d",
-          "text": "JavaScriptCore"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Template Literals.",
       "difficulty": "easy",
       "tags": [
-        "engine",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "js-engine-q2",
-      "topic": "JavaScript Engine",
-      "question": "What is the first stage a JS engine performs after reading source code?",
+      "id": "g322",
+      "topic": "Template Literals",
+      "question": "Where would you most likely apply Template Literals?",
       "options": [
         {
           "id": "a",
-          "text": "Execute it line by line immediately"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "b",
-          "text": "Parse it into an Abstract Syntax Tree (AST)"
+          "text": "It always blocks the main thread regardless of usage."
         },
         {
           "id": "c",
-          "text": "Compile directly to machine code"
+          "text": "In the real-world / production scenario documented for Template Literals."
         },
         {
           "id": "d",
-          "text": "Send it to the GPU"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
-      "difficulty": "medium",
-      "tags": [
-        "parser",
-        "ast"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q3",
-      "topic": "JavaScript Engine",
-      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Interprets code once and discards it"
-        },
-        {
-          "id": "b",
-          "text": "Optimizes frequently-run ('hot') code paths dynamically"
-        },
-        {
-          "id": "c",
-          "text": "Only runs during page load"
-        },
-        {
-          "id": "d",
-          "text": "Disables the garbage collector"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
-      "difficulty": "medium",
-      "tags": [
-        "jit",
-        "v8"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q4",
-      "topic": "JavaScript Engine",
-      "question": "Is Node.js a JavaScript engine?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Yes, Node.js is the engine"
-        },
-        {
-          "id": "b",
-          "text": "No, Node.js is a runtime that embeds the V8 engine"
-        },
-        {
-          "id": "c",
-          "text": "No, it is a browser"
-        },
-        {
-          "id": "d",
-          "text": "Yes, but only on Windows"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
-      "difficulty": "easy",
-      "tags": [
-        "runtime",
-        "node"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q5",
-      "topic": "JavaScript Engine",
-      "question": "Which component of the engine reclaims unused memory automatically?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The Call Stack"
-        },
-        {
-          "id": "b",
-          "text": "The Parser"
-        },
-        {
-          "id": "c",
-          "text": "The Garbage Collector"
-        },
-        {
-          "id": "d",
-          "text": "The Event Loop"
+          "text": "It ignores all inputs it receives."
         }
       ],
       "correctOptionId": "c",
-      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Template Literals applies.",
       "difficulty": "easy",
       "tags": [
-        "memory",
-        "gc"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "js-engine-q6",
-      "topic": "JavaScript Engine",
-      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
+      "id": "g323",
+      "topic": "Template Literals",
+      "question": "Which practice is recommended when using Template Literals?",
       "options": [
         {
           "id": "a",
-          "text": "Using consistent object shapes"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "b",
-          "text": "Reassigning a variable to a different type in a hot path"
+          "text": "Following the documented Production Best Practices for Template Literals."
         },
         {
           "id": "c",
-          "text": "Adding 'use strict'"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "d",
-          "text": "Declaring const variables"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
-      "difficulty": "hard",
-      "tags": [
-        "optimization",
-        "deopt"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q7",
-      "topic": "JavaScript Engine",
-      "question": "Which statement is TRUE about the Event Loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It is part of the JavaScript language spec"
-        },
-        {
-          "id": "b",
-          "text": "It is provided by the runtime environment (browser/Node), not the engine itself"
-        },
-        {
-          "id": "c",
-          "text": "It lives inside V8 directly"
-        },
-        {
-          "id": "d",
-          "text": "It only exists in Node.js"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
-      "difficulty": "medium",
-      "tags": [
-        "event-loop",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q8",
-      "topic": "JavaScript Engine",
-      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
-      "options": [
-        {
-          "id": "a",
-          "text": "CSS animations"
-        },
-        {
-          "id": "b",
-          "text": "Change detection after async operations"
-        },
-        {
-          "id": "c",
-          "text": "Garbage collection"
-        },
-        {
-          "id": "d",
-          "text": "HTTP caching"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
-      "difficulty": "hard",
-      "tags": [
-        "angular",
-        "zonejs"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "promise-q1",
-      "topic": "Promises",
-      "question": "A Promise that has settled successfully is in which state?",
-      "options": [
-        {
-          "id": "a",
-          "text": "pending"
-        },
-        {
-          "id": "b",
-          "text": "fulfilled"
-        },
-        {
-          "id": "c",
-          "text": "rejected"
-        },
-        {
-          "id": "d",
-          "text": "blocked"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Once resolved with a value, a Promise is 'fulfilled' (resolved and successful).",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Template Literals.",
       "difficulty": "easy",
       "tags": [
-        "promise",
-        "states"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "promise-q2",
-      "topic": "Promises",
-      "question": "What does .then() return?",
+      "id": "g324",
+      "topic": "Template Literals",
+      "question": "How does Template Literals behave regarding its main constraint / trade-off?",
       "options": [
         {
           "id": "a",
-          "text": "The original Promise (same reference)"
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
         },
         {
           "id": "b",
-          "text": "A brand-new Promise (enabling chaining)"
+          "text": "It has zero constraints and never fails."
         },
         {
           "id": "c",
-          "text": "undefined"
+          "text": "It ignores all inputs it receives."
         },
         {
           "id": "d",
-          "text": "The resolved value directly"
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "then/catch/finally return new Promises, which is what makes promise chaining possible.",
-      "difficulty": "medium",
-      "tags": [
-        "then",
-        "chaining"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q3",
-      "topic": "Promises",
-      "question": "What is returned by Promise.all if ANY input promise rejects?",
-      "options": [
-        {
-          "id": "a",
-          "text": "An array with nulls for the rejected ones"
-        },
-        {
-          "id": "b",
-          "text": "It rejects immediately with that rejection reason"
-        },
-        {
-          "id": "c",
-          "text": "It waits for all then resolves"
-        },
-        {
-          "id": "d",
-          "text": "It returns an empty array"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.all is fail-fast: one rejection rejects the whole combined promise.",
-      "difficulty": "medium",
-      "tags": [
-        "promise-all",
-        "reject"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q4",
-      "topic": "Promises",
-      "question": "Which static method resolves as soon as the FIRST promise settles (fulfilled OR rejected)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.all"
-        },
-        {
-          "id": "b",
-          "text": "Promise.race"
-        },
-        {
-          "id": "c",
-          "text": "Promise.allSettled"
-        },
-        {
-          "id": "d",
-          "text": "Promise.any"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise.race settles on the first settled promise regardless of fulfill/reject.",
-      "difficulty": "medium",
-      "tags": [
-        "race"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q5",
-      "topic": "Promises",
-      "question": "What does Promise.allSettled resolve with?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Only the fulfilled values"
-        },
-        {
-          "id": "b",
-          "text": "An array of result objects {status:'fulfilled'|'rejected', value|reason}"
-        },
-        {
-          "id": "c",
-          "text": "The first rejection"
-        },
-        {
-          "id": "d",
-          "text": "undefined"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "allSettled waits for ALL promises and reports each outcome, never short-circuiting.",
-      "difficulty": "hard",
-      "tags": [
-        "allsettled"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q6",
-      "topic": "Promises",
-      "question": "A Promise executor function receives two arguments. What are they?",
-      "options": [
-        {
-          "id": "a",
-          "text": "onSuccess, onError"
-        },
-        {
-          "id": "b",
-          "text": "resolve, reject"
-        },
-        {
-          "id": "c",
-          "text": "then, catch"
-        },
-        {
-          "id": "d",
-          "text": "async, await"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "new Promise((resolve, reject) => {...}) — call resolve(value) or reject(reason).",
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Template Literals.",
       "difficulty": "easy",
       "tags": [
-        "executor"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
+        "concept"
+      ]
     },
     {
-      "id": "promise-q7",
-      "topic": "Promises",
-      "question": "What will `Promise.resolve(5).then(x => { throw x })` produce?",
+      "id": "g325",
+      "topic": "Spread Operator",
+      "question": "What is \"Spread Operator\" primarily about?",
       "options": [
         {
           "id": "a",
-          "text": "A fulfilled promise with value 5"
+          "text": "The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments."
         },
         {
           "id": "b",
-          "text": "A rejected promise"
+          "text": "An external database engine unrelated to Spread Operator."
         },
         {
           "id": "c",
-          "text": "Throws synchronously"
+          "text": "A pure CSS technique with no relation to Spread Operator."
         },
         {
           "id": "d",
-          "text": "undefined"
+          "text": "A deprecated feature that was removed in the latest standard."
         }
       ],
-      "correctOptionId": "b",
-      "explanation": "Throwing inside a then callback rejects the returned promise (caught by a following .catch).",
-      "difficulty": "medium",
-      "tags": [
-        "reject",
-        "then"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "promise-q8",
-      "topic": "Promises",
-      "question": "Callbacks passed to then/catch always run as...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Synchronous, immediately"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (after current script, before macrotasks)"
-        },
-        {
-          "id": "c",
-          "text": "Macrotasks (setTimeout queue)"
-        },
-        {
-          "id": "d",
-          "text": "Only on page unload"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Promise reactions are microtasks, queued in the microtask queue and drained before rendering/macrotasks.",
-      "difficulty": "hard",
-      "tags": [
-        "microtask",
-        "event-loop"
-      ],
-      "_srcTopic": "Promises Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/001 - Promises.md.quiz.json"
-    },
-    {
-      "id": "async-q1",
-      "topic": "async/await",
-      "question": "What does an `async function` ALWAYS return?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The raw value you return"
-        },
-        {
-          "id": "b",
-          "text": "A Promise that resolves to the returned value"
-        },
-        {
-          "id": "c",
-          "text": "undefined"
-        },
-        {
-          "id": "d",
-          "text": "A generator object"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async functions wrap the return value in a Promise automatically.",
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments.",
       "difficulty": "easy",
       "tags": [
-        "async"
-      ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
+        "definition"
+      ]
     },
     {
-      "id": "async-q2",
-      "topic": "async/await",
-      "question": "If you `await` a rejected promise, what happens?",
+      "id": "g326",
+      "topic": "Spread Operator",
+      "question": "Which statement about Spread Operator is correct?",
       "options": [
         {
           "id": "a",
-          "text": "It returns undefined silently"
+          "text": "Spread Operator was deprecated and replaced by a newer standard."
         },
         {
           "id": "b",
-          "text": "It throws inside the async function (catchable with try/catch)"
+          "text": "Spread Operator only works in server-side rendering contexts."
         },
         {
           "id": "c",
-          "text": "The program crashes always"
+          "text": "Spread Operator has no practical use and should be avoided."
         },
         {
           "id": "d",
-          "text": "It logs to console only"
+          "text": "The spread operator (...) expands iterables (arrays, strings, maps, sets) into individual elements, enabling easy copying, merging, and passing as function arguments."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Spread Operator.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g327",
+      "topic": "Spread Operator",
+      "question": "Why is Spread Operator useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
         }
       ],
       "correctOptionId": "b",
-      "explanation": "An awaited rejection throws at the await point; wrap in try/catch to handle it.",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g328",
+      "topic": "Spread Operator",
+      "question": "Where would you most likely apply Spread Operator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Spread Operator."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Spread Operator applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g329",
+      "topic": "Spread Operator",
+      "question": "Which practice is recommended when using Spread Operator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Spread Operator."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g330",
+      "topic": "Spread Operator",
+      "question": "How does Spread Operator behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Spread Operator.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g331",
+      "topic": "Rest Parameters",
+      "question": "What is \"Rest Parameters\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Rest Parameters."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g332",
+      "topic": "Rest Parameters",
+      "question": "Which statement about Rest Parameters is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rest Parameters only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter."
+        },
+        {
+          "id": "c",
+          "text": "Rest Parameters was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Rest Parameters has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Rest Parameters.",
       "difficulty": "medium",
       "tags": [
-        "await",
-        "error"
+        "fact"
+      ]
+    },
+    {
+      "id": "g333",
+      "topic": "Rest Parameters",
+      "question": "Given the Rest Parameters code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Rest Parameters."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
       ],
-      "_srcTopic": "async/await Quiz",
-      "_srcPath": "01-javascript/02-advanced-javascript/005 - async await.md.quiz.json"
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Rest Parameters.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g334",
+      "topic": "Rest Parameters",
+      "question": "Why is Rest Parameters useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Rest Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g335",
+      "topic": "Rest Parameters",
+      "question": "Where would you most likely apply Rest Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Rest Parameters applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g336",
+      "topic": "Rest Parameters",
+      "question": "Which practice is recommended when using Rest Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Rest Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
     }
   ]
 }

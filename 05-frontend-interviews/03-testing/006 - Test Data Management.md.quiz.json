@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/006 - Test Data Management.md",
+  "title": "Test Data Management Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1308",
+      "topic": "Test Data Management",
+      "question": "What is \"Test Data Management\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test Data Management creates, maintains, and cleans test fixtures — ensuring consistent, reliable test scenarios across unit/integration/E2E tests."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Test Data Management."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Test Data Management."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Test Data Management creates, maintains, and cleans test fixtures — ensuring consistent, reliable test scenarios across unit/integration/E2E tests.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1309",
+      "topic": "Test Data Management",
+      "question": "Which statement about Test Data Management is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test Data Management only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Test Data Management creates, maintains, and cleans test fixtures — ensuring consistent, reliable test scenarios across unit/integration/E2E tests."
+        },
+        {
+          "id": "c",
+          "text": "Test Data Management has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Test Data Management was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Test Data Management.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1310",
+      "topic": "Test Data Management",
+      "question": "Why is Test Data Management useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Test Data Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1311",
+      "topic": "Test Data Management",
+      "question": "Where would you most likely apply Test Data Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Test Data Management."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Test Data Management applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1312",
+      "topic": "Test Data Management",
+      "question": "Which practice is recommended when using Test Data Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Test Data Management."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Test Data Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1313",
+      "topic": "Test Data Management",
+      "question": "How does Test Data Management behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Test Data Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

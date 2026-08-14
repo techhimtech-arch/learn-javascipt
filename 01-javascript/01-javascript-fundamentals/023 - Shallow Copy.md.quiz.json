@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/023 - Shallow Copy.md",
+  "title": "Shallow Copy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g139",
+      "topic": "Shallow Copy",
+      "question": "What is \"Shallow Copy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Shallow Copy creates a new top-level object/container, but nested objects/arrays are copied by reference — meaning modifications to nested values will affect both originals."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Shallow Copy."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Shallow Copy."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: A Shallow Copy creates a new top-level object/container, but nested objects/arrays are copied by reference — meaning modifications to nested values will affect both originals.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g140",
+      "topic": "Shallow Copy",
+      "question": "Which statement about Shallow Copy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shallow Copy has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Shallow Copy only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Shallow Copy was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "A Shallow Copy creates a new top-level object/container, but nested objects/arrays are copied by reference — meaning modifications to nested values will affect both originals."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Shallow Copy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g141",
+      "topic": "Shallow Copy",
+      "question": "Given the Shallow Copy code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Shallow Copy."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Shallow Copy.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g142",
+      "topic": "Shallow Copy",
+      "question": "Why is Shallow Copy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Shallow Copy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g143",
+      "topic": "Shallow Copy",
+      "question": "Where would you most likely apply Shallow Copy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Shallow Copy."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Shallow Copy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g144",
+      "topic": "Shallow Copy",
+      "question": "Which practice is recommended when using Shallow Copy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Shallow Copy."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Shallow Copy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

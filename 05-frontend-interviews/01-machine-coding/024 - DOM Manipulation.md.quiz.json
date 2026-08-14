@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/024 - DOM Manipulation.md",
+  "title": "DOM Manipulation Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1200",
+      "topic": "DOM Manipulation",
+      "question": "What is \"DOM Manipulation\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to DOM Manipulation."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to DOM Manipulation."
+        },
+        {
+          "id": "c",
+          "text": "DOM Manipulation involves programmatically modifying HTML documents — adding/removing elements, changing attributes/styles, handling events."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: DOM Manipulation involves programmatically modifying HTML documents — adding/removing elements, changing attributes/styles, handling events.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1201",
+      "topic": "DOM Manipulation",
+      "question": "Which statement about DOM Manipulation is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DOM Manipulation was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "DOM Manipulation has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "DOM Manipulation involves programmatically modifying HTML documents — adding/removing elements, changing attributes/styles, handling events."
+        },
+        {
+          "id": "d",
+          "text": "DOM Manipulation only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of DOM Manipulation.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1202",
+      "topic": "DOM Manipulation",
+      "question": "Why is DOM Manipulation useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for DOM Manipulation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1203",
+      "topic": "DOM Manipulation",
+      "question": "Where would you most likely apply DOM Manipulation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for DOM Manipulation."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where DOM Manipulation applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1204",
+      "topic": "DOM Manipulation",
+      "question": "Which practice is recommended when using DOM Manipulation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for DOM Manipulation."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply DOM Manipulation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1205",
+      "topic": "DOM Manipulation",
+      "question": "How does DOM Manipulation behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of DOM Manipulation.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

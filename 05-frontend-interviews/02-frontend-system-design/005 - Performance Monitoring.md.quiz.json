@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/005 - Performance Monitoring.md",
+  "title": "Performance Monitoring Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1230",
+      "topic": "Performance Monitoring",
+      "question": "What is \"Performance Monitoring\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Performance Monitoring."
+        },
+        {
+          "id": "c",
+          "text": "Performance Monitoring tracks runtime metrics (load time, frame rate, memory usage) — identifying bottlenecks affecting user experience."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Performance Monitoring."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Performance Monitoring tracks runtime metrics (load time, frame rate, memory usage) — identifying bottlenecks affecting user experience.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1231",
+      "topic": "Performance Monitoring",
+      "question": "Which statement about Performance Monitoring is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Performance Monitoring was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Performance Monitoring only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Performance Monitoring has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Performance Monitoring tracks runtime metrics (load time, frame rate, memory usage) — identifying bottlenecks affecting user experience."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Performance Monitoring.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1232",
+      "topic": "Performance Monitoring",
+      "question": "Why is Performance Monitoring useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Performance Monitoring.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1233",
+      "topic": "Performance Monitoring",
+      "question": "Where would you most likely apply Performance Monitoring?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Performance Monitoring."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Performance Monitoring applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1234",
+      "topic": "Performance Monitoring",
+      "question": "Which practice is recommended when using Performance Monitoring?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Performance Monitoring."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Performance Monitoring.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1235",
+      "topic": "Performance Monitoring",
+      "question": "How does Performance Monitoring behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Performance Monitoring.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

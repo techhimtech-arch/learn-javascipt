@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/028 - JavaScript Runtime.md",
+  "title": "JavaScript Runtime Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g169",
+      "topic": "JavaScript Runtime",
+      "question": "What is \"JavaScript Runtime\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The JavaScript Runtime is the environment providing additional capabilities beyond core language features — such as DOM manipulation, networking (fetch), timers, file I/O, and the Event Loop."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to JavaScript Runtime."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to JavaScript Runtime."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The JavaScript Runtime is the environment providing additional capabilities beyond core language features — such as DOM manipulation, networking (fetch), timers, file I/O, and the Event Loop.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g170",
+      "topic": "JavaScript Runtime",
+      "question": "Which statement about JavaScript Runtime is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "JavaScript Runtime was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "The JavaScript Runtime is the environment providing additional capabilities beyond core language features — such as DOM manipulation, networking (fetch), timers, file I/O, and the Event Loop."
+        },
+        {
+          "id": "c",
+          "text": "JavaScript Runtime has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "JavaScript Runtime only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of JavaScript Runtime.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g171",
+      "topic": "JavaScript Runtime",
+      "question": "Given the JavaScript Runtime code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for JavaScript Runtime."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for JavaScript Runtime.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g172",
+      "topic": "JavaScript Runtime",
+      "question": "Why is JavaScript Runtime useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for JavaScript Runtime.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g173",
+      "topic": "JavaScript Runtime",
+      "question": "Where would you most likely apply JavaScript Runtime?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for JavaScript Runtime."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where JavaScript Runtime applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g174",
+      "topic": "JavaScript Runtime",
+      "question": "Which practice is recommended when using JavaScript Runtime?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for JavaScript Runtime."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply JavaScript Runtime.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

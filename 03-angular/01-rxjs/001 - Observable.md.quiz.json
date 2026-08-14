@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/001 - Observable.md",
+  "title": "Observable Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g589",
+      "topic": "Observable",
+      "question": "What is \"Observable\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Observable."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Observable."
+        },
+        {
+          "id": "d",
+          "text": "An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g590",
+      "topic": "Observable",
+      "question": "Which statement about Observable is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Observable was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "An Observable is a function that creates a \"producer\" of values that can be subscribed to — it emits values over time asynchronously."
+        },
+        {
+          "id": "c",
+          "text": "Observable only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Observable has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Observable.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g591",
+      "topic": "Observable",
+      "question": "Given the Observable code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Observable."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Observable.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g592",
+      "topic": "Observable",
+      "question": "Why is Observable useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Observable.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g593",
+      "topic": "Observable",
+      "question": "Where would you most likely apply Observable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Observable."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Observable applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g594",
+      "topic": "Observable",
+      "question": "Which practice is recommended when using Observable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Observable."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Observable.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

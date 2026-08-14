@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/007 - Microtasks.md",
+  "title": "Microtasks Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g199",
+      "topic": "Microtasks",
+      "question": "What is \"Microtasks\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microtasks are tasks that run after the current synchronous code completes, but before the next rendering step or timer callback."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Microtasks."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Microtasks."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Microtasks are tasks that run after the current synchronous code completes, but before the next rendering step or timer callback.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g200",
+      "topic": "Microtasks",
+      "question": "Which statement about Microtasks is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microtasks was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Microtasks has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Microtasks only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Microtasks are tasks that run after the current synchronous code completes, but before the next rendering step or timer callback."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Microtasks.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g201",
+      "topic": "Microtasks",
+      "question": "Given the Microtasks code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Microtasks."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Microtasks.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g202",
+      "topic": "Microtasks",
+      "question": "Why is Microtasks useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Microtasks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g203",
+      "topic": "Microtasks",
+      "question": "Where would you most likely apply Microtasks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Microtasks."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Microtasks applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g204",
+      "topic": "Microtasks",
+      "question": "Which practice is recommended when using Microtasks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Microtasks."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Microtasks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

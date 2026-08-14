@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/04-general-interview-questions/006 - Behavioral and HR Questions.md",
+  "title": "Behavioral and HR Questions Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1356",
+      "topic": "Behavioral and HR Questions",
+      "question": "What is \"Behavioral and HR Questions\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Behavioral and HR Questions."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Behavioral and HR Questions."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Structured collection of behavioral and HR-style interview questions designed to assess cultural fit, communication skills, leadership qualities, and past experiences."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Structured collection of behavioral and HR-style interview questions designed to assess cultural fit, communication skills, leadership qualities, and past experiences.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1357",
+      "topic": "Behavioral and HR Questions",
+      "question": "Which statement about Behavioral and HR Questions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Structured collection of behavioral and HR-style interview questions designed to assess cultural fit, communication skills, leadership qualities, and past experiences."
+        },
+        {
+          "id": "b",
+          "text": "Behavioral and HR Questions only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Behavioral and HR Questions has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Behavioral and HR Questions was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Behavioral and HR Questions.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1358",
+      "topic": "Behavioral and HR Questions",
+      "question": "Why is Behavioral and HR Questions useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Behavioral and HR Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1359",
+      "topic": "Behavioral and HR Questions",
+      "question": "Where would you most likely apply Behavioral and HR Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Behavioral and HR Questions."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Behavioral and HR Questions applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1360",
+      "topic": "Behavioral and HR Questions",
+      "question": "Which practice is recommended when using Behavioral and HR Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Behavioral and HR Questions."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Behavioral and HR Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1361",
+      "topic": "Behavioral and HR Questions",
+      "question": "How does Behavioral and HR Questions behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Behavioral and HR Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

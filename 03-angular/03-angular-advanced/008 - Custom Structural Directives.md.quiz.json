@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/008 - Custom Structural Directives.md",
+  "title": "Custom Structural Directives Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g930",
+      "topic": "Custom Structural Directives",
+      "question": "What is \"Custom Structural Directives\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Custom Structural Directives create new -prefixed control flow syntax — abstracting template manipulation logic into reusable building blocks."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Custom Structural Directives."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Custom Structural Directives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Custom Structural Directives create new -prefixed control flow syntax — abstracting template manipulation logic into reusable building blocks.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g931",
+      "topic": "Custom Structural Directives",
+      "question": "Which statement about Custom Structural Directives is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Custom Structural Directives only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Custom Structural Directives create new -prefixed control flow syntax — abstracting template manipulation logic into reusable building blocks."
+        },
+        {
+          "id": "c",
+          "text": "Custom Structural Directives has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Custom Structural Directives was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Custom Structural Directives.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g932",
+      "topic": "Custom Structural Directives",
+      "question": "Why is Custom Structural Directives useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Custom Structural Directives.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g933",
+      "topic": "Custom Structural Directives",
+      "question": "Where would you most likely apply Custom Structural Directives?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Custom Structural Directives."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Custom Structural Directives applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g934",
+      "topic": "Custom Structural Directives",
+      "question": "Which practice is recommended when using Custom Structural Directives?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Custom Structural Directives."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Custom Structural Directives.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g935",
+      "topic": "Custom Structural Directives",
+      "question": "How does Custom Structural Directives behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Custom Structural Directives.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

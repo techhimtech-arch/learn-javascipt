@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/017 - Signals.md",
+  "title": "Signals Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g828",
+      "topic": "Signals",
+      "question": "What is \"Signals\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Signals."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Signals are a reactive primitive in Angular 16+ representing mutable values that notify dependents when changed — enabling fine-grained reactivity."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Signals."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Signals are a reactive primitive in Angular 16+ representing mutable values that notify dependents when changed — enabling fine-grained reactivity.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g829",
+      "topic": "Signals",
+      "question": "Which statement about Signals is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Signals are a reactive primitive in Angular 16+ representing mutable values that notify dependents when changed — enabling fine-grained reactivity."
+        },
+        {
+          "id": "b",
+          "text": "Signals has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Signals was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Signals only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Signals.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g830",
+      "topic": "Signals",
+      "question": "Given the Signals code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Signals."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Signals.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g831",
+      "topic": "Signals",
+      "question": "Why is Signals useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Signals.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g832",
+      "topic": "Signals",
+      "question": "Where would you most likely apply Signals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Signals."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Signals applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g833",
+      "topic": "Signals",
+      "question": "Which practice is recommended when using Signals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Signals."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Signals.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

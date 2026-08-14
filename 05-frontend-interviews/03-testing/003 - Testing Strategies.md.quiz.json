@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/003 - Testing Strategies.md",
+  "title": "Testing Strategies Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1290",
+      "topic": "Testing Strategies",
+      "question": "What is \"Testing Strategies\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Testing Strategies encompass approaches, philosophies, and methodologies for verifying software correctness — unit, integration, component, end-to-end testing."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Testing Strategies."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Testing Strategies."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Testing Strategies encompass approaches, philosophies, and methodologies for verifying software correctness — unit, integration, component, end-to-end testing.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1291",
+      "topic": "Testing Strategies",
+      "question": "Which statement about Testing Strategies is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Testing Strategies encompass approaches, philosophies, and methodologies for verifying software correctness — unit, integration, component, end-to-end testing."
+        },
+        {
+          "id": "b",
+          "text": "Testing Strategies was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Testing Strategies has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Testing Strategies only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Testing Strategies.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1292",
+      "topic": "Testing Strategies",
+      "question": "Why is Testing Strategies useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Testing Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1293",
+      "topic": "Testing Strategies",
+      "question": "Where would you most likely apply Testing Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Testing Strategies."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Testing Strategies applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1294",
+      "topic": "Testing Strategies",
+      "question": "Which practice is recommended when using Testing Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Testing Strategies."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Testing Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1295",
+      "topic": "Testing Strategies",
+      "question": "How does Testing Strategies behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Testing Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

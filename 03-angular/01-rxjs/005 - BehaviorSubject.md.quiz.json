@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/005 - BehaviorSubject.md",
+  "title": "BehaviorSubject Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g613",
+      "topic": "BehaviorSubject",
+      "question": "What is \"BehaviorSubject\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to BehaviorSubject."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g614",
+      "topic": "BehaviorSubject",
+      "question": "Which statement about BehaviorSubject is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BehaviorSubject was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "BehaviorSubject is a type of Subject that requires an initial value and emits the current value to new subscribers immediately upon subscription."
+        },
+        {
+          "id": "c",
+          "text": "BehaviorSubject has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "BehaviorSubject only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of BehaviorSubject.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g615",
+      "topic": "BehaviorSubject",
+      "question": "Given the BehaviorSubject code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for BehaviorSubject."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for BehaviorSubject.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g616",
+      "topic": "BehaviorSubject",
+      "question": "Why is BehaviorSubject useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for BehaviorSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g617",
+      "topic": "BehaviorSubject",
+      "question": "Where would you most likely apply BehaviorSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where BehaviorSubject applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g618",
+      "topic": "BehaviorSubject",
+      "question": "Which practice is recommended when using BehaviorSubject?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for BehaviorSubject."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply BehaviorSubject.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

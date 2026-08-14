@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/025 - Modules.md",
+  "title": "Modules Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g307",
+      "topic": "Modules",
+      "question": "What is \"Modules\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "JavaScript Modules organi"
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Modules."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Modules."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: JavaScript Modules organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g308",
+      "topic": "Modules",
+      "question": "Which statement about Modules is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Modules has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "JavaScript Modules organi"
+        },
+        {
+          "id": "c",
+          "text": "Modules was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Modules only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Modules.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g309",
+      "topic": "Modules",
+      "question": "Why is Modules useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Modules.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g310",
+      "topic": "Modules",
+      "question": "Where would you most likely apply Modules?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Modules."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Modules applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g311",
+      "topic": "Modules",
+      "question": "Which practice is recommended when using Modules?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Modules."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Modules.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g312",
+      "topic": "Modules",
+      "question": "How does Modules behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Modules.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

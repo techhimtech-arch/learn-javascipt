@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/04-angular-performance/014 - Lazy Loading.md",
+  "title": "Lazy Loading Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1020",
+      "topic": "Lazy Loading",
+      "question": "What is \"Lazy Loading\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Lazy Loading."
+        },
+        {
+          "id": "b",
+          "text": "La"
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Lazy Loading."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: La",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1021",
+      "topic": "Lazy Loading",
+      "question": "Which statement about Lazy Loading is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lazy Loading was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "La"
+        },
+        {
+          "id": "c",
+          "text": "Lazy Loading only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Lazy Loading has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Lazy Loading.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1022",
+      "topic": "Lazy Loading",
+      "question": "Why is Lazy Loading useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Lazy Loading.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1023",
+      "topic": "Lazy Loading",
+      "question": "Where would you most likely apply Lazy Loading?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Lazy Loading."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Lazy Loading applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1024",
+      "topic": "Lazy Loading",
+      "question": "Which practice is recommended when using Lazy Loading?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Lazy Loading."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Lazy Loading.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1025",
+      "topic": "Lazy Loading",
+      "question": "How does Lazy Loading behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Lazy Loading.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

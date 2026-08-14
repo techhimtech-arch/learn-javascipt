@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/020 - Utility Types.md",
+  "title": "Utility Types Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g457",
+      "topic": "Utility Types",
+      "question": "What is \"Utility Types\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Utility Types."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Utility Types."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Utility Types transform existing types into new ones — enabling composition and reuse without manual re-declaration."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: TypeScript Utility Types transform existing types into new ones — enabling composition and reuse without manual re-declaration.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g458",
+      "topic": "Utility Types",
+      "question": "Which statement about Utility Types is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Utility Types has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript Utility Types transform existing types into new ones — enabling composition and reuse without manual re-declaration."
+        },
+        {
+          "id": "c",
+          "text": "Utility Types was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Utility Types only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Utility Types.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g459",
+      "topic": "Utility Types",
+      "question": "Why is Utility Types useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Utility Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g460",
+      "topic": "Utility Types",
+      "question": "Where would you most likely apply Utility Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Utility Types."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Utility Types applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g461",
+      "topic": "Utility Types",
+      "question": "Which practice is recommended when using Utility Types?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Utility Types."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Utility Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g462",
+      "topic": "Utility Types",
+      "question": "How does Utility Types behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Utility Types.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

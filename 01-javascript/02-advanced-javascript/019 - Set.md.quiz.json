@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/019 - Set.md",
+  "title": "Set Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g271",
+      "topic": "Set",
+      "question": "What is \"Set\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Set."
+        },
+        {
+          "id": "c",
+          "text": "A Set is a collection of unique values — primitives or object references — with guaranteed uniqueness and insertion-order iteration."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Set."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Set is a collection of unique values — primitives or object references — with guaranteed uniqueness and insertion-order iteration.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g272",
+      "topic": "Set",
+      "question": "Which statement about Set is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Set is a collection of unique values — primitives or object references — with guaranteed uniqueness and insertion-order iteration."
+        },
+        {
+          "id": "b",
+          "text": "Set was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Set has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Set only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Set.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g273",
+      "topic": "Set",
+      "question": "Why is Set useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Set.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g274",
+      "topic": "Set",
+      "question": "Where would you most likely apply Set?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Set."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Set applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g275",
+      "topic": "Set",
+      "question": "Which practice is recommended when using Set?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Set."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Set.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g276",
+      "topic": "Set",
+      "question": "How does Set behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Set.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

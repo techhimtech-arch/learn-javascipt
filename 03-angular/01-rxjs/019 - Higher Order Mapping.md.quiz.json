@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/019 - Higher Order Mapping.md",
+  "title": "Higher Order Mapping Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g702",
+      "topic": "Higher Order Mapping",
+      "question": "What is \"Higher Order Mapping\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher Order Mapping (HOM) operators map values to inner Observables — flattening nested asynchronous flows into manageable streams."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Higher Order Mapping."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Higher Order Mapping."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Higher Order Mapping (HOM) operators map values to inner Observables — flattening nested asynchronous flows into manageable streams.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g703",
+      "topic": "Higher Order Mapping",
+      "question": "Which statement about Higher Order Mapping is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher Order Mapping was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Higher Order Mapping only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Higher Order Mapping (HOM) operators map values to inner Observables — flattening nested asynchronous flows into manageable streams."
+        },
+        {
+          "id": "d",
+          "text": "Higher Order Mapping has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Higher Order Mapping.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g704",
+      "topic": "Higher Order Mapping",
+      "question": "Why is Higher Order Mapping useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Higher Order Mapping.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g705",
+      "topic": "Higher Order Mapping",
+      "question": "Where would you most likely apply Higher Order Mapping?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Higher Order Mapping."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Higher Order Mapping applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g706",
+      "topic": "Higher Order Mapping",
+      "question": "Which practice is recommended when using Higher Order Mapping?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Higher Order Mapping."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Higher Order Mapping.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g707",
+      "topic": "Higher Order Mapping",
+      "question": "How does Higher Order Mapping behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Higher Order Mapping.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

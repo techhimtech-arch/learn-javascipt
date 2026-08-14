@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/014 - DI Hierarchy.md",
+  "title": "DI Hierarchy Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g966",
+      "topic": "DI Hierarchy",
+      "question": "What is \"DI Hierarchy\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to DI Hierarchy."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to DI Hierarchy."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Dependency Injection Hierarchy in Angular organi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Dependency Injection Hierarchy in Angular organi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g967",
+      "topic": "DI Hierarchy",
+      "question": "Which statement about DI Hierarchy is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DI Hierarchy only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Dependency Injection Hierarchy in Angular organi"
+        },
+        {
+          "id": "c",
+          "text": "DI Hierarchy has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "DI Hierarchy was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of DI Hierarchy.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g968",
+      "topic": "DI Hierarchy",
+      "question": "Why is DI Hierarchy useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for DI Hierarchy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g969",
+      "topic": "DI Hierarchy",
+      "question": "Where would you most likely apply DI Hierarchy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for DI Hierarchy."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where DI Hierarchy applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g970",
+      "topic": "DI Hierarchy",
+      "question": "Which practice is recommended when using DI Hierarchy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for DI Hierarchy."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply DI Hierarchy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g971",
+      "topic": "DI Hierarchy",
+      "question": "How does DI Hierarchy behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of DI Hierarchy.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

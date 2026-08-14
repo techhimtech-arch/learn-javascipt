@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/03-angular-advanced/002 - Ivy Renderer.md",
+  "title": "Ivy Renderer Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g894",
+      "topic": "Ivy Renderer",
+      "question": "What is \"Ivy Renderer\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Ivy Renderer."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Ivy Renderer."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Ivy is Angular's next-generation compilation and rendering engine (introduced in v9) — replacing View Engine with improved compilation, smaller bundles, and enhanced debugging."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Ivy is Angular's next-generation compilation and rendering engine (introduced in v9) — replacing View Engine with improved compilation, smaller bundles, and enhanced debugging.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g895",
+      "topic": "Ivy Renderer",
+      "question": "Which statement about Ivy Renderer is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ivy Renderer was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Ivy Renderer has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Ivy Renderer only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Ivy is Angular's next-generation compilation and rendering engine (introduced in v9) — replacing View Engine with improved compilation, smaller bundles, and enhanced debugging."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Ivy Renderer.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g896",
+      "topic": "Ivy Renderer",
+      "question": "Why is Ivy Renderer useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Ivy Renderer.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g897",
+      "topic": "Ivy Renderer",
+      "question": "Where would you most likely apply Ivy Renderer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Ivy Renderer."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Ivy Renderer applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g898",
+      "topic": "Ivy Renderer",
+      "question": "Which practice is recommended when using Ivy Renderer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Ivy Renderer."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Ivy Renderer.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g899",
+      "topic": "Ivy Renderer",
+      "question": "How does Ivy Renderer behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Ivy Renderer.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

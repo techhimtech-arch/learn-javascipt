@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/012 - Scope Chain.md",
+  "title": "Scope Chain Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g73",
+      "topic": "Scope Chain",
+      "question": "What is \"Scope Chain\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Scope Chain."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "The Scope Chain is the process by which the JavaScript engine resolves variable names through nested Lexical Environments until it finds a match or reaches the global scope."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Scope Chain."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: The Scope Chain is the process by which the JavaScript engine resolves variable names through nested Lexical Environments until it finds a match or reaches the global scope.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g74",
+      "topic": "Scope Chain",
+      "question": "Which statement about Scope Chain is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Scope Chain is the process by which the JavaScript engine resolves variable names through nested Lexical Environments until it finds a match or reaches the global scope."
+        },
+        {
+          "id": "b",
+          "text": "Scope Chain was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Scope Chain has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Scope Chain only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Scope Chain.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g75",
+      "topic": "Scope Chain",
+      "question": "Why is Scope Chain useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Scope Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g76",
+      "topic": "Scope Chain",
+      "question": "Where would you most likely apply Scope Chain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Scope Chain."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Scope Chain applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g77",
+      "topic": "Scope Chain",
+      "question": "Which practice is recommended when using Scope Chain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Scope Chain."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Scope Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g78",
+      "topic": "Scope Chain",
+      "question": "How does Scope Chain behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Scope Chain.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

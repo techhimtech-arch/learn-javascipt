@@ -7,7 +7,7 @@
   "folder": "02-advanced-javascript",
   "description": "Mixed quiz covering all topics in Advanced javascript.",
   "questionCount": 30,
-  "generatedAt": "2026-08-14T07:21:31.094Z",
+  "generatedAt": "2026-08-14T08:44:42.173Z",
   "questions": [
     {
       "id": "promise-q1",
@@ -247,6 +247,528 @@
       ]
     },
     {
+      "id": "g181",
+      "topic": "Promise States",
+      "question": "What is \"Promise States\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Promise States."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Promise States."
+        },
+        {
+          "id": "c",
+          "text": "Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g182",
+      "topic": "Promise States",
+      "question": "Which statement about Promise States is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise States was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …"
+        },
+        {
+          "id": "c",
+          "text": "Promise States has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Promise States only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Promise States.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g183",
+      "topic": "Promise States",
+      "question": "Why is Promise States useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g184",
+      "topic": "Promise States",
+      "question": "Where would you most likely apply Promise States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Promise States."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise States applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g185",
+      "topic": "Promise States",
+      "question": "Which practice is recommended when using Promise States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Promise States."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g186",
+      "topic": "Promise States",
+      "question": "How does Promise States behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g187",
+      "topic": "Promise Chaining",
+      "question": "What is \"Promise Chaining\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Promise Chaining."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Promise Chaining."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g188",
+      "topic": "Promise Chaining",
+      "question": "Which statement about Promise Chaining is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise Chaining has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Promise Chaining refers to connecting multiple then() calls sequentially so that output from earlier steps feeds into subsequent steps."
+        },
+        {
+          "id": "c",
+          "text": "Promise Chaining was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Promise Chaining only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Promise Chaining.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g189",
+      "topic": "Promise Chaining",
+      "question": "Given the Promise Chaining code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It follows the documented step-by-step execution shown for Promise Chaining."
+        },
+        {
+          "id": "b",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "c",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Promise Chaining.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g190",
+      "topic": "Promise Chaining",
+      "question": "Why is Promise Chaining useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g191",
+      "topic": "Promise Chaining",
+      "question": "Where would you most likely apply Promise Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Promise Chaining."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise Chaining applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g192",
+      "topic": "Promise Chaining",
+      "question": "Which practice is recommended when using Promise Chaining?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Promise Chaining."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Promise Chaining.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g193",
+      "topic": "Promise.all",
+      "question": "What is \"Promise.all\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Promise.all."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Promise.all."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Promise.all is a static method that accepts an iterable of promises and returns a single promise that resolves only when all promises have resolved, or rejects immediately if any of the promises reject."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Promise.all is a static method that accepts an iterable of promises and returns a single promise that resolves only when all promises have resolved, or rejects immediately if any of the promises reject.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g194",
+      "topic": "Promise.all",
+      "question": "Which statement about Promise.all is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise.all was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Promise.all has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Promise.all is a static method that accepts an iterable of promises and returns a single promise that resolves only when all promises have resolved, or rejects immediately if any of the promises reject."
+        },
+        {
+          "id": "d",
+          "text": "Promise.all only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Promise.all.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g195",
+      "topic": "Promise.all",
+      "question": "Given the Promise.all code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Promise.all."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Promise.all.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g196",
+      "topic": "Promise.all",
+      "question": "Why is Promise.all useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise.all.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g197",
+      "topic": "Promise.all",
+      "question": "Where would you most likely apply Promise.all?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Promise.all."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise.all applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g198",
+      "topic": "Promise.all",
+      "question": "Which practice is recommended when using Promise.all?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Promise.all."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Promise.all.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
       "id": "async-q1",
       "topic": "async/await",
       "question": "What does an `async function` ALWAYS return?",
@@ -363,556 +885,6 @@
       "tags": [
         "syntax"
       ]
-    },
-    {
-      "id": "async-q5",
-      "topic": "async/await",
-      "question": "Under the hood, async/await is built on top of...?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Callback hell only"
-        },
-        {
-          "id": "b",
-          "text": "Promises (syntactic sugar over .then)"
-        },
-        {
-          "id": "c",
-          "text": "Web Workers"
-        },
-        {
-          "id": "d",
-          "text": "Generators only, no Promises"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "async/await is syntactic sugar over Promise chaining, making async code read like sync code.",
-      "difficulty": "medium",
-      "tags": [
-        "promises",
-        "sugar"
-      ]
-    },
-    {
-      "id": "async-q6",
-      "topic": "async/await",
-      "question": "What does `await` actually do to the surrounding code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Blocks the main thread until done"
-        },
-        {
-          "id": "b",
-          "text": "Suspends the async function, yielding control back to the event loop"
-        },
-        {
-          "id": "c",
-          "text": "Stops all JavaScript execution"
-        },
-        {
-          "id": "d",
-          "text": "Runs the callback synchronously"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "await pauses the async function (non-blocking); other code keeps running via the event loop.",
-      "difficulty": "hard",
-      "tags": [
-        "event-loop",
-        "non-blocking"
-      ]
-    },
-    {
-      "id": "async-q7",
-      "topic": "async/await",
-      "question": "If a function is marked `async` but never uses `await`, it still...",
-      "options": [
-        {
-          "id": "a",
-          "text": "Throws a syntax error"
-        },
-        {
-          "id": "b",
-          "text": "Returns a Promise (just resolves immediately)"
-        },
-        {
-          "id": "c",
-          "text": "Returns a plain value"
-        },
-        {
-          "id": "d",
-          "text": "Does not compile"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The async keyword alone forces Promise-return semantics regardless of await usage.",
-      "difficulty": "easy",
-      "tags": [
-        "async"
-      ]
-    },
-    {
-      "id": "async-q8",
-      "topic": "async/await",
-      "question": "Which is the BEST pattern for handling multiple awaits that may each fail independently?",
-      "options": [
-        {
-          "id": "a",
-          "text": "One giant try/catch around everything"
-        },
-        {
-          "id": "b",
-          "text": "try/catch per step OR Promise.allSettled then inspect each result"
-        },
-        {
-          "id": "c",
-          "text": "Ignore errors"
-        },
-        {
-          "id": "d",
-          "text": "Use setTimeout"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Per-step try/catch or allSettled gives granular control over which operations succeeded.",
-      "difficulty": "hard",
-      "tags": [
-        "error-handling"
-      ]
-    },
-    {
-      "id": "eventloop-q1",
-      "topic": "Event Loop",
-      "question": "What is the correct ordering of the queues in the event loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Macrotasks run before microtasks"
-        },
-        {
-          "id": "b",
-          "text": "Microtasks (drain fully) run before the next macrotask"
-        },
-        {
-          "id": "c",
-          "text": "They run simultaneously"
-        },
-        {
-          "id": "d",
-          "text": "Render tasks run before microtasks"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "After the current task, the microtask queue is fully drained before the next macrotask and before rendering.",
-      "difficulty": "medium",
-      "tags": [
-        "microtask",
-        "macrotask"
-      ]
-    },
-    {
-      "id": "eventloop-q2",
-      "topic": "Event Loop",
-      "question": "Which of these is a MACROtask (not a microtask)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Promise.then callback"
-        },
-        {
-          "id": "b",
-          "text": "queueMicrotask"
-        },
-        {
-          "id": "c",
-          "text": "setTimeout / setInterval"
-        },
-        {
-          "id": "d",
-          "text": "MutationObserver"
-        }
-      ],
-      "correctOptionId": "c",
-      "explanation": "setTimeout/setInterval/setImmediate are macrotasks; promise reactions, queueMicrotask, MutationObserver are microtasks.",
-      "difficulty": "medium",
-      "tags": [
-        "macrotask",
-        "settimeout"
-      ]
-    },
-    {
-      "id": "eventloop-q3",
-      "topic": "Event Loop",
-      "question": "Given the code, what prints first?\nconsole.log('1');\nsetTimeout(()=>console.log('2'),0);\nPromise.resolve().then(()=>console.log('3'));\nconsole.log('4');",
-      "options": [
-        {
-          "id": "a",
-          "text": "1, 4, 3, 2"
-        },
-        {
-          "id": "b",
-          "text": "1, 4, 2, 3"
-        },
-        {
-          "id": "c",
-          "text": "1, 2, 3, 4"
-        },
-        {
-          "id": "d",
-          "text": "4, 3, 2, 1"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Sync logs 1 and 4; promise microtask (3) runs before the setTimeout macrotask (2).",
-      "difficulty": "hard",
-      "tags": [
-        "ordering"
-      ]
-    },
-    {
-      "id": "eventloop-q4",
-      "topic": "Event Loop",
-      "question": "Who provides the Event Loop — the JS engine (V8) or the runtime (browser/Node)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "V8 engine"
-        },
-        {
-          "id": "b",
-          "text": "The runtime environment"
-        },
-        {
-          "id": "c",
-          "text": "The CPU"
-        },
-        {
-          "id": "d",
-          "text": "The DOM"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Event Loop is part of the host runtime (libuv in Node, browser), not the ECMAScript spec/engine.",
-      "difficulty": "medium",
-      "tags": [
-        "runtime"
-      ]
-    },
-    {
-      "id": "eventloop-q5",
-      "topic": "Event Loop",
-      "question": "What is the danger of an infinite chain of microtasks?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It crashes the CPU instantly"
-        },
-        {
-          "id": "b",
-          "text": "It starves the macrotask queue and UI rendering (page freezes)"
-        },
-        {
-          "id": "c",
-          "text": "It has no effect"
-        },
-        {
-          "id": "d",
-          "text": "It only affects Node.js"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Because microtasks drain fully before macrotasks/rendering, an infinite microtask loop blocks the UI.",
-      "difficulty": "hard",
-      "tags": [
-        "starvation"
-      ]
-    },
-    {
-      "id": "eventloop-q6",
-      "topic": "Event Loop",
-      "question": "In Node.js, which is generally processed before timers (setTimeout)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Microtasks (promise reactions) between phases"
-        },
-        {
-          "id": "b",
-          "text": "setImmediate always"
-        },
-        {
-          "id": "c",
-          "text": "I/O callbacks always"
-        },
-        {
-          "id": "d",
-          "text": "Nothing — timers always first"
-        }
-      ],
-      "correctOptionId": "a",
-      "explanation": "Node runs the microtask queue between each phase of its loop, so pending promise reactions run before timers.",
-      "difficulty": "hard",
-      "tags": [
-        "node"
-      ]
-    },
-    {
-      "id": "js-engine-q1",
-      "topic": "JavaScript Engine",
-      "question": "Which engine powers BOTH Google Chrome and Node.js?",
-      "options": [
-        {
-          "id": "a",
-          "text": "SpiderMonkey"
-        },
-        {
-          "id": "b",
-          "text": "V8"
-        },
-        {
-          "id": "c",
-          "text": "Chakra"
-        },
-        {
-          "id": "d",
-          "text": "JavaScriptCore"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 is Google's open-source engine used inside Chrome and as the core of Node.js.",
-      "difficulty": "easy",
-      "tags": [
-        "engine",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q2",
-      "topic": "JavaScript Engine",
-      "question": "What is the first stage a JS engine performs after reading source code?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Execute it line by line immediately"
-        },
-        {
-          "id": "b",
-          "text": "Parse it into an Abstract Syntax Tree (AST)"
-        },
-        {
-          "id": "c",
-          "text": "Compile directly to machine code"
-        },
-        {
-          "id": "d",
-          "text": "Send it to the GPU"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Parser tokenizes and validates syntax, producing an AST before compilation/execution.",
-      "difficulty": "medium",
-      "tags": [
-        "parser",
-        "ast"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q3",
-      "topic": "JavaScript Engine",
-      "question": "JIT stands for Just-In-Time. What does JIT compilation do in V8?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Interprets code once and discards it"
-        },
-        {
-          "id": "b",
-          "text": "Optimizes frequently-run ('hot') code paths dynamically"
-        },
-        {
-          "id": "c",
-          "text": "Only runs during page load"
-        },
-        {
-          "id": "d",
-          "text": "Disables the garbage collector"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "V8 uses Ignition (interpreter) + Turbofan (optimizing compiler) to optimize hot code at runtime.",
-      "difficulty": "medium",
-      "tags": [
-        "jit",
-        "v8"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q4",
-      "topic": "JavaScript Engine",
-      "question": "Is Node.js a JavaScript engine?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Yes, Node.js is the engine"
-        },
-        {
-          "id": "b",
-          "text": "No, Node.js is a runtime that embeds the V8 engine"
-        },
-        {
-          "id": "c",
-          "text": "No, it is a browser"
-        },
-        {
-          "id": "d",
-          "text": "Yes, but only on Windows"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Node.js is a runtime (V8 + libuv + C++ addons). The engine inside it is V8.",
-      "difficulty": "easy",
-      "tags": [
-        "runtime",
-        "node"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q5",
-      "topic": "JavaScript Engine",
-      "question": "Which component of the engine reclaims unused memory automatically?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The Call Stack"
-        },
-        {
-          "id": "b",
-          "text": "The Parser"
-        },
-        {
-          "id": "c",
-          "text": "The Garbage Collector"
-        },
-        {
-          "id": "d",
-          "text": "The Event Loop"
-        }
-      ],
-      "correctOptionId": "c",
-      "explanation": "V8's garbage collector (minor/major) reclaims unreachable objects from the heap.",
-      "difficulty": "easy",
-      "tags": [
-        "memory",
-        "gc"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q6",
-      "topic": "JavaScript Engine",
-      "question": "What commonly causes V8 to DEOPTIMIZE (revert optimized code to slower code)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Using consistent object shapes"
-        },
-        {
-          "id": "b",
-          "text": "Reassigning a variable to a different type in a hot path"
-        },
-        {
-          "id": "c",
-          "text": "Adding 'use strict'"
-        },
-        {
-          "id": "d",
-          "text": "Declaring const variables"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Type changes break inline caches / hidden classes, forcing deoptimization of hot functions.",
-      "difficulty": "hard",
-      "tags": [
-        "optimization",
-        "deopt"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q7",
-      "topic": "JavaScript Engine",
-      "question": "Which statement is TRUE about the Event Loop?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It is part of the JavaScript language spec"
-        },
-        {
-          "id": "b",
-          "text": "It is provided by the runtime environment (browser/Node), not the engine itself"
-        },
-        {
-          "id": "c",
-          "text": "It lives inside V8 directly"
-        },
-        {
-          "id": "d",
-          "text": "It only exists in Node.js"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "The Event Loop is runtime-provided (libuv in Node, browser APIs). The engine handles execution contexts & call stack.",
-      "difficulty": "medium",
-      "tags": [
-        "event-loop",
-        "runtime"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
-    },
-    {
-      "id": "js-engine-q8",
-      "topic": "JavaScript Engine",
-      "question": "In Angular, what does Zone.js patching help the engine/runtime trigger?",
-      "options": [
-        {
-          "id": "a",
-          "text": "CSS animations"
-        },
-        {
-          "id": "b",
-          "text": "Change detection after async operations"
-        },
-        {
-          "id": "c",
-          "text": "Garbage collection"
-        },
-        {
-          "id": "d",
-          "text": "HTTP caching"
-        }
-      ],
-      "correctOptionId": "b",
-      "explanation": "Zone.js monkey-patches async APIs so Angular knows when to run change detection.",
-      "difficulty": "hard",
-      "tags": [
-        "angular",
-        "zonejs"
-      ],
-      "_srcTopic": "JavaScript Engine Quiz",
-      "_srcPath": "01-javascript/01-javascript-fundamentals/001 - JavaScript Engine.md.quiz.json"
     }
   ]
 }

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/021 - ES6 Classes.md",
+  "title": "ES6 Classes Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g127",
+      "topic": "ES6 Classes",
+      "question": "What is \"ES6 Classes\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to ES6 Classes."
+        },
+        {
+          "id": "b",
+          "text": "ES6 introduced the class keyword as syntactic sugar over JavaScript's existing prototype-based inheritance model."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to ES6 Classes."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: ES6 introduced the class keyword as syntactic sugar over JavaScript's existing prototype-based inheritance model.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g128",
+      "topic": "ES6 Classes",
+      "question": "Which statement about ES6 Classes is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ES6 Classes has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "ES6 Classes only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "ES6 Classes was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "ES6 introduced the class keyword as syntactic sugar over JavaScript's existing prototype-based inheritance model."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of ES6 Classes.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g129",
+      "topic": "ES6 Classes",
+      "question": "Why is ES6 Classes useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for ES6 Classes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g130",
+      "topic": "ES6 Classes",
+      "question": "Where would you most likely apply ES6 Classes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for ES6 Classes."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where ES6 Classes applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g131",
+      "topic": "ES6 Classes",
+      "question": "Which practice is recommended when using ES6 Classes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for ES6 Classes."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply ES6 Classes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g132",
+      "topic": "ES6 Classes",
+      "question": "How does ES6 Classes behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of ES6 Classes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

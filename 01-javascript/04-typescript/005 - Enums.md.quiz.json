@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/005 - Enums.md",
+  "title": "Enums Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g379",
+      "topic": "Enums",
+      "question": "What is \"Enums\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Enums."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Enums."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g380",
+      "topic": "Enums",
+      "question": "Which statement about Enums is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enums has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Enums was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Enums only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "An Enum (short for \"enumerated type\") is a way to define a set of named constants — making code more readable and maintainable."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Enums.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g381",
+      "topic": "Enums",
+      "question": "Given the Enums code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Enums."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It produces no output at all."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Enums.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g382",
+      "topic": "Enums",
+      "question": "Why is Enums useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Enums.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g383",
+      "topic": "Enums",
+      "question": "Where would you most likely apply Enums?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Enums."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Enums applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g384",
+      "topic": "Enums",
+      "question": "Which practice is recommended when using Enums?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Enums."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Enums.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/007 - Mocking Strategies.md",
+  "title": "Mocking Strategies Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1314",
+      "topic": "Mocking Strategies",
+      "question": "What is \"Mocking Strategies\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Mocking Strategies."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Mocking Strategies."
+        },
+        {
+          "id": "d",
+          "text": "Error Handling catches and gracefully handles exceptions — both expected (validation, network) and unexpected (runtime crashes)."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Error Handling catches and gracefully handles exceptions — both expected (validation, network) and unexpected (runtime crashes).",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1315",
+      "topic": "Mocking Strategies",
+      "question": "Which statement about Mocking Strategies is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mocking Strategies was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Mocking Strategies only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Error Handling catches and gracefully handles exceptions — both expected (validation, network) and unexpected (runtime crashes)."
+        },
+        {
+          "id": "d",
+          "text": "Mocking Strategies has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Mocking Strategies.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1316",
+      "topic": "Mocking Strategies",
+      "question": "Given the Mocking Strategies code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It follows the documented step-by-step execution shown for Mocking Strategies."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Mocking Strategies.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g1317",
+      "topic": "Mocking Strategies",
+      "question": "Why is Mocking Strategies useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Mocking Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1318",
+      "topic": "Mocking Strategies",
+      "question": "Where would you most likely apply Mocking Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Mocking Strategies."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Mocking Strategies applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1319",
+      "topic": "Mocking Strategies",
+      "question": "Which practice is recommended when using Mocking Strategies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Mocking Strategies."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Mocking Strategies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

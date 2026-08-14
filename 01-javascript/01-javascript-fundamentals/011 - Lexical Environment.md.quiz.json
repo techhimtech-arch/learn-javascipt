@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/011 - Lexical Environment.md",
+  "title": "Lexical Environment Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g67",
+      "topic": "Lexical Environment",
+      "question": "What is \"Lexical Environment\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Lexical Environment."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A Lexical Environment is an internal structure in the JavaScript engine that maps variable names to their values within a particular scope."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Lexical Environment."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: A Lexical Environment is an internal structure in the JavaScript engine that maps variable names to their values within a particular scope.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g68",
+      "topic": "Lexical Environment",
+      "question": "Which statement about Lexical Environment is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lexical Environment has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "A Lexical Environment is an internal structure in the JavaScript engine that maps variable names to their values within a particular scope."
+        },
+        {
+          "id": "c",
+          "text": "Lexical Environment was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Lexical Environment only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Lexical Environment.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g69",
+      "topic": "Lexical Environment",
+      "question": "Why is Lexical Environment useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Lexical Environment.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g70",
+      "topic": "Lexical Environment",
+      "question": "Where would you most likely apply Lexical Environment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Lexical Environment."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Lexical Environment applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g71",
+      "topic": "Lexical Environment",
+      "question": "Which practice is recommended when using Lexical Environment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Lexical Environment."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Lexical Environment.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g72",
+      "topic": "Lexical Environment",
+      "question": "How does Lexical Environment behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Lexical Environment.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

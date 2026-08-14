@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/013 - Pipes.md",
+  "title": "Pipes Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g804",
+      "topic": "Pipes",
+      "question": "What is \"Pipes\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Pipes."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Pipes."
+        },
+        {
+          "id": "d",
+          "text": "Angular Pipes are pure functions transforming displayed values within templates — accepting input and returning transformed output."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular Pipes are pure functions transforming displayed values within templates — accepting input and returning transformed output.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g805",
+      "topic": "Pipes",
+      "question": "Which statement about Pipes is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Angular Pipes are pure functions transforming displayed values within templates — accepting input and returning transformed output."
+        },
+        {
+          "id": "b",
+          "text": "Pipes has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Pipes only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Pipes was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Pipes.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g806",
+      "topic": "Pipes",
+      "question": "Why is Pipes useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Pipes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g807",
+      "topic": "Pipes",
+      "question": "Where would you most likely apply Pipes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Pipes."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Pipes applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g808",
+      "topic": "Pipes",
+      "question": "Which practice is recommended when using Pipes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Pipes."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Pipes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g809",
+      "topic": "Pipes",
+      "question": "How does Pipes behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Pipes.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

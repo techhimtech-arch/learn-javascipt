@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/03-testing/008 - Testing Best Practices.md",
+  "title": "Testing Best Practices Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1320",
+      "topic": "Testing Best Practices",
+      "question": "What is \"Testing Best Practices\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Testing Best Practices."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Testing Best Practices."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Angular Testing Best Practices ensure reliable, maintainable tests covering unit, integration, and end-to-end scenarios effectively."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Angular Testing Best Practices ensure reliable, maintainable tests covering unit, integration, and end-to-end scenarios effectively.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1321",
+      "topic": "Testing Best Practices",
+      "question": "Which statement about Testing Best Practices is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Testing Best Practices only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Testing Best Practices has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Testing Best Practices was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Angular Testing Best Practices ensure reliable, maintainable tests covering unit, integration, and end-to-end scenarios effectively."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Testing Best Practices.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1322",
+      "topic": "Testing Best Practices",
+      "question": "Why is Testing Best Practices useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Testing Best Practices.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1323",
+      "topic": "Testing Best Practices",
+      "question": "Where would you most likely apply Testing Best Practices?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Testing Best Practices."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Testing Best Practices applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1324",
+      "topic": "Testing Best Practices",
+      "question": "Which practice is recommended when using Testing Best Practices?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Testing Best Practices."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Testing Best Practices.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1325",
+      "topic": "Testing Best Practices",
+      "question": "How does Testing Best Practices behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Testing Best Practices.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

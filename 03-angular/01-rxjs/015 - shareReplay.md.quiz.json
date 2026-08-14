@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/015 - shareReplay.md",
+  "title": "shareReplay Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g672",
+      "topic": "shareReplay",
+      "question": "What is \"shareReplay\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "shareReplay multicasts the last N emissions to new subscribers — sharing a single underlying execution among multiple observers while caching recent values."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to shareReplay."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to shareReplay."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: shareReplay multicasts the last N emissions to new subscribers — sharing a single underlying execution among multiple observers while caching recent values.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g673",
+      "topic": "shareReplay",
+      "question": "Which statement about shareReplay is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "shareReplay multicasts the last N emissions to new subscribers — sharing a single underlying execution among multiple observers while caching recent values."
+        },
+        {
+          "id": "b",
+          "text": "shareReplay was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "shareReplay has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "shareReplay only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of shareReplay.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g674",
+      "topic": "shareReplay",
+      "question": "Why is shareReplay useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g675",
+      "topic": "shareReplay",
+      "question": "Where would you most likely apply shareReplay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for shareReplay."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where shareReplay applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g676",
+      "topic": "shareReplay",
+      "question": "Which practice is recommended when using shareReplay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for shareReplay."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g677",
+      "topic": "shareReplay",
+      "question": "How does shareReplay behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of shareReplay.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

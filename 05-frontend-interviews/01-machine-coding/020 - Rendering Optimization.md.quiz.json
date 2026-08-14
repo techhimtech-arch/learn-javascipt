@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/020 - Rendering Optimization.md",
+  "title": "Rendering Optimization Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1182",
+      "topic": "Rendering Optimization",
+      "question": "What is \"Rendering Optimization\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rendering 100,000+ records efficiently requires virtuali"
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Rendering Optimization."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Rendering Optimization."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Rendering 100,000+ records efficiently requires virtuali",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1183",
+      "topic": "Rendering Optimization",
+      "question": "Which statement about Rendering Optimization is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rendering Optimization has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Rendering Optimization was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Rendering Optimization only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Rendering 100,000+ records efficiently requires virtuali"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Rendering Optimization.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1184",
+      "topic": "Rendering Optimization",
+      "question": "Why is Rendering Optimization useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Rendering Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1185",
+      "topic": "Rendering Optimization",
+      "question": "Where would you most likely apply Rendering Optimization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Rendering Optimization."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Rendering Optimization applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1186",
+      "topic": "Rendering Optimization",
+      "question": "Which practice is recommended when using Rendering Optimization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Rendering Optimization."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Rendering Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1187",
+      "topic": "Rendering Optimization",
+      "question": "How does Rendering Optimization behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Rendering Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

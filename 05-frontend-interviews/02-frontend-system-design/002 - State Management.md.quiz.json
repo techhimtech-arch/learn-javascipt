@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/002 - State Management.md",
+  "title": "State Management Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1212",
+      "topic": "State Management",
+      "question": "What is \"State Management\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "State Management coordinates application-wide data and UI state — ensuring consistent updates across components."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to State Management."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to State Management."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: State Management coordinates application-wide data and UI state — ensuring consistent updates across components.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1213",
+      "topic": "State Management",
+      "question": "Which statement about State Management is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "State Management was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "State Management only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "State Management coordinates application-wide data and UI state — ensuring consistent updates across components."
+        },
+        {
+          "id": "d",
+          "text": "State Management has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of State Management.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1214",
+      "topic": "State Management",
+      "question": "Why is State Management useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1215",
+      "topic": "State Management",
+      "question": "Where would you most likely apply State Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for State Management."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where State Management applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1216",
+      "topic": "State Management",
+      "question": "Which practice is recommended when using State Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for State Management."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1217",
+      "topic": "State Management",
+      "question": "How does State Management behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of State Management.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

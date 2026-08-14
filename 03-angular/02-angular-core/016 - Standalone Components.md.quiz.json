@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/016 - Standalone Components.md",
+  "title": "Standalone Components Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g822",
+      "topic": "Standalone Components",
+      "question": "What is \"Standalone Components\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Standalone Components."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Standalone Components."
+        },
+        {
+          "id": "c",
+          "text": "Standalone Components are Angular components, directives, and pipes that import their own dependencies directly — without needing NgModule declarations."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Standalone Components are Angular components, directives, and pipes that import their own dependencies directly — without needing NgModule declarations.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g823",
+      "topic": "Standalone Components",
+      "question": "Which statement about Standalone Components is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Standalone Components has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Standalone Components are Angular components, directives, and pipes that import their own dependencies directly — without needing NgModule declarations."
+        },
+        {
+          "id": "c",
+          "text": "Standalone Components was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Standalone Components only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Standalone Components.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g824",
+      "topic": "Standalone Components",
+      "question": "Why is Standalone Components useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Standalone Components.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g825",
+      "topic": "Standalone Components",
+      "question": "Where would you most likely apply Standalone Components?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Standalone Components."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Standalone Components applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g826",
+      "topic": "Standalone Components",
+      "question": "Which practice is recommended when using Standalone Components?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Standalone Components."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Standalone Components.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g827",
+      "topic": "Standalone Components",
+      "question": "How does Standalone Components behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Standalone Components.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

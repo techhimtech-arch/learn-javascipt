@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/009 - Web APIs.md",
+  "title": "Web APIs Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g211",
+      "topic": "Web APIs",
+      "question": "What is \"Web APIs\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Web APIs are capabilities provided by the browser/host environment that extend what JavaScript can do — such as manipulating documents (DOM), making HTTP requests (fetch), setting timers (setTimeout), and more."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Web APIs."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Web APIs."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Web APIs are capabilities provided by the browser/host environment that extend what JavaScript can do — such as manipulating documents (DOM), making HTTP requests (fetch), setting timers (setTimeout), and more.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g212",
+      "topic": "Web APIs",
+      "question": "Which statement about Web APIs is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Web APIs has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Web APIs are capabilities provided by the browser/host environment that extend what JavaScript can do — such as manipulating documents (DOM), making HTTP requests (fetch), setting timers (setTimeout), and more."
+        },
+        {
+          "id": "c",
+          "text": "Web APIs was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Web APIs only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Web APIs.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g213",
+      "topic": "Web APIs",
+      "question": "Why is Web APIs useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Web APIs.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g214",
+      "topic": "Web APIs",
+      "question": "Where would you most likely apply Web APIs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Web APIs."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Web APIs applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g215",
+      "topic": "Web APIs",
+      "question": "Which practice is recommended when using Web APIs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Web APIs."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Web APIs.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g216",
+      "topic": "Web APIs",
+      "question": "How does Web APIs behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Web APIs.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

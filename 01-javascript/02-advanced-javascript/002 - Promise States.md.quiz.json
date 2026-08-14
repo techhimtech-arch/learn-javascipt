@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/02-advanced-javascript/002 - Promise States.md",
+  "title": "Promise States Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g181",
+      "topic": "Promise States",
+      "question": "What is \"Promise States\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Promise States."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Promise States."
+        },
+        {
+          "id": "c",
+          "text": "Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g182",
+      "topic": "Promise States",
+      "question": "Which statement about Promise States is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Promise States was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Promises have three states: - pending: initial state, neither fulfilled nor rejected - fulfilled: operation completed successfully - rejected: operation failed Once settled, transitions are irreversible — no going back to pending …"
+        },
+        {
+          "id": "c",
+          "text": "Promise States has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Promise States only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Promise States.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g183",
+      "topic": "Promise States",
+      "question": "Why is Promise States useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g184",
+      "topic": "Promise States",
+      "question": "Where would you most likely apply Promise States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Promise States."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Promise States applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g185",
+      "topic": "Promise States",
+      "question": "Which practice is recommended when using Promise States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Promise States."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g186",
+      "topic": "Promise States",
+      "question": "How does Promise States behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Promise States.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

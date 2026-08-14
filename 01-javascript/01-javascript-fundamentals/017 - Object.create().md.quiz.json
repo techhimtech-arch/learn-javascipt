@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/017 - Object.create().md",
+  "title": "Object.create() Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g103",
+      "topic": "Object.create()",
+      "question": "What is \"Object.create()\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Object.create()."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Object.create()."
+        },
+        {
+          "id": "d",
+          "text": "Object.create() is a static method that creates a new object using an existing object as the prototype of the newly created object."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Object.create() is a static method that creates a new object using an existing object as the prototype of the newly created object.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g104",
+      "topic": "Object.create()",
+      "question": "Which statement about Object.create() is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Object.create() was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Object.create() has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Object.create() is a static method that creates a new object using an existing object as the prototype of the newly created object."
+        },
+        {
+          "id": "d",
+          "text": "Object.create() only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Object.create().",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g105",
+      "topic": "Object.create()",
+      "question": "Why is Object.create() useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Object.create().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g106",
+      "topic": "Object.create()",
+      "question": "Where would you most likely apply Object.create()?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Object.create()."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Object.create() applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g107",
+      "topic": "Object.create()",
+      "question": "Which practice is recommended when using Object.create()?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Object.create()."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Object.create().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g108",
+      "topic": "Object.create()",
+      "question": "How does Object.create() behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Object.create().",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/023 - Immutability.md",
+  "title": "Immutability Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1194",
+      "topic": "Immutability",
+      "question": "What is \"Immutability\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Immutability."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Immutability ensures data structures never change after creation — requiring new copies for modifications instead of in-place edits."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Immutability."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Immutability ensures data structures never change after creation — requiring new copies for modifications instead of in-place edits.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1195",
+      "topic": "Immutability",
+      "question": "Which statement about Immutability is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immutability was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Immutability only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Immutability has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Immutability ensures data structures never change after creation — requiring new copies for modifications instead of in-place edits."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Immutability.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1196",
+      "topic": "Immutability",
+      "question": "Why is Immutability useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Immutability.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1197",
+      "topic": "Immutability",
+      "question": "Where would you most likely apply Immutability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Immutability."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Immutability applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1198",
+      "topic": "Immutability",
+      "question": "Which practice is recommended when using Immutability?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Immutability."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Immutability.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1199",
+      "topic": "Immutability",
+      "question": "How does Immutability behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Immutability.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

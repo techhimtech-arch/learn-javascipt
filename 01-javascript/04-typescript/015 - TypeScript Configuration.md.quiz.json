@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/015 - TypeScript Configuration.md",
+  "title": "TypeScript Configuration Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g433",
+      "topic": "TypeScript Configuration",
+      "question": "What is \"TypeScript Configuration\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tsconfig.json is the configuration file defining compiler options, file exclusions/inclusions, and project structure for TypeScript projects."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to TypeScript Configuration."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to TypeScript Configuration."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: tsconfig.json is the configuration file defining compiler options, file exclusions/inclusions, and project structure for TypeScript projects.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g434",
+      "topic": "TypeScript Configuration",
+      "question": "Which statement about TypeScript Configuration is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript Configuration was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "tsconfig.json is the configuration file defining compiler options, file exclusions/inclusions, and project structure for TypeScript projects."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Configuration only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Configuration has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of TypeScript Configuration.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g435",
+      "topic": "TypeScript Configuration",
+      "question": "Why is TypeScript Configuration useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TypeScript Configuration.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g436",
+      "topic": "TypeScript Configuration",
+      "question": "Where would you most likely apply TypeScript Configuration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for TypeScript Configuration."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TypeScript Configuration applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g437",
+      "topic": "TypeScript Configuration",
+      "question": "Which practice is recommended when using TypeScript Configuration?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for TypeScript Configuration."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TypeScript Configuration.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g438",
+      "topic": "TypeScript Configuration",
+      "question": "How does TypeScript Configuration behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of TypeScript Configuration.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

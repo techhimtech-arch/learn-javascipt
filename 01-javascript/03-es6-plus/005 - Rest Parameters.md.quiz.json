@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/005 - Rest Parameters.md",
+  "title": "Rest Parameters Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g331",
+      "topic": "Rest Parameters",
+      "question": "What is \"Rest Parameters\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Rest Parameters."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g332",
+      "topic": "Rest Parameters",
+      "question": "Which statement about Rest Parameters is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rest Parameters only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Rest parameters collect multiple elements into a single array, opposite to spread — aggregating remaining inputs into one parameter."
+        },
+        {
+          "id": "c",
+          "text": "Rest Parameters was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Rest Parameters has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Rest Parameters.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g333",
+      "topic": "Rest Parameters",
+      "question": "Given the Rest Parameters code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Rest Parameters."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Rest Parameters.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g334",
+      "topic": "Rest Parameters",
+      "question": "Why is Rest Parameters useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Rest Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g335",
+      "topic": "Rest Parameters",
+      "question": "Where would you most likely apply Rest Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Rest Parameters applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g336",
+      "topic": "Rest Parameters",
+      "question": "Which practice is recommended when using Rest Parameters?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Rest Parameters."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Rest Parameters.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

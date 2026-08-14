@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/025 - Reactive Forms Advanced.md",
+  "title": "Reactive Forms Advanced Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g876",
+      "topic": "Reactive Forms Advanced",
+      "question": "What is \"Reactive Forms Advanced\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced Reactive Forms cover custom validators, async validation, form arrays, and dynamic form generation."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Reactive Forms Advanced."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Reactive Forms Advanced."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Advanced Reactive Forms cover custom validators, async validation, form arrays, and dynamic form generation.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g877",
+      "topic": "Reactive Forms Advanced",
+      "question": "Which statement about Reactive Forms Advanced is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reactive Forms Advanced has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Reactive Forms Advanced only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Advanced Reactive Forms cover custom validators, async validation, form arrays, and dynamic form generation."
+        },
+        {
+          "id": "d",
+          "text": "Reactive Forms Advanced was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Reactive Forms Advanced.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g878",
+      "topic": "Reactive Forms Advanced",
+      "question": "Why is Reactive Forms Advanced useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Reactive Forms Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g879",
+      "topic": "Reactive Forms Advanced",
+      "question": "Where would you most likely apply Reactive Forms Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Reactive Forms Advanced."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Reactive Forms Advanced applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g880",
+      "topic": "Reactive Forms Advanced",
+      "question": "Which practice is recommended when using Reactive Forms Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Reactive Forms Advanced."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Reactive Forms Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g881",
+      "topic": "Reactive Forms Advanced",
+      "question": "How does Reactive Forms Advanced behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Reactive Forms Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

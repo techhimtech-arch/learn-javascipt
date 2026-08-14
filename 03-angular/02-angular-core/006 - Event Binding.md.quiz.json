@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/006 - Event Binding.md",
+  "title": "Event Binding Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g774",
+      "topic": "Event Binding",
+      "question": "What is \"Event Binding\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Event Binding ((event)=\"handler()\") listens to DOM events (click, input, submit) or component emissions — triggering component methods."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Event Binding."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Event Binding."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Event Binding ((event)=\"handler()\") listens to DOM events (click, input, submit) or component emissions — triggering component methods.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g775",
+      "topic": "Event Binding",
+      "question": "Which statement about Event Binding is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Event Binding has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Event Binding was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Event Binding only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Event Binding ((event)=\"handler()\") listens to DOM events (click, input, submit) or component emissions — triggering component methods."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Event Binding.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g776",
+      "topic": "Event Binding",
+      "question": "Why is Event Binding useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Event Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g777",
+      "topic": "Event Binding",
+      "question": "Where would you most likely apply Event Binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Event Binding."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Event Binding applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g778",
+      "topic": "Event Binding",
+      "question": "Which practice is recommended when using Event Binding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Event Binding."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Event Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g779",
+      "topic": "Event Binding",
+      "question": "How does Event Binding behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Event Binding.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

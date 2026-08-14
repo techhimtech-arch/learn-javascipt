@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/04-general-interview-questions/003 - Top RxJS Interview Questions.md",
+  "title": "Top RxJS Interview Questions Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1338",
+      "topic": "Top RxJS Interview Questions",
+      "question": "What is \"Top RxJS Interview Questions\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Top RxJS Interview Questions."
+        },
+        {
+          "id": "b",
+          "text": "Collection of frequently asked RxJS technical interview questions covering Observables, Operators, Subjects, Error Handling, and advanced patterns."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Top RxJS Interview Questions."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Collection of frequently asked RxJS technical interview questions covering Observables, Operators, Subjects, Error Handling, and advanced patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1339",
+      "topic": "Top RxJS Interview Questions",
+      "question": "Which statement about Top RxJS Interview Questions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Top RxJS Interview Questions only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Top RxJS Interview Questions has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Top RxJS Interview Questions was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Collection of frequently asked RxJS technical interview questions covering Observables, Operators, Subjects, Error Handling, and advanced patterns."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Top RxJS Interview Questions.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1340",
+      "topic": "Top RxJS Interview Questions",
+      "question": "Why is Top RxJS Interview Questions useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Top RxJS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1341",
+      "topic": "Top RxJS Interview Questions",
+      "question": "Where would you most likely apply Top RxJS Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Top RxJS Interview Questions."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Top RxJS Interview Questions applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1342",
+      "topic": "Top RxJS Interview Questions",
+      "question": "Which practice is recommended when using Top RxJS Interview Questions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Top RxJS Interview Questions."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Top RxJS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1343",
+      "topic": "Top RxJS Interview Questions",
+      "question": "How does Top RxJS Interview Questions behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Top RxJS Interview Questions.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

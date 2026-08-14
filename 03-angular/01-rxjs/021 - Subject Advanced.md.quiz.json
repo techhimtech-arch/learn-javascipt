@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/021 - Subject Advanced.md",
+  "title": "Subject Advanced Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g714",
+      "topic": "Subject Advanced",
+      "question": "What is \"Subject Advanced\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Subject Advanced."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Subject Advanced."
+        },
+        {
+          "id": "c",
+          "text": "Advanced Subjects explore speciali"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Advanced Subjects explore speciali",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g715",
+      "topic": "Subject Advanced",
+      "question": "Which statement about Subject Advanced is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subject Advanced has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Subject Advanced only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Subject Advanced was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Advanced Subjects explore speciali"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Subject Advanced.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g716",
+      "topic": "Subject Advanced",
+      "question": "Given the Subject Advanced code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Subject Advanced."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Subject Advanced.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g717",
+      "topic": "Subject Advanced",
+      "question": "Why is Subject Advanced useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Subject Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g718",
+      "topic": "Subject Advanced",
+      "question": "Where would you most likely apply Subject Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Subject Advanced."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Subject Advanced applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g719",
+      "topic": "Subject Advanced",
+      "question": "Which practice is recommended when using Subject Advanced?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Subject Advanced."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Subject Advanced.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

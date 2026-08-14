@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/008 - Lifecycle Hooks.md",
+  "title": "Lifecycle Hooks Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g780",
+      "topic": "Lifecycle Hooks",
+      "question": "What is \"Lifecycle Hooks\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Lifecycle Hooks."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Lifecycle Hooks."
+        },
+        {
+          "id": "c",
+          "text": "Angular Lifecycle Hooks are interfaces/methods called at specific moments during a component/directive/service lifecycle — providing control over initiali"
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Angular Lifecycle Hooks are interfaces/methods called at specific moments during a component/directive/service lifecycle — providing control over initiali",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g781",
+      "topic": "Lifecycle Hooks",
+      "question": "Which statement about Lifecycle Hooks is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lifecycle Hooks only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Lifecycle Hooks was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Lifecycle Hooks has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Angular Lifecycle Hooks are interfaces/methods called at specific moments during a component/directive/service lifecycle — providing control over initiali"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of Lifecycle Hooks.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g782",
+      "topic": "Lifecycle Hooks",
+      "question": "Given the Lifecycle Hooks code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Lifecycle Hooks."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Lifecycle Hooks.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g783",
+      "topic": "Lifecycle Hooks",
+      "question": "Why is Lifecycle Hooks useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Lifecycle Hooks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g784",
+      "topic": "Lifecycle Hooks",
+      "question": "Where would you most likely apply Lifecycle Hooks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Lifecycle Hooks."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Lifecycle Hooks applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g785",
+      "topic": "Lifecycle Hooks",
+      "question": "Which practice is recommended when using Lifecycle Hooks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Lifecycle Hooks."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Lifecycle Hooks.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

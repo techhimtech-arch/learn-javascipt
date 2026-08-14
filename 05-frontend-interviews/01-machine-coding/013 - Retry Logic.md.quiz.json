@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/013 - Retry Logic.md",
+  "title": "Retry Logic Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1116",
+      "topic": "Retry Logic",
+      "question": "What is \"Retry Logic\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Retry Logic."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Retry Logic."
+        },
+        {
+          "id": "c",
+          "text": "Retry Logic automatically re-attempts failed operations within defined constraints — improving resilience against transient failures."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Retry Logic automatically re-attempts failed operations within defined constraints — improving resilience against transient failures.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1117",
+      "topic": "Retry Logic",
+      "question": "Which statement about Retry Logic is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retry Logic only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Retry Logic has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Retry Logic automatically re-attempts failed operations within defined constraints — improving resilience against transient failures."
+        },
+        {
+          "id": "d",
+          "text": "Retry Logic was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Retry Logic.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1118",
+      "topic": "Retry Logic",
+      "question": "Why is Retry Logic useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Retry Logic.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1119",
+      "topic": "Retry Logic",
+      "question": "Where would you most likely apply Retry Logic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Retry Logic."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Retry Logic applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1120",
+      "topic": "Retry Logic",
+      "question": "Which practice is recommended when using Retry Logic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Retry Logic."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Retry Logic.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1121",
+      "topic": "Retry Logic",
+      "question": "How does Retry Logic behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Retry Logic.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

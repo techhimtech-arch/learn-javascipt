@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/005 - Repaint.md",
+  "title": "Repaint Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g535",
+      "topic": "Repaint",
+      "question": "What is \"Repaint\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "Repaint occurs when elements are updated visually — colors, backgrounds, visibility — without altering layout or geometry."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Repaint."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Repaint."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Repaint occurs when elements are updated visually — colors, backgrounds, visibility — without altering layout or geometry.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g536",
+      "topic": "Repaint",
+      "question": "Which statement about Repaint is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repaint occurs when elements are updated visually — colors, backgrounds, visibility — without altering layout or geometry."
+        },
+        {
+          "id": "b",
+          "text": "Repaint only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Repaint was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Repaint has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Repaint.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g537",
+      "topic": "Repaint",
+      "question": "Why is Repaint useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Repaint.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g538",
+      "topic": "Repaint",
+      "question": "Where would you most likely apply Repaint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for Repaint."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Repaint applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g539",
+      "topic": "Repaint",
+      "question": "Which practice is recommended when using Repaint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Repaint."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Repaint.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g540",
+      "topic": "Repaint",
+      "question": "How does Repaint behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Repaint.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

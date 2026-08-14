@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/03-es6-plus/010 - Dynamic Imports.md",
+  "title": "Dynamic Imports Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g355",
+      "topic": "Dynamic Imports",
+      "question": "What is \"Dynamic Imports\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Dynamic Imports."
+        },
+        {
+          "id": "c",
+          "text": "Dynamic imports (import()) enable loading modules asynchronously at runtime — returning a Promise resolving to the module namespace object."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Dynamic Imports."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Dynamic imports (import()) enable loading modules asynchronously at runtime — returning a Promise resolving to the module namespace object.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g356",
+      "topic": "Dynamic Imports",
+      "question": "Which statement about Dynamic Imports is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dynamic imports (import()) enable loading modules asynchronously at runtime — returning a Promise resolving to the module namespace object."
+        },
+        {
+          "id": "b",
+          "text": "Dynamic Imports was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "Dynamic Imports only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Dynamic Imports has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Dynamic Imports.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g357",
+      "topic": "Dynamic Imports",
+      "question": "Why is Dynamic Imports useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Dynamic Imports.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g358",
+      "topic": "Dynamic Imports",
+      "question": "Where would you most likely apply Dynamic Imports?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Dynamic Imports."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Dynamic Imports applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g359",
+      "topic": "Dynamic Imports",
+      "question": "Which practice is recommended when using Dynamic Imports?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Dynamic Imports."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Dynamic Imports.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g360",
+      "topic": "Dynamic Imports",
+      "question": "How does Dynamic Imports behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Dynamic Imports.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

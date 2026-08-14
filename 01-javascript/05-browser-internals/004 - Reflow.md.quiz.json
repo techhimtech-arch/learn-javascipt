@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/05-browser-internals/004 - Reflow.md",
+  "title": "Reflow Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g529",
+      "topic": "Reflow",
+      "question": "What is \"Reflow\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reflow is the process by which browsers recalculate the layout of part or whole document — triggered by DOM/CSS structural changes."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Reflow."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Reflow."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Reflow is the process by which browsers recalculate the layout of part or whole document — triggered by DOM/CSS structural changes.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g530",
+      "topic": "Reflow",
+      "question": "Which statement about Reflow is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reflow was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Reflow is the process by which browsers recalculate the layout of part or whole document — triggered by DOM/CSS structural changes."
+        },
+        {
+          "id": "c",
+          "text": "Reflow only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Reflow has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Reflow.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g531",
+      "topic": "Reflow",
+      "question": "Given the Reflow code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for Reflow."
+        },
+        {
+          "id": "c",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Reflow.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g532",
+      "topic": "Reflow",
+      "question": "Why is Reflow useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Reflow.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g533",
+      "topic": "Reflow",
+      "question": "Where would you most likely apply Reflow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In the real-world / production scenario documented for Reflow."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Reflow applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g534",
+      "topic": "Reflow",
+      "question": "Which practice is recommended when using Reflow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Reflow."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Reflow.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

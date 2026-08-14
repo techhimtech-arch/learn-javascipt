@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/017 - Pipe.md",
+  "title": "Pipe Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1140",
+      "topic": "Pipe",
+      "question": "What is \"Pipe\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to Pipe."
+        },
+        {
+          "id": "b",
+          "text": "Pipe is a JavaScript utility that composes multiple unary (single-argument) functions from left-to-right, passing the output of one as input to the next."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Pipe."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: Pipe is a JavaScript utility that composes multiple unary (single-argument) functions from left-to-right, passing the output of one as input to the next.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1141",
+      "topic": "Pipe",
+      "question": "Which statement about Pipe is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pipe was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Pipe is a JavaScript utility that composes multiple unary (single-argument) functions from left-to-right, passing the output of one as input to the next."
+        },
+        {
+          "id": "c",
+          "text": "Pipe only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "Pipe has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Pipe.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1142",
+      "topic": "Pipe",
+      "question": "Why is Pipe useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1143",
+      "topic": "Pipe",
+      "question": "Where would you most likely apply Pipe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Pipe."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Pipe applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1144",
+      "topic": "Pipe",
+      "question": "Which practice is recommended when using Pipe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Pipe."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1145",
+      "topic": "Pipe",
+      "question": "How does Pipe behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Pipe.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

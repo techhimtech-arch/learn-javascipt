@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/01-machine-coding/019 - Cancel Requests.md",
+  "title": "Cancel Requests Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1164",
+      "topic": "Cancel Requests",
+      "question": "What is \"Cancel Requests\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cancel Previous API Requests aborts pending network calls triggered by newer duplicate actions — avoiding race conditions and unnecessary work."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Cancel Requests."
+        },
+        {
+          "id": "d",
+          "text": "An external database engine unrelated to Cancel Requests."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Cancel Previous API Requests aborts pending network calls triggered by newer duplicate actions — avoiding race conditions and unnecessary work.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1165",
+      "topic": "Cancel Requests",
+      "question": "Which statement about Cancel Requests is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cancel Requests was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "Cancel Requests only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Cancel Previous API Requests aborts pending network calls triggered by newer duplicate actions — avoiding race conditions and unnecessary work."
+        },
+        {
+          "id": "d",
+          "text": "Cancel Requests has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Cancel Requests.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1166",
+      "topic": "Cancel Requests",
+      "question": "Why is Cancel Requests useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Cancel Requests.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1167",
+      "topic": "Cancel Requests",
+      "question": "Where would you most likely apply Cancel Requests?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Cancel Requests."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Cancel Requests applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1168",
+      "topic": "Cancel Requests",
+      "question": "Which practice is recommended when using Cancel Requests?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "Following the documented Production Best Practices for Cancel Requests."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Cancel Requests.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1169",
+      "topic": "Cancel Requests",
+      "question": "How does Cancel Requests behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Cancel Requests.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

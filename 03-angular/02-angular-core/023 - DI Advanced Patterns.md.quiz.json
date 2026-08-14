@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/02-angular-core/023 - DI Advanced Patterns.md",
+  "title": "DI Advanced Patterns Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g864",
+      "topic": "DI Advanced Patterns",
+      "question": "What is \"DI Advanced Patterns\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to DI Advanced Patterns."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "Advanced DI patterns handle dynamic injection, hierarchical overrides, and service composition."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to DI Advanced Patterns."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Per the documented definition: Advanced DI patterns handle dynamic injection, hierarchical overrides, and service composition.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g865",
+      "topic": "DI Advanced Patterns",
+      "question": "Which statement about DI Advanced Patterns is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DI Advanced Patterns was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "b",
+          "text": "DI Advanced Patterns only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "DI Advanced Patterns has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Advanced DI patterns handle dynamic injection, hierarchical overrides, and service composition."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Based on the documented definition/working of DI Advanced Patterns.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g866",
+      "topic": "DI Advanced Patterns",
+      "question": "Why is DI Advanced Patterns useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for DI Advanced Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g867",
+      "topic": "DI Advanced Patterns",
+      "question": "Where would you most likely apply DI Advanced Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for DI Advanced Patterns."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where DI Advanced Patterns applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g868",
+      "topic": "DI Advanced Patterns",
+      "question": "Which practice is recommended when using DI Advanced Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for DI Advanced Patterns."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply DI Advanced Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g869",
+      "topic": "DI Advanced Patterns",
+      "question": "How does DI Advanced Patterns behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of DI Advanced Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/020 - Advanced RxJS Patterns.md",
+  "title": "Advanced RxJS Patterns Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g708",
+      "topic": "Advanced RxJS Patterns",
+      "question": "What is \"Advanced RxJS Patterns\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced RxJS Patterns include higher-order mapping, custom operators, backpressure management, and advanced error handling techniques."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Advanced RxJS Patterns."
+        },
+        {
+          "id": "c",
+          "text": "A pure CSS technique with no relation to Advanced RxJS Patterns."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Advanced RxJS Patterns include higher-order mapping, custom operators, backpressure management, and advanced error handling techniques.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g709",
+      "topic": "Advanced RxJS Patterns",
+      "question": "Which statement about Advanced RxJS Patterns is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advanced RxJS Patterns include higher-order mapping, custom operators, backpressure management, and advanced error handling techniques."
+        },
+        {
+          "id": "b",
+          "text": "Advanced RxJS Patterns has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "Advanced RxJS Patterns was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Advanced RxJS Patterns only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Advanced RxJS Patterns.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g710",
+      "topic": "Advanced RxJS Patterns",
+      "question": "Given the Advanced RxJS Patterns code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It executes the statements in reverse order."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Advanced RxJS Patterns."
+        },
+        {
+          "id": "d",
+          "text": "It throws a syntax error on the very first line."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Advanced RxJS Patterns.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g711",
+      "topic": "Advanced RxJS Patterns",
+      "question": "Why is Advanced RxJS Patterns useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Advanced RxJS Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g712",
+      "topic": "Advanced RxJS Patterns",
+      "question": "Where would you most likely apply Advanced RxJS Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Advanced RxJS Patterns."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Advanced RxJS Patterns applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g713",
+      "topic": "Advanced RxJS Patterns",
+      "question": "Which practice is recommended when using Advanced RxJS Patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Advanced RxJS Patterns."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Advanced RxJS Patterns.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

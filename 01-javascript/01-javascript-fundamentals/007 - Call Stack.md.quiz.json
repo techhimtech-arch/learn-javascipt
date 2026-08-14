@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/01-javascript-fundamentals/007 - Call Stack.md",
+  "title": "Call Stack Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g43",
+      "topic": "Call Stack",
+      "question": "What is \"Call Stack\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Call Stack is a LIFO (Last-In, First-Out) data structure used by the JavaScript engine to manage function execution order."
+        },
+        {
+          "id": "b",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Call Stack."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to Call Stack."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: The Call Stack is a LIFO (Last-In, First-Out) data structure used by the JavaScript engine to manage function execution order.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g44",
+      "topic": "Call Stack",
+      "question": "Which statement about Call Stack is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Call Stack has no practical use and should be avoided."
+        },
+        {
+          "id": "b",
+          "text": "Call Stack was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "c",
+          "text": "The Call Stack is a LIFO (Last-In, First-Out) data structure used by the JavaScript engine to manage function execution order."
+        },
+        {
+          "id": "d",
+          "text": "Call Stack only works in server-side rendering contexts."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Based on the documented definition/working of Call Stack.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g45",
+      "topic": "Call Stack",
+      "question": "Given the Call Stack code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "c",
+          "text": "It follows the documented step-by-step execution shown for Call Stack."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The example maps to the Step-by-Step / Examples section for Call Stack.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g46",
+      "topic": "Call Stack",
+      "question": "Why is Call Stack useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Call Stack.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g47",
+      "topic": "Call Stack",
+      "question": "Where would you most likely apply Call Stack?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Call Stack."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Call Stack applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g48",
+      "topic": "Call Stack",
+      "question": "Which practice is recommended when using Call Stack?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for Call Stack."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Call Stack.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

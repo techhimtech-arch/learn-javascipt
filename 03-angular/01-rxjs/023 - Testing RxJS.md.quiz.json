@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "03-angular/01-rxjs/023 - Testing RxJS.md",
+  "title": "Testing RxJS Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g720",
+      "topic": "Testing RxJS",
+      "question": "What is \"Testing RxJS\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reactivity Testing verifies reactive systems respond correctly to state changes — covering emission chains, timing, and side effects."
+        },
+        {
+          "id": "b",
+          "text": "A pure CSS technique with no relation to Testing RxJS."
+        },
+        {
+          "id": "c",
+          "text": "An external database engine unrelated to Testing RxJS."
+        },
+        {
+          "id": "d",
+          "text": "A deprecated feature that was removed in the latest standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Per the documented definition: Reactivity Testing verifies reactive systems respond correctly to state changes — covering emission chains, timing, and side effects.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g721",
+      "topic": "Testing RxJS",
+      "question": "Which statement about Testing RxJS is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reactivity Testing verifies reactive systems respond correctly to state changes — covering emission chains, timing, and side effects."
+        },
+        {
+          "id": "b",
+          "text": "Testing RxJS only works in server-side rendering contexts."
+        },
+        {
+          "id": "c",
+          "text": "Testing RxJS was deprecated and replaced by a newer standard."
+        },
+        {
+          "id": "d",
+          "text": "Testing RxJS has no practical use and should be avoided."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of Testing RxJS.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g722",
+      "topic": "Testing RxJS",
+      "question": "Why is Testing RxJS useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Testing RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g723",
+      "topic": "Testing RxJS",
+      "question": "Where would you most likely apply Testing RxJS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "In the real-world / production scenario documented for Testing RxJS."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Testing RxJS applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g724",
+      "topic": "Testing RxJS",
+      "question": "Which practice is recommended when using Testing RxJS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "Following the documented Production Best Practices for Testing RxJS."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Testing RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g725",
+      "topic": "Testing RxJS",
+      "question": "How does Testing RxJS behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Testing RxJS.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

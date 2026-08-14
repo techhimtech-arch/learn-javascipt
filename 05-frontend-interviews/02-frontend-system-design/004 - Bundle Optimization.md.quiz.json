@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "05-frontend-interviews/02-frontend-system-design/004 - Bundle Optimization.md",
+  "title": "Bundle Optimization Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g1224",
+      "topic": "Bundle Optimization",
+      "question": "What is \"Bundle Optimization\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pure CSS technique with no relation to Bundle Optimization."
+        },
+        {
+          "id": "b",
+          "text": "An external database engine unrelated to Bundle Optimization."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "Bundle Optimi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Per the documented definition: Bundle Optimi",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g1225",
+      "topic": "Bundle Optimization",
+      "question": "Which statement about Bundle Optimization is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bundle Optimization only works in server-side rendering contexts."
+        },
+        {
+          "id": "b",
+          "text": "Bundle Optimi"
+        },
+        {
+          "id": "c",
+          "text": "Bundle Optimization has no practical use and should be avoided."
+        },
+        {
+          "id": "d",
+          "text": "Bundle Optimization was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Based on the documented definition/working of Bundle Optimization.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g1226",
+      "topic": "Bundle Optimization",
+      "question": "Why is Bundle Optimization useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "b",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for Bundle Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1227",
+      "topic": "Bundle Optimization",
+      "question": "Where would you most likely apply Bundle Optimization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "In the real-world / production scenario documented for Bundle Optimization."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The Real-world Example / Production Best Practices sections show where Bundle Optimization applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1228",
+      "topic": "Bundle Optimization",
+      "question": "Which practice is recommended when using Bundle Optimization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "Following the documented Production Best Practices for Bundle Optimization."
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Production Best Practices list the recommended, safe way to apply Bundle Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g1229",
+      "topic": "Bundle Optimization",
+      "question": "How does Bundle Optimization behave regarding its main constraint / trade-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "c",
+          "text": "It behaves as described in the Internal Working / Edge Cases sections."
+        },
+        {
+          "id": "d",
+          "text": "It ignores all inputs it receives."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Internal Working and Edge Cases document the real behavior and trade-offs of Bundle Optimization.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}

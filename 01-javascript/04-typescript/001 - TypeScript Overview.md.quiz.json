@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "type": "topic",
+  "topicPath": "01-javascript/04-typescript/001 - TypeScript Overview.md",
+  "title": "TypeScript Overview Quiz",
+  "createdAt": "2026-08-14",
+  "questions": [
+    {
+      "id": "g361",
+      "topic": "TypeScript Overview",
+      "question": "What is \"TypeScript Overview\" primarily about?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An external database engine unrelated to TypeScript Overview."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
+        },
+        {
+          "id": "c",
+          "text": "A deprecated feature that was removed in the latest standard."
+        },
+        {
+          "id": "d",
+          "text": "A pure CSS technique with no relation to TypeScript Overview."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Per the documented definition: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+      "difficulty": "easy",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "g362",
+      "topic": "TypeScript Overview",
+      "question": "Which statement about TypeScript Overview is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
+        },
+        {
+          "id": "b",
+          "text": "TypeScript Overview has no practical use and should be avoided."
+        },
+        {
+          "id": "c",
+          "text": "TypeScript Overview only works in server-side rendering contexts."
+        },
+        {
+          "id": "d",
+          "text": "TypeScript Overview was deprecated and replaced by a newer standard."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Based on the documented definition/working of TypeScript Overview.",
+      "difficulty": "medium",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "g363",
+      "topic": "TypeScript Overview",
+      "question": "Given the TypeScript Overview code sample, what is the expected behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It throws a syntax error on the very first line."
+        },
+        {
+          "id": "b",
+          "text": "It follows the documented step-by-step execution shown for TypeScript Overview."
+        },
+        {
+          "id": "c",
+          "text": "It produces no output at all."
+        },
+        {
+          "id": "d",
+          "text": "It executes the statements in reverse order."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The example maps to the Step-by-Step / Examples section for TypeScript Overview.",
+      "difficulty": "medium",
+      "tags": [
+        "code"
+      ]
+    },
+    {
+      "id": "g364",
+      "topic": "TypeScript Overview",
+      "question": "Why is TypeScript Overview useful in real projects?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "b",
+          "text": "It solves a concrete problem described in the \"Why do we need it?\" section."
+        },
+        {
+          "id": "c",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The \"Why do we need it?\" section outlines the real, practical motivation for TypeScript Overview.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g365",
+      "topic": "TypeScript Overview",
+      "question": "Where would you most likely apply TypeScript Overview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "b",
+          "text": "In the real-world / production scenario documented for TypeScript Overview."
+        },
+        {
+          "id": "c",
+          "text": "It has zero constraints and never fails."
+        },
+        {
+          "id": "d",
+          "text": "It always blocks the main thread regardless of usage."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Real-world Example / Production Best Practices sections show where TypeScript Overview applies.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "g366",
+      "topic": "TypeScript Overview",
+      "question": "Which practice is recommended when using TypeScript Overview?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Following the documented Production Best Practices for TypeScript Overview."
+        },
+        {
+          "id": "b",
+          "text": "It ignores all inputs it receives."
+        },
+        {
+          "id": "c",
+          "text": "It always blocks the main thread regardless of usage."
+        },
+        {
+          "id": "d",
+          "text": "It has zero constraints and never fails."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Production Best Practices list the recommended, safe way to apply TypeScript Overview.",
+      "difficulty": "easy",
+      "tags": [
+        "concept"
+      ]
+    }
+  ]
+}
